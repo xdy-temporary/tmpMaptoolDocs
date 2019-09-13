@@ -1,0 +1,1 @@
+1.  REDIRECT [getNPC](getNPC "wikilink")
