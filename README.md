@@ -24,7 +24,8 @@ php -r "unlink('composer-setup.php');"
 php composer.phar update --no-dev
 
 
-Paste all page names into Mediawiki/Special Pages/Export (get them from http://lmwcs.com/rptools/wiki/Special:AllPages, export from all pages I only did the first page for now)
+Paste all page names into Mediawiki/Special Pages/Export (get them from http://lmwcs.com/rptools/wiki/Special:AllPages, export from all pages)
+I only did the first page for now.
 
 
 ./convert.php --filename=MapToolDoc-20190913165048.xml --output=output --format=markdown_github
