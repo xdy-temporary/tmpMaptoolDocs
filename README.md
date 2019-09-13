@@ -8,6 +8,8 @@ sudo apt-get install php7.2-xml
 
 sudo apt-get install php-mbstring
 
+wget https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-1-amd64.deb
+sudo pgk -i pandoc-2.7.3-1-amd64.deb
 
 git clone https://github.com/outofcontrol/mediawiki-to-gfm.git
 
@@ -24,11 +26,11 @@ php -r "unlink('composer-setup.php');"
 php composer.phar update --no-dev
 
 
-Paste all page names into Mediawiki/Special Pages/Export (get them from http://lmwcs.com/rptools/wiki/Special:AllPages, export from all pages)
-I only did the first page for now.
+Paste all page names into Mediawiki/Special Pages/Export (get them from http://lmwcs.com/rptools/wiki/Special:AllPages, export from all pages). I only did the first page for now.
 
+sed -i '/Do not edit this line/d' ./MapToolDoc-20190913172147.xml
 
-./convert.php --filename=MapToolDoc-20190913165048.xml --output=output --format=markdown_github
+./convert.php --filename=MapToolDoc-20190913172147.xml --output=output --format=gfm
 
 
 Look at the output. :)
