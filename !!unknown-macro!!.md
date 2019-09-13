@@ -1,6 +1,7 @@
 **• Introduced in version 1.3b49**
 
-A specially named macro that can exist on lib:tokens to handle macro calls to macros that do not exist.
+A specially named macro that can exist on lib:tokens to handle macro
+calls to macros that do not exist.
 
 getMacroName() will return the name of the macro that was not found.
 

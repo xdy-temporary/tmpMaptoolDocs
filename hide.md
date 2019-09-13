@@ -1,0 +1,1 @@
+1.  REDIRECT [hidden (roll option)](hidden_\(roll_option\) "wikilink")

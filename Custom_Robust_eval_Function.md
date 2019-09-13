@@ -1,4 +1,6 @@
-This user defined function redefines the standard function, allowing it to be given a number, empty string, or JSON object/array and not throw an exception.
+This user defined function redefines the standard  function, allowing it
+to be given a number, empty string, or JSON object/array and not throw
+an exception.
 
 ### Macros
 
@@ -7,18 +9,22 @@ Place both of these macros on the same library token.
 **1.3b56+**
 
 <hr>
+
 **onCampaignLoad**
 
-``` mtmacro
+``` mtmacro numberLines
 [ defineFunction( "eval", "evalFunction@this", 1, 0 ) ]
 ```
 
 <hr>
 
+
+
 <hr>
+
 **evalFunction**
 
-``` mtmacro
+``` mtmacro numberLines
 //  Error handling
 [ assert( argCount() >= 1, "<b>eval()</b> - Invalid number of parameters <i>0</i>,
                             expected at least <i>1</i> parameter.", 0 ) ]
@@ -60,4 +66,6 @@ Place both of these macros on the same library token.
 
 <hr>
 
-<Category:Cookbook>
+
+
+[Category:Cookbook](Category:Cookbook "wikilink")

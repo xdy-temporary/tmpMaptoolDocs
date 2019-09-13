@@ -1,0 +1,1 @@
+See [exposeAllOwnedArea](exposeAllOwnedArea "wikilink")

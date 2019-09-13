@@ -1,59 +1,90 @@
-HTML forms covered in fish
-==========================
+# HTML forms covered in fish
 
 *A tutorial to creating html forms for maptool.*
 
-What is this about?
--------------------
+## What is this about?
 
-The [input()](input "wikilink") function is a great way to get data from the user. Its simple to use as well. But it limits you in the ways you can design the resulting dialog. You might even miss features like multi-line textboxes. Maybe you want keep an dialog open to send it when you are ready, but still want the other maptool features to work - and not freeze.
+The [input()](input "wikilink") function is a great way to get data from
+the user. Its simple to use as well. But it limits you in the ways you
+can design the resulting dialog. You might even miss features like
+multi-line textboxes. Maybe you want keep an dialog open to send it when
+you are ready, but still want the other maptool features to work - and
+not freeze.
 
-If you can't create the user interaction with [input()](input "wikilink") you have to create a html form. And here I explain to you how to do that.
+If you can't create the user interaction with
+[input()](input "wikilink") you have to create a html form. And here I
+explain to you how to do that.
 
-But be aware! A input pauses your macro, creates a pop up dialog and creates variables containing the entered data all by itself. With html forms you have to split the process in (at least) two macros and make all that by yourself.
+But be aware\! A input pauses your macro, creates a pop up dialog and
+creates variables containing the entered data all by itself. With html
+forms you have to split the process in (at least) two macros and make
+all that by yourself.
 
-I assume you know how to write simple macros and create/use lib:tokens. All my code examples will be located on a [lib:token](Library_Token "wikilink") named “Lib:token”.
+I assume you know how to write simple macros and create/use lib:tokens.
+All my code examples will be located on a
+[lib:token](Library_Token "wikilink") named "Lib:token".
 
-**NOTE** I'm not the first one who tried to explain this. There is a nice tutorial on using html frames for creating a character sheet that covers even css embedding and tab page creation: [Introduction to Dialogs and Frames](Introduction_to_Dialogs_and_Frames "wikilink").
+**NOTE** I'm not the first one who tried to explain this. There is a
+nice tutorial on using html frames for creating a character sheet that
+covers even css embedding and tab page creation: [Introduction to
+Dialogs and Frames](Introduction_to_Dialogs_and_Frames "wikilink").
 
-Where can you use forms?
-------------------------
+## Where can you use forms?
 
-Maptool accepts html in uncountable places and theoretically where ever html is interpreted you could create a form. But really useful is it to place your html form either in a [dialog](dialog_(roll_option) "wikilink") or a [frame](frame_(roll_option) "wikilink"). A frame is a dockable window while a dialog is floating above the rest of the UI. A dialog has a close button as default while a frame has no buttons other than those you create there.
+Maptool accepts html in uncountable places and theoretically where ever
+html is interpreted you could create a form. But really useful is it to
+place your html form either in a
+[dialog](dialog_\(roll_option\) "wikilink") or a
+[frame](frame_\(roll_option\) "wikilink"). A frame is a dockable window
+while a dialog is floating above the rest of the UI. A dialog has a
+close button as default while a frame has no buttons other than those
+you create there.
 
-Both commands (or to be more specific: roll options) open some kind of window. Both frames and dialogs are named so when you use code that would open a window, it will update the content of an open window with the same name if that exists.
+Both commands (or to be more specific: roll options) open some kind of
+window. Both frames and dialogs are named so when you use code that
+would open a window, it will update the content of an open window with
+the same name if that exists.
 
-You can close dialogs in macro with [closeDialog()](closeDialog "wikilink") and in later versions you can close frames as well ([closeFrame()](closeFrame "wikilink")).
+You can close dialogs in macro with
+[closeDialog()](closeDialog "wikilink") and in later versions you can
+close frames as well ([closeFrame()](closeFrame "wikilink")).
 
-Lets create a macro “openFrame” so that we can display a form.
+Lets create a macro "openFrame" so that we can display a form.
 
-``` mtmacro
+``` mtmacro numberLines
 [frame("myForm"): {
     here will be a fishy form
 }]
 ```
 
-For my following examples we will use this slightly changed openFrame-macro:
+For my following examples we will use this slightly changed
+openFrame-macro:
 
-``` mtmacro
+``` mtmacro numberLines
 [frame("myForm"): {
     <h3>my form:</h3>
     [r, macro("displayForm@Lib:token"): ""]
 }]
 ```
 
-And probably you can guess: all the form related code will be placed in a displayForm-macro. So we can forget about opening the frame and concentrate all on forms. Yay.
+And probably you can guess: all the form related code will be placed in
+a displayForm-macro. So we can forget about opening the frame and
+concentrate all on forms. Yay.
 
-About forms
------------
+## About forms
 
-Now lets begin with that form. HTML supports user editable forms and a good variety of input fields that can be placed in such a form. A html page (your frame for example) can even contain multiple forms (but you'll only receive the content of one of them).
+Now lets begin with that form. HTML supports user editable forms and a
+good variety of input fields that can be placed in such a form. A html
+page (your frame for example) can even contain multiple forms (but
+you'll only receive the content of one of them).
 
-For general syntax information about the -tag and the input fields I find [w3schools.com](http://www.w3schools.com/html/html/forms.asp) quite helpful.
+For general syntax information about the -tag and the input fields I
+find [w3schools.com](http://www.w3schools.com/html/html/forms.asp) quite
+helpful.
 
 We begin at the start and create a form with two text input fields.
 
-``` html4strict
+``` html4strict numberLines
 <!-- this example displays correctly but does nothing -->
 <form>
 Character name: <input type="text" name="charName"><br>
@@ -61,17 +92,30 @@ Strength: <input type="text" name="str">
 </form>
 ```
 
-Note that you can place all possible html in such a form so you can easily design it any way you want. Create tables, use CSS, fonts, colors, ... **Maptool only supports HTML3.2 and [CSS1](Supported_CSS_Styles "wikilink")**. This is because the java controls being used in maptool don't support more recent versions of HTML/CSS. Dont blame maptool ;)
+Note that you can place all possible html in such a form so you can
+easily design it any way you want. Create tables, use CSS, fonts,
+colors, ... **Maptool only supports HTML3.2 and
+[CSS1](Supported_CSS_Styles "wikilink")**. This is because the java
+controls being used in maptool don't support more recent versions of
+HTML/CSS. Dont blame maptool ;)
 
-While this is pretty handy you don't get the data your user enters yet. First we dont have a submit button and second maptool doesnt know where to send that data.
+While this is pretty handy you don't get the data your user enters yet.
+First we dont have a submit button and second maptool doesnt know where
+to send that data.
 
-If we do it right a form - if submitted - calls another macro, lets call that 'processForm', and passes the entered data as macro.args. You can receive this data as string property list or as json which I prefer. If you prefer string property lists you have to omit the method field of the form tag (and change the processForm-macros).
+If we do it right a form - if submitted - calls another macro, lets call
+that 'processForm', and passes the entered data as macro.args. You can
+receive this data as string property list or as json which I prefer. If
+you prefer string property lists you have to omit the method field of
+the form tag (and change the processForm-macros).
 
-We specify the called macro using [macroLinkText()](macroLinkText "wikilink"). You should not specify the macro.args here as it will interfere with the form data.
+We specify the called macro using
+[macroLinkText()](macroLinkText "wikilink"). You should not specify the
+macro.args here as it will interfere with the form data.
 
 Now lets make my little form work:
 
-``` mtmacro
+``` mtmacro numberLines
 [h: processorLink = macroLinkText("processForm@Lib:token", "all")]
 <form action="[r:processorLink]" method="json">
 Character name: <input type="text" name="charName"><br>
@@ -82,17 +126,19 @@ Strength: <input type="text" name="str"><br>
 
 And create the processForm-macro.
 
-``` mtmacro
+``` mtmacro numberLines
 <pre>
 [r: json.indent(macro.args,2)]
 </pre>
 ```
 
-With this setup we can very easily find out how a specific form packs the data entered and how we could work with that. For this tutorial this processForm-macro will do.
+With this setup we can very easily find out how a specific form packs
+the data entered and how we could work with that. For this tutorial this
+processForm-macro will do.
 
 The output we receive from this example is
 
-``` mtmacro
+``` mtmacro numberLines
 {
   "charName": "the fishy dude",
   "str": "7",
@@ -100,28 +146,33 @@ The output we receive from this example is
 }
 ```
 
-Now its pretty easy to access the name and strength using [json.get()](json.get "wikilink").
+Now its pretty easy to access the name and strength using
+[json.get()](json.get "wikilink").
 
-The input fields
-----------------
+## The input fields
 
-Now let me introduce you to the input fields in detail. Some are a little tricky in how they send their data - so there will be advice about that as well.
+Now let me introduce you to the input fields in detail. Some are a
+little tricky in how they send their data - so there will be advice
+about that as well.
 
-In general all input fields should be given a name. This name will be used in the resulting json data as key.
+In general all input fields should be given a name. This name will be
+used in the resulting json data as key.
 
-<image:Cif_forms_tutorial_example_input_fields.png>
+[image:Cif_forms_tutorial_example_input_fields.png](image:Cif_forms_tutorial_example_input_fields.png "wikilink")
 
 ### Text fields
 
-``` html4strict
+``` html4strict numberLines
 <input type="text" name="" size="" maxlength="" value="">
 ```
 
-This is your standard one line text input field. The width of the field can be set with and the maximum length of the input with . If you set a your field will appear filled with that.
+This is your standard one line text input field. The width of the field
+can be set with  and the maximum length of the input with . If you set a
+ your field will appear filled with that.
 
 You can have a password type text field as well if you set
 
-``` html4strict
+``` html4strict numberLines
 <input type="password" name="" size="" maxlength="" value="">
 ```
 
@@ -129,19 +180,25 @@ You can have a password type text field as well if you set
 
 If you need multiple lines you use
 
-``` html4strict
+``` html4strict numberLines
 <textarea name="" cols="" rows="">
 Enter your text here...
 </textarea>
 ```
 
-You can specifiy the size of that text box with and . A preset text would be written between the open and closing tags.
+You can specifiy the size of that text box with  and . A preset text
+would be written between the open and closing tags.
 
-**TRICK:** You can process the content of a textarea line by line if you use the following trick. By using [encode()](encode "wikilink") on the complete content you change line breaks into . Then you can use string list functions using as separator.
+**TRICK:** You can process the content of a textarea line by line if you
+use the following trick. By using [encode()](encode "wikilink") on the
+complete content you change line breaks into . Then you can use string
+list functions using  as separator.
 
-As example let me show you a processForm macro that adds all numbers you enter in the textarea - one number per line. Dice expressionsare evaluated.
+As example let me show you a processForm macro that adds all numbers you
+enter in the textarea - one number per line. Dice expressionsare
+evaluated.
 
-``` mtmacro
+``` mtmacro numberLines
 <!-- processForm -->
 [h: formData = macro.args]
 <!-- get the content of a textarea named "textarea" -->
@@ -164,7 +221,7 @@ As example let me show you a processForm macro that adds all numbers you enter i
 
 ### Drop down lists
 
-``` html4strict
+``` html4strict numberLines
 <select name="" size="">
     <option>A</option>
     <option>B</option>
@@ -172,11 +229,12 @@ As example let me show you a processForm macro that adds all numbers you enter i
 </select>
 ```
 
-**NOTE** doesnt work, only one entry appears in the resulting json. Known bug.
+**NOTE**  doesnt work, only one entry appears in the resulting json.
+Known bug.
 
 ### Radio buttons
 
-``` html4strict
+``` html4strict numberLines
 A<input type="radio" name="group1" value="A" checked="checked">
 B<input type="radio" name="group1" value="B">
 C<input type="radio" name="group1" value="C">
@@ -188,47 +246,58 @@ C<input type="radio" name="group2" value="C">
 
 ### Checkboxes
 
-``` html4strict
+``` html4strict numberLines
 <input type="checkbox" name="group1" value="A"> A
 <input type="checkbox" name="group1" value="B"> B
 <input type="checkbox" name="group1" value="C"> C
 <input type="checkbox" name="group1" value="D" checked="checked"> D
 ```
 
-**NOTE** unchecked boxes don't appear in the json; only checked ones will. So test if a box is checked by using on the field name.
+**NOTE** unchecked boxes don't appear in the json; only checked ones
+will. So test if a box is checked by using  on the field name.
 
-See my [“Good advice” tip \#4](Forms_tutorial#Predefine_checkboxes "wikilink") for another way to treat this (you can predefine the value with a 0-value).
+See my ["Good advice" tip
+\#4](Forms_tutorial#Predefine_checkboxes "wikilink") for another way to
+treat this (you can predefine the value with a 0-value).
 
-**NOTE** multiple selection doesnt work as well. So do not name the checkboxes alike.
+**NOTE** multiple selection doesnt work as well. So do not name the
+checkboxes alike.
 
 ### Hidden data
 
-``` html4strict
+``` html4strict numberLines
 <input type="hidden" name="" value="">
 ```
 
-Since you cannot send additional information to your form processor using the args parameter of you have to send it piggyback with the form data. This can be done with invisible fields.
+Since you cannot send additional information to your form processor
+using the args parameter of  you have to send it piggyback with the form
+data. This can be done with invisible fields.
 
 ### Buttons
 
-``` html4strict
+``` html4strict numberLines
 <input type="submit" name="" value="">
 ```
 
-The button caption is set via the parameter.
+The button caption is set via the  parameter.
 
-**NOTE** only the pressed button appears in the json. If you use multiple buttons use [json.contains()](json.contains "wikilink") to identify it. Predefining the key/name could probably help (see checkboxes).
+**NOTE** only the pressed button appears in the json. If you use
+multiple buttons use [json.contains()](json.contains "wikilink") to
+identify it. Predefining the key/name could probably help (see
+checkboxes).
 
-**NOTE** You can use **html formatting** inside of the button caption (value parameter). You have to enable this by beginning with like this:
+**NOTE** You can use **html formatting** inside of the button caption
+(value parameter). You have to enable this by beginning with  like this:
 
 ``` mtmacro
 
 <input type="submit" value="<html><b>Button</b></html>">
 ```
 
-You can't apply any kind of CSS to html inputs. To remove the html tags from the submitted value you can use code like this
+You can't apply any kind of CSS to html inputs. To remove the html tags
+from the submitted value you can use code like this
 
-``` mtmacro
+``` mtmacro numberLines
 
 [H: submit = json.get(macro.args,"submit")]
 [H: submit = replace(submit,"<[^>]*?>","")]
@@ -236,17 +305,23 @@ You can't apply any kind of CSS to html inputs. To remove the html tags from the
 
 ### Image buttons
 
-First you have to get the asset of the image you want to place on a button. Good ways to do so is by using an image table or image tokens. I wont explain that here in more detail.
+First you have to get the asset of the image you want to place on a
+button. Good ways to do so is by using an image table or image tokens. I
+wont explain that here in more detail.
 
-``` html4strict
+``` html4strict numberLines
 <input type="image" src="" name="" value="">
 ```
 
-This image button submits the form exactly as a submit button does. As you have to set an image asset. Note that you cannot used resized assets (using the ASSETxSIZE notation or specifying the size on asset generating function calls).
+This image button submits the form exactly as a submit button does. As
+you have to set an image asset. Note that you cannot used resized assets
+(using the ASSETxSIZE notation or specifying the size on asset
+generating function calls).
 
-It does not only send the button name and value but also the coordinates where you clicked in the image. This could be used for some pretty UI.
+It does not only send the button name and value but also the coordinates
+where you clicked in the image. This could be used for some pretty UI.
 
-``` mtmacro
+``` mtmacro numberLines
 <!-- this image button pushed .. -->
 
 <input type="image" src="[r:getImage("Image:Attack")]" name="img_btn" value="image button clicked">
@@ -259,20 +334,31 @@ It does not only send the button name and value but also the coordinates where y
 }
 ```
 
-Events
-------
+## Events
 
-Since I'll use this in one of my examples (see below) let me very shortly introduce you some kind of event maptool supports and how to set it up. A discussion about this can be found in the [maptool forums](http://forums.rptools.net/viewtopic.php?p=143242#p143242) and a list of events on the [:Category:Event](:Category:Event "wikilink") page.
+Since I'll use this in one of my examples (see below) let me very
+shortly introduce you some kind of event maptool supports and how to set
+it up. A discussion about this can be found in the [maptool
+forums](http://forums.rptools.net/viewtopic.php?p=143242#p143242) and a
+list of events on the [:Category:Event](:Category:Event "wikilink")
+page.
 
-Maptool macros can react on three events: if a token is changed, if token selection is changed and if impersonation is changed. You can specifiy a macro that is called if one event happens.
+Maptool macros can react on three events: if a token is changed, if
+token selection is changed and if impersonation is changed. You can
+specifiy a macro that is called if one event happens.
 
-This will work if a frame is open at that moment. The onChangeToken-event is a little bit tricky. First it is fired numerous times and not only if you'd expect it. Second is your macro can change tokens and so fire the event and call itself… what could cause problems.
+This will work if a frame is open at that moment. The
+onChangeToken-event is a little bit tricky. First it is fired numerous
+times and not only if you'd expect it. Second is your macro can change
+tokens and so fire the event and call itself… what could cause problems.
 
-The other two events are pretty easy to use and quite handy for dumping informations about selected tokens and such.
+The other two events are pretty easy to use and quite handy for dumping
+informations about selected tokens and such.
 
-To set it up you have to define a html header and specify a specific link element. So your frame content should begin like this:
+To set it up you have to define a html header and specify a specific
+link element. So your frame content should begin like this:
 
-``` html4strict
+``` html4strict numberLines
 <html>
 <head>
   <link rel='onChangeSelection' type='macro' href='macroLink'>
@@ -280,34 +366,52 @@ To set it up you have to define a html header and specify a specific link elemen
 <body>
 ```
 
-Replace by an actual macroLinkText-call to a macro of your choice. A common practice is to call the frame opening macro itself to actualize the content. the parameter is set either , or .
+Replace  by an actual macroLinkText-call to a macro of your choice. A
+common practice is to call the frame opening macro itself to actualize
+the content. the  parameter is set either ,  or .
 
-Good advice
------------
+## Good advice
 
 ### Always encode user input
 
-It is always wise to trust in the dumbness of users. If they can break things they will. And i dont say they do it intentionally.
+It is always wise to trust in the dumbness of users. If they can break
+things they will. And i dont say they do it intentionally.
 
-So you should protect your macros against trouble making user inputs. For example can a comma inside of an item of a comma separated list break the list.
+So you should protect your macros against trouble making user inputs.
+For example can a comma inside of an item of a comma separated list
+break the list.
 
-So its always always good to use [encode()](encode "wikilink") on user input (and [decode()](decode "wikilink") to .. well .. decode it again).
+So its always always good to use [encode()](encode "wikilink") on user
+input (and [decode()](decode "wikilink") to .. well .. decode it again).
 
 ### Building complex html forms can take time
 
-Just be aware of this. Building and rendering html and collecting and displaying lots of data and images and fields can take serious time. If your frame is updated frequently it could cause speed issues.
+Just be aware of this. Building and rendering html and collecting and
+displaying lots of data and images and fields can take serious time. If
+your frame is updated frequently it could cause speed issues.
 
-Think about storing calculated frame content, only updating the necessary parts. Reduce the number of updates to the needed minimum. (See Caching)
+Think about storing calculated frame content, only updating the
+necessary parts. Reduce the number of updates to the needed minimum.
+(See Caching)
 
-Dont make things complicated if you do not have speed issues but be prepared to fight them if you do.
+Dont make things complicated if you do not have speed issues but be
+prepared to fight them if you do.
 
 ### Caching html forms
 
-Since building html forms can take serious amounts of time its a good practice to store build form html in a token property and reuse it as long it doesnt have to be rebuild. Its especially effective if you build complex stuff by accessing lots of property - usually the case if you build character sheets. When creating complex html structures and storing them into a token property you're asking for trouble so its common practice to encode them first before you store them. It's also best to store character sheets (token specific) onto the (n)pc token and general forms like weapon list, skill list, etc. onto a lib:token
+Since building html forms can take serious amounts of time its a good
+practice to store build form html in a token property and reuse it as
+long it doesnt have to be rebuild. Its especially effective if you build
+complex stuff by accessing lots of property - usually the case if you
+build character sheets. When creating complex html structures and
+storing them into a token property you're asking for trouble so its
+common practice to encode them first before you store them. It's also
+best to store character sheets (token specific) onto the (n)pc token and
+general forms like weapon list, skill list, etc. onto a lib:token
 
 Here an example of 'caching' a charactersheet.
 
-``` mtmacro
+``` mtmacro numberLines
 [h: rebuild = macro.args]
 [h: id = currentToken()]
 [h: output = getProperty("charSheetCache", id)]
@@ -329,25 +433,39 @@ Here an example of 'caching' a charactersheet.
 }]
 ```
 
-A nice technique to individualize cached forms/html is described here: [Making cached structures dynamic (Load BIG forms FAST)](http://forums.rptools.net/viewtopic.php?f=20&t=16324&start=0)
+A nice technique to individualize cached forms/html is described here:
+[Making cached structures dynamic (Load BIG forms
+FAST)](http://forums.rptools.net/viewtopic.php?f=20&t=16324&start=0)
 
 ### Don't forget the token context
 
-When you work with macrolinks you can easily lose the token context. If you happen to work with explicit ids and get/setProperty() a lot that may be no problem for you.
+When you work with macrolinks you can easily lose the token context. If
+you happen to work with explicit ids and get/setProperty() a lot that
+may be no problem for you.
 
-However it does change the chat output. If a macrolink is called with unknown token context instead of token image and name the chat line begins with user name.
+However it does change the chat output. If a macrolink is called with
+unknown token context instead of token image and name the chat line
+begins with user name.
 
-If you dont like this always specify the token context in your and calls.
+If you dont like this always specify the token context in your  and
+calls.
 
-An example of this can be found in the [forum](http://forums.rptools.net/viewtopic.php?p=170425#p170425).
+An example of this can be found in the
+[forum](http://forums.rptools.net/viewtopic.php?p=170425#p170425).
 
 ### Predefine checkboxes
 
-Checkboxes only create data in macro.args if they are checked. There is a neat trick to always create the relevant data even if it is unchecked. Predefine the key/value-pair using a hidden input with a 0 (of course you have to use the same name as your checkbox has). A checked checkbox will overwrite a predefined 0 while a unchecked checkbox (as it does not generate anything) won't overwrite a predefined 1.
+Checkboxes only create data in macro.args if they are checked. There is
+a neat trick to always create the relevant data even if it is unchecked.
+Predefine the key/value-pair using a hidden input with a 0 (of course
+you have to use the same name as your checkbox has). A checked checkbox
+will overwrite a predefined 0 while a unchecked checkbox (as it does not
+generate anything) won't overwrite a predefined 1.
 
-If you want to have a initially checked checkbox you can set it as checked like this (regardless of beeing predefined or not)
+If you want to have a initially checked checkbox you can set it as
+checked like this (regardless of beeing predefined or not)
 
-``` html4strict
+``` html4strict numberLines
 <input type="checkbox" name="surprised"  value="1" checked="checked" />
 ```
 
@@ -355,11 +473,16 @@ Big thanks to wolph42 for learning me this.
 
 ### Don't shy away from layout tables
 
-In webdesign layout tables might be a no-go. Don't be afraid of them in maptool. They are a great way to precisly align your form elements. Let me demonstrate how different a simple layout table looks compared to a very simplistic inline approach.
+In webdesign layout tables might be a no-go. Don't be afraid of them in
+maptool. They are a great way to precisly align your form elements. Let
+me demonstrate how different a simple layout table looks compared to a
+very simplistic inline approach.
 
-![Image:Cif forms tutorial example layout table.png](Cif_forms_tutorial_example_layout_table.png "Image:Cif forms tutorial example layout table.png")
+![Image:Cif forms tutorial example layout
+table.png](Cif_forms_tutorial_example_layout_table.png
+"Image:Cif forms tutorial example layout table.png")
 
-``` mtmacro
+``` mtmacro numberLines
 [frame("test"): {
 
 <h3>this is ugly</h3>
@@ -390,22 +513,25 @@ Option2<input type="checkbox" /><br>
 }]
 ```
 
-The big examples
-----------------
+## The big examples
 
 ### Character sheet/editor
 
-Lets create an character sheet and editor for the [maptool sample ruleset](Sample_Ruleset "wikilink") using what we learned so far.
+Lets create an character sheet and editor for the [maptool sample
+ruleset](Sample_Ruleset "wikilink") using what we learned so far.
 
-<image:Cif_forms_tutorial_screenshot_example1.png>
+[image:Cif_forms_tutorial_screenshot_example1.png](image:Cif_forms_tutorial_screenshot_example1.png "wikilink")
 
-First we need a frame. We want it to auto-update with the selected content. We pass the selected tokens to the character sheet generating macro so we know what do display.
+First we need a frame. We want it to auto-update with the selected
+content. We pass the selected tokens to the character sheet generating
+macro so we know what do display.
 
-We want more eyecandy, so we will use css. As we like separating css rules from the content we will place it in its own macro.
+We want more eyecandy, so we will use css. As we like separating css
+rules from the content we will place it in its own macro.
 
 **openCharacterSheet**
 
-``` mtmacro
+``` mtmacro numberLines
 [h: link = macroLinkText("openCharacterSheet@Lib:token", "none")]
 [frame("csheet"): {
 <html>
@@ -422,17 +548,19 @@ We want more eyecandy, so we will use css. As we like separating css rules from 
 
 **css**
 
-``` css
+``` css numberLines
 .odd { background-color: #FFFFFF }
 .even { background-color: #EEEEAA }
 th { background-color: #113311; color: #FFFFFF }
 ```
 
-Then we have to actually build the character sheet. Since selection will cause this to be called we have to deal with empty and multiple selections. We'll just don't create any output then.
+Then we have to actually build the character sheet. Since selection will
+cause this to be called we have to deal with empty and multiple
+selections. We'll just don't create any output then.
 
 **characterSheet**
 
-``` mtmacro
+``` mtmacro numberLines
 [h: id = macro.args]
 [r, if(listCount(id)!=1), code: {};{
 
@@ -486,11 +614,12 @@ Then we have to actually build the character sheet. Since selection will cause t
 }]
 ```
 
-If the submit button is pressed we want to save the changes back to the token.
+If the submit button is pressed we want to save the changes back to the
+token.
 
 **editCharacterSheet**
 
-``` mtmacro
+``` mtmacro numberLines
 [h: arguments = macro.args]
 [h: id = json.get(arguments, "id")]
 
@@ -530,31 +659,47 @@ Changes saved to [r: getName(id)].
 [h, macro("openCharacterSheet@Lib:token"): id]
 ```
 
-If you'd want to play with this you'd surely come up with lots of improvements .. great! I would as well. But this should be enough to demonstrate building a character sheet or editor with html forms.
+If you'd want to play with this you'd surely come up with lots of
+improvements .. great\! I would as well. But this should be enough to
+demonstrate building a character sheet or editor with html forms.
 
-**Download** this example:[example1.rptok](http://www.bastian-dornauf.de/example1.rptok)(token is saved with b73) Drop this libtoken into an empty map and toy around with it.
+**Download** this
+[example:\[http://www.bastian-dornauf.de/example1.rptok](example:%5Bhttp://www.bastian-dornauf.de/example1.rptok)
+example1.rptok\](token is saved with b73) Drop this libtoken into an
+empty map and toy around with it.
 
 ### Click-based Target selection
 
-There are very differen ways how to select targets of an action. The clickbased targeting (first done by Rumble) works best in maptool version b70 or later with the “unowned selection” feature.
+There are very differen ways how to select targets of an action. The
+clickbased targeting (first done by Rumble) works best in maptool
+version b70 or later with the "unowned selection" feature.
 
-<image:Cif_forms_tutorial_screenshot_example2.png>
+[image:Cif_forms_tutorial_screenshot_example2.png](image:Cif_forms_tutorial_screenshot_example2.png "wikilink")
 
-You impersonate or select the active token. Then you execute a macro, eg “Attack” that opens a frame. In that frame you can enter additional infos like modifier. While that frame is open you select ((with the mouse on the map)) the target(s) of the attack. The frame has a button that actually performs the attack.
+You impersonate or select the active token. Then you execute a macro, eg
+"Attack" that opens a frame. In that frame you can enter additional
+infos like modifier. While that frame is open you select ((with the
+mouse on the map)) the target(s) of the attack. The frame has a button
+that actually performs the attack.
 
 Lets start with the macro that opens that frame.
 
 **openActionFrame**
 
-This macro first determines what token should be considered the *active* token. A token impersonated would be preferred. Otherwise the selection is taken. If no or multiple tokens are selected the macro us aborted.
+This macro first determines what token should be considered the *active*
+token. A token impersonated would be preferred. Otherwise the selection
+is taken. If no or multiple tokens are selected the macro us aborted.
 
-Then the macro checks if the user has the right to perform actions with that token - he has if he is GM or own the token.
+Then the macro checks if the user has the right to perform actions with
+that token - he has if he is GM or own the token.
 
-After that the current selection is cleared and the frame displaying code is called.
+After that the current selection is cleared and the frame displaying
+code is called.
 
-If you have different actions to perform here would the place to branch into different actionFrames according to the chosen action.
+If you have different actions to perform here would the place to branch
+into different actionFrames according to the chosen action.
 
-``` mtmacro
+``` mtmacro numberLines
 [h: chosenAction = macro.args]
 [h, if(hasImpersonated()): activeId = getImpersonated(); activeId = getSelected()]
 [h, if(listCount(activeId)!=1): assert(0, "You have to select only one token")]
@@ -567,19 +712,24 @@ If you have different actions to perform here would the place to branch into dif
 [r, macro("actionFrame@Lib:tkn"): activeId]
 ```
 
-Now we need a way for the user to call this macro. This can be either a campaign or a token macro - depending on your taste.
+Now we need a way for the user to call this macro. This can be either a
+campaign or a token macro - depending on your taste.
 
 **Attack**
 
-``` mtmacro
+``` mtmacro numberLines
 [r, macro("openActionFrame@Lib:token"):"Attack"]
 ```
 
-*Note* that I send to the frame opening macro and that this is placed in a variable named . It is never used. If you want to support different actions (like ranged and melee attacks) you could, right after the comment, branch - depending on - into different actionFrame.
+*Note* that I send  to the frame opening macro and that this is placed
+in a variable named . It is never used. If you want to support different
+actions (like ranged and melee attacks) you could, right after the
+comment, branch - depending on  - into different actionFrame.
 
-**actionFrame** This is pretty simple. It shows a frame and uses the -event to display the targets.
+**actionFrame** This is pretty simple. It shows a frame and uses the
+-event to display the targets.
 
-``` mtmacro
+``` mtmacro numberLines
 [h: activeId = macro.args]
 [h: selection = getSelected()]
 [h: link = macroLinkText("actionFrame@Lib:tkn", "none", activeId)]
@@ -607,7 +757,7 @@ Now we need a way for the user to call this macro. This can be either a campaign
 
 **performAction**
 
-``` mtmacro
+``` mtmacro numberLines
 [h: arguments = macro.args]
 [h: id = json.get(arguments, "id")]
 [h: targets = json.get(arguments, "targets")]
@@ -629,12 +779,19 @@ Now we need a way for the user to call this macro. This can be either a campaign
 }]
 ```
 
-This macro does the actual attack. The attacker and the targets are submitted via . The rest is the usual dice rolling and comparing to target numbers and stuff...
+This macro does the actual attack. The attacker and the targets are
+submitted via . The rest is the usual dice rolling and comparing to
+target numbers and stuff...
 
-Again this could be done better. It doesnt modify the roll by the entered mods. It does not even model the sample ruleset right. You'd want to support attack powers and maybe set states for being wounded or dead.
+Again this could be done better. It doesnt modify the roll by the
+entered mods. It does not even model the sample ruleset right. You'd
+want to support attack powers and maybe set states for being wounded or
+dead.
 
 But it demonstrates how to target .. the rest is up to you.
 
-**Download** a lib token for this example [example2.rptok](http://www.bastian-dornauf.de/example2.rptok) (token is saved with b73)
+**Download** a lib token for this example
+[example2.rptok](http://www.bastian-dornauf.de/example2.rptok) (token is
+saved with b73)
 
-<Category:Tutorial>
+[Category:Tutorial](Category:Tutorial "wikilink")

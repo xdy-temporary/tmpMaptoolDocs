@@ -1,4 +1,5 @@
-This is the full macro code from the [Creating Macro Buttons Using a Macro](Creating_Macro_Buttons_Using_a_Macro "wikilink") tutorial.
+This is the full macro code from the [Creating Macro Buttons Using a
+Macro](Creating_Macro_Buttons_Using_a_Macro "wikilink") tutorial.
 
 ``` mtmacro
 [h:powerSlot=macro.args]
@@ -65,4 +66,4 @@ No buttons added to token.
 };]
 ```
 
-<Category:Cookbook>
+[Category:Cookbook](Category:Cookbook "wikilink")

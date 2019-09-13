@@ -1,0 +1,1 @@
+1.  REDIRECT [Trusted Macro](Trusted_Macro "wikilink")

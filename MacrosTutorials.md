@@ -1,0 +1,1 @@
+1.  REDIRECT [:Category:Tutorial](:Category:Tutorial "wikilink")

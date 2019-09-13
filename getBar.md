@@ -1,0 +1,1 @@
+[Category:Bar Function](Category:Bar_Function "wikilink")

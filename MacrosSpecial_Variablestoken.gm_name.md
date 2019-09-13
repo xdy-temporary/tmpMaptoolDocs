@@ -1,0 +1,1 @@
+1.  REDIRECT [token.gm name](token.gm_name "wikilink")

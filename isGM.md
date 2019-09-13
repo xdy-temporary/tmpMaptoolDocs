@@ -1,0 +1,1 @@
+1.  REDIRECT [isGM](isGM "wikilink")

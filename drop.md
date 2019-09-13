@@ -1,0 +1,1 @@
+[Category:Dice Function](Category:Dice_Function "wikilink")

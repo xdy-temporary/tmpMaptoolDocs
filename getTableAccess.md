@@ -1,0 +1,1 @@
+[Category:Table Function](Category:Table_Function "wikilink")

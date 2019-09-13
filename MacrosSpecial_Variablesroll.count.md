@@ -1,0 +1,1 @@
+1.  REDIRECT [roll.count](roll.count "wikilink")

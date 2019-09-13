@@ -1,0 +1,1 @@
+1.  REDIRECT [roll.result](roll.result "wikilink")

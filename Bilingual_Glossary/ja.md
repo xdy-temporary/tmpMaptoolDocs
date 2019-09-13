@@ -6,8 +6,7 @@ __NOTOC__
 
 　現在進行形で編集中です。追加・補正ウェルカム。
 
-記号・特殊表現対応表
---------------------
+## 記号・特殊表現対応表
 
 <table>
 <thead>
@@ -19,7 +18,7 @@ __NOTOC__
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>“abc”</p></td>
+<td><p>"abc"</p></td>
 <td><p>ダブルクォーテーション（二重引用符）</p></td>
 <td><p>中身が日本語で書ける場合、カギ括弧 「～～」 に置換。<br />
 中身がプログラム名など、英語原文のままの方が良い場合は二重引用符を継承。</p></td>
@@ -50,19 +49,21 @@ __NOTOC__
 <td><p>日本語で記述できる場合、二重カギ括弧『～～』に置換。英文そのままの場合は斜体。</p></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
-英語-日本語対訳表
------------------
+## 英語-日本語対訳表
 
 二通り以上の解釈が有るとき、訳語の直前に以下の品詞記号を置きます。
 
--   a.:形容詞(adjective)
--   ad.:副詞(adverb)
--   n.:名詞(noun)
--   v.:動詞(verb)
+  - a.:形容詞(adjective)
+  - ad.:副詞(adverb)
+  - n.:名詞(noun)
+  - v.:動詞(verb)
 
 <table>
 <thead>
@@ -191,7 +192,7 @@ v. クリックする</p></td>
 <td><p>load</p></td>
 <td><p>v. 読み出す；<br />
 n. 読み出し</p></td>
-<td><p>これは「ロード」でもよいと思ってますが、<br　/>「保存」と対応するよい訳が思い浮かびませんので暫定とします。<br />
+<td><p>これは「ロード」でもよいと思ってますが、&lt;br　/&gt;「保存」と対応するよい訳が思い浮かびませんので暫定とします。<br />
 より良い意見を求む。<br />
 --<a href="User:Gginc" title="wikilink">gginc</a> 19:32, 9 September 2009 (UTC)</p></td>
 </tr>
@@ -288,7 +289,7 @@ n. 保存</p></td>
 <tr class="even">
 <td><p>state(s)　</p></td>
 <td><p>ステータス</p></td>
-<td><p>そのまま読むと「ステート／状態」ですが、<br　/>日本の慣用は意味が通りにくいためこのように訳しました。<br />
+<td><p>そのまま読むと「ステート／状態」ですが、&lt;br　/&gt;日本の慣用は意味が通りにくいためこのように訳しました。<br />
 --<a href="User:Gginc" title="wikilink">gginc</a> 19:32, 9 September 2009 (UTC)<br />
 「状況」「状態」あたりを推したいです。--<a href="User:Fourwoods" title="wikilink">fourwoods</a> 15:20, 15 June 2010 (UTC)</p></td>
 </tr>
@@ -359,10 +360,13 @@ n.タイプ</p></td>
 <td></td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 {{\#customtitle:英日対訳表|英日対訳表}}
 
-<Category:MapTool>
+[Category:MapTool](Category:MapTool "wikilink")

@@ -5,19 +5,22 @@
 
 ### Launching MapTool via Jar File
 
-With no options, 2GB of memory and a 1MB stack size using the 1.5.0 jar file. Note the jar file name must match exactly.
+With no options, 2GB of memory and a 1MB stack size using the 1.5.0 jar
+file. Note the jar file name must match exactly.
 
 `javaw -Xmx2048M -Xss1M -jar maptool-1.5.0.0.jar`
 
 ### Command Line Options for MapTool
 
-The following command line options are available when launching MapTool from a shell or command prompt. *These are for advanced users or developers.*
+The following command line options are available when launching MapTool
+from a shell or command prompt. *These are for advanced users or
+developers.*
 
 The full option name may be used or just the first letter.
 
 The following options have no parameters and take the form of:
 
-*`javaw`` ``-jar`` ``maptool-x.x.x.x.jar`` ``-option`*
+*`javaw``   ``-jar``   ``maptool-x.x.x.x.jar``   ``-option`*
 
 `d/debug - Turn on System.out enhanced debug output`
 `m/macros - Output list of defined macro functions`
@@ -26,14 +29,16 @@ The following options have no parameters and take the form of:
 
 The following options require a single parameter and take the form of:
 
-*`javaw`` ``-jar`` ``maptool-x.x.x.x.jar`` ``-option=value`*
+*`javaw``   ``-jar``   ``maptool-x.x.x.x.jar``   ``-option=value`*
 
 `v/version - Override MapTool version`
 `m/monitor - Sets which monitor to use beginning with 0.`
 
-These options require the monitor option be specified on the same command line.
+These options require the monitor option be specified on the same
+command line.
 
-*`javaw`` ``-jar`` ``maptool-x.x.x.x.jar`` ``-monitor`` ``-option=value`*
+*`javaw``   ``-jar``   ``maptool-x.x.x.x.jar``   ``-monitor``
+ ``-option=value`*
 
 `w/width - Override MapTool window width`
 `h/height - Override MapTool window height`

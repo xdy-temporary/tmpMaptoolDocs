@@ -1,4 +1,6 @@
-Following is the full macro code for the [Sorting Nested JSON Objects](Sorting_Nested_JSON_Objects "wikilink") How To. Line numbers are excluded to ease cutting and pasting.
+Following is the full macro code for the [Sorting Nested JSON
+Objects](Sorting_Nested_JSON_Objects "wikilink") How To. Line numbers
+are excluded to ease cutting and pasting.
 
 ``` mtmacro
 <!--Set Up Sample Object-->
@@ -66,4 +68,4 @@ JSON Object sorted by [r:whichKey], [r:dirString]:<br>
 <pre>[r:json.indent(sortedJSON, 3)]</pre>
 ```
 
-<Category:Cookbook>
+[Category:Cookbook](Category:Cookbook "wikilink")

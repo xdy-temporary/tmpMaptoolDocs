@@ -1,0 +1,1 @@
+1.  REDIRECT [token.name](token.name "wikilink")

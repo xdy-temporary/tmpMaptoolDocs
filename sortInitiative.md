@@ -1,0 +1,1 @@
+[Category:Initiative Function](Category:Initiative_Function "wikilink")

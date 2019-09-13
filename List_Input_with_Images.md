@@ -1,4 +1,6 @@
-The following is the full code for the [Creating a List Input with Names and Images](Creating_a_List_Input_with_Names_and_Images "wikilink") tutorial.
+The following is the full code for the [Creating a List Input with Names
+and Images](Creating_a_List_Input_with_Names_and_Images "wikilink")
+tutorial.
 
 ``` mtmacro
 [H: tokenList=getExposedTokenNames()]
@@ -28,4 +30,4 @@ The following is the full code for the [Creating a List Input with Names and Ima
 The token's name has been changed to <i>[r:newName]</i>.
 ```
 
-<Category:Cookbook>
+[Category:Cookbook](Category:Cookbook "wikilink")

@@ -1,4 +1,6 @@
-Checks the value of an attack result against a target's defense. If the attack is greater than or equal to the defense, it outputs “Hit!” or “Miss.”
+Checks the value of an attack result against a target's defense. If the
+attack is greater than or equal to the defense, it outputs "Hit\!" or
+"Miss."
 
 function HitCheck(attackResult,targetName,TargetDefense)
 
@@ -15,4 +17,4 @@ Code:
 
 Thanks to Rumble for help with this macro.
 
-<Category:Cookbook>
+[Category:Cookbook](Category:Cookbook "wikilink")

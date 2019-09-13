@@ -1,25 +1,34 @@
-MapTool's chat system supports a number of “slash commands” (that is, commands preceded by a “/” character) that execute particular actions when typed directly into chat.
+MapTool's chat system supports a number of "slash commands" (that is,
+commands preceded by a "/" character) that execute particular actions
+when typed directly into chat.
 
-General Usage
--------------
+## General Usage
 
-To use a chat command, you type directly into the chat window, using the following format:
+To use a chat command, you type directly into the chat window, using the
+following format:
 
-``` mtmacro
+``` mtmacro numberLines
 /command argument
 ```
 
-where *command* is one of the commands in the table below, and *argument* is an appropriate argument (a dice roll, or a string of text, etc.) upon which the command acts.
+where *command* is one of the commands in the table below, and
+*argument* is an appropriate argument (a dice roll, or a string of text,
+etc.) upon which the command acts.
 
-**NOTE**: Remember, the commands shown below are always preceded by a forward slash (**/**) character.
+**NOTE**: Remember, the commands shown below are always preceded by a
+forward slash (**/**) character.
 
-**NOTE**: Slash commands will only work correctly in a MapTool macro if they are the first text in the macro. This is a result of macros simply being text that is “stored up” until it's pushed into the chat window where it's executed. However, many chat commands have related macro functions that can achieve the same effect within only a part of a chat message. Those functions are pointed out below where applicable.
+**NOTE**: Slash commands will only work correctly in a MapTool macro if
+they are the first text in the macro. This is a result of macros simply
+being text that is "stored up" until it's pushed into the chat window
+where it's executed. However, many chat commands have related macro
+functions that can achieve the same effect within only a part of a chat
+message. Those functions are pointed out below where applicable.
 
-Built-in Commands
------------------
+## Built-in Commands
 
 | Command          | Built-in Alias (if any) | Description                                                                                                                 |
-|------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| ---------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | addtokenstate    | tsa                     | Add a new token state that can be set on tokens                                                                             |
 | alias            | alias                   | Create a command alias                                                                                                      |
 | clear            | clr                     | Clear the chat window                                                                                                       |
@@ -50,4 +59,4 @@ Built-in Commands
 | tsay             | ts                      | Say the given speech on the selected token (see )                                                                           |
 | whisper          | w                       | Send a message to a specific player (see )                                                                                  |
 
-<Category:MapTool>
+[Category:MapTool](Category:MapTool "wikilink")
