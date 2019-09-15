@@ -85,19 +85,19 @@ table - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      table(name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      table(name, row)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      tbl(name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      tbl(name, row)
 
@@ -121,7 +121,7 @@ table - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: table("tbl1")]
 
@@ -132,7 +132,7 @@ table - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: table("tbl1", 1)]
 
@@ -143,7 +143,7 @@ table - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: table("tbl1", "1d4")]
 
@@ -154,11 +154,11 @@ table - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: table("tbl1", Intelligence)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: table("tbl1", getProperty("PCLevel"))]
 
@@ -170,7 +170,7 @@ table - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: eval(table("tbl1"))]
 
@@ -185,7 +185,7 @@ table - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: evalMacro(table("tbl1"))]
 

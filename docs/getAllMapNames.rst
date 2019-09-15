@@ -81,11 +81,11 @@ getAllMapNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getAllMapNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getAllMapNames(delim)
 
@@ -108,7 +108,7 @@ getAllMapNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: maps = getAllMapNames()]
 
@@ -119,7 +119,7 @@ getAllMapNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: maps = getAllMapNames("json")]
 

@@ -77,7 +77,7 @@ isBarVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isBarVisible(bar)
 
@@ -99,19 +99,19 @@ isBarVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [if(isBarVisible("Health")), code:
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             The health bar is visible!
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         };{
 
@@ -119,7 +119,7 @@ isBarVisible - MapToolDoc
 
                             The health bar is not visible!
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 
@@ -129,11 +129,11 @@ isBarVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setBarVisible("Fatigue", !isBarVisible("Fatigue"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: abort(0)]
 

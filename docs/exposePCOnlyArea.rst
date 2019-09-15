@@ -86,19 +86,19 @@ exposePCOnlyArea - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Expose areas that can be seen by PC tokens on current map. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: exposePCOnlyArea()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Expose areas that can be seen by PC tokens on named map. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: exposePCOnlyArea("Cliffs of Insanity")]
 

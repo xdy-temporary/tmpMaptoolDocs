@@ -113,7 +113,7 @@ getState - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [if(getState("Dead"), "You are dead!", "You are not dead (yet!)")]
 

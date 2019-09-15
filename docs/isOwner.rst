@@ -76,19 +76,19 @@ isOwner - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isOwner()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isOwner(player)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isOwner(player, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isOwner(player, id, mapname)
 
@@ -123,7 +123,7 @@ isOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r, if(isOwner()): "You can edit me."]
 
@@ -135,11 +135,11 @@ isOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id = getSelected() ]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r, if(isOwner("Azhrei", id)): "Azhrei can edit me."]
 

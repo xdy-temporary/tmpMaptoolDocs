@@ -76,15 +76,15 @@ isPC - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isPC()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isPC(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isPC(id, mapname)
 
@@ -111,7 +111,7 @@ isPC - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r, if(isPC()): "Hello I am a PC"]
 

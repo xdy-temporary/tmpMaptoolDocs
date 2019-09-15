@@ -57,11 +57,11 @@ hypotenuse - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: h = hypot(sideA, sideB)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: h = hypotenuse(sideA, sideB)]
 
@@ -74,7 +74,7 @@ hypotenuse - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: hypot(3,4)]
 

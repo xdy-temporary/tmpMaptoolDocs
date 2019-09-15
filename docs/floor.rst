@@ -56,7 +56,7 @@ floor - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: result = floor(num)]
 
@@ -69,7 +69,7 @@ floor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: floor(2)]
 
@@ -79,7 +79,7 @@ floor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: floor(1.2)]
 
@@ -89,7 +89,7 @@ floor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: floor(-1.2)]
 

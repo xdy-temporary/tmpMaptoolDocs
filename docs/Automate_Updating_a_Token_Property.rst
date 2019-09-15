@@ -86,7 +86,7 @@ Automate Updating a Token Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ damage = AmountOfDamage ]
 
@@ -107,11 +107,11 @@ Automate Updating a Token Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ damage = AmountOfDamage ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ HP = HP - damage ]
 
@@ -161,7 +161,7 @@ Automate Updating a Token Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ HP = HPmax ]
 
@@ -177,15 +177,15 @@ Automate Updating a Token Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ hours = NumberOfHours ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ healing = if(hours < 24, Level * 2, Level * 6) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ HP = HP + healing ]
 
@@ -220,19 +220,19 @@ Automate Updating a Token Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ cancel = input("SpendSurge | 1 | Spend Healing Surge? | CHECK",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       "GainSurge | 1 | Gain Surge HP? | CHECK",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       "ExtraHeal | 0 | Additional Healing",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       "GainTempHP | 0 | Temporary Hit Points") ]
 
@@ -252,19 +252,19 @@ Automate Updating a Token Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ cancel = input("SpendSurge | 1 | Spend Healing Surge? | CHECK",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       "GainSurge | 1 | Gain Surge HP? | CHECK",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       "ExtraHeal | 0 | Additional Healing",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       "GainTempHP | 0 | Temporary Hit Points") ]
 
@@ -272,19 +272,19 @@ Automate Updating a Token Property - MapToolDoc
 
                      [ abort(cancel) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ if(SpendSurge): SurgeRemain = SurgeRemain - 1 ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ if(GainSurge): HP = HP + SurgeValue ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ HP = HP + ExtraHeal ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ TempHP = max(TempHP, GainTempHP) ]
 

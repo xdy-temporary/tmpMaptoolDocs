@@ -80,7 +80,7 @@ getInfo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getInfo(topic)
 
@@ -101,19 +101,19 @@ getInfo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- print the JSON Object about the current map to the chat window -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indent(getInfo("map"), 2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         </pre>
 
@@ -155,19 +155,19 @@ getInfo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- print the JSON Object about client information to the chat window -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indent(getInfo("client"), 2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         </pre>
 
@@ -208,19 +208,19 @@ getInfo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- print the JSON Object about server information to the chat window -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indent(getInfo("server"), 2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         </pre>
 
@@ -256,19 +256,19 @@ getInfo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- print the JSON Object about the campaign to the chat window -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indent(getInfo("campaign"), 2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         </pre>
 

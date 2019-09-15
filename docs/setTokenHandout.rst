@@ -65,15 +65,15 @@ setTokenHandout - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenHandout(assetId)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenHandout(assetId, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenHandout(assetId, id, mapname)
 
@@ -81,15 +81,15 @@ setTokenHandout - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenHandout(tokenImageName)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenHandout(tokenImageName, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenHandout(tokenImageName, id, mapname)
 

@@ -63,7 +63,7 @@ setBarVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setBarVisible(name, value)
 
@@ -81,7 +81,7 @@ setBarVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setBarVisible("health", 1)]
 
@@ -93,7 +93,7 @@ setBarVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setBarVisible("health", 0)]
 

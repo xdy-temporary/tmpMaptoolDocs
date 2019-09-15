@@ -79,7 +79,7 @@ json.count - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.count(array, value)]
 
@@ -87,7 +87,7 @@ json.count - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.count(array, value, start)]
 
@@ -110,7 +110,7 @@ json.count - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.count("[1,2,3,1,1,3]", 1)]
 
@@ -123,7 +123,7 @@ json.count - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.count("[1,2,3,1,1,3]", 1, 1)]
 

@@ -60,7 +60,7 @@ median - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: av = median(num, num, ...)]
 
@@ -73,11 +73,11 @@ median - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: median(3,6,2,2)]   
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: median(12, 23, 3, 102, 1)]
 

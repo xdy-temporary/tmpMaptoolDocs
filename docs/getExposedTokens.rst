@@ -96,11 +96,11 @@ getExposedTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getExposedTokenNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getExposedTokenNames(delim)
 
@@ -122,11 +122,11 @@ getExposedTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getExposedTokens()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: foreach(id, ids "<br>"): id]
 

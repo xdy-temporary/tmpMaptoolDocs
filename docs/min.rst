@@ -54,7 +54,7 @@ min - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: smallest = min(num, num, ...)]
 
@@ -67,11 +67,11 @@ min - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: min(2, 4, 5, 1)]   
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: min(-1, -5, 100)]
 

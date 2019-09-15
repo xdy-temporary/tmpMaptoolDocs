@@ -63,7 +63,7 @@ isNumber - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: num = isNumber(val)]
 

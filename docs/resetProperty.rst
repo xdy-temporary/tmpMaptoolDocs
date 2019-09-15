@@ -83,15 +83,15 @@ resetProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      resetProperty(property)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      resetProperty(property, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      resetProperty(property, id, mapname)
 

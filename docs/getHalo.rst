@@ -79,7 +79,7 @@ getHalo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getHalo()
 
@@ -87,7 +87,7 @@ getHalo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getHalo(id)
 
@@ -116,7 +116,7 @@ getHalo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <span style="color:[r: getHalo()]">Halo Color Text</span>
 

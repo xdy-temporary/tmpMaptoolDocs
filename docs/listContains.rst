@@ -75,11 +75,11 @@ listContains - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listContains(list, value)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listContains(list, value, delim)
 
@@ -102,7 +102,7 @@ listContains - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listContains("a,b,c,a,b,a", "a")]
 
@@ -112,11 +112,11 @@ listContains - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: MyStringList = "1#2#3#4#1#2#3#1#2"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listContains(MyStringList, "3", "#")]
 

@@ -78,7 +78,7 @@ getMacroLocation - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroLocation()
 
@@ -91,11 +91,11 @@ getMacroLocation - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: MacroLocation = getMacroLocation()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [if(MacroLocation == "chat", "You are running from chat", "You are running from "+MacroLocation]
 

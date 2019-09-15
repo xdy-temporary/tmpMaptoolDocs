@@ -74,7 +74,7 @@ clearRolls - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      clearRolls()
 
@@ -93,19 +93,19 @@ clearRolls - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6: [e: 3D6]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get New Rolls: [r: getNewRolls()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [r: getRolled()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6 minimum 2: [e: 3D6L2]<br>
 
@@ -113,19 +113,19 @@ clearRolls - MapToolDoc
 
                         Get New Rolls: [r: getNewRolls()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [r: getRolled()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         -- Clear Rolls --[h: clearRolls()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6: [e: 3D6]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get New Rolls: [r: getNewRolls()]<br>
 
@@ -139,19 +139,19 @@ clearRolls - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6: « 3D6 = 12 »
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get New Rolls: [5,5,2]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [5,5,2]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6 minimum 2: « 3D6L2 = 17 »
 
@@ -159,19 +159,19 @@ clearRolls - MapToolDoc
 
                         Get New Rolls: [5,6,6]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [5,5,2,5,6,6]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         -- Clear Rolls --
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6: « 3D6 = 8 »
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get New Rolls: [2,2,4]
 

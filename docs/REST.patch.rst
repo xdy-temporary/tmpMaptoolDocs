@@ -79,11 +79,11 @@ REST.patch - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      REST.patch(url, payload, mediaType, getFullResponse)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      REST.patch(url, payload, mediaType, headers, getFullResponse)
 
@@ -114,19 +114,19 @@ REST.patch - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: baseURL = "https://reqres.in"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: path = "/api/users/2"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: mediaType = "application/json; charset=utf-8"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: getFullResponse = 1]
 
@@ -134,19 +134,19 @@ REST.patch - MapToolDoc
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: payload = '{ "name": "morpheus", "job": "zion resident" }']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: response = REST.patch(baseURL + path, payload, mediaType, getFullResponse)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
@@ -154,15 +154,15 @@ REST.patch - MapToolDoc
 
                         <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indent(response, 2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         </pre>
 
@@ -172,19 +172,19 @@ REST.patch - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "status": 200,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "headers":   {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "access-control-allow-origin": ["*"],
 
@@ -192,19 +192,19 @@ REST.patch - MapToolDoc
 
                             "cf-ray": ["4b927aa4ea915414-LAX"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "content-type": ["application/json; charset=utf-8"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "date": ["Sun, 17 Mar 2019 22:42:16 GMT"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "etag": ["W/\"50-xvMYBAeY4FNOMM/22NyIcimiIYc\""],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "expect-ct": ["max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""],
 
@@ -212,19 +212,19 @@ REST.patch - MapToolDoc
 
                             "server": ["cloudflare"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "set-cookie": ["__cfduid=d97966d3e9434720192d81096687475ff1552862536; expires=Mon, 16-Mar-20 22:42:16 GMT; path=/; domain=.reqres.in; HttpOnly"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "x-powered-by": ["Express"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "body":   {
 
@@ -232,19 +232,19 @@ REST.patch - MapToolDoc
 
                             "name": "morpheus",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "job": "zion resident",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "updatedAt": "2019-03-17T22:46:47.729Z"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           }
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }
 

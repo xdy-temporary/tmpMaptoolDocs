@@ -54,7 +54,7 @@ multiply - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = multiply(num, num, ...)]
 
@@ -67,11 +67,11 @@ multiply - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: multiply(2, 5, 6)]   
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: multiply(4, 3, 2)]
 

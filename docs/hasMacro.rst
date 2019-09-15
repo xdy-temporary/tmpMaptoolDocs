@@ -61,7 +61,7 @@ hasMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasMacro(label)
 
@@ -69,7 +69,7 @@ hasMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasMacro(label, id)
 

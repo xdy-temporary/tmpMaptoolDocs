@@ -61,11 +61,11 @@ json.toList - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: jarr = json.toList(jarr)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: jarr = json.toList(jarr, delim)]
 
@@ -78,11 +78,11 @@ json.toList - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromList("a,1,g,4")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [json.toList(a)]
 

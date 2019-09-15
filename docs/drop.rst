@@ -71,7 +71,7 @@ drop - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      drop(times, sides, ignore)
 
@@ -93,7 +93,7 @@ drop - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: drop(10, 20, 5)]
 
@@ -107,19 +107,19 @@ drop - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTimes = 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceSides = 10]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceIgnore = 2]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: drop(DiceTimes, DiceSides, DiceIgnore)]
 

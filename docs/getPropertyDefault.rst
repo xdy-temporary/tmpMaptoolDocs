@@ -65,11 +65,11 @@ getPropertyDefault - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyDefault(name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyDefault(name, propType)
 

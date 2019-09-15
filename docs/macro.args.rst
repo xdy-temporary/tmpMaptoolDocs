@@ -104,15 +104,15 @@ macro.args - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Call the getDamage macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:damageDice="2d6"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [MACRO("getDamage@Lib:test"): damageDice]
 
@@ -123,15 +123,15 @@ macro.args - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- getDamage Macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:damageRoll = eval(macro.args) + 9]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      You hit your target for [r:damageRoll] damage!
 
@@ -162,19 +162,19 @@ macro.args - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Call the doDamage macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:damageDice="2d6"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:theToken = "Bobo Fett"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [MACRO("getDamage@Lib:test"): "Damage="+damageDice+"; Token="+theToken]
 
@@ -185,19 +185,19 @@ macro.args - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- doDamage Macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:dmg   = getStrProp(macro.args, "Damage")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:tokid = getStrProp(macro.args, "Token")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      You hit [r: tokid] for [r:dmg] damage!
 
@@ -226,19 +226,19 @@ macro.args - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Call the doDamage macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:damageDice="2d6"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:theToken = "Bobo Fett"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:jsonData = json.append("[]", damageDice, theToken)]
 
@@ -253,19 +253,19 @@ macro.args - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- doDamage Macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:dmg   = json.get(macro.args, 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:tokid = json.get(macro.args, 1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      You hit [r: tokid] for [r:dmg] damage!
 
@@ -284,19 +284,19 @@ macro.args - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Call the doDamage macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:damageDice="2d6"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:theToken = "Bobo Fett"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:jsonData = json.set("{}", "Damage", damageDice, "Token", theToken)]
 
@@ -311,19 +311,19 @@ macro.args - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- doDamage Macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:dmg   = json.get(macro.args, "Damage")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:tokid = json.get(macro.args, "Token")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      You hit [r: tokid] for [r:dmg] damage!
 

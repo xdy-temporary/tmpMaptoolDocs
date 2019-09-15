@@ -80,11 +80,11 @@ getTerrainModifier - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTerrainModifier()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTerrainModifier(token)
 
@@ -103,7 +103,7 @@ getTerrainModifier - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: tmod = getTerrainModifier("Sticky Floor Tile")]
 
@@ -113,7 +113,7 @@ getTerrainModifier - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         2.0
 

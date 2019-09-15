@@ -73,19 +73,19 @@ getTokenHandout - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenHandout()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenHandout(size)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenHandout(size, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenHandout(size, id, mapname)
 
@@ -112,7 +112,7 @@ getTokenHandout - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <img src='[r:getTokenHandout()]'></img>
 

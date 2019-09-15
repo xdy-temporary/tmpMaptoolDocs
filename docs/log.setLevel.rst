@@ -81,7 +81,7 @@ log.setLevel - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      log.setLevel(logger, loglevel)
 
@@ -107,7 +107,7 @@ log.setLevel - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: log.setLevel("net.rptools.maptool.client.MapToolLineParser","WARN")]
 
@@ -117,7 +117,7 @@ log.setLevel - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         WARN
 
@@ -129,19 +129,19 @@ log.setLevel - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: loggers = json.sort(log.getLoggers(),"a","name")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: loggerList = ""]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, FOREACH(logger, loggers), CODE: {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [h: loggerList = listAppend(loggerList,json.get(logger,"name"))]
 
@@ -149,19 +149,19 @@ log.setLevel - MapToolDoc
 
                         }]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:status=input(
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "junkVar|Select a Logger and Level||LABEL|SPAN=TRUE",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "lname|"+loggerList+"|Logger|LIST|VALUE=STRING",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "level|DEBUG,INFO,WARN,ERROR,FATAL|Level|LIST|VALUE=STRING")]
 
@@ -169,11 +169,11 @@ log.setLevel - MapToolDoc
 
                         [h:abort(status)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: "Setting <i><b>" + lname + "</b></i> to <b>" + level + "</b>."]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: log.setLevel(lname,level)]
 

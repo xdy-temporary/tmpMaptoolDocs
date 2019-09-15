@@ -59,19 +59,19 @@ Roll Initiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: initList = "booga=-1"];
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach(Selected, getSelected("json")), CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
@@ -79,19 +79,19 @@ Roll Initiative - MapToolDoc
 
                         [switchToken(Selected)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       [SelectedGMName = getTokenImage()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [arr = json.fromStrProp(initList)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [if(json.contains(arr, SelectedGMName) != 0), CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         {
 
@@ -99,19 +99,19 @@ Roll Initiative - MapToolDoc
 
                              [init = json.get(arr, SelectedGMName)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       };
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            [result = 1d20]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [init = result + getProperty("Initiative", Selected)]
 
@@ -119,19 +119,19 @@ Roll Initiative - MapToolDoc
 
                              [tie = getProperty("Initiative", Selected) / 100]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                             [init = init + tie]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           [initList = concat(initList, ";", SelectedGMName, "=", init)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -139,19 +139,19 @@ Roll Initiative - MapToolDoc
 
                         [switchToken(Selected)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [addToInitiative()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [setInitiative(init)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -159,19 +159,19 @@ Roll Initiative - MapToolDoc
 
                      [h: sortInitiative()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(Selected, getSelected("json")), CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [switchToken(Selected)]
 
@@ -179,15 +179,15 @@ Roll Initiative - MapToolDoc
 
                       [init = getInitiative()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       [init = floor(init)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       [setInitiative(init)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 

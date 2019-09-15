@@ -120,19 +120,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(hasImpersonated())] <!-- Abort macro if no token is impersonated -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(macro, getMacros()), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- 
 
@@ -140,19 +140,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                          == each label can appear more than once (i.e. more than one
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == button with same label, so we need to get all the button
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == indexes for a label
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -160,19 +160,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                        [h,foreach(index, getMacroIndexes(macro)), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [props = getMacroProps(index)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       getStrProp(props, "group") == "Encounter Powers", 1, 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,if(isBlue): setMacroProps(index, "color=default")]
 
@@ -180,11 +180,11 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)] <!-- Suppress output text -->
 
@@ -241,19 +241,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(hasImpersonated())] <!-- Abort macro if no token is impersonated -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(macro, getMacros()), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- 
 
@@ -261,19 +261,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                          == each label can appear more than once (i.e. more than one
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == button with same label, so we need to get all the button
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == indexes for a label
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -281,19 +281,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                        [h,foreach(index, getMacroIndexes(macro)), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [props = getMacroProps(index)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                         matches(getStrProp(props, "group"),
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                                "(Daily|Encounter) Powers"), 1, 0)]
 
@@ -301,15 +301,15 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                          [h,if(isBlue): setMacroProps(index, "color=default")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)] <!-- Suppress output text -->
 
@@ -418,7 +418,7 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: setMacroProps("Burning Hands", "color=blue")]
 
@@ -432,7 +432,7 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Watch, the watch, you are getting sleepy, your eyelids are getting heavy.... [h: setMacroProps("Sleep", "color=blue")]
 
@@ -456,19 +456,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: found = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: indexes = getMacroIndexes(macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach(button, indexes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(found==0), code: {
 
@@ -476,19 +476,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                              [props = getMacroProps(button)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [group = getStrProp(props, "group")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [color = getStrProp(props, "color")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default" && group == "Daily Powers"): 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  setMacroProps(button, "color=blue")
 
@@ -496,15 +496,15 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                              ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default" && group == "Daily Powers"): found=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -522,11 +522,11 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          Oooh tingly!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,macro("UseDailyPower@Lib:DnD4ePowers"): "Lay On Hands"]
 
@@ -549,19 +549,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: found = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: indexes = getMacroIndexes(macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach(button, indexes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(found==0), code: {
 
@@ -569,19 +569,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                              [props = getMacroProps(button)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [group = getStrProp(props, "group")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [color = getStrProp(props, "color")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default" && group == "Daily Powers"): 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  setMacroProps(button, "color=blue")
 
@@ -589,19 +589,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                              ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default" && group == "Daily Powers"): found=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- if "free" one is not found then inform user they can't do it -->
 
@@ -609,19 +609,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                      [if(found==0), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [dialog("PowerUsed"):  {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <title>Can Not Use Power</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <meta name="temporary" content="true">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              You have already used [r: macro.args]
 
@@ -629,11 +629,11 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(found)] <!-- Abort the macro if an unused power was not found -->
 
@@ -644,11 +644,11 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,macro("UsePower@Lib:DnD4ePowers"): "Daily:Lay On Hands"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          Oooh tingly!
 
@@ -668,19 +668,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: found = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: indexes = getMacroIndexes(macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach(button, indexes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(found==0), code: {
 
@@ -688,19 +688,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                              [props = getMacroProps(button)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [group = getStrProp(props, "group")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [color = getStrProp(props, "color")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default" && group == "Encounter Powers"): 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  setMacroProps(button, "color=blue")
 
@@ -708,19 +708,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                              ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default" && group == "Encounter Powers"): found=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- if "free" one is not found then inform user they can't do it -->
 
@@ -728,19 +728,19 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                      [if(found==0), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [dialog("PowerUsed"):  {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <title>Can Not Use Power</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <meta name="temporary" content="true">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              You have already used [r: macro.args]
 
@@ -748,11 +748,11 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(found)] <!-- Abort the macro if an unused power was not found -->
 

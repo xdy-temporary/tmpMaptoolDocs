@@ -85,7 +85,7 @@ setMacroCommand - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMacroCommand(index, command)
 
@@ -93,7 +93,7 @@ setMacroCommand - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMacroCommand(index, command, id)
 
@@ -114,7 +114,7 @@ setMacroCommand - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setMacroCommand(1, "[macro('Test@Lib:Test'): '']")]
 

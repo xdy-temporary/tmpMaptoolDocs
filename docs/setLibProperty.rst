@@ -66,11 +66,11 @@ setLibProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLibProperty(name, value)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLibProperty(name, value, libName)
 
@@ -87,7 +87,7 @@ setLibProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setLibProperty("defaultStrength", 10)]
 
@@ -98,7 +98,7 @@ setLibProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setLibProperty("defaultStrength", 10, "Lib:Character")]
 

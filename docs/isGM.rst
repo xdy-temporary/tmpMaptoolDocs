@@ -74,7 +74,7 @@ isGM - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isGM()
 
@@ -82,7 +82,7 @@ isGM - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isGM(player)
 
@@ -102,7 +102,7 @@ isGM - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         I am a [r,if(isGM()): "GM"; "Player"]
 

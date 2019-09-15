@@ -81,7 +81,7 @@ setPenWidth - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setPenWidth(mapName, drawingId, width)
 
@@ -102,11 +102,11 @@ setPenWidth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setPenWidth("Grasslands", "0000000094218C675800000000000000",10)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setPenWidth("Grasslands", "0000000087318B505800000000000000",3)]
 

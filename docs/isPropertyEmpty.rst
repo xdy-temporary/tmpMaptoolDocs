@@ -90,15 +90,15 @@ isPropertyEmpty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isPropertyEmpty(property)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isPropertyEmpty(property, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isPropertyEmpty(property, id, mapname)
 
@@ -127,7 +127,7 @@ isPropertyEmpty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r, if(isPropertyEmpty("propertyName")): propertyName = someDefaultValue]
 

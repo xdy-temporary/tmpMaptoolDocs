@@ -59,7 +59,7 @@ countStrProp - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      countStrProp(propList)
 
@@ -72,7 +72,7 @@ countStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: countStrProp("a=blah; b=doh; c=meh")]
 

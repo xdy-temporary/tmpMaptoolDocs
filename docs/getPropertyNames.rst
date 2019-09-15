@@ -101,19 +101,19 @@ getPropertyNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyNames(delim)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyNames(delim, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyNames(delim, id, mapname)
 
@@ -148,11 +148,11 @@ getPropertyNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getPropertyNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

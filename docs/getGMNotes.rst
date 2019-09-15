@@ -65,15 +65,15 @@ getGMNotes - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getGMNotes()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getGMNotes(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getGMNotes(id, mapname)
 

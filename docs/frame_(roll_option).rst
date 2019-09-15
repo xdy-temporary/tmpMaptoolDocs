@@ -74,7 +74,7 @@ frame (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: frame(frameName [,"width; height; temporary; title; tabtitle; value"] )]
 
@@ -129,7 +129,7 @@ frame (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ if( isFrameVisible("YourFrame") ), code: {}; { [resetFrame("YourFrame")] } ]
 
@@ -147,7 +147,7 @@ frame (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [frame("Frame Test", "width=300; height=200; temporary=1;"): {
 
@@ -161,20 +161,20 @@ frame (roll option) - MapToolDoc
          |                                   |    .. container::                 |
          |                                   |    mtmacro source-mtmacro         |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             [frame("Frame Test"): |
          |                                   |  {                                |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |               <html>              |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                 <head>            |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                   <title>Test of  |
          |                                   | Frame Windows</title>             |
@@ -183,22 +183,22 @@ frame (roll option) - MapToolDoc
          |                                   |                                   |
          |                                   |                 </head>           |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                 <body>            |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                 <table border="1" |
          |                                   | >                                 |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                 <tr><th>Column 1< |
          |                                   | /th><th>Column 2</th><th>Column 3 |
          |                                   | </th></tr>                        |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                 <tr><td>Line 1, C |
          |                                   | ol 1</td><td colspan="2">Line 1,  |
@@ -211,21 +211,21 @@ frame (roll option) - MapToolDoc
          |                                   | ine 2, Col 2</td><td>Line 2, Col  |
          |                                   | 3</td></tr>                       |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                 <tr><td>Line 3, C |
          |                                   | ol 3</td><td>Line 3, Col 3</td></ |
          |                                   | tr>                               |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                 </table>          |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                 </body>           |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |               </html>             |
          |                                   |                                   |

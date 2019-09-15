@@ -75,15 +75,15 @@ getStrProp - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getStrProp(propList, key)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getStrProp(propList, key, default)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getStrProp(propList, key, default, delim)
 
@@ -107,11 +107,11 @@ getStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: weapon = "name=longsword; damage=1d8; maxdamage=8"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Name of Weapon: [r: getStrProp(weapon, "name")]
 
@@ -125,11 +125,11 @@ getStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: weapon = "name=longsword; damage=1d8; maxdamage=8"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Minimum damage of Weapon: [r: getStrProp(weapon, "mindamage", 1)]
 
@@ -145,11 +145,11 @@ getStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: weapon = "name=longsword: damage=1d8: maxdamage=8"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Damage of Weapon: [r: getStrProp(weapon, "damage", "1d3", ":")]
 

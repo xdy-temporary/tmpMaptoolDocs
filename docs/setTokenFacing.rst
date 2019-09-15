@@ -68,15 +68,15 @@ setTokenFacing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenFacing(angle)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenFacing(angle, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenFacing(angle, id, mapname)
 

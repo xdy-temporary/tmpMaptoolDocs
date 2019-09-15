@@ -58,7 +58,7 @@ w (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Everyone can see this [w("bob"): "but only Bob can see this"]
 
@@ -69,7 +69,7 @@ w (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [w("Fred", "Joe"): d20]
 
@@ -79,11 +79,11 @@ w (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: names = json.fromList("Fred, Joe")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [w(names): d20]
 

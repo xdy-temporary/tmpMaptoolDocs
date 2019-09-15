@@ -56,7 +56,7 @@ divide - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: props = divide(num, num, ...)]
 
@@ -69,7 +69,7 @@ divide - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: divide(4, 2)]
 
@@ -79,7 +79,7 @@ divide - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: divide(24, 2, 2)]
 

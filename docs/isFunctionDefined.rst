@@ -83,7 +83,7 @@ isFunctionDefined - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isFunctionDefined(name)
 
@@ -96,7 +96,7 @@ isFunctionDefined - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: isFunctionDefined("fizzlegwip")]
 
@@ -106,7 +106,7 @@ isFunctionDefined - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: defineFunction("myNewFunction", "myMacro@token")]
 
@@ -114,7 +114,7 @@ isFunctionDefined - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: isFunctionDefined("myNewFunction")]
 
@@ -124,7 +124,7 @@ isFunctionDefined - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: isFunctionDefined("input")]
 

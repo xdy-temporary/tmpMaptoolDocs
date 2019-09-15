@@ -60,15 +60,15 @@ getNotes - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getNotes()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getNotes(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getNotes(id, mapname)
 

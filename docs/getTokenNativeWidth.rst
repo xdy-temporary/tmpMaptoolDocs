@@ -76,15 +76,15 @@ getTokenNativeWidth - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenNativeWidth()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenNativeWidth(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenNativeWidth(id, mapname)
 
@@ -118,7 +118,7 @@ getTokenNativeWidth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getTokenWidth("Dragon")]
 
@@ -128,7 +128,7 @@ getTokenNativeWidth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         120
 

@@ -75,7 +75,7 @@ setStrProp - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setStrProp(propList, key, value)
 
@@ -101,15 +101,15 @@ setStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: weapon = "name=longsword; damage=1d8; maxdamage=8"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: weapon = setStrProp(weapon, "value", 10)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: weapon]
 
@@ -123,15 +123,15 @@ setStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: weapon = "name=longsword; damage=1d8; maxdamage=8"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: weapon = setStrProp(weapon, "damage", "1d6")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: weapon]
 

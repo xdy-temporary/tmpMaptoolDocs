@@ -73,7 +73,7 @@ setOwnerOnlyVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwnerOnlyVisible(visible)
 
@@ -81,7 +81,7 @@ setOwnerOnlyVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwnerOnlyVisible(visible, id)
 

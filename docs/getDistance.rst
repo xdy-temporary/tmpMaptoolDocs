@@ -80,7 +80,7 @@ getDistance - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDistance(target)
 
@@ -88,7 +88,7 @@ getDistance - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDistance(target, units)
 
@@ -96,7 +96,7 @@ getDistance - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDistance(target, units, source)
 
@@ -104,7 +104,7 @@ getDistance - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDistance(target, units, source, metric)
 
@@ -143,7 +143,7 @@ getDistance - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dist = getDistance("Altar")]
 
@@ -154,7 +154,7 @@ getDistance - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dist = getDistance("Altar", 0, "Sacrifice")]
 
@@ -165,7 +165,7 @@ getDistance - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dist = getDistance("Altar", 1, "Sacrifice")]
 
@@ -176,7 +176,7 @@ getDistance - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dist = getDistance("Altar", 1, "Sacrifice", "NO_GRID")]
 

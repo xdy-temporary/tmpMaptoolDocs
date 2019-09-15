@@ -60,11 +60,11 @@ getMapVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMapVisible()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMapVisible(mapName)
 
@@ -82,11 +82,11 @@ getMapVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getMapVisible()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getMapVisible("Grasslands")]
 

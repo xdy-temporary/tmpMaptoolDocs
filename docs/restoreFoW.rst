@@ -78,11 +78,11 @@ restoreFoW - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      restoreFoW()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      restoreFoW(mapname)
 

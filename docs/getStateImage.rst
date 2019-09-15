@@ -66,7 +66,7 @@ getStateImage - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getStateImage(state)
 
@@ -74,7 +74,7 @@ getStateImage - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getStateImage(state, size)
 
@@ -97,7 +97,7 @@ getStateImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <img src='[r:getStateImage("Dead")]'></img>
 

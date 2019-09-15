@@ -95,11 +95,11 @@ getPCNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPCNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPCNames(delim)
 
@@ -122,11 +122,11 @@ getPCNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getPCNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

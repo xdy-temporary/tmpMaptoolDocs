@@ -95,11 +95,11 @@ getOwnedNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getOwnedNames(player)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getOwnedNames(player, delim)
 
@@ -123,11 +123,11 @@ getOwnedNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getOwnedNames(getPlayerName())]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

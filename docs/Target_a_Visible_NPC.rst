@@ -68,19 +68,19 @@ Target a Visible NPC - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      /self 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: lsVisibleNpc = json.intersection( getNPCNames("json"), getVisibleTokenNames("json") )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      // Abort if no target found (intersection returned an empty list)
 
@@ -88,19 +88,19 @@ Target a Visible NPC - MapToolDoc
 
                      [h: assert(json.length(lsVisibleNpc), "No visible NPC", 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      // UI: popup a list for selection
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: input("index|"+json.toList(lsVisibleNpc)+"|My target is|LIST") ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -108,19 +108,19 @@ Target a Visible NPC - MapToolDoc
 
                      // Retrieve the first element, so we only get the name (and not ["name"])
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: currentTgt = json.get(lsVisibleNpc, index) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      // Display message to be sure of what has just been done
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Current target : {currentTgt}
 

@@ -60,7 +60,7 @@ json.sort - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.sort(array)
 
@@ -68,7 +68,7 @@ json.sort - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.sort(array, direction)
 
@@ -79,7 +79,7 @@ json.sort - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.sort(array, direction, key1, ..., keyN)
 
@@ -116,7 +116,7 @@ json.sort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.sort("[1,4,5,6,2,1,9,20,1]")]
 
@@ -129,7 +129,7 @@ json.sort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.sort("['Hero', 'Dragon', 'Elf', 'Wolf', 'Mage', 'Eagle', 'Troll']")]
 
@@ -143,7 +143,7 @@ json.sort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.sort("['Hero', 3, 'Elf', 'Wolf', 100, 'Eagle', 'Troll']")]
 
@@ -155,19 +155,19 @@ json.sort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:vals = '[ {name:"Hero", HP:10}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Wolf", HP:5}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Mage", HP:20}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Troll", HP:15}, 
 
@@ -175,7 +175,7 @@ json.sort - MapToolDoc
 
                                      {name:"Eagle", HP:5} ]'] 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.sort(vals, "a", "name")]
 
@@ -189,19 +189,19 @@ json.sort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:vals = '[ {name:"Hero", HP:10}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Wolf", HP:5}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Mage", HP:20}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Troll", HP:15}, 
 
@@ -209,7 +209,7 @@ json.sort - MapToolDoc
 
                                      {name:"Eagle", HP:5} ]'] 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.sort(vals, "a", "HP")]
 
@@ -223,19 +223,19 @@ json.sort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:vals = '[ {name:"Hero", HP:10}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Wolf", HP:5}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Mage", HP:20}, 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      {name:"Troll", HP:15}, 
 
@@ -243,7 +243,7 @@ json.sort - MapToolDoc
 
                                      {name:"Eagle", HP:5} ]'] 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.sort(vals, "a", "HP", "name")]
 

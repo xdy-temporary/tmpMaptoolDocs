@@ -81,11 +81,11 @@ herolab.isMinion - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.isMinion()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.isMinion(id)
 
@@ -105,7 +105,7 @@ herolab.isMinion - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: isMinion = herolab.isMinion()]
 
@@ -115,7 +115,7 @@ herolab.isMinion - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         0 or 1
 
@@ -127,11 +127,11 @@ herolab.isMinion - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: info = herolab.getInfo()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: isMinion = json.get(info,"isMinion")]
 
@@ -141,7 +141,7 @@ herolab.isMinion - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         0 or 1
 

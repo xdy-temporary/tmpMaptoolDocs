@@ -109,15 +109,15 @@ setCurrentMap - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: status = input("NewMap|" + getAllMapNames() + "|Map to switch to|LIST|VALUE=STRING")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:abort(status)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setCurrentMap(NewMap)]
 

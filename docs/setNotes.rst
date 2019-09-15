@@ -65,15 +65,15 @@ setNotes - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setNotes(notes)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setNotes(notes, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setNotes(notes, id, mapname)
 

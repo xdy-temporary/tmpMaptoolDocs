@@ -82,11 +82,11 @@ herolab.getMasterName - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.getMasterName()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.getMasterName(id)
 
@@ -107,11 +107,11 @@ herolab.getMasterName - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: myMaster = herolab.getMasterName()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: out = "My master's name is: " + myMaster]
 
@@ -121,7 +121,7 @@ herolab.getMasterName - MapToolDoc
 
                .. container:: text source-text
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         My master's name is: Fred
 

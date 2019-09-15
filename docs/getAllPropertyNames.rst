@@ -90,7 +90,7 @@ getAllPropertyNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getAllPropertyNames()
 
@@ -98,7 +98,7 @@ getAllPropertyNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getAllPropertyNames(type)
 
@@ -106,7 +106,7 @@ getAllPropertyNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getAllPropertyNames(type, delim)
 
@@ -137,15 +137,15 @@ getAllPropertyNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Campaign Properties<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: props = getAllPropertyNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, props, "<br>"): name]
 
@@ -157,15 +157,15 @@ getAllPropertyNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         PC Properties<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: props=getAllPropertyNames("PC")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, props, "<br>"): name]
 

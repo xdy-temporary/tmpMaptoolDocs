@@ -87,7 +87,7 @@ json.merge - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.merge(array, array, ...)
 
@@ -95,7 +95,7 @@ json.merge - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.merge(object, object, ...)
 
@@ -115,7 +115,7 @@ json.merge - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.merge("[1,2]", "[3,4]", "[1,2]")]
 
@@ -128,7 +128,7 @@ json.merge - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.merge("{a:1, b:2}", "{c:10, d:7}")]
 
@@ -141,7 +141,7 @@ json.merge - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.merge("{a:1, b:2}", "{c:10, d:7}", "{a:11, z:7}")]
 

@@ -82,7 +82,7 @@ argCount - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      argCount()
 
@@ -99,19 +99,19 @@ argCount - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: numArgs = argCount()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: total = 0]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h,count(numArgs): total = total + arg(roll.count)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: total]
 

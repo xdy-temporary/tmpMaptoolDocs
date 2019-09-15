@@ -57,7 +57,7 @@ subtract - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: num = subtract(num, num, ...)]
 
@@ -70,11 +70,11 @@ subtract - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: subtract(10, 2, 4)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: subtract(9, 10, 3)]
 

@@ -81,7 +81,7 @@ setLabel - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLabel(label)
 
@@ -89,7 +89,7 @@ setLabel - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLabel(label, id)
 

@@ -61,7 +61,7 @@ listReplace - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listReplace(list, index, value)
 
@@ -69,7 +69,7 @@ listReplace - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listReplace(list, index, value, delim)
 
@@ -84,7 +84,7 @@ listReplace - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listReplace("This, isnt, a , test", 1, "is")]
 
@@ -98,7 +98,7 @@ listReplace - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listReplace("This: isnt: a: test", 1, "is", ":")]
 
@@ -112,15 +112,15 @@ listReplace - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ListVar = "This, is, a, great, test"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ListVar = listReplace(ListVar, 3, "silly")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: ListVar]
 

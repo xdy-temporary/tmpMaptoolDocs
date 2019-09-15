@@ -60,7 +60,7 @@ mod - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = mod(dividend,divisor)]
 
@@ -73,7 +73,7 @@ mod - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: mod(14,6)]
 
@@ -83,7 +83,7 @@ mod - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: mod(10,5)]
 
@@ -93,7 +93,7 @@ mod - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: mod(-13,4)]
 
@@ -103,7 +103,7 @@ mod - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: mod(16.4,7)]
 
@@ -113,7 +113,7 @@ mod - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: mod(16,7.5)]
 

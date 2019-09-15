@@ -78,11 +78,11 @@ token.gm_name - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:secretName=token.gm_name]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      GM's Name: [secretName]
 
@@ -95,7 +95,7 @@ token.gm_name - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:token.gm_name = "Soldier"]
 

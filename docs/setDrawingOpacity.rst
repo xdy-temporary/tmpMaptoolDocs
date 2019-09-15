@@ -79,7 +79,7 @@ setDrawingOpacity - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setDrawingOpacity(mapName, drawingId, opacity)
 
@@ -101,11 +101,11 @@ setDrawingOpacity - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setDrawingOpacity("Grasslands", "0000000094218C675800000000000000",0.5)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:refreshDrawing("Grasslands", "0000000094218C675800000000000000")]
 

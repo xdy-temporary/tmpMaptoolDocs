@@ -71,21 +71,21 @@ macro.return - MapToolDoc
          |    .. container::                 |    .. container::                 |
          |    mtmacro source-mtmacro         |    mtmacro source-mtmacro         |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |             [h:damageDice="2d6"]  |             <!-- getDamage Macro  |
          |                                   | -->                               |
-         |       #. .. code:: de1            |                                   |
-         |                                   |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |                                   |
+         |                                   |       #. .. code-block:: none            |
          |             [MACRO("getDamage@Lib |                                   |
          | :combat"):damageDice]             |             [h:returnData = ""]   |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |             [h:damageProperties=m |             [h:damageRoll = eval( |
          | acro.return]                      | macro.args) + 9]                  |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |             [h:varsFromStrProp(da |             [h:damageType = "pier |
          | mageProperties)]                  | cing"]                            |
@@ -95,19 +95,19 @@ macro.return - MapToolDoc
          |                                   |             You hit your target f |
          |                                   | or [r:damageRoll] damage!         |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             [h:returnData=setStrP |
          |                                   | rop(returnData,"damType", damageT |
          |                                   | ype)]                             |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             [h:returnData=setStrP |
          |                                   | rop(returnData,"damage", damageRo |
          |                                   | ll)]                              |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             [h:macro.return=retur |
          |                                   | nData]                            |

@@ -56,11 +56,11 @@ squareroot - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: num = squareroot(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: num = sqrt(num)]
 
@@ -73,11 +73,11 @@ squareroot - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: squareroot(9)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: squareroot(81)]
 

@@ -80,7 +80,7 @@ log.fatal - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      log.fatal(message)
 
@@ -99,7 +99,7 @@ log.fatal - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: log.fatal("Well I'd say she certainly had marvelous judgement, Albert, if not particularly good taste.")]
 
@@ -111,7 +111,7 @@ log.fatal - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         1975-03-15 09:19:22.846 [AWT-EventQueue-0] FATAL macro-logger - Well I'd say she certainly had marvelous judgement, Albert, if not particularly good taste.
 

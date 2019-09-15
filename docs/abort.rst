@@ -102,7 +102,7 @@ abort - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      abort(abrt)
 
@@ -126,7 +126,7 @@ abort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: res = input("blah")] [h: abort(res)]
 
@@ -136,7 +136,7 @@ abort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Hah! you will never see this! [abort(0)]
 
@@ -147,7 +147,7 @@ abort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: abort(isGM())]
 
@@ -159,7 +159,7 @@ abort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: abort(isTrusted())]
 
@@ -181,15 +181,15 @@ abort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Call the getAmmo library macro -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [MACRO("getAmmo@Lib:test"): "arrows"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         You have [r:macro.return] arrows.
 
@@ -200,19 +200,19 @@ abort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- getAmmo macro in Lib:test token -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: macro.return = 0]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: abort(json.contains(ammunition, macro.args))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: macro.return = json.get(ammunition, macro.args)]
 

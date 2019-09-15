@@ -80,11 +80,11 @@ createTable - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      createTable(tableName, visible, accessible)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      createTable(tableName, visible, accessible, imageId)
 
@@ -111,11 +111,11 @@ createTable - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:createTable("tableX",1,1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:createTable("tableY",1,1,getTableImage("tableZ"))]
 

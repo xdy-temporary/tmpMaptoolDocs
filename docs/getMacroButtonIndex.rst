@@ -84,7 +84,7 @@ getMacroButtonIndex - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroButtonIndex()
 
@@ -97,7 +97,7 @@ getMacroButtonIndex - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ind = getMacroButtonIndex()]
 

@@ -75,7 +75,7 @@ json.fromList - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.fromList(strList)
 
@@ -83,7 +83,7 @@ json.fromList - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.fromList(strList, delim)
 
@@ -104,7 +104,7 @@ json.fromList - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:json.fromList("a,1,g,4")]
 

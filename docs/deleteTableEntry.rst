@@ -81,7 +81,7 @@ deleteTableEntry - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      deleteTableEntry(tableName,roll)
 
@@ -101,15 +101,15 @@ deleteTableEntry - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:addTableEntry("test",1,3,"bert")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:deleteTableEntry("test",2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setTableRoll("test","")]
 

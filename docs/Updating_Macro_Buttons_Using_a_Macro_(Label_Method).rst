@@ -118,19 +118,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(hasImpersonated())] <!-- Abort macro if no token is impersonated -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(macro,getMacros()), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- 
 
@@ -138,19 +138,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                          == each label can appear more than once (i.e. more than one
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == button with same label, so we need to get all the button
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == indexes for a label
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -158,19 +158,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                          [foreach(index, getMacroIndexes(macro)), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h:props = getMacroProps(index)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [label = getStrProp(props, "label")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isUsed = matches(label, ".* \\(Used\\)")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isEnc = matches(getStrProp(props, "group"), "Encounter Powers")]
 
@@ -178,19 +178,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              [if(isUsed && isEnc): setMacroProps(index, "label="+
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  replace(label, " \\(Used\\)", ""))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)] <!-- Suppress the macros output -->
 
@@ -232,19 +232,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(hasImpersonated())] <!-- Abort macro if no token is impersonated -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(macro,getMacros()), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- 
 
@@ -252,19 +252,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                          == each label can appear more than once (i.e. more than one
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == button with same label, so we need to get all the button
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == indexes for a label
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -272,19 +272,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                          [foreach(index, getMacroIndexes(macro)), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h:props = getMacroProps(index)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [label = getStrProp(props, "label")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isUsed = matches(label, ".* \\(Used\\)")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isEnc = matches(getStrProp(props, "group"), "(Encounter|Daily) Powers")]
 
@@ -292,19 +292,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              [if(isUsed && isEnc): setMacroProps(index, "label="+
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  replace(label, " \\(Used\\)", ""))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)] <!-- Suppress the macros output -->
 
@@ -380,7 +380,7 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: setMacroProps("Burning Hands", "Burning Hands (Used)"]
 
@@ -395,7 +395,7 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            Watch, the watch, you are getting sleepy, your eyelids are getting heavy.... [h: setMacroProps("Sleep", "label=Sleep (Used)")]
 
@@ -418,19 +418,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [found = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [indexes = getMacroIndexes(macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(button, indexes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(found==0), code: {
 
@@ -438,19 +438,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              [props = getMacroProps(button)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [label = getStrProp(props, "label")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isPower = matches(label, macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isDay = matches(getStrProp(props, "group"), 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                                     "Daily Powers")]
 
@@ -458,19 +458,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              [if(isPower == 1 && isDay == 1 && found == 0): 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  setMacroProps(button, "label=" + label + " (Used)")
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(isPower == 1 && isDay == 1 && found == 0): found=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
@@ -492,11 +492,11 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          Oooh tingly!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h, macro("UseDailyPower@Lib:DnD4ePowers"): "Lay On Hands"]
 
@@ -517,19 +517,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [found = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [indexes = getMacroIndexes(macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(button, indexes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(found==0), code: {
 
@@ -537,19 +537,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              [props = getMacroProps(button)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [label = getStrProp(props, "label")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isPower = matches(label, macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isDay = matches(getStrProp(props, "group"), 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                                     "Daily Powers")]
 
@@ -557,19 +557,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              [if(isPower == 1 && isDay == 1 && found == 0): 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  setMacroProps(button, "label=" + label + " (Used)")
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(isPower == 1 && isDay == 1 && found == 0): found=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
@@ -577,19 +577,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- if "free" one is not found then inform user they can't do it -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(found==0), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [dialog("PowerUsed"):  {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <title>Can Not Use Power</title>
 
@@ -597,19 +597,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              <meta name="temporary" content="true">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              You have already used [r: macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(found)] <!-- Abort the macro if an unused power was not found -->
 
@@ -625,19 +625,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [found = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [indexes = getMacroIndexes(macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(button, indexes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(found==0), code: {
 
@@ -645,19 +645,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              [props = getMacroProps(button)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [label = getStrProp(props, "label")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isPower = matches(label, macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [isEnc = matches(getStrProp(props, "group"), 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                                     "Daily Powers")]
 
@@ -665,19 +665,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              [if(isPower == 1 && isEnc == 1 && found == 0): 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  setMacroProps(button, "label=" + label + " (Used)")
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(isPower == 1 && isEnc == 1 && found == 0): found=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
@@ -685,19 +685,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- if "free" one is not found then inform user they can't do it -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(found==0), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [dialog("PowerUsed"):  {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <title>Can Not Use Power</title>
 
@@ -705,19 +705,19 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
                              <meta name="temporary" content="true">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              You have already used [r: macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(found)] <!-- Abort the macro if an unused power was not found -->
 

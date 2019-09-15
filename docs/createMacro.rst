@@ -83,7 +83,7 @@ createMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      createMacro(label, command)
 
@@ -91,7 +91,7 @@ createMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      createMacro(label, command, props)
 
@@ -99,7 +99,7 @@ createMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      createMacro(label, command, props, delim)
 
@@ -107,7 +107,7 @@ createMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      createMacro(label, command, props, delim, id)
 
@@ -117,7 +117,7 @@ createMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      createMacro(props)
 
@@ -125,7 +125,7 @@ createMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      createMacro(props, id)
 
@@ -209,15 +209,15 @@ createMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [createMacro("Test", "this is a test", "autoExecute=true;color=blue", ";") ]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [createMacro("Another Test", "this is a test", 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                      "autoExecute=true;color=red;fontColor=white", ";") ]
 
@@ -233,11 +233,11 @@ createMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: createMacro("myMacro", "[macro('aMacro@Lib:Test'): 'aParameter']",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "autoExecute=true;group=Weapons") ]
 

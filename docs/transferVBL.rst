@@ -81,19 +81,19 @@ transferVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      transferVBL(value)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      transferVBL(value, delete)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      transferVBL(value, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      transferVBL(value, delete, id)
 

@@ -83,15 +83,15 @@ getTokenRotation - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenRotation()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenRotation(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenRotation(id, mapname)
 
@@ -124,19 +124,19 @@ getTokenRotation - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: switchToken("Mage")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: token.name] - [r: r = getTokenRotation()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: switchToken("Elf")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: token.name] - [r: r = getTokenRotation()]<br>
 
@@ -144,15 +144,15 @@ getTokenRotation - MapToolDoc
 
                         [h: switchToken("Hero")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: token.name] - [r: r = getTokenRotation()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: switchToken("Troll")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: token.name] - [r: r = getTokenRotation()]
 

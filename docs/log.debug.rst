@@ -80,7 +80,7 @@ log.debug - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      log.debug(message)
 
@@ -99,7 +99,7 @@ log.debug - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: log.debug("Switched to map " + getCurrentMapName())]
 
@@ -111,7 +111,7 @@ log.debug - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         1987-09-25 08:52:18.853 [AWT-EventQueue-0] DEBUG macro-logger - Switched to map Pit of Despair
 

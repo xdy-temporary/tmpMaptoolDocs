@@ -64,11 +64,11 @@ getAllPlayerNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getAllPlayerNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getAllPlayerNames(delim)
 
@@ -90,15 +90,15 @@ getAllPlayerNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Players Connected<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: players = getAllPlayerNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, players, "<br>"): name]
 

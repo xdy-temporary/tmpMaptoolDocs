@@ -75,7 +75,7 @@ deselectTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      deselectTokens()
 
@@ -83,7 +83,7 @@ deselectTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      deselectTokens(id)
 
@@ -91,7 +91,7 @@ deselectTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      deselectTokens(tokens, delim)
 
@@ -121,7 +121,7 @@ deselectTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:deselectTokens("Adventurer")]
 
@@ -132,7 +132,7 @@ deselectTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:deselectTokens("Adventurer, Orc 2, Goblin 1", 0, ",")]
 

@@ -60,7 +60,7 @@ isVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isVisible(x,y)
 
@@ -68,7 +68,7 @@ isVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isVisible(x,y,id)
 
@@ -101,19 +101,19 @@ isVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- lets check if token1 can see token2 -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: token1 = "Hero"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id1 = findToken(token1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
@@ -121,19 +121,19 @@ isVisible - MapToolDoc
 
                         [h: token2 = "Troll"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id2 = findToken(token2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- get the map coordinates of token2 -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- i want to check if the center of the occupied cell can be seen -->
 
@@ -141,19 +141,19 @@ isVisible - MapToolDoc
 
                         <!-- getTokenX/Y retrieves the top-left corner, so -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- in a 50 pixel grid the center is offset by 25 pixel -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: x = getTokenX(1, id2)+25]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: y = getTokenY(1, id2)+25]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
@@ -161,7 +161,7 @@ isVisible - MapToolDoc
 
                         <!-- and final the check for visiblity -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getName(id1)] <b>[r, if(isVisible(x,y, id1)): "can"; "cannot"]</b> see [r:getName(id2)].
 

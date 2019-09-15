@@ -77,19 +77,19 @@ getLights - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLights()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLights(type)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLights(type, delim)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLights(type, delim, id)
 
@@ -134,7 +134,7 @@ getLights - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [getLights()]
 
@@ -150,7 +150,7 @@ getLights - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [getLights("Generic")]
 

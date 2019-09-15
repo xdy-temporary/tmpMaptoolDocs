@@ -85,15 +85,15 @@ isOwnedByAll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isOwnedByAll()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isOwnedByAll(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isOwnedByAll(id, mapname)
 
@@ -127,7 +127,7 @@ isOwnedByAll - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r, if(isOnwedByAll()): "Anyone can edit me"]
 

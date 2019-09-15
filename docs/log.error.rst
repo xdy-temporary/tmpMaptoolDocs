@@ -80,7 +80,7 @@ log.error - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      log.error(message)
 
@@ -99,7 +99,7 @@ log.error - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: log.error(getPlayerName() + " chose poorly")]
 
@@ -111,7 +111,7 @@ log.error - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         1989-05-24 08:13:32.911 [AWT-EventQueue-0] ERROR macro-logger - Bob chose poorly.
 

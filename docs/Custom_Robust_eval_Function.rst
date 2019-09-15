@@ -65,7 +65,7 @@ Custom Robust eval Function - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ defineFunction( "eval", "evalFunction@this", 1, 0 ) ]
 
@@ -79,19 +79,19 @@ Custom Robust eval Function - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      //  Error handling
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ assert( argCount() >= 1, "<b>eval()</b> - Invalid number of parameters <i>0</i>,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                                  expected at least <i>1</i> parameter.", 0 ) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -99,19 +99,19 @@ Custom Robust eval Function - MapToolDoc
 
                      //  Initialise variables
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ X_Expression_X = arg( argCount()-1 ) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ X_CancelEval_X = 0 ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ X_TypeTest_X = json.type( X_Expression_X ) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -119,19 +119,19 @@ Custom Robust eval Function - MapToolDoc
 
                      //  Handle all numbers
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ if( isNumber( X_Expression_X ) == 1 ), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [ X_CancelEval_X = 1 ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      } ]
 
@@ -139,19 +139,19 @@ Custom Robust eval Function - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      //  Handle empty strings
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ if( X_TypeTest_X == "UNKNOWN" ), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ if( X_Expression_X == "" ), code:
 
@@ -159,19 +159,19 @@ Custom Robust eval Function - MapToolDoc
 
                          {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [ X_CancelEval_X = 1 ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          } ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      } ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -179,19 +179,19 @@ Custom Robust eval Function - MapToolDoc
 
                      //  Handle JSON types
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ if( X_TypeTest_X == "ARRAY" || X_TypeTest_X == "OBJECT" ), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ X_CancelEval_X = 1 ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      } ]
 
@@ -199,19 +199,19 @@ Custom Robust eval Function - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      //  Evaluate or cancel, then return
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ if( X_CancelEval_X == 1 ), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ macro.return = X_Expression_X ]
 
@@ -219,11 +219,11 @@ Custom Robust eval Function - MapToolDoc
 
                      };{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ macro.return = oldFunction( X_Expression_X ) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      } ]
 

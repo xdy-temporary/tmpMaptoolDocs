@@ -101,7 +101,7 @@ setVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setVisible(visible)
 
@@ -109,7 +109,7 @@ setVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setVisible(visible, id)
 

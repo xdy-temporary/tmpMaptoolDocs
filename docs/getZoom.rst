@@ -75,7 +75,7 @@ getZoom - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getZoom()
 
@@ -92,11 +92,11 @@ getZoom - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: z = getZoom()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setZoom(2*z)]
 
@@ -106,11 +106,11 @@ getZoom - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: z = getZoom()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setZoom(z+0.1)]
 
@@ -120,11 +120,11 @@ getZoom - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: z = getZoom()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setZoom(z-0.1)]
 

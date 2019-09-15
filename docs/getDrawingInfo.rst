@@ -82,7 +82,7 @@ getDrawingInfo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDrawingInfo(mapName, drawingId)
 
@@ -102,15 +102,15 @@ getDrawingInfo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id = findDrawings(getCurrentMapName(),"Funky Shape")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dinfo = getDrawingInfo(getCurrentMapName(), id)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>[r: json.indent(dinfo,2)]</pre>
 
@@ -120,19 +120,19 @@ getDrawingInfo - MapToolDoc
 
                .. container:: css source-css
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "fillColor": "#ffffff",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "path":   [
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
@@ -140,19 +140,19 @@ getDrawingInfo - MapToolDoc
 
                               "x": 250,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "y": 200
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "x": 250,
 
@@ -160,19 +160,19 @@ getDrawingInfo - MapToolDoc
 
                               "y": 400
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "x": 500,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "y": 400
 
@@ -180,19 +180,19 @@ getDrawingInfo - MapToolDoc
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "x": 500,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "y": 200
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             },
 
@@ -200,19 +200,19 @@ getDrawingInfo - MapToolDoc
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "x": 400,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "y": 200
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
@@ -220,19 +220,19 @@ getDrawingInfo - MapToolDoc
 
                               "x": 400,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "y": 300
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "x": 350,
 
@@ -240,19 +240,19 @@ getDrawingInfo - MapToolDoc
 
                               "y": 300
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "x": 350,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "y": 200
 
@@ -260,19 +260,19 @@ getDrawingInfo - MapToolDoc
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "x": 250,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               "y": 200
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             }
 
@@ -280,19 +280,19 @@ getDrawingInfo - MapToolDoc
 
                           ],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "penWidth": 3,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "name": "Funky Shape",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "bounds":   {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "x": 250,
 
@@ -300,19 +300,19 @@ getDrawingInfo - MapToolDoc
 
                             "width": 250,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "y": 200,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "height": 200
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "penColor": "#000000",
 
@@ -320,19 +320,19 @@ getDrawingInfo - MapToolDoc
 
                           "id": "B7041D43935D4BDCA330E431D892DEAB",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "type": "Polygon",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "opacity": 1,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "isEraser": 0,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "layer": "TOKEN"
 

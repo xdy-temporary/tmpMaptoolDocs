@@ -62,19 +62,19 @@ playStream - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      playStream(uri)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      playStream(uri, cycleCount)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      playStream(uri, cycleCount, volume)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      playStream(uri, cycleCount, volume, start)
 

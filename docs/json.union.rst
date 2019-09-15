@@ -78,7 +78,7 @@ json.union - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.union(array, array, ...)
 
@@ -86,7 +86,7 @@ json.union - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.union(object, object, ...)
 
@@ -106,15 +106,15 @@ json.union - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h: array1 = json.append("",1,2,3,4)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h: array2 = json.append("",3,4,5,6)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [r: json.union(array1,array2)]
 

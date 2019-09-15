@@ -82,19 +82,19 @@ tableImage - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      tableImage(name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      tableImage(name, row)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      tableImage(name, row, size)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      tblImage(name)
 
@@ -102,7 +102,7 @@ tableImage - MapToolDoc
 
                      tblImage(name, row)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      tblImage(name, row, size)
 
@@ -131,7 +131,7 @@ tableImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <image src='[r: tableImage("tbl1")]'></image>
 
@@ -143,7 +143,7 @@ tableImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <image src='[r: tableImage("tbl1", 1)]'></image>
 
@@ -154,7 +154,7 @@ tableImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <image src='[r: tableImage("tbl1", "1d4", 40)]'></image>
 

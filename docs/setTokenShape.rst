@@ -81,15 +81,15 @@ setTokenShape - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenShape(shape)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenShape(shape, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenShape(shape, id, mapname)
 
@@ -125,11 +125,11 @@ setTokenShape - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: newShape = "CIRCLE"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: setTokenShape(newShape)]
 
@@ -139,7 +139,7 @@ setTokenShape - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Circle
 
@@ -149,15 +149,15 @@ setTokenShape - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: newShape = "TOP DOWN"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: tokenName = "Some Token"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: setTokenShape(newShape,tokenName)]
 
@@ -167,7 +167,7 @@ setTokenShape - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Top down
 

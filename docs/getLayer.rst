@@ -91,15 +91,15 @@ getLayer - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLayer()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLayer(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLayer(id, mapname)
 

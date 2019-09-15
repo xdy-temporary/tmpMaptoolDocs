@@ -60,11 +60,11 @@ json.length - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: len = json.length(jobj)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: len = json.length(jarr)]
 
@@ -77,11 +77,11 @@ json.length - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromStrProp("a=1;b=44;c=12")] [json.length(a)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromList("a,1,g,4")][json.length(a)]
 

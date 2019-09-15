@@ -82,11 +82,11 @@ herolab.getInfo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.getInfo(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.getInfo(id,field)
 
@@ -107,7 +107,7 @@ herolab.getInfo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [herolab.getInfo()]
 
@@ -117,19 +117,19 @@ herolab.getInfo - MapToolDoc
 
                .. container:: javascript source-javascript
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            "summary": "Young red dragon - CE Large dragon",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "masterIndex": null,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "isAlly": false,
 
@@ -137,19 +137,19 @@ herolab.getInfo - MapToolDoc
 
                           "images": ["asset://8799bd3b26bc614cf0a0f33675f5e77d", "asset://80b3ea5b47f5f1c7aec06a28219cde47"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            "portfolioPath": "C:\\Users\\John\\Documents\\Pathfinder\\Giantslayer\\Episode 5 tokens\\",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "playerName": "Joe",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "isMinion": false,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "portfolioFile": "C:\\Users\\John\\Documents\\Pathfinder\\Giantslayer\\Episode 5 tokens\\Part 3 GS 5.por",
 
@@ -157,19 +157,19 @@ herolab.getInfo - MapToolDoc
 
                            "gameSystem": "Pathfinder Roleplaying Game",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "heroLabIndex": "11",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            "isDirty": true,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "name": "Young Red Dragon #3",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "lastModified": "Fri Nov 02 16:28:33 CDT 2018",
 
@@ -177,7 +177,7 @@ herolab.getInfo - MapToolDoc
 
                          "masterName": ""
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }
 
@@ -188,7 +188,7 @@ herolab.getInfo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: isMinion = herolab.getInfo("Orc 23","isMinion")]
 
@@ -198,7 +198,7 @@ herolab.getInfo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         1
 

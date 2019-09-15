@@ -82,7 +82,7 @@ json.intersection - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.intersection(array, array, ...)
 
@@ -90,7 +90,7 @@ json.intersection - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.intersection(object, object, ...)
 
@@ -110,15 +110,15 @@ json.intersection - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h: array1 = json.append("",1,2,3,4)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h: array2 = json.append("",3,4,5,6)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [r: json.intersection(array1,array2)]
 
@@ -134,15 +134,15 @@ json.intersection - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h: arrayOfSelectedNames = getSelectedNames("json")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h: arrayOfNamesOnMap = getTokenNames("json")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [r: json.intersection(arrayOfSelectedNames,arrayOfNamesOnMap)]
 

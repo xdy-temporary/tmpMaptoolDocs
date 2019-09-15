@@ -61,7 +61,7 @@ substring - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      substring(str, start)
 
@@ -69,7 +69,7 @@ substring - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      substring(str, start, end)
 
@@ -82,11 +82,11 @@ substring - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [substring("This is a test", 5)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [substring("This is a test", 5, 7)]
 

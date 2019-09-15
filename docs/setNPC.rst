@@ -85,15 +85,15 @@ setNPC - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setNPC()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setNPC(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setNPC(id, mapname)
 

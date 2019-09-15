@@ -74,7 +74,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(condition): true_body]
 
@@ -82,7 +82,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(condition): true_body; false_body]
 
@@ -146,7 +146,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [R, if(((1))): "true";"false"]
 
@@ -186,15 +186,15 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:val=12]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(val == 12): newVal=12*12]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      New Value = [r: newVal]
 
@@ -206,7 +206,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if((val > 12 && val < 24) || val == 5): val=1 ; val=0]
 
@@ -217,7 +217,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if (! isNumber(val)): val = 0)]
 
@@ -225,7 +225,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if (isNumber(val) == 0): val = 0)]
 
@@ -233,7 +233,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if (isNumber(val) == false): val = 0)]
 
@@ -243,11 +243,11 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(getName(getSelected()) == "Giant Rat"): val=1]  --- ERROR, too many parenthesis on condition!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(getName() == "Giant Rat")): val=1] ---  This is OK.
 

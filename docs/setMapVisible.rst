@@ -65,11 +65,11 @@ setMapVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMapVisible(visible)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMapVisible(visible, mapName)
 
@@ -88,11 +88,11 @@ setMapVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setMapVisible(1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setMapVisible(1, "Grasslands")]
 

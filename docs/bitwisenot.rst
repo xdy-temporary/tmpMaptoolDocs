@@ -87,11 +87,11 @@ bitwisenot - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = bnot(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = bitwisenot(num)]
 
@@ -104,7 +104,7 @@ bitwisenot - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [bnot(1)]
 
@@ -114,7 +114,7 @@ bitwisenot - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bnot(1)]
 
@@ -124,7 +124,7 @@ bitwisenot - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bnot(12]
 

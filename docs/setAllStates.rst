@@ -117,7 +117,7 @@ setAllStates - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setAllStates(1)]
 
@@ -127,7 +127,7 @@ setAllStates - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setAllStates(0)]
 

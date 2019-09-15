@@ -79,7 +79,7 @@ for (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(var, start, end): body]
 
@@ -87,7 +87,7 @@ for (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(var, start, end, stepsize): body]
 
@@ -95,7 +95,7 @@ for (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(var, start, end, stepsize, separator): body]
 
@@ -118,7 +118,7 @@ for (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(i,0,10): "i is now " + i]
 
@@ -128,7 +128,7 @@ for (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(i,10,0,-2): "i is now " + i]
 

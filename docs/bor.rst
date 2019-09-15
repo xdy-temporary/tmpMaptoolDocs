@@ -67,11 +67,11 @@ bitwiseor - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = bor(num, num, ...)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = btwiseor(num, num, ...)]
 
@@ -84,7 +84,7 @@ bitwiseor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bor(1,0)]
 
@@ -94,7 +94,7 @@ bitwiseor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bor(1,1)]
 
@@ -104,7 +104,7 @@ bitwiseor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bor(0,0)]
 
@@ -114,7 +114,7 @@ bitwiseor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bor(2, 4]
 
@@ -125,7 +125,7 @@ bitwiseor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: band(20, 12)]
 

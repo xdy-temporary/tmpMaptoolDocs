@@ -63,7 +63,7 @@ listAppend - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listAppend(list, value)
 
@@ -71,7 +71,7 @@ listAppend - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listAppend(list, value, delim)
 
@@ -88,7 +88,7 @@ listAppend - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listAppend("This, is, a", "test")]
 
@@ -98,7 +98,7 @@ listAppend - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listAppend("This: is: a:", "test", ":")]
 

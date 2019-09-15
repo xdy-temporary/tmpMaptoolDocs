@@ -69,11 +69,11 @@ findToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      findToken(name/ID)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      findToken(name/ID,mapname)
 
@@ -94,11 +94,11 @@ findToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id = findToken("Hero")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [if (id == "", "Token not found!", "Token found")]
 
@@ -109,19 +109,19 @@ findToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Prompts for "TokenName" as it isn't already defined -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: name = TokenName]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id = findToken(name)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r, if(id == ""), code: {
 
@@ -129,19 +129,19 @@ findToken - MapToolDoc
 
                          Not on current map. Searching Stash.<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          <!-- Search on the map named "Stash" -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h: id = findToken(name, "Stash")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          [r: if(id == "", name + " not found!", name + " found in Stash")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         };{
 
@@ -149,7 +149,7 @@ findToken - MapToolDoc
 
                           [r: name] found on map [r: getCurrentMapName()].
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 

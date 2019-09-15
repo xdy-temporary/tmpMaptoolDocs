@@ -65,7 +65,7 @@ getInitiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getInitiative()
 
@@ -78,7 +78,7 @@ getInitiative - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Your initiative is [r: getInitiative()]
 

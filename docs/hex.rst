@@ -55,7 +55,7 @@ hex - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: hexVal = hex(num)
 
@@ -68,7 +68,7 @@ hex - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: hex(23)]
 
@@ -78,7 +78,7 @@ hex - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: hex(10)]
 

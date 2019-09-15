@@ -71,7 +71,7 @@ keep - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      keep(times, sides, highDice)
 
@@ -93,7 +93,7 @@ keep - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: keep(5, 10, 2)]
 
@@ -107,19 +107,19 @@ keep - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTimes = 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceSides = 10]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceKeep = 2]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: keep(DiceTimes, DiceSides, DiceKeep)]
 

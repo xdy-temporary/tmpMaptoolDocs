@@ -80,7 +80,7 @@ setPenColor - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setPenColor(mapName, drawingId, paint)
 
@@ -102,15 +102,15 @@ setPenColor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setPenColor("Grasslands", "0000000094218C675800000000000000","red")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setPenColor("Grasslands", "0000000094218C675800000000000000","#ff0000")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setPenColor("Grasslands", "0000000094218C675800000000000000","asset://ffff0fe019c241c7456b0ec0b347ef37")]
 

@@ -85,7 +85,7 @@ getMacroCommand - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroCommand(index)
 
@@ -93,7 +93,7 @@ getMacroCommand - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroCommand(index, id)
 

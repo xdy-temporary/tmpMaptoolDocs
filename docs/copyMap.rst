@@ -64,7 +64,7 @@ copyMap - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      copyMap(existingMapName, newMapName)
 
@@ -84,11 +84,11 @@ copyMap - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:copyMap("BaseMap","Tower")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setMapVisible(1,"Tower")]
 

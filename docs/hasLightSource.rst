@@ -91,19 +91,19 @@ hasLightSource - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasLightSource()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasLightSource(type)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasLightSource(type, name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasLightSource(type, name, id)
 
@@ -144,7 +144,7 @@ hasLightSource - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: l = hasLightSource()]
 
@@ -154,7 +154,7 @@ hasLightSource - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: l = hasLightSource("D20", "Lamp - 15")]
 
@@ -164,7 +164,7 @@ hasLightSource - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: l = hasLightSource("D20")
 

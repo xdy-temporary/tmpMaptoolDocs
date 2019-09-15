@@ -93,15 +93,15 @@ getSize - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSize()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSize(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSize(id, mapname)
 

@@ -79,7 +79,7 @@ setTableRoll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTableRoll(tableName, roll)
 
@@ -99,11 +99,11 @@ setTableRoll - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setTableRoll("test","")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setTableRoll("test","1d6+1")]
 

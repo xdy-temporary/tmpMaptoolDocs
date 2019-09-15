@@ -85,15 +85,15 @@ setState - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setState(state, value)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setState(state, value, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setState(state, value, id, mapname)
 
@@ -127,7 +127,7 @@ setState - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setState("Dead", 1)]
 
@@ -139,7 +139,7 @@ setState - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setState("Dead", 0)]
 

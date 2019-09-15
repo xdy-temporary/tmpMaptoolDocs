@@ -61,7 +61,7 @@ getAlwaysVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getAlwaysVisible([id])
 
@@ -87,11 +87,11 @@ getAlwaysVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         The Always Visible setting for Dragon is currently set to: [r: getAlwaysVisible("Dragon")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, token("Dragon"): isVisible = getAlwaysVisible()]
 

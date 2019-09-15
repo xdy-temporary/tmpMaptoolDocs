@@ -62,11 +62,11 @@ json.toStrProp - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: strProp = json.toStrProp(jobj)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: strProp = json.toStrProp(jobj, delim)]
 
@@ -79,11 +79,11 @@ json.toStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromStrProp("a=1;b=44;c=12")] [r:json.toStrProp(a)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromList("a,1,g,4")][r:json.toStrProp(a)]
 

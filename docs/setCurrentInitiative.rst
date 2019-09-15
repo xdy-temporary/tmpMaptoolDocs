@@ -60,7 +60,7 @@ setCurrentInitiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: setCurrentInitiative(offset)]
 
@@ -75,7 +75,7 @@ setCurrentInitiative - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setCurrentInitiative(3)]
 
@@ -86,11 +86,11 @@ setCurrentInitiative - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setCurrentInitiative(-1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setCurrentInitiative(999)]
 

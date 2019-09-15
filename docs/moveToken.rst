@@ -73,15 +73,15 @@ moveToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      moveToken(x, y)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      moveToken(x, y, units)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      moveToken(x, y, units, id)
 
@@ -117,19 +117,19 @@ moveToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: CurrentX = getTokenX()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: CurrentY = getTokenY()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: NewX = CurrentX + 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: NewY = CurrentY - 10]
 
@@ -144,19 +144,19 @@ moveToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: CurrentX = getTokenX(0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: CurrentY = getTokenY(0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: NewX = CurrentX + 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: NewY = CurrentY - 10]
 

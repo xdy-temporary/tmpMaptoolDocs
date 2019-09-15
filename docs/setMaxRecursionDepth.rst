@@ -74,7 +74,7 @@ setMaxRecursionDepth - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMaxRecursionDepth(depth)
 
@@ -96,7 +96,7 @@ setMaxRecursionDepth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setMaxRecursionDepth(200)]
 

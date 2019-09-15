@@ -60,7 +60,7 @@ isTrusted - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isTrusted()
 
@@ -73,7 +73,7 @@ isTrusted - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r, if(isTrusted()): "I can run the trusted functions! yay!"]
 

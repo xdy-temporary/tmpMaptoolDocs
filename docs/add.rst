@@ -79,15 +79,15 @@ add - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: result = add(val1, val2, ...)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: result = sum(val1, val2, ...)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: result = concat(val1, val2, ...)]
 
@@ -102,7 +102,7 @@ add - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: add(1,4)]
 
@@ -125,7 +125,7 @@ add - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: add("Mary", "had", "a", "little", "lamb")]
 
@@ -148,7 +148,7 @@ add - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: add(1,"4")]
 

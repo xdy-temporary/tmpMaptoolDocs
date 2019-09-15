@@ -85,7 +85,7 @@ token (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [token(identifier): single_statement]
 
@@ -93,19 +93,19 @@ token (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [token(identifier), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         statement1
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         statement2
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -131,11 +131,11 @@ token (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, token("Goblin 21"): health = floor(100*HP/HPmax)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      The healthbar of <b>Goblin 21</b> should be at [r: health]%.
 

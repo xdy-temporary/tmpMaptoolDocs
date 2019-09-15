@@ -75,7 +75,7 @@ setHalo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setHalo(color)
 
@@ -83,7 +83,7 @@ setHalo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setHalo(color, id)
 
@@ -123,7 +123,7 @@ setHalo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setHalo("None")]
 
@@ -134,7 +134,7 @@ setHalo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setHalo("Red")]
 
@@ -145,7 +145,7 @@ setHalo - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setHalo("#33AAFF")]
 

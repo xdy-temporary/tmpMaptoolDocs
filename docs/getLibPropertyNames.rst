@@ -80,7 +80,7 @@ getLibPropertyNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLibPropertyNames()
 
@@ -88,7 +88,7 @@ getLibPropertyNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLibPropertyNames(delim)
 
@@ -96,7 +96,7 @@ getLibPropertyNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLibPropertyNames(id, delim)
 
@@ -126,11 +126,11 @@ getLibPropertyNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getLibPropertyNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 
@@ -138,11 +138,11 @@ getLibPropertyNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getLibPropertyNames("Lib:some_lib_token")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

@@ -59,11 +59,11 @@ json.rolls - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.rolls(roll, dim1)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.rolls(roll, dim1, dim2)
 
@@ -84,7 +84,7 @@ json.rolls - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {json.rolls("3d6", 6)} => [ 11, 7, 15, 8, 10, 13 ]
 
@@ -95,7 +95,7 @@ json.rolls - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {json.rolls("3d6", 6, 4)} => [ [ 11, 13, 11, 13 ], [ 8, 11, 17, 10 ], [ 8, 11, 14, 11 ], [ 6, 8, 13, 6 ], [ 6, 11, 8, 10 ], [ 10, 7, 17, 11 ] ]
 

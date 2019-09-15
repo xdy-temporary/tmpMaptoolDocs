@@ -165,19 +165,19 @@ Guide to onTokenMove - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: samplePath = json.append("",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          json.set("", "x", 50, "y", 50), 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          json.set("", "x",  0, "y",  0)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      )]
 
@@ -185,19 +185,19 @@ Guide to onTokenMove - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- samplePath contains 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [{"x":50,"y":50},{"x":0,"y":0}]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       -->
 
@@ -261,19 +261,19 @@ Guide to onTokenMove - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:'<!-- this should be in onTokenMove -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:'<!--Routine for a Trap, trap is only triggered when the subject is moved on or over the Trap Token "Spear Trap"-->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:'<!-- retrieve the path that the token has walked on -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:lastPath     = getLastPath(1)]
 
@@ -281,19 +281,19 @@ Guide to onTokenMove - MapToolDoc
 
                      [h:'<!-- check if that path intersects with the trap token -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:trapPadTriggered = movedOverToken("Spear Trap",lastPath)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, if(!json.isEmpty(trapPadTriggered)), CODE:{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       [h:'<!-- If so trigger the trap for that token, do note that this only works when ONE token is moved. -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:me = getSelectedNames()]
 
@@ -301,19 +301,19 @@ Guide to onTokenMove - MapToolDoc
 
                       [h:switchToken(me)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:attackRoll = d20]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [h:roll=1d6]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h,if(attackRoll > Dexterity):HP=HP-roll]
 
@@ -321,7 +321,7 @@ Guide to onTokenMove - MapToolDoc
 
                         [r,if(attackRoll > Dexterity):"You have triggered a trap and sustained "+roll+" hits.<br>"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };{}]
 
@@ -331,19 +331,19 @@ Guide to onTokenMove - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:'<!-- Routine for a Teleport, this particular routine will move a token from a 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                               teleport token called "Start 1" to another token called "End 1"->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:'<!-- Note that the big difference with the trap macro is that here you have to 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                               stop on the teleport token for it to be triggered, while the trap triggered 
 
@@ -351,19 +351,19 @@ Guide to onTokenMove - MapToolDoc
 
                               when you move OVER OR ONTO the trap token ->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: targetToken = currentToken()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: lastPath    = getLastPath(1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: padName     = "Start 1"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: teleporterTriggered = movedOverToken(padName,lastPath)]
 
@@ -371,19 +371,19 @@ Guide to onTokenMove - MapToolDoc
 
                      [h,token(targetToken): currentLocation = json.set("{}","x",getTokenX(),"y",getTokenY())]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(json.contains(teleporterTriggered,currentLocation)), CODE:{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [teleportEndName = replace(padName, "Start", "End")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:'<!-- This part makes sure that you end up on the same position on the end token as you started on the start token. E.g if you moved the PC onto the Upper left corner of "Start 1" then youll end up on the upper left corner of "End 1"" -->']
 
@@ -391,19 +391,19 @@ Guide to onTokenMove - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:'<!-- Get the actual coordinates "Start 1" and "End 1" -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [Token(padName):         startCentreX = getTokenX(1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [Token(padName):         startCentreY = getTokenY(1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [Token(teleportEndName): endCentreX   = getTokenX(1)]
 
@@ -411,19 +411,19 @@ Guide to onTokenMove - MapToolDoc
 
                          [Token(teleportEndName): endCentreY   = getTokenY(1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:'<!-- Get the coordinates of the moved token -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h, Token(targetToken):CurrentX = getTokenX()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h, Token(targetToken):CurrentY = getTokenY()]
 
@@ -431,19 +431,19 @@ Guide to onTokenMove - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:'<!-- Calculate its relative position -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:NewX = CurrentX + endCentreX - startCentreX]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:NewY = CurrentY + endCentreY - startCentreY]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -451,19 +451,19 @@ Guide to onTokenMove - MapToolDoc
 
                          [h:'<!-- move the token to the new location -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h, Token(targetToken):moveToken(NewX, Newy , 1 )]    
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:'<!-- centre view on the tokens new position. -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [goto(targetToken)]
 
@@ -493,19 +493,19 @@ Guide to onTokenMove - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- this should be in onTokenMove -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- moved token is in context -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- get movement -->
 
@@ -513,19 +513,19 @@ Guide to onTokenMove - MapToolDoc
 
                      [h: mov = getProperty("Movement")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: usedMov = getMoveCount()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- deny move if not allowed, reduce mov prop otherwise -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, if( mov >= usedMov ), code: {
 
@@ -533,19 +533,19 @@ Guide to onTokenMove - MapToolDoc
 
                          [h: mov = mov - usedMov]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: setProperty("Movement", mov)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: tokens.denyMove = 1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <span style="color:red;font-weight:bold;">Move limit exceeded.</span>    
 
@@ -563,15 +563,15 @@ Guide to onTokenMove - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- this should be in onTokenMove -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- clear fog only if pc token moved -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if( isPC() ): exposeFOW()]
 

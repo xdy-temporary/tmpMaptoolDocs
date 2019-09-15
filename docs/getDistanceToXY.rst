@@ -75,7 +75,7 @@ getDistanceToXY - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDistanceToXY(x, y)
 
@@ -83,7 +83,7 @@ getDistanceToXY - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDistanceToXY(x, y, units)
 
@@ -91,7 +91,7 @@ getDistanceToXY - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDistanceToXY(x, y, units, source)
 
@@ -99,7 +99,7 @@ getDistanceToXY - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDistanceToXY(x, y, units, source, metric)
 
@@ -139,7 +139,7 @@ getDistanceToXY - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dist = getDistanceToXY(10, 10)]
 
@@ -150,7 +150,7 @@ getDistanceToXY - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dist = getDistanceToXY(10, 10, 0, "Altar")]
 
@@ -161,7 +161,7 @@ getDistanceToXY - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dist = getDistanceToXY(10, 10, 1, "Altar")]
 
@@ -172,7 +172,7 @@ getDistanceToXY - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: dist = getDistanceToXY(10, 10, 1, "Altar", "NO_GRID")]
 

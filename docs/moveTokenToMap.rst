@@ -70,7 +70,7 @@ moveTokenToMap - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      moveTokenToMap(id, map, x, y, z)
 

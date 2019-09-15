@@ -75,7 +75,7 @@ getNewRolls - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getNewRolls()
 
@@ -95,19 +95,19 @@ getNewRolls - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 1d10: [e: 1D10+2]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get New Rolls: [r: getNewRolls()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [r: getRolled()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6 minimum 2: [e: 3D6L2]<br>
 
@@ -115,7 +115,7 @@ getNewRolls - MapToolDoc
 
                         Get New Rolls: [r: getNewRolls()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [r: getRolled()]
 
@@ -125,19 +125,19 @@ getNewRolls - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          Roll 1d10: « 1D10+2 = 3 + 2 = 5 »
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          Get New Rolls: [3]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          Get Rolled: [3]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          Roll 3d6 minimum 2: « 3D6L2 = 10 »
 
@@ -145,7 +145,7 @@ getNewRolls - MapToolDoc
 
                          Get New Rolls: [5,3,1]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          Get Rolled: [3,5,3,1]
 
@@ -156,19 +156,19 @@ getNewRolls - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 1: [e: 3d6]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getNewRolls()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 2: [e: 3d6]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3: [e: 3d6]<br>
 
@@ -182,19 +182,19 @@ getNewRolls - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 1: « 3d6 = 16 »
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [5,6,5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 2: « 3d6 = 17 »
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3: « 3d6 = 6 »
 

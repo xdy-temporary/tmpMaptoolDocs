@@ -76,7 +76,7 @@ json.removeFirst - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.removeFirst(array1, array2)
 
@@ -97,7 +97,7 @@ json.removeFirst - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.removeFirst('[2,2,4,5,6,6,4]', '[2,6]')]
 
@@ -114,19 +114,19 @@ json.removeFirst - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: a1 = '[1,2,2,2,3,3,4,5,6,6]']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: a2 = '[2,4,6]']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.difference(a1,a2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- a1 has been modified - reset -->
 
@@ -134,7 +134,7 @@ json.removeFirst - MapToolDoc
 
                         [h: a1 = '[1,2,2,2,3,3,4,5,6,6]']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.removeFirst(a1,a2)]
 

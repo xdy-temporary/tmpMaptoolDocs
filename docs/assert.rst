@@ -78,7 +78,7 @@ assert - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      assert(condition, message)
 
@@ -86,7 +86,7 @@ assert - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      assert(condition, message, prefix)
 
@@ -113,7 +113,7 @@ assert - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: assert(isGM(),"This macro is for GM use only.",0)]
 
@@ -129,7 +129,7 @@ assert - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: assert(! isNumber(var), "The variable is a number.",1)]
 

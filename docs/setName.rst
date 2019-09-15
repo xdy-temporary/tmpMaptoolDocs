@@ -63,15 +63,15 @@ setName - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setName(name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setName(name, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setName(name, id, mapname)
 

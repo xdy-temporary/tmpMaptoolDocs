@@ -68,7 +68,7 @@ json.removeAll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.removeAll(firstArray, array, array, ...)
 
@@ -76,7 +76,7 @@ json.removeAll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.removeAll(firstObject, object, object, ...)
 

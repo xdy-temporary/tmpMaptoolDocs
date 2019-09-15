@@ -75,7 +75,7 @@ selectTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      selectTokens()
 
@@ -83,7 +83,7 @@ selectTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      selectTokens(id, add)
 
@@ -91,7 +91,7 @@ selectTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      selectTokens(tokens, add, delim)
 
@@ -126,7 +126,7 @@ selectTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:selectTokens("Adventurer")]
 
@@ -138,7 +138,7 @@ selectTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:selectTokens("Adventurer, Orc 2, Goblin 1", 0, ",")]
 
@@ -151,7 +151,7 @@ selectTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:selectTokens("['Adventurer', 'Orc 2', 'Goblin 1']", 1, "json")]
 

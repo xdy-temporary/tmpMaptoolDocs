@@ -78,7 +78,7 @@ json.set - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      newarr=json.set(jarr, [])
 
@@ -86,7 +86,7 @@ json.set - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      newarr=json.set(jarr, index, value)
 
@@ -94,7 +94,7 @@ json.set - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      newarr=json.set(jarr, index, value, ..., ...)
 
@@ -102,7 +102,7 @@ json.set - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      newobj=json.set(jobj, key, value)
 
@@ -110,7 +110,7 @@ json.set - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      newobj=json.set(jobj, key, value, ..., ...)
 
@@ -147,15 +147,15 @@ json.set - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [json.set("{}", "a", 5)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [json.set("", "a", 5, "b", 8)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [json.set(json.fromList("1,3"), 0, 8)]
 
@@ -177,15 +177,15 @@ json.set - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [myArray = json.append("", 1, 2, 3)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [myArray = json.set(myArray, 0, 5)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [myArray]
 

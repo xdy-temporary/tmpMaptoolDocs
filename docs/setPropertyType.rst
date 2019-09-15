@@ -82,15 +82,15 @@ setPropertyType - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setPropertyType(type)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setPropertyType(type, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setPropertyType(type, id, mapname)
 

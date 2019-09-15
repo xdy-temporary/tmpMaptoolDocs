@@ -78,7 +78,7 @@ json.unique - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.unique(array)
 
@@ -108,19 +108,19 @@ json.unique - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names1 = '["Hero", "Dragon"]']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names2 = getNPCNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = json.merge(names1, names2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.unique(names)]
 

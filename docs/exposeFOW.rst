@@ -107,19 +107,19 @@ exposeFOW - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Expose FoW for selected tokens on current map. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: exposeFOW()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Expose FoW for selected tokens on the named map. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: exposeFOW("Pit of Despair")]
 
@@ -127,19 +127,19 @@ exposeFOW - MapToolDoc
 
                         <!-- Expose FoW for indicated tokens on the named map. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: exposeFOW("Pit of Despair", "Westley, Count Rugen")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Expose FoW for indicated tokens, in a list delimited by a colon (":"), on the named map. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: exposeFOW("Pit of Despair", "Westley:Count Rugen", ":")])]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Expose FoW for indicated tokens in a JSON array on the named map. -->
 

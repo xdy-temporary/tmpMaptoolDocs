@@ -102,7 +102,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       broadcast(message, [targets], [delimiter])
 
@@ -133,7 +133,7 @@ broadcast - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: broadcast("Hello World")]
 
@@ -143,7 +143,7 @@ broadcast - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: broadcast("Hello World", "gm")]
 
@@ -154,7 +154,7 @@ broadcast - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: broadcast("Hello World", "tim, tom")]
 
@@ -164,7 +164,7 @@ broadcast - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: broadcast("Hello World", '["tim", "tom"]')]
 
@@ -174,7 +174,7 @@ broadcast - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: broadcast("Hello World", json.append("", "tim", "tom"))]
 
@@ -186,11 +186,11 @@ broadcast - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: link = macroLinkText("update@Lib:Token", "none", "", "Dragon")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: broadcast(execLink(link), "tim")]
 
@@ -250,7 +250,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: bot_execAllPlayers("update@lib:Token", json.append("","Hello World", 2), "Tim", "all")]
 
@@ -260,7 +260,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: bot_execAllPlayers("update@lib:Token", json.append("","Hello World", 2), bot_all(), "all")]
 
@@ -314,7 +314,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [resultMsg = bot_message('Hello world', 'Header', 'black-white', bot_all(), 'Wolf', '', 0)]
 
@@ -322,7 +322,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [bot_message("Hellow world")]
 
@@ -330,7 +330,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [bot_message("this message is shown to gm only", "GM Only", "red-yellow", bot_gm())]
 
@@ -338,7 +338,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [bot_message("this message is shown to all but gm", "The rest", "yellow-red", bot_ngm())]
 
@@ -348,7 +348,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:bot_message(token.name+" Takes damage", "is attacked","red-white",bot_all(),"Dragon", "Eagle")]
 

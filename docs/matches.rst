@@ -63,7 +63,7 @@ matches - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      matches(str, pattern)
 
@@ -76,15 +76,15 @@ matches - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: matches("This is a test", "test")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: matches("test", "test")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: matches("This is a test", ".*test")]
 

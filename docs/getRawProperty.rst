@@ -66,15 +66,15 @@ getRawProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getRawProperty(prop)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getRawProperty(prop, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getRawProperty(prop, id, mapname)
 

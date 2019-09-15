@@ -62,7 +62,7 @@ encode - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      encode(str)
 
@@ -75,11 +75,11 @@ encode - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: innerPropList = encode("val1=blah ; val2=blahblah")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: props = setStrProp(props, key, innerPropList)]
 

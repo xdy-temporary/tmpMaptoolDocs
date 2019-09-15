@@ -83,7 +83,7 @@ getPenColor - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPenColor(mapName, drawingId)
 
@@ -103,7 +103,7 @@ getPenColor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [getPenColor("Grasslands", "0000000074836E675D00000000000000")]
 

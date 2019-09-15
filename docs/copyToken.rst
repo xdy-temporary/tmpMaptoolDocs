@@ -101,19 +101,19 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      copyToken(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      copyToken(id, numCopies)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      copyToken(id, numCopies, fromMap)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      copyToken(id, numCopies, fromMap, updates)
 
@@ -258,7 +258,7 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: copyToken("Hero")]
 
@@ -268,7 +268,7 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: copyToken("Hero", 1, "Green Room")]
 
@@ -278,7 +278,7 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: copyToken("Hero", 6, "Clone Vat")]
 
@@ -289,19 +289,19 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: cloneNo = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: updates = "{ 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       name: 'Hero Clone - [r: cloneNo = cloneNo + 1]'
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                     }"
 
@@ -309,11 +309,11 @@ copyToken - MapToolDoc
 
                      ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: cloneNo = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: copyToken("Hero", 6, "Clone Vat", updates)]
 
@@ -324,19 +324,19 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: cloneNo = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: x = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: updates = "{ 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       name: 'Hero Clone - [r: cloneNo = cloneNo + 1]',
 
@@ -344,19 +344,19 @@ copyToken - MapToolDoc
 
                                       x: '[r: x = x + 2]',
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       y: 0
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                     }"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: cloneNo = 0]
 
@@ -370,19 +370,19 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: cloneNo = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: x = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: facing = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: updates = "{ 
 
@@ -390,19 +390,19 @@ copyToken - MapToolDoc
 
                                       name: 'Hero Clone - [r: cloneNo = cloneNo + 1]',
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       x: '[r: x = x + 2]',
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       y: 0,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                       facing: '[r: facing = facing + 40]'
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                     }"
 
@@ -410,11 +410,11 @@ copyToken - MapToolDoc
 
                      ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: cloneNo = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: copyToken("Hero", 6, "Clone Vat", updates)]
 
@@ -460,19 +460,19 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: x = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: updates = "{ 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          x: '[r: x = x + 2]',
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          delta: 1,
 
@@ -480,7 +480,7 @@ copyToken - MapToolDoc
 
                      }" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: copyToken(currentToken(), 3, "", updates)]
 
@@ -498,15 +498,15 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:id=copyToken("Hero")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:input("junk|This interruption is required to create the new token. Click ok to continue.|Message |LABEL")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:setProperty("Strength", 3d6,id)]
 
@@ -516,19 +516,19 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:moveTokenFromMap("Hero", "Grasslands")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:setProperty("Strength", 3d6, "Hero")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:moveTokenToMap("Hero", "Grasslands")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:copyToken("Hero", 1, "Grasslands")]
 
@@ -538,19 +538,19 @@ copyToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:moveTokenFromMap("Hero", "Grasslands")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- swap from name to token id as tokens with the same name will soon exist -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:origId = findToken("Hero")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- copy original with same name -->
 
@@ -558,19 +558,19 @@ copyToken - MapToolDoc
 
                      [h:origCopyId = copyToken("Hero", 1, "", "{name: 'Hero'}")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- update original with new properties -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:setProperty("Strength", 3d6, origId)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- copy and then delete original -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:copyToken(origId, 1)]
 
@@ -578,11 +578,11 @@ copyToken - MapToolDoc
 
                      [h:removeToken(origId)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- move the copy from BEFORE the changes back to the original map -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:moveTokenToMap(origCopyId, "Grasslands")]
 

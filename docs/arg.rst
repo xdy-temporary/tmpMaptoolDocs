@@ -89,7 +89,7 @@ arg - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      arg(index)
 
@@ -111,7 +111,7 @@ arg - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [attackRoll(12, -1)]
 
@@ -122,15 +122,15 @@ arg - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: attr = arg(0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: bonus = arg(1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: 1d20 + floor(attr/2) + bonus]
 

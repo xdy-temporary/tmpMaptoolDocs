@@ -80,7 +80,7 @@ log.info - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      log.info(message)
 
@@ -99,7 +99,7 @@ log.info - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: log.info("There's no place like home.")]
 
@@ -111,7 +111,7 @@ log.info - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         1939-08-25 09:19:22.844 [AWT-EventQueue-0] INFO  macro-logger - There's no place like home.
 

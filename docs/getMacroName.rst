@@ -64,7 +64,7 @@ getMacroName - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroName()
 
@@ -77,11 +77,11 @@ getMacroName - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: macroName = getMacroName()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [if(macroName == "chat", "You are running from chat", "You are running the macro called " + macroName)]
 

@@ -78,19 +78,19 @@ setOwner - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwner(ownerName)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwner(ownerName, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwner(ownerName, id, mapname)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwner(ownerNames)
 
@@ -98,7 +98,7 @@ setOwner - MapToolDoc
 
                      setOwner(ownerNames, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwner(ownerNames, id, mapname)
 
@@ -141,7 +141,7 @@ setOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwner("Frank")]
 
@@ -154,7 +154,7 @@ setOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwner("['Peter', 'Paul', 'Mary']")]
 
@@ -164,11 +164,11 @@ setOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: list = json.append("[]", "Peter", "Paul", "Mary")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwner(list)]
 
@@ -180,7 +180,7 @@ setOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwner(getAllPlayerNames("json"))]
 
@@ -192,7 +192,7 @@ setOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwner("")]
 
@@ -202,7 +202,7 @@ setOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwner("[]")]
 
@@ -220,19 +220,19 @@ setOwner - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getOwners("json")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: input = "tab0 | OwnerList || TAB"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: count = 0]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, foreach(name, names), code: {
 
@@ -240,19 +240,19 @@ setOwner - MapToolDoc
 
                             [input = input + strformat(" ## ckb_%{count}|1|%{name}|CHECK")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [count = count+1]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         } ]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: cancel = input(input)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: abort(cancel)]
 
@@ -260,15 +260,15 @@ setOwner - MapToolDoc
 
                         [h: newOwners = "[]"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, for(x,0,count):
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             newOwners = if(eval("ckb_"+x)==0, newOwners, json.append(newOwners, json.get(names, x))) ]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwner(newOwners)]
 

@@ -81,7 +81,7 @@ getLabel - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLabel()
 
@@ -89,7 +89,7 @@ getLabel - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLabel(id)
 

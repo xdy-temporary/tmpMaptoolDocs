@@ -80,11 +80,11 @@ findDrawings - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      findDrawings(mapName, name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      findDrawings(mapName, name, delim)
 
@@ -107,15 +107,15 @@ findDrawings - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:id=findDrawings("Grasslands", "block")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setFillColor("Grasslands", id,"#000000")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:refreshDrawing("Grasslands", id)]
 

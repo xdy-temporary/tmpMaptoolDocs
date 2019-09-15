@@ -81,7 +81,7 @@ setMaxLoopIterations - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMaxLoopIterations(numLoops)
 
@@ -99,7 +99,7 @@ setMaxLoopIterations - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: setMaxLoopIterations()]
 

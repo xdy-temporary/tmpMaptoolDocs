@@ -76,7 +76,7 @@ getMacros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacros()
 
@@ -84,7 +84,7 @@ getMacros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacros(delim)
 
@@ -92,7 +92,7 @@ getMacros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacros(delim, id)
 
@@ -123,11 +123,11 @@ getMacros - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: macroLabels = getMacros()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(macro, macroLabels, "<br>"): macro]
 

@@ -100,7 +100,7 @@ evalMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      evalMacro(macroString)
 
@@ -108,7 +108,7 @@ evalMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      execMacro(macroString)
 
@@ -126,7 +126,7 @@ evalMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setNotes(evalMacro('[r,macro("CreateNotes@Lib:Notes"): ""]'))]
 
@@ -141,7 +141,7 @@ evalMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: evalMacro("[h: TestVar1 = 5][h: TestVar2 = 10][TestVar1+TestVar2]")]
 
@@ -153,15 +153,15 @@ evalMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar3 = 10]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar4 = 20]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: evalMacro("[TestVar3+TestVar4]")]
 
@@ -173,19 +173,19 @@ evalMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar3 = 15]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar4 = 30]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: evalMacro("[TestVar5 = TestVar3+TestVar4]")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [TestVar5]
 
@@ -197,15 +197,15 @@ evalMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar6 = 20]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar7 = 40]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: execMacro("[TestVar6+TestVar7]")]
 
@@ -218,19 +218,19 @@ evalMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar8 = 50]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar9 = 100]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar10 = 0]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: execMacro("[TestVar10 = TestVar8+TestVar9]")]
 
@@ -246,7 +246,7 @@ evalMacro - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: evalMacro("[h:roll=1d20]You roll [r:roll] and you [r:if(roll<10, 'hit', 'miss')] your target.")]
 

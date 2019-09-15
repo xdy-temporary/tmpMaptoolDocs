@@ -103,11 +103,11 @@ Token State - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:isBloodied=state.Bloodied]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [isBloodied]
 
@@ -139,7 +139,7 @@ Token State - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:state.Dead=if(HP <= 0, 1, 0)]
 

@@ -89,11 +89,11 @@ getSelected - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSelected()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSelected(delim)
 
@@ -115,11 +115,11 @@ getSelected - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getSelected()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(id, ids, "<br>"): id]
 

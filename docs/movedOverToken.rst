@@ -114,7 +114,7 @@ movedOverToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: movedOverToken("Pit Trap")]
 
@@ -136,15 +136,15 @@ movedOverToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: lastPath = getLastPath(1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: locations = movedOverToken("Caltrops",lastPath)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Token moved over [r: json.length(locations)] caltrops.
 

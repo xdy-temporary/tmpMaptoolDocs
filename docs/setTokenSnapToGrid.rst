@@ -76,15 +76,15 @@ setTokenSnapToGrid - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenSnapToGrid(snap)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenSnapToGrid(snap, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenSnapToGrid(snap, id, mapname)
 
@@ -104,11 +104,11 @@ setTokenSnapToGrid - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setTokenSnapToGrid(0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setTokenSnapToGrid(1, currentToken())]
 

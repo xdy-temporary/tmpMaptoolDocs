@@ -73,19 +73,19 @@ switch (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(expression):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         case case1: body1;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         case case2: body2;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         default: defaultBody
 
@@ -121,19 +121,19 @@ switch (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:powerType="at-will"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(powerType):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "at-will": "You may use this power as much as you like";
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "encounter": "You may only use this power once per encounter";
 
@@ -153,19 +153,19 @@ switch (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:powerType=".*sword.*"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(powerType):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "flail": "one-handed weapon; two-handed does Str*2 damage";
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "shortsword": "used for jabs, so is a puncturing weapon";
 
@@ -188,19 +188,19 @@ switch (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(input("number|0|enter a number"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(number):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         case 0: "you did not enter a number";
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        case 1: "you entered 1 as a number";
 
@@ -208,11 +208,11 @@ switch (roll option) - MapToolDoc
 
                         case 2: "you entered 2 as a number";
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         default: "you entered a number not equal to 1 or 2"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 
@@ -224,19 +224,19 @@ switch (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,switch(class),code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "Warrior": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [Armor = 6]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [beginningPowers = "Sword, Shield Bash, Bow, Shield, Torch"]
 
@@ -244,19 +244,19 @@ switch (roll option) - MapToolDoc
 
                      };
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "Rogue": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [Armor = 2]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [beginningPowers = "Dagger, Hide, Backstab, Pick Lock, Torch"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };
 
@@ -264,19 +264,19 @@ switch (roll option) - MapToolDoc
 
                      case "Wizard": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [Armor = 1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [beginningPowers = "Dagger, Staff, Light, Lightning Bolt, Fire Ball"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "Priest": {
 
@@ -284,19 +284,19 @@ switch (roll option) - MapToolDoc
 
                        [Armor = 4]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [beginningPowers = "Mace, Heal, Protect, Banish Undead, Torch"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      default: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [Armor = 0]
 
@@ -304,7 +304,7 @@ switch (roll option) - MapToolDoc
 
                        [beginningPowers = "Fists, Feet"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 

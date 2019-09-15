@@ -78,7 +78,7 @@ json.indexOf - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.indexOf(array, value)
 
@@ -86,7 +86,7 @@ json.indexOf - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.indexOf(array, value, start)
 
@@ -110,7 +110,7 @@ json.indexOf - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indexOf("[1,2,3,1,1,3]", 1)]
 
@@ -123,7 +123,7 @@ json.indexOf - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.count("[1,2,3,1,1,3]", 1, 1)]
 
@@ -136,7 +136,7 @@ json.indexOf - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.count("[1,2,3,1,1,3]", 2, 2)]
 

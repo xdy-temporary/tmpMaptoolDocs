@@ -103,7 +103,7 @@ return - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      return(continue, returnValue)
 
@@ -133,15 +133,15 @@ return - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Call the testReturn library macro -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [MACRO("testReturn@Lib:test"): ""]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Response is [r:macro.return].
 
@@ -152,19 +152,19 @@ return - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- testReturn macro in Lib:test token -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: return(0, "hello world")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: "this will not be executed anymore"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: macro.return = "this will not be set"]
 

@@ -53,7 +53,7 @@ String Property List - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: stringPropertyList="var1=foo; var2=bar; var3=baz;"]
 

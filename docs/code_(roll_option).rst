@@ -77,7 +77,7 @@ code (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [CODE: { code_block }]
 
@@ -93,19 +93,19 @@ code (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:num=5]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [WHILE(num > 0), CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        This is iteration [r:num] <br>
 
@@ -113,11 +113,11 @@ code (roll option) - MapToolDoc
 
                        There are [r:num-1] iterations left<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [num=num-1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -146,19 +146,19 @@ code (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:d20roll=1d20]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:attackRoll=d20roll+AttackBonus]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,IF(attackRoll >= 16),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
@@ -166,19 +166,19 @@ code (roll option) - MapToolDoc
 
                        [IF(d20roll == 20),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          The attack is a critical hit!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:damage=critDamage]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        };
 
@@ -186,19 +186,19 @@ code (roll option) - MapToolDoc
 
                        {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          The attack is a hit!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:damage=regDamage]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        };]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };
 
@@ -206,11 +206,11 @@ code (roll option) - MapToolDoc
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        The attack misses!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };]
 

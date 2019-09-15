@@ -59,7 +59,7 @@ listCount - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listCount(list)
 
@@ -67,7 +67,7 @@ listCount - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listCount(list, delim)
 
@@ -84,7 +84,7 @@ listCount - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listCount("This, is, a, test")]
 
@@ -94,7 +94,7 @@ listCount - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listCount("This: is: a: test",":")]
 

@@ -74,7 +74,7 @@ trim - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      trim(str)
 
@@ -92,15 +92,15 @@ trim - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: ":" + trim("     this is a test") + ":"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: ":" + trim("this is a test      ") + ":"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: ":" + trim("     this is a test       ") + ":"]
 

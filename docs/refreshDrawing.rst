@@ -82,7 +82,7 @@ refreshDrawing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      refreshDrawing(mapName, drawingId)
 
@@ -102,11 +102,11 @@ refreshDrawing - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setFillColor("Grasslands", "00000000CCF6B567CC00000000000000","blue")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:refreshDrawing("Grasslands", "00000000CCF6B567CC00000000000000")]
 

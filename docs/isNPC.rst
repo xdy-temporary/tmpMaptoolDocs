@@ -83,15 +83,15 @@ isNPC - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isNPC()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isNPC(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isNPC(id, mapname)
 
@@ -118,7 +118,7 @@ isNPC - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r, if(isNPC()): "Hello I am an NPC"]
 

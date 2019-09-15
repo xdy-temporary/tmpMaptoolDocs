@@ -78,7 +78,7 @@ json.contains - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.contains(object, key)
 
@@ -86,7 +86,7 @@ json.contains - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.contains(array, value)
 
@@ -111,11 +111,11 @@ json.contains - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:a=json.fromStrProp("a=1;b=44;c=12")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.contains(a,"b")]
 
@@ -128,11 +128,11 @@ json.contains - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:a=json.fromStrProp("a=1;b=44;c=12")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.contains(a,"z")]
 
@@ -145,11 +145,11 @@ json.contains - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:a=json.fromList("1,b,3,d")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.contains(a,"b")]
 

@@ -79,7 +79,7 @@ REST.get - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      REST.get(url, getFullResponse)
 
@@ -106,19 +106,19 @@ REST.get - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: baseURL = "https://reqres.in"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: path = "/api/users/2"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: response = REST.get(baseURL + path, 0)]
 
@@ -126,19 +126,19 @@ REST.get - MapToolDoc
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Response: [r: baseURL + path]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indent(response, 2)]
 
@@ -146,19 +146,19 @@ REST.get - MapToolDoc
 
                         </pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <br><br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: response = REST.get(baseURL + path, 1)]
 
@@ -166,19 +166,19 @@ REST.get - MapToolDoc
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Full Response: [r: baseURL + path]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indent(response, 2)]
 
@@ -192,19 +192,19 @@ REST.get - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Response: https://reqres.in/api/users/2 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {"data": {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "id": 2,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "first_name": "Janet",
 
@@ -212,19 +212,19 @@ REST.get - MapToolDoc
 
                           "last_name": "Weaver",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }}
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
@@ -232,19 +232,19 @@ REST.get - MapToolDoc
 
                         Full Response: https://reqres.in/api/users/2 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "status": 200,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "headers":   {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "access-control-allow-origin": ["*"],
 
@@ -252,19 +252,19 @@ REST.get - MapToolDoc
 
                             "cf-ray": ["4b9244475b1b5432-LAX"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "content-type": ["application/json; charset=utf-8"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "date": ["Sun, 17 Mar 2019 22:05:09 GMT"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "etag": ["W/\"89-bSBFK27ZbQL+K8fMuJn/jZrcUuk\""],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "expect-ct": ["max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""],
 
@@ -272,19 +272,19 @@ REST.get - MapToolDoc
 
                             "server": ["cloudflare"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "set-cookie": ["__cfduid=d5f84a1d88f4b568cd9547d6f76b1712b1552860309; expires=Mon, 16-Mar-20 22:05:09 GMT; path=/; domain=.reqres.in; HttpOnly"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "x-powered-by": ["Express"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "body": {"data":   {
 
@@ -292,19 +292,19 @@ REST.get - MapToolDoc
 
                             "id": 2,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "first_name": "Janet",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "last_name": "Weaver",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           }}
 

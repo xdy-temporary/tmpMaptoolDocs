@@ -96,15 +96,15 @@ strPropFromVars - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: props = "a=3 ; b=bob ; c=cow ; "]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: varsFromStrProp(props, "SUFFIXED")] <!-- creates variables a_, b_, c_ -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [strPropFromVars("c,a,b", "SUFFIXED")]
 

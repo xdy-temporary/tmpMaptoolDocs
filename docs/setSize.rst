@@ -82,15 +82,15 @@ setSize - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setSize(size)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setSize(size, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setSize(size, id, mapname)
 
@@ -118,7 +118,7 @@ setSize - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setSize("Medium")]
 
@@ -129,11 +129,11 @@ setSize - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: mySize = "Large"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setSize(mySize)]
 

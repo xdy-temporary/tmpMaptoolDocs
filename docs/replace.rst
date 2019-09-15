@@ -65,7 +65,7 @@ replace - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      replace(str, pattern, value)
 
@@ -73,7 +73,7 @@ replace - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      replace(str, pattern, value, times)
 
@@ -88,11 +88,11 @@ replace - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: replace("This is a test", " ", "-")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: replace("This is a test", " ", "-", 2)]
 
@@ -112,11 +112,11 @@ replace - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: tString = "is (a) t"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: replace("This is (a) test", "\\Q" + tString + "\\E", "-")]
 
@@ -132,7 +132,7 @@ replace - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: name = replace("wolph 5","(.*?) [0-9]+","\$1 42")]
 
@@ -157,11 +157,11 @@ replace - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:lastPath = [{"x":1,"y":0},{"x":1,"y":1},{"x":1,"y":2}]]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [r:result = replace(lastPath, '\\{"x":(.*?),"y":(.*?)\\}', '"X\$1Y\$2"')]
 

@@ -85,15 +85,15 @@ setPC - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setPC()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setPC(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setPC(id, mapname)
 

@@ -87,7 +87,7 @@ exposeFogAtWaypoints - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      exposeFogAtWaypoints()
 
@@ -102,7 +102,7 @@ exposeFogAtWaypoints - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: empty = exposeFogAtWaypoints()]
 

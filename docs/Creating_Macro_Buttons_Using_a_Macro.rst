@@ -102,19 +102,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      powername=Melee Basic Attack ; action=standard ; usage=at-will ; attack=5 ;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      against=AC ; targets=one creature ; damage=1d6+5 ; critdamage=11 ; damtype= ;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hitEffect=--none-- ; missEffect=--none-- ; atktype=melee ;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      range=weapon ; expended=Available ; reliable=0 ; special=--none-- ;
 
@@ -143,15 +143,15 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:powerSlot=macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:pname=getStrProp(eval("Power"+powerSlot),"powername")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:use=getStrProp(eval("Power"+powerSlot),"usage")]
 
@@ -169,19 +169,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:status=input(
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "addButtons|Yes,No|Add Macro Buttons to your token?|RADIO|ORIENT=H SELECT=1"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:abort(status)]
 
@@ -201,19 +201,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [IF(addButtons==0),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,SWITCH(use),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "at-will":
 
@@ -221,19 +221,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [bcolor="green"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [fcolor="black"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [group="1: Powers - At-Will"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [grayout=0]
 
@@ -241,19 +241,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                      };
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "encounter":
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [bcolor="red"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [fcolor="white"]
 
@@ -261,19 +261,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                        [group="2: Powers - Encounter"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [grayout=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "daily":
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
@@ -281,19 +281,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                        [bcolor="black"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [fcolor="white"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [group="3: Powers - Daily"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [grayout=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };
 
@@ -301,19 +301,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                      case "recharge":
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [bcolor="blue"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [fcolor="white"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [group="3: Powers - Recharging"]
 
@@ -321,7 +321,7 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                        [grayout=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };]
 
@@ -346,19 +346,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:macroProps="autoexec=true;"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:macroProps=setStrProp(macroProps,"color",bcolor)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:macroProps=setStrProp(macroProps,"fontColor",fcolor)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:macroProps=setStrProp(macroProps,"group",group)]
 
@@ -366,19 +366,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                      [h:grayoutString=""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,IF(grayout): grayoutString=encode("[h:setMacroProps(" + "'" +pname+ "'" + ",'color=gray;' " + ")]")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:command=encode("[h:thisPower="+"'"+pname+"'"+"]")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:command=command+encode("[h:index=getMacroIndexes(thisPower)]")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:command=command+encode("[h:mProps=getMacroProps(index)]")]
 
@@ -386,19 +386,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                      [h:command=command+encode("[h:color=getStrProp(mProps,'color')]")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:command=command+encode("[h:used=if(color=='gray', 0, 1)]")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:command=command+encode("[h:abort(used)]")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:command=command + encode("[MACRO('AttackMain@Lib:test'):thisPower]")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:command=command+grayoutString]
 
@@ -447,15 +447,15 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:createMacro(pname, decode(command), macroProps)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Buttons added.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };
 
@@ -478,15 +478,15 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      No buttons added to token.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };]
 
@@ -510,11 +510,11 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:thisPower='Melee Basic Attack']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [MACRO('AttackMain@Lib:test'):thisPower]
 
@@ -526,19 +526,19 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:thisPower='Chain Lightning']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:index=getMacroIndexes(thisPower)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:mProps=getMacroProps(index)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:color=getStrProp(mProps,'color')]
 
@@ -546,15 +546,15 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
                      [h:used=if(color=='gray', 0, 1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:abort(used)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [MACRO('AttackMain@Lib:test'):thisPower]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:setMacroProps('Chain Lightning','color=gray;' )]
 

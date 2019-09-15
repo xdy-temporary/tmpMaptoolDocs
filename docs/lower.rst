@@ -56,7 +56,7 @@ lower - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      lower(str)
 
@@ -64,7 +64,7 @@ lower - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      lower(str, numChars)
 
@@ -77,11 +77,11 @@ lower - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: lower("This Is a Test")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: lower("This Is a Test", 1)]
 

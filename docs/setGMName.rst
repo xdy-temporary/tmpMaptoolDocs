@@ -79,7 +79,7 @@ setGMName - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setGMName(name)
 
@@ -87,7 +87,7 @@ setGMName - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setGMName(name, id)
 
@@ -110,7 +110,7 @@ setGMName - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setGMName("New GM Name")]
 
@@ -120,19 +120,19 @@ setGMName - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: SelectedTokens = getSelected()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h,foreach(TokenID, SelectedTokens), code:
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setGMName("New GM Name", TokenID)]
 

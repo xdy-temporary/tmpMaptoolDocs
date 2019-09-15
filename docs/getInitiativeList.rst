@@ -92,7 +92,7 @@ getInitiativeList - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ json = getInitiativeList() ]
 
@@ -114,11 +114,11 @@ getInitiativeList - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: json = getInitiativeList() ]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [ foreach(item, json, "<br>"): item ]
 
@@ -129,11 +129,11 @@ getInitiativeList - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: json = getInitiativeList() ]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>[r: json.indent(json) ]</pre>
 

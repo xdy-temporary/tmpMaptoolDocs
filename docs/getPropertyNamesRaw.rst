@@ -87,19 +87,19 @@ getPropertyNamesRaw - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyNamesRaw()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyNamesRaw(delim)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyNamesRaw(delim, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyNamesRaw(delim, id, mapname)
 
@@ -134,11 +134,11 @@ getPropertyNamesRaw - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getPropertyNamesRaw()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

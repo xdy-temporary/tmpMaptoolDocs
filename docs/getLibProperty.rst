@@ -70,11 +70,11 @@ getLibProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLibProperty(name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getLibProperty(name, lib)
 
@@ -87,7 +87,7 @@ getLibProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Weapons : Shotgun, Pistol, Revolver
 
@@ -99,7 +99,7 @@ getLibProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [getLibProperty("Weapons", "lib:Compendium")]
 
@@ -119,7 +119,7 @@ getLibProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [getLibProperty("init")]
 
@@ -133,11 +133,11 @@ getLibProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [result = getLibProperty("init")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [IF(result == ""): result = "default" ]
 
@@ -150,7 +150,7 @@ getLibProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [getLibProperty("init", "lib:Attacks")]
 

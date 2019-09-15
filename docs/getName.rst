@@ -78,15 +78,15 @@ getName - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getName()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getName(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getName(id, mapname)
 
@@ -112,11 +112,11 @@ getName - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [TokenList = getTokens("json")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(Token, TokenList, "<br>", "json"): getName(Token) + "'s ID is " + Token]
 

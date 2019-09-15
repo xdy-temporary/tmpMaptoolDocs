@@ -60,7 +60,7 @@ listDelete - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listDelete(list, index)
 
@@ -68,7 +68,7 @@ listDelete - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listDelete(list, index, delim)
 
@@ -85,7 +85,7 @@ listDelete - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listDelete("This, is, a, test", 1)]
 

@@ -49,19 +49,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       "Troll":
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "name":"Troll",
 
@@ -69,19 +69,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
                          "HD":4,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "HP":75
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        },
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       "Orc":
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        {
 
@@ -89,19 +89,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
                          "name":"Orc",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "HD":3,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "HP":22
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 
@@ -184,19 +184,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:troll = json.set("{}", "name", "Troll", "HD", 4, "HP", 75)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:orc = json.set("{}", "name", "Orc", "HD", 3, "HP", 13)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:goblin = json.set("{}", "name", "Goblin", "HD", 2, "HP", 6)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:gnoll = json.set("{}", "name", "Gnoll", "HD", 3, "HP", 19)]
 
@@ -204,7 +204,7 @@ Sorting Nested JSON Objects - MapToolDoc
 
                      [h:kobold=json.set("{}", "name", "Kobold", "HD", 1, "HP", 4)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:monsters = json.set("{}", "Troll", troll, "Orc", orc, "Goblin", goblin, "Gnoll", gnoll, "Kobold", kobold)]
 
@@ -226,19 +226,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:status = input(
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      "whichKey|name,HD,HP|Pick Sorting Key|LIST|SELECT=0 VALUE=STRING",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      "whichDirection|A+,A-,N+,N-|Direction (A+/- for strings, N+/- for numbers!)|LIST|SELECT=0 VALUE=STRING"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      )]
 
@@ -246,11 +246,11 @@ Sorting Nested JSON Objects - MapToolDoc
 
                      [h:abort(status)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(substring(whichDirection,1)=="+"): dirString = "ascending"; dirString = "descending"]
 
@@ -282,19 +282,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortObj=monsters]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortKey = whichKey]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortDirection = whichDirection]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortObjContentList = json.fields(sortObj)]
 
@@ -302,7 +302,7 @@ Sorting Nested JSON Objects - MapToolDoc
 
                      [h:keyList = ""] 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortedJSON = "{}"]
 
@@ -347,19 +347,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(item, sortObjContentList),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [h:itemDetail = json.get(sortObj,item)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [h: keyList = listAppend(keyList, json.get(itemDetail, sortKey))]
 
@@ -367,11 +367,11 @@ Sorting Nested JSON Objects - MapToolDoc
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:keyList = listSort(keyList, sortDirection)]
 
@@ -402,19 +402,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(key,keyList),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [foreach(object,sortObj),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         {
 
@@ -422,19 +422,19 @@ Sorting Nested JSON Objects - MapToolDoc
 
                           [objectDetail = json.get(sortObj,object)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           [h:sortOnValue = json.get(objectDetail, sortKey)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           [if(sortOnValue == key): sortedJSON=json.set(sortedJSON, object, objectDetail);""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -449,11 +449,11 @@ Sorting Nested JSON Objects - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      JSON Object sorted by [r:whichKey], [r:dirString]:<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <pre>[r:json.indent(sortedJSON, 3)]</pre>
 

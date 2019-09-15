@@ -63,7 +63,7 @@ setTokenDrawOrder - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenDrawOrder(z)
 
@@ -71,7 +71,7 @@ setTokenDrawOrder - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenDrawOrder(z, id)
 

@@ -90,7 +90,7 @@ addAllNPCsToInitiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      addAllNPCsToInitiative()
 
@@ -103,7 +103,7 @@ addAllNPCsToInitiative - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: noTokens = addAllNPCsToInitiative()]
 
@@ -113,7 +113,7 @@ addAllNPCsToInitiative - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Added [r: addAllNPCsToInitiative()] NPCs to the initiative panel.
 

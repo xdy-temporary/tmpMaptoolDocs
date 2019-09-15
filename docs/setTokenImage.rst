@@ -83,15 +83,15 @@ setTokenImage - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenImage(assetId)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenImage(assetId, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenImage(assetId, id, mapname)
 
@@ -99,15 +99,15 @@ setTokenImage - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenImage(tokenImageName)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenImage(tokenImageName, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenImage(tokenImageName, id, mapname)
 
@@ -126,11 +126,11 @@ setTokenImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setTokenImage(tblImage("elfImages", 1))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setTokenImage("image:Elf-Dead")]
 

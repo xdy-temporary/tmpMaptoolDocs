@@ -54,7 +54,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      trimNumber(number)
 
@@ -62,7 +62,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      trimNumber(number, length)
 
@@ -70,7 +70,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      trimNumber(number, length, direction)
 

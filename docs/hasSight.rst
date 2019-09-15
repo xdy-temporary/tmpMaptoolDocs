@@ -65,15 +65,15 @@ hasSight - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasSight()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasSight(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasSight(id, mapname)
 

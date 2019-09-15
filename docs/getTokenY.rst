@@ -73,7 +73,7 @@ getTokenY - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenY()
 
@@ -81,7 +81,7 @@ getTokenY - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenY(units)
 
@@ -89,7 +89,7 @@ getTokenY - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenY(units, id)
 
@@ -149,19 +149,19 @@ getTokenY - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: CurrentX = getTokenX()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: CurrentY = getTokenY()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: NewX = CurrentX + 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: NewY = CurrentY - 10]
 
@@ -176,19 +176,19 @@ getTokenY - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: CurrentX = getTokenX(0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: CurrentY = getTokenY(0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: NewX = CurrentX + 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: NewY = CurrentY - 10]
 

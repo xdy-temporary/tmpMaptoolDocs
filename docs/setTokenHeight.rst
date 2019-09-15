@@ -75,11 +75,11 @@ setTokenHeight - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenHeight(size, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenHeight(size, id, mapname)
 
@@ -107,11 +107,11 @@ setTokenHeight - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: setTokenHeight(300, "Dragon")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: setTokenHeight(150, "Dragon")]
 

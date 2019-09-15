@@ -448,19 +448,19 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- this (using get/setPropery) -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [HP = getProperty(tokenName, Hitpoints)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [HP = HP-1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [setProperty(tokenNam, HP)]
 
@@ -468,7 +468,7 @@ Speed Up Your Macros - MapToolDoc
 
                      <!--is the same as this (changing property directly)-->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [Hitpoints = Hitpoints - 1]
 
@@ -588,19 +588,19 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Slow -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: var1 = json.get(macro.args,0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: var2 = json.get(macro.args,1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Faster -->
 
@@ -608,7 +608,7 @@ Speed Up Your Macros - MapToolDoc
 
                      [h: var1 = arg(0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: var2 = arg(1)]
 
@@ -626,19 +626,19 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!--after calling some UDF:-->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: doSomething(var)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!--this works-->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      resultOfDoSomething = macro.return
 
@@ -646,11 +646,11 @@ Speed Up Your Macros - MapToolDoc
 
                      <!--this won't-->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [resultOfDoSomething = arg(0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!--actually most likely it will 'work' but it won't contain the value you want -->
 

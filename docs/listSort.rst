@@ -59,7 +59,7 @@ listSort - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [listSort(list, sortType)]
 
@@ -80,19 +80,19 @@ listSort - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: UnsortedList = "Monster11,Monster3,Monster12,Monster66,Monster87,Monster71"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: SortedList = listSort(UnsortedList,'N')]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Unsorted list: [r: UnsortedList]<br>
 

@@ -76,7 +76,7 @@ getVisibleMapNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getVisibleMapNames()
 
@@ -84,7 +84,7 @@ getVisibleMapNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getVisibleMapNames(delim)
 
@@ -107,7 +107,7 @@ getVisibleMapNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: maps = getVisibleMapNames()]
 
@@ -118,7 +118,7 @@ getVisibleMapNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: maps = getVisibleMapNames("json")]
 

@@ -64,7 +64,7 @@ removeMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      removeMacro(index)
 
@@ -72,7 +72,7 @@ removeMacro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      removeMacro(index, id)
 

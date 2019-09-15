@@ -81,7 +81,7 @@ eval - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      eval(expr)
 
@@ -99,7 +99,7 @@ eval - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: eval("1+1")]
 
@@ -109,7 +109,7 @@ eval - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: eval("3d6")]
 
@@ -119,7 +119,7 @@ eval - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: eval("TestVar = 2")]
 
@@ -129,7 +129,7 @@ eval - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: TestVar = 2][r: eval("TestVar/2")]
 
@@ -145,7 +145,7 @@ eval - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: foo = eval(string(bar))]
 

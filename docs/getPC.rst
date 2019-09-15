@@ -95,11 +95,11 @@ getPC - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPC()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPC(delim)
 
@@ -122,11 +122,11 @@ getPC - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getPC()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(id, ids, "<br>"): id]
 

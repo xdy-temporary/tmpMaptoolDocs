@@ -80,7 +80,7 @@ log.warn - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      log.warn(message)
 
@@ -99,7 +99,7 @@ log.warn - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: log.warn("Go away or I shall taunt you a second time!")]
 
@@ -111,7 +111,7 @@ log.warn - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         1975-03-14 08:59:39.211 [AWT-EventQueue-0] WARN  macro-logger - Go away or I shall taunt you a second time!
 

@@ -122,11 +122,11 @@ Creating a List Input with Names and Images - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: tokenList=getExposedTokenNames()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: imgList = tokenList]
 
@@ -165,19 +165,19 @@ Creating a List Input with Names and Images - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: Num = listCount(imgList)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,COUNT(Num),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
@@ -185,15 +185,15 @@ Creating a List Input with Names and Images - MapToolDoc
 
                      [h:tokenName=listGet(imgList,roll.count)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,token(tokenName): image=getTokenImage()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:imgList=listReplace(imgList,roll.count,tokenName+" "+image)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -250,19 +250,19 @@ Creating a List Input with Names and Images - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:status=input(
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "Target|"+imgList+"|Select Target|LIST|SELECT=0 ICON=TRUE ICONSIZE=30",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            "newName| |Enter a new name for this token"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      )]
 
@@ -287,19 +287,19 @@ Creating a List Input with Names and Images - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:targetName = listGet(tokenList,Target)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:switchToken(targetName)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -307,7 +307,7 @@ Creating a List Input with Names and Images - MapToolDoc
 
                      [h:token.name=newName]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      The token's name has been changed to <i>[r:newName]</i>.
 

@@ -59,7 +59,7 @@ json.objrolls - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.objrolls(names, stat, rolls)
 
@@ -83,15 +83,15 @@ json.objrolls - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {json.indent(json.objrolls("['henchman1', 'henchman2', 'henchman3']",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "['Str', 'Dex', 'Con', 'Int', 'Wis', 'Chr']",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "3d6"),2)}
 
@@ -128,15 +128,15 @@ json.objrolls - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {json.indent(json.objrolls("['henchman1', 'henchman2', 'henchman3']",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "['Str', 'Dex', 'Con', 'Int', 'Wis', 'Chr']",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "['3d6+1', '3d6', '3d6', '3d6-2', '3d6', '2d6']"),2)}
 

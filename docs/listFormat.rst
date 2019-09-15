@@ -54,11 +54,11 @@ listFormat - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ listFormat(list, listFormat, itemFormat, separator) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ listFormat(list, listFormat, itemFormat, separator, delim) ]
 
@@ -79,7 +79,7 @@ listFormat - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [ listFormat("apple,bear,cat", "BEGIN LIST<br>%list<br>END LIST", "This item is: %item", "<br>") ]
 
@@ -91,7 +91,7 @@ listFormat - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [R: listFormat( "apple, bear, cat", "<ul>%list</ul>", "<li>%item</li>", "" ) ]
 
@@ -109,19 +109,19 @@ listFormat - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [R: listFormat( getSelectedNames( "%%" ), 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "<select name='test'>%list</select>", 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "<option value='%item'>%item</option>", 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "",  
 
@@ -129,7 +129,7 @@ listFormat - MapToolDoc
 
                             "%%" ) 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         ]
 

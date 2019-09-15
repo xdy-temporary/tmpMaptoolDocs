@@ -103,11 +103,11 @@ getTokenOpacity - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         The opacity for the Dragon token is: [r: getTokenOpacity("Dragon")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, token("Dragon"): opacity = getTokenOpacity()]
 

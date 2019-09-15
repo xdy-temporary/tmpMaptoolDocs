@@ -73,7 +73,7 @@ reroll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      reroll(times, sides, minimum)
 
@@ -96,7 +96,7 @@ reroll - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: reroll(5, 10, 5)]
 
@@ -109,19 +109,19 @@ reroll - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTimes = 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceSides = 10]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceMinimum = 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: roll(DiceTimes, DiceSides, DiceMinimum)]
 

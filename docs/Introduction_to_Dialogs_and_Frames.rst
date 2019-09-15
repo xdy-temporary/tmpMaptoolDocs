@@ -104,15 +104,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Your first dialog!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -135,15 +135,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [frame("Test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Your first frame!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -185,19 +185,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <b>1d4</b> -> [1d4]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <b>1d6</b> -> [1d6]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <b>1d8</b> -> [1d8]<br>
 
@@ -205,19 +205,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        <b>1d10</b> -> [1d10]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <b>1d12</b> -> [1d12]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <b>1d20</b> -> [1d20]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <b>1d100</b> -> [1d100]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -242,19 +242,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Dice Roll Dialog</title>
 
@@ -262,19 +262,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d4</b> -> [1d4]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d6</b> -> [1d6]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d8</b> -> [1d8]<br>
 
@@ -282,19 +282,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <b>1d10</b> -> [1d10]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d12</b> -> [1d12]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d20</b> -> [1d20]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d100</b> -> [1d100]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
@@ -302,7 +302,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        </html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -334,19 +334,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Dice Roll Dialog</title>
 
@@ -354,19 +354,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d4</b> -> [1d4]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d6</b> -> [1d6]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d8</b> -> [1d8]<br>
 
@@ -374,19 +374,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <b>1d10</b> -> [1d10]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d12</b> -> [1d12]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d20</b> -> [1d20]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <b>1d100</b> -> [1d100]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <br>
 
@@ -394,15 +394,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            [macroLink("Refresh", "Test@Lib:Test")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -441,19 +441,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: propNames = "Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("CharSheetTest"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
@@ -461,19 +461,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <title>Character Sheet</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [foreach(prop, propNames, ""), code: {
 
@@ -481,19 +481,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>[r: prop]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>[r: getProperty(prop)]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              }]
 
@@ -501,15 +501,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -521,11 +521,11 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [macro("CharSheet@Lib:Test"): ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)]
 
@@ -545,15 +545,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <link rel='stylesheet' type='text/css' href='myCSS@Lib:Test'></link>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -567,15 +567,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <link rel='stylesheet' type='text/css' href='myCSS@[r: getMacroLocation()]'></link>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -587,19 +587,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: propNames = "Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("CharSheetTest"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
@@ -607,19 +607,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <link rel="stylesheet" type="text/css" href="CharSheet_css@[r: getMacroLocation()]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Character Sheet</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <table id="stats">
 
@@ -627,19 +627,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <th>Name</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <th>Score</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h: class = "oddRow"]
 
@@ -647,19 +647,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              [foreach(prop, propNames, ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <tr class="[r:class]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>[r: prop]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>[r: getProperty(prop)]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </tr>
 
@@ -667,19 +667,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                [h: class = if(class=="oddRow", "evenRow", "oddRow")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
@@ -695,15 +695,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .oddRow { background-color: #FFFFFF }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .evenRow { background-color: #EEEEAA }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      #stats th { background-color: #113311; color: #FFFFFF }
 
@@ -733,19 +733,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: propNames = "Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("CharSheetTest"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
@@ -753,19 +753,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <link rel="stylesheet" type="text/css" href="CharSheet_css@[r: getMacroLocation()]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Character Sheet</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <table>
 
@@ -773,19 +773,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <img src='[r: getTokenImage(100)]'></img>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <td>
 
@@ -793,19 +793,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                  <table id="stats">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <th>Name</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <th>Score</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    </tr>
 
@@ -813,19 +813,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                    [h: class = "oddRow"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    [foreach(prop, propNames, ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <tr class="[r:class]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <td>[r: prop]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <td>[r: getProperty(prop)]</td>
 
@@ -833,19 +833,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      [h: class = if(class=="oddRow", "evenRow", "oddRow")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </td>
 
@@ -853,19 +853,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <hr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <tr>
 
@@ -873,19 +873,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                <th>Hit Points:</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <td>[r: HP]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <th>Armor Class:</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <td>[r: AC]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              </tr>
 
@@ -893,15 +893,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -943,19 +943,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- ======================================================================
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ==== Outputs a red/yellow/green bar
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====
 
@@ -963,19 +963,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                           ==== Parameters (accepts a string property list with following keys)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====   MaxLen - Maximum length of status bar.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====   MaxValue - The "Full" value for the bar.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====   Value - The current value for the bar.
 
@@ -983,19 +983,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                           ====   Label - The label for the bar.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====================================================================== -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Set up the colors for our "Traffic Lights" -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: r0=200] [h: g0=200] [h: b0=200]
 
@@ -1003,19 +1003,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: r1=200] [h: g1=0]   [h: b1=0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: r2=255] [h: g2=140] [h: b2=0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: r3=0]   [h: g3=200] [h: b3=0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: MaxLen=getStrProp(macro.args, "MaxLen")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: MaxValue=getStrProp(macro.args, "MaxValue")]
 
@@ -1023,19 +1023,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: Value=getStrProp(macro.args, "Value")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Label=getStrProp(macro.args, "Label")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Len=max(min(round(Value*MaxLen/MaxValue+0.4999),MaxLen),0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Len=if(Value>=MaxValue,MaxLen, Len)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: c=min(round(Value*3/MaxValue+0.4999),3)]
 
@@ -1043,19 +1043,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: col=min(max(Len,0),1)*c]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: r=eval("r"+col)] [h: g=eval("g"+col)] [h: b=eval("b"+col)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td><span title="{Value}/{MaxValue}">{Label}</span></td>
 
@@ -1063,19 +1063,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          <td style="background-color: rgb({r},{g},{b})">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <span title="{Value}/{MaxValue}">[c(Len, ""),r: "&nbsp;"]</span>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(MaxLen-Len>0), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <td style="background-color: rgb({r0},{g0},{b0})">
 
@@ -1083,19 +1083,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              <span title="{Value}/{MaxValue}">[c(MaxLen-Len,""),r: "&nbsp;"]</span>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </table>
 
@@ -1107,19 +1107,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- ======================================================================
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ==== Outputs a "progress" bar
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====
 
@@ -1127,19 +1127,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                           ==== Parameters (accepts a string property list with following keys)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====   MaxLen - Maximum length of status bar.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====   MaxValue - The "Full" value for the bar.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====   Value - The current value for the bar.
 
@@ -1147,19 +1147,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                           ====   Label - The label for the bar.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====   Color - R,G,B color
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           ====================================================================== -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: r0=200] [h: g0=200] [h: b0=200]
 
@@ -1167,19 +1167,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: MaxLen=getStrProp(macro.args, "MaxLen")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: MaxValue=getStrProp(macro.args, "MaxValue")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Value=getStrProp(macro.args, "Value")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Color=getStrProp(macro.args, "Color")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Label=getStrProp(macro.args, "Label")]
 
@@ -1187,19 +1187,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: r1=listGet(Color,0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: g1=listGet(Color,1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: b1=listGet(Color,2)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Len=max(min(round(Value*MaxLen/MaxValue+0.4999),MaxLen),0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: c=min(round(Value/MaxValue+0.4999),1)]
 
@@ -1207,19 +1207,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: col=min(max(Len,0),1)*c]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: r=eval("r"+col)] [h: g=eval("g"+col)] [h: b=eval("b"+col)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: r=eval("r"+col)] [h: g=eval("g"+col)] [h: b=eval("b"+col)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <tr>
 
@@ -1227,19 +1227,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          <td><span title="{Value}/{MaxValue}">{Label}</span></td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td style="background-color: rgb({r},{g},{b})">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <span title="{Value}/{MaxValue}">[c(Len, ""),r: "&nbsp;"]</span>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(MaxLen-Len>0), code: {
 
@@ -1247,19 +1247,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <td style="background-color: rgb({r0},{g0},{b0})">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <span title="{Value}/{MaxValue}">[c(MaxLen-Len,""),r: "&nbsp;"]</span>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </tr>
 
@@ -1292,19 +1292,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: propNames = "Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("CharSheetTest"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
@@ -1312,19 +1312,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <link rel="stylesheet" type="text/css" href="CharSheet_css@[r: getMacroLocation()]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Character Sheet</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <table>
 
@@ -1332,19 +1332,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <img src='[r: getTokenImage(100)]'></img>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <td>
 
@@ -1352,19 +1352,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                  <table id="stats">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <th>Name</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <th>Score</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    </tr>
 
@@ -1372,19 +1372,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                    [h: class = "oddRow"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    [foreach(prop, propNames, ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <tr class="[r:class]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <td>[r: prop]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <td>[r: getProperty(prop)]</td>
 
@@ -1392,19 +1392,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      [h: class = if(class=="oddRow", "evenRow", "oddRow")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </td>
 
@@ -1412,19 +1412,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <hr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <tr>
 
@@ -1432,19 +1432,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  [h: hpBarArgs = strformat("MaxLen=50; Value=%{HP}; MaxValue=%{MaxHP}; Label=HP")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  [macro("TrafficLightBar@this"): hpBarArgs]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              </tr>
 
@@ -1452,19 +1452,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  [h: hpBarArgs = strformat("MaxLen=50; Value=%{XP}; MaxValue=%{NextLevelXP}; Label=XP; Color=120,120,255")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  [macro("StatusBar@this"): hpBarArgs]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </td>
 
@@ -1472,19 +1472,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -1573,19 +1573,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!--
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Returns the number for the next weapon as well as updating the
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        the counter.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        -->
 
@@ -1593,19 +1593,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- If Weapons token property is empty set it to a default value -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(isPropertyEmpty("Weapons")): Weapons = "NumWeapons=0;"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: numWeapons = getStrProp(Weapons, "NumWeapons") + 1]
 
@@ -1613,19 +1613,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Now update our property -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Weapons = setStrProp(Weapons, "NumWeapons", numWeapons)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- Finally set out return value -->
 
@@ -1641,7 +1641,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [macro("NextWeaponNumber@Lib:Test"): ""] [macro.return]
 
@@ -1668,19 +1668,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!--
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Adds a weapon to the Weapons property list
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Parameters (in a string property list)
 
@@ -1688,19 +1688,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Name = Name of Weapon
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Damage = Damage Weapon does
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Bonus = Bonus of Weapon
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Number = The index number of the Weapon
 
@@ -1708,19 +1708,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: num = getStrProp(macro.args, "Number")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: damage = getStrProp(macro.args, "Damage")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: name = getStrProp(macro.args, "Name")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: bonus = getStrProp(macro.args, "Bonus")]
 
@@ -1728,11 +1728,11 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: Weapons = setStrProp(Weapons, strformat("Weapon%{num}Name"), name)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Weapons = setStrProp(Weapons, strformat("Weapon%{num}Damage"), damage)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Weapons = setStrProp(Weapons, strformat("Weapon%{num}Bonus"), bonus)]
 
@@ -1743,7 +1743,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [macro("AddWeapon@Lib:Test"): "Number=1; Damage=1d8; Name=LongSword; Bonus=0"]
 
@@ -1765,19 +1765,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!--
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Retrieves a weapon from the Weapons Property list.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Parameters
 
@@ -1785,19 +1785,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          Weapon Number
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Returns
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          A string property list with following keys
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            Name = Name of Weapon
 
@@ -1805,19 +1805,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            Damage = Damage Weapon does
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            Bonus = Bonus of Weapon
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            Number = The index number of the Weapon
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          If the weapon is not found then an empty string ("") is returned.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      -->
 
@@ -1825,19 +1825,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: num = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: damage = getStrProp(Weapons, strformat("Weapon%{num}Damage"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: name = getStrProp(Weapons, strformat("Weapon%{num}Name"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: bonus = getStrProp(Weapons, strformat("Weapon%{num}Bonus"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if(name == ""):
 
@@ -1845,15 +1845,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                         macro.return = ""
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         macro.return = strformat("Number=%{num}; Damage=%{damage}; Bonus=%{bonus}; Name=%{name}")
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 
@@ -1864,7 +1864,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, macro("GetWeapon@Lib:Test"): 1] [macro.return]
 
@@ -1876,19 +1876,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- ============================================================ -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- ============================================================ -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- ============================================================ -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!--
 
@@ -1896,19 +1896,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        Deletes a weapon from the Weapons property List.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Parameters
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          The weapon number
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      -->
 
@@ -1916,15 +1916,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h: num = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Weapons = deleteStrProp(Weapons, strformat("Weapon%{num}Damage"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Weapons = deleteStrProp(Weapons, strformat("Weapon%{num}Name"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: Weapons = deleteStrProp(Weapons, strformat("Weapon%{num}Bonus"))]
 
@@ -1942,19 +1942,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!--
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Gets a string list of the valid weapon numbers
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- If Weapons token property is empty set it to a default value -->
 
@@ -1962,19 +1962,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [h,if(isPropertyEmpty("Weapons")): Weapons = "NumWeapons=0;"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: maxNum = getStrProp(Weapons, "NumWeapons")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: wnumList=""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,c(maxNum), code: {
 
@@ -1982,19 +1982,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        [h: wnum = roll.count+1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: name = getStrProp(Weapons, strformat("Weapon%{wnum}Name"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [if(name != ""):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          wnumList = listAppend(string(wnumList), string(wnum))
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        ]
 
@@ -2002,7 +2002,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: macro.return = wnumList]
 
@@ -2028,19 +2028,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("weaponInput"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: weaponNum = getStrProp(macro.args, "Number")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: name = getStrProp(macro.args, "Name")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: bonus = getStrProp(macro.args, "Bonus")]
 
@@ -2048,19 +2048,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        [h: damage = getStrProp(macro.args, "Damage")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- If we do not have a weapon number grab the next one -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h, if(weaponNum == ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,macro("NextWeaponNumber@this"): ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: weaponNum = macro.return]
 
@@ -2068,19 +2068,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Edit Weapon Dialog</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <meta name="input" content="true">
 
@@ -2088,19 +2088,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <form name="weaponInput" action="[r:macroLinkText('AddWeapon@Lib:Test')]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <tr>
 
@@ -2108,19 +2108,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                  <th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <label for="Name">Weapon Name</label>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <input type="text" name="Name" value="[r: name]"></input> <br>
 
@@ -2128,19 +2128,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                  </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <label for="Damage">Weapon Damage</label>
 
@@ -2148,19 +2148,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                  </th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <input type="text" name="Damage" value="[r: damage]"></input> <br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </tr>
 
@@ -2168,19 +2168,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <label for="Bonus">Weapon Bonus</label>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>
 
@@ -2188,19 +2188,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                    <input type="text" name="Bonus" value="[r: bonus]"></input>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <!-- hidden input with the weapon number -->
 
@@ -2208,19 +2208,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              <input type="hidden" name="Number" value="[r: weaponNum]"></input>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <input type="submit" name="Save" value="Save"> </input>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </form>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
@@ -2228,7 +2228,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        </html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -2274,19 +2274,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("weaponInput"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: weaponNum = getStrProp(macro.args, "Number")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: name = getStrProp(macro.args, "Name")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: bonus = getStrProp(macro.args, "Bonus")]
 
@@ -2294,19 +2294,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        [h: damage = getStrProp(macro.args, "Damage")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- If we do not have a weapon number grab the next one -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h, if(weaponNum == ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,macro("NextWeaponNumber@this"): ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: weaponNum = macro.return]
 
@@ -2314,19 +2314,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Edit Weapon Dialog</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <meta name="input" content="true">
 
@@ -2334,19 +2334,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <link rel="stylesheet" type="text/css" href="EditWeapon_css@[r: getMacroLocation()]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <form name="weaponInput" action="[r:macroLinkText('AddWeapon@Lib:Test')]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <table>
 
@@ -2354,19 +2354,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <th>
 
@@ -2374,19 +2374,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                          <label for="Name">Weapon Name</label>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        </th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                          <input type="text" name="Name" value="[r: name]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                          </input> <br>
 
@@ -2394,19 +2394,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                        </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                          <label for="Damage">Weapon Damage</label>
 
@@ -2414,19 +2414,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                        </th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                          <input type="text" name="Damage" value="[r: damage]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                          </input> <br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        </td>
 
@@ -2434,19 +2434,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        <th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                          <label for="Bonus">Weapon Bonus</label>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        </th>
 
@@ -2454,19 +2454,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                        <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                          <input type="text" name="Bonus" value="[r: bonus]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                          </input>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                        </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      </tr>
 
@@ -2474,19 +2474,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                    </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    <img src='[r: getTokenImage(100)]'></img>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </td>
 
@@ -2494,19 +2494,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <!-- hidden input with the weapon number -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <input type="hidden" name="Number" value="[r: weaponNum]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              </input>
 
@@ -2514,19 +2514,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              <input id="saveButton" type="submit" name="Save" value="Save">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              </input>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </form>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
@@ -2542,15 +2542,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      body {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         background-color: #CCBBBB
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 
@@ -2562,11 +2562,11 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [macro("EditWeaponDialog@Lib:Test"): "" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)]
 
@@ -2593,19 +2593,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Weapons"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Weapons</title>
 
@@ -2613,19 +2613,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <link rel="stylesheet" type="text/css" href="ViewWeapon_css@[r: getMacroLocation()]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            [h,macro("GetWeaponNumbers@this"): ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            [h: wpList = macro.return]
 
@@ -2633,19 +2633,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [foreach(weapon, wpList, ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                [h,macro("GetWeapon@this"): weapon]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                [h: wProp = macro.return]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <tr class="WeaponName">
 
@@ -2653,19 +2653,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                  <th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                    [r: getStrProp(wProp, "Name")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  </th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <tr>
 
@@ -2673,19 +2673,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                  <th>Damage</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>[r: getStrProp(wProp, "Damage")]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <th>Bonus</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>[r: getStrProp(wProp, "Bonus")]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </tr>
 
@@ -2693,19 +2693,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -2718,19 +2718,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .WeaponName {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          background-color: #55AA55;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          color: white;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          text-align: center;
 
@@ -2746,11 +2746,11 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [macro("ViewWeapons@Lib:Test"): ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)]
 
@@ -2791,19 +2791,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [frame("CharSheet"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: page = getStrProp(macro.args, "Page")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h,if(page==""): page="Main"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
@@ -2811,19 +2811,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Character Sheet</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <link rel="stylesheet" type="text/css" href="CharSheet_css@[r: getMacroLocation()]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
@@ -2831,19 +2831,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            [macro("CharSheetHeader@this"): page]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            [macro("CharSheet"+page+"@this"): ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
@@ -2860,19 +2860,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: currentPage = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: pages = "Main,Weapons"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <tr>
 
@@ -2880,19 +2880,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          [foreach(page, pages,""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            [h,if (page == currentPage): class="currentPage" ; class="page"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            [h: callback = "CharSheet@"+getMacroLocation()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <td class="[r: class]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [r: macroLink(page, callback, "none", "Page="+page)]
 
@@ -2900,15 +2900,15 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </table>
 
@@ -2921,19 +2921,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: propNames = "Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td>
 
@@ -2941,19 +2941,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <img src='[r: getTokenImage(100)]'></img>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <table id="stats">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <tr>
 
@@ -2961,19 +2961,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                <th>Name</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                <th>Score</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h: class = "oddRow"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [foreach(prop, propNames, ""), code: {
 
@@ -2981,19 +2981,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                                <tr class="[r:class]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>[r: prop]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <td>[r: getProperty(prop)]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                [h: class = if(class=="oddRow", "evenRow", "oddRow")]
 
@@ -3001,19 +3001,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </table>
 
@@ -3021,19 +3021,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      <hr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            [h: hpBarArgs = strformat("MaxLen=50; Value=%{HP}; MaxValue=%{MaxHP}; Label=HP")]
 
@@ -3041,19 +3041,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            [macro("TrafficLightBar@this"): hpBarArgs]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td>
 
@@ -3061,19 +3061,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            [h: hpBarArgs = strformat("MaxLen=50; Value=%{XP}; MaxValue=%{NextLevelXP}; Label=XP; Color=120,120,255")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            [macro("StatusBar@this"): hpBarArgs]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </table>
 
@@ -3086,19 +3086,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,macro("GetWeaponNumbers@this"): ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: wpList = macro.return]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [foreach(weapon, wpList, ""), code: {
 
@@ -3106,19 +3106,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          [h,macro("GetWeapon@this"): weapon]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: wProp = macro.return]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <tr class="WeaponName">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h: name = getStrProp(wProp, "Name")]
 
@@ -3126,19 +3126,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                              [h: bonus = getStrProp(wProp, "Bonus")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h: damage = getStrProp(wProp, "Damage")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h: callback = "EditWeaponDialog@" + getMacroLocation()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h: args = strformat("Number=%{weapon}; Name=%{name}; Damage=%{damage}; Bonus=%{bonus}")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [r: macroLink(name, callback, "none", args)]
 
@@ -3146,19 +3146,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            </th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <th>Damage</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <td>[r: getStrProp(wProp, "Damage")]</td>
 
@@ -3166,19 +3166,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                            <th>Bonus</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <td>[r: getStrProp(wProp, "Bonus")]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </table>
 
@@ -3191,19 +3191,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .oddRow { background-color: #FFFFFF }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .evenRow { background-color: #EEEEAA }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      #stats th { background-color: #113311; color: #FFFFFF }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .WeaponName a {
 
@@ -3211,19 +3211,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                          background-color: #55AA55;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          color: white;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          text-align: center;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .page a {
 
@@ -3231,19 +3231,19 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                         background-color: #5555CC;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         color: white;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .currentPage a {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         background-color: #7777FF;
 
@@ -3251,7 +3251,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                         color: white;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 

@@ -58,7 +58,7 @@ getInitiativeRound - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: round = getInitiativeRound()]
 
@@ -71,7 +71,7 @@ getInitiativeRound - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Round Number [r: getInitiativeRound()]
 

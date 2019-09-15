@@ -81,11 +81,11 @@ herolab.getImage - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.getImage(index)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.getImage(index, id)
 
@@ -111,11 +111,11 @@ herolab.getImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [portraitImage = herolab.getImage(0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [setTokenImage(portraitImage)]
 
@@ -125,7 +125,7 @@ herolab.getImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Asset ID of requested image.
 

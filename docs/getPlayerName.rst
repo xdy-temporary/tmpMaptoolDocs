@@ -60,7 +60,7 @@ getPlayerName - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPlayerName()
 
@@ -73,7 +73,7 @@ getPlayerName - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         /say My name is [r: getPlayerName()], nice to meet you!
 

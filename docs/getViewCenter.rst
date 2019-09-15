@@ -78,15 +78,15 @@ getViewCenter - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getViewCenter()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getViewCenter(pixels)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getViewCenter(pixels, delim)
 
@@ -112,19 +112,19 @@ getViewCenter - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewCenter()] <!-- Default pixels -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewCenter(0)] <!-- in Grid Cells -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewCenter(1)] <!-- in Pixels -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewCenter(0, "json")] <!-- Cells as JSON -->
 
@@ -132,11 +132,11 @@ getViewCenter - MapToolDoc
 
                         [r: getViewCenter(1, "json")] <!-- Pixels as JSON -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewCenter(0, ",")] <!-- Cells as "," separated String properties: -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewCenter(1, ";")] <!-- Pixels as ";" separated String properties: -->
 
@@ -146,19 +146,19 @@ getViewCenter - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         centerX=646; centerY=319;
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         centerX=14; centerY=7;
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         centerX=646; centerY=319;
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {"centerX":14,"centerY":7} 
 
@@ -166,11 +166,11 @@ getViewCenter - MapToolDoc
 
                         {"centerX":646,"centerY":319} 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         centerX=14, centerY=7;
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         centerX=646; centerY=319,
 

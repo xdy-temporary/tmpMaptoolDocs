@@ -79,7 +79,7 @@ herostun - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herostun(times, sides)
 
@@ -87,7 +87,7 @@ herostun - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hero(times, sides)
 
@@ -108,7 +108,7 @@ herostun - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: herostun(1, 20)] - [t: herobody(1, 20)
 
@@ -124,15 +124,15 @@ herostun - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTimes = 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceSides = 10]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: herostun(DiceTimes, DiceSides)] - [t: herobody(DiceTimes, DiceSides)]
 

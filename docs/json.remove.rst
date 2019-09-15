@@ -61,11 +61,11 @@ json.remove - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: jarr = json.remove(jarr, index)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: jarr = json.remove(jobj, key)]
 
@@ -78,11 +78,11 @@ json.remove - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromStrProp("a=1;b=44;c=12")] [r:json.remove(a, "c")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromList("a,1,g,4")][r:json.remove(a,3)]
 

@@ -60,7 +60,7 @@ deleteStrProp - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      deleteStrProp(props, key)
 
@@ -73,7 +73,7 @@ deleteStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: deleteStrProp("a=blah; b=doh; c=meh", "a")]
 

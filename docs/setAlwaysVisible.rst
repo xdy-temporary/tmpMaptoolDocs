@@ -60,7 +60,7 @@ setAlwaysVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setAlwaysVisible(value, [id])
 
@@ -86,11 +86,11 @@ setAlwaysVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setAlwaysVisible(1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setAlwaysVisible(0, "Dragon")]
 

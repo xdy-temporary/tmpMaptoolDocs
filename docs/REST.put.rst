@@ -79,11 +79,11 @@ REST.put - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      REST.put(url, payload, mediaType, getFullResponse)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      REST.put(url, payload, mediaType, headers, getFullResponse)
 
@@ -114,19 +114,19 @@ REST.put - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: baseURL = "https://reqres.in"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: path = "/api/users/2"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: mediaType = "application/json; charset=utf-8"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: getFullResponse = 0]
 
@@ -134,19 +134,19 @@ REST.put - MapToolDoc
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: payload = '{ "name": "morpheus", "job": "zion resident" }']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: response = REST.put(baseURL + path, payload, mediaType, getFullResponse)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
@@ -154,15 +154,15 @@ REST.put - MapToolDoc
 
                         <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.indent(response, 2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         </pre>
 
@@ -172,19 +172,19 @@ REST.put - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "name": "morpheus",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "job": "zion resident",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "updatedAt": "2019-03-17T22:49:52.188Z"
 

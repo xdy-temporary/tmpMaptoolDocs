@@ -85,19 +85,19 @@ getOwners - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getOwners()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getOwners(delim)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getOwners(delim, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getOwners(delim, id, mapname)
 
@@ -133,11 +133,11 @@ getOwners - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getOwners()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

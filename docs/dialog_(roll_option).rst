@@ -61,7 +61,7 @@ dialog (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, dialog(dialogName [,size; input; temporary; title; noframe; value] )]
 
@@ -120,19 +120,19 @@ dialog (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Dialog Test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                            <title>Test of Dialog Windows</title>
 
@@ -140,19 +140,19 @@ dialog (roll option) - MapToolDoc
 
                          </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <table border="1">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <tr><th>Column 1</th><th>Column 2</th><th>Column 3</th></tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <tr><td>Line 1, Col 1</td><td colspan="2">Line 1, Cols 2 and 3</td></tr>
 
@@ -160,19 +160,19 @@ dialog (roll option) - MapToolDoc
 
                          <tr><td rowspan="2">Lines 2 and 3, Col 1</td><td>Line 2, Col 2</td><td>Line 2, Col 3</td></tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <tr><td>Line 3, Col 3</td><td>Line 3, Col 3</td></tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        </html>
 
@@ -188,7 +188,7 @@ dialog (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [dialog("Dialog Test", "width=300; height=200; temporary=1; input=0; noframe=1"): {
 

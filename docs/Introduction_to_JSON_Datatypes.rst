@@ -88,7 +88,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      empty = []
 
@@ -99,7 +99,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      test = ["this", "is", "a", "test"]
 
@@ -110,7 +110,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      test = [4,5,12,10,1]
 
@@ -127,7 +127,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      empty =  {}
 
@@ -138,19 +138,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      person = {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "first name" : "Fred",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "last name" : "Flintstone"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 
@@ -161,7 +161,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      person = { "first name" : "Fred", "last name" : "Flintstone" }
 
@@ -182,7 +182,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      test = ["This, is, a, test", "bah"]
 
@@ -197,19 +197,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      person = {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "first name" : "Fred",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "last name" : "Flintstone",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "address" : "Somewhere; around here => "
 
@@ -240,15 +240,15 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      test = [1, 2, 3, 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          ["a", "b", "c"],
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       4, 5, 6]
 
@@ -258,19 +258,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      test = [1, 2, 3, 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          ["a", "b", "c",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              ["z", "x", "y"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          ],
 
@@ -286,7 +286,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      test = [1, 2, 3, ["a", "b", "c", ["z", "x", "y"] ], 4, 5, 6]
 
@@ -298,19 +298,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      person = {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "first name" : "Fred",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "last name" : "Flintstone", 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "address": { 
 
@@ -318,15 +318,15 @@ Introduction to JSON Datatypes - MapToolDoc
 
                              "street": "301 Cobblestone Way",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "city": "Bedrock"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 
@@ -336,19 +336,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      person = {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "first name" : "Fred",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "last name" : "Flintstone", 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "address": { 
 
@@ -356,19 +356,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
                              "street": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  number: 301,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  name: "Cobblestone Way"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              },
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "city": "Bedrock"
 
@@ -376,7 +376,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
                          }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 
@@ -387,7 +387,7 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      person = { "first name" : "Fred", "last name" : "Flintstone", "address": { "street": { number: 301, name: "Cobblestone Way" }, "city": "Bedrock" } }
 
@@ -397,19 +397,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      people = [
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "first name" : "Fred",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "last name" : "Flintstone", 
 
@@ -417,19 +417,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
                              "address": { 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  "street": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      number: 301,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      name: "Cobblestone Way"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  },
 
@@ -437,19 +437,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
                                  "city": "Bedrock"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          },
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "first name" : "Barny",
 
@@ -457,19 +457,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
                              "last name" : "Rubble", 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "address": { 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  "street": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      number: 303,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                      name: "Cobblestone Way"
 
@@ -477,15 +477,15 @@ Introduction to JSON Datatypes - MapToolDoc
 
                                  },
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  "city": "Bedrock"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 
@@ -495,19 +495,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      person = {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "first name" : "Fred",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "last name" : "Flintstone", 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "address": { 
 
@@ -515,19 +515,19 @@ Introduction to JSON Datatypes - MapToolDoc
 
                              "street": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  number: 301,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  name: "Cobblestone Way"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              },
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "city": "Bedrock"
 
@@ -535,11 +535,11 @@ Introduction to JSON Datatypes - MapToolDoc
 
                          },
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "family": ["Wilma", "Pebbles"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 

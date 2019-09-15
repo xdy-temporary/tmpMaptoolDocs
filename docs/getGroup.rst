@@ -59,7 +59,7 @@ getGroup - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getGroup(id, match, group)
 
@@ -81,19 +81,19 @@ getGroup - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id = strfind("this is a test", "(\\S+)\\s(\\S+)\\s*")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         match 1, group 0 = [getGroup(id, 1, 0)]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         match 1, group 1 = [getGroup(id, 1, 1)]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         match 1, group 2 = [getGroup(id, 1, 2)]<br>
 
@@ -101,11 +101,11 @@ getGroup - MapToolDoc
 
                         match 2, group 0 = [getGroup(id, 2, 0)]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         match 2, group 1 = [getGroup(id, 2, 1)]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         match 2, group 2 = [getGroup(id, 2, 2)]<br>
 
@@ -198,19 +198,19 @@ getGroup - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!--
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            (?i) - case insensative
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            (d+) - number of dice (not optional)
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            d - dice expression separator, upper or lower case
 
@@ -218,19 +218,19 @@ getGroup - MapToolDoc
 
                            (d+) - die sides (not optional)
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            Optional:
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               space* - space before modifier
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               ([+-]*d+)* - roll modifier
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               space* - space after modifier
 
@@ -238,19 +238,19 @@ getGroup - MapToolDoc
 
                               (w+)* - single word for damage type
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            Example Groups: "(3)d(6)(+2) (Fire)"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: regex = "(?i)(\\d+)d(\\d+) *([+-]*\\d+)* *(\\w+)*"]
 
@@ -258,19 +258,19 @@ getGroup - MapToolDoc
 
                         [H, while(1), code: {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            <!-- cancel input to break out of loop -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [H: abort(input("diceExp|3d6+2 Fire|Enter Dice Expression|TEXT"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [H: id = strfind(diceExp,regex)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [H: valid = getFindCount(id)]
 
@@ -278,19 +278,19 @@ getGroup - MapToolDoc
 
                            [H, if(valid), code: {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               [H: numDice = getGroup(id,1,1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               [H: numSides = getGroup(id,1,2)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               [H: dieMod = getGroup(id,1,3)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               [H: dmgType = getGroup(id,1,4)]
 
@@ -298,19 +298,19 @@ getGroup - MapToolDoc
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               [H: output = strformat("Original: %{diceExp}<br>Dice Expression: %{numDice}d%{numSides}")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               [H, if(! json.isEmpty(dieMod)): output = json.append(output,strformat("Modifier: %{dieMod}"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                               [H, if(! json.isEmpty(dmgType)): output = json.append(output,strformat("Damage Type: %{dmgType}"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            };{
 
@@ -318,15 +318,15 @@ getGroup - MapToolDoc
 
                               [H: output = strformat("Invalid Dice Expression: [%{diceExp}]")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            }]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [H: broadcast(json.toList(output,"<br>"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 

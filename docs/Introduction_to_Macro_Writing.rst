@@ -1730,15 +1730,15 @@ Introduction to Macro Writing - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:existingString = "The skill name you entered is "]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:concatString = existingString+skill+"."]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:concatString]
 

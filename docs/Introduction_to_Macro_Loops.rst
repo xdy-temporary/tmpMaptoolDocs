@@ -329,15 +329,15 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:attackBonus = 7]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Toxic Cloud: [count(numAttacks): 1d20+attackBonus]
 
@@ -377,19 +377,19 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:attackBonus = 7]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Toxic Cloud vs:<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
@@ -397,19 +397,19 @@ Introduction to Macro Loops - MapToolDoc
 
                         [c(numAttacks, "<br>"),CODE:
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [attack = 1d20+attackBonus]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [damage = 1d6 + 2]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            Target [r:roll.count]: Attack [r:attack]; [damage] damage.
 
@@ -504,11 +504,11 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:num = 10]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [while(num > 0): num = num - 1]
 
@@ -551,19 +551,19 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:ammo = 30]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:hit = 1]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [while(ammo > 0 && hit == 1, "<br>"),CODE:
 
@@ -571,19 +571,19 @@ Introduction to Macro Loops - MapToolDoc
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:attackRoll = 1d20]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:ammoSpent = 1d6]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h,if(attackRoll > 15): hit = 1; hit = 0]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:ammo = ammo - ammoSpent]
 
@@ -591,19 +591,19 @@ Introduction to Macro Loops - MapToolDoc
 
                           Your first attack expends [r:ammoSpent] rounds, and [if(hit==1, "hits.", "misses.")] You have [r:ammo] rounds remaining.
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [if(hit==0): "Your turn ends because you missed a target."]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [if(ammo==0): "Your turn ends because you are out of ammo."]
 

@@ -76,7 +76,7 @@ getTokenStates - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenStates()
 
@@ -84,7 +84,7 @@ getTokenStates - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenStates(delim)
 
@@ -92,7 +92,7 @@ getTokenStates - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenStates(delim, groupName)
 
@@ -118,7 +118,7 @@ getTokenStates - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: states = getTokenStates()]
 
@@ -130,7 +130,7 @@ getTokenStates - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: states = getTokenStates("json")]
 
@@ -142,7 +142,7 @@ getTokenStates - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: states = getTokenStates("json", "Damage")]
 

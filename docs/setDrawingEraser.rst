@@ -82,7 +82,7 @@ setDrawingEraser - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setDrawingEraser(mapName, drawingId, boolean)
 
@@ -104,19 +104,19 @@ setDrawingEraser - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setDrawingEraser("Grasslands", "0000000094218C675800000000000000",0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:refreshDrawing("Grasslands", "0000000094218C675800000000000000")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setDrawingEraser("Grasslands", "00000000CCF6B567CC00000000000000",1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:refreshDrawing("Grasslands", "00000000CCF6B567CC00000000000000")]
 

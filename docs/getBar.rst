@@ -67,7 +67,7 @@ getBar - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getBar(name)
 
@@ -80,7 +80,7 @@ getBar - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: healthPct = getBar("health") * 100]
 

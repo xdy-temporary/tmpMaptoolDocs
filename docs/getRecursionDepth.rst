@@ -74,7 +74,7 @@ getRecursionDepth - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getRecursionDepth()
 
@@ -87,7 +87,7 @@ getRecursionDepth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getRecursionDepth()]
 

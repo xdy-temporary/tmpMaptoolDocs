@@ -65,15 +65,15 @@ Show HTML - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: output = "<h1>This is a headline</h1><p>but <em>this</em> is not</p>"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: output = replace(output, "<", "&lt;")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: output]
 

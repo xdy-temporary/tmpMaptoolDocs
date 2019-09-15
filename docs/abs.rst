@@ -86,7 +86,7 @@ absolutevalue - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = abs(num)]
 
@@ -101,7 +101,7 @@ absolutevalue - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: absolutevalue(-3)]
 
@@ -124,7 +124,7 @@ absolutevalue - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: abs(4)]
 
@@ -147,7 +147,7 @@ absolutevalue - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: abs(3.4)]
 

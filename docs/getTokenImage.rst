@@ -74,19 +74,19 @@ getTokenImage - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenImage()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenImage(size)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenImage(size, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenImage(size, id, mapname)
 
@@ -113,7 +113,7 @@ getTokenImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <img src='[r:getTokenImage()]'></img>
 
@@ -125,7 +125,7 @@ getTokenImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, token(tokenId): imgAsset = getTokenImage()]
 

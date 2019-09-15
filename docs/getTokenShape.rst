@@ -81,15 +81,15 @@ getTokenShape - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenShape()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenShape(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenShape(id, mapname)
 
@@ -122,11 +122,11 @@ getTokenShape - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: exampleVariable = "a,b,c"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: exampleFunction(exampleVariable, reverse)]
 
@@ -136,7 +136,7 @@ getTokenShape - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         c,b,a
 

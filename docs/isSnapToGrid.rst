@@ -76,15 +76,15 @@ isSnapToGrid - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isSnapToGrid()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isSnapToGrid(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isSnapToGrid(id, mapname)
 
@@ -111,7 +111,7 @@ isSnapToGrid - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: snap=isSnapToGrid()]
 

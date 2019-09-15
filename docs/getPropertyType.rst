@@ -82,15 +82,15 @@ getPropertyType - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyType()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyType(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPropertyType(id, mapname)
 

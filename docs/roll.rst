@@ -71,7 +71,7 @@ roll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      roll(times, sides)
 
@@ -79,7 +79,7 @@ roll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      dice(times, sides)
 
@@ -87,7 +87,7 @@ roll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      d(times, sides)
 
@@ -114,7 +114,7 @@ roll - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: roll(1, 20)]
 
@@ -127,15 +127,15 @@ roll - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTimes = 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceSides = 10]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: roll(DiceTimes, DiceSides)]
 

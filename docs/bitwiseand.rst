@@ -65,11 +65,11 @@ bitwiseand - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = band(num, num, ...)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = bitwiseand(num, num, ...)]
 
@@ -82,7 +82,7 @@ bitwiseand - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: band(1,0)]
 
@@ -92,7 +92,7 @@ bitwiseand - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: band(1,1)]
 
@@ -102,7 +102,7 @@ bitwiseand - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: band(3, 5]
 
@@ -114,7 +114,7 @@ bitwiseand - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: band(20, 12)]
 

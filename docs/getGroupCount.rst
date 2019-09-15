@@ -59,7 +59,7 @@ getGroupCount - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: text = getGroupCount(id)]
 
@@ -74,11 +74,11 @@ getGroupCount - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id = strfind("this is a test", "(\\S+)\\s(\\S+)\\s*")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getGroupCount(id)]
 

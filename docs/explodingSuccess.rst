@@ -77,7 +77,7 @@ explodingSuccess - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      explodingSuccess(times, sides, target)
 
@@ -101,7 +101,7 @@ explodingSuccess - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: explodingSuccess(1, 20, 30)]
 
@@ -117,19 +117,19 @@ explodingSuccess - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTimes = 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceSides = 10]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTarget = 20]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: explodingSuccess(DiceTimes, DiceSides, DiceTarget)]
 

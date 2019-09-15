@@ -71,7 +71,7 @@ setBar - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setBar(name, pct/100)
 
@@ -84,7 +84,7 @@ setBar - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setBar("health", HP/MaxHP)]
 

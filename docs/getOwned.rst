@@ -93,11 +93,11 @@ getOwned - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getOwned(player)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getOwned(player, delim)
 
@@ -121,11 +121,11 @@ getOwned - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getOwned(getPlayerName())]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(id, ids, "<br>"): id]
 

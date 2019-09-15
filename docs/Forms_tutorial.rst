@@ -159,15 +159,15 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [frame("myForm"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          here will be a fishy form
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -178,19 +178,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [frame("myForm"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <h3>my form:</h3>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r, macro("displayForm@Lib:token"): ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -219,19 +219,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- this example displays correctly but does nothing -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <form>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Character name: <input type="text" name="charName"><br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Strength: <input type="text" name="str">
 
@@ -268,19 +268,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: processorLink = macroLinkText("processForm@Lib:token", "all")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <form action="[r:processorLink]" method="json">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Character name: <input type="text" name="charName"><br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Strength: <input type="text" name="str"><br>
 
@@ -288,7 +288,7 @@ Forms tutorial - MapToolDoc
 
                      <input type="submit" name="myForm_btn" value="Okay">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </form>
 
@@ -298,15 +298,15 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <pre>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: json.indent(macro.args,2)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </pre>
 
@@ -320,19 +320,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        "charName": "the fishy dude",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        "str": "7",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        "myForm_btn": "Okay"
 
@@ -362,7 +362,7 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="text" name="" size="" maxlength="" value="">
 
@@ -377,7 +377,7 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="password" name="" size="" maxlength="" value="">
 
@@ -390,15 +390,15 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <textarea name="" cols="" rows="">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Enter your text here...
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </textarea>
 
@@ -420,19 +420,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- processForm -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: formData = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- get the content of a textarea named "textarea" -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: text = json.get(formData, "textarea")]
 
@@ -440,19 +440,19 @@ Forms tutorial - MapToolDoc
 
                      <!-- encode it -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: text = encode(text)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- loop through the content -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: sum=0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach(line, text, "", "%0A"), code: {
 
@@ -460,19 +460,19 @@ Forms tutorial - MapToolDoc
 
                          <!-- decode line again -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: decodedLine = decode(line)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h, if(isNumber(decodedLine):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              sum = sum + decodedLine;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              sum = sum + eval(decodedLine)
 
@@ -480,15 +480,15 @@ Forms tutorial - MapToolDoc
 
                          ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- and output. done. -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: sum]
 
@@ -499,19 +499,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <select name="" size="">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <option>A</option>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <option>B</option>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <option selected="selected">C</option>
 
@@ -529,19 +529,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      A<input type="radio" name="group1" value="A" checked="checked">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      B<input type="radio" name="group1" value="B">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      C<input type="radio" name="group1" value="C">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -549,11 +549,11 @@ Forms tutorial - MapToolDoc
 
                      A<input type="radio" name="group2" value="A" checked="checked">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      B<input type="radio" name="group2" value="B">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      C<input type="radio" name="group2" value="C">
 
@@ -564,19 +564,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="checkbox" name="group1" value="A"> A
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="checkbox" name="group1" value="B"> B
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="checkbox" name="group1" value="C"> C
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="checkbox" name="group1" value="D" checked="checked"> D
 
@@ -599,7 +599,7 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="hidden" name="" value="">
 
@@ -615,7 +615,7 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="submit" name="" value="">
 
@@ -646,11 +646,11 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: submit = json.get(macro.args,"submit")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: submit = replace(submit,"<[^>]*?>","")]
 
@@ -665,7 +665,7 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="image" src="" name="" value="">
 
@@ -682,19 +682,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- this image button pushed .. -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="image" src="[r:getImage("Image:Attack")]" name="img_btn" value="image button clicked">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -702,19 +702,19 @@ Forms tutorial - MapToolDoc
 
                      <!-- .. would send this args -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "img_btn.value": "image button clicked",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "img_btn.x": "21",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "img_btn.y": "13"
 
@@ -755,19 +755,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <link rel='onChangeSelection' type='macro' href='macroLink'>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </head>
 
@@ -836,19 +836,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: rebuild = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: id = currentToken()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: output = getProperty("charSheetCache", id)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -856,19 +856,19 @@ Forms tutorial - MapToolDoc
 
                      [h, if(rebuild || output == ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: output = "here you build"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: output = output + "your mega complex character sheet"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          ...
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: output = encode(output)]
 
@@ -876,19 +876,19 @@ Forms tutorial - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:'<!-- though it might be better to define a UDF for that -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:'<!-- e.g: output = encode(createSheetContent()) -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: setProperty("charSheetCache", output, id)]
 
@@ -896,19 +896,19 @@ Forms tutorial - MapToolDoc
 
                      };{}]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [frame("Character Sheet"):{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r: decode(output)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -954,7 +954,7 @@ Forms tutorial - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="checkbox" name="surprised"  value="1" checked="checked" />
 
@@ -974,19 +974,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [frame("test"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <h3>this is ugly</h3>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Value <input type="text" size="5" /><br>
 
@@ -994,19 +994,19 @@ Forms tutorial - MapToolDoc
 
                      Option1<input type="checkbox" /><br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Option2<input type="checkbox" /><br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="submit"><br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <h3>this is pretty</h3>
 
@@ -1014,19 +1014,19 @@ Forms tutorial - MapToolDoc
 
                      <table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         <td>Value</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         <td><input type="text" size="5" /></td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </tr>
 
@@ -1034,19 +1034,19 @@ Forms tutorial - MapToolDoc
 
                      <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         <td>Option1</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         <td><input type="checkbox" /></td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <tr>
 
@@ -1054,19 +1054,19 @@ Forms tutorial - MapToolDoc
 
                         <td>Option2</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         </td><input type="checkbox" />
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         <td colspan="2"><input type="submit" /></td>
 
@@ -1074,15 +1074,15 @@ Forms tutorial - MapToolDoc
 
                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </table>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -1113,19 +1113,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: link = macroLinkText("openCharacterSheet@Lib:token", "none")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [frame("csheet"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <head>
 
@@ -1133,19 +1133,19 @@ Forms tutorial - MapToolDoc
 
                      <link rel="onChangeSelection" type="macro" href="[r:link]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <link rel="stylesheet" type="text/css" href="css@Lib:token"></link>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, macro("characterSheet@Lib:token"): getSelected()]
 
@@ -1153,11 +1153,11 @@ Forms tutorial - MapToolDoc
 
                      </body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -1167,15 +1167,15 @@ Forms tutorial - MapToolDoc
 
             .. container:: css source-css
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .odd { background-color: #FFFFFF }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      .even { background-color: #EEEEAA }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      th { background-color: #113311; color: #FFFFFF }
 
@@ -1190,19 +1190,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: id = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, if(listCount(id)!=1), code: {};{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: link = macroLinkText("editCharacterSheet@Lib:token", "all")]
 
@@ -1210,19 +1210,19 @@ Forms tutorial - MapToolDoc
 
                      <form action="[r:link]" method="json">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       <input type="hidden" name="id" value="[r:id]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <h1>[r:getName(id)]</h1>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <table width="*">
 
@@ -1230,19 +1230,19 @@ Forms tutorial - MapToolDoc
 
                      <tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <th colspan="2">Primary Attributes</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: attributes = "Strength, Dexterity, Intelligence, Endurance"]
 
@@ -1250,19 +1250,19 @@ Forms tutorial - MapToolDoc
 
                      [h: row = "odd"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, foreach(attrib, attributes, ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <tr class="[r:row]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td><b>[r:attrib]:</b></td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td><input type="text" name="[r:attrib]" value="[r:getProperty(attrib, id)]" size="3" align="right"></td>
 
@@ -1270,19 +1270,19 @@ Forms tutorial - MapToolDoc
 
                          </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: row = if(row=="odd", "even", "odd")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <tr>
 
@@ -1290,19 +1290,19 @@ Forms tutorial - MapToolDoc
 
                        <th colspan="2">Secondary Attributes</th>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: attributes = "Hit Points, Armor, Movement"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: row = "odd"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, foreach(attrib, attributes, ""), code: {
 
@@ -1310,19 +1310,19 @@ Forms tutorial - MapToolDoc
 
                          <tr class="[r:row]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td><b>[r:attrib]:</b></td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td>[r:getProperty(attrib, id)]</td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: row = if(row=="odd", "even", "odd")]
 
@@ -1330,19 +1330,19 @@ Forms tutorial - MapToolDoc
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: classes = "Warrior, Rogue, Wizard, Priest"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: CharClass = getProperty("CharClass", id)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <tr class="[r:row]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <td><b>Class:</b></td>
 
@@ -1350,19 +1350,19 @@ Forms tutorial - MapToolDoc
 
                          <td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <select name="CharClass" size="1">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [r, foreach(c, classes, ""), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  <option [r, if(c==CharClass): "selected"]>[r:c]</option>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              }]
 
@@ -1370,19 +1370,19 @@ Forms tutorial - MapToolDoc
 
                          </select>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          </td>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </tr>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="submit" name="edit_btn" value="Submit changes">
 
@@ -1390,7 +1390,7 @@ Forms tutorial - MapToolDoc
 
                      </form>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -1403,19 +1403,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: arguments = macro.args] 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: id = json.get(arguments, "id")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- set primary attributes -->
 
@@ -1423,19 +1423,19 @@ Forms tutorial - MapToolDoc
 
                      [h: attributes = "Strength, Dexterity, Intelligence, Endurance"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach(attrib, attributes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: val = json.get(macro.args, attrib)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h, if(! isNumber(val)): val=eval(val)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <!-- allowed values are 1..6 -->
 
@@ -1443,19 +1443,19 @@ Forms tutorial - MapToolDoc
 
                          [h: val = min(max(val,1), 6)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r: setProperty(attrib, val, id)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: setProperty("Hit Points", 6*getProperty("Endurance",id), id)]
 
@@ -1463,19 +1463,19 @@ Forms tutorial - MapToolDoc
 
                      [h: setProperty("Class", json.get(macro.args, "CharClass"), id)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: setProperty("Movement", getProperty("Dexterity",id), id)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: CharClass = getProperty("CharClass", id)]
 
@@ -1483,19 +1483,19 @@ Forms tutorial - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -1503,19 +1503,19 @@ Forms tutorial - MapToolDoc
 
                      [h, switch(CharClass):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          case "Warrior": val=6;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          case "Rogue": val=2;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          case "Wizard": val=1;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          case "Priest": val=4;
 
@@ -1523,19 +1523,19 @@ Forms tutorial - MapToolDoc
 
                         default: val=0
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: setProperty("Armor", val, id)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: setProperty("Hit Points", 6*getProperty("Endurance",id), id)]
 
@@ -1543,11 +1543,11 @@ Forms tutorial - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Changes saved to [r: getName(id)].
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, macro("openCharacterSheet@Lib:token"): id]
 
@@ -1602,19 +1602,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: chosenAction = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if(hasImpersonated()): activeId = getImpersonated(); activeId = getSelected()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if(listCount(activeId)!=1): assert(0, "You have to select only one token")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: gm = isGM()]
 
@@ -1622,19 +1622,19 @@ Forms tutorial - MapToolDoc
 
                      [h: owned = isOwner(getPlayerName(), activeId)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if(gm ||  owned): ""; assert(0, "You have no right to act with this token.")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: deselectTokens()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- call right actionFrame for chosenAction -->
 
@@ -1653,7 +1653,7 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, macro("openActionFrame@Lib:token"):"Attack"]
 
@@ -1671,19 +1671,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: activeId = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: selection = getSelected()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: link = macroLinkText("actionFrame@Lib:tkn", "none", activeId)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: perform= macroLinkText("performAction@Lib:tkn", "all")]
 
@@ -1691,19 +1691,19 @@ Forms tutorial - MapToolDoc
 
                      [frame("Action"): {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <html>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <head>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <link rel='onChangeSelection' type='macro' href='[r:link]'>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </head>
 
@@ -1711,19 +1711,19 @@ Forms tutorial - MapToolDoc
 
                      <body>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <b>Attacker:</b><br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, token(activeId): strformat("<img src='%s' alt='%s'>", getTokenImage(50), getName())]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <b>Targets:</b> <br>
 
@@ -1731,19 +1731,19 @@ Forms tutorial - MapToolDoc
 
                      [r, foreach(id, selection, " "), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, token(id): strformat("<img src='%s' alt='%s'>", getTokenImage(50), getName())]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <form action="[r:perform]" method="json">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="text" name="mods" value="0"><br>
 
@@ -1751,15 +1751,15 @@ Forms tutorial - MapToolDoc
 
                      <input type="submit" name="btn_submit" value="Perform action">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="hidden" name="id" value="[r:activeId]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <input type="hidden" name="targets" value="[r:selection]">
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -1769,19 +1769,19 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: arguments = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: id = json.get(arguments, "id")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: targets = json.get(arguments, "targets")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, if(listCount(targets)<1): abort(0)]
 
@@ -1789,19 +1789,19 @@ Forms tutorial - MapToolDoc
 
                      <!-- target and performer could be the same -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- target could be one or many -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- roll the attack -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <b>Melee attack:</b><br>
 
@@ -1809,19 +1809,19 @@ Forms tutorial - MapToolDoc
 
                      [r, foreach(target, targets, "<br>"), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          <b>[r: getName(id)]</b> rolls
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r, token(id): rollResult = 1d20 + Strength]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r, if(rollResult>=15), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              and hits <b>[r:getName(target)]</b> for
 
@@ -1829,19 +1829,19 @@ Forms tutorial - MapToolDoc
 
                              [r: dmg = 1d6 + getProperty("Strength", id) - getProperty("Armor", target)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              points of damage.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [h: setProperty("Hit Points", getProperty("Hit Points", target) - max(0,dmg), target)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          };{and misses [r:getName(target)]}]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 

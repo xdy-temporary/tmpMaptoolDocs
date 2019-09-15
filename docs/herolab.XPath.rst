@@ -82,11 +82,11 @@ herolab.XPath - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.XPath(XPath)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.XPath(XPath, id)
 
@@ -109,15 +109,15 @@ herolab.XPath - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [race = herolab.XPath('/document/public/character/race/@name')]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [alignment = herolab.XPath('/document/public/character/alignment/@name')]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [improvedInit = herolab.XPath('boolean(/document/public/character/feats/feat[starts-with(@name,"Improved Initiative")])')]
 

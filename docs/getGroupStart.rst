@@ -60,7 +60,7 @@ getGroupStart - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getGroupStart(id, match, group)
 
@@ -82,19 +82,19 @@ getGroupStart - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id = strfind("this is a test", "(\\S+)\\s(\\S+)\\s*")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         match 1, group 1 start = [getGroupStart(id, 1, 1)]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         match 1, group 2 start = [getGroupStart(id, 1, 2)]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         match 2, group 1 start = [getGroupStart(id, 2, 1)]<br>
 

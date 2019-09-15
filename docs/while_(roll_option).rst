@@ -78,11 +78,11 @@ while (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [WHILE(condition): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [WHILE(condition, separator): body]
 
@@ -93,11 +93,11 @@ while (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:num = 10]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [WHILE(num >= 0): num = num - 1]
 
@@ -120,19 +120,19 @@ while (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: End = 5]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: Num = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [WHILE(Num < End, "<br>"), CODE: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          Number is [Num = Num + 1],
 
@@ -140,7 +140,7 @@ while (roll option) - MapToolDoc
 
                          Next will be [Num+1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 

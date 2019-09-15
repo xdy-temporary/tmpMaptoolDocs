@@ -81,7 +81,7 @@ getPenWidth - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getPenWidth(mapName, drawingId)
 
@@ -101,7 +101,7 @@ getPenWidth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getPenWidth("Grasslands", "0000000074836E675D00000000000000")]
 

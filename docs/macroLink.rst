@@ -101,7 +101,7 @@ macroLink - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      macroLink(text, macroName)
 
@@ -109,7 +109,7 @@ macroLink - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      macroLink(text, macroName, output)
 
@@ -117,7 +117,7 @@ macroLink - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      macroLink(text, macroName, output, args)
 
@@ -125,7 +125,7 @@ macroLink - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      macroLink(text, macroName, output, args, target)
 
@@ -215,15 +215,15 @@ macroLink - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: outputTo = '["Fred", "Barney", "gm"]']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: args = json.set("{}", "mlOutputList", outputTo)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: macroLink("Click on me!", "Test@Lib:Test", "list", args)]
 

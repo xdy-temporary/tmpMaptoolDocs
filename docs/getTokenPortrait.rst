@@ -74,19 +74,19 @@ getTokenPortrait - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenPortrait()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenPortrait(size)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenPortrait(size, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenPortrait(size, id, mapname)
 
@@ -113,7 +113,7 @@ getTokenPortrait - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <img src='[r:getTokenPortrait()]'></img>
 

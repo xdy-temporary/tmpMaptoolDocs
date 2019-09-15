@@ -62,7 +62,7 @@ json.path.delete - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.path.delete(json, path)
 
@@ -82,15 +82,15 @@ json.path.delete - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:troll = json.set("{}", "name", "Troll", "HP", 75, "Attacks", json.append("Claw", "Bite"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:orc = json.set("{}", "name", "Orc", "HP", 13, "Attacks", json.append("Sword", "Punch"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:monsters = json.set("{}", "Troll", troll, "Orc", orc)]
 
@@ -100,7 +100,7 @@ json.path.delete - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.path.delete(monsters, "Orc.Attacks.[1]")]
 
@@ -110,7 +110,7 @@ json.path.delete - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.path.delete(monsters, "Orc.Attacks[?(@ == 'Punch')]")]
 
@@ -120,7 +120,7 @@ json.path.delete - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {"Troll":{"name":"Troll","HP":75,"Attacks":["Claw","Bite"]},"Orc":{"name":"Orc","HP":13,"Attacks":["Sword"]}}
 

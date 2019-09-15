@@ -63,7 +63,7 @@ json.equals - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.equals(array1, array2)
 
@@ -71,7 +71,7 @@ json.equals - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.equals(object1, object2)
 

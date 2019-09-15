@@ -69,15 +69,15 @@ hasProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasProperty(name)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasProperty(name, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      hasProperty(name, id, mapname)
 

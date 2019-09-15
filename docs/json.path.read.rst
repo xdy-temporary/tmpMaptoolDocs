@@ -63,7 +63,7 @@ json.path.read - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.path.read(json, path)
 
@@ -83,15 +83,15 @@ json.path.read - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:troll = json.set("{}", "name", "Troll", "HP", 75, "Attacks", json.append("Claw", "Bite"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:orc = json.set("{}", "name", "Orc", "HP", 13, "Attacks", json.append("Sword", "Punch"))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:monsters = json.set("{}", "Troll", troll, "Orc", orc)]
 
@@ -102,7 +102,7 @@ json.path.read - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.path.read(monsters, "Orc.Attacks.[0]")]
 
@@ -115,7 +115,7 @@ json.path.read - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.path.read(monsters, ".Attacks")]
 
@@ -128,7 +128,7 @@ json.path.read - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.path.read(monsters, ".[?(@.HP > 30)].name")]
 

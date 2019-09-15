@@ -121,19 +121,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(hasImpersonated())] <!-- Abort macro if no token is impersonated -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(macro, getMacros()), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- 
 
@@ -141,19 +141,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                          == each label can appear more than once (i.e. more than one
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == button with same label, so we need to get all the button
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == indexes for a label
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -161,19 +161,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                        [h,foreach(index, getMacroIndexes(macro)), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [props = getMacroProps(index)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                         matches(macro, "Encounter:.*"),  1, 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,if(isBlue): setMacroProps(index, "color=default")]
 
@@ -181,11 +181,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)] <!-- Suppress output text -->
 
@@ -242,19 +242,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(hasImpersonated())] <!-- Abort macro if no token is impersonated -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(macro, getMacros()), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- 
 
@@ -262,19 +262,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                          == each label can appear more than once (i.e. more than one
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == button with same label, so we need to get all the button
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          == indexes for a label
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -282,19 +282,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                        [h,foreach(index, getMacroIndexes(macro)), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [props = getMacroProps(index)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                         matches(macro, "(Daily|Encounter):.*"),  1, 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,if(isBlue): setMacroProps(index, "color=default")]
 
@@ -302,11 +302,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(0)] <!-- Suppress output text -->
 
@@ -403,7 +403,7 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: setMacroProps("Encouner:Burning Hands", "color=blue")]
 
@@ -417,7 +417,7 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Watch, the watch, you are getting sleepy, your eyelids are getting heavy.... [h: setMacroProps("Daily:Sleep", "color=blue")]
 
@@ -441,19 +441,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: found = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: indexes = getMacroIndexes(macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach(button, indexes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(found==0), code: {
 
@@ -461,19 +461,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                              [color = getStrProp(getMacroProps(button), "color")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default"): setMacroProps(button, "color=blue")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default"): found=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -491,11 +491,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          Oooh tingly!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,macro("UsePower@Lib:DnD4ePowers"): "Daily:Lay On Hands"]
 
@@ -519,19 +519,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: found = 0]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: indexes = getMacroIndexes(macro.args)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach(button, indexes), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [if(found==0), code: {
 
@@ -539,19 +539,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                              [color = getStrProp(getMacroProps(button), "color")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default"): setMacroProps(button, "color=blue")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [if(color=="default"): found=1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -559,19 +559,19 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                      <!-- if "free" one is not found then inform user they can't do it -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(found==0), code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [dialog("PowerUsed"):  {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <title>Can Not Use Power</title>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              <meta name="temporary" content="true">
 
@@ -579,15 +579,15 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                              You have already used [r: macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [abort(found)] <!-- Abort the macro if an unused power was not found -->
 
@@ -599,11 +599,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h,macro("UsePower@Lib:DnD4ePowers"): "Daily:Lay On Hands"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          Oooh tingly!
 

@@ -83,7 +83,7 @@ getFillColor - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getFillColor(mapName, drawingId)
 
@@ -103,7 +103,7 @@ getFillColor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getFillColor("Grasslands", "0000000074836E675D00000000000000")]
 

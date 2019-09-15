@@ -95,11 +95,11 @@ getNPCNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: macros = getNPCNames()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: macros = getNPCNames(delim)]
 
@@ -122,11 +122,11 @@ getNPCNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getNPCNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

@@ -60,7 +60,7 @@ roll.count - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [COUNT(5, "<br>"): "This is roll " + roll.count]
 
@@ -80,19 +80,19 @@ roll.count - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r,foreach(item,"a,b,c,d,e,f",""),code: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Loop: [r: roll.count] - [r: item] - 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r,count(6): roll.count]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 

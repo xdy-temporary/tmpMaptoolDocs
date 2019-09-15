@@ -70,7 +70,7 @@ json.type - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: jarr = json.type(val)]
 
@@ -83,15 +83,15 @@ json.type - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromStrProp("a=1;b=44;c=12")] [r:json.type(a)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromList("a,1,g,4")][r:json.type(a)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [r:json.type("some thing or other")]
 

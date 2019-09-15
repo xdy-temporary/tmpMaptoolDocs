@@ -62,7 +62,7 @@ decode - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      decode(str)
 
@@ -75,7 +75,7 @@ decode - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: getStrProp(decode(getStrProp(inv, "Weapons"), "Name")]
 

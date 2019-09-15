@@ -62,7 +62,7 @@ indexOf - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      indexOf(str, substr)
 
@@ -70,7 +70,7 @@ indexOf - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      indexOf(str, substr, start)
 
@@ -83,7 +83,7 @@ indexOf - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: indexOf("this is a test", "is")]
 
@@ -93,7 +93,7 @@ indexOf - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: indexOf("this is a test", "is", 3)]
 
@@ -103,7 +103,7 @@ indexOf - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: indexOf("this is a test", "x")]
 

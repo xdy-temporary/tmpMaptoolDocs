@@ -78,15 +78,15 @@ getViewArea - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getViewArea()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getViewArea(pixels)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getViewArea(pixels, delim)
 
@@ -112,19 +112,19 @@ getViewArea - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewArea()] <!-- Default pixels -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewArea(0)] <!-- in Grid Cells -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewArea(1)] <!-- in Pixels -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewArea(0, "json")] <!-- Cells as JSON -->
 
@@ -132,11 +132,11 @@ getViewArea - MapToolDoc
 
                         [r: getViewArea(1, "json")] <!-- Pixels as JSON -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewArea(0, ",")] <!-- Cells as "," separated String properties: -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getViewArea(1, ";")] <!-- Pixels as ";" separated String properties: -->
 
@@ -146,19 +146,19 @@ getViewArea - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         startX=0; startY=0; endX=886; endY=616 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         startX=0; startY=0; endX=17; endY=12 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         startX=0; startY=0; endX=886; endY=616 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {"startX":0,"startY":0,"endX":886,"endY":616} 
 
@@ -166,11 +166,11 @@ getViewArea - MapToolDoc
 
                         {"startX":0,"startY":0,"endX":886,"endY":616} 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         startX=0, startY=0, endX=886, endY=616 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         startX=0; startY=0; endX=886; endY=616
 

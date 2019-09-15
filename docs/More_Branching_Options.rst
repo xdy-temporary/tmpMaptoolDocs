@@ -423,21 +423,21 @@ More Branching Options - MapToolDoc
          |    .. container::                 |    .. container::                 |
          |    mtmacro source-mtmacro         |    mtmacro source-mtmacro         |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |             <!-- Call the Use Pow |             <!-- Receive macro ar |
          | er macro -->                      | guments -->                       |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             [h:powerName = macro. |
          |                                   | args]                             |
-         |       #. .. code:: de1            |                                   |
-         |                                   |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |                                   |
+         |                                   |       #. .. code-block:: none            |
          |             [MACRO("Use Power@Lib |                                   |
          | :MT"): "Shield Bash"]             |                                   |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             <!-- Do a switch to f |
          |                                   | ind the power's Attack Bonus -->  |
@@ -446,22 +446,22 @@ More Branching Options - MapToolDoc
          |             <!-- Receive the vari |                                   |
          | able macro.return after Use Power |             [h,switch(powerName): |
          |  has finished processing.-->      |                                   |
-         |                                   |       #. .. code:: de1            |
-         |       #. .. code:: de1            |                                   |
+         |                                   |       #. .. code-block:: none            |
+         |       #. .. code-block:: none            |                                   |
          |                                   |             case "Sword": attackB |
          |                                   | onus = 2;                         |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |             [h:hitValue = macro.r |             case "Bow":  attackBo |
          | eturn]                            | nus = 0;                          |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             case "Shield Bash": a |
          |                                   | ttackBonus = -1;]                 |
-         |       #. .. code:: de1            |                                   |
-         |                                   |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |                                   |
+         |                                   |       #. .. code-block:: none            |
          |             <!-- Use IF to check  |                                   |
          | the value of hitValue, and choose |                                   |
          |  an option -->                    |                                   |
@@ -470,21 +470,21 @@ More Branching Options - MapToolDoc
          |                                   |             <!--Make the Attack R |
          |                                   | oll-->                            |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |             [h,if(hitValue == 1), |                                   |
          | CODE:                             |                                   |
-         |                                   |       #. .. code:: de1            |
-         |       #. .. code:: de1            |                                   |
+         |                                   |       #. .. code-block:: none            |
+         |       #. .. code-block:: none            |                                   |
          |                                   |             [h:attackRoll = 1d20  |
          |             {                     | + Strength + attackBonus]         |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |               [damageRoll = floor |                                   |
          | ((1d6+Strength)/2)]               |                                   |
-         |                                   |       #. .. code:: de1            |
-         |       #. .. code:: de1            |                                   |
+         |                                   |       #. .. code-block:: none            |
+         |       #. .. code-block:: none            |                                   |
          |                                   |             <!-- Check to see if  |
          |               [special = "Roll 1d | the attack succeeds (a roll of 15 |
          | 6. On a 4 or better, the foe is s |  or higher is a hit) -->          |
@@ -493,65 +493,65 @@ More Branching Options - MapToolDoc
          |       #. .. code:: de2            |                                   |
          |                                   |                                   |
          |             };                    |                                   |
-         |                                   |       #. .. code:: de1            |
-         |       #. .. code:: de1            |                                   |
+         |                                   |       #. .. code-block:: none            |
+         |       #. .. code-block:: none            |                                   |
          |                                   |             [h,if(attackRoll >= 1 |
          |             {                     | 5),CODE:                          |
          |                                   |                                   |
-         |       #. .. code:: de1            |       #. .. code:: de1            |
+         |       #. .. code-block:: none            |       #. .. code-block:: none            |
          |                                   |                                   |
          |               [damageRoll = "None |             {                     |
          | "]                                |                                   |
-         |                                   |       #. .. code:: de1            |
-         |       #. .. code:: de1            |                                   |
+         |                                   |       #. .. code-block:: none            |
+         |       #. .. code-block:: none            |                                   |
          |                                   |               [successText = "a s |
          |               [special = "No spec | uccess!"]                         |
          | ial effect."]                     |                                   |
-         |                                   |       #. .. code:: de1            |
-         |       #. .. code:: de1            |                                   |
+         |                                   |       #. .. code-block:: none            |
+         |       #. .. code-block:: none            |                                   |
          |                                   |               [hit = 1]           |
          |             }]                    |                                   |
          |                                   |       #. .. code:: de2            |
          |       #. .. code:: de2            |                                   |
          |                                   |             };                    |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
-         |       #. .. code:: de1            |                                   |
+         |                                   |       #. .. code-block:: none            |
+         |       #. .. code-block:: none            |                                   |
          |                                   |             {                     |
          |             <!-- Display the Dama |                                   |
-         | ge result and special effect -->  |       #. .. code:: de1            |
+         | ge result and special effect -->  |       #. .. code-block:: none            |
          |                                   |                                   |
-         |       #. .. code:: de1            |               [successText = "a f |
+         |       #. .. code-block:: none            |               [successText = "a f |
          |                                   | ailure."]                         |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
-         |       #. .. code:: de1            |                                   |
+         |                                   |       #. .. code-block:: none            |
+         |       #. .. code-block:: none            |                                   |
          |                                   |               [hit = 0]           |
          |             <b>Damage: </b> [r:da |                                   |
-         | mageRoll]<br>                     |       #. .. code:: de1            |
+         | mageRoll]<br>                     |       #. .. code-block:: none            |
          |                                   |                                   |
-         |       #. .. code:: de1            |             }]                    |
+         |       #. .. code-block:: none            |             }]                    |
          |                                   |                                   |
          |             <b>Special: </b> [r:s |       #. .. code:: de2            |
          | pecial]                           |                                   |
          |                                   |                                   |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             <!--Display the attac |
          |                                   | k result and the success, and the |
          |                                   | n send                            |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |              back the success inf |
          |                                   | o for final processing-->         |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |                                   |
          |                                   |                                   |
-         |                                   |       #. .. code:: de1            |
+         |                                   |       #. .. code-block:: none            |
          |                                   |                                   |
          |                                   |             The [r:powerName] att |
          |                                   | ack is [r:successText].<br>       |

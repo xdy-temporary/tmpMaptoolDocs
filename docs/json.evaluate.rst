@@ -70,7 +70,7 @@ json.evaluate - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.evaluate(array)
 
@@ -78,7 +78,7 @@ json.evaluate - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.evaluate(object)
 

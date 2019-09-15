@@ -74,7 +74,7 @@ getRolled - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getRolled()
 
@@ -93,19 +93,19 @@ getRolled - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 1d10: [e: 1D10+2]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [r: getRolled()]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6 minimum 2: [e: 3D6L2]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [r: getRolled()]
 
@@ -115,19 +115,19 @@ getRolled - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 1d10: « 1D10+2 = 9 + 2 = 11 »
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [9]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Roll 3d6 minimum 2: « 3D6L2 = 13 »
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Get Rolled: [9,6,5,1]
 

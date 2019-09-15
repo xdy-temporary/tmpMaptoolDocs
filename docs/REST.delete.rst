@@ -80,11 +80,11 @@ REST.delete - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      REST.delete(url, getFullResponse)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      REST.delete(url, headers, getFullResponse)
 
@@ -115,19 +115,19 @@ REST.delete - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: baseURL = "https://reqres.in"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: path = "/api/users/2"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: response = REST.delete(baseURL + path, 1)]
 
@@ -139,19 +139,19 @@ REST.delete - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Full Response: {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "status": 204,
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "headers":   {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "access-control-allow-origin": ["*"],
 
@@ -159,19 +159,19 @@ REST.delete - MapToolDoc
 
                             "cf-ray": ["4b928693e9805414-LAX"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "date": ["Sun, 17 Mar 2019 22:50:25 GMT"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "etag": ["W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "expect-ct": ["max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "server": ["cloudflare"],
 
@@ -179,15 +179,15 @@ REST.delete - MapToolDoc
 
                             "set-cookie": ["__cfduid=dc5a1bd174f8f46cb9721f3a3338cff631552863025; expires=Mon, 16-Mar-20 22:50:25 GMT; path=/; domain=.reqres.in; HttpOnly"],
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "x-powered-by": ["Express"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           }
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }
 

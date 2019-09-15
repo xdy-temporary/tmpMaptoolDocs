@@ -84,15 +84,15 @@ bringToFront - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      bringToFront()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      bringToFront(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      bringToFront(id, mapname)
 
@@ -119,11 +119,11 @@ bringToFront - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Make sure that we are visible above all other tokens on the same layer -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: bringToFront()]
 
@@ -133,11 +133,11 @@ bringToFront - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- The Hero of the piece should always stand out -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: bringToFront("Hero")]
 

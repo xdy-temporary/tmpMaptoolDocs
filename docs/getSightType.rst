@@ -61,15 +61,15 @@ getSightType - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSightType()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSightType(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSightType(mapname)
 

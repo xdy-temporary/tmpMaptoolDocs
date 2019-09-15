@@ -61,7 +61,7 @@ listGet - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listGet(list, index)
 
@@ -69,7 +69,7 @@ listGet - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listGet(list, index, delim)
 
@@ -86,7 +86,7 @@ listGet - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listGet("This, is, a , test", 2)]
 
@@ -96,7 +96,7 @@ listGet - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listGet("This: is: a :test", 1, ":")]
 

@@ -80,7 +80,7 @@ getDrawingOpacity - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDrawingOpacity(mapName, drawingId)
 
@@ -100,7 +100,7 @@ getDrawingOpacity - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getDrawingOpacity("Grasslands", "0000000094218C675800000000000000")]
 

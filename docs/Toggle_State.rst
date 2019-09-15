@@ -58,19 +58,19 @@ Toggle State - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: StateName = "Marked_red" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, foreach( Selected, getSelected("json") ):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setState(StateName,if(getState(StateName, Selected),0,1),Selected)
 
@@ -78,7 +78,7 @@ Toggle State - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 

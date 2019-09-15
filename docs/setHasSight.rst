@@ -78,15 +78,15 @@ setHasSight - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setHasSight(state)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setHasSight(state, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setHasSight(state, id, mapname)
 
@@ -117,7 +117,7 @@ setHasSight - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setHasSight(1)]
 

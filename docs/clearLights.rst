@@ -76,15 +76,15 @@ clearLights - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      clearLights()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      clearLights(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      clearLights(id, mapname)
 
@@ -113,7 +113,7 @@ clearLights - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: clearLights()]
 
@@ -125,11 +125,11 @@ clearLights - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Ok Kids lights out!
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h,foreach(tok, getTokens()), code: { [token(tok): clearLights()]}]
 

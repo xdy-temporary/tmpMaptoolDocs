@@ -81,7 +81,7 @@ setDrawingProperties - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setDrawingProperties(mapName, drawingId, properties)
 
@@ -104,15 +104,15 @@ setDrawingProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:fromId="0000000074836E675D00000000000000"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:toId="0000000095C36B437D00000000000000"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setDrawingProperties("Grasslands", toId, getDrawingProperties("Grasslands", fromId))]
 

@@ -74,7 +74,7 @@ countsuccess - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      countsuccess(times, sides, target)
 
@@ -82,7 +82,7 @@ countsuccess - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      success(times, sides, target)
 
@@ -105,7 +105,7 @@ countsuccess - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: countsuccess(20, 10, 5)]
 
@@ -119,19 +119,19 @@ countsuccess - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTimes = 12]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceSides = 6]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceSuccess = 3]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: countsuccess(DiceTimes, DiceSides, DiceSuccess)]
 

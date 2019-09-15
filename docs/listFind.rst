@@ -60,7 +60,7 @@ listFind - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listFind(list, value)
 
@@ -68,7 +68,7 @@ listFind - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listFind(list, value, delim)
 
@@ -85,7 +85,7 @@ listFind - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listFind("This, is, a, test", "is")]
 
@@ -95,7 +95,7 @@ listFind - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listFind("This: is: a: test", "a", ":")]
 
@@ -105,7 +105,7 @@ listFind - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listFind("This, is, a, test", "not")]
 

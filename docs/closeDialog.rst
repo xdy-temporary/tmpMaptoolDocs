@@ -74,7 +74,7 @@ closeDialog - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: closeDialog(name)]
 
@@ -87,7 +87,7 @@ closeDialog - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: closeDialog("CharacterSheet")]
 
@@ -102,19 +102,19 @@ closeDialog - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, if(listGet(macro.args, "name")), code: {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [closeDialog("Name Entry")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         } ; {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <!-- otherwise we would do something here to tell the user to provide a name -->
 

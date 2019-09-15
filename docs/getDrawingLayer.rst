@@ -80,7 +80,7 @@ getDrawingLayer - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDrawingLayer(mapName, drawingId)
 
@@ -100,7 +100,7 @@ getDrawingLayer - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getDrawingLayer("Grasslands", "0000000074836E675D00000000000000")]
 

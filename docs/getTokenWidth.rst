@@ -75,15 +75,15 @@ getTokenWidth - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenWidth()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenWidth(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenWidth(id, mapname)
 
@@ -117,7 +117,7 @@ getTokenWidth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getTokenWidth("Dragon")]
 
@@ -127,7 +127,7 @@ getTokenWidth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         50
 

@@ -59,7 +59,7 @@ getMacroContext - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroContext()
 
@@ -72,7 +72,7 @@ getMacroContext - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getMacroContext()]
 

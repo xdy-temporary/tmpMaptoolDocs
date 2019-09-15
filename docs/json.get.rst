@@ -78,7 +78,7 @@ json.get - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.get(array, index)
 
@@ -86,7 +86,7 @@ json.get - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.get(array, start, end)
 
@@ -94,7 +94,7 @@ json.get - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.get(object, key, key, ...)
 
@@ -136,19 +136,19 @@ json.get - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           a) [h: jo = json.fromStrProp("a=1; b=44; cat=meow")] [r: json.get(jo, "b")] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           b) [h: jo = json.fromStrProp("a=1; b=44; cat=meow")] [r: json.get(jo, "XX")] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           c) [h: jo = json.fromStrProp("a=1; b=44; cat=meow")] [r: json.get(jo, "cat", "a")] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           d) [h: jo = json.fromStrProp("a=1; b=44; cat=meow")] [r: json.get(jo, "b", "XX")] <br>
 
@@ -156,19 +156,19 @@ json.get - MapToolDoc
 
                           e) [h: ja = json.fromList("1,44,meow")] [r: json.get(ja, 1)] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           f) [h: ja = json.fromList("1,44,meow")] [r: json.get(ja, 2)] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           g) [h: ja = json.fromList("1,44,meow")] [r: json.get(ja, 1, 2)] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           h) [h: ja = json.fromList("1,44,meow")] [r: json.get(ja, 0, -1)] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           i) [h: ja = json.fromList("1,44,meow")] [r: json.get(ja, 2, 0)] <br> 
 
@@ -176,11 +176,11 @@ json.get - MapToolDoc
 
                           j) [h: ja = json.fromList("1,44,meow")] [r: json.get(ja, -1, 0)] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           ERROR a) [h: ja = json.fromList("1,44,meow")] [r: json.get(ja, -1)] <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           ERROR b) [h: ja = json.fromList("1,44,meow")] [r: json.get(ja, 3)] <br>
 

@@ -97,19 +97,19 @@ strformat - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:target = "Orc"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:tok = token.name]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:hit = 2d6]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:output = tok + "hits the " + target + " for: " + hit + "wounds."]
 
@@ -134,11 +134,11 @@ strformat - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:target = "Orc"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:output = strformat("%s hits the %{target} for: %d wounds.", token.name, 2d6)]
 
@@ -266,7 +266,7 @@ Usage
 
    .. container:: mtmacro source-mtmacro
 
-      #. .. code:: de1
+      #. .. code-block:: none
 
             strformat(string)
 
@@ -274,7 +274,7 @@ Usage
 
    .. container:: mtmacro source-mtmacro
 
-      #. .. code:: de1
+      #. .. code-block:: none
 
             strformat(string, arg, ...)
 
@@ -287,15 +287,15 @@ Examples
 
       .. container:: mtmacro source-mtmacro
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: weaponName = "Long Sword"]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: maxDam = 8]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [r: strformat("Weapon Name=%{weaponName}; Max Damage=%{maxDam}")]
 
@@ -311,15 +311,15 @@ Examples
 
       .. container:: mtmacro source-mtmacro
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: weaponName = "Long Sword"]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: maxDam = 8]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [r: strformat("Weapon Name=%s; Max Damage=%d", weaponName, maxDam)]
 
@@ -335,15 +335,15 @@ Examples
 
       .. container:: mtmacro source-mtmacro
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: weaponName = "Long Sword"]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: maxDam = 8]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [r: strformat("Weapon Name='%12s'; Max Damage=%04d", weaponName, maxDam)]
 
@@ -366,19 +366,19 @@ Examples
 
       .. container:: mtmacro source-mtmacro
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: weaponName = "Long Sword"]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: maxDam = 8]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [h: style="background-color: yellow" ]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [r: strformat("<table><tr style='%{style}'><td>%{weaponName}</td></tr><tr><td>%.0f</td></tr></table>",
 
@@ -401,15 +401,15 @@ Examples
 
       .. container:: mtmacro source-mtmacro
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [strformat("%f", -10.502)] [strformat("%g", -10.502)]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [strformat("%+e", -10.502)] [strformat("%5.1f", -10.502)]
 
-         #. .. code:: de1
+         #. .. code-block:: none
 
                    [strformat("%(5.1f", -10.502)]
 

@@ -58,11 +58,11 @@ ceiling - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = ceil(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = ceiling(num)]
 
@@ -75,7 +75,7 @@ ceiling - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: ceil(10)]
 
@@ -85,7 +85,7 @@ ceiling - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: ceil(1.2)]
 
@@ -95,7 +95,7 @@ ceiling - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: ceil(-1.2)]
 

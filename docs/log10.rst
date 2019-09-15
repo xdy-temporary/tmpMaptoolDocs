@@ -56,11 +56,11 @@ log10 - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = log(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = log10(num)]
 
@@ -73,11 +73,11 @@ log10 - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: log(100)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: log(1000)]
 

@@ -65,15 +65,15 @@ setTokenPortrait - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenPortrait(assetId)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenPortrait(assetId, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenPortrait(assetId, id, mapname)
 
@@ -81,15 +81,15 @@ setTokenPortrait - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenPortrait(tokenImageName)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenPortrait(tokenImageName, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenPortrait(tokenImageName, id, mapname)
 

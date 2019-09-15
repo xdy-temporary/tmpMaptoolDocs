@@ -79,15 +79,15 @@ setLight - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLight(type, name, value)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLight(type, name, value, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLight(type, name, value, id, mapname)
 
@@ -121,7 +121,7 @@ setLight - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setLight("D20", "Candle - 5", 1)]
 

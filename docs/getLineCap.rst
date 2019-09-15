@@ -83,7 +83,7 @@ getLineCap - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDrawingEraser(mapName, drawingId)
 
@@ -103,7 +103,7 @@ getLineCap - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getLineCap("Grasslands", "0000000074836E675D00000000000000")]
 

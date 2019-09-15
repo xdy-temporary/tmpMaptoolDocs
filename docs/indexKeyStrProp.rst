@@ -62,7 +62,7 @@ indexKeyStrProp - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      indexKeyStrProp(prop, index)
 
@@ -75,7 +75,7 @@ indexKeyStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [indexKeyStrProp("a=blah; b=doh; c=meh", 1)]
 

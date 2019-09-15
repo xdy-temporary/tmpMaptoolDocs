@@ -65,7 +65,7 @@ getFrameProperties - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getFrameProperties(name)
 
@@ -84,7 +84,7 @@ getFrameProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [frame("Frame Test", "width=300; height=200; temporary=0; title=A new title; value=data of relevance"): {test}]
 
@@ -94,7 +94,7 @@ getFrameProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [getFrameProperties("Frame Test")]
 
@@ -104,7 +104,7 @@ getFrameProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          {"width":300,"height":200,"temporary":0,"title":"A new title","value":"data of relevance"}
 

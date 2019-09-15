@@ -61,7 +61,7 @@ listInsert - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listInsert(list, index, value)
 
@@ -69,7 +69,7 @@ listInsert - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      listInsert(list, index, value, delim)
 
@@ -82,7 +82,7 @@ listInsert - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listInsert("This, a , test", 1, "is")]
 
@@ -92,7 +92,7 @@ listInsert - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: listInsert("This: a: test", 1, "is", ":")]
 

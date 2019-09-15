@@ -84,7 +84,7 @@ json.difference - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.difference(array, array, ...)
 
@@ -92,7 +92,7 @@ json.difference - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.difference(object, object, ...)
 
@@ -114,7 +114,7 @@ json.difference - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [json.difference(array2, array1)]
 

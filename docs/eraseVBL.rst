@@ -78,7 +78,7 @@ eraseVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      eraseVBL(shapesList)
 
@@ -101,15 +101,15 @@ eraseVBL - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:rectangle    = "{'shape':'rectangle','x':0,'y':0,'w':200,'h':200, 'fill':1}"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:objectArrary = json.append('',rectangle)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:eraseVBL(objectArrary)]
 

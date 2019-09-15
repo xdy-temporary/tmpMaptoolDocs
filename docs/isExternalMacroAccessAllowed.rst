@@ -62,7 +62,7 @@ isExternalMacroAccessAllowed - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      isExternalMacroAccessAllowed()
 
@@ -78,7 +78,7 @@ isExternalMacroAccessAllowed - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         This client has external access [r,if(isExternalMacroAccessAllowed()): "Enabled"; "Disabled"]
 

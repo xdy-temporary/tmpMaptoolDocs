@@ -145,19 +145,19 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:strength = 5]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:toughness = 10]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:pause("strength", "toughness")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [r:"This text you'll see AFTER the pause"]
 
@@ -169,7 +169,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       [h: pause()]
 
@@ -185,7 +185,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [ defineFunction("pause", "pause@this", 1, 0 ) ]
 
@@ -196,19 +196,19 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ toolkit.DebugVariableCount = argCount() ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ toolkit.DebugInputParameter = ".|<html>" +
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "<table cellspacing='2' cellpadding='0' style='background-color:#595751'>" +
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "<tr><td>" +
 
@@ -216,19 +216,19 @@ Debugging Tutorial - MapToolDoc
 
                              "<table width='300px' cellspacing='0' cellpadding='2' style='background-color:#FAF9F5;'>" +
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "%{toolkit.DebugVariableRows}</table></td></tr></html>" +
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "|Debugger|LABEL|SPAN=TRUE"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ toolkit.DebugVariableRow = "<tr %{toolkit.DebugVariableRowStyle}><td>" +
 
@@ -236,19 +236,19 @@ Debugging Tutorial - MapToolDoc
 
                              "<b>%{toolkit.DebugVariableName}</b></td><td>%{toolkit.DebugVariableContent}" +
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              "</td></tr>"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ toolkit.DebugVariableRows = "<tr style='background-color:#E0DDD5; font-size:1.1em;'><td><b>Variable</b></td><td><b>Value</b></td></tr>" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ count( toolkit.DebugVariableCount ), code:
 
@@ -256,19 +256,19 @@ Debugging Tutorial - MapToolDoc
 
                          {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [ toolkit.DebugVariableRowStyle = "" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [ toolkit.DebugVariableName = arg( roll.count ) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [ toolkit.DebugVariableContent = eval( arg( roll.count ) ) ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [ if( floor( roll.count/2 ) == roll.count/2 ), code:
 
@@ -276,19 +276,19 @@ Debugging Tutorial - MapToolDoc
 
                              {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  [ toolkit.DebugVariableRowStyle = "style='background-color:#EDECE8;'" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              } ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [ toolkit.DebugVariableRows = toolkit.DebugVariableRows +
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                                  strformat( toolkit.DebugVariableRow )
 
@@ -296,19 +296,19 @@ Debugging Tutorial - MapToolDoc
 
                              ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          } ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ if( toolkit.DebugVariableCount == 0 ), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                              [ toolkit.DebugVariableRows = "<tr><td style='font-size: 1.4em' align='center'><b>Pause</b></td></tr>" ]
 
@@ -316,15 +316,15 @@ Debugging Tutorial - MapToolDoc
 
                          } ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ toolkit.DebugBreak = input( strformat( toolkit.DebugInputParameter ) )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [ abort( toolkit.DebugBreak ) ]
 
@@ -351,19 +351,19 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [tmp = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [pause("tmp")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [var1 = arg(0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [var2 = arg(1)]
 
@@ -377,19 +377,19 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [tmp = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [var1 = arg(0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [var2 = arg(1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [pause("tmp")]
 
@@ -532,11 +532,11 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        Hello world
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        <!-- this is comment -->
 
@@ -546,11 +546,11 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [r:'Hello world']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:'<!-- this is comment -->']
 
@@ -565,7 +565,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:'<!-- ------------------------------------MACRO NAME ---------------------------------------->']
 
@@ -575,7 +575,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:'<!-- ------------------------------------/END MACRO NAME ---------------------------------------->']
 
@@ -666,7 +666,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [broadcast("variable_name: "+variable_name+"another_variable_name: "+another_variable_name)]
 
@@ -749,7 +749,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      can't
 
@@ -759,7 +759,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- this you can't do in MT script -->
 
@@ -819,7 +819,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [if(statement), CODE:{apparently the statement is true}]
 
@@ -836,7 +836,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [if(statement), CODE:{apparently the statement is true};{}]
 
@@ -854,7 +854,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [foreach(number, "1,2,3,4"), CODE:{[h:"don't show this"]}]
 
@@ -871,7 +871,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h,foreach(number, "1,2,3,4"), CODE:{["don't show this"]}]
 
@@ -886,7 +886,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [r,foreach(number, "1,2,3,4", ""), CODE:{[r:"Hello World"]}]
 
@@ -896,7 +896,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [r,foreach(number, "1,2,3,4", " "), CODE:{[r:"Hello World"]}]
 
@@ -906,7 +906,7 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [r,foreach(number, "1,2,3,4", "<br>"), CODE:{[r:"Hello World"]}]
 
@@ -936,11 +936,11 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: '<!-- This comment is to close off the bracket in the next line ( -->']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: broadcast ("1) This is the first point.")]
 
@@ -964,11 +964,11 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:result = evalMacro(decode("4 The attack scoops out one of the target's eyes, inflicting <b>[Fat=1d5] level(s) of Fatigue"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:broadcast(result)]
 
@@ -982,15 +982,15 @@ Debugging Tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:result = evalMacro(decode("4 The attack scoops out one of the target's eyes, inflicting <b>[Fat=1d5] level(s) of Fatigue"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:setLibProperty("debugOutput", result, "lib:Token")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h:broadcast(result)]
 

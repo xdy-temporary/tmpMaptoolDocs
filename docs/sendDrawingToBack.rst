@@ -80,7 +80,7 @@ sendDrawingToBack - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      sendDrawingToBack(mapName, drawingId)
 
@@ -100,7 +100,7 @@ sendDrawingToBack - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:sendDrawingToBack("Grasslands", "0000000074836E675D00000000000000")]
 

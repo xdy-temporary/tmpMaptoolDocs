@@ -82,11 +82,11 @@ addToInitiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: addToInitiative()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: return = addToInitiative( AllowDuplicates, value ) ]
 
@@ -124,15 +124,15 @@ addToInitiative - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: addToInitiative()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setInitiative(1d20)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: sortInitiative()]
 

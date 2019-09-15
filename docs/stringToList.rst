@@ -65,7 +65,7 @@ stringToList - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      stringToList(str, pattern)
 
@@ -73,7 +73,7 @@ stringToList - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      stringToList(str, pattern, delim)
 
@@ -86,11 +86,11 @@ stringToList - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [stringToList("This is a test", " ")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [stringToList("1,2,3,4", ",", ":")]
 

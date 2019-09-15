@@ -105,11 +105,11 @@ Help:Editing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: name = getName()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: name]
 

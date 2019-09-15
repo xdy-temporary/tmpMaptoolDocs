@@ -80,7 +80,7 @@ log.getLoggers - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      log.getLoggers()
 
@@ -97,7 +97,7 @@ log.getLoggers - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <pre>[r: json.indent(log.getLoggers())]</pre>
 
@@ -107,19 +107,19 @@ log.getLoggers - MapToolDoc
 
                .. container:: javascript source-javascript
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 "name": "macro-logger",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 "level": "ERROR"
 
@@ -127,19 +127,19 @@ log.getLoggers - MapToolDoc
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 "name": "net.rptools.lib.io.PackedFile",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 "level": "ERROR"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             },
 
@@ -147,19 +147,19 @@ log.getLoggers - MapToolDoc
 
                                 {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 "name": "net.rptools.maptool.client.swing.AbeillePanel",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 "level": "ERROR"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             },
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             ...
 

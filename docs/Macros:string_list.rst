@@ -52,7 +52,7 @@ String List - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: stringList="foo, bar, baz"]
 

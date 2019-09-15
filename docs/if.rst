@@ -103,7 +103,7 @@ if - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      if(condition, trueExpr, falseExpr)
 
@@ -133,11 +133,11 @@ if - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: a = 10] [h: b = 20]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: if(a > b, "A is larger than B", "A is not larger than B")]
 
@@ -149,11 +149,11 @@ if - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: number = 1]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: if(number >= 1, 20, "")]
 
@@ -167,11 +167,11 @@ if - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: variable = "Foobar"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: if(variable == "Text", 1, 0)]
 
@@ -183,11 +183,11 @@ if - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: variable = 20]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [property = if(variable > 0 && variable < 20, 1, 0)]
 
@@ -206,19 +206,19 @@ if - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: tokensOfPlayer = getOwned(getPlayerName(), "json")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: hasIni = 0]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: iniToken = getInitiativeToken()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, foreach(id, tokensOfPlayer): hasIni = if(id!=iniToken,hasIni,1)]
 

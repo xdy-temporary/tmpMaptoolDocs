@@ -59,11 +59,11 @@ getStreamProperties - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getStreamProperties()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getStreamProperties(uri)
 

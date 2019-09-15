@@ -66,19 +66,19 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      weapon = {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "name": "Handgun",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "shots": 6,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "damage": "1d10"
 
@@ -93,19 +93,19 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: weapon = '{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "name": "Handgun",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "shots": 6,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "damage": "1d10"
 
@@ -120,7 +120,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: weapon = '{ "name": "Handgun", "shots": 6, "damage": "1d10" }']
 
@@ -132,19 +132,19 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <pre>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: weapon = '{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "name": "Handgun",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "shots": 6,
 
@@ -152,11 +152,11 @@ Using JSON Datatypes in Macros - MapToolDoc
 
                          "damage": "1d10"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      </pre>
 
@@ -174,7 +174,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: weapon = json.set("{}", "name", "Handgun", "shots", 6, "damage", "1d10" )]
 
@@ -194,19 +194,19 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: weapon = json.set("{}", "name", "Handgun", "shots", 6, "damage", "1d10" )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: weapon2 = json.set(weapon, "name", "Bigger Handgun")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: weapon] <br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: weapon2]
 
@@ -232,7 +232,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <pre>[r: json.indent('{"name":"Handgun","shots":6,"damage":"1d10"}', 4)]</pre>
 
@@ -257,7 +257,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: modifiers = '[0, 1, 3, 5, 8, 12]']
 
@@ -277,7 +277,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: modifiers = json.set(modifiers, 2, 4)
 
@@ -291,11 +291,11 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: modifiers = '[0, 1, 3, 5, 8, 12]']
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: weapon = json.set(weapon, "modifiers", modifiers)]
 
@@ -305,15 +305,15 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: weapon = json.set("{}", "name", "Handgun", "shots", 6, "damage", "1d10",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "modifiers", "[0, 1, 3, 5, 8, 12]" )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <pre>[r: json.indent(weapon,4)]</pre>
 
@@ -343,19 +343,19 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: weapon = '{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "name" : "Handgun",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "shots" : 6,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "damage" : 1d10,
 
@@ -363,7 +363,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
                          "modifiers" : "[0, 1, 3, 5, 8, 12]"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }']
 
@@ -380,19 +380,19 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: weapon = json.set("{}", "name", "Handgun", "shots", 6, "damage", "1d10",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "modifiers", "[0, 1, 3, 5, 8, 12]" )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Weapon Name: [r: json.get(weapon, "name")]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Damage: [r: json.get(weapon, "damage")] <br>
 
@@ -400,11 +400,11 @@ Using JSON Datatypes in Macros - MapToolDoc
 
                      Shots: [r: json.get(weapon, "shots")] <br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: modifiers = json.get(weapon, "modifiers")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Modifiers [r,c(json.get(weapon, "shots")): json.get(modifiers, roll.count)]
 
@@ -426,7 +426,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Modifiers [r,c(json.length(modfiers)): json.get(modifiers, roll.count)]
 
@@ -438,7 +438,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Modifiers [r,foreach(val,modifiers): val]
 
@@ -453,7 +453,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: json.length(weapon)]
 
@@ -465,7 +465,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r,foreach(val,weapon): val]
 

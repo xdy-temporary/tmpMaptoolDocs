@@ -99,11 +99,11 @@ setTokenOpacity - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setTokenOpacity(50, "Dragon")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, token("Dragon"): setTokenOpacity(75)]
 

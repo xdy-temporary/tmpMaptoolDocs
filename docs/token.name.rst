@@ -76,11 +76,11 @@ token.name - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:charName=token.name]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Token Name: [charName]
 
@@ -93,7 +93,7 @@ token.name - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:token.name = "Marok the Red"]
 

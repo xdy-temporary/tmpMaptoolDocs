@@ -55,7 +55,7 @@ initiativeSize - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: num = initiativeSize()]
 
@@ -68,7 +68,7 @@ initiativeSize - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         There are [r: initiativeSize()] tokens in the initiative list.
 

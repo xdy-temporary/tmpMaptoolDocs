@@ -97,7 +97,7 @@ defineFunction - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      defineFunction(function, macro)
 
@@ -105,7 +105,7 @@ defineFunction - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      defineFunction(function, macro, ignoreOutput)
 
@@ -113,7 +113,7 @@ defineFunction - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      defineFunction(function, macro, ignoreOutput, newScope)
 
@@ -147,7 +147,7 @@ defineFunction - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: defineFunction("character.heal", "heal@Lib:Character")]
 
@@ -165,7 +165,7 @@ defineFunction - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: character.heal("hello", "hi")]
 
@@ -176,11 +176,11 @@ defineFunction - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: firstArg = arg(0)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: theOtherOne = arg(1)]
 

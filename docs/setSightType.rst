@@ -66,15 +66,15 @@ setSightType - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setSightType(type)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setSightType(type, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setSightType(type, id, mapname)
 

@@ -82,7 +82,7 @@ movedOverDrawing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDrawingInfo(mapName, drawingId, path)
 
@@ -104,15 +104,15 @@ movedOverDrawing - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: lp = getLastPath()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: id = findDrawings(getCurrentMapName(),"fig1")] 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: movedOverDrawing(getCurrentMapName(),id,lp)]
 

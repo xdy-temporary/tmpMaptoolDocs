@@ -84,7 +84,7 @@ getTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokens()
 
@@ -92,7 +92,7 @@ getTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokens(delim)
 
@@ -100,7 +100,7 @@ getTokens - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokens(delim, conditions)
 
@@ -211,11 +211,11 @@ getTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getTokens()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(id, ids, "<br>"): id]
 
@@ -225,7 +225,7 @@ getTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getTokens(",", json.set("{}", "layer", json.append("[]","TOKEN","HIDDEN","OBJECT","BACKGROUND")))]
 
@@ -238,11 +238,11 @@ getTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: cond = '{ "range": {"upto":2, "distancePerCell":0, "token":"' +getSelected()+ '"}, "npc":1}']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getTokens("json", cond)]
 
@@ -252,11 +252,11 @@ getTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: cond = '{ "range": {"upto":2, "distancePerCell":0, "token":"' +getSelected()+ '"}, "npc":1, "unsetStates":["Dead"] }']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getTokens("json", cond)]
 
@@ -268,19 +268,19 @@ getTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: areaOffsets = '[ {x:1, y:0}, {x:0, y:1}, {x:-1, y:0}, {y:-1, x:0}]']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: area = json.set("{}", "offsets", areaOffsets)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: cond = json.set("{}", "area", area, "npc", 1, "unsetState", "['Dead']")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getTokens("json", cond)]
 
@@ -291,11 +291,11 @@ getTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: cond = '{ range: {upto:1, distancePerCell:0, metric:"NO_DIAGONALS"}, npc:1, unsetStates:["Dead"] }']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getTokens("json", cond)]
 
@@ -309,7 +309,7 @@ getTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: cond = '{ range: {upto:1, distancePerCell:0, metric:"NO_DIAGONALS"}, npc:1, unsetStates:["Dead"] }']
 
@@ -319,7 +319,7 @@ getTokens - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: cond = json.set("{}", "range", json.set("{}", "upto", 1, "distancePerCell", 0, "metric", "NO_DIAGONALS"), "npc", 1, "unsetStates", json.append("[]","Dead"))]
 

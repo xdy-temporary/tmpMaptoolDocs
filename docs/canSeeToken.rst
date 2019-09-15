@@ -111,19 +111,19 @@ canSeeToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Dragon token partially hidden by VBL from current token. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: canSeeToken("Dragon")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Troll token completely hidden from Elf token. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: canSeeToken("Troll","Elf")]
 
@@ -131,7 +131,7 @@ canSeeToken - MapToolDoc
 
                         <!-- Troll token visible to Hero token. -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: canSeeToken("Troll","Token")]
 

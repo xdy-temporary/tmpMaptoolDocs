@@ -58,7 +58,7 @@ endsWith - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: result = endsWith(str, substr)]
 
@@ -71,15 +71,15 @@ endsWith - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: endsWith("Test", "t")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: endsWith("Test", "st")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: endsWith("Test", "z")]
 

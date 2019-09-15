@@ -63,7 +63,7 @@ json.isEmpty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.isEmpty(variable)
 

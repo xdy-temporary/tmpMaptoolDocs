@@ -83,15 +83,15 @@ sendToBack - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      sendToBack()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      sendToBack(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      sendToBack(id, mapname)
 
@@ -121,7 +121,7 @@ sendToBack - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: sendToBack()]
 
@@ -131,19 +131,19 @@ sendToBack - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: tokens = getSelected()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h, foreach(id, tokens, ""), code:
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [h: sendToBack(id)]
 

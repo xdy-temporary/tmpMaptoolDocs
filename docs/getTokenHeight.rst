@@ -76,15 +76,15 @@ getTokenHeight - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenHeight()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenHeight(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenHeight(id, mapname)
 
@@ -112,7 +112,7 @@ getTokenHeight - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getTokenHeight("Dragon")]
 
@@ -122,7 +122,7 @@ getTokenHeight - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         50
 

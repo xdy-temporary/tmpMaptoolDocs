@@ -50,7 +50,7 @@ Generate Variables From JSON - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [prop = "name=Axe; damage=1d12; proficiency=2;"]
 

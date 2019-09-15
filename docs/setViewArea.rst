@@ -80,7 +80,7 @@ setViewArea - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setViewArea(startX, startY, endX, endY [, pixels [, allPlayers]])
 
@@ -115,7 +115,7 @@ setViewArea - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setViewArea(0,0,30,20, 0)]
 
@@ -126,7 +126,7 @@ setViewArea - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setViewArea(0, 0, 300, 200, 1, isGM())]
 

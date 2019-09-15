@@ -65,7 +65,7 @@ getDialogProperties - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDialogProperties(name)
 
@@ -84,7 +84,7 @@ getDialogProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [dialog("Dialog Test", "width=300; height=200; temporary=0; title=A new title; value=data of relevance"): {test}]
 
@@ -94,7 +94,7 @@ getDialogProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [getDialogProperties("Dialog Test")]
 
@@ -104,7 +104,7 @@ getDialogProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          {"width":300,"height":200,"temporary":0,"title":"A new title","value":"data of relevance"}
 

@@ -95,11 +95,11 @@ getNPC - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getNPC()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getNPC(delim)
 
@@ -122,11 +122,11 @@ getNPC - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ids = getNPC()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(id, ids, "<br>"): id]
 

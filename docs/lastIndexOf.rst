@@ -61,7 +61,7 @@ lastIndexOf - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      lastIndexOf(str, substr)
 
@@ -74,7 +74,7 @@ lastIndexOf - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [lastIndexOf("abcde", "c")]
 
@@ -84,7 +84,7 @@ lastIndexOf - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [lastIndexOf("abcde", "z")]
 

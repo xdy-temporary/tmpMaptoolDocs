@@ -65,7 +65,7 @@ getMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroProps(index)
 
@@ -73,7 +73,7 @@ getMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroProps(index, delim)
 
@@ -81,7 +81,7 @@ getMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroProps(index, delim, id)
 

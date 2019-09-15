@@ -80,7 +80,7 @@ setTableAccess - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTableAccess(tableName, accessible)
 
@@ -100,7 +100,7 @@ setTableAccess - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setTableAccess("randomMonsters", 0)]
 

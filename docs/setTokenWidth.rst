@@ -75,15 +75,15 @@ setTokenWidth - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenWidth(size)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenWidth(size, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTokenWidth(size, id, mapname)
 
@@ -111,11 +111,11 @@ setTokenWidth - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: setTokenWidth(300, "Dragon")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: setTokenHeight(150, "Dragon")]
 

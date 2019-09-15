@@ -114,11 +114,11 @@ onCampaignLoad - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: link = macroLinkText("deferredCalls@"+getMacroLocation())]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: execLink(link,1)]
 
@@ -129,11 +129,11 @@ onCampaignLoad - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: goto("2")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: setZoom(2)]
 

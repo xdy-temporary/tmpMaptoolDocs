@@ -79,19 +79,19 @@ getMatchingProperties - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMatchingProperties(pattern)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMatchingProperties(pattern, delim)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMatchingProperties(pattern, delim, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMatchingProperties(pattern, delim, id, mapname)
 
@@ -132,15 +132,15 @@ getMatchingProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(item, getMatchingProperties("Inv:.*")): {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <!-- Do something really exciting here -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 
@@ -150,15 +150,15 @@ getMatchingProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(item, getMatchingProperties("Inv:Weapon:.*")): {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <!-- Do something really exciting here -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 
@@ -168,15 +168,15 @@ getMatchingProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(item, getMatchingProperties("Inv:(Armor|Shield):.*")): {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <!-- Do something really exciting here -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 

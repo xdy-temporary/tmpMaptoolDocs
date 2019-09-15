@@ -75,15 +75,15 @@ setOwnedByAll - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwnedByAll(owned)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwnedByAll(owned, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setOwnedByAll(owned, id, mapname)
 
@@ -114,11 +114,11 @@ setOwnedByAll - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwnedByAll(1)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setOwnedByAll(0, "Dragon")]
 

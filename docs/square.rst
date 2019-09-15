@@ -56,11 +56,11 @@ square - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: num = square(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: num = sqr(num)]
 
@@ -73,11 +73,11 @@ square - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: square(5)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: square(6)]
 

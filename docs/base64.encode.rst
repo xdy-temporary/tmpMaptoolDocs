@@ -75,7 +75,7 @@ base64.encode - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      base64.encode(string)
 
@@ -94,15 +94,15 @@ base64.encode - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: txt = "Four score and seven years ago..."]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: encTxt = base64.encode(txt)]<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: base64.decode(encTxt)]<br>
 
@@ -112,15 +112,15 @@ base64.encode - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Four score and seven years ago... 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Rm91ciBzY29yZSBhbmQgc2V2ZW4geWVhcnMgYWdvLi4u 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         Four score and seven years ago...
 

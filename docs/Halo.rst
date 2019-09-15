@@ -80,7 +80,7 @@ token.halo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Halo color: [token.halo]
 
@@ -94,7 +94,7 @@ token.halo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:token.halo = "red"]
 
@@ -104,7 +104,7 @@ token.halo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:token.halo = #ff0000]
 
@@ -118,7 +118,7 @@ token.halo - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:token.halo="None"]
 

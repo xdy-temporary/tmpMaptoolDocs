@@ -84,15 +84,15 @@ foreach (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [FOREACH(var, list): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [FOREACH(var, list, output_separator): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [FOREACH(var, list, output_separator, list_separator): body]
 
@@ -111,11 +111,11 @@ foreach (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: enemyList="Orcs, Goblins, Ogres, Trolls"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [FOREACH(enemy, enemyList, "<br>"): "You really hate " + enemy]
 
@@ -126,11 +126,11 @@ foreach (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: enemyList = json.append("","Orcs, Goblins, Ogres, Trolls")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [FOREACH (enemy, enemyList, "<br>"): "You really hate " + enemy]
 
@@ -144,11 +144,11 @@ foreach (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: enemyList = json.set("","Orcs", "Bob, Dave", "Goblins", "Graham", "Ogres", "Philip, Emanual", "Trolls", "Ig, Og, Ug")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [FOREACH (enemy, enemyList, "<br>"): "You really hate " + enemy]
 
@@ -195,19 +195,19 @@ foreach (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: enemyStrProp = json.toStrProp(json.set("","Orcs", "Bob, Dave", "Goblins", "Graham", "Ogres", "Philip, Emanual", "Trolls", "Ig, Og, Ug"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [FOREACH(enemy, enemyStrProp, "<br>", ";"), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h: enemyList = stringToList(enemy, "=")]
 
@@ -215,19 +215,19 @@ foreach (roll option) - MapToolDoc
 
                        [h: name = listGet(enemyList, 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [h: value = listDelete(enemyList, 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [r: "You really hate " + name + " who are " + value]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 

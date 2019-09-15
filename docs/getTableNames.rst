@@ -79,11 +79,11 @@ getTableNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTableNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTableNames(delim)
 
@@ -102,15 +102,15 @@ getTableNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getTableNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getTableNames("<br>")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getTableNames("json")]
 

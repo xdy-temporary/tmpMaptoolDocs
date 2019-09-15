@@ -131,7 +131,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [option1[,option2]: body]
 
@@ -156,7 +156,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,token("JoeRandom"),foreach(item, TokensItemList): "This item's name is "+item+"!"]
 
@@ -181,7 +181,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(condition): true_body; false_body]
 
@@ -191,7 +191,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(condition): true_body]
 
@@ -207,15 +207,15 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:val=12]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(val == 12): newVal=12*12]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      New Value = [r:newVal]
 
@@ -255,19 +255,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(expression):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case case1: body1;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case case2: body2;
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      default: default_body]
 
@@ -277,19 +277,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(expression), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case case1: {body1};
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case case2: {body2};
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      default: {default_body}]
 
@@ -300,19 +300,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:powerType="at-will"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(powerType):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        case "at-will": "You may use this power as much as you like";
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        case "encounter": "You may only use this power once per encounter";
 
@@ -320,7 +320,7 @@ Macros:Branching and Looping - MapToolDoc
 
                        case "daily": "You may only use this power once per day"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 
@@ -332,19 +332,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:powerType="at-will"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(powerType), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "at-will": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r:token.name]:<br>
 
@@ -352,19 +352,19 @@ Macros:Branching and Looping - MapToolDoc
 
                          [r:"You may use this power as much as you like"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        };
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "encounter": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r:token.name]:<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r:"You may only use this power once per encounter"]
 
@@ -372,19 +372,19 @@ Macros:Branching and Looping - MapToolDoc
 
                        };
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      case "daily": {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r:token.name]:<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [r:"You may only use this power once per day"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        };
 
@@ -398,19 +398,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:powerType=".*sword.*"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [switch(powerType):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        case "flail": "one-handed weapon; two-handed does Str*2 damage";
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        case "shortsword": "used for jabs, so is a puncturing weapon";
 
@@ -418,7 +418,7 @@ Macros:Branching and Looping - MapToolDoc
 
                        case "longsword": "a slashing weapon"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ]
 
@@ -442,7 +442,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [macro("macro_name@location"): macro_arguments]
 
@@ -462,7 +462,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [macro("getDamage@Lib:combat"): damageRoll]
 
@@ -528,7 +528,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [token(token_identifier): ]
 
@@ -543,11 +543,11 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:target="Orc 5"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,token(target): targetAC = getProperty("AC")]
 
@@ -582,11 +582,11 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [count(num): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [count(num, separator): body]
 
@@ -601,11 +601,11 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:numHits=3]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [count(numHits): Damage = Damage + 1d12]
 
@@ -630,15 +630,15 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(var, start, end): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(var, start, end, stepsize): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(var, start, end, stepsize, separator): body]
 
@@ -655,7 +655,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [for(i,10,0,-2): "i is now " + i]
 
@@ -677,19 +677,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(var, list): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(var, list, output_separator): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(var, list, output_separator, list_separator): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(var, jsonarray): body]
 
@@ -697,11 +697,11 @@ Macros:Branching and Looping - MapToolDoc
 
                      [foreach(var, jsonarray, output_separator): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(var, jsonobject): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(var, jsonobject, output_separator): body]
 
@@ -712,11 +712,11 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: enemyList="Orcs, Goblins, Ogres, Trolls"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(enemy, enemyList, "<br>"): "You really hate " + enemy]
 
@@ -736,11 +736,11 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: weapons = json.append("[]", "Longsword", "Dagger", "Bow")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(wpn, weapons): wpn]
 
@@ -757,19 +757,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: weaponData = json.set("{}",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "Name": "Longsword",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "Damage": "1d6",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "Type": "Slashing",
 
@@ -777,11 +777,11 @@ Macros:Branching and Looping - MapToolDoc
 
                          "Weight": 30,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(field, weaponData): field]
 
@@ -797,19 +797,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: weaponData = json.set("{}",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "Name": "Longsword",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "Damage": "1d6",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "Type": "Slashing",
 
@@ -817,15 +817,15 @@ Macros:Branching and Looping - MapToolDoc
 
                          "Weight": 30,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [foreach(field, weaponData):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          field + ": " + json.get(weaponData, field)]
 
@@ -855,11 +855,11 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [while(condition): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [while(condition, separator): body]
 
@@ -870,11 +870,11 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:num=10]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [while(num>=0): num = num-1]
 
@@ -901,7 +901,7 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [code: { code_block }]
 
@@ -917,19 +917,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:num=5]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [while(num > 0), code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        This is iteration [r:num] <br>
 
@@ -937,11 +937,11 @@ Macros:Branching and Looping - MapToolDoc
 
                        There are [r:num-1] iterations left<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [num=num-1]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -974,19 +974,19 @@ Macros:Branching and Looping - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:d20roll=1d20]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:attackRoll=d20roll+AttackBonus]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(attackRoll >= 16),code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
@@ -994,19 +994,19 @@ Macros:Branching and Looping - MapToolDoc
 
                        [if(d20roll == 20),code:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          The attack is a critical hit!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:damage=critDamage]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        };
 
@@ -1014,19 +1014,19 @@ Macros:Branching and Looping - MapToolDoc
 
                        {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          The attack is a hit!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [h:damage=regDamage]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      };
 
@@ -1034,11 +1034,11 @@ Macros:Branching and Looping - MapToolDoc
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        The attack misses!
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 

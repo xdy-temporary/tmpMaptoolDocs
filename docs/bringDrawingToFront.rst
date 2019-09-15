@@ -80,7 +80,7 @@ bringDrawingToFront - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      bringDrawingToFront(mapName, drawingId)
 
@@ -100,7 +100,7 @@ bringDrawingToFront - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:bringDrawingToFront("Grasslands", "0000000074836E675D00000000000000")]
 

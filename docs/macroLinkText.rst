@@ -81,7 +81,7 @@ macroLinkText - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      macroLinkText(macroName)
 
@@ -89,7 +89,7 @@ macroLinkText - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      macroLinkText(macroName, output)
 
@@ -97,7 +97,7 @@ macroLinkText - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      macroLinkText(macroName, output, args)
 
@@ -105,7 +105,7 @@ macroLinkText - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      macroLinkText(macroName, output, args, target)
 
@@ -160,7 +160,7 @@ macroLinkText - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: macroLinkText("Test@Lib:Test","", "gm")]
 
@@ -176,7 +176,7 @@ macroLinkText - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:macroLinkText('AddWeapon@Lib:PC', 'none', '', currentToken())]
 
@@ -190,15 +190,15 @@ macroLinkText - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: outputTo = '["Fred", "Barney", "gm"]']
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: args = json.set("{}", "mlOutputList", outputTo)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: macroLinkText("Click on me!", "Test@Lib:Test", "list", args)]
 
@@ -209,7 +209,7 @@ macroLinkText - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: strformat('<a style="color:red" href="%s">Click Me</a>', macroLinkText("Click Me Macro@Lib:Test"))]
 

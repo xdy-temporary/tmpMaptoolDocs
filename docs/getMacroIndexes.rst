@@ -68,7 +68,7 @@ getMacroIndexes - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroIndexes(label)
 
@@ -76,7 +76,7 @@ getMacroIndexes - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroIndexes(label, delim)
 
@@ -84,7 +84,7 @@ getMacroIndexes - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroIndexes(label, delim, id)
 

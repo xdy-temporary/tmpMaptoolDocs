@@ -77,19 +77,19 @@ math - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Numbers:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.pi()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.e()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -97,19 +97,19 @@ math - MapToolDoc
 
                      Trigonomotry:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.acos(degrees)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.acos_r(radians)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.asin(degrees)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.asin_r(radians)]
 
@@ -117,19 +117,19 @@ math - MapToolDoc
 
                      [r:val = math.atan(degrees)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.atan_r(radians)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.atan2(degrees)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.atan2_r(radians)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.cos(degrees)]
 
@@ -137,19 +137,19 @@ math - MapToolDoc
 
                      [r:val = math.cos_r(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.sin(degrees)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.sin_r(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.tan(degrees)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.tan_r(num)]
 
@@ -157,19 +157,19 @@ math - MapToolDoc
 
                      [r:val = math.toDegrees(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.toRadians(degrees)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Power and root:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.sqrt(num)]
 
@@ -177,19 +177,19 @@ math - MapToolDoc
 
                      [r:val = math.squareroot(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.cbrt(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.cuberoot(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.pow(num1,num2)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -197,19 +197,19 @@ math - MapToolDoc
 
                      Logarithmic
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.log(num)] (this is loge())
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.log10(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Pythagorean:
 
@@ -217,19 +217,19 @@ math - MapToolDoc
 
                      [r:val = math.hypot(num1,num2)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.hypotenuse(num1,num2)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Simple operations
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.abs(num)]
 
@@ -237,19 +237,19 @@ math - MapToolDoc
 
                      [r:val = math.ceil(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.floor(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.isEven(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.isInt(num)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.isOdd(num)]
 
@@ -257,11 +257,11 @@ math - MapToolDoc
 
                      [r:val = math.max(num1, num2, num2, etc.)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.min(num1, num2, num2, etc.)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:val = math.mod(num1,num2)]
 
@@ -276,7 +276,7 @@ math - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:val =  math.abs(-3)]
 
@@ -297,7 +297,7 @@ math - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:val =  math.mod(6,3)]
 
@@ -318,7 +318,7 @@ math - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:val =  math.pow(2,3)]
 

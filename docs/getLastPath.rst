@@ -60,11 +60,11 @@ getLastPath - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: getLastPath()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: getLastPath(units)]
 

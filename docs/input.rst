@@ -114,7 +114,7 @@ input - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      input(inputField, ..., ...)
 
@@ -344,19 +344,19 @@ input - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: input(
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           "tab0 | Info || TAB", 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           "Name ## Rank ## Serial number | 1,2,3 || LIST",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           "tab1 | Abilities || TAB", 
 
@@ -364,7 +364,7 @@ input - MapToolDoc
 
                           "Strength ## Dexterity ## Wisdom"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      )]
 
@@ -380,7 +380,7 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [input("AtkBonus", "DmgBonus", "CombatAdvantage")]
 
@@ -400,19 +400,19 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:status=input(
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "junkVar|"+powerClicked+"|Selected Power|LABEL",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "ComAdv|0|Combat Advantage|CHECK",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "MarkPenalty|0|Marked by an enemy other than your target|CHECK",
 
@@ -420,19 +420,19 @@ input - MapToolDoc
 
                             "TargetConcealed|0|Target has Concealment|CHECK",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "MiscBonus|0|Miscellaneous BONUSES to your attack roll",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "MiscPenalty|0|Miscellaneous PENALTIES to your attack roll",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "mdb|0|Miscellaneous BONUS to Damage")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:abort(status)]
 
@@ -461,19 +461,19 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:status=input(
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "targetNum|"+imgList+"|Select Target|LIST|SELECT=0 ICON=TRUE ICONSIZE=30",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "feature|Hunter's Quarry, Sneak Attack, Warlock's Curse|Type of Striker Damage|LIST|SELECT=0 VALUE=STRING",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "CQSDice|1d6,1d8,2d6,2d8,3d6,3d8|Curse, Quarry, or Sneak Attack Dice|LIST|SELECT=0 VALUE=STRING",
 
@@ -481,7 +481,7 @@ input - MapToolDoc
 
                             "critAttack|0|Was the attack a critical hit?|CHECK"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         )]
 
@@ -505,19 +505,19 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:inptext=""]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:num=1]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h,foreach(entry,"SPD1,SPD2,SPD3,SPD4,SPD5,SPD6,SPD7,SPD8,SPD9"),code:{
 
@@ -525,19 +525,19 @@ input - MapToolDoc
 
                           [if(num<=CMSL),code:{
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [inptext=listAppend(inptext,entry+"|"+eval(entry)+"|Level "+num,"##")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           }]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [num=num+1]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 
@@ -545,19 +545,19 @@ input - MapToolDoc
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:screen0=input(
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "junkvar|Include any bonus spells from high Wisdom|Enter your Cleric spells per day|LABEL",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           inptext
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         )]
 
@@ -587,19 +587,19 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Define local vars -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: Strength = 12]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: Toughness = 14]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: Hitpoints = 20]
 
@@ -607,19 +607,19 @@ input - MapToolDoc
 
                         [H: statList = "Strength, Toughness, Hitpoints"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: inputStr = "[]"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Build input form simple -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: inputStr = json.append(inputStr,"junk|<html><b>A simple example</b></html>|-|LABEL|SPAN=TRUE")]
 
@@ -627,19 +627,19 @@ input - MapToolDoc
 
                         [H: inputStr = json.append(inputStr, "Strength|"+Strength+"|Enter Strenght value")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: inputStr = json.append(inputStr, "Toughness|"+Toughness+"|Enter Toughness value")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: inputStr = json.append(inputStr, "Hitpoints|"+Hitpoints+"|Entere number of Hitpoints")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- Build input form advanced -->
 
@@ -647,19 +647,19 @@ input - MapToolDoc
 
                         [H: inputStr = json.append(inputStr,"junk|<html><b>A complex example</b></html>|-|LABEL|SPAN=TRUE")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H, foreach(stat,statList): inputStr = json.append(inputStr,strformat("%{stat}|%s|<html><b><font color=blue>Enter %{stat} value</b></font></html>|TEXT|WIDTH=6", eval(stat)))]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- put local variables in input form -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: inputStr = json.evaluate(inputStr)]
 
@@ -667,11 +667,11 @@ input - MapToolDoc
 
                          
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- get user input -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: hasInput = input(json.toList(inputStr,"##"))]
 
@@ -689,19 +689,19 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:abort(input(
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "junk|<html><b>Enter player names. These should match the user names:<br><font color='red'>"+getAllPlayerNames()+"</font></html>|-|LABEL|SPAN=TRUE",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           "Enter Player Names|player0=;player1=;player2=||PROPS|SPAN=TRUE SETVARS=UNSUFFIXED"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         ))]
 
@@ -716,19 +716,19 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [H: hasInput = input(
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         "junk|<html>Some title text</html>|<html>here comes the tooltip text</html>|LABEL|SPAN=TRUE",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         "someVariable|0|<html><span title='<html>This text will be shown as a tooltip if you hover with your mouse over the text</html>'>Do you wish to turn the <b>setting</b> on?</span></html>|CHECK"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         )]
 
@@ -739,19 +739,19 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:input(
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             "junk|<html><b>Show picture of token<br></html>|-|LABEL|SPAN=TRUE",
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          "junk|<html><img src='"+getTokenImage(60)+"'></img></html>|-|LABEL|SPAN=TRUE"
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         )]
 
@@ -774,7 +774,7 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         "junk|<html><img src='"+replace(getTokenImage(), ":", "&#58;")+"' height=60 width=60></img></html>|-|LABEL|SPAN=TRUE"
 
@@ -787,19 +787,19 @@ input - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:hasInput     = input('
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             someVariable|0|<html><span title="<html>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           This setting allows for more advanced use of the movement limiter. First off: <b>In order for this to work <i>Limit Movement</i> must be<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           set to a number other then 0(the actual number wont be used).</b> If you enter 0 here then this setting will be ignored and the movement<br>
 
@@ -807,19 +807,19 @@ input - MapToolDoc
 
                           will be limited to what you have set in <i>Limit Movement</i>.<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <b>Example of how to use this setting:</b><br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           Let say that all the tokens have a characteristic: <i>Dexterity</i> and the max amount of cells a token is allowed to move is 4 x <i>Dexterity</i>.<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          Then what you set here is: <font bgcolor=white color=gray>[r:4*Dexterity]</font> You can enter any piece of code in here, as long as the output of that code<br>
 
@@ -827,19 +827,19 @@ input - MapToolDoc
 
                             results in a number. The token that is moved will be the currentToken for this code! Note that if multiple tokens are moved, the first selected<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            token will be the currentToken.<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            <br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           <b>Adding states and changing the output message</b>.<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          You can take this code even a step further and also change the output to the chat. This can be done by setting the predefined message variable to<br>
 
@@ -847,19 +847,19 @@ input - MapToolDoc
 
                          something else. Here you can make use of other predefined variables as well. The default message is:<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           <font bgcolor=white color=gray>[h:message = &quot;You moved %{tok} %{usedMove} cells. The maximum allowed movement is %{limitMovement} cells.&quot;]</font><br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            (HTML make up can be used, but is removed from this example cause it does not show in a tool-tip) Here:<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            <font bgcolor=white color=gray>message</font> is the actual message to the ouput. Note that strformat is used.<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <font bgcolor=white color=gray>tok</font> is the name of the selected token<br>
 
@@ -867,19 +867,19 @@ input - MapToolDoc
 
                            <font bgcolor=white color=gray>usedMove</font> is the amount of cells the token moved<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          <font bgcolor=white color=gray>limitMovement</font> is the max amount the token is allowed to move.<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            These you can use to create your own message type <b>as long as the resulting output is a number</b>. E.g.:<br>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            <font bgcolor=white color=gray>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                            [r,if(getState(&quot;Dead&quot;) &#124;&#124; getState(&quot;Incapacitated&quot;), CODE:{
 
@@ -887,19 +887,19 @@ input - MapToolDoc
 
                              [r:0]    
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 [h:message  = &quot;%{tok} is incapacitated and cannot move&quot;]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          };{
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                                 [r:4*Dexterity]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             }]
 
@@ -907,15 +907,15 @@ input - MapToolDoc
 
                          </font></html>">
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             Enter code here (hover over this for more info)
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          </html></span></html>
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         ')]
 
@@ -944,7 +944,7 @@ input - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:input("junk|<html><img src='"+getTokenHandout(90)+"'></img></html>|-|LABEL|SPAN=TRUE")]
 
@@ -962,7 +962,7 @@ input - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:input("junk|<html><img src='"+replace(getTokenHandout(), ":", "&#58;")+"' height=90 width=90></img></html>|-|LABEL|SPAN=TRUE")]
 
@@ -976,19 +976,19 @@ input - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:me = getSelected()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h, token(me),CODE:{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [image     = "<html><table><tr><td height='100'><img width=90 height=90 src='"+getTokenImage()+"'></img> </td></tr><tr><td align='center'>Image</td>   </tr></table></html>"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          [portrait    = "<html><table><tr><td height='100'><img width=90 height=90 src='"+getTokenPortrait()+"'></img>  </td></tr><tr><td align='center'>Portrait</td>    </tr></table></html>"]
 
@@ -996,19 +996,19 @@ input - MapToolDoc
 
                          [handout = "<html><table><tr><td height='100'><img width=90 height=90 src='"+getTokenHandout()+"'></img>   </td></tr><tr><td align='center'>Handout</td> </tr></table></html>"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }] 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: abort(input(
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        "junk|<html><b>Choose picture to show to players:<br></html>|-|LABEL|SPAN=TRUE",
 
@@ -1016,19 +1016,19 @@ input - MapToolDoc
 
                          "picChoice|"+image+","+portrait+","+handout+"|Which picture|RADIO|ORIENT=H SELECT=2",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        "picSize|100|Size of picture (px)"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r,token(me), if(picChoice == 0): "<img src='"+getTokenImage(picSize)+"'></img>"]
 
@@ -1036,7 +1036,7 @@ input - MapToolDoc
 
                      [r,token(me), if(picChoice == 1): "<img src='"+getTokenPortrait(picSize)+"'></img>"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r,token(me), if(picChoice == 2): "<img src='"+getTokenHandout(picSize)+"'></img>"]
 
@@ -1048,11 +1048,11 @@ input - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: abort(input("resultVars|strength=0;toughness=0;willpower=0|Enter values|PROPS|SPAN=TRUE SETVARS=UNSUFFIXED"))]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:resultVars]
 

@@ -80,7 +80,7 @@ setFillColor - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setFillColor(mapName, drawingId, paint)
 
@@ -102,19 +102,19 @@ setFillColor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setFillColor("Grasslands", "0000000094218C675800000000000000","red")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setFillColor("Grasslands", "0000000094218C675800000000000000","#ff0000")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:refreshDrawing("Grasslands", "0000000094218C675800000000000000")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setFillColor("Grasslands", "00000000CCF6B567CC00000000000000","asset://ffff0fe019c241c7456b0ec0b347ef37")]
 

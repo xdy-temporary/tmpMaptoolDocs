@@ -59,19 +59,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [{
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "name": "Umber Hulk",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "hd": 8,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "size": "Large",
 
@@ -79,19 +79,19 @@ Manipulate a JSON Property - MapToolDoc
 
                          "reach": 10,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "str": 23,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "dex": 13,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "con": 19,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "mov": "20, burrow 20",
 
@@ -99,19 +99,19 @@ Manipulate a JSON Property - MapToolDoc
 
                          "AC": "18/10/17",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "SpecialATK": "Confusing Gaze(Su)"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      },
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -119,19 +119,19 @@ Manipulate a JSON Property - MapToolDoc
 
                          "name": "Ogre",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "hd": 4,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "size": "Large",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "reach": 10,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "str": 21,
 
@@ -139,19 +139,19 @@ Manipulate a JSON Property - MapToolDoc
 
                          "dex": 8,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "con": 15,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "mov": 30,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "AC": "16/8/17 Hide",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "SpecialATK": "NA"
 
@@ -173,19 +173,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      "hd" = Element I want to filter against for this example
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      jAll = JSON array of Creature objects
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      fHD = number I prompted for with an input() dialog, this is the value I am testing against
 
@@ -193,19 +193,19 @@ Manipulate a JSON Property - MapToolDoc
 
                      -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: jAll = "[]"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H, FOR(i,1,cntAll): jAll = json.append(jALL, json.set(table("Polymorph", i), "imageID", tableimage("Polymorph", i)))]
 
@@ -213,19 +213,19 @@ Manipulate a JSON Property - MapToolDoc
 
                      [H: jAll = json.sort(jAll, "a")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: tjF = json.append("[]", jAll)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: tjF = json.append(tjF, "hd")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: tjF = json.append(tjF, fHD)]
 
@@ -233,19 +233,19 @@ Manipulate a JSON Property - MapToolDoc
 
                      [H: tjF = json.append(tjF, "<")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H, MACRO("jsonFilterArrObj@"+getMacroLocation()): tjF]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: jFiltered = macro.return]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: Assert(!(json.isEmpty(jFiltered)), "Polymorph: No choices available.", 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: cntF = json.length(jFiltered)]
 
@@ -253,7 +253,7 @@ Manipulate a JSON Property - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- continue processing with the newly filtered array of objects -->
 
@@ -264,19 +264,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Filter out objects from an array of objects.
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      inputs (macro.args is a JSON array containing):
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        jAO = A JSON array of objects
 
@@ -284,19 +284,19 @@ Manipulate a JSON Property - MapToolDoc
 
                        elem = The element to filter against
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        fDat = The data to compare against
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        fType = Filter comparison: >, <, ==, >=, <=, !=
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      output:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        macro.return = jAOf (The array with the elements removed that met the criteria)
 
@@ -304,19 +304,19 @@ Manipulate a JSON Property - MapToolDoc
 
                      -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: jAO = json.get(macro.args, 0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: elem = json.get(macro.args, 1)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: fDat = json.get(macro.args, 2)]
 
@@ -324,19 +324,19 @@ Manipulate a JSON Property - MapToolDoc
 
                      [H: fType = json.get(macro.args, 3)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: cntAll = json.length(jAO)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: assert(cntAll, "Null Array so filter aborts.")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
@@ -344,19 +344,19 @@ Manipulate a JSON Property - MapToolDoc
 
                      [H, for(i, cntAll - 1, -1, -1), CODE: {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [H: tDat = json.get(json.get(jAO, i), elem)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [ bTest = eval("fDat"+fType+"tDat")]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        [H, IF(bTest): jAO = json.remove(jAO, i); ""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -364,7 +364,7 @@ Manipulate a JSON Property - MapToolDoc
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [H: macro.return = jAO]
 
@@ -381,19 +381,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       "Troll":
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "name":"Troll",
 
@@ -401,19 +401,19 @@ Manipulate a JSON Property - MapToolDoc
 
                          "HD":4,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "HP":75
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        },
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       "Orc":
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        {
 
@@ -421,19 +421,19 @@ Manipulate a JSON Property - MapToolDoc
 
                          "name":"Orc",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "HD":3,
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                          "HP":22
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                        }
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }
 
@@ -489,19 +489,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:troll = json.set("{}", "name", "Troll", "HD", 4, "HP", 75)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:orc = json.set("{}", "name", "Orc", "HD", 3, "HP", 13)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:goblin = json.set("{}", "name", "Goblin", "HD", 2, "HP", 6)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:gnoll = json.set("{}", "name", "Gnoll", "HD", 3, "HP", 19)]
 
@@ -509,7 +509,7 @@ Manipulate a JSON Property - MapToolDoc
 
                      [h:kobold=json.set("{}", "name", "Kobold", "HD", 1, "HP", 4)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:monsters = json.set("{}", "Troll", troll, "Orc", orc, "Goblin", goblin, "Gnoll", gnoll, "Kobold", kobold)]
 
@@ -530,19 +530,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:status = input(
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      "whichKey|name,HD,HP|Pick Sorting Key|LIST|SELECT=0 VALUE=STRING",
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      "whichDirection|A+,A-,N+,N-|Direction (A+/- for strings, N+/- for numbers!)|LIST|SELECT=0 VALUE=STRING"
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      )]
 
@@ -550,11 +550,11 @@ Manipulate a JSON Property - MapToolDoc
 
                      [h:abort(status)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,if(substring(whichDirection,1)=="+"): dirString = "ascending"; dirString = "descending"]
 
@@ -585,19 +585,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortObj=monsters]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortKey = whichKey]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortDirection = whichDirection]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortObjContentList = json.fields(sortObj)]
 
@@ -605,7 +605,7 @@ Manipulate a JSON Property - MapToolDoc
 
                      [h:keyList = ""] 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:sortedJSON = "{}"]
 
@@ -648,19 +648,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(item, sortObjContentList),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [h:itemDetail = json.get(sortObj,item)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [h: keyList = listAppend(keyList, json.get(itemDetail, sortKey))]
 
@@ -668,11 +668,11 @@ Manipulate a JSON Property - MapToolDoc
 
                      }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:keyList = listSort(keyList, sortDirection)]
 
@@ -702,19 +702,19 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h,foreach(key,keyList),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      {
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         [foreach(object,sortObj),CODE:
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         {
 
@@ -722,19 +722,19 @@ Manipulate a JSON Property - MapToolDoc
 
                           [objectDetail = json.get(sortObj,object)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           [h:sortOnValue = json.get(objectDetail, sortKey)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                           [if(sortOnValue == key): sortedJSON=json.set(sortedJSON, object, objectDetail);""]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                         }]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      }]
 
@@ -748,11 +748,11 @@ Manipulate a JSON Property - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      JSON Object sorted by [r:whichKey], [r:dirString]:<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <pre>[r:json.indent(sortedJSON, 3)]</pre>
 

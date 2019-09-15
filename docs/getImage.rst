@@ -82,7 +82,7 @@ getImage - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getImage(name)
 
@@ -106,7 +106,7 @@ getImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <img src="[r: getImage('image:Map')]"></img>
 
@@ -116,7 +116,7 @@ getImage - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <img src="[r: getImage('Dragon')]"></img>
 

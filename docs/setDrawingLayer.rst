@@ -90,7 +90,7 @@ setDrawingLayer - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setDrawingLayer(mapName, drawingId, layer)
 
@@ -111,11 +111,11 @@ setDrawingLayer - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setDrawingLayer("Grasslands", "0000000074836E675D00000000000000","GM")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:refreshDrawing("Grasslands", "0000000074836E675D00000000000000")]
 

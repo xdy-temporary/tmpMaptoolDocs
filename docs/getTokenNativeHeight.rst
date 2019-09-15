@@ -76,15 +76,15 @@ getTokenNativeHeight - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenNativeHeight()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenNativeHeight(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getTokenNativeHeight(id, mapname)
 
@@ -112,7 +112,7 @@ getTokenNativeHeight - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: getTokenNativeHeight("Dragon")]
 
@@ -122,7 +122,7 @@ getTokenNativeHeight - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         120
 

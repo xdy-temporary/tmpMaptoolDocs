@@ -73,7 +73,7 @@ macro (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [macro("macro_name@location"): macro_arguments]
 
@@ -128,7 +128,7 @@ macro (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(Condition),MACRO("getDamage@Lib:combat"): damageRoll]
 
@@ -141,7 +141,7 @@ macro (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [if(Condition): evalMacro('[MACRO("getDamage@Lib:combat"): damageRoll]')]
 
@@ -152,7 +152,7 @@ macro (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [MACRO("getDamage@Lib:combat"): damageRoll]
 
@@ -182,19 +182,19 @@ macro (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ variable1 = "hello" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ variable2 = "world" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ passedVars = json.append( "", variable1, variable2 )] <!-- package up variables into a json array to be passed to called macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [MACRO("calledMacro@this"): passedVars ] <!-- macro call, with values being passed -->
 
@@ -210,19 +210,19 @@ macro (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ var1 = json.get( macro.args, 0 )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ var2 = json.get( macro.args, 1 )]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- do stuff with your new variables -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ macro.return = var1 +" "+ var2 ] <!-- this is what you can send back to the calling macro (can also be another JSON Object or array -->
 
@@ -245,19 +245,19 @@ macro (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ variable1 = "hello" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ variable2 = "world" ]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ passedVars = json.set( "{}", "variable2", variable2, "variable1", variable1 )] <!-- package up variables into a json array to be passed to called macro.  Note that the order here does not matter, but the labels in quotes are needed to be able to retrieve the correct values in the called macro -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [MACRO("calledMacro@this"): passedVars ] <!-- macro call, with values being passed -->
 
@@ -273,19 +273,19 @@ macro (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ var1 = json.get( macro.args, "variable1" )]<!-- actually the second label / value pair in the object --> 
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ var2 = json.get( macro.args, "variable2" )]<!-- the order does not matter, but the label must be accurate to retrieve the correct value -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      <!-- do stuff with your new variables -->
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [ macro.return = var1 +" "+ var2 ] <!-- this is what you can send back to the calling macro (can also be another JSON Object or array -->
 

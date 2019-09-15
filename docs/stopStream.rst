@@ -58,19 +58,19 @@ stopStream - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      stopStream()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      stopStream(uri)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      stopStream(uri, remove)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      stopStream(uri, remove, fadeout)
 

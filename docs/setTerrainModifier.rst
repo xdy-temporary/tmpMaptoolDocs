@@ -80,11 +80,11 @@ setTerrainModifier - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTerrainModifier(mod)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTerrainModifier(mod, token)
 
@@ -104,7 +104,7 @@ setTerrainModifier - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: tmod = setTerrainModifier(2.0)]
 
@@ -114,7 +114,7 @@ setTerrainModifier - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         2.0
 

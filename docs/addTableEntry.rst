@@ -83,11 +83,11 @@ addTableEntry - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      addTableEntry(tableName,rangeStart,rangeEnd,result)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      addTableEntry(tableName,rangeStart,rangeEnd,result,imageId)
 
@@ -112,19 +112,19 @@ addTableEntry - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:addTableEntry("test",1,3,"bert")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:addTableEntry("test",4,4,"fred")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:addTableEntry("test",5,5,"alf", getTokenImage())]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setTableRoll("test","")]
 

@@ -64,7 +64,7 @@ json.fields - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.fields(jobj)
 
@@ -72,7 +72,7 @@ json.fields - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.fields(jobj, delim)
 
@@ -98,11 +98,11 @@ json.fields - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: a=json.fromStrProp("a=1;b=44;c=12")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.fields(a)]
 
@@ -118,11 +118,11 @@ json.fields - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: a=json.fromList("a,1,g,4")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.fields(a,";")]
 
@@ -138,11 +138,11 @@ json.fields - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: a=json.fromStrProp("a=1;b=44;c=12")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: json.fields(a, "json")]
 

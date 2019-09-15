@@ -148,11 +148,11 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       [h, macro("attackRoll@Lib:Token"): 3]    
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Attack roll: [r: macro.return]
 
@@ -163,11 +163,11 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       [h: diceNr = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: roll(diceNr, 6)]
 
@@ -177,11 +177,11 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       [h: diceNr = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: macro.return = roll(diceNr, 6)]
 
@@ -236,7 +236,7 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [defineFunction("attackRoll", "attackRoll@Lib:Token")]
 
@@ -247,7 +247,7 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Attack roll: [r: attackRoll(3)]
 
@@ -258,15 +258,15 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: assert(argCount()>0, "attackRoll() expects one argument.")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: diceNr = arg(0)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: roll(diceNr, 6)]
 
@@ -310,15 +310,15 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: atk = roll(3,6)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Attack roll: [r: atk]<br>
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r: macroLink("Do you want to defend?", "defenceRoll@Lib:Token", "all", atk)]
 
@@ -331,19 +331,19 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: atk = macro.args]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: def = roll(3,6)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                       
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      Defence roll: [r: def] [r, if(atk<def): "You defended successfully!"; "You are hit."]
 
@@ -376,11 +376,11 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: myFormula = getProperty("damageFormula")]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      You made [r: evalMacro(myFormula)] damage.
 
@@ -390,15 +390,15 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: "<!-- roll 1d3, weapon makes 3d6 dmg on 1 or 2 , 2d10 on a 3 -->"]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: firstRoll = 1d3]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r, if(firstRoll==3): 2d10; 3d6]
 
@@ -412,7 +412,7 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:myFunction()]
 
@@ -422,7 +422,7 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:evalMacro("[r:myFunction()]"]
 
@@ -432,7 +432,7 @@ Calling macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [r:eval("myFunction()"]
 

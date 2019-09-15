@@ -83,15 +83,15 @@ resetSize - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      resetSize()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      resetSize(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      resetSize(id, mapname)
 
@@ -114,7 +114,7 @@ resetSize - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: resetSize()]
 
@@ -125,15 +125,15 @@ resetSize - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: tok = "Chocolate Moose"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: map = "Cadbury"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: resetSize(tok, map)]
 

@@ -82,11 +82,11 @@ herolab.getStatBlock - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.getStatBlock(type)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.getStatBlock(type,id)
 
@@ -117,7 +117,7 @@ herolab.getStatBlock - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [herolab.getStatBlock("text")]
 
@@ -127,7 +127,7 @@ herolab.getStatBlock - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                          
 

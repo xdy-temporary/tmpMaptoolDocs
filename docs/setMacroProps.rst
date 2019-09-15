@@ -93,7 +93,7 @@ setMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMacroProps(index, props)
 
@@ -101,7 +101,7 @@ setMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMacroProps(index, props, delim)
 
@@ -109,7 +109,7 @@ setMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMacroProps(index, props, delim, id)
 
@@ -117,7 +117,7 @@ setMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMacroProps(label, props)
 
@@ -125,7 +125,7 @@ setMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMacroProps(label, props, delim)
 
@@ -133,7 +133,7 @@ setMacroProps - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMacroProps(label, props, delim, id)
 
@@ -213,11 +213,11 @@ setMacroProps - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setMacroProps(1, "color=red;fontColor=white")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setMacroProps("Attack", "color=red;fontColor=white")]
 

@@ -59,7 +59,7 @@ startsWith - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: result = startsWith(string, substring)]
 
@@ -75,15 +75,15 @@ startsWith - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: startsWith("Test", "T")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: startsWith("Test", "Te")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: startsWith("Test", "Tez")]
 

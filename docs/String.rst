@@ -50,7 +50,7 @@ String - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:exampleString = "This is an example string."]
 

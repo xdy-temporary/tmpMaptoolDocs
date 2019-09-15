@@ -63,7 +63,7 @@ sr4e - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      sr4e(times)
 
@@ -71,7 +71,7 @@ sr4e - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      sr4e(times, gremlins)
 

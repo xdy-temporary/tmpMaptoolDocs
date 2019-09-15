@@ -85,15 +85,15 @@ setProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setProperty(property, value)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setProperty(property, value, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setProperty(property, value, id, mapname)
 
@@ -126,7 +126,7 @@ setProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setProperty("Health", 10)]
 
@@ -137,7 +137,7 @@ setProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setProperty("Fatigue", 5, getSelected())]
 
@@ -148,19 +148,19 @@ setProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: Property = "Strength"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: Value = 20]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: ID = getSelected()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setProperty(Property, Value, ID)]
 

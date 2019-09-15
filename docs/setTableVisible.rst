@@ -80,7 +80,7 @@ setTableVisible - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTableVisible(tableName, visible)
 
@@ -100,7 +100,7 @@ setTableVisible - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:setTableVisible("randomMonsters", 0)]
 

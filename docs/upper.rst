@@ -60,7 +60,7 @@ upper - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      upper(str)
 
@@ -68,7 +68,7 @@ upper - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      upper(str, numChars)
 
@@ -81,11 +81,11 @@ upper - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: upper("this Is a Test")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: upper("this Is a Test", 1)]
 

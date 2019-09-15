@@ -82,7 +82,7 @@ getDrawingEraser - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getDrawingEraser(mapName, drawingId)
 
@@ -102,7 +102,7 @@ getDrawingEraser - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:getDrawingEraser("Grasslands", "0000000074836E675D00000000000000")]
 

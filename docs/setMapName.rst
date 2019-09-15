@@ -63,7 +63,7 @@ setMapName - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setMapName(oldMapName, newMapName)
 
@@ -83,7 +83,7 @@ setMapName - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r:setMapName("Grasslands","Map1")]
 

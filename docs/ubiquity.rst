@@ -72,7 +72,7 @@ ubiquity - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      ubiquity(times)
 
@@ -80,7 +80,7 @@ ubiquity - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      u(times)
 
@@ -99,7 +99,7 @@ ubiquity - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: ubiquity(10)]
 
@@ -111,11 +111,11 @@ ubiquity - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: DiceTimes = 5]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [t: ubiquity(DiceTimes)]
 

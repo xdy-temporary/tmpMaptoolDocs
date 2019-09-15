@@ -66,15 +66,15 @@ setGMNotes - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setGMNotes(notes)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setGMNotes(notes, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setGMNotes(notes, id, mapname)
 

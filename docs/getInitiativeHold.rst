@@ -70,7 +70,7 @@ getInitiativeHold - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getInitiativeHold()
 
@@ -83,7 +83,7 @@ getInitiativeHold - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: if(getInitiativeHold(), "You are on hold", "You are not on hold")]
 

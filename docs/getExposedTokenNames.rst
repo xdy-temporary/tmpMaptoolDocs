@@ -96,11 +96,11 @@ getExposedTokenNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getExposedTokenNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getExposedTokenNames(delim)
 
@@ -122,11 +122,11 @@ getExposedTokenNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getExposedTokenNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: foreach(name, names, "<br>"): name]
 
@@ -137,19 +137,19 @@ getExposedTokenNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- get all tokens from the token layer and store in json array -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:allToks        = getTokenNames("json",'{layer:["TOKEN"]}')]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- get all exposed tokens from map -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:allExposed = getExposedTokenNames("json")]
 
@@ -157,15 +157,15 @@ getExposedTokenNames - MapToolDoc
 
                         <!-- get the intersection of token layer tokens and all the exposed tokens, resulting in token layer exposed tokens only -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:tokExposed   = json.intersection(allToks, allExp)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         <!-- sort the result ascending -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:tokExposed  = json.sort(allToks, allExp,"a")]
 
@@ -176,7 +176,7 @@ getExposedTokenNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:tokExposed   = json.sort(json.intersection(getTokenNames("json",'{layer:["TOKEN"]}'), getExposedTokenNames("json")),"a")]
 

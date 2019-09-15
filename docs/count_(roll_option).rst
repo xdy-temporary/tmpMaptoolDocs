@@ -62,11 +62,11 @@ count (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [COUNT(num): body]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [COUNT(num, separator): body]
 
@@ -83,11 +83,11 @@ count (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h:numHits=3]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [COUNT(numHits): Damage = Damage + 1d12]
 

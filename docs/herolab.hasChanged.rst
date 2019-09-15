@@ -82,11 +82,11 @@ herolab.hasChanged - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.hasChanged()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.hasChanged(id)
 
@@ -108,7 +108,7 @@ herolab.hasChanged - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: isDirty = herolab.hasChanged()]
 
@@ -118,7 +118,7 @@ herolab.hasChanged - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         0 or 1
 

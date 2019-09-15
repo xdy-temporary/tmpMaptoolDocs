@@ -78,7 +78,7 @@ getMatchingLibProperties - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMatchingLibProperties(pattern)
 
@@ -86,7 +86,7 @@ getMatchingLibProperties - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMatchingLibProperties(pattern, lib)
 
@@ -94,7 +94,7 @@ getMatchingLibProperties - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMatchingLibProperties(pattern, lib, delim)
 
@@ -131,15 +131,15 @@ getMatchingLibProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(item, getMatchingLibProperties("Weapon:.*", "Lib:Items")): {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <!-- Do something really exciting here -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 
@@ -149,15 +149,15 @@ getMatchingLibProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(item, getMatchingLibProperties("Armor:.*", "Lib:Items")): {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <!-- Do something really exciting here -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 
@@ -167,15 +167,15 @@ getMatchingLibProperties - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(item, getMatchingLibProperties("(Armor|Shield):.*", "Lib:Items")): {
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             <!-- Do something really exciting here -->
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         }]
 

@@ -61,7 +61,7 @@ json.append - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: jarr = json.append(jarr, value, ...)]
 
@@ -74,11 +74,11 @@ json.append - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [h:a=json.fromList("a,1,g,4")][r: json.append(a, 55)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                           [r: json.append("", 1, 5, 8, 33)]
 

@@ -89,11 +89,11 @@ getSelectedNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSelectedNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSelectedNames(delim)
 
@@ -115,11 +115,11 @@ getSelectedNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getSelectedNames()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

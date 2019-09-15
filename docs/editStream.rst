@@ -58,19 +58,19 @@ editStream - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      editStream(uri, cycleCount)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      editStream(uri, cycleCount, volume)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      editStream(uri, cycleCount, volume, start)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      editStream(uri, cycleCount, volume, start, stop)
 

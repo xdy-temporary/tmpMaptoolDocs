@@ -66,7 +66,7 @@ json.indent - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.indent(obj)
 
@@ -74,7 +74,7 @@ json.indent - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.indent(obj, spaces)
 

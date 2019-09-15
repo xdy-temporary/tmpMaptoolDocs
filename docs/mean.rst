@@ -59,15 +59,15 @@ average - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: av = avg(num, num, ...)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: av = average(num, num, ...)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: av = mean(num, num, ...)]
 
@@ -80,7 +80,7 @@ average - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: avg(1, 2, 3, 3, 10)]
 

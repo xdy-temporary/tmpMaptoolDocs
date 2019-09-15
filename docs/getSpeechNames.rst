@@ -89,11 +89,11 @@ getSpeechNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSpeechNames()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getSpeechNames(delim)
 
@@ -115,11 +115,11 @@ getSpeechNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getSpeech()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

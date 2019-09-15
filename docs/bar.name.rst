@@ -79,7 +79,7 @@ foobar - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [bar.[bar_name] = value]
 
@@ -96,11 +96,11 @@ foobar - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: HP = HP - DamageTaken]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: bar.Health = HP / MaxHP]
 

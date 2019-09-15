@@ -55,7 +55,7 @@ max - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: largest = max(num, num, ...)]
 
@@ -68,11 +68,11 @@ max - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: max(2, 30, 4, 7)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: max(-2, -40, -100)]
 

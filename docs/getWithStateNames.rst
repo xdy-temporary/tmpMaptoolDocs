@@ -95,11 +95,11 @@ getWithStateNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getWithStateNames(state)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getWithStateNames(state, delim)
 
@@ -122,11 +122,11 @@ getWithStateNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: names = getWithStateNames("Dead")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [foreach(name, names, "<br>"): name]
 

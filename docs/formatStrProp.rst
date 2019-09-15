@@ -54,7 +54,7 @@ formatStrProp - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: formatStrProp(props, listFormat, entryFormat, separator) ]
 
@@ -75,11 +75,11 @@ formatStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: props = "Strength=14 ; Constitution=8 ; Dexterity=13 ; Intelligence=4 ; Wisdom=18 ; Charisma=9"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [formatStrProp(props, "<table border=1>%list</table>", "<tr> <td><b>%key</b></td> <td>%value</td> </tr>", "")]
 

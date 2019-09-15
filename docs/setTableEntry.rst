@@ -65,11 +65,11 @@ setTableEntry - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTableEntry(tableName, roll, result)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setTableEntry(tableName, roll, result, imageId)
 

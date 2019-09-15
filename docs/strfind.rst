@@ -80,7 +80,7 @@ strfind - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      strfind(str,  pattern)
 
@@ -93,19 +93,19 @@ strfind - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [h: id = strfind("This is a really useless test", "(\\S+)\\s+(\\S+)\\s*")] 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: getGroupCount(id)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: getFindCount(id)] 
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                             [r: getGroup(id, 1, 1)]  
 

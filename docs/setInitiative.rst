@@ -65,7 +65,7 @@ setInitiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setInitiative(val)
 
@@ -78,7 +78,7 @@ setInitiative - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setInitiative(1d20)]
 

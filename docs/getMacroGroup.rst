@@ -69,7 +69,7 @@ getMacroGroup - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroGroup(group)
 
@@ -77,7 +77,7 @@ getMacroGroup - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroGroup(group, delim)
 
@@ -85,7 +85,7 @@ getMacroGroup - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getMacroGroup(group, delim, id)
 

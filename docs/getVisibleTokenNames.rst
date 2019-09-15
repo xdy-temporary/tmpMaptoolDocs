@@ -90,11 +90,11 @@ getVisibleTokenNames - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: tokens = getVisibleTokenNames()]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: tokens = getVisibleTokenNames(delim)]
 
@@ -107,7 +107,7 @@ getVisibleTokenNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: tokens = getVisibleTokenNames()]
 
@@ -115,7 +115,7 @@ getVisibleTokenNames - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: tokens = getVisibleTokenNames("json")]
 

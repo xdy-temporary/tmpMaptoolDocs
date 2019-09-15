@@ -81,11 +81,11 @@ herolab.refresh - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.refresh()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      herolab.refresh(id)
 
@@ -113,7 +113,7 @@ herolab.refresh - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: success = herolab.refresh()]
 
@@ -123,7 +123,7 @@ herolab.refresh - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         0 or 1
 

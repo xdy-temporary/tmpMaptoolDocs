@@ -86,15 +86,15 @@ getProperty - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getProperty(property)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getProperty(property, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      getProperty(property, id, mapname)
 
@@ -129,7 +129,7 @@ getProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         The value of property 'Strength' is [r: getProperty("Strength")].
 
@@ -146,11 +146,11 @@ getProperty - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h:desiredProperty = "Constitution"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         The value of property 'Constitution' is [r: getProperty(desiredProperty)].
 

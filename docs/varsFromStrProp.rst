@@ -108,11 +108,11 @@ varsFromStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: varsFromStrProp("a=blah; b=doh; c=meh")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: a] [r: b] [r: c]
 

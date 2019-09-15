@@ -65,11 +65,11 @@ bitwisexor - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = bxor(num, num, ...)]
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: val = bitwisexor(num, num, ...)]
 
@@ -82,7 +82,7 @@ bitwisexor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bxor(1,0)]
 
@@ -92,7 +92,7 @@ bitwisexor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bxor(1,1)]
 
@@ -102,7 +102,7 @@ bitwisexor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bxor(0,0)]
 
@@ -112,7 +112,7 @@ bitwisexor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bxor(2, 4]
 
@@ -124,7 +124,7 @@ bitwisexor - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: bxor(6, 4)]
 

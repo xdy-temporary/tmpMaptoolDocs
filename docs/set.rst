@@ -62,7 +62,7 @@ set - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: set(varName, val)]
 
@@ -83,11 +83,11 @@ set - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: set("test", 33)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: test]
 
@@ -104,19 +104,19 @@ set - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: var1="te"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: var2="st"]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: set(var1+var2, 33)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: test]
 
@@ -132,7 +132,7 @@ set - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: test = 33]
 

@@ -56,7 +56,7 @@ round - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      [h: result = round(value, precision)]
 
@@ -69,7 +69,7 @@ round - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: round(1.45)]
 
@@ -79,7 +79,7 @@ round - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: round(1.45, 1)]
 
@@ -89,7 +89,7 @@ round - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [r: round(1.44,1)]
 

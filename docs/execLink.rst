@@ -97,7 +97,7 @@ execLink - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      execLink(link)
 
@@ -105,7 +105,7 @@ execLink - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      execLink(link, defer)
 
@@ -127,11 +127,11 @@ execLink - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: link = macroLinkText("Test@Lib:Test", "self")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: execLink(link)]
 
@@ -143,11 +143,11 @@ execLink - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: link = macroLinkText("Test@Lib:Test", "self")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: execLink(link, 1)]
 
@@ -157,15 +157,15 @@ execLink - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: newToken = copyToken("Hero")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: link = macroLinkText("update@Lib:GM", "none", "", newToken)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: execLink(link)]
 

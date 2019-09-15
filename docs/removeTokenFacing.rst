@@ -68,15 +68,15 @@ removeTokenFacing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      removeTokenFacing()
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      removeTokenFacing(id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      removeTokenFacing(id, mapname)
 

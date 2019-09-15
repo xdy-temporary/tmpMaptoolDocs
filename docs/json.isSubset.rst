@@ -68,7 +68,7 @@ json.isSubset - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.isSubset(firstArray, array, array, ...)
 
@@ -76,7 +76,7 @@ json.isSubset - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      json.isSubset(firstObject, object, object, ...)
 

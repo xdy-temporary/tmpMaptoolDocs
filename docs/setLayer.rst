@@ -91,19 +91,19 @@ setLayer - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLayer(layer)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLayer(layer, id)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLayer(layer, id, forceshape)
 
-               #. .. code:: de1
+               #. .. code-block:: none
 
                      setLayer(layer, id, forceshape, mapname)
 
@@ -133,15 +133,15 @@ setLayer - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: layerName = getLayer()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: layerName = if(state.Dead&&isNPC(), "OBJECT", layerName)]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setLayer(layerName)]
 
@@ -151,15 +151,15 @@ setLayer - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: layerName = getLayer()]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: layerName = if(layerName=="GM", "TOKEN", "GM")]
 
-                  #. .. code:: de1
+                  #. .. code-block:: none
 
                         [h: setLayer(layerName)]
 
