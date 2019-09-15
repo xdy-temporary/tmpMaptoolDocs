@@ -51,7 +51,7 @@ nextInitiative - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -60,14 +60,14 @@ nextInitiative - MapToolDoc
          .. container:: template_description
 
             Advances the initiative to the next
-            `Token </rptools/wiki/Token:token>`__ in the `Initiative
+            `Token <Token:token>`__ in the `Initiative
             Panel </maptool/index.php?title=Initiative:Initiative_Panel&action=edit&redlink=1>`__.
             Only the
             `GM </maptool/index.php?title=GM&action=edit&redlink=1>`__
             or a trusted macro can call this function. This function
             returns the offset into the `Initiative
             Panel </maptool/index.php?title=Initiative:Initiative_Panel&action=edit&redlink=1>`__
-            (starting at 0) of the `Token </rptools/wiki/Token>`__ that
+            (starting at 0) of the `Token <Token>`__ that
             will get the
             `Initiative </maptool/index.php?title=Initiative:Initiative&action=edit&redlink=1>`__.
 

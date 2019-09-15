@@ -67,7 +67,7 @@ getLights - MapToolDoc
             Returns a string list containing the names of the `light
             sources </maptool/index.php?title=Map:light_source&action=edit&redlink=1>`__
             that are turned on for the `Current
-            Token </rptools/wiki/Current_Token>`__. The type of the
+            Token <Current_Token>`__. The type of the
             value returned depends on the delimiter parameter.
 
          .. rubric:: Usage
@@ -104,17 +104,17 @@ getLights - MapToolDoc
             (e.g. "Generic", "D20"). If set to "*", all light sources
             are returned. Defaults to "*".
          -  ``delim`` - The delimiter used to separate values in the
-            `string list </rptools/wiki/Macros:string_list>`__. If set
-            to "json", a `JSON Array </rptools/wiki/JSON_Array>`__ is
+            `string list <Macros:string_list>`__. If set
+            to "json", a `JSON Array <JSON_Array>`__ is
             returned. Defaults to ",".
          -  ``id`` - The token ``id`` of the token to change the light
             sources, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -124,10 +124,10 @@ getLights - MapToolDoc
 
          .. container:: template_examples
 
-            To get a `string list </rptools/wiki/Macros:string_list>`__
+            To get a `string list <Macros:string_list>`__
             of all of the `LightSource:light
             sources </maptool/index.php?title=LightSource:light_source&action=edit&redlink=1>`__
-            that the current `token </rptools/wiki/Token:token>`__ has
+            that the current `token <Token:token>`__ has
             on.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -138,10 +138,10 @@ getLights - MapToolDoc
 
                         [getLights()]
 
-            To get a `string list </rptools/wiki/Macros:string_list>`__
+            To get a `string list <Macros:string_list>`__
             of the `LightSource:light
             sources </maptool/index.php?title=LightSource:light_source&action=edit&redlink=1>`__
-            that the current `token </rptools/wiki/Token:token>`__ has
+            that the current `token <Token:token>`__ has
             on with the `lighet source
             type </maptool/index.php?title=LightSource:type&action=edit&redlink=1>`__
             of "Generic".

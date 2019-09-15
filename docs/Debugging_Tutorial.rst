@@ -107,9 +107,9 @@ Debugging Tutorial - MapToolDoc
 
          I've marked this article as 'advanced' as it does assume that
          you know the basics of MT script, like `Library
-         Token </rptools/wiki/Library_Token>`__,
-         `onCampaignLoad </rptools/wiki/onCampaignLoad>`__ and `User
-         defined functions </rptools/wiki/defineFunction>`__.
+         Token <Library_Token>`__,
+         `onCampaignLoad <onCampaignLoad>`__ and `User
+         defined functions <defineFunction>`__.
 
          .. rubric:: Notepad++
             :name: notepad
@@ -135,8 +135,8 @@ Debugging Tutorial - MapToolDoc
          The most basic and I think most used method is the 'Pause'
          method as developed by zEal. The only way in MT to interrupt
          the flow of the code is with the use of
-         `input() </rptools/wiki/input>`__. zEal created some clever
-         code around `input() </rptools/wiki/input>`__ to use for
+         `input() <input>`__. zEal created some clever
+         code around `input() <input>`__ to use for
          debugging. His full contribution can be found here:
          `[1] <http://forums.rptools.net/viewtopic.php?p=110935#p110935>`__.
          Its working is simple as shown in this example:
@@ -178,7 +178,7 @@ Debugging Tutorial - MapToolDoc
 
          In order for pause to work in your campaign you will need a
          library token with an
-         `onCampaignLoad </rptools/wiki/onCampaignLoad>`__ macro
+         `onCampaignLoad <onCampaignLoad>`__ macro
          containing the following line:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -396,7 +396,7 @@ Debugging Tutorial - MapToolDoc
          -  ``pause()`` can only handle very simple HTML code, so if you
             want to debug a dynamic form which you have assigned to a
             variable, I would suggest you use a combination of the
-            `Show_HTML </rptools/wiki/Show_HTML>`__ method and put a
+            `Show_HTML <Show_HTML>`__ method and put a
             ``pause()`` right after that.
 
          .. rubric:: The log file
@@ -600,20 +600,20 @@ Debugging Tutorial - MapToolDoc
          .. rubric:: Broadcast
             :name: broadcast
 
-         `broadcast() </rptools/wiki/broadcast>`__ is a fairly new
+         `broadcast() <broadcast>`__ is a fairly new
          function to MT and is great for debugging purposes. The
-         advantage of `broadcast() </rptools/wiki/broadcast>`__ is that
+         advantage of `broadcast() <broadcast>`__ is that
          it ports the result to the chat IMMEDIATELY. Usually all text
          to chat whether it is ``'this text'`` or ``[r:"this text"]``
          will be accumulated until all macros are done and THEN the text
          is ported to the chatbox. So in case of an
-         `abort() </rptools/wiki/abort>`__ or
-         `assert() </rptools/wiki/assert>`__ or a crash in the code you
+         `abort() <abort>`__ or
+         `assert() <assert>`__ or a crash in the code you
          will find either the assertion message, a bug report or nothing
          at all. All the accumulated text is discarded.
 
          Two useful usages for
-         `broadcast() </rptools/wiki/broadcast>`__:
+         `broadcast() <broadcast>`__:
 
          .. rubric:: Using broadcast to track down a code crash
             :name: using-broadcast-to-track-down-a-code-crash
@@ -621,7 +621,7 @@ Debugging Tutorial - MapToolDoc
          Let's say you have an macro of a few 100 lines, you run it
          and... nothing or some vague message like ``double : found``.
          If you want to pin point the crash you can simply put
-         `broadcast() </rptools/wiki/broadcast>`__ lines between the
+         `broadcast() <broadcast>`__ lines between the
          code and see how far it gets. From the output you can deduce
          the location of the crash. Here an example, lets say you have:
 
@@ -846,8 +846,8 @@ Debugging Tutorial - MapToolDoc
          Another common 'bug' encountered regularly are stray comma's.
          Obviously there can be numerous reasons for this to happen but
          in most cases it is because of a loop like
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__ or
-         `[for():] </rptools/wiki/for_(roll_option)>`__. This for
+         `[foreach():] <foreach_(roll_option)>`__ or
+         `[for():] <for_(roll_option)>`__. This for
          example:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -955,9 +955,9 @@ Debugging Tutorial - MapToolDoc
          This *functionality* is embedded to prevent cheating…
          obviously. However this can also result in this error message
          (and only this error message) in your own code! This typically
-         happens when `broadcast() </rptools/wiki/broadcast>`__ the
-         result of an `evalMacro() </rptools/wiki/evalMacro>`__ call,
-         where the `evalMacro() </rptools/wiki/evalMacro>`__ result
+         happens when `broadcast() <broadcast>`__ the
+         result of an `evalMacro() <evalMacro>`__ call,
+         where the `evalMacro() <evalMacro>`__ result
          contains « guillemots »: . E.g. paste this into your chat:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -973,8 +973,8 @@ Debugging Tutorial - MapToolDoc
                        [h:broadcast(result)]
 
          To debug this I store ``result`` in a
-         `lib:token </rptools/wiki/Library_Token>`__ property before I
-         do the `broadcast() </rptools/wiki/broadcast>`__. From the text
+         `lib:token <Library_Token>`__ property before I
+         do the `broadcast() <broadcast>`__. From the text
          it is usually easy to find where the guillemots have entered.
          So:
 
@@ -1001,16 +1001,16 @@ Debugging Tutorial - MapToolDoc
             :name: the-switch-case
 
          Another really annoying little bug. If you ever get stuck with
-         the use of `[switch():] </rptools/wiki/switch_(roll_option)>`__
+         the use of `[switch():] <switch_(roll_option)>`__
          cause it keeps generating error reports and you REALLY can't
          find the issue, then likely you have used ``Case`` or ``CASE``
          or any other variant with a capital letter in it. As it happens
          ``case`` is case-sensitive (yes it almost looks
          intentional...). Anyway
-         `[switch():] </rptools/wiki/switch_(roll_option)>`__ ONLY works
+         `[switch():] <switch_(roll_option)>`__ ONLY works
          with ``case`` (so lower case only!).
 
-         --`Wolph42 </rptools/wiki/User:Wolph42>`__ 12:23, 7 June 2012
+         --`Wolph42 <User:Wolph42>`__ 12:23, 7 June 2012
          (UTC)
 
       .. container:: printfooter

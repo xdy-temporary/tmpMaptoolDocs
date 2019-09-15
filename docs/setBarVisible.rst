@@ -51,7 +51,7 @@ setBarVisible - MapToolDoc
 
             Sets if the specified
             `bar </maptool/index.php?title=Token:bar&action=edit&redlink=1>`__
-            for the `Current Token </rptools/wiki/Current_Token>`__ is
+            for the `Current Token <Current_Token>`__ is
             visible or not. If the value is non zero then the
             `bar </maptool/index.php?title=Token:bar&action=edit&redlink=1>`__
             is visible, if it is 0 it is not visible.
@@ -74,7 +74,7 @@ setBarVisible - MapToolDoc
 
             Make "health"
             `bar </maptool/index.php?title=Token:bar&action=edit&redlink=1>`__
-            for the `Current Token </rptools/wiki/Current_Token>`__
+            for the `Current Token <Current_Token>`__
             visible.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -87,7 +87,7 @@ setBarVisible - MapToolDoc
 
             Hide "health"
             `bar </maptool/index.php?title=Token:bar&action=edit&redlink=1>`__
-            for the `Current Token </rptools/wiki/Current_Token>`__.
+            for the `Current Token <Current_Token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

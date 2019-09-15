@@ -50,7 +50,7 @@ foobar - MapToolDoc
          expendable items or character traits (such as Hit Points,
          Ammunition, Health, or the like).
 
-         Bars, like `token states </rptools/wiki/Token:state>`__, are
+         Bars, like `token states <Token:state>`__, are
          configured via the Campaign Properties dialog and are specific
          to the campaign in which they exist. In the screenshot shown
          below, the green-on-black line across the top of the token is a
@@ -110,17 +110,17 @@ foobar - MapToolDoc
             :name: notes
 
          Two functions,
-         `setBar() </rptools/wiki/Macros:Functions:setBar>`__ and
-         `getBar() </rptools/wiki/Macros:Functions:getBar>`__ also exist
+         `setBar() <Macros:Functions:setBar>`__ and
+         `getBar() <Macros:Functions:getBar>`__ also exist
          to get and set the value of the token bar.
 
          .. rubric:: Related Pages
             :name: related-pages
 
          -  `List of Special
-            Variables </rptools/wiki/Macros:Variables:list_of_special_variables>`__
+            Variables <Macros:Variables:list_of_special_variables>`__
          -  `Token Bar
-            Functions </rptools/wiki/Macros:Functions:list_of_functions_by_area#Token_Bars>`__
+            Functions <Macros:Functions:list_of_functions_by_area#Token_Bars>`__
 
       .. container:: printfooter
 

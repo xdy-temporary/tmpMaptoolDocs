@@ -216,7 +216,7 @@ switch (roll option) - MapToolDoc
 
                      ]
 
-         When using the `[code():] </rptools/wiki/code_(roll_option)>`__
+         When using the `[code():] <code_(roll_option)>`__
          option with a ``switch`` option, each ``case`` body has its own
          set of braces, like so:
 
@@ -311,10 +311,10 @@ switch (roll option) - MapToolDoc
          .. rubric:: See Also
             :name: see-also
 
-         `if() </rptools/wiki/if>`__,
-         `[if():] </rptools/wiki/if_(roll_option)>`__, `Introduction to
+         `if() <if>`__,
+         `[if():] <if_(roll_option)>`__, `Introduction to
          Macro
-         Branching </rptools/wiki/Introduction_to_Macro_Branching>`__
+         Branching <Introduction_to_Macro_Branching>`__
 
       .. container:: printfooter
 

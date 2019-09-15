@@ -73,7 +73,7 @@ File:2Plus2Hidden.png - MapToolDoc
             ======= =================================================================== ===================================================== =============== =========================================================================================================================================================================================== =======
             \       Date/Time                                                           Thumbnail                                             Dimensions      User                                                                                                                                                                                        Comment
             ======= =================================================================== ===================================================== =============== =========================================================================================================================================================================================== =======
-            current `19:22, 16 December 2008 </maptool/images/b/b6/2Plus2Hidden.png>`__ |Thumbnail for version as of 19:22, 16 December 2008| 332 × 87 (9 KB) `Craig </rptools/wiki/User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Craig>`__\ \ )
+            current `19:22, 16 December 2008 </maptool/images/b/b6/2Plus2Hidden.png>`__ |Thumbnail for version as of 19:22, 16 December 2008| 332 × 87 (9 KB) `Craig <User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Craig>`__\ \ )
             ======= =================================================================== ===================================================== =============== =========================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,7 +87,7 @@ File:2Plus2Hidden.png - MapToolDoc
             The following page links to this file:
 
             -  `hidden (roll
-               option) </rptools/wiki/hidden_(roll_option)>`__
+               option) <hidden_(roll_option)>`__
 
       .. container:: printfooter
 

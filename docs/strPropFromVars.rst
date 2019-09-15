@@ -123,7 +123,7 @@ strPropFromVars - MapToolDoc
 
          .. container:: template_also
 
-            `varsFromStrProp() </rptools/wiki/varsFromStrProp>`__
+            `varsFromStrProp() <varsFromStrProp>`__
 
          .. rubric:: Version Changes
             :name: version-changes

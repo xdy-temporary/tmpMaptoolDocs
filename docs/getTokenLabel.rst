@@ -43,7 +43,7 @@ getTokenLabel - MapToolDoc
          .. container:: template_deprecated
 
              Note: This function has been deprecated. Refer to
-            `getLabel() </rptools/wiki/getLabel>`__ for current
+            `getLabel() <getLabel>`__ for current
             functionality.
 
          .. rubric:: getTokenLabel() Function

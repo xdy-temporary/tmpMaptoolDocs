@@ -62,7 +62,7 @@ setDrawingOpacity - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -114,8 +114,8 @@ setDrawingOpacity - MapToolDoc
 
          .. container:: template_also
 
-            `getDrawingOpacity() </rptools/wiki/getDrawingOpacity>`__
-            `refreshDrawing() </rptools/wiki/refreshDrawing>`__
+            `getDrawingOpacity() <getDrawingOpacity>`__
+            `refreshDrawing() <refreshDrawing>`__
 
       .. container:: printfooter
 

@@ -61,18 +61,18 @@ Category:Bar Function - MapToolDoc
                   .. rubric:: G
                      :name: g
 
-                  -  `getBar </rptools/wiki/getBar>`__
+                  -  `getBar <getBar>`__
 
                   .. rubric:: I
                      :name: i
 
-                  -  `isBarVisible </rptools/wiki/isBarVisible>`__
+                  -  `isBarVisible <isBarVisible>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `setBar </rptools/wiki/setBar>`__
-                  -  `setBarVisible </rptools/wiki/setBarVisible>`__
+                  -  `setBar <setBar>`__
+                  -  `setBarVisible <setBarVisible>`__
 
       .. container:: printfooter
 

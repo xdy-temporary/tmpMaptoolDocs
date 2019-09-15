@@ -46,7 +46,7 @@ Talk:Introduction to Macro Writing - MapToolDoc
          background - however, the blockquote method is a PAIN. I can
          put the source-tagged text inside a blockquote (to keep it
          inset). Should I switch to the source-tagged option, or should
-         I leave it? `Rumble </rptools/wiki/User:Cclouser>`__ 03:44, 5
+         I leave it? `Rumble <User:Cclouser>`__ 03:44, 5
          April 2009 (UTC)
 
          -  We typically use the source tag whenever presenting macro
@@ -55,7 +55,7 @@ Talk:Introduction to Macro Writing - MapToolDoc
             you're formatting the output to look as close to the real
             output as possible. If you find yourself writing complex
             markup a lot, it might also be better to make a template out
-            of it. `zEal </rptools/wiki/User:Verisimilar>`__ 03:50, 5
+            of it. `zEal <User:Verisimilar>`__ 03:50, 5
             April 2009 (UTC)
 
       .. container:: printfooter

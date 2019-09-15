@@ -70,7 +70,7 @@ getStreamProperties - MapToolDoc
          **Parameter**
 
          -  ``uri`` - The uri/url of the stream to edit. If set to "*",
-            a `JSON Array </rptools/wiki/JSON_Array>`__ containing the
+            a `JSON Array <JSON_Array>`__ containing the
             properties of all streams is returned. Defaults to "*".
 
          Properties returned: uri, cycleCount, volume, startTime,

@@ -50,7 +50,7 @@ getFindCount - MapToolDoc
          .. container:: template_description
 
             Returns the number of times that
-            `strfind() </rptools/wiki/strfind>`__ was able to match the
+            `strfind() <strfind>`__ was able to match the
             input string.
 
          .. rubric:: Usage
@@ -65,7 +65,7 @@ getFindCount - MapToolDoc
                      getFindCount(id)
 
          The id is the id value returned by
-         `strfind() </rptools/wiki/Macros:Functions:strfind>`__.
+         `strfind() <Macros:Functions:strfind>`__.
 
          .. rubric:: Example
             :name: example

@@ -44,8 +44,8 @@ Updating Macro Buttons Using Macros - MapToolDoc
             :name: dynamically-updating-a-tokens-macro-buttons
 
          Some times you want to modify what a
-         `Token </rptools/wiki/Token>`__'s `macro
-         button </rptools/wiki/Macro_Button>`__ from within a macro,
+         `Token <Token>`__'s `macro
+         button <Macro_Button>`__ from within a macro,
          this could be to visually represent a spell or power as having
          been used or even indicating that it is available for use.
 
@@ -57,7 +57,7 @@ Updating Macro Buttons Using Macros - MapToolDoc
          index of the button that has been pressed, these tutorials show
          you how to "guess" the button that is pressed. As of 1.3b50 you
          can use the function
-         `getMacroButtonIndex() </rptools/wiki/getMacroButtonIndex>`__
+         `getMacroButtonIndex() <getMacroButtonIndex>`__
          to determine exactly which macro button has been clicked on the
          token.
 
@@ -67,11 +67,11 @@ Updating Macro Buttons Using Macros - MapToolDoc
          been used or not.
 
          -  `Updating Macro Buttons Using a Macro (Prefix
-            Method) </rptools/wiki/Updating_Macro_Buttons_Using_a_Macro_(Prefix_Method)>`__
+            Method) <Updating_Macro_Buttons_Using_a_Macro_(Prefix_Method)>`__
          -  `Updating Macro Buttons Using a Macro (Group
-            Method) </rptools/wiki/Updating_Macro_Buttons_Using_a_Macro_(Group_Method)>`__
+            Method) <Updating_Macro_Buttons_Using_a_Macro_(Group_Method)>`__
          -  `Updating Macro Buttons Using a Macro (Label
-            Method) </rptools/wiki/Updating_Macro_Buttons_Using_a_Macro_(Label_Method)>`__
+            Method) <Updating_Macro_Buttons_Using_a_Macro_(Label_Method)>`__
 
       .. container:: printfooter
 

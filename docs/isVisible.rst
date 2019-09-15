@@ -84,7 +84,7 @@ isVisible - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          .. rubric:: Example
             :name: example

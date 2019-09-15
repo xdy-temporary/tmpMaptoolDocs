@@ -61,23 +61,23 @@ Category:Sight Function - MapToolDoc
                   .. rubric:: C
                      :name: c
 
-                  -  `canSeeToken </rptools/wiki/canSeeToken>`__
+                  -  `canSeeToken <canSeeToken>`__
 
                   .. rubric:: G
                      :name: g
 
-                  -  `getSightType </rptools/wiki/getSightType>`__
+                  -  `getSightType <getSightType>`__
 
                   .. rubric:: H
                      :name: h
 
-                  -  `hasSight </rptools/wiki/hasSight>`__
+                  -  `hasSight <hasSight>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `setHasSight </rptools/wiki/setHasSight>`__
-                  -  `setSightType </rptools/wiki/setSightType>`__
+                  -  `setHasSight <setHasSight>`__
+                  -  `setSightType <setSightType>`__
 
       .. container:: printfooter
 

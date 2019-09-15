@@ -49,7 +49,7 @@ json.objrolls - MapToolDoc
 
          .. container:: template_description
 
-            Is similar to `json.rolls() </rptools/wiki/json.rolls>`__
+            Is similar to `json.rolls() <json.rolls>`__
             but returns a JSON object.
 
          .. rubric:: Usage
@@ -175,8 +175,8 @@ json.objrolls - MapToolDoc
          .. container:: template_also
 
             `Introduction to JSON
-            Datatypes </rptools/wiki/Introduction_to_JSON_Datatypes>`__
-            , `json.rolls() </rptools/wiki/json.rolls>`__
+            Datatypes <Introduction_to_JSON_Datatypes>`__
+            , `json.rolls() <json.rolls>`__
 
       .. container:: printfooter
 

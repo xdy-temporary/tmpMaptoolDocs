@@ -43,8 +43,8 @@ Introduction to Lights and Sights - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Lights_and_Sights/es>`__\  • \ `français </rptools/wiki/Introduction_to_Lights_and_Sights/fr>`__\ 
-             • \ `日本語 </rptools/wiki/Introduction_to_Lights_and_Sights/ja>`__\ 
+             • \ `español <Introduction_to_Lights_and_Sights/es>`__\  • \ `français <Introduction_to_Lights_and_Sights/fr>`__\ 
+             • \ `日本語 <Introduction_to_Lights_and_Sights/ja>`__\ 
 
          .. container:: template_beginner
 
@@ -124,12 +124,12 @@ Introduction to Lights and Sights - MapToolDoc
             :name: sight
 
          Sight is the ability for a
-         `token </rptools/wiki/Token:token>`__ to "see" its surroundings
+         `token <Token:token>`__ to "see" its surroundings
          - in this case, what a player's token can "see" becomes visible
          to the player on their instance of MapTool (the GM can always
          see everything on the map; players, on the other hand, can be
          limited in what they see by things like `Vision Blocking
-         Layers </rptools/wiki/Introduction_to_Vision_Blocking>`__,
+         Layers <Introduction_to_Vision_Blocking>`__,
          light, and `Fog of
          War </maptool/index.php?title=Introduction_to_Fog_of_War&action=edit&redlink=1>`__).
          This makes for a more immersive game, as players will wonder
@@ -195,13 +195,13 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:samp-dungeon.png>`__
+                     ` <File:samp-dungeon.png>`__
 
                   The sample dungeon map used in this tutorial.
 
          A sample dungeon is used for all of the screenshots and
          examples in this tutorial (and in the `Introduction to Vision
-         Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__). A
+         Blocking <Introduction_to_Vision_Blocking>`__). A
          screenshot of the sample dungeon is shown at right; you can
          also download the Campaign File for this dungeon
          `here </maptool/index.php?title=here&action=edit&redlink=1>`__.
@@ -227,7 +227,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:cprops-sighttab.png>`__
+                     ` <File:cprops-sighttab.png>`__
 
                   The Sight tab in the Campaign Properties dialog
 
@@ -329,9 +329,9 @@ Introduction to Lights and Sights - MapToolDoc
             their own. Any color visible to the players will be based on
             the color of the light source, not the sight type (there is
             one exception to this, however: in `MapTool
-            Preferences </rptools/wiki/MapTool_Preferences>`__, you can
+            Preferences <MapTool_Preferences>`__, you can
             opt to have the vision color of the token match its
-            `Halo </rptools/wiki/token.halo>`__ color)
+            `Halo <token.halo>`__ color)
 
          .. rubric:: Light Sources
             :name: light-sources
@@ -346,7 +346,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Cprops-lighttab.png>`__
+                     ` <File:Cprops-lighttab.png>`__
 
                   The Light tab in the Campaign Properties dialog.
 
@@ -384,7 +384,7 @@ Introduction to Lights and Sights - MapToolDoc
          you, as GM, to organize the different light sources in your
          game.
 
-         `Aura </rptools/wiki/Aura>`__ is not included by default and
+         `Aura <Aura>`__ is not included by default and
          must be added manually.
 
          .. rubric:: Light Source Syntax
@@ -431,10 +431,10 @@ Introduction to Lights and Sights - MapToolDoc
          -  **Cone**: create a conic area with a user-defined arc. This
             projects the light along the current facing of the token.
          -  **Square**: this creates a square light area
-         -  `Aura </rptools/wiki/Aura>`__: this is a special light
+         -  `Aura <Aura>`__: this is a special light
             source, because while it is blocked by VBL and can cast
             colored light, it does not actually illuminate anything
-            (therefore, an `aura </rptools/wiki/aura>`__ will not reveal
+            (therefore, an `aura <aura>`__ will not reveal
             hidden areas to a player, but it does act as a way to see
             how far from a token its aura extends).
 
@@ -451,7 +451,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Token-config-sight.png>`__
+                     ` <File:Token-config-sight.png>`__
 
                   Set the "Has Sight" checkbox to give a token a sight
                   type.
@@ -466,7 +466,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Token-config-light.png>`__
+                     ` <File:Token-config-light.png>`__
 
                   Use the right-click menu for the token to select a
                   Light Source.
@@ -495,7 +495,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Map-vision-mode.png>`__
+                     ` <File:Map-vision-mode.png>`__
 
                   Setting the vision mode on a map.
 
@@ -575,7 +575,7 @@ Introduction to Lights and Sights - MapToolDoc
          start, let's look at using Sight without Light or Fog of War.
          The examples below will use the sample dungeon shown to the
          right. Note that the sample dungeon uses `Vision
-         Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__, a
+         Blocking <Introduction_to_Vision_Blocking>`__, a
          feature of MapTool that blocks the line of sight of a token
          (meaning you can use it to indicate the placement of walls,
          pillars, and similar objects that would obstruct a character's
@@ -594,7 +594,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-sight-boundary.png>`__
+                     ` <File:Nofog-sight-boundary.png>`__
 
                   MapTool shows a white boundary illustrating the limit
                   of the token's visual range.
@@ -609,10 +609,10 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-sight-boundvbl.png>`__
+                     ` <File:Nofog-sight-boundvbl.png>`__
 
                   When the token with sight is on a map with
-                  `VBL </rptools/wiki/Introduction_to_Vision_Blocking>`__,
+                  `VBL <Introduction_to_Vision_Blocking>`__,
                   the token's sight boundary follows the VBL.
 
          When you configure a token to have sight, when you hover your
@@ -653,7 +653,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-visionoff-gmview.png>`__
+                     ` <File:Nofog-visionoff-gmview.png>`__
 
                   The GM's view of a map with no vision. Note that if
                   the map has VBL on it, the white boundary of token
@@ -670,7 +670,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-visionoff-plyrview.png>`__
+                     ` <File:Nofog-visionoff-plyrview.png>`__
 
                   The Player's view of the same map.
 
@@ -702,7 +702,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-visionday-gmview.png>`__
+                     ` <File:Nofog-visionday-gmview.png>`__
 
                   GM's view of a map with Vision set to *Day* mode.
 
@@ -716,7 +716,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-visionday-plyrview.png>`__
+                     ` <File:Nofog-visionday-plyrview.png>`__
 
                   Player's view of the same map. Note that the other
                   tokens that the GM can see are *not* visible to the
@@ -748,7 +748,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-visionnight-gmview.png>`__
+                     ` <File:Nofog-visionnight-gmview.png>`__
 
                   GM's view of a Map with vision set to Night mode.
 
@@ -762,7 +762,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-visionnight-plyrview.png>`__
+                     ` <File:Nofog-visionnight-plyrview.png>`__
 
                   Player's view of the same map - note that the Elf
                   token (the player's token) is not visible, because the
@@ -778,7 +778,7 @@ Introduction to Lights and Sights - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Nofog-visionnight-plyrview-candle.png>`__
+                     ` <File:Nofog-visionnight-plyrview-candle.png>`__
 
                   The player's Elf token is now visible, because it has
                   a light source.
@@ -815,8 +815,8 @@ Introduction to Lights and Sights - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Lights_and_Sights/es>`__\  • \ `français </rptools/wiki/Introduction_to_Lights_and_Sights/fr>`__\ 
-             • \ `日本語 </rptools/wiki/Introduction_to_Lights_and_Sights/ja>`__\ 
+             • \ `español <Introduction_to_Lights_and_Sights/es>`__\  • \ `français <Introduction_to_Lights_and_Sights/fr>`__\ 
+             • \ `日本語 <Introduction_to_Lights_and_Sights/ja>`__\ 
 
       .. container:: printfooter
 

@@ -72,32 +72,32 @@ Category:Special Variable - MapToolDoc
                         .. rubric:: B
                            :name: b
 
-                        -  `bar.name </rptools/wiki/bar.name>`__
+                        -  `bar.name <bar.name>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: M
                            :name: m
 
-                        -  `macro.args </rptools/wiki/macro.args>`__
-                        -  `macro.catchAbort </rptools/wiki/macro.catchAbort>`__
-                        -  `macro.catchAssert </rptools/wiki/macro.catchAssert>`__
-                        -  `macro.return </rptools/wiki/macro.return>`__
+                        -  `macro.args <macro.args>`__
+                        -  `macro.catchAbort <macro.catchAbort>`__
+                        -  `macro.catchAssert <macro.catchAssert>`__
+                        -  `macro.return <macro.return>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `roll.count </rptools/wiki/roll.count>`__
-                        -  `roll.result </rptools/wiki/roll.result>`__
+                        -  `roll.count <roll.count>`__
+                        -  `roll.result <roll.result>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `state.name </rptools/wiki/state.name>`__
+                        -  `state.name <state.name>`__
 
                      .. container:: mw-category-group
 
@@ -105,15 +105,15 @@ Category:Special Variable - MapToolDoc
                            :name: t
 
                         -  `token.gm
-                           name </rptools/wiki/token.gm_name>`__
-                        -  `token.halo </rptools/wiki/token.halo>`__
-                        -  `token.init </rptools/wiki/token.init>`__
-                        -  `token.initHold </rptools/wiki/token.initHold>`__
-                        -  `token.label </rptools/wiki/token.label>`__
-                        -  `token.name </rptools/wiki/token.name>`__
-                        -  `token.visible </rptools/wiki/token.visible>`__
-                        -  `tokens.denyMove </rptools/wiki/tokens.denyMove>`__
-                        -  `tokens.moveCount </rptools/wiki/tokens.moveCount>`__
+                           name <token.gm_name>`__
+                        -  `token.halo <token.halo>`__
+                        -  `token.init <token.init>`__
+                        -  `token.initHold <token.initHold>`__
+                        -  `token.label <token.label>`__
+                        -  `token.name <token.name>`__
+                        -  `token.visible <token.visible>`__
+                        -  `tokens.denyMove <tokens.denyMove>`__
+                        -  `tokens.moveCount <tokens.moveCount>`__
 
       .. container:: printfooter
 

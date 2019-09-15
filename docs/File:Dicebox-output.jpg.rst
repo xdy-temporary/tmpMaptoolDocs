@@ -73,8 +73,8 @@ File:Dicebox-output.jpg - MapToolDoc
             ======= =========================================================================================== ================================================== ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                                                   Thumbnail                                          Dimensions        User                                                                                                                                                                   Comment
             ======= =========================================================================================== ================================================== ================= ====================================================================================================================================================================== =======
-            current `18:29, 30 March 2009 </maptool/images/9/97/Dicebox-output.jpg>`__                          |Thumbnail for version as of 18:29, 30 March 2009| 335 × 235 (8 KB)  `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
-            \       `01:37, 30 March 2009 </maptool/images/archive/9/97/20090330182940%21Dicebox-output.jpg>`__ |Thumbnail for version as of 01:37, 30 March 2009| 341 × 321 (10 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `18:29, 30 March 2009 </maptool/images/9/97/Dicebox-output.jpg>`__                          |Thumbnail for version as of 18:29, 30 March 2009| 335 × 235 (8 KB)  `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
+            \       `01:37, 30 March 2009 </maptool/images/archive/9/97/20090330182940%21Dicebox-output.jpg>`__ |Thumbnail for version as of 01:37, 30 March 2009| 341 × 321 (10 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= =========================================================================================== ================================================== ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,8 +87,8 @@ File:Dicebox-output.jpg - MapToolDoc
 
             The following 2 pages link to this file:
 
-            -  `Dice Box </rptools/wiki/Dice_Box>`__
-            -  `Dice Box/ja </rptools/wiki/Dice_Box/ja>`__
+            -  `Dice Box <Dice_Box>`__
+            -  `Dice Box/ja <Dice_Box/ja>`__
 
       .. container:: printfooter
 

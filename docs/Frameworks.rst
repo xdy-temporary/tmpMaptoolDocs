@@ -81,7 +81,7 @@ Frameworks - MapToolDoc
             http://74.54.95.210/~rptools/phpbb/viewtopic.php?f=58&t=15969&sid=fbc302084cfe63fd58592e07cd783180
 
             -  `Setting up DeviantNull's Character Sheet
-               framework </rptools/wiki/Setting_up_DeviantNull%27s_Character_Sheet_framework>`__
+               framework <Setting_up_DeviantNull%27s_Character_Sheet_framework>`__
 
          .. rubric:: 3.5
             :name: section-1

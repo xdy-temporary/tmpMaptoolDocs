@@ -50,11 +50,11 @@ getMacroProps - MapToolDoc
          .. container:: template_description
 
             Returns a property list of the properties for a `macro
-            button </rptools/wiki/Macro_Button>`__ for the `Current
-            Token </rptools/wiki/Current_Token>`__. You can retrieve the
-            index of a `macro button </rptools/wiki/Macro_Button>`__
+            button <Macro_Button>`__ for the `Current
+            Token <Current_Token>`__. You can retrieve the
+            index of a `macro button <Macro_Button>`__
             with the
-            `getMacroIndexes() </rptools/wiki/getMacroIndexes>`__
+            `getMacroIndexes() <getMacroIndexes>`__
             function.The type of the value returned depends on the
             delimiter parameter.
 
@@ -88,12 +88,12 @@ getMacroProps - MapToolDoc
          **Parameters**
 
          -  ``index`` - The index of the `macro
-            button </rptools/wiki/Macro_Button>`__.
+            button <Macro_Button>`__.
          -  ``delim`` - The delimiter used to separate the values in the
             `string property
-            list </rptools/wiki/Macros:string_property_list>`__ which
+            list <Macros:string_property_list>`__ which
             defaults to ``";"`` if not specified. This function returns
-            a `JSON Object </rptools/wiki/JSON_Object>`__ if ``"json"``
+            a `JSON Object <JSON_Object>`__ if ``"json"``
             is specified.
          -  ``id`` - The token ``id`` of the token that the function is
             executed on.
@@ -101,7 +101,7 @@ getMacroProps - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          **Valid Properties for Macro Buttons**
 
@@ -129,7 +129,7 @@ getMacroProps - MapToolDoc
             ``true``\ (``1``) or ``false``\ (``0``).
          -  ``tooltip`` - The tool tip for the macro button.
          -  ``compare`` - Takes a `JSON
-            Array </rptools/wiki/JSON_Array>`__ which can contain one or
+            Array <JSON_Array>`__ which can contain one or
             more of the following keywords (only usable with JSON
             version of the function).
 

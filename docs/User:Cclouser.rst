@@ -49,7 +49,7 @@ User:Cclouser - MapToolDoc
          .. rubric:: Stuff I've Created
             :name: stuff-ive-created
 
-         -  `Dice Box </rptools/wiki/Dice_Box>`__
+         -  `Dice Box <Dice_Box>`__
          -  `Miscellaneous
             Junk <http://gallery.rptools.net/v/contrib/Rumble/>`__
 

@@ -74,14 +74,14 @@ isPropertyEmpty - MapToolDoc
          .. container:: template_description
 
             Returns ``true``\ (``1``) if the `Token
-            Property </rptools/wiki/Token_Property>`__ for a specific
-            `Token </rptools/wiki/Token>`__ is empty. A `Token
-            Property </rptools/wiki/Token_Property>`__ is considered
+            Property <Token_Property>`__ for a specific
+            `Token <Token>`__ is empty. A `Token
+            Property <Token_Property>`__ is considered
             empty if it is ``NULL``; if an empty string (``""``) has
             been assigned to it, it is not considered empty. **Note:**
             If the token type sets a default value, this function will
             still see the property as empty. Try using
-            `json.isEmpty() </rptools/wiki/json.isEmpty>`__.
+            `json.isEmpty() <json.isEmpty>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -108,12 +108,12 @@ isPropertyEmpty - MapToolDoc
             checked.
          -  ``id`` - The token ``id`` of the token that has its value
             checked, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -136,11 +136,11 @@ isPropertyEmpty - MapToolDoc
 
          .. container:: template_also
 
-            `resetProperty() </rptools/wiki/resetProperty>`__,
-            `getProperty() </rptools/wiki/getProperty>`__,
-            `setProperty() </rptools/wiki/setProperty>`__,
+            `resetProperty() <resetProperty>`__,
+            `getProperty() <getProperty>`__,
+            `setProperty() <setProperty>`__,
 
-            `json.isEmpty() </rptools/wiki/json.isEmpty>`__
+            `json.isEmpty() <json.isEmpty>`__
 
          .. rubric:: Version Changes
             :name: version-changes

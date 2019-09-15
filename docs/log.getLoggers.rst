@@ -62,7 +62,7 @@ log.getLoggers - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -172,7 +172,7 @@ log.getLoggers - MapToolDoc
 
          .. container:: template_also
 
-            `log.setLevel </rptools/wiki/log.setLevel>`__
+            `log.setLevel <log.setLevel>`__
 
       .. container:: printfooter
 

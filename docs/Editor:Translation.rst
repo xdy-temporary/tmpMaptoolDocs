@@ -43,8 +43,8 @@ Translation Instructions - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `Deutsch </rptools/wiki/Editor:Translation/de>`__\ 
-             • \ `español </rptools/wiki/Editor:Translation/es>`__\  • \ `français </rptools/wiki/Editor:Translation/fr>`__\  • \ `italiano </rptools/wiki/Editor:Translation/it>`__\  • \ `日本語 </rptools/wiki/Editor:Translation/ja>`__\ 
+             • \ `Deutsch <Editor:Translation/de>`__\ 
+             • \ `español <Editor:Translation/es>`__\  • \ `français <Editor:Translation/fr>`__\  • \ `italiano <Editor:Translation/it>`__\  • \ `日本語 <Editor:Translation/ja>`__\ 
 
          .. container:: toc
             :name: toc
@@ -85,7 +85,7 @@ Translation Instructions - MapToolDoc
             English translation into your browsers address bar, and then
             append ``/fr`` to the end. In our example, the final URL
             would be
-            ``http://lmwcs.com/rptools/wiki/Editor:Translation/fr`` .
+            ``http://lmwcs.comEditor:Translation/fr`` .
             ``/fr`` in this case is the french language code, you can
             find your appropriate language code in the table at the
             bottom of this article.
@@ -178,8 +178,8 @@ Translation Instructions - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `Deutsch </rptools/wiki/Editor:Translation/de>`__\ 
-             • \ `español </rptools/wiki/Editor:Translation/es>`__\  • \ `français </rptools/wiki/Editor:Translation/fr>`__\  • \ `italiano </rptools/wiki/Editor:Translation/it>`__\  • \ `日本語 </rptools/wiki/Editor:Translation/ja>`__\ 
+             • \ `Deutsch <Editor:Translation/de>`__\ 
+             • \ `español <Editor:Translation/es>`__\  • \ `français <Editor:Translation/fr>`__\  • \ `italiano <Editor:Translation/it>`__\  • \ `日本語 <Editor:Translation/ja>`__\ 
 
       .. container:: printfooter
 

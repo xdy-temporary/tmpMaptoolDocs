@@ -65,7 +65,7 @@ getTokenImage - MapToolDoc
             Returns the `asset
             id </maptool/index.php?title=Asset_ID&action=edit&redlink=1>`__
             of the image for the for the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -97,7 +97,7 @@ getTokenImage - MapToolDoc
             Defaults to "".
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to retrieve the token image, defaults to the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            `Current Token <Current_Token>`__.
          -  ``mapname`` - OPTIONAL: The name of the map to find the
             token. Defaults to the current map.
 
@@ -107,7 +107,7 @@ getTokenImage - MapToolDoc
          .. container:: template_examples
 
             To display the image for the current
-            `token </rptools/wiki/Token:token>`__.
+            `token <Token:token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -118,7 +118,7 @@ getTokenImage - MapToolDoc
                         <img src='[r:getTokenImage()]'></img>
 
             To get the image of any
-            `token </rptools/wiki/Token:token>`__ using its id and the
+            `token <Token:token>`__ using its id and the
             token roll option.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -134,7 +134,7 @@ getTokenImage - MapToolDoc
 
          .. container:: template_also
 
-            `getImage </rptools/wiki/getImage>`__
+            `getImage <getImage>`__
 
          .. rubric:: Version Changes
             :name: version-changes

@@ -50,11 +50,11 @@ json.fields - MapToolDoc
          .. container:: template_description
 
             Returns the fields (keys) for a `JSON
-            Object </rptools/wiki/JSON_Object>`__ or the indexes for a
-            `JSON Array </rptools/wiki/JSON_Array>`__ as a string list.
+            Object <JSON_Object>`__ or the indexes for a
+            `JSON Array <JSON_Array>`__ as a string list.
             The type of the value returned depends on the delimiter
             parameter. Note: Because `JSON
-            Objects </rptools/wiki/JSON_Object>`__ are unordered,
+            Objects <JSON_Object>`__ are unordered,
             *json.fields* will not reflect the order they were set in.
 
          .. rubric:: Usage
@@ -81,12 +81,12 @@ json.fields - MapToolDoc
          -  ``delim`` =
 
             -  ``unspecified``: a standard `string
-               list </rptools/wiki/Macros:string_list>`__ is returned,
+               list <Macros:string_list>`__ is returned,
                with its default ``","`` delimiter.
-            -  ``"json"``: a `JSON Array </rptools/wiki/JSON_Array>`__
+            -  ``"json"``: a `JSON Array <JSON_Array>`__
                is returned.
             -  ``"x"``: a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with ``"x"`` used as a delimiter.
 
          .. rubric:: Example

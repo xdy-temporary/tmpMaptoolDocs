@@ -65,106 +65,106 @@ Category:Mathematical Function - MapToolDoc
                         .. rubric:: A
                            :name: a
 
-                        -  `abs </rptools/wiki/abs>`__
-                        -  `absolutevalue </rptools/wiki/absolutevalue>`__
-                        -  `absolutevalue/ko </rptools/wiki/absolutevalue/ko>`__
-                        -  `add </rptools/wiki/add>`__
-                        -  `average </rptools/wiki/average>`__
-                        -  `avg </rptools/wiki/avg>`__
+                        -  `abs <abs>`__
+                        -  `absolutevalue <absolutevalue>`__
+                        -  `absolutevalue/ko <absolutevalue/ko>`__
+                        -  `add <add>`__
+                        -  `average <average>`__
+                        -  `avg <avg>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: C
                            :name: c
 
-                        -  `ceil </rptools/wiki/ceil>`__
-                        -  `ceiling </rptools/wiki/ceiling>`__
+                        -  `ceil <ceil>`__
+                        -  `ceiling <ceiling>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: D
                            :name: d
 
-                        -  `divide </rptools/wiki/divide>`__
+                        -  `divide <divide>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: F
                            :name: f
 
-                        -  `floor </rptools/wiki/floor>`__
+                        -  `floor <floor>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: H
                            :name: h
 
-                        -  `hex </rptools/wiki/hex>`__
-                        -  `hypot </rptools/wiki/hypot>`__
-                        -  `hypotenuse </rptools/wiki/hypotenuse>`__
+                        -  `hex <hex>`__
+                        -  `hypot <hypot>`__
+                        -  `hypotenuse <hypotenuse>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `isNumber </rptools/wiki/isNumber>`__
+                        -  `isNumber <isNumber>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: L
                            :name: l
 
-                        -  `ln </rptools/wiki/ln>`__
-                        -  `log </rptools/wiki/log>`__
-                        -  `log10 </rptools/wiki/log10>`__
+                        -  `ln <ln>`__
+                        -  `log <log>`__
+                        -  `log10 <log10>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: M
                            :name: m
 
-                        -  `math </rptools/wiki/math>`__
-                        -  `max </rptools/wiki/max>`__
-                        -  `mean </rptools/wiki/mean>`__
-                        -  `median </rptools/wiki/median>`__
-                        -  `min </rptools/wiki/min>`__
-                        -  `mod </rptools/wiki/mod>`__
-                        -  `multiply </rptools/wiki/multiply>`__
+                        -  `math <math>`__
+                        -  `max <max>`__
+                        -  `mean <mean>`__
+                        -  `median <median>`__
+                        -  `min <min>`__
+                        -  `mod <mod>`__
+                        -  `multiply <multiply>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: N
                            :name: n
 
-                        -  `number </rptools/wiki/number>`__
+                        -  `number <number>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: P
                            :name: p
 
-                        -  `pow </rptools/wiki/pow>`__
-                        -  `power </rptools/wiki/power>`__
+                        -  `pow <pow>`__
+                        -  `power <power>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `round </rptools/wiki/round>`__
+                        -  `round <round>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `sqr </rptools/wiki/sqr>`__
-                        -  `sqrt </rptools/wiki/sqrt>`__
-                        -  `square </rptools/wiki/square>`__
-                        -  `squareroot </rptools/wiki/squareroot>`__
-                        -  `subtract </rptools/wiki/subtract>`__
-                        -  `sum </rptools/wiki/sum>`__
+                        -  `sqr <sqr>`__
+                        -  `sqrt <sqrt>`__
+                        -  `square <square>`__
+                        -  `squareroot <squareroot>`__
+                        -  `subtract <subtract>`__
+                        -  `sum <sum>`__
 
       .. container:: printfooter
 

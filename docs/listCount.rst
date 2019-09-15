@@ -50,7 +50,7 @@ listCount - MapToolDoc
          .. container:: template_description
 
             Returns the number of items in a `string
-            list </rptools/wiki/Macros:string_list>`__.
+            list <Macros:string_list>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -73,7 +73,7 @@ listCount - MapToolDoc
 
          If delim is not specified then the default value of ',' is used
          as the value separator in the `string
-         list </rptools/wiki/Macros:string_list>`__
+         list <Macros:string_list>`__
 
          .. rubric:: Examples
             :name: examples

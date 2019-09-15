@@ -45,8 +45,8 @@ Editor:To Do - MapToolDoc
          add one of the following templates to this article so it
          doesn't get forgotten.
 
-         -  `Template:Clarify </rptools/wiki/Template:Clarify>`__
-         -  `Template:stub </rptools/wiki/Template:stub>`__
+         -  `Template:Clarify <Template:Clarify>`__
+         -  `Template:stub <Template:stub>`__
 
          Use the templates' parameters to detail changes to be done, and
          if it doesn't seem enough, the talk page associated with the
@@ -58,7 +58,7 @@ Editor:To Do - MapToolDoc
          The list of articles needing action will then appear on this
          page:
 
-         -  `Review page </rptools/wiki/Category:Review>`__
+         -  `Review page <Category:Review>`__
 
       .. container:: printfooter
 

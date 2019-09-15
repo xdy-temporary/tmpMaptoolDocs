@@ -72,8 +72,8 @@ createMacro - MapToolDoc
 
          .. container:: template_description
 
-            Creates a `macro button </rptools/wiki/Macro_Button>`__ for
-            the `Current Token </rptools/wiki/Current_Token>`__ and
+            Creates a `macro button <Macro_Button>`__ for
+            the `Current Token <Current_Token>`__ and
             returns the index of the newly created button.
 
          .. rubric:: Usage
@@ -135,8 +135,8 @@ createMacro - MapToolDoc
          -  ``command`` - The command to run when the macro button is
             clicked, or the macro is called.
          -  ``props`` - A `String Property
-            List </rptools/wiki/String_Property_List>`__ or `JSON
-            Object </rptools/wiki/JSON_Object>`__ containing the
+            List <String_Property_List>`__ or `JSON
+            Object <JSON_Object>`__ containing the
             properties for the button.
 
             -  ``applyToSelected`` - Should the macro be applied to the
@@ -163,7 +163,7 @@ createMacro - MapToolDoc
                accepts ``true``\ (``1``) or ``false``\ (``0``).
             -  ``tooltip`` - The tool tip for the macro button.
             -  ``compare`` - Takes a `JSON
-               Array </rptools/wiki/JSON_Array>`__ which can contain one
+               Array <JSON_Array>`__ which can contain one
                or more of the following keywords (only usable with JSON
                version of the function).
 
@@ -181,9 +181,9 @@ createMacro - MapToolDoc
                   macro comparisons.
 
          -  ``delim`` - The delimiter used in the `String Property
-            List </rptools/wiki/String_Property_List>`__ that is sent to
+            List <String_Property_List>`__ that is sent to
             the ``props`` parameter, defaults to ``";"``. If you are
-            sending a `JSON Object </rptools/wiki/JSON_Object>`__ to the
+            sending a `JSON Object <JSON_Object>`__ to the
             ``props`` parameter, and using the ``id`` parameter, you can
             set this to ``"json"``.
          -  ``id`` - The token ``id`` of the token that the macro is
@@ -192,7 +192,7 @@ createMacro - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          *Note: It appears that if a JSON object is passed as ``props``
          that contains a key of ``index`` and that macro index already

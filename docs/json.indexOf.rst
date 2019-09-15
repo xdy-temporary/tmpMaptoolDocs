@@ -66,10 +66,10 @@ json.indexOf - MapToolDoc
          .. container:: template_description
 
             Returns the index of the first occurrence of a value in the
-            `JSON Array </rptools/wiki/JSON_Array>`__. If the value does
-            not exist in the `JSON Array </rptools/wiki/JSON_Array>`__
+            `JSON Array <JSON_Array>`__. If the value does
+            not exist in the `JSON Array <JSON_Array>`__
             then ``-1`` is returned. All `JSON
-            Array </rptools/wiki/JSON_Array>`__ indexes start at ``0``.
+            Array <JSON_Array>`__ indexes start at ``0``.
 
          .. rubric:: Usage
             :name: usage
@@ -92,10 +92,10 @@ json.indexOf - MapToolDoc
 
          **Parameters**
 
-         -  ``array`` - The `JSON Array </rptools/wiki/JSON_Array>`__ to
+         -  ``array`` - The `JSON Array <JSON_Array>`__ to
             search.
          -  ``value`` - The value to find the index of in the `JSON
-            Array </rptools/wiki/JSON_Array>`__.
+            Array <JSON_Array>`__.
          -  ``start`` - The index to start searching from, if not
             specified it defaults to ``0``.
 
@@ -147,7 +147,7 @@ json.indexOf - MapToolDoc
 
          .. container:: template_also
 
-            `json.count() </rptools/wiki/json.count>`__
+            `json.count() <json.count>`__
 
       .. container:: printfooter
 

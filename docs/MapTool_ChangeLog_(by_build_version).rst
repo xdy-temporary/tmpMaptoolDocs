@@ -124,7 +124,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
          bugs/features being worked on (long story, but we **will** be
          using the Mantis bug tracker for 1.4). I have provided a list
          of `Things I'd Like to See
-         Fixed </rptools/wiki/Things_I%27d_Like_to_See_Fixed>`__ for 1.3
+         Fixed <Things_I%27d_Like_to_See_Fixed>`__ for 1.3
          but there is no guarantee expressed or implied that any of them
          will come to fruition!
 
@@ -352,7 +352,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  Ensure dialogs larger than the owner window are not
             positioned off-screen
          -  Fix that leaves original **%{}** intact in
-            `strformat </rptools/wiki/strformat>`__ when unknown
+            `strformat <strformat>`__ when unknown
             variable is used
             http://forums.rptools.net/viewtopic.php?f=20&t=21206
          -  Fix NPE when autosaving and copying a map
@@ -366,11 +366,11 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  Fix inability to draw a second VBL line after drawing the
             first
             http://forums.rptools.net/viewtopic.php?f=7&t=19741#p215627
-         -  Hide exceptions used for `abort </rptools/wiki/abort>`__ and
-            `assert </rptools/wiki/assert>`__ from the user (they were
+         -  Hide exceptions used for `abort <abort>`__ and
+            `assert <assert>`__ from the user (they were
             hidden originally, but changes made them visible)
-         -  Added `assert </rptools/wiki/assert>`__ handling to look
-            like `abort </rptools/wiki/abort>`__ handling
+         -  Added `assert <assert>`__ handling to look
+            like `abort <abort>`__ handling
          -  Fix problem with new "title" being ignored when refreshing
             an HTML frame
             http://forums.rptools.net/viewtopic.php?f=1&t=20068&p=214990#p214990
@@ -398,7 +398,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
             http://forums.rptools.net/viewtopic.php?f=1&t=20068#p214381
          -  Remove debugging code that was **System.out**-related (ugh)
          -  Don't add trailing delimiter to end of string in
-            `setStrProp </rptools/wiki/setStrProp>`__ function
+            `setStrProp <setStrProp>`__ function
             http://forums.rptools.net/viewtopic.php?f=3&t=20517#p214422
          -  Fix using an IF roll option with an empty ELSE block causes
             an NPE
@@ -410,7 +410,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
             image
             http://forums.rptools.net/viewtopic.php?f=1&t=20068&p=212044
          -  Fix hitting the close button on an
-            `input </rptools/wiki/input>`__ dialog causes NPE
+            `input <input>`__ dialog causes NPE
             http://forums.rptools.net/viewtopic.php?f=20&t=20180&p=211624
          -  Fix new HTMLFrames (frame/dialog roll option) appear in the
             center of the screen
@@ -434,7 +434,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  Updated **sbbi-upnplib** to rebuilt source code with
             Generics support and JXPath interface fixed for JXPath-1.3;
             fixes UPNP not working
-         -  Fix so `input </rptools/wiki/input>`__ dialogs auto-scroll
+         -  Fix so `input <input>`__ dialogs auto-scroll
             to the top on open
          -  **OK** button should be set as default so <Enter> closes
             dialog
@@ -643,7 +643,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  Changing the token's image via the *EditTokenDialog* didn't
             update the token's native width/height.
          -  Fixed "you are not the GM" dialog popping up during
-            `copyToken() </rptools/wiki/copyToken>`__ in a trusted
+            `copyToken() <copyToken>`__ in a trusted
             function.
          -  Fix bug in handling of non-existent images dropped onto a
             map (race condition).
@@ -697,7 +697,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
             the position and zoom
          -  Added a status bar message when the mouse enters the
             *Layout* panel
-         -  Fixed `currentToken() </rptools/wiki/currentToken>`__ when
+         -  Fixed `currentToken() <currentToken>`__ when
             multiple tokens with identical names are selected and a
             macro is executed that has ApplyToSelected active
             http://forums.rptools.net/viewtopic.php?f=1&t=17442&p=185550#p185550
@@ -726,7 +726,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
             map visible
          -  Fix NPE when loading campaign from 1.3b45 (bug in macro
             button handling)
-         -  Change `getInfo() </rptools/wiki/getInfo>`__ so the light
+         -  Change `getInfo() <getInfo>`__ so the light
             source information is more detailed when ``campaign`` is the
             topic being queried (should add ``preferences`` somewhere as
             well)
@@ -790,7 +790,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  jfrazierjr - Individual FoW with Vision turned off
             (uncommitted patch)
          -  Colors for macro button fonts weren't being recognized
-         -  Changed `setOwner() </rptools/wiki/setOwner>`__ back to its
+         -  Changed `setOwner() <setOwner>`__ back to its
             previous definition
 
          .. rubric:: 1.3b79-RC2 (released 2010-12-29)
@@ -804,7 +804,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
 
          -  Fix handling of the font size for the macro buttons
             http://forums.rptools.net/viewtopic.php?f=21&t=17184#p183613
-         -  Start cleanup of `copyToken() </rptools/wiki/copyToken>`__
+         -  Start cleanup of `copyToken() <copyToken>`__
             code for hex grids by reverting meaning of ``useDistance``
             so that old macros work again (sigh). We need regression
             tests written in MTscript!!
@@ -817,7 +817,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
             without a CaseInsensitiveHashMap) can be read properly
             (warning: ugly backward compatibility code!)
          -  Updated
-            `getInitiativeList() </rptools/wiki/getInitiativeList>`__
+            `getInitiativeList() <getInitiativeList>`__
             (and wiki) so that it checks for trusted context; includes
             small performance optimization
          -  Fixed NPE in **InitiativeListCellRenderer.java** (line 174)
@@ -846,7 +846,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
             :name: b77-released-2010-12-07
 
          -  Fixed error in check for number of parameters in
-            `getLayer() </rptools/wiki/getLayer>`__
+            `getLayer() <getLayer>`__
          -  Added crosshairs to token editor dialog's Properties tab for
             the Layout image to allow easier alignment
             http://forums.rptools.net/viewtopic.php?f=26&t=14777
@@ -870,11 +870,11 @@ MapTool ChangeLog (by build version) - MapToolDoc
             passwords, player names, etc to prevent copy/paste errors
             for these fields
          -  added ``delta`` field to the updates parameter of
-            `copyToken() </rptools/wiki/copyToken>`__ so that distances
+            `copyToken() <copyToken>`__ so that distances
             can be relative to the starting point
          -  added ``layer`` field to
-            `getTokens() </rptools/wiki/getTokens>`__ and
-            `getTokenNames() </rptools/wiki/getTokenNames>`__
+            `getTokens() <getTokens>`__ and
+            `getTokenNames() <getTokenNames>`__
             http://forums.rptools.net/viewtopic.php?f=20&t=16825&p=179535#p179535
          -  Fixed **Light** tab of campaign properties dialog so that it
             displays the help screen properly
@@ -898,12 +898,12 @@ MapTool ChangeLog (by build version) - MapToolDoc
             possible border; use yellow to indicate selected tokens when
             modifying group fog-of-war
          -  CoveredInFish - Add support to
-            `copyToken() </rptools/wiki/copyToken>`__ for images to be
+            `copyToken() <copyToken>`__ for images to be
             set http://forums.rptools.net/viewtopic.php?f=26&t=15063
          -  CoveredInFish - Add
-            `broadcast() </rptools/wiki/broadcast>`__,
-            `setTokenHandout() </rptools/wiki/setTokenHandout>`__,
-            `setTokenPortrait() </rptools/wiki/setTokenPortrait>`__
+            `broadcast() <broadcast>`__,
+            `setTokenHandout() <setTokenHandout>`__,
+            `setTokenPortrait() <setTokenPortrait>`__
          -  Gringoire - updated Italian translation
          -  patoace - updated Spanish translation
          -  Lukasz - created new Polish translation (work-in-progress)
@@ -925,8 +925,8 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  jfrazierjr/Rumble - fix for the "jumping template" bug; lots
             of testing needed.
          -  jfrazierjr - MTscript functions for FoW manipulation
-            (`exposeFOW() </rptools/wiki/exposeFOW>`__ and
-            `exposePCOnlyArea() </rptools/wiki/exposePCOnlyArea>`__)
+            (`exposeFOW() <exposeFOW>`__ and
+            `exposePCOnlyArea() <exposePCOnlyArea>`__)
             http://forums.rptools.net/viewtopic.php?f=3&t=15950#p173912
          -  jfrazierjr - Ignore client Preferences for FoW revealing
          -  jfrazierjr - patch for ownerVisibleOnly setting on tokens
@@ -936,14 +936,14 @@ MapTool ChangeLog (by build version) - MapToolDoc
             policy(internal to the code) so that newly connected clients
             will get the value of the server's menu item checkbox.
          -  jfrazierjr - added new move function:
-            `getMoveCount() </rptools/wiki/getMoveCount>`__. This gets
+            `getMoveCount() <getMoveCount>`__. This gets
             the last movement count in units using the movement metric
             defined by the server(see above for new server setting)
          -  jfrazierjr - fixed path not showing to players when Use
             Individual Views is selected for tokens they do not own.
             http://forums.rptools.net/viewtopic.php?f=3&t=16451
          -  CoveredInFish - patch to add **timeInMs** and **timeDate**
-            to the `getInfo() </rptools/wiki/getInfo>`__ MTscript
+            to the `getInfo() <getInfo>`__ MTscript
             function
          -  CoveredInFish - patch for disabling macroLink tooltips in
             chat
@@ -969,7 +969,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  Change the list of restricted characters in **AppHome** --
             the only one specifically prohibited by Java is the **!**
             due to ``jar://`` URLs using it
-         -  Fix `setNPC() </rptools/wiki/setNPC>`__ to correctly check
+         -  Fix `setNPC() <setNPC>`__ to correctly check
             number of parameters
             http://forums.rptools.net/viewtopic.php?f=3&t=14823
          -  Change **Test Connection** button on the **Start Server**
@@ -988,11 +988,11 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  jfrazierjr - Fixed CNTL+SHIFT+O to enforce Server policy use
             individual views and not reveal FOW for non owned tokens
          -  jfrazierjr - Finished up
-            `onTokenMove() </rptools/wiki/onTokenMove>`__ and
+            `onTokenMove() <onTokenMove>`__ and
             `onMultipleTokenMove() </maptool/index.php?title=onMultipleTokenMove&action=edit&redlink=1>`__
             functions
          -  jfrazierjr - Added
-            `movedOverPoints() </rptools/wiki/movedOverPoints>`__
+            `movedOverPoints() <movedOverPoints>`__
             function.
          -  jfrazierjr - various other small fixes
 
@@ -1017,8 +1017,8 @@ MapTool ChangeLog (by build version) - MapToolDoc
             MTscript support re:
             `setOwnerVisibleOnly() </maptool/index.php?title=setOwnerVisibleOnly&action=edit&redlink=1>`__
             but also evaluation of how other script functions should
-            change: `isVisible() </rptools/wiki/isVisible>`__,
-            `getVisibleTokens() </rptools/wiki/getVisibleTokens>`__,
+            change: `isVisible() <isVisible>`__,
+            `getVisibleTokens() <getVisibleTokens>`__,
             etc.
             http://forums.rptools.net/viewtopic.php?f=26&t=15044&p=164509#p164163
          -  jfrazierjr - *onTokenMove functions* patch. Still needs
@@ -1055,15 +1055,15 @@ MapTool ChangeLog (by build version) - MapToolDoc
          -  Add solution text to error message when out-of-memory error
             occurs while saving a campaign
             http://forums.rptools.net/viewtopic.php?f=3&t=15082#p160393
-         -  `getImpersonated() </rptools/wiki/getImpersonated>`__ now
+         -  `getImpersonated() <getImpersonated>`__ now
             fails gracefully
-         -  `setPropertyType() </rptools/wiki/setPropertyType>`__ had
+         -  `setPropertyType() <setPropertyType>`__ had
             bad parameter checking
             http://forums.rptools.net/viewtopic.php?f=1&t=14896#p160423
-         -  `getStrProp() </rptools/wiki/getStrProp>`__'s wiki page was
+         -  `getStrProp() <getStrProp>`__'s wiki page was
             wrong (code was correct)
          -  Fixed NullPointerExceptions with
-            `json.type() </rptools/wiki/json.type>`__ and similar (may
+            `json.type() <json.type>`__ and similar (may
             not have gotten all of them)
             http://forums.rptools.net/viewtopic.php?f=20&t=15061#p160011
          -  URLs should include the colon as valid in the path component
@@ -1094,14 +1094,14 @@ MapTool ChangeLog (by build version) - MapToolDoc
             references to Java 6 methods have been culled from the main
             MT source as much as possible
          -  Wrong parameter count check for
-            `sendToBack() </rptools/wiki/sendToBack>`__ and
-            `bringToFront() </rptools/wiki/bringToFront>`__
+            `sendToBack() <sendToBack>`__ and
+            `bringToFront() <bringToFront>`__
             http://forums.rptools.net/viewtopic.php?f=12&t=12516&p=158796
          -  Updated Italian translation by Gringoire
-         -  `createMacro() </rptools/wiki/createMacro>`__ now properly
+         -  `createMacro() <createMacro>`__ now properly
             takes 5 parameters (was only 4)
             http://forums.rptools.net/viewtopic.php?f=21&t=15108&start=0
-         -  `hasMacro() </rptools/wiki/hasMacro>`__ wasn't accepting a
+         -  `hasMacro() <hasMacro>`__ wasn't accepting a
             second parameter correctly
             http://forums.rptools.net/viewtopic.php?f=21&t=15098&p=160584#p160502
          -  Comments in campaign property types ("-----") still cause
@@ -1127,7 +1127,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
             :name: b70
 
          -  Add trusted macro for
-            `setOwner() </rptools/wiki/setOwner>`__ (done by Craig in
+            `setOwner() <setOwner>`__ (done by Craig in
             b69)
          -  Rectangles drawn with zero width/height are removed and not
             added to the map
@@ -1142,18 +1142,18 @@ MapTool ChangeLog (by build version) - MapToolDoc
             http://forums.rptools.net/viewtopic.php?f=3&t=14068&p=154991)
          -  Added help info for GM-only auras to the Abeille form for
             the Campaign Properties dialog
-         -  Craig - fixed bug in `setPC() </rptools/wiki/setPC>`__ added
+         -  Craig - fixed bug in `setPC() <setPC>`__ added
             by Azhrei :(
             (http://forums.rptools.net/viewtopic.php?f=3&t=14823)
-         -  Craig - added `isVisible() </rptools/wiki/isVisible>`__ and
+         -  Craig - added `isVisible() <isVisible>`__ and
             a "campaign" parameter for the
-            `getInfo() </rptools/wiki/getInfo>`__ script function
+            `getInfo() <getInfo>`__ script function
          -  Craig - fixed bug on "image" input type in html forms not
             working
             (http://forums.rptools.net/viewtopic.php?f=21&t=14789)
          -  Craig - added "closeFrame()" function
             (http://forums.rptools.net/viewtopic.php?p=157814#p157814)
-         -  `getPropertyNames() </rptools/wiki/getPropertyNames>`__
+         -  `getPropertyNames() <getPropertyNames>`__
             checked for the wrong number of parameters
          -  Rumble - select unowned tokens patch
 
@@ -1176,7 +1176,7 @@ MapTool ChangeLog (by build version) - MapToolDoc
             (overlay color can be set in Preferences)
          -  Rumble's select-unowned-tokens patch
          -  change Random() to SecureRandom()
-         -  Craig - added `getInfo </rptools/wiki/getInfo>`__\ ()
+         -  Craig - added `getInfo <getInfo>`__\ ()
             function
 
          .. rubric:: 1.3b68

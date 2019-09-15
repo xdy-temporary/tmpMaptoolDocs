@@ -65,40 +65,40 @@ Category:VBL Function - MapToolDoc
                         .. rubric:: D
                            :name: d
 
-                        -  `drawVBL </rptools/wiki/drawVBL>`__
+                        -  `drawVBL <drawVBL>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: E
                            :name: e
 
-                        -  `eraseVBL </rptools/wiki/eraseVBL>`__
+                        -  `eraseVBL <eraseVBL>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getAlwaysVisible </rptools/wiki/getAlwaysVisible>`__
-                        -  `getTokenOpacity </rptools/wiki/getTokenOpacity>`__
-                        -  `getTokenVBL </rptools/wiki/getTokenVBL>`__
-                        -  `getVBL </rptools/wiki/getVBL>`__
+                        -  `getAlwaysVisible <getAlwaysVisible>`__
+                        -  `getTokenOpacity <getTokenOpacity>`__
+                        -  `getTokenVBL <getTokenVBL>`__
+                        -  `getVBL <getVBL>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `setAlwaysVisible </rptools/wiki/setAlwaysVisible>`__
-                        -  `setTokenOpacity </rptools/wiki/setTokenOpacity>`__
-                        -  `setTokenVBL </rptools/wiki/setTokenVBL>`__
+                        -  `setAlwaysVisible <setAlwaysVisible>`__
+                        -  `setTokenOpacity <setTokenOpacity>`__
+                        -  `setTokenVBL <setTokenVBL>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: T
                            :name: t
 
-                        -  `transferVBL </rptools/wiki/transferVBL>`__
+                        -  `transferVBL <transferVBL>`__
 
       .. container:: printfooter
 

@@ -65,7 +65,7 @@ Dice Expressions - MapToolDoc
 
          Finally, note that when entering a dice roll directly in chat,
          you need to use the /roll `Chat
-         Command </rptools/wiki/Chat:Commands>`__ to execute the roll.
+         Command <Chat:Commands>`__ to execute the roll.
          In a macro, you would enclose the roll expression in square
          brackets. For example, if you wanted to roll one twenty sided
          die, one six sided die, and add 8 to the result:
@@ -75,14 +75,14 @@ Dice Expressions - MapToolDoc
 
             /roll 1d20+1d6+8
 
-         *In a*\ `macro </rptools/wiki/Macros:introduction>`__:
+         *In a*\ `macro <Macros:introduction>`__:
          ::
 
             [1d20+1d6+8]
 
          You may also access these dice expressions directly using macro
          functions, see `Category:Dice
-         Function </rptools/wiki/Category:Dice_Function>`__.
+         Function <Category:Dice_Function>`__.
 
          .. rubric:: General Dice Expressions
             :name: general-dice-expressions

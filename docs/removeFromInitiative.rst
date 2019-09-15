@@ -45,7 +45,7 @@ removeFromInitiative - MapToolDoc
 
          .. container:: template_description
 
-            Removes the `Current Token </rptools/wiki/Current_Token>`__
+            Removes the `Current Token <Current_Token>`__
             from the `Initiative
             Panel </maptool/index.php?title=Initiative:Initiative_Panel&action=edit&redlink=1>`__.
 

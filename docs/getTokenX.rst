@@ -101,7 +101,7 @@ getTokenX - MapToolDoc
             Pixels* (in other words 0:distance in cells, 1: distance in
             pixels)'.
          -  ``id`` - The id of the token to move, defaults to the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            `Current Token <Current_Token>`__.
 
          **Which coordinate is returned for tokens larger then one
          cell**
@@ -142,7 +142,7 @@ getTokenX - MapToolDoc
 
          .. container:: template_examples
 
-            Moves the `Current Token </rptools/wiki/Current_Token>`__
+            Moves the `Current Token <Current_Token>`__
             down ``5`` **units**, and left ``10`` **units**.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -169,7 +169,7 @@ getTokenX - MapToolDoc
 
                         [h: moveToken(NewX, NewY)]
 
-            Moves the `Current Token </rptools/wiki/Current_Token>`__
+            Moves the `Current Token <Current_Token>`__
             down ``5`` **cells**, and left ``10`` **cells**.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -201,11 +201,11 @@ getTokenX - MapToolDoc
 
          .. container:: template_also
 
-            `moveToken() </rptools/wiki/moveToken>`__,
-            `getTokenY() </rptools/wiki/getTokenY>`__,
-            `getZoom() </rptools/wiki/getZoom>`__,
+            `moveToken() <moveToken>`__,
+            `getTokenY() <getTokenY>`__,
+            `getZoom() <getZoom>`__,
 
-            `setZoom() </rptools/wiki/setZoom>`__.
+            `setZoom() <setZoom>`__.
 
       .. container:: printfooter
 

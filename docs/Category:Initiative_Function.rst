@@ -65,57 +65,57 @@ Category:Initiative Function - MapToolDoc
                         .. rubric:: A
                            :name: a
 
-                        -  `addAllNPCsToInitiative </rptools/wiki/addAllNPCsToInitiative>`__
-                        -  `addAllPCsToInitiative </rptools/wiki/addAllPCsToInitiative>`__
-                        -  `addAllToInitiative </rptools/wiki/addAllToInitiative>`__
-                        -  `addToInitiative </rptools/wiki/addToInitiative>`__
+                        -  `addAllNPCsToInitiative <addAllNPCsToInitiative>`__
+                        -  `addAllPCsToInitiative <addAllPCsToInitiative>`__
+                        -  `addAllToInitiative <addAllToInitiative>`__
+                        -  `addToInitiative <addToInitiative>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getCurrentInitiative </rptools/wiki/getCurrentInitiative>`__
-                        -  `getInitiative </rptools/wiki/getInitiative>`__
-                        -  `getInitiativeHold </rptools/wiki/getInitiativeHold>`__
-                        -  `getInitiativeList </rptools/wiki/getInitiativeList>`__
-                        -  `getInitiativeRound </rptools/wiki/getInitiativeRound>`__
-                        -  `getInitiativeToken </rptools/wiki/getInitiativeToken>`__
+                        -  `getCurrentInitiative <getCurrentInitiative>`__
+                        -  `getInitiative <getInitiative>`__
+                        -  `getInitiativeHold <getInitiativeHold>`__
+                        -  `getInitiativeList <getInitiativeList>`__
+                        -  `getInitiativeRound <getInitiativeRound>`__
+                        -  `getInitiativeToken <getInitiativeToken>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `initiativeSize </rptools/wiki/initiativeSize>`__
+                        -  `initiativeSize <initiativeSize>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: N
                            :name: n
 
-                        -  `nextInitiative </rptools/wiki/nextInitiative>`__
+                        -  `nextInitiative <nextInitiative>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `removeAllFromInitiative </rptools/wiki/removeAllFromInitiative>`__
-                        -  `removeAllNPCsFromInitiative </rptools/wiki/removeAllNPCsFromInitiative>`__
-                        -  `removeAllPCsFromInitiative </rptools/wiki/removeAllPCsFromInitiative>`__
-                        -  `removeFromInitiative </rptools/wiki/removeFromInitiative>`__
+                        -  `removeAllFromInitiative <removeAllFromInitiative>`__
+                        -  `removeAllNPCsFromInitiative <removeAllNPCsFromInitiative>`__
+                        -  `removeAllPCsFromInitiative <removeAllPCsFromInitiative>`__
+                        -  `removeFromInitiative <removeFromInitiative>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `setCurrentInitiative </rptools/wiki/setCurrentInitiative>`__
-                        -  `setInitiative </rptools/wiki/setInitiative>`__
-                        -  `setInitiativeHold </rptools/wiki/setInitiativeHold>`__
-                        -  `setInitiativeRound </rptools/wiki/setInitiativeRound>`__
-                        -  `sortInitiative </rptools/wiki/sortInitiative>`__
+                        -  `setCurrentInitiative <setCurrentInitiative>`__
+                        -  `setInitiative <setInitiative>`__
+                        -  `setInitiativeHold <setInitiativeHold>`__
+                        -  `setInitiativeRound <setInitiativeRound>`__
+                        -  `sortInitiative <sortInitiative>`__
 
       .. container:: printfooter
 

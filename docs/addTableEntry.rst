@@ -62,7 +62,7 @@ addTableEntry - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -73,7 +73,7 @@ addTableEntry - MapToolDoc
             Adds a new row to the specified table. **Note:** adding a
             row to a table will not automatically change the table row
             value, so this should be updated to avoid possible errors
-            (See `setTableRoll() </rptools/wiki/setTableRoll>`__
+            (See `setTableRoll() <setTableRoll>`__
             function).
 
          .. rubric:: Usage
@@ -133,10 +133,10 @@ addTableEntry - MapToolDoc
 
          .. container:: template_also
 
-            `setTableRoll() </rptools/wiki/setTableRoll>`__
-            `table() </rptools/wiki/table>`__
-            `tableImage() </rptools/wiki/tableImage>`__
-            `deleteTableEntry() </rptools/wiki/deleteTableEntry>`__
+            `setTableRoll() <setTableRoll>`__
+            `table() <table>`__
+            `tableImage() <tableImage>`__
+            `deleteTableEntry() <deleteTableEntry>`__
 
       .. container:: printfooter
 

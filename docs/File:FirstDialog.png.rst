@@ -73,7 +73,7 @@ File:FirstDialog.png - MapToolDoc
             ======= ================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
             \       Date/Time                                                          Thumbnail                                             Dimensions        User                                                                                                                                                                                        Comment
             ======= ================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
-            current `13:05, 14 December 2008 </maptool/images/d/d8/FirstDialog.png>`__ |Thumbnail for version as of 13:05, 14 December 2008| 401 × 199 (12 KB) `Craig </rptools/wiki/User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Craig>`__\ \ )
+            current `13:05, 14 December 2008 </maptool/images/d/d8/FirstDialog.png>`__ |Thumbnail for version as of 13:05, 14 December 2008| 401 × 199 (12 KB) `Craig <User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Craig>`__\ \ )
             ======= ================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -85,9 +85,9 @@ File:FirstDialog.png - MapToolDoc
             :name: mw-imagepage-section-duplicates
 
             The following file is a duplicate of this file (`more
-            details </rptools/wiki/Special:FileDuplicateSearch/FirstDialog.png>`__):
+            details <Special:FileDuplicateSearch/FirstDialog.png>`__):
 
-            -  `File:FirstDailog.png </rptools/wiki/File:FirstDailog.png>`__
+            -  `File:FirstDailog.png <File:FirstDailog.png>`__
 
          .. container::
             :name: mw-imagepage-section-linkstoimage
@@ -95,7 +95,7 @@ File:FirstDialog.png - MapToolDoc
             The following page links to this file:
 
             -  `Introduction to Dialogs and
-               Frames </rptools/wiki/Introduction_to_Dialogs_and_Frames>`__
+               Frames <Introduction_to_Dialogs_and_Frames>`__
 
       .. container:: printfooter
 

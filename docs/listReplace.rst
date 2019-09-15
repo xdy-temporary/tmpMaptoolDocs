@@ -50,7 +50,7 @@ listReplace - MapToolDoc
          .. container:: template_description
 
             Replaces the element at the specified index of a `String
-            List </rptools/wiki/String_List>`__ with a new value. If a
+            List <String_List>`__ with a new value. If a
             delimiter is not specified then the default value of ``","``
             is used. The index for lists starts at ``0``.
 
@@ -91,7 +91,7 @@ listReplace - MapToolDoc
             Returns ``This, is, a, Test``
 
             **Example using a**\ `String
-            List </rptools/wiki/String_List>`__\ **with a non-default
+            List <String_List>`__\ **with a non-default
             delimiter:**
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -105,7 +105,7 @@ listReplace - MapToolDoc
             Returns ``This: is: a: test``
 
             **Example using a**\ `String
-            List </rptools/wiki/String_List>`__\ **stored in a
+            List <String_List>`__\ **stored in a
             variable:**
 
             .. container:: mw-geshi mw-code mw-content-ltr

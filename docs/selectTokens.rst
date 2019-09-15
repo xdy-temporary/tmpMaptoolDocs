@@ -106,12 +106,12 @@ selectTokens - MapToolDoc
             value is ``false(0)`` currently selected tokens will be
             deselected before new tokens are selected. Defaults to
             false.
-         -  ``tokens`` - a `String List </rptools/wiki/String_List>`__
+         -  ``tokens`` - a `String List <String_List>`__
             of tokens to select.
          -  ``delim`` - Specifies the delimiter used in the string list
             that is supplied. If the delimiter is "json", then the value
             for ``tokens`` may be a `JSON
-            Array </rptools/wiki/JSON_Array>`__ instead. **Note: if
+            Array <JSON_Array>`__ instead. **Note: if
             using a JSON Array or String List, both ``add`` and
             ``delim`` must be specified.**
 
@@ -130,8 +130,8 @@ selectTokens - MapToolDoc
 
                         [h:selectTokens("Adventurer")]
 
-            To select a list of `Tokens </rptools/wiki/Token>`__ using a
-            `String List </rptools/wiki/String_List>`__, replacing the
+            To select a list of `Tokens <Token>`__ using a
+            `String List <String_List>`__, replacing the
             current selection
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -142,10 +142,10 @@ selectTokens - MapToolDoc
 
                         [h:selectTokens("Adventurer, Orc 2, Goblin 1", 0, ",")]
 
-            To select a list of `Tokens </rptools/wiki/Token>`__ using a
-            `JSON Array </rptools/wiki/JSON_Array>`__, adding the
+            To select a list of `Tokens <Token>`__ using a
+            `JSON Array <JSON_Array>`__, adding the
             specified tokens to the current set of selected
-            `Tokens </rptools/wiki/Token>`__:
+            `Tokens <Token>`__:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -160,10 +160,10 @@ selectTokens - MapToolDoc
 
          .. container:: template_also
 
-            `deselectTokens() </rptools/wiki/deselectTokens>`__,
-            `getSelected() </rptools/wiki/getSelected>`__,
+            `deselectTokens() <deselectTokens>`__,
+            `getSelected() <getSelected>`__,
 
-            `getSelectedNames() </rptools/wiki/getSelectedNames>`__
+            `getSelectedNames() <getSelectedNames>`__
 
          .. rubric:: Version Changes
             :name: version-changes

@@ -68,52 +68,52 @@ Category:Metamacro Function - MapToolDoc
                         .. rubric:: C
                            :name: c
 
-                        -  `createMacro </rptools/wiki/createMacro>`__
+                        -  `createMacro <createMacro>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getMacroButtonIndex </rptools/wiki/getMacroButtonIndex>`__
-                        -  `getMacroCommand </rptools/wiki/getMacroCommand>`__
-                        -  `getMacroContext </rptools/wiki/getMacroContext>`__
-                        -  `getMacroGroup </rptools/wiki/getMacroGroup>`__
-                        -  `getMacroIndexes </rptools/wiki/getMacroIndexes>`__
-                        -  `getMacroLocation </rptools/wiki/getMacroLocation>`__
-                        -  `getMacroName </rptools/wiki/getMacroName>`__
-                        -  `getMacroProps </rptools/wiki/getMacroProps>`__
-                        -  `getMacros </rptools/wiki/getMacros>`__
+                        -  `getMacroButtonIndex <getMacroButtonIndex>`__
+                        -  `getMacroCommand <getMacroCommand>`__
+                        -  `getMacroContext <getMacroContext>`__
+                        -  `getMacroGroup <getMacroGroup>`__
+                        -  `getMacroIndexes <getMacroIndexes>`__
+                        -  `getMacroLocation <getMacroLocation>`__
+                        -  `getMacroName <getMacroName>`__
+                        -  `getMacroProps <getMacroProps>`__
+                        -  `getMacros <getMacros>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: H
                            :name: h
 
-                        -  `hasImpersonated </rptools/wiki/hasImpersonated>`__
-                        -  `hasMacro </rptools/wiki/hasMacro>`__
+                        -  `hasImpersonated <hasImpersonated>`__
+                        -  `hasMacro <hasMacro>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `isTrusted </rptools/wiki/isTrusted>`__
+                        -  `isTrusted <isTrusted>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `removeMacro </rptools/wiki/removeMacro>`__
+                        -  `removeMacro <removeMacro>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `setMacroCommand </rptools/wiki/setMacroCommand>`__
-                        -  `setMacroProps </rptools/wiki/setMacroProps>`__
+                        -  `setMacroCommand <setMacroCommand>`__
+                        -  `setMacroProps <setMacroProps>`__
 
       .. container:: printfooter
 

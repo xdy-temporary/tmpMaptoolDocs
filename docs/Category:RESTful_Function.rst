@@ -63,11 +63,11 @@ Category:RESTful Function - MapToolDoc
                   .. rubric:: R
                      :name: r
 
-                  -  `REST.delete </rptools/wiki/REST.delete>`__
-                  -  `REST.get </rptools/wiki/REST.get>`__
-                  -  `REST.patch </rptools/wiki/REST.patch>`__
-                  -  `REST.post </rptools/wiki/REST.post>`__
-                  -  `REST.put </rptools/wiki/REST.put>`__
+                  -  `REST.delete <REST.delete>`__
+                  -  `REST.get <REST.get>`__
+                  -  `REST.patch <REST.patch>`__
+                  -  `REST.post <REST.post>`__
+                  -  `REST.put <REST.put>`__
 
       .. container:: printfooter
 

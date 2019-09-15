@@ -67,7 +67,7 @@ setPC - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -75,7 +75,7 @@ setPC - MapToolDoc
 
          .. container:: template_description
 
-            Sets a `Token </rptools/wiki/Token>`__ to a `PC
+            Sets a `Token <Token>`__ to a `PC
             Token </maptool/index.php?title=PC_Token&action=edit&redlink=1>`__.
 
          .. rubric:: Usage
@@ -101,7 +101,7 @@ setPC - MapToolDoc
 
          -  ``id`` - The token ``id`` of the token which has its PC
             status set, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
 
@@ -112,10 +112,10 @@ setPC - MapToolDoc
 
          .. container:: template_also
 
-            `isPC() </rptools/wiki/isPC>`__,
-            `isNPC() </rptools/wiki/isNPC>`__,
+            `isPC() <isPC>`__,
+            `isNPC() <isNPC>`__,
 
-            `setNPC() </rptools/wiki/setNPC>`__
+            `setNPC() <setNPC>`__
 
          .. rubric:: Version Changes
             :name: version-changes

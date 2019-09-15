@@ -65,102 +65,102 @@ Category:String Function - MapToolDoc
                         .. rubric:: A
                            :name: a
 
-                        -  `add </rptools/wiki/add>`__
+                        -  `add <add>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: C
                            :name: c
 
-                        -  `concat </rptools/wiki/concat>`__
+                        -  `concat <concat>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: D
                            :name: d
 
-                        -  `decode </rptools/wiki/decode>`__
+                        -  `decode <decode>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: E
                            :name: e
 
-                        -  `encode </rptools/wiki/encode>`__
-                        -  `endsWith </rptools/wiki/endsWith>`__
+                        -  `encode <encode>`__
+                        -  `endsWith <endsWith>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getFindCount </rptools/wiki/getFindCount>`__
-                        -  `getGroup </rptools/wiki/getGroup>`__
-                        -  `getGroupCount </rptools/wiki/getGroupCount>`__
-                        -  `getGroupEnd </rptools/wiki/getGroupEnd>`__
-                        -  `getGroupStart </rptools/wiki/getGroupStart>`__
+                        -  `getFindCount <getFindCount>`__
+                        -  `getGroup <getGroup>`__
+                        -  `getGroupCount <getGroupCount>`__
+                        -  `getGroupEnd <getGroupEnd>`__
+                        -  `getGroupStart <getGroupStart>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `indexOf </rptools/wiki/indexOf>`__
+                        -  `indexOf <indexOf>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: L
                            :name: l
 
-                        -  `lastIndexOf </rptools/wiki/lastIndexOf>`__
-                        -  `length </rptools/wiki/length>`__
-                        -  `lower </rptools/wiki/lower>`__
+                        -  `lastIndexOf <lastIndexOf>`__
+                        -  `length <length>`__
+                        -  `lower <lower>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: M
                            :name: m
 
-                        -  `matches </rptools/wiki/matches>`__
+                        -  `matches <matches>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: N
                            :name: n
 
-                        -  `number </rptools/wiki/number>`__
+                        -  `number <number>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `replace </rptools/wiki/replace>`__
+                        -  `replace <replace>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `startsWith </rptools/wiki/startsWith>`__
-                        -  `strfind </rptools/wiki/strfind>`__
-                        -  `strformat </rptools/wiki/strformat>`__
-                        -  `string </rptools/wiki/string>`__
-                        -  `substring </rptools/wiki/substring>`__
+                        -  `startsWith <startsWith>`__
+                        -  `strfind <strfind>`__
+                        -  `strformat <strformat>`__
+                        -  `string <string>`__
+                        -  `substring <substring>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: T
                            :name: t
 
-                        -  `trim </rptools/wiki/trim>`__
+                        -  `trim <trim>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: U
                            :name: u
 
-                        -  `upper </rptools/wiki/upper>`__
+                        -  `upper <upper>`__
 
       .. container:: printfooter
 

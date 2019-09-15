@@ -65,7 +65,7 @@ getTokenPortrait - MapToolDoc
             Returns the `asset
             id </maptool/index.php?title=Asset_ID&action=edit&redlink=1>`__
             of the portrait image for the for the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -97,7 +97,7 @@ getTokenPortrait - MapToolDoc
             Defaults to "".
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to retrieve the token image, defaults to the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            `Current Token <Current_Token>`__.
          -  ``mapname`` - OPTIONAL: The name of the map to find the
             token. Defaults to the current map.
 
@@ -107,7 +107,7 @@ getTokenPortrait - MapToolDoc
          .. container:: template_examples
 
             To display the image for the current
-            `Token </rptools/wiki/Token>`__.
+            `Token <Token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

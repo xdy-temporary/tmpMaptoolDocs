@@ -62,7 +62,7 @@ getFillColor - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -112,7 +112,7 @@ getFillColor - MapToolDoc
 
          .. container:: template_also
 
-            `setFillColor() </rptools/wiki/setFillColor>`__
+            `setFillColor() <setFillColor>`__
 
       .. container:: printfooter
 

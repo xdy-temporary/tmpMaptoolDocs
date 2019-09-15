@@ -62,7 +62,7 @@ setTableVisible - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -109,9 +109,9 @@ setTableVisible - MapToolDoc
 
          .. container:: template_also
 
-            `getTableVisible() </rptools/wiki/getTableVisible>`__
-            `getTableAccess() </rptools/wiki/getTableAccess>`__
-            `setTableAccess() </rptools/wiki/setTableAccess>`__
+            `getTableVisible() <getTableVisible>`__
+            `getTableAccess() <getTableAccess>`__
+            `setTableAccess() <setTableAccess>`__
 
       .. container:: printfooter
 

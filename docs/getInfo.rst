@@ -70,7 +70,7 @@ getInfo - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `JSON Object </rptools/wiki/JSON_Object>`__ with
+            Returns a `JSON Object <JSON_Object>`__ with
             lots of information about a specified topic.
 
          .. rubric:: Usage

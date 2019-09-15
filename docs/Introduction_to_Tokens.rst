@@ -97,8 +97,8 @@ Introduction to Tokens - MapToolDoc
             :name: introduction-to-maptool-tokens
 
          As mentioned in the `Introduction to
-         Mapping </rptools/wiki/Introduction_to_Mapping>`__ guide, a
-         `token </rptools/wiki/Macros:Glossary#T>`__ is the MapTool
+         Mapping <Introduction_to_Mapping>`__ guide, a
+         `token <Macros:Glossary#T>`__ is the MapTool
          jargon for a visual marker that is placed on a map within the
          MapTool software. The most intuitive use for tokens is to
          represent characters in the game - in other words, tokens take
@@ -108,7 +108,7 @@ Introduction to Tokens - MapToolDoc
             :name: assumptions
 
          This guide assumes that you have read the `Introduction to
-         Mapping </rptools/wiki/Introduction_to_Mapping>`__, and that
+         Mapping <Introduction_to_Mapping>`__, and that
          you know how to:
 
          -  Add folders to your Resource Library, and update/add images
@@ -187,7 +187,7 @@ Introduction to Tokens - MapToolDoc
             :name: creating-a-new-token
 
          Creating a token is as simple as dragging an image from the
-         `Resource Library </rptools/wiki/Macros:Glossary#R>`__ onto the
+         `Resource Library <Macros:Glossary#R>`__ onto the
          Token Layer of a map. But how do you create an image in the
          first place? There are several options.
 
@@ -258,7 +258,7 @@ Introduction to Tokens - MapToolDoc
          characteristics, be that its image, its name(s), or its
          configured settings. Changing token names, image, and size are
          covered in `Introduction to
-         Mapping </rptools/wiki/Introduction_to_Mapping>`__.
+         Mapping <Introduction_to_Mapping>`__.
 
          The following sections deal with the various options, tabs, and
          drop-down boxes in the **Edit Token** Dialog.
@@ -286,7 +286,7 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Edit-token.jpg>`__
+                     ` <File:Edit-token.jpg>`__
 
                   The **Edit Token** dialog
 
@@ -295,7 +295,7 @@ Introduction to Tokens - MapToolDoc
          instead, that power is granted to the *owner* or *owners* of a
          token. As GM, you are considered to have ownership of all
          tokens on all maps in the campaign. See
-         `Ownership </rptools/wiki/Introduction_to_Tokens#Ownership>`__,
+         `Ownership <Introduction_to_Tokens#Ownership>`__,
          below, for more details.
 
          To change the token type:
@@ -320,7 +320,7 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Notes-tab.jpg>`__
+                     ` <File:Notes-tab.jpg>`__
 
                   The Notes Tab of the **Edit Token** dialog
 
@@ -364,7 +364,7 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Properties-tab.jpg>`__
+                     ` <File:Properties-tab.jpg>`__
 
                   The **Properties** tab
 
@@ -423,7 +423,7 @@ Introduction to Tokens - MapToolDoc
 
          Since properties are such a major topic on their own, check out
          the `Introduction to
-         Properties </rptools/wiki/Introduction_to_Properties>`__ guide
+         Properties <Introduction_to_Properties>`__ guide
          for detailed information.
 
          .. rubric:: State
@@ -439,7 +439,7 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:State-tab.jpg>`__
+                     ` <File:State-tab.jpg>`__
 
                   The **State** tab
 
@@ -453,7 +453,7 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:State-example.jpg>`__
+                     ` <File:State-example.jpg>`__
 
                   This token has a state applied - the small red image
                   is the "state image" superimposed on the token image
@@ -493,7 +493,7 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Bar-example.jpg>`__
+                     ` <File:Bar-example.jpg>`__
 
                   This token has a *bar* applied, superimposed on the
                   token. The bar can be set to reflect different
@@ -529,7 +529,7 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Speech-tab.jpg>`__
+                     ` <File:Speech-tab.jpg>`__
 
                   The **Speech** tab
 
@@ -568,12 +568,12 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Ownership-tab.jpg>`__
+                     ` <File:Ownership-tab.jpg>`__
 
                   The **Ownership** tab
 
          Token **ownership** determines who among the players `connected
-         to the game </rptools/wiki/Introduction_to_Game_Hosting>`__ is
+         to the game <Introduction_to_Game_Hosting>`__ is
          allowed to select, move, or view the details of a given token.
 
          If you are the owner of a token, you may select it,
@@ -593,7 +593,7 @@ Introduction to Tokens - MapToolDoc
          must include **Strict token ownership** if you want the
          functionality described above. See `Introduction to Game
          Hosting#Starting Up a MapTool
-         Server </rptools/wiki/Introduction_to_Game_Hosting#Starting_Up_a_MapTool_Server>`__
+         Server <Introduction_to_Game_Hosting#Starting_Up_a_MapTool_Server>`__
          for details on server options.)
 
          .. rubric:: Config
@@ -609,7 +609,7 @@ Introduction to Tokens - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Config-tab.jpg>`__
+                     ` <File:Config-tab.jpg>`__
 
                   The **Config** tab
 
@@ -650,7 +650,7 @@ Introduction to Tokens - MapToolDoc
          image larger or smaller.
 
          The available size depend on the map grid used when `setting up
-         a map </rptools/wiki/Introduction_to_Mapping>`__. If you set a
+         a map <Introduction_to_Mapping>`__. If you set a
          map with a grid (hexagonal or square), you will have the *Free
          Size* option (which lets you scale the token as you need), or a
          number of sizes from "Fine" to "Colossal" (if you play D&D,
@@ -674,7 +674,7 @@ Introduction to Tokens - MapToolDoc
             :name: has-sight
 
          This field allows you to indicate what kind of
-         `sight </rptools/wiki/Introduction_to_Lights_and_Sights>`__ the
+         `sight <Introduction_to_Lights_and_Sights>`__ the
          token possesses. **Sight** settings allow the gamemaster to
          simulate darkness, light, hidden objects, and hiding enemies.
 
@@ -720,7 +720,7 @@ Introduction to Tokens - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Tokens/es>`__\  • \ `français </rptools/wiki/Introduction_to_Tokens/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Tokens/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Tokens/ja>`__\ 
+             • \ `español <Introduction_to_Tokens/es>`__\  • \ `français <Introduction_to_Tokens/fr>`__\  • \ `italiano <Introduction_to_Tokens/it>`__\  • \ `日本語 <Introduction_to_Tokens/ja>`__\ 
 
       .. container:: printfooter
 

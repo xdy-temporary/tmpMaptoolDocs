@@ -52,7 +52,7 @@ getGMName - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -85,7 +85,7 @@ getGMName - MapToolDoc
 
          -  ``id`` - The token ``id`` of the token that has its GM Name
             returned, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          | 
 

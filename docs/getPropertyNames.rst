@@ -65,16 +65,16 @@ getPropertyNames - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `String List </rptools/wiki/String_List>`__ or
-            `JSON Array </rptools/wiki/JSON_Array>`__ containing the
+            Returns a `String List <String_List>`__ or
+            `JSON Array <JSON_Array>`__ containing the
             names of the `Token
-            Properties </rptools/wiki/Token_Property>`__ for the
-            `Current Token </rptools/wiki/Current_Token>`__. The type of
+            Properties <Token_Property>`__ for the
+            `Current Token <Current_Token>`__. The type of
             the value returned depends on the delimiter parameter. All
             names returned will be in lower case. Use
-            `getPropertyNamesRaw() </rptools/wiki/getPropertyNamesRaw>`__
+            `getPropertyNamesRaw() <getPropertyNamesRaw>`__
             to get the names as they are shown in `Campaign
-            Properties </rptools/wiki/Introduction_to_Properties>`__.
+            Properties <Introduction_to_Properties>`__.
             | 
 
             .. container:: template_note
@@ -86,13 +86,13 @@ getPropertyNames - MapToolDoc
                Properties that have been removed from the campaign are
                no longer editable via the Edit Token dialog but they are
                still present on the token and may be read and set with
-               `getProperty() </rptools/wiki/getProperty>`__ and
-               `setProperty() </rptools/wiki/setProperty>`__
+               `getProperty() <getProperty>`__ and
+               `setProperty() <setProperty>`__
                respectively. To get *all* properties defined on a token,
                including those removed from the campaign, use
                *getPropertyNames()*. To see only the currently defined
                properties for the campaign, use
-               `getAllPropertyNames() </rptools/wiki/getAllPropertyNames>`__.
+               `getAllPropertyNames() <getAllPropertyNames>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -120,17 +120,17 @@ getPropertyNames - MapToolDoc
          **Parameters**
 
          -  ``delim`` - The delimiter used to separate the values in the
-            `String List </rptools/wiki/String_List>`__, defaults to
-            ``","``. Returns a `JSON Array </rptools/wiki/JSON_Array>`__
+            `String List <String_List>`__, defaults to
+            ``","``. Returns a `JSON Array <JSON_Array>`__
             if set to ``"json"``.
          -  ``id`` - The token ``id`` of the token which has its
             property names returned, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -142,7 +142,7 @@ getPropertyNames - MapToolDoc
 
             To display the names of all of the
             `properties </maptool/index.php?title=Token:property&action=edit&redlink=1>`__
-            on the current `token </rptools/wiki/Token:token>`__ use.
+            on the current `token <Token:token>`__ use.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

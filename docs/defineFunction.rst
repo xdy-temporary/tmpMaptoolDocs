@@ -70,7 +70,7 @@ defineFunction - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -81,11 +81,11 @@ defineFunction - MapToolDoc
             Defines a user function that can be used anywhere that core
             functions can be used. A user defined function is a link to
             another macro. A special macro labeled
-            `onCampaignLoad </rptools/wiki/onCampaignLoad>`__ is useful
+            `onCampaignLoad <onCampaignLoad>`__ is useful
             for defining functions upon the loading of your campaign.
             This because the function will be defined AFTER the macro
             has been run. In case of
-            `onCampaignLoad </rptools/wiki/onCampaignLoad>`__, that
+            `onCampaignLoad <onCampaignLoad>`__, that
             macro is always run when the campaign is loaded. This saves
             you the hassle of manually requiring to run this macro to
             enable the definition.
@@ -134,7 +134,7 @@ defineFunction - MapToolDoc
             update, and create variables in its parent's variable scope.
             Updating variables in the parent's scope includes
             over-writing any parameters that a parent might have stored
-            within `arg() </rptools/wiki/arg>`__, if a user-defined
+            within `arg() <arg>`__, if a user-defined
             function that does not create a new scope is called within
             another user-defined function.
 
@@ -189,11 +189,11 @@ defineFunction - MapToolDoc
 
          .. container:: template_also
 
-            `oldFunction() </rptools/wiki/oldFunction>`__,
-            `arg() </rptools/wiki/arg>`__,
-            `argCount() </rptools/wiki/argCount>`__,
+            `oldFunction() <oldFunction>`__,
+            `arg() <arg>`__,
+            `argCount() <argCount>`__,
 
-            `onCampaignLoad </rptools/wiki/onCampaignLoad>`__
+            `onCampaignLoad <onCampaignLoad>`__
 
          .. rubric:: Version Changes
             :name: version-changes

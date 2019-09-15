@@ -160,7 +160,7 @@ tableImage - MapToolDoc
 
          .. container:: template_also
 
-            `table() </rptools/wiki/table>`__
+            `table() <table>`__
 
       .. container:: printfooter
 

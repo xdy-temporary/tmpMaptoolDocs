@@ -50,8 +50,8 @@ json.path.read - MapToolDoc
          .. container:: template_description
 
             Returns the values in a nested `JSON
-            Array </rptools/wiki/JSON_Array>`__ or `JSON
-            Object </rptools/wiki/JSON_Object>`__ corresponding to the
+            Array <JSON_Array>`__ or `JSON
+            Object <JSON_Object>`__ corresponding to the
             provided path. For detailed information on how to specify
             the path, please read the `following
             document <https://github.com/json-path/JsonPath>`__.

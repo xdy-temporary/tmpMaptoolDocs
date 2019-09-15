@@ -43,7 +43,7 @@ setTokenGMName - MapToolDoc
          .. container:: template_deprecated
 
              Note: This function has been deprecated. Refer to
-            `setGMName() </rptools/wiki/setGMName>`__ for current
+            `setGMName() <setGMName>`__ for current
             functionality.
 
          .. rubric:: setTokenGMName() Function
@@ -52,7 +52,7 @@ setTokenGMName - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 

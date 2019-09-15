@@ -66,8 +66,8 @@ getImage - MapToolDoc
 
             Returns the `asset
             id </maptool/index.php?title=asset_id&action=edit&redlink=1>`__
-            for the image of a `Token </rptools/wiki/Token>`__ or `Image
-            Token </rptools/wiki/Image_Token>`__.
+            for the image of a `Token <Token>`__ or `Image
+            Token <Image_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -99,7 +99,7 @@ getImage - MapToolDoc
          .. container:: template_example
 
             To display the image from an `image
-            token </rptools/wiki/Token:image_token>`__ called
+            token <Token:image_token>`__ called
             ``image:Map`` you can do the following:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -125,7 +125,7 @@ getImage - MapToolDoc
 
          .. container:: template_also
 
-            `getTokenImage </rptools/wiki/getTokenImage>`__ (which you
+            `getTokenImage <getTokenImage>`__ (which you
             can give the size as parameter)
 
       .. container:: printfooter

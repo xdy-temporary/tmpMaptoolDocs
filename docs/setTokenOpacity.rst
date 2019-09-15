@@ -86,7 +86,7 @@ setTokenOpacity - MapToolDoc
             (completely transparent) to 100 (completely opaque).
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to retrieve the opacity, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
          -  ``mapname`` - OPTIONAL: The name of the map to find the
             token. Defaults to the current map.
 

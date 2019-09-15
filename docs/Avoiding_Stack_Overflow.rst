@@ -153,7 +153,7 @@ Avoiding Stack Overflow - MapToolDoc
          much to use?" And that depends on how you start MapTool.
 
          See `Stack Size#Configuring memory allocation for
-         MapTool </rptools/wiki/Stack_Size#Configuring_memory_allocation_for_MapTool>`__
+         MapTool <Stack_Size#Configuring_memory_allocation_for_MapTool>`__
          for details.
 
          .. rubric:: Outlook for Future Versions of MapTool
@@ -184,7 +184,7 @@ Avoiding Stack Overflow - MapToolDoc
             content of properties are not subject to the parser line
             normal macro text is. Lib tokens work well for this. A table
             might work as well if your data is read-only.
-         #. Use `strformat() </rptools/wiki/strformat>`__ to create your
+         #. Use `strformat() <strformat>`__ to create your
             HTML, preferably with the format string stored in a token
             property. (See above.)
          #. If you get stack issues **it's better to reorganize your

@@ -62,7 +62,7 @@ log.setLevel - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -122,7 +122,7 @@ log.setLevel - MapToolDoc
                         WARN
 
             Get a list of loggers and then, using
-            `input() </rptools/wiki/input>`__, select a logging level
+            `input() <input>`__, select a logging level
             for it.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -186,8 +186,8 @@ log.setLevel - MapToolDoc
 
          .. container:: template_also
 
-            `log.getLoggers() </rptools/wiki/log.getLoggers>`__
-             `Available Loggers </rptools/wiki/Available_Loggers>`__
+            `log.getLoggers() <log.getLoggers>`__
+             `Available Loggers <Available_Loggers>`__
 
       .. container:: printfooter
 

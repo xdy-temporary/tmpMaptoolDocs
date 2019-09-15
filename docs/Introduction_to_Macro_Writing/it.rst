@@ -42,7 +42,7 @@ termine nella chat. Per esempio
    mostrata nella chat
 
 nota che ci sono molte `Roll
-Opzioni <http://lmwcs.com/rptools/wiki/Category:Roll_Option>`__
+Opzioni <http://lmwcs.comCategory:Roll_Option>`__
 
 Una **funzione** è qualcosa che RESTITUISCE un valore risultato, quindi
 avete un valore iniziale e usate una funzione SU di esso e quello che
@@ -60,7 +60,7 @@ Esempio:
    restituito).
 
 Ecco una panoramica di tutte le
-`Funzioni <http://lmwcs.com/rptools/wiki/Category:Macro_Function>`__
+`Funzioni <http://lmwcs.comCategory:Macro_Function>`__
 
 **Da questo momento voi avete SEMPRE:**
 

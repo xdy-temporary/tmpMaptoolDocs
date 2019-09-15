@@ -137,9 +137,9 @@ for (roll option) - MapToolDoc
          .. rubric:: See Also
             :name: see-also
 
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__,
+         `[foreach():] <foreach_(roll_option)>`__,
          `Introduction to Macro
-         Loops </rptools/wiki/Introduction_to_Macro_Loops>`__
+         Loops <Introduction_to_Macro_Loops>`__
 
          .. rubric:: Version Changes
             :name: version-changes

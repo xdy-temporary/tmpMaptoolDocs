@@ -73,7 +73,7 @@ File:Macro-editor-basiccommands.png - MapToolDoc
             ======= ============================================================================= ================================================= ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                                     Thumbnail                                         Dimensions        User                                                                                                                                                                   Comment
             ======= ============================================================================= ================================================= ================= ====================================================================================================================================================================== =======
-            current `22:50, 4 April 2009 </maptool/images/6/6b/Macro-editor-basiccommands.png>`__ |Thumbnail for version as of 22:50, 4 April 2009| 700 × 483 (63 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `22:50, 4 April 2009 </maptool/images/6/6b/Macro-editor-basiccommands.png>`__ |Thumbnail for version as of 22:50, 4 April 2009| 700 × 483 (63 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= ============================================================================= ================================================= ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,17 +87,17 @@ File:Macro-editor-basiccommands.png - MapToolDoc
             The following 6 pages link to this file:
 
             -  `Introduction to Macro
-               Writing </rptools/wiki/Introduction_to_Macro_Writing>`__
+               Writing <Introduction_to_Macro_Writing>`__
             -  `Introduction to Macro
-               Writing/Ko </rptools/wiki/Introduction_to_Macro_Writing/Ko>`__
+               Writing/Ko <Introduction_to_Macro_Writing/Ko>`__
             -  `Introduction to Macro
-               Writing/fr </rptools/wiki/Introduction_to_Macro_Writing/fr>`__
+               Writing/fr <Introduction_to_Macro_Writing/fr>`__
             -  `Introduction to Macro
-               Writing/it </rptools/wiki/Introduction_to_Macro_Writing/it>`__
+               Writing/it <Introduction_to_Macro_Writing/it>`__
             -  `Introduction to Macro
-               Writing/ja </rptools/wiki/Introduction_to_Macro_Writing/ja>`__
+               Writing/ja <Introduction_to_Macro_Writing/ja>`__
             -  `Introduction to Macro
-               Writing/ko </rptools/wiki/Introduction_to_Macro_Writing/ko>`__
+               Writing/ko <Introduction_to_Macro_Writing/ko>`__
 
       .. container:: printfooter
 

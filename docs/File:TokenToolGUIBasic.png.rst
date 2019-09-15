@@ -80,7 +80,7 @@ File:TokenToolGUIBasic.png - MapToolDoc
             ======= ======================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =================
             \       Date/Time                                                                Thumbnail                                             Dimensions         User                                                                                                                                                                                                                                 Comment
             ======= ======================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =================
-            current `19:38, 11 February 2019 </maptool/images/6/60/TokenToolGUIBasic.png>`__ |Thumbnail for version as of 19:38, 11 February 2019| 840 × 774 (169 KB) `Phergus </maptool/index.php?title=User:Phergus&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Phergus&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Phergus>`__\ \ ) Labeled gui image
+            current `19:38, 11 February 2019 </maptool/images/6/60/TokenToolGUIBasic.png>`__ |Thumbnail for version as of 19:38, 11 February 2019| 840 × 774 (169 KB) `Phergus </maptool/index.php?title=User:Phergus&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Phergus&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Phergus>`__\ \ ) Labeled gui image
             ======= ======================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =================
 
          -  You cannot overwrite this file.
@@ -94,7 +94,7 @@ File:TokenToolGUIBasic.png - MapToolDoc
             The following page links to this file:
 
             -  `TokenTool
-               QuickStart </rptools/wiki/TokenTool_QuickStart>`__
+               QuickStart <TokenTool_QuickStart>`__
 
          .. rubric:: Metadata
             :name: metadata

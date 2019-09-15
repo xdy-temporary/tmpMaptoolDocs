@@ -95,14 +95,14 @@ if (roll option) - MapToolDoc
          -  ``true_body`` - The roll that is executed if the
             ``condition`` evaluates to ``true``\ (``1``). To use complex
             rolls in the ``true_body``, you must use the
-            `[code():] </rptools/wiki/code_(roll_option)>`__ roll option
+            `[code():] <code_(roll_option)>`__ roll option
             in conjunction with this roll option.
          -  ``false_body`` - The roll that is executed if the
             ``condition`` evaluates to ``false``\ (``0``). If no
             ``false_body`` is given, there is no output if the
             ``condition`` evaluates to ``false``\ (``0``). To use
             complex rolls in the ``false_body``, you must use the
-            `[code():] </rptools/wiki/code_(roll_option)>`__ roll option
+            `[code():] <code_(roll_option)>`__ roll option
             in conjunction with this roll option.
 
          | **Operators**
@@ -254,11 +254,11 @@ if (roll option) - MapToolDoc
          .. rubric:: See Also
             :name: see-also
 
-         `if() </rptools/wiki/if>`__,
-         `isNumber() </rptools/wiki/isNumber>`__,
-         `[code():] </rptools/wiki/code_(roll_option)>`__, `Introduction
+         `if() <if>`__,
+         `isNumber() <isNumber>`__,
+         `[code():] <code_(roll_option)>`__, `Introduction
          to Macro
-         Branching </rptools/wiki/Introduction_to_Macro_Branching>`__
+         Branching <Introduction_to_Macro_Branching>`__
 
       .. container:: printfooter
 

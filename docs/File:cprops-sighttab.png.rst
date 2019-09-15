@@ -78,7 +78,7 @@ File:cprops-sighttab.png - MapToolDoc
             ======= ================================================================= ================================================ ================= ====================================================================================================================================================================== ========================================
             \       Date/Time                                                         Thumbnail                                        Dimensions        User                                                                                                                                                                   Comment
             ======= ================================================================= ================================================ ================= ====================================================================================================================================================================== ========================================
-            current `18:28, 7 July 2009 </maptool/images/f/fa/cprops-sighttab.png>`__ |Thumbnail for version as of 18:28, 7 July 2009| 635 × 605 (33 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Sight Tab in Campaign Properties dialog.
+            current `18:28, 7 July 2009 </maptool/images/f/fa/cprops-sighttab.png>`__ |Thumbnail for version as of 18:28, 7 July 2009| 635 × 605 (33 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Sight Tab in Campaign Properties dialog.
             ======= ================================================================= ================================================ ================= ====================================================================================================================================================================== ========================================
 
          -  You cannot overwrite this file.
@@ -92,13 +92,13 @@ File:cprops-sighttab.png - MapToolDoc
             The following 4 pages link to this file:
 
             -  `Introduction to Lights and
-               Sights </rptools/wiki/Introduction_to_Lights_and_Sights>`__
+               Sights <Introduction_to_Lights_and_Sights>`__
             -  `Introduction to Lights and
-               Sights/es </rptools/wiki/Introduction_to_Lights_and_Sights/es>`__
+               Sights/es <Introduction_to_Lights_and_Sights/es>`__
             -  `Introduction to Lights and
-               Sights/fr </rptools/wiki/Introduction_to_Lights_and_Sights/fr>`__
+               Sights/fr <Introduction_to_Lights_and_Sights/fr>`__
             -  `Introduction to Lights and
-               Sights/ja </rptools/wiki/Introduction_to_Lights_and_Sights/ja>`__
+               Sights/ja <Introduction_to_Lights_and_Sights/ja>`__
 
       .. container:: printfooter
 

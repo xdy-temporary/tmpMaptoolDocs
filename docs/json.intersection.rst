@@ -65,15 +65,15 @@ json.intersection - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `JSON Array </rptools/wiki/JSON_Array>`__ with the
+            Returns a `JSON Array <JSON_Array>`__ with the
             intersection of all of the `JSON
-            Object </rptools/wiki/JSON_Object>`__ keys or `JSON
-            Array </rptools/wiki/JSON_Array>`__ values. A value or key
+            Object <JSON_Object>`__ keys or `JSON
+            Array <JSON_Array>`__ values. A value or key
             only appears in the output if it exists in all input arrays
             or objects. This function is useful for removing Token IDs
             from a saved list which have been deleted from the map by
             eliminating them using this function, the saved array and
-            `getTokens() </rptools/wiki/getTokens>`__.
+            `getTokens() <getTokens>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -96,9 +96,9 @@ json.intersection - MapToolDoc
 
          **Parameters**
 
-         -  ``array`` - A `JSON Array </rptools/wiki/JSON_Array>`__ used
+         -  ``array`` - A `JSON Array <JSON_Array>`__ used
             in the intersection.
-         -  ``object`` - A `JSON Object </rptools/wiki/JSON_Object>`__
+         -  ``object`` - A `JSON Object <JSON_Object>`__
             used in the intersection.
 
          .. rubric:: Examples
@@ -162,7 +162,7 @@ json.intersection - MapToolDoc
 
          .. container:: template_also
 
-            `json.difference() </rptools/wiki/json.difference>`__
+            `json.difference() <json.difference>`__
 
       .. container:: printfooter
 

@@ -72,9 +72,9 @@ getOwners - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `String List </rptools/wiki/String_List>`__ or
-            `JSON Array </rptools/wiki/JSON_Array>`__ containing the
-            names of the owners of a `Token </rptools/wiki/Token>`__.
+            Returns a `String List <String_List>`__ or
+            `JSON Array <JSON_Array>`__ containing the
+            names of the owners of a `Token <Token>`__.
             The type of the value returned depends on the delimiter
             parameter.
 
@@ -104,18 +104,18 @@ getOwners - MapToolDoc
          **Parameters**
 
          -  ``delim`` - The delimiter used to separate the values in the
-            `String List </rptools/wiki/String_List>`__, defaults to
+            `String List <String_List>`__, defaults to
             ``","``. If set to ``"json"``, this function will return a
-            `JSON Array </rptools/wiki/JSON_Array>`__ instead of a
-            `String List </rptools/wiki/String_List>`__.
+            `JSON Array <JSON_Array>`__ instead of a
+            `String List <String_List>`__.
          -  ``id`` - The token ``id`` of the token which has its owners
             returned, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -127,7 +127,7 @@ getOwners - MapToolDoc
 
             To display the
             `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
-            of the `Current Token </rptools/wiki/Current_Token>`__ use.
+            of the `Current Token <Current_Token>`__ use.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -146,8 +146,8 @@ getOwners - MapToolDoc
 
          .. container:: template_also
 
-            `isOwnedByAll() </rptools/wiki/isOwnedByAll>`__,
-            `isOwner() </rptools/wiki/isOwner>`__
+            `isOwnedByAll() <isOwnedByAll>`__,
+            `isOwner() <isOwner>`__
 
          .. rubric:: Version Changes
             :name: version-changes

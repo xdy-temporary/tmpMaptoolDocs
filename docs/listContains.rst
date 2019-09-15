@@ -66,7 +66,7 @@ listContains - MapToolDoc
          .. container:: template_description
 
             Returns the number of occurrences of a value in a `String
-            List </rptools/wiki/String_List>`__.
+            List <String_List>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -85,12 +85,12 @@ listContains - MapToolDoc
 
          **Parameters**
 
-         -  ``list`` - The `String List </rptools/wiki/String_List>`__
+         -  ``list`` - The `String List <String_List>`__
             that is checked for occurrences of the ``value``.
          -  ``value`` - The value to search the `String
-            List </rptools/wiki/String_List>`__ for occurrences.
+            List <String_List>`__ for occurrences.
          -  ``delim`` - The delimiter that separates the values in the
-            `String List </rptools/wiki/String_List>`__; defaults to
+            `String List <String_List>`__; defaults to
             ``","``.
 
          .. rubric:: Examples
@@ -127,7 +127,7 @@ listContains - MapToolDoc
 
          .. container:: template_also
 
-            `listFind() </rptools/wiki/listFind>`__
+            `listFind() <listFind>`__
 
       .. container:: printfooter
 

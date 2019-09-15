@@ -46,11 +46,11 @@ getCurrentInitiative - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_description
 
-            Gets the offset of the `token </rptools/wiki/Token:token>`__
+            Gets the offset of the `token <Token:token>`__
             in the `initiative
             panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__
             that has the

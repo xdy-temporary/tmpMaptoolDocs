@@ -50,7 +50,7 @@ isTrusted - MapToolDoc
          .. container:: template_description
 
             Returns 1 if this is running as a `trusted
-            macro </rptools/wiki/Macros:TrustedMacros>`__ or 0 if it is
+            macro <Macros:TrustedMacros>`__ or 0 if it is
             not.
 
          .. rubric:: Usage

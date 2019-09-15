@@ -61,28 +61,28 @@ Category:Frame Function - MapToolDoc
                   .. rubric:: C
                      :name: c
 
-                  -  `closeFrame </rptools/wiki/closeFrame>`__
+                  -  `closeFrame <closeFrame>`__
 
                   .. rubric:: F
                      :name: f
 
                   -  `frame (roll
-                     option) </rptools/wiki/frame_(roll_option)>`__
+                     option) <frame_(roll_option)>`__
 
                   .. rubric:: G
                      :name: g
 
-                  -  `getFrameProperties </rptools/wiki/getFrameProperties>`__
+                  -  `getFrameProperties <getFrameProperties>`__
 
                   .. rubric:: I
                      :name: i
 
-                  -  `isFrameVisible </rptools/wiki/isFrameVisible>`__
+                  -  `isFrameVisible <isFrameVisible>`__
 
                   .. rubric:: R
                      :name: r
 
-                  -  `resetFrame </rptools/wiki/resetFrame>`__
+                  -  `resetFrame <resetFrame>`__
 
       .. container:: printfooter
 

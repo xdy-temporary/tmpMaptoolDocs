@@ -44,10 +44,10 @@ Token Property Type - MapToolDoc
          :name: mw-content-text
 
          Token property type is the designation given for a particular
-         `token property </rptools/wiki/Token:token_property>`__ set
+         `token property <Token:token_property>`__ set
          that has been established for a particular campaign. When used
          in a `macro
-         function </rptools/wiki/Macros:Functions:list_of_functions>`__,
+         function <Macros:Functions:list_of_functions>`__,
          the type must be enclosed in quotes.
 
          By default, MapTool provides a token property set called

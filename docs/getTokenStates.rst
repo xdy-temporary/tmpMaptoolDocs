@@ -66,8 +66,8 @@ getTokenStates - MapToolDoc
          .. container:: template_description
 
             Returns the valid states in the campaign settings in either
-            a `String List </rptools/wiki/String_List>`__ or `JSON
-            Array </rptools/wiki/JSON_Array>`__.
+            a `String List <String_List>`__ or `JSON
+            Array <JSON_Array>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -110,8 +110,8 @@ getTokenStates - MapToolDoc
 
          .. container:: template_example
 
-            To get a `String List </rptools/wiki/String_List>`__ of the
-            valid `Token States </rptools/wiki/Token_State>`__ in the
+            To get a `String List <String_List>`__ of the
+            valid `Token States <Token_State>`__ in the
             campaign.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -122,8 +122,8 @@ getTokenStates - MapToolDoc
 
                         [h: states = getTokenStates()]
 
-            To get a `JSON Array </rptools/wiki/JSON_Array>`__ of the
-            valid `Token States </rptools/wiki/Token_State>`__ in the
+            To get a `JSON Array <JSON_Array>`__ of the
+            valid `Token States <Token_State>`__ in the
             campaign.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -134,8 +134,8 @@ getTokenStates - MapToolDoc
 
                         [h: states = getTokenStates("json")]
 
-            To get a `JSON Array </rptools/wiki/JSON_Array>`__ of the
-            valid `Token States </rptools/wiki/Token_State>`__ in the
+            To get a `JSON Array <JSON_Array>`__ of the
+            valid `Token States <Token_State>`__ in the
             *Damage* group in the campaign in 1.3b55 or later.
 
             .. container:: mw-geshi mw-code mw-content-ltr

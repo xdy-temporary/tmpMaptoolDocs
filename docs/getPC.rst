@@ -62,7 +62,7 @@ getPC - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -78,12 +78,12 @@ getPC - MapToolDoc
             parameter.
 
             -  If the delimiter is not specified then a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the default value of ``","`` is used.
             -  If the delimiter ``json`` then a `JSON
-               Array </rptools/wiki/JSON_Array>`__ is returned.
+               Array <JSON_Array>`__ is returned.
             -  Otherwise a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the delimiter passed in.
 
              
@@ -104,7 +104,7 @@ getPC - MapToolDoc
                      getPC(delim)
 
          ``delim`` is the delimiter used to separate the values in the
-         `string list </rptools/wiki/Macros:string_list>`__ which
+         `string list <Macros:string_list>`__ which
          defaults to ``","`` if not specified.
 
          .. rubric:: Example
@@ -135,7 +135,7 @@ getPC - MapToolDoc
 
          .. container:: template_also
 
-            `[foreach():] </rptools/wiki/foreach_(roll_option)>`__
+            `[foreach():] <foreach_(roll_option)>`__
 
          .. rubric:: Version Changes
             :name: version-changes

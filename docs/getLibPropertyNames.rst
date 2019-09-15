@@ -49,11 +49,11 @@ getLibPropertyNames - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `String List </rptools/wiki/String_List>`__ or
-            `JSON Array </rptools/wiki/JSON_Array>`__ containing the
+            Returns a `String List <String_List>`__ or
+            `JSON Array <JSON_Array>`__ containing the
             names of the `Token
-            Properties </rptools/wiki/Token_Property>`__ on a `Library
-            Token </rptools/wiki/Library_Token>`__. The type of the
+            Properties <Token_Property>`__ on a `Library
+            Token <Library_Token>`__. The type of the
             value returned depends on the delimiter parameter.
             | 
 
@@ -71,7 +71,7 @@ getLibPropertyNames - MapToolDoc
                token's properties when you double click on a token). To
                get only properties that are currently visible and
                editable, use
-               `getAllPropertyNames() </rptools/wiki/getAllPropertyNames>`__.
+               `getAllPropertyNames() <getAllPropertyNames>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -103,19 +103,19 @@ getLibPropertyNames - MapToolDoc
          **Parameters**
 
          -  ``delim`` - The delimiter used to separate the values in the
-            `String List </rptools/wiki/String_List>`__, defaults to
-            ``","``. Returns a `JSON Array </rptools/wiki/JSON_Array>`__
+            `String List <String_List>`__, defaults to
+            ``","``. Returns a `JSON Array <JSON_Array>`__
             if set to ``"json"``.
          -  ``id`` - The token ``id`` of the token which has its
             property names returned, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__. This parameter may
+            Token <Current_Token>`__. This parameter may
             be ``*`` or ``this`` to indicate the current Lib token that
             this macro is executing on.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          .. rubric:: Example
             :name: example

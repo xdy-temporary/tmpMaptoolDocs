@@ -77,7 +77,7 @@ File:prefs tab sounds.png - MapToolDoc
             ======= =================================================================== ================================================= ================= =================================================================================================================================================================================================================== =======
             \       Date/Time                                                           Thumbnail                                         Dimensions        User                                                                                                                                                                                                                Comment
             ======= =================================================================== ================================================= ================= =================================================================================================================================================================================================================== =======
-            current `20:03, 2 April 2009 </maptool/images/4/46/prefs_tab_sounds.png>`__ |Thumbnail for version as of 20:03, 2 April 2009| 856 × 473 (12 KB) `Verisimilar </rptools/wiki/User:Verisimilar>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Verisimilar&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Verisimilar>`__\ \ )
+            current `20:03, 2 April 2009 </maptool/images/4/46/prefs_tab_sounds.png>`__ |Thumbnail for version as of 20:03, 2 April 2009| 856 × 473 (12 KB) `Verisimilar <User:Verisimilar>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Verisimilar&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Verisimilar>`__\ \ )
             ======= =================================================================== ================================================= ================= =================================================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -91,13 +91,13 @@ File:prefs tab sounds.png - MapToolDoc
             The following 4 pages link to this file:
 
             -  `MapTool
-               Preferences </rptools/wiki/MapTool_Preferences>`__
+               Preferences <MapTool_Preferences>`__
             -  `MapTool
-               Preferences/fr </rptools/wiki/MapTool_Preferences/fr>`__
+               Preferences/fr <MapTool_Preferences/fr>`__
             -  `MapTool
-               Preferences/it </rptools/wiki/MapTool_Preferences/it>`__
+               Preferences/it <MapTool_Preferences/it>`__
             -  `MapTool
-               Preferences/ja </rptools/wiki/MapTool_Preferences/ja>`__
+               Preferences/ja <MapTool_Preferences/ja>`__
 
       .. container:: printfooter
 

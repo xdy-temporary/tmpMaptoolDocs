@@ -156,11 +156,11 @@ assert - MapToolDoc
 
          .. container:: template_also
 
-            `isGM() </rptools/wiki/isGM>`__
-            `isNumber() </rptools/wiki/isNumber>`__
-            `abort() </rptools/wiki/abort>`__
+            `isGM() <isGM>`__
+            `isNumber() <isNumber>`__
+            `abort() <abort>`__
 
-            `macro.catchAssert </rptools/wiki/macro.catchAssert>`__
+            `macro.catchAssert <macro.catchAssert>`__
 
          .. rubric:: Version Changes
             :name: version-changes

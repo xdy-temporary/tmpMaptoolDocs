@@ -61,15 +61,15 @@ Category:Loop and Recursion limits - MapToolDoc
                   .. rubric:: G
                      :name: g
 
-                  -  `getMaxLoopIterations </rptools/wiki/getMaxLoopIterations>`__
-                  -  `getMaxRecursionDepth </rptools/wiki/getMaxRecursionDepth>`__
-                  -  `getRecursionDepth </rptools/wiki/getRecursionDepth>`__
+                  -  `getMaxLoopIterations <getMaxLoopIterations>`__
+                  -  `getMaxRecursionDepth <getMaxRecursionDepth>`__
+                  -  `getRecursionDepth <getRecursionDepth>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `setMaxLoopIterations </rptools/wiki/setMaxLoopIterations>`__
-                  -  `setMaxRecursionDepth </rptools/wiki/setMaxRecursionDepth>`__
+                  -  `setMaxLoopIterations <setMaxLoopIterations>`__
+                  -  `setMaxRecursionDepth <setMaxRecursionDepth>`__
 
       .. container:: printfooter
 

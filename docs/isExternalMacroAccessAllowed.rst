@@ -53,7 +53,7 @@ isExternalMacroAccessAllowed - MapToolDoc
             allow external macro access (see **Allow External Macro
             Access** in MapTool Preferences). When enabled, this allows
             the use of other macro functions such as
-            `exportData() </rptools/wiki/exportData>`__.
+            `exportData() <exportData>`__.
 
          .. rubric:: Usage
             :name: usage

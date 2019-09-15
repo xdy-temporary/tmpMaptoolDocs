@@ -91,7 +91,7 @@ getTableNames - MapToolDoc
          values in the list; if it is not specified then it defaults to
          "``,``". When ``delim`` is the string "``json``" the return
          value will be in the form of a `JSON
-         Array </rptools/wiki/JSON_Array>`__.
+         Array <JSON_Array>`__.
 
          .. rubric:: Examples
             :name: examples
@@ -120,7 +120,7 @@ getTableNames - MapToolDoc
          .. container:: template_also
 
             `Table </maptool/index.php?title=Table&action=edit&redlink=1>`__,
-            `table() </rptools/wiki/table_(function)>`__
+            `table() <table_(function)>`__
 
       .. container:: printfooter
 

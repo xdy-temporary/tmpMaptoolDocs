@@ -53,7 +53,7 @@ count (roll option) - MapToolDoc
          The COUNT option executes a statement for a specified number of
          times, storing the number of the current iteration in a
          variable called
-         `roll.count </rptools/wiki/Macros:Special_Variables:roll.count>`__.
+         `roll.count <Macros:Special_Variables:roll.count>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -70,7 +70,7 @@ count (roll option) - MapToolDoc
 
                      [COUNT(num, separator): body]
 
-         The `roll.count </rptools/wiki/roll.count>`__ variable will
+         The `roll.count <roll.count>`__ variable will
          take on values from ``0`` to (``number of loops - 1``). The
          optional separator (default ``","``) is printed between each
          iteration. Some examples of other useful separators: *nothing*

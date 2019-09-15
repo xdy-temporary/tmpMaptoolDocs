@@ -65,24 +65,24 @@ Category:Clarify - MapToolDoc
                   .. rubric:: G
                      :name: g
 
-                  -  `getImage </rptools/wiki/getImage>`__
+                  -  `getImage <getImage>`__
 
                   .. rubric:: N
                      :name: n
 
                   -  `Network Connection Problems and
-                     Solutions </rptools/wiki/Network_Connection_Problems_and_Solutions>`__
+                     Solutions <Network_Connection_Problems_and_Solutions>`__
 
                   .. rubric:: T
                      :name: t
 
-                  -  `Token Size </rptools/wiki/Token_Size>`__
+                  -  `Token Size <Token_Size>`__
 
                   .. rubric:: W
                      :name: w
 
                   -  `Working With Two CODE
-                     Levels </rptools/wiki/Working_With_Two_CODE_Levels>`__
+                     Levels <Working_With_Two_CODE_Levels>`__
 
       .. container:: printfooter
 

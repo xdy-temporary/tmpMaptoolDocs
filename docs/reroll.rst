@@ -61,7 +61,7 @@ reroll - MapToolDoc
          .. container:: template_description
 
             Generates random numbers to emulate dice rolls; returns a
-            dice roll similar to `roll() </rptools/wiki/roll>`__ with
+            dice roll similar to `roll() <roll>`__ with
             the difference being that each dice rolled that is lower
             than the ``minimum`` parameter is rerolled until it is at
             least the ``minimum``.
@@ -133,7 +133,7 @@ reroll - MapToolDoc
          .. container:: template_also
 
             For another method of rolling dice, see `Dice
-            Expressions </rptools/wiki/Dice_Expressions>`__.
+            Expressions <Dice_Expressions>`__.
 
       .. container:: printfooter
 

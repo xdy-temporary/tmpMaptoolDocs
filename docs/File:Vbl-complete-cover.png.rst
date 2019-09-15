@@ -80,7 +80,7 @@ File:Vbl-complete-cover.png - MapToolDoc
             ======= ==================================================================== ================================================ ==================== ====================================================================================================================================================================== ==================================
             \       Date/Time                                                            Thumbnail                                        Dimensions           User                                                                                                                                                                   Comment
             ======= ==================================================================== ================================================ ==================== ====================================================================================================================================================================== ==================================
-            current `15:49, 7 July 2009 </maptool/images/c/c7/Vbl-complete-cover.png>`__ |Thumbnail for version as of 15:49, 7 July 2009| 1,001 × 745 (486 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Dungeon completely covered by VBL.
+            current `15:49, 7 July 2009 </maptool/images/c/c7/Vbl-complete-cover.png>`__ |Thumbnail for version as of 15:49, 7 July 2009| 1,001 × 745 (486 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Dungeon completely covered by VBL.
             ======= ==================================================================== ================================================ ==================== ====================================================================================================================================================================== ==================================
 
          -  You cannot overwrite this file.
@@ -94,13 +94,13 @@ File:Vbl-complete-cover.png - MapToolDoc
             The following 4 pages link to this file:
 
             -  `Introduction to Vision
-               Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
+               Blocking <Introduction_to_Vision_Blocking>`__
             -  `Introduction to Vision
-               Blocking/es </rptools/wiki/Introduction_to_Vision_Blocking/es>`__
+               Blocking/es <Introduction_to_Vision_Blocking/es>`__
             -  `Introduction to Vision
-               Blocking/fr </rptools/wiki/Introduction_to_Vision_Blocking/fr>`__
+               Blocking/fr <Introduction_to_Vision_Blocking/fr>`__
             -  `Introduction to Vision
-               Blocking/ja </rptools/wiki/Introduction_to_Vision_Blocking/ja>`__
+               Blocking/ja <Introduction_to_Vision_Blocking/ja>`__
 
       .. container:: printfooter
 

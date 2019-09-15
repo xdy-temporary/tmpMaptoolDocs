@@ -75,7 +75,7 @@ File:ExampleToken.png - MapToolDoc
             ======= =================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =============================================
             \       Date/Time                                                           Thumbnail                                             Dimensions         User                                                                                                                                                                                                                                 Comment
             ======= =================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =============================================
-            current `20:39, 11 February 2019 </maptool/images/1/14/ExampleToken.png>`__ |Thumbnail for version as of 20:39, 11 February 2019| 256 × 256 (144 KB) `Phergus </maptool/index.php?title=User:Phergus&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Phergus&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Phergus>`__\ \ ) Example token for TokenTool QuickStart Guide.
+            current `20:39, 11 February 2019 </maptool/images/1/14/ExampleToken.png>`__ |Thumbnail for version as of 20:39, 11 February 2019| 256 × 256 (144 KB) `Phergus </maptool/index.php?title=User:Phergus&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Phergus&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Phergus>`__\ \ ) Example token for TokenTool QuickStart Guide.
             ======= =================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =============================================
 
          -  You cannot overwrite this file.
@@ -89,7 +89,7 @@ File:ExampleToken.png - MapToolDoc
             The following page links to this file:
 
             -  `TokenTool
-               QuickStart </rptools/wiki/TokenTool_QuickStart>`__
+               QuickStart <TokenTool_QuickStart>`__
 
       .. container:: printfooter
 

@@ -113,7 +113,7 @@ Calling macros - MapToolDoc
 
          This is the most straight forward way to call a macro. When
          using the roll option
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__, you must
+         `[macro():] <macro_(roll_option)>`__, you must
          specify the location of the macro being called and give a
          single argument. Note that this argument must always be
          specified, even if you do not need it. In such cases, it is
@@ -121,17 +121,17 @@ Calling macros - MapToolDoc
 
          This argument can be accessed inside the called macro via the
          special variable called
-         `macro.args </rptools/wiki/macro.args>`__.
+         `macro.args <macro.args>`__.
 
          All of the called macro's output will be inserted into the
          calling macro at the point in the code where the
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__ roll option
+         `[macro():] <macro_(roll_option)>`__ roll option
          is placed. This output usually goes into the chat output.
          However, you can choose to instead assign the returned value to
-         the variable `macro.return </rptools/wiki/macro.return>`__.
+         the variable `macro.return <macro.return>`__.
 
          Once the called macro is processed, the
-         `macro.return </rptools/wiki/macro.return>`__ variable can be
+         `macro.return <macro.return>`__ variable can be
          used in the calling macro in a function call.
 
          .. rubric:: Example
@@ -209,18 +209,18 @@ Calling macros - MapToolDoc
          output to chat.
 
          In the called macro, the arguments are inside the
-         `macro.args </rptools/wiki/macro.args>`__ variable, formatted
+         `macro.args <macro.args>`__ variable, formatted
          as a JSON array. You can use
-         `argCount() </rptools/wiki/argCount>`__ and
-         `arg() </rptools/wiki/arg>`__ for easy access.
+         `argCount() <argCount>`__ and
+         `arg() <arg>`__ for easy access.
 
          To set up a UDF you have to call
-         `defineFunction() </rptools/wiki/defineFunction>`__ on every
+         `defineFunction() <defineFunction>`__ on every
          client where the function will be used. This can be done
          automatically by placing all the
-         `defineFunction() </rptools/wiki/defineFunction>`__ calls
+         `defineFunction() <defineFunction>`__ calls
          inside the special macro
-         `onCampaignLoad </rptools/wiki/onCampaignLoad>`__ on a library
+         `onCampaignLoad <onCampaignLoad>`__ on a library
          token. This is the standard practice. It is executed whenever
          the campaign file is loaded by MT (whether from a server or
          from file).
@@ -274,7 +274,7 @@ Calling macros - MapToolDoc
             :name: create-udfs-automatically
 
          You can write a macro that scans your
-         `Lib:token </rptools/wiki/Library_Token>`__ macros and converts
+         `Lib:token <Library_Token>`__ macros and converts
          them all into user defined functions. This is a nice,
          convenient little trick that's done here (`see forum
          post <http://forums.rptools.net/viewtopic.php?f=20&t=19856#p209019m>`__),
@@ -293,8 +293,8 @@ Calling macros - MapToolDoc
          token in context and where the output should be sent can all be
          specified precisely when you create the macro link.
 
-         See also `macroLink() </rptools/wiki/macroLink>`__,
-         `macroLinkText() </rptools/wiki/macroLinkText>`__.
+         See also `macroLink() <macroLink>`__,
+         `macroLinkText() <macroLinkText>`__.
 
          .. rubric:: Example
             :name: example-2
@@ -358,10 +358,10 @@ Calling macros - MapToolDoc
          often used for small code snippets created dynamically or
          stored on token properties.
 
-         See also `evalMacro() </rptools/wiki/evalMacro>`__,
-         `execMacro() </rptools/wiki/execMacro>`__,
-         `json.evaluate() </rptools/wiki/json.evaluate>`__,
-         `eval() </rptools/wiki/eval>`__. Here, ``evalMacro`` and
+         See also `evalMacro() <evalMacro>`__,
+         `execMacro() <execMacro>`__,
+         `json.evaluate() <json.evaluate>`__,
+         `eval() <eval>`__. Here, ``evalMacro`` and
          ``execMacro`` do exactly the same thing; they are just two
          different names with the same functionality.
 
@@ -447,7 +447,7 @@ Calling macros - MapToolDoc
          variables, thus locally defined variables in one macro are not
          defined in another.
 
-         By using `defineFunction() </rptools/wiki/defineFunction>`__,
+         By using `defineFunction() <defineFunction>`__,
          you can call macros that operate in the same *variable context
          (scope)* as the calling macro -- when you want so.
 

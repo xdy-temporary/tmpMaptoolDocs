@@ -67,7 +67,7 @@ arg - MapToolDoc
             Is used to extract arguments that are passed to a macro when
             called as a user defined function.
             User functions are defined with the
-            `defineFunction() </rptools/wiki/defineFunction>`__
+            `defineFunction() <defineFunction>`__
             function. Once you have defined a function you can call it
             as you would call any of the existing functions, for example
             ``attackRoll(Strength, -1)``. The ``arg()`` function is used
@@ -75,7 +75,7 @@ arg - MapToolDoc
             arguments. The index of the first argument is 0.
 
             | 
-            | The ```argCount()`` </rptools/wiki/argCount>`__ function
+            | The ```argCount()`` <argCount>`__ function
               is often used in conjunction with ``arg()`` to determine
               the number
 
@@ -139,9 +139,9 @@ arg - MapToolDoc
 
          .. container:: template_also
 
-            `defineFunction() </rptools/wiki/defineFunction>`__,
-            `isFunctionDefined() </rptools/wiki/isFunctionDefined>`__,
-            `argCount() </rptools/wiki/argCount>`__
+            `defineFunction() <defineFunction>`__,
+            `isFunctionDefined() <isFunctionDefined>`__,
+            `argCount() <argCount>`__
 
       .. container:: printfooter
 

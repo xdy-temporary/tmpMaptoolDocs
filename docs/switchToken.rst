@@ -46,7 +46,7 @@ switchToken - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -54,18 +54,18 @@ switchToken - MapToolDoc
 
          .. container:: template_description
 
-            Changes the `Current Token </rptools/wiki/Current_Token>`__
+            Changes the `Current Token <Current_Token>`__
             for the remainder of the Macro.
             In practice, "the remainder of the Macro" is the same as the
             variable scope. Thus, if a macro is running as a user
             defined function (see
-            `defineFunction() </rptools/wiki/defineFunction>`__ ) with a
+            `defineFunction() <defineFunction>`__ ) with a
             new scope, switchToken will only apply until the end of the
             current macro. Once control passes back to the calling
-            macro, the `Current Token </rptools/wiki/Current_Token>`__
+            macro, the `Current Token <Current_Token>`__
             reverts back to what it was before the external macro was
             called ( as a function ). If a
-            `defineFunction() </rptools/wiki/defineFunction>`__ does not
+            `defineFunction() <defineFunction>`__ does not
             create a new variable scope for the called macro, then
             effects of switchToken persist when control passes back to
             the calling macro.

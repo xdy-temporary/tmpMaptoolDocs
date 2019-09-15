@@ -75,8 +75,8 @@ resetFrame - MapToolDoc
 
          .. container:: template_also
 
-            `[frame():] </rptools/wiki/frame_(roll_option)>`__,
-            `isFrameVisible() </rptools/wiki/isFrameVisible>`__
+            `[frame():] <frame_(roll_option)>`__,
+            `isFrameVisible() <isFrameVisible>`__
 
       .. container:: printfooter
 

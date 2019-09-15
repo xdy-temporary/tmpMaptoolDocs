@@ -78,7 +78,7 @@ File:samp-dungeon.png - MapToolDoc
             ======= ============================================================== ================================================ ================== ====================================================================================================================================================================== =================================================
             \       Date/Time                                                      Thumbnail                                        Dimensions         User                                                                                                                                                                   Comment
             ======= ============================================================== ================================================ ================== ====================================================================================================================================================================== =================================================
-            current `15:45, 7 July 2009 </maptool/images/0/0d/samp-dungeon.png>`__ |Thumbnail for version as of 15:45, 7 July 2009| 946 × 853 (873 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Sample dungeon for VBL and Sight/Light tutorials.
+            current `15:45, 7 July 2009 </maptool/images/0/0d/samp-dungeon.png>`__ |Thumbnail for version as of 15:45, 7 July 2009| 946 × 853 (873 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Sample dungeon for VBL and Sight/Light tutorials.
             ======= ============================================================== ================================================ ================== ====================================================================================================================================================================== =================================================
 
          -  You cannot overwrite this file.
@@ -92,21 +92,21 @@ File:samp-dungeon.png - MapToolDoc
             The following 8 pages link to this file:
 
             -  `Introduction to Lights and
-               Sights </rptools/wiki/Introduction_to_Lights_and_Sights>`__
+               Sights <Introduction_to_Lights_and_Sights>`__
             -  `Introduction to Lights and
-               Sights/es </rptools/wiki/Introduction_to_Lights_and_Sights/es>`__
+               Sights/es <Introduction_to_Lights_and_Sights/es>`__
             -  `Introduction to Lights and
-               Sights/fr </rptools/wiki/Introduction_to_Lights_and_Sights/fr>`__
+               Sights/fr <Introduction_to_Lights_and_Sights/fr>`__
             -  `Introduction to Lights and
-               Sights/ja </rptools/wiki/Introduction_to_Lights_and_Sights/ja>`__
+               Sights/ja <Introduction_to_Lights_and_Sights/ja>`__
             -  `Introduction to Vision
-               Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
+               Blocking <Introduction_to_Vision_Blocking>`__
             -  `Introduction to Vision
-               Blocking/es </rptools/wiki/Introduction_to_Vision_Blocking/es>`__
+               Blocking/es <Introduction_to_Vision_Blocking/es>`__
             -  `Introduction to Vision
-               Blocking/fr </rptools/wiki/Introduction_to_Vision_Blocking/fr>`__
+               Blocking/fr <Introduction_to_Vision_Blocking/fr>`__
             -  `Introduction to Vision
-               Blocking/ja </rptools/wiki/Introduction_to_Vision_Blocking/ja>`__
+               Blocking/ja <Introduction_to_Vision_Blocking/ja>`__
 
       .. container:: printfooter
 

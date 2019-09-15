@@ -67,7 +67,7 @@ setVisible - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -77,21 +77,21 @@ setVisible - MapToolDoc
 
             Sets the `Visible to
             Players </maptool/index.php?title=Visible_to_Players&action=edit&redlink=1>`__
-            flag on a `Token </rptools/wiki/Token>`__ if the value
+            flag on a `Token <Token>`__ if the value
             passed in is non-zero(\ ``true``\ (``1``)), otherwise resets
             it to ``false``\ (``0``). The `Visible to
             Players </maptool/index.php?title=Visible_to_Players&action=edit&redlink=1>`__
             flag has two meanings, on a normal
-            `Token </rptools/wiki/Token>`__ players will only be able to
-            see the `Token </rptools/wiki/Token>`__ if it is set (when
+            `Token <Token>`__ players will only be able to
+            see the `Token <Token>`__ if it is set (when
             all other things like `Fog of
             War </maptool/index.php?title=Fog_of_War&action=edit&redlink=1>`__
             etc are taken into account). If it is a `Library
-            Token </rptools/wiki/Library_Token>`__ then it determines if
+            Token <Library_Token>`__ then it determines if
             players can call
-            `Category:Macros </rptools/wiki/Category:Macro>`__ using the
+            `Category:Macros <Category:Macro>`__ using the
             `[macro(...):
-            ...] </rptools/wiki/Macros:Branching_and_Looping>`__ roll
+            ...] <Macros:Branching_and_Looping>`__ roll
             option.
 
          .. rubric:: Usage
@@ -119,7 +119,7 @@ setVisible - MapToolDoc
             ``false``\ (``0``).
          -  ``id`` - The token ``id`` of the token which has its player
             visibility set, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          | 
 
@@ -128,7 +128,7 @@ setVisible - MapToolDoc
 
          .. container:: template_also
 
-            `getVisible() </rptools/wiki/getVisible>`__
+            `getVisible() <getVisible>`__
 
          .. rubric:: Version Changes
             :name: version-changes

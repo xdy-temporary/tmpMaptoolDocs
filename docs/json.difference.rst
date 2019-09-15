@@ -72,8 +72,8 @@ json.difference - MapToolDoc
          .. container:: template_description
 
             Returns an array with the differences of all of the `JSON
-            Object </rptools/wiki/JSON_Object>`__ keys, or `JSON
-            Array </rptools/wiki/JSON_Array>`__ values. Output contains
+            Object <JSON_Object>`__ keys, or `JSON
+            Array <JSON_Array>`__ values. Output contains
             keys or values which exist in the first parameter, but do
             not exist in any others.
 
@@ -98,9 +98,9 @@ json.difference - MapToolDoc
 
          **Parameter**
 
-         -  ``array`` - A `JSON Array </rptools/wiki/JSON_Array>`__ to
+         -  ``array`` - A `JSON Array <JSON_Array>`__ to
             get the difference of.
-         -  ``object`` - A `JSON Object </rptools/wiki/JSON_Object>`__
+         -  ``object`` - A `JSON Object <JSON_Object>`__
             to get the difference of.
 
          .. rubric:: Example
@@ -126,10 +126,10 @@ json.difference - MapToolDoc
 
          .. container:: template_also
 
-            `json.union() </rptools/wiki/json.union>`__,
-            `json.merge() </rptools/wiki/json.merge>`__,
+            `json.union() <json.union>`__,
+            `json.merge() <json.merge>`__,
 
-            `json.intersection() </rptools/wiki/json.intersection>`__
+            `json.intersection() <json.intersection>`__
 
       .. container:: printfooter
 

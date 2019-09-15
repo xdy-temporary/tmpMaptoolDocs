@@ -67,19 +67,19 @@ Category:How To - MapToolDoc
                      :name: a
 
                   -  `Automate Updating a Token
-                     Property </rptools/wiki/Automate_Updating_a_Token_Property>`__
+                     Property <Automate_Updating_a_Token_Property>`__
 
                   .. rubric:: M
                      :name: m
 
                   -  `Manipulate a JSON
-                     Property </rptools/wiki/Manipulate_a_JSON_Property>`__
+                     Property <Manipulate_a_JSON_Property>`__
 
                   .. rubric:: S
                      :name: s
 
                   -  `Sorting Nested JSON
-                     Objects </rptools/wiki/Sorting_Nested_JSON_Objects>`__
+                     Objects <Sorting_Nested_JSON_Objects>`__
 
       .. container:: printfooter
 

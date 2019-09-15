@@ -75,8 +75,8 @@ File:Dicebox27.png - MapToolDoc
             ======= ===================================================================================== ================================================= ================== ====================================================================================================================================================================== =============================
             \       Date/Time                                                                             Thumbnail                                         Dimensions         User                                                                                                                                                                   Comment
             ======= ===================================================================================== ================================================= ================== ====================================================================================================================================================================== =============================
-            current `23:54, 27 July 2009 </maptool/images/9/9e/Dicebox27.png>`__                          |Thumbnail for version as of 23:54, 27 July 2009| 253 × 342 (24 KB)  `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
-            \       `22:28, 25 July 2009 </maptool/images/archive/9/9e/20090727235447%21Dicebox27.png>`__ |Thumbnail for version as of 22:28, 25 July 2009| 310 × 439 (146 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Dicebox v. 27 default layout.
+            current `23:54, 27 July 2009 </maptool/images/9/9e/Dicebox27.png>`__                          |Thumbnail for version as of 23:54, 27 July 2009| 253 × 342 (24 KB)  `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
+            \       `22:28, 25 July 2009 </maptool/images/archive/9/9e/20090727235447%21Dicebox27.png>`__ |Thumbnail for version as of 22:28, 25 July 2009| 310 × 439 (146 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Dicebox v. 27 default layout.
             ======= ===================================================================================== ================================================= ================== ====================================================================================================================================================================== =============================
 
          -  You cannot overwrite this file.
@@ -89,8 +89,8 @@ File:Dicebox27.png - MapToolDoc
 
             The following 2 pages link to this file:
 
-            -  `Dice Box </rptools/wiki/Dice_Box>`__
-            -  `Dice Box/ja </rptools/wiki/Dice_Box/ja>`__
+            -  `Dice Box <Dice_Box>`__
+            -  `Dice Box/ja <Dice_Box/ja>`__
 
       .. container:: printfooter
 

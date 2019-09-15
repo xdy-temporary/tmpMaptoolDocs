@@ -73,7 +73,7 @@ File:State-example.jpg - MapToolDoc
             ======= ==================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                            Thumbnail                                             Dimensions        User                                                                                                                                                                   Comment
             ======= ==================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
-            current `17:49, 23 December 2008 </maptool/images/6/64/State-example.jpg>`__ |Thumbnail for version as of 17:49, 23 December 2008| 437 × 315 (32 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `17:49, 23 December 2008 </maptool/images/6/64/State-example.jpg>`__ |Thumbnail for version as of 17:49, 23 December 2008| 437 × 315 (32 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= ==================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,17 +87,17 @@ File:State-example.jpg - MapToolDoc
             The following 7 pages link to this file:
 
             -  `Introduction to
-               Tokens </rptools/wiki/Introduction_to_Tokens>`__
+               Tokens <Introduction_to_Tokens>`__
             -  `Introduction to
-               Tokens/es </rptools/wiki/Introduction_to_Tokens/es>`__
+               Tokens/es <Introduction_to_Tokens/es>`__
             -  `Introduction to
-               Tokens/fr </rptools/wiki/Introduction_to_Tokens/fr>`__
+               Tokens/fr <Introduction_to_Tokens/fr>`__
             -  `Introduction to
-               Tokens/it </rptools/wiki/Introduction_to_Tokens/it>`__
+               Tokens/it <Introduction_to_Tokens/it>`__
             -  `Introduction to
-               Tokens/ja </rptools/wiki/Introduction_to_Tokens/ja>`__
-            -  `Token State </rptools/wiki/Token_State>`__
-            -  `Token State/ja </rptools/wiki/Token_State/ja>`__
+               Tokens/ja <Introduction_to_Tokens/ja>`__
+            -  `Token State <Token_State>`__
+            -  `Token State/ja <Token_State/ja>`__
 
       .. container:: printfooter
 

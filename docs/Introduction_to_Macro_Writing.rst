@@ -43,7 +43,7 @@ Introduction to Macro Writing - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `français </rptools/wiki/Introduction_to_Macro_Writing/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Macro_Writing/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Macro_Writing/ja>`__\  • \ `한국어 </rptools/wiki/Introduction_to_Macro_Writing/ko>`__\ 
+             • \ `français <Introduction_to_Macro_Writing/fr>`__\  • \ `italiano <Introduction_to_Macro_Writing/it>`__\  • \ `日本語 <Introduction_to_Macro_Writing/ja>`__\  • \ `한국어 <Introduction_to_Macro_Writing/ko>`__\ 
 
          .. container:: template_beginner
 
@@ -168,23 +168,23 @@ Introduction to Macro Writing - MapToolDoc
          As with all code, there is a syntax that you need to abide.
          *ALL Maptool script/code lines consist out of 0 or more options
          and 1 function* (with one exception:
-         `[code():] </rptools/wiki/code_(roll_option)>`__).
+         `[code():] <code_(roll_option)>`__).
 
          An **option** is something that influences that which is
          finally shown in the chat. For example
 
-         -  the option `[h:] </rptools/wiki/h_(roll_option)>`__ will
+         -  the option `[h:] <h_(roll_option)>`__ will
             hide the result,
-         -  the option `[r:] </rptools/wiki/r_(roll_option)>`__ will
+         -  the option `[r:] <r_(roll_option)>`__ will
             only show the result and
-         -  the option `[if():] </rptools/wiki/if_(roll_option)>`__;
+         -  the option `[if():] <if_(roll_option)>`__;
             will only show one or the other (depending on true or
             false).
          -  if you give no option, then the entire execution of the
             function is shown in the chat
 
          note that there are many more `Roll
-         Options <http://lmwcs.com/rptools/wiki/Category:Roll_Option>`__
+         Options <http://lmwcs.comCategory:Roll_Option>`__
 
          | 
          | A **function** is something that RETURNS a resulting value so
@@ -192,13 +192,13 @@ Introduction to Macro Writing - MapToolDoc
            and what is returned is the result of that function on that
            value. Examples:
 
-         -  the function `abs() </rptools/wiki/abs>`__ will return a
+         -  the function `abs() <abs>`__ will return a
             positive value (removes the - from any value) so ``abs(-3)``
             will return 3. The initial value is -3 and the result value
             is 3.
-         -  the function `if() </rptools/wiki/if>`__ (indeed there is
-            both an `[if():] </rptools/wiki/if_(roll_option)>`__
-            *option* and an `if() </rptools/wiki/if>`__ *function*) will
+         -  the function `if() <if>`__ (indeed there is
+            both an `[if():] <if_(roll_option)>`__
+            *option* and an `if() <if>`__ *function*) will
             return the first parameter if the value is true (=1) and the
             second parameter if the value is false (=0). So
             ``if(0,"Black", "White")`` will return "White". Note that
@@ -207,7 +207,7 @@ Introduction to Macro Writing - MapToolDoc
             returned).
 
          Here an overview of all
-         `Functions <http://lmwcs.com/rptools/wiki/Category:Macro_Function>`__
+         `Functions <http://lmwcs.comCategory:Macro_Function>`__
 
          **Hence you ALWAYS have:**
 
@@ -306,19 +306,19 @@ Introduction to Macro Writing - MapToolDoc
          know how to do:
 
          #. I assume you've read the `Introduction to
-            Mapping </rptools/wiki/Introduction_to_Mapping>`__, so you
+            Mapping <Introduction_to_Mapping>`__, so you
             are familiar with the MapTool interface, and how to create
             maps, save campaign files, and put tokens on maps.
          #. I assume you've also read the `Introduction to
-            Tokens </rptools/wiki/Introduction_to_Tokens>`__, so you
+            Tokens <Introduction_to_Tokens>`__, so you
             have a basic idea how to manipulate tokens, look at their
             properties, and so forth.
          #. Finally, because macros are usually intimately connected to
             token *properties*, I assume that you have read and followed
             the steps in the `Introduction to
-            Properties </rptools/wiki/Introduction_to_Properties>`__,
+            Properties <Introduction_to_Properties>`__,
             and created a new campaign file based on the `Sample RPG
-            ruleset </rptools/wiki/Sample_Ruleset>`__ created to help
+            ruleset <Sample_Ruleset>`__ created to help
             new users learn about MapTool. If you haven't read that
             guide, please do - it will help some of the examples below
             make a *lot* more sense!
@@ -382,7 +382,7 @@ Introduction to Macro Writing - MapToolDoc
             commands, functions, and operations you can use whenever you
             write macros. You can see a huge array of functions at the
             `List of Macro
-            Functions </rptools/wiki/Category:Macro_Function>`__.
+            Functions <Category:Macro_Function>`__.
 
          Also, although it is possible for one macro to trigger another
          (called "calling" another macro), for this guide, the only
@@ -396,9 +396,9 @@ Introduction to Macro Writing - MapToolDoc
          There's nothing requiring you to use macros at all when you use
          MapTool. Remember, the core purpose of MapTool is to share a
          map with your friends, and play games (read the `Introduction
-         to Mapping </rptools/wiki/Introduction_to_Mapping>`__ and the
+         to Mapping <Introduction_to_Mapping>`__ and the
          `Introduction to Game
-         Hosting </rptools/wiki/Introduction_to_Game_Hosting>`__ to
+         Hosting <Introduction_to_Game_Hosting>`__ to
          learn how to make and share maps with your gaming groups), and
          MapTool gives you everything you need to do that: maps, tokens,
          and a chat system that lets you chat in- and out-of-character,
@@ -424,7 +424,7 @@ Introduction to Macro Writing - MapToolDoc
             :name: token-macros
 
          The first, and most common place, is for a macro to reside on a
-         `token </rptools/wiki/Introduction_to_Tokens>`__. Token macros
+         `token <Introduction_to_Tokens>`__. Token macros
          are associated with the token on which they are created, and
          will travel around with that token as long as you let them.
 
@@ -474,7 +474,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Macro-panels.jpg>`__
+                     ` <File:Macro-panels.jpg>`__
 
                   The four Macro Panels
 
@@ -488,7 +488,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Tabbed-panels.jpg>`__
+                     ` <File:Tabbed-panels.jpg>`__
 
                   The four panels stacked together, selectable by the
                   tabs at the bottom (many users stack them like this to
@@ -577,13 +577,13 @@ Introduction to Macro Writing - MapToolDoc
             :name: the-current-token
 
          Before you begin writing macros, please consult the page on the
-         `Current Token </rptools/wiki/Current_Token>`__ concept. When
+         `Current Token <Current_Token>`__ concept. When
          you write macros, you will usually - unless the macros are very
          minimal - be manipulating `Token
-         Properties </rptools/wiki/Token_Property>`__. In order to
+         Properties <Token_Property>`__. In order to
          manipulate the *correct* set of properties with your macro, it
          is crucial to understand the concept of the `Current
-         Token </rptools/wiki/Current_Token>`__.
+         Token <Current_Token>`__.
 
          **IMPORTANT: A macro** **always** **refers to the Current
          Token, unless you explicitly instruct the functions/operations
@@ -811,7 +811,7 @@ Introduction to Macro Writing - MapToolDoc
          other words, you **cannot comment out code.**
 
          There are two ways to hide output: the
-         `[h:] </rptools/wiki/h_(roll_option)>`__, or "hidden", roll
+         `[h:] <h_(roll_option)>`__, or "hidden", roll
          option, and HTML comment format. The hidden roll option you've
          already seen, but if you're not familiar with HTML, comments in
          HTML look like this:
@@ -868,7 +868,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Camp-panel-nomacros.png>`__
+                     ` <File:Camp-panel-nomacros.png>`__
 
                   The **Campaign Panel**. You can see there are no
                   macros here yet.
@@ -883,7 +883,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Camp-panel-rcaddnew.png>`__
+                     ` <File:Camp-panel-rcaddnew.png>`__
 
                   Right-clicking on the Campaign Panel lets you add a
                   new macro.
@@ -925,7 +925,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Camp-panel-newbutton.png>`__
+                     ` <File:Camp-panel-newbutton.png>`__
 
                   After selecting "Add New Macro," a button labeled
                   **(new)** appears on the Campaign Panel.
@@ -940,7 +940,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Camp-panel-rceditbutton.png>`__
+                     ` <File:Camp-panel-rceditbutton.png>`__
 
                   Right-clicking on the button opens the macro editor.
 
@@ -954,7 +954,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Macro-editor-examplestring.png>`__
+                     ` <File:Macro-editor-examplestring.png>`__
 
                   Entering a macro label and the macro command
 
@@ -968,7 +968,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Camp-panel-exbutton.png>`__
+                     ` <File:Camp-panel-exbutton.png>`__
 
                   The **Campaign Panel** with your newly created macro
                   on it
@@ -1041,7 +1041,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Macro-editor-rolldice.png>`__
+                     ` <File:Macro-editor-rolldice.png>`__
 
                   A macro with text and a basic dice roll of 1d20+7
 
@@ -1082,7 +1082,7 @@ Introduction to Macro Writing - MapToolDoc
          that number was reached. In this case, I managed to roll a 1 on
          the 1d20 (bummer! a critical fumble!) If you don't see this
          tooltip, check your `MapTool
-         Preferences#Chat </rptools/wiki/MapTool_Preferences#Chat>`__
+         Preferences#Chat <MapTool_Preferences#Chat>`__
          settings, specifically **Use ToolTips for Inline Rolls**.
 
          Also, you probably won't see the name "Chris", unless your name
@@ -1110,7 +1110,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Macro-editor-basiccommands.png>`__
+                     ` <File:Macro-editor-basiccommands.png>`__
 
                   A macro with a basic dice command and a variable
                   called *target*
@@ -1125,7 +1125,7 @@ Introduction to Macro Writing - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Prompt-undeclared-variable.png>`__
+                     ` <File:Prompt-undeclared-variable.png>`__
 
                   A prompt for an "undeclared variable"
 
@@ -1299,7 +1299,7 @@ Introduction to Macro Writing - MapToolDoc
             ``macro.args``. We'll get into those in another guide, but
             for now, just know that you can't create a variable with the
             same name as any of the variables on the `Special
-            Variables </rptools/wiki/Category:Special_Variable>`__ page.
+            Variables <Category:Special_Variable>`__ page.
 
          .. rubric:: Stepping Up Our Game
             :name: stepping-up-our-game
@@ -1321,7 +1321,7 @@ Introduction to Macro Writing - MapToolDoc
          basic HTML tags, as well as some options built into MapTool.
          We'll first look at the HTML briefly, and then at a couple
          `Display Roll
-         Options </rptools/wiki/Category:Display_Roll_Option>`__.
+         Options <Category:Display_Roll_Option>`__.
 
          .. rubric:: Expanded Rolls
             :name: expanded-rolls
@@ -1450,7 +1450,7 @@ Introduction to Macro Writing - MapToolDoc
          subset of CSS 1 in the form of in-line styles, and also style
          sheets in certain instances. More information on the supported
          CSS tags can be found at `Supported CSS
-         Styles </rptools/wiki/Supported_CSS_Styles>`__.
+         Styles <Supported_CSS_Styles>`__.
 
          .. rubric:: Using Token Properties
             :name: using-token-properties
@@ -1468,7 +1468,7 @@ Introduction to Macro Writing - MapToolDoc
          #. Minimize how much typing we have to do!
 
          As discussed in the `Introduction to
-         Tokens </rptools/wiki/Introduction_to_Tokens>`__, every token
+         Tokens <Introduction_to_Tokens>`__, every token
          carries around with it a personal "character sheet" of sorts,
          in the form of the token's *properties*. These properties can
          be *referenced* by a macro - so you can, for instance, write a
@@ -1480,15 +1480,15 @@ Introduction to Macro Writing - MapToolDoc
 
          Of course, for token properties to work, we've got to set them
          up. It's a good thing you read the `Introduction to
-         Properties </rptools/wiki/Introduction_to_Properties>`__ and
+         Properties <Introduction_to_Properties>`__ and
          created a campaign file for the MapTool RPG `Sample
-         Ruleset </rptools/wiki/Sample_Ruleset>`__!
+         Ruleset <Sample_Ruleset>`__!
 
          The first step is to open up the **MTRPG.cmpgn** file (or
          whatever name you saved it as), and drag a token onto the map
          (if you don't already have one on there). If you've got no idea
          what that means, check out the `Introduction to
-         Mapping </rptools/wiki/Introduction_to_Mapping>`__ to learn
+         Mapping <Introduction_to_Mapping>`__ to learn
          about making maps and putting tokens on them. Now, follow these
          steps:
 
@@ -1501,7 +1501,7 @@ Introduction to Macro Writing - MapToolDoc
          properties that can be edited only with macros, but for now,
          let's not worry about them!). You should see (if you're using
          the MTRPG.cmpgn file we set up in `Introduction to
-         Properties </rptools/wiki/Introduction_to_Properties>`__):
+         Properties <Introduction_to_Properties>`__):
 
             ````
 
@@ -1780,7 +1780,7 @@ Introduction to Macro Writing - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `français </rptools/wiki/Introduction_to_Macro_Writing/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Macro_Writing/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Macro_Writing/ja>`__\  • \ `한국어 </rptools/wiki/Introduction_to_Macro_Writing/ko>`__\ 
+             • \ `français <Introduction_to_Macro_Writing/fr>`__\  • \ `italiano <Introduction_to_Macro_Writing/it>`__\  • \ `日本語 <Introduction_to_Macro_Writing/ja>`__\  • \ `한국어 <Introduction_to_Macro_Writing/ko>`__\ 
 
       .. container:: printfooter
 

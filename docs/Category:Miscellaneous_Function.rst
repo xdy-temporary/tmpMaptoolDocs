@@ -65,101 +65,101 @@ Category:Miscellaneous Function - MapToolDoc
                         .. rubric:: A
                            :name: a
 
-                        -  `abort </rptools/wiki/abort>`__
-                        -  `assert </rptools/wiki/assert>`__
+                        -  `abort <abort>`__
+                        -  `assert <assert>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: B
                            :name: b
 
-                        -  `base64.decode </rptools/wiki/base64.decode>`__
-                        -  `base64.encode </rptools/wiki/base64.encode>`__
-                        -  `broadcast </rptools/wiki/broadcast>`__
+                        -  `base64.decode <base64.decode>`__
+                        -  `base64.encode <base64.encode>`__
+                        -  `broadcast <broadcast>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: D
                            :name: d
 
-                        -  `drawVBL </rptools/wiki/drawVBL>`__
+                        -  `drawVBL <drawVBL>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: E
                            :name: e
 
-                        -  `eraseVBL </rptools/wiki/eraseVBL>`__
-                        -  `eval </rptools/wiki/eval>`__
-                        -  `evalMacro </rptools/wiki/evalMacro>`__
-                        -  `execLink </rptools/wiki/execLink>`__
-                        -  `execMacro </rptools/wiki/execMacro>`__
-                        -  `exportData </rptools/wiki/exportData>`__
-                        -  `exposeFOW </rptools/wiki/exposeFOW>`__
-                        -  `exposePCOnlyArea </rptools/wiki/exposePCOnlyArea>`__
+                        -  `eraseVBL <eraseVBL>`__
+                        -  `eval <eval>`__
+                        -  `evalMacro <evalMacro>`__
+                        -  `execLink <execLink>`__
+                        -  `execMacro <execMacro>`__
+                        -  `exportData <exportData>`__
+                        -  `exposeFOW <exposeFOW>`__
+                        -  `exposePCOnlyArea <exposePCOnlyArea>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getAllPlayerNames </rptools/wiki/getAllPlayerNames>`__
-                        -  `getEnvironmentVariable </rptools/wiki/getEnvironmentVariable>`__
-                        -  `getImage </rptools/wiki/getImage>`__
-                        -  `getInfo </rptools/wiki/getInfo>`__
-                        -  `getLastPath </rptools/wiki/getLastPath>`__
-                        -  `getMoveCount </rptools/wiki/getMoveCount>`__
-                        -  `getPlayerName </rptools/wiki/getPlayerName>`__
-                        -  `getTokenVBL </rptools/wiki/getTokenVBL>`__
-                        -  `getVBL </rptools/wiki/getVBL>`__
-                        -  `getViewArea </rptools/wiki/getViewArea>`__
-                        -  `getViewCenter </rptools/wiki/getViewCenter>`__
-                        -  `getZoom </rptools/wiki/getZoom>`__
-                        -  `goto </rptools/wiki/goto>`__
+                        -  `getAllPlayerNames <getAllPlayerNames>`__
+                        -  `getEnvironmentVariable <getEnvironmentVariable>`__
+                        -  `getImage <getImage>`__
+                        -  `getInfo <getInfo>`__
+                        -  `getLastPath <getLastPath>`__
+                        -  `getMoveCount <getMoveCount>`__
+                        -  `getPlayerName <getPlayerName>`__
+                        -  `getTokenVBL <getTokenVBL>`__
+                        -  `getVBL <getVBL>`__
+                        -  `getViewArea <getViewArea>`__
+                        -  `getViewCenter <getViewCenter>`__
+                        -  `getZoom <getZoom>`__
+                        -  `goto <goto>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `if </rptools/wiki/if>`__
-                        -  `input </rptools/wiki/input>`__
+                        -  `if <if>`__
+                        -  `input <input>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: M
                            :name: m
 
-                        -  `macroLink </rptools/wiki/macroLink>`__
-                        -  `macroLinkText </rptools/wiki/macroLinkText>`__
-                        -  `movedOverPoints </rptools/wiki/movedOverPoints>`__
-                        -  `movedOverToken </rptools/wiki/movedOverToken>`__
+                        -  `macroLink <macroLink>`__
+                        -  `macroLinkText <macroLinkText>`__
+                        -  `movedOverPoints <movedOverPoints>`__
+                        -  `movedOverToken <movedOverToken>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `restoreFoW </rptools/wiki/restoreFoW>`__
-                        -  `return </rptools/wiki/return>`__
+                        -  `restoreFoW <restoreFoW>`__
+                        -  `return <return>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `set </rptools/wiki/set>`__
-                        -  `setTokenVBL </rptools/wiki/setTokenVBL>`__
-                        -  `setViewArea </rptools/wiki/setViewArea>`__
-                        -  `setZoom </rptools/wiki/setZoom>`__
+                        -  `set <set>`__
+                        -  `setTokenVBL <setTokenVBL>`__
+                        -  `setViewArea <setViewArea>`__
+                        -  `setZoom <setZoom>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: T
                            :name: t
 
-                        -  `toggleFoW </rptools/wiki/toggleFoW>`__
-                        -  `transferVBL </rptools/wiki/transferVBL>`__
+                        -  `toggleFoW <toggleFoW>`__
+                        -  `transferVBL <transferVBL>`__
 
       .. container:: printfooter
 

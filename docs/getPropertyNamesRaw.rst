@@ -66,15 +66,15 @@ getPropertyNamesRaw - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `String List </rptools/wiki/String_List>`__ or
-            `JSON Array </rptools/wiki/JSON_Array>`__ containing the
+            Returns a `String List <String_List>`__ or
+            `JSON Array <JSON_Array>`__ containing the
             names of the `Token
-            Properties </rptools/wiki/Token_Property>`__ on a
-            `Token </rptools/wiki/Token>`__. The type of the value
+            Properties <Token_Property>`__ on a
+            `Token <Token>`__. The type of the value
             returned depends on the delimiter parameter. The difference
             between this function and
-            `getPropertyNames() </rptools/wiki/getPropertyNames>`__ is
-            that `getPropertyNames() </rptools/wiki/getPropertyNames>`__
+            `getPropertyNames() <getPropertyNames>`__ is
+            that `getPropertyNames() <getPropertyNames>`__
             returns all the property names in lower case (see `this
             forum
             thread <http://forums.rptools.net/viewtopic.php?f=1&t=12563&p=148937&hilit=getPropertyNamesRaw#p148937>`__
@@ -106,17 +106,17 @@ getPropertyNamesRaw - MapToolDoc
          **Parameters**
 
          -  ``delim`` - The delimiter used to separate the values in the
-            `String List </rptools/wiki/String_List>`__, defaults to
-            ``","``. Returns a `JSON Array </rptools/wiki/JSON_Array>`__
+            `String List <String_List>`__, defaults to
+            ``","``. Returns a `JSON Array <JSON_Array>`__
             if set to ``"json"``.
          -  ``id`` - The token ``id`` of the token which has its
             property names returned, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -127,8 +127,8 @@ getPropertyNamesRaw - MapToolDoc
          .. container:: template_example
 
             To display the names of all of the
-            `properties </rptools/wiki/Token_Property>`__ on the current
-            `token </rptools/wiki/Token:token>`__ use.
+            `properties <Token_Property>`__ on the current
+            `token <Token:token>`__ use.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -165,7 +165,7 @@ getPropertyNamesRaw - MapToolDoc
          they do not appear in the token's properties when you double
          click on a token). To get only properties that are currently
          visible and editable, use
-         `getAllPropertyNames() </rptools/wiki/getAllPropertyNames>`__.
+         `getAllPropertyNames() <getAllPropertyNames>`__.
 
       .. container:: printfooter
 

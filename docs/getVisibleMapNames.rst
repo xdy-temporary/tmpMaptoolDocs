@@ -66,8 +66,8 @@ getVisibleMapNames - MapToolDoc
          .. container:: template_description
 
             Returns the names of all of the player visible maps as
-            either a `String List </rptools/wiki/String_List>`__ or
-            `JSON Array </rptools/wiki/JSON_Array>`__.
+            either a `String List <String_List>`__ or
+            `JSON Array <JSON_Array>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -91,8 +91,8 @@ getVisibleMapNames - MapToolDoc
          **Parameters**
 
          -  ``delim`` - The delimiter to use for the `String
-            List </rptools/wiki/String_List>`__. If the value is
-            ``json`` then a `JSON Array </rptools/wiki/JSON_Array>`__ is
+            List <String_List>`__. If the value is
+            ``json`` then a `JSON Array <JSON_Array>`__ is
             returned.
 
          .. rubric:: Examples
@@ -101,7 +101,7 @@ getVisibleMapNames - MapToolDoc
          .. container:: template_examples
 
             To get the names of all of the player visible maps in a
-            `String List </rptools/wiki/String_List>`__.
+            `String List <String_List>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -112,7 +112,7 @@ getVisibleMapNames - MapToolDoc
                         [h: maps = getVisibleMapNames()]
 
             To get the names of all of the player visible maps in a
-            `JSON Array </rptools/wiki/JSON_Array>`__
+            `JSON Array <JSON_Array>`__
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -127,8 +127,8 @@ getVisibleMapNames - MapToolDoc
 
          .. container:: template_also
 
-            `getCurrentMapName() </rptools/wiki/getCurrentMapName>`__
-            `getAllMapNames() </rptools/wiki/getAllMapNames>`__
+            `getCurrentMapName() <getCurrentMapName>`__
+            `getAllMapNames() <getAllMapNames>`__
 
       .. container:: printfooter
 

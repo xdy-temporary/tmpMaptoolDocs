@@ -66,18 +66,18 @@ getSelected - MapToolDoc
          .. container:: template_description
 
             Returns a list containing the ids of the selected
-            `tokens </rptools/wiki/Token:token>`__ on the current
+            `tokens <Token:token>`__ on the current
             `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__.
             The type of the value returned depends on the delimiter
             parameter.
 
             -  If the delimiter is not specified then a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the default value of ``","`` is used.
             -  If the delimiter ``json`` then a `JSON
-               Array </rptools/wiki/JSON_Array>`__ is returned.
+               Array <JSON_Array>`__ is returned.
             -  Otherwise a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the delimiter passed in.
 
              
@@ -98,7 +98,7 @@ getSelected - MapToolDoc
                      getSelected(delim)
 
          ``delim`` is the delimiter used to separate the values in the
-         `string list </rptools/wiki/Macros:string_list>`__ which
+         `string list <Macros:string_list>`__ which
          defaults to ``","`` if not specified.
 
          .. rubric:: Example
@@ -107,7 +107,7 @@ getSelected - MapToolDoc
          .. container:: template_example
 
             To display the ids of all of the selected
-            `tokens </rptools/wiki/Token:token>`__ on the current
+            `tokens <Token:token>`__ on the current
             `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
             use.
 

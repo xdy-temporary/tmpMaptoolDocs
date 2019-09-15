@@ -42,7 +42,7 @@ Create Macro Buttons with a Macro - MapToolDoc
 
          This is the full macro code from the `Creating Macro Buttons
          Using a
-         Macro </rptools/wiki/Creating_Macro_Buttons_Using_a_Macro>`__
+         Macro <Creating_Macro_Buttons_Using_a_Macro>`__
          tutorial.
 
          .. container:: mw-geshi mw-code mw-content-ltr

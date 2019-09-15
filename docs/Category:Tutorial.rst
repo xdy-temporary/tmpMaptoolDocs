@@ -66,11 +66,11 @@ Category:Tutorial - MapToolDoc
                            :name: c
 
                         -  `Calling
-                           macros </rptools/wiki/Calling_macros>`__
+                           macros <Calling_macros>`__
                         -  `Creating a List Input with Names and
-                           Images </rptools/wiki/Creating_a_List_Input_with_Names_and_Images>`__
+                           Images <Creating_a_List_Input_with_Names_and_Images>`__
                         -  `Creating Macro Buttons Using a
-                           Macro </rptools/wiki/Creating_Macro_Buttons_Using_a_Macro>`__
+                           Macro <Creating_Macro_Buttons_Using_a_Macro>`__
 
                      .. container:: mw-category-group
 
@@ -78,7 +78,7 @@ Category:Tutorial - MapToolDoc
                            :name: d
 
                         -  `Debugging
-                           Tutorial </rptools/wiki/Debugging_Tutorial>`__
+                           Tutorial <Debugging_Tutorial>`__
 
                      .. container:: mw-category-group
 
@@ -86,7 +86,7 @@ Category:Tutorial - MapToolDoc
                            :name: f
 
                         -  `Forms
-                           tutorial </rptools/wiki/Forms_tutorial>`__
+                           tutorial <Forms_tutorial>`__
 
                      .. container:: mw-category-group
 
@@ -94,83 +94,83 @@ Category:Tutorial - MapToolDoc
                            :name: i
 
                         -  `Introduction to Campaign
-                           Repositories </rptools/wiki/Introduction_to_Campaign_Repositories>`__
+                           Repositories <Introduction_to_Campaign_Repositories>`__
                         -  `Introduction to Campaign
-                           Repositories/es </rptools/wiki/Introduction_to_Campaign_Repositories/es>`__
+                           Repositories/es <Introduction_to_Campaign_Repositories/es>`__
                         -  `Introduction to Campaign
-                           Repositories/fr </rptools/wiki/Introduction_to_Campaign_Repositories/fr>`__
+                           Repositories/fr <Introduction_to_Campaign_Repositories/fr>`__
                         -  `Introduction to Campaign
-                           Repositories/ja </rptools/wiki/Introduction_to_Campaign_Repositories/ja>`__
+                           Repositories/ja <Introduction_to_Campaign_Repositories/ja>`__
                         -  `Introduction to Dialogs and
-                           Frames </rptools/wiki/Introduction_to_Dialogs_and_Frames>`__
+                           Frames <Introduction_to_Dialogs_and_Frames>`__
                         -  `Introduction to Game
-                           Hosting/es </rptools/wiki/Introduction_to_Game_Hosting/es>`__
+                           Hosting/es <Introduction_to_Game_Hosting/es>`__
                         -  `Introduction to Game
-                           Hosting/it </rptools/wiki/Introduction_to_Game_Hosting/it>`__
+                           Hosting/it <Introduction_to_Game_Hosting/it>`__
                         -  `Introduction to JSON
-                           Datatypes </rptools/wiki/Introduction_to_JSON_Datatypes>`__
+                           Datatypes <Introduction_to_JSON_Datatypes>`__
                         -  `Introduction to Lights and
-                           Sights </rptools/wiki/Introduction_to_Lights_and_Sights>`__
+                           Sights <Introduction_to_Lights_and_Sights>`__
                         -  `Introduction to Lights and
-                           Sights/es </rptools/wiki/Introduction_to_Lights_and_Sights/es>`__
+                           Sights/es <Introduction_to_Lights_and_Sights/es>`__
                         -  `Introduction to Lights and
-                           Sights/fr </rptools/wiki/Introduction_to_Lights_and_Sights/fr>`__
+                           Sights/fr <Introduction_to_Lights_and_Sights/fr>`__
                         -  `Introduction to Lights and
-                           Sights/ja </rptools/wiki/Introduction_to_Lights_and_Sights/ja>`__
+                           Sights/ja <Introduction_to_Lights_and_Sights/ja>`__
                         -  `Introduction to Macro
-                           Branching </rptools/wiki/Introduction_to_Macro_Branching>`__
+                           Branching <Introduction_to_Macro_Branching>`__
                         -  `Introduction to Macro
-                           Branching/ja </rptools/wiki/Introduction_to_Macro_Branching/ja>`__
+                           Branching/ja <Introduction_to_Macro_Branching/ja>`__
                         -  `Introduction to Macro
-                           Loops </rptools/wiki/Introduction_to_Macro_Loops>`__
+                           Loops <Introduction_to_Macro_Loops>`__
                         -  `Introduction to Macro
-                           Loops/ja </rptools/wiki/Introduction_to_Macro_Loops/ja>`__
+                           Loops/ja <Introduction_to_Macro_Loops/ja>`__
                         -  `Introduction to Macro
-                           Writing </rptools/wiki/Introduction_to_Macro_Writing>`__
+                           Writing <Introduction_to_Macro_Writing>`__
                         -  `Introduction to Macro
-                           Writing/fr </rptools/wiki/Introduction_to_Macro_Writing/fr>`__
+                           Writing/fr <Introduction_to_Macro_Writing/fr>`__
                         -  `Introduction to Macro
-                           Writing/it </rptools/wiki/Introduction_to_Macro_Writing/it>`__
+                           Writing/it <Introduction_to_Macro_Writing/it>`__
                         -  `Introduction to Macro
-                           Writing/ja </rptools/wiki/Introduction_to_Macro_Writing/ja>`__
+                           Writing/ja <Introduction_to_Macro_Writing/ja>`__
                         -  `Introduction to Macro
-                           Writing/ko </rptools/wiki/Introduction_to_Macro_Writing/ko>`__
+                           Writing/ko <Introduction_to_Macro_Writing/ko>`__
                         -  `Introduction to Macro
-                           Writing/Ko </rptools/wiki/Introduction_to_Macro_Writing/Ko>`__
+                           Writing/Ko <Introduction_to_Macro_Writing/Ko>`__
                         -  `Introduction to
-                           Mapping </rptools/wiki/Introduction_to_Mapping>`__
+                           Mapping <Introduction_to_Mapping>`__
                         -  `Introduction to
-                           Mapping/de </rptools/wiki/Introduction_to_Mapping/de>`__
+                           Mapping/de <Introduction_to_Mapping/de>`__
                         -  `Introduction to
-                           Mapping/es </rptools/wiki/Introduction_to_Mapping/es>`__
+                           Mapping/es <Introduction_to_Mapping/es>`__
                         -  `Introduction to
-                           Mapping/fr </rptools/wiki/Introduction_to_Mapping/fr>`__
+                           Mapping/fr <Introduction_to_Mapping/fr>`__
                         -  `Introduction to
-                           Mapping/it </rptools/wiki/Introduction_to_Mapping/it>`__
+                           Mapping/it <Introduction_to_Mapping/it>`__
                         -  `Introduction to
-                           Mapping/ja </rptools/wiki/Introduction_to_Mapping/ja>`__
+                           Mapping/ja <Introduction_to_Mapping/ja>`__
                         -  `Introduction to
-                           Properties </rptools/wiki/Introduction_to_Properties>`__
+                           Properties <Introduction_to_Properties>`__
                         -  `Introduction to
-                           Properties/es </rptools/wiki/Introduction_to_Properties/es>`__
+                           Properties/es <Introduction_to_Properties/es>`__
                         -  `Introduction to
-                           Properties/it </rptools/wiki/Introduction_to_Properties/it>`__
+                           Properties/it <Introduction_to_Properties/it>`__
                         -  `Introduction to
-                           Tokens </rptools/wiki/Introduction_to_Tokens>`__
+                           Tokens <Introduction_to_Tokens>`__
                         -  `Introduction to
-                           Tokens/es </rptools/wiki/Introduction_to_Tokens/es>`__
+                           Tokens/es <Introduction_to_Tokens/es>`__
                         -  `Introduction to
-                           Tokens/it </rptools/wiki/Introduction_to_Tokens/it>`__
+                           Tokens/it <Introduction_to_Tokens/it>`__
                         -  `Introduction to
-                           Tokens/ja </rptools/wiki/Introduction_to_Tokens/ja>`__
+                           Tokens/ja <Introduction_to_Tokens/ja>`__
                         -  `Introduction to Vision
-                           Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
+                           Blocking <Introduction_to_Vision_Blocking>`__
                         -  `Introduction to Vision
-                           Blocking/es </rptools/wiki/Introduction_to_Vision_Blocking/es>`__
+                           Blocking/es <Introduction_to_Vision_Blocking/es>`__
                         -  `Introduction to Vision
-                           Blocking/fr </rptools/wiki/Introduction_to_Vision_Blocking/fr>`__
+                           Blocking/fr <Introduction_to_Vision_Blocking/fr>`__
                         -  `Introduction to Vision
-                           Blocking/ja </rptools/wiki/Introduction_to_Vision_Blocking/ja>`__
+                           Blocking/ja <Introduction_to_Vision_Blocking/ja>`__
 
                      .. container:: mw-category-group
 
@@ -178,22 +178,22 @@ Category:Tutorial - MapToolDoc
                            :name: m
 
                         -  `Macro Tips and
-                           Tricks </rptools/wiki/Macro_Tips_and_Tricks>`__
+                           Tricks <Macro_Tips_and_Tricks>`__
                         -  `Macro Tips and
-                           Tricks/ko </rptools/wiki/Macro_Tips_and_Tricks/ko>`__
+                           Tricks/ko <Macro_Tips_and_Tricks/ko>`__
                         -  `Macros:Branching and
-                           Looping </rptools/wiki/Macros:Branching_and_Looping>`__
+                           Looping <Macros:Branching_and_Looping>`__
                         -  `More Branching
-                           Options </rptools/wiki/More_Branching_Options>`__
+                           Options <More_Branching_Options>`__
                         -  `More Branching
-                           Options/ja </rptools/wiki/More_Branching_Options/ja>`__
+                           Options/ja <More_Branching_Options/ja>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `Stack Size </rptools/wiki/Stack_Size>`__
+                        -  `Stack Size <Stack_Size>`__
 
                      .. container:: mw-category-group
 
@@ -201,15 +201,15 @@ Category:Tutorial - MapToolDoc
                            :name: u
 
                         -  `Updating Macro Buttons Using a Macro (Group
-                           Method) </rptools/wiki/Updating_Macro_Buttons_Using_a_Macro_(Group_Method)>`__
+                           Method) <Updating_Macro_Buttons_Using_a_Macro_(Group_Method)>`__
                         -  `Updating Macro Buttons Using a Macro (Label
-                           Method) </rptools/wiki/Updating_Macro_Buttons_Using_a_Macro_(Label_Method)>`__
+                           Method) <Updating_Macro_Buttons_Using_a_Macro_(Label_Method)>`__
                         -  `Updating Macro Buttons Using a Macro (Prefix
-                           Method) </rptools/wiki/Updating_Macro_Buttons_Using_a_Macro_(Prefix_Method)>`__
+                           Method) <Updating_Macro_Buttons_Using_a_Macro_(Prefix_Method)>`__
                         -  `Updating Macro Buttons Using
-                           Macros </rptools/wiki/Updating_Macro_Buttons_Using_Macros>`__
+                           Macros <Updating_Macro_Buttons_Using_Macros>`__
                         -  `Using JSON Datatypes in
-                           Macros </rptools/wiki/Using_JSON_Datatypes_in_Macros>`__
+                           Macros <Using_JSON_Datatypes_in_Macros>`__
 
       .. container:: printfooter
 

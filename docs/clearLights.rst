@@ -67,7 +67,7 @@ clearLights - MapToolDoc
 
             Turns off all of the `light
             sources </maptool/index.php?title=LightSource:light_source&action=edit&redlink=1>`__
-            for the `Current Token </rptools/wiki/Current_Token>`__.
+            for the `Current Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -92,12 +92,12 @@ clearLights - MapToolDoc
 
          -  ``id`` - The token ``id`` of the token for which to turn off
             all light sources, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.

@@ -61,14 +61,14 @@ Category:Token Library Function - MapToolDoc
                   .. rubric:: G
                      :name: g
 
-                  -  `getLibProperty </rptools/wiki/getLibProperty>`__
-                  -  `getLibPropertyNames </rptools/wiki/getLibPropertyNames>`__
-                  -  `getMatchingLibProperties </rptools/wiki/getMatchingLibProperties>`__
+                  -  `getLibProperty <getLibProperty>`__
+                  -  `getLibPropertyNames <getLibPropertyNames>`__
+                  -  `getMatchingLibProperties <getMatchingLibProperties>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `setLibProperty </rptools/wiki/setLibProperty>`__
+                  -  `setLibProperty <setLibProperty>`__
 
       .. container:: printfooter
 

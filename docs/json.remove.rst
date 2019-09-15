@@ -50,9 +50,9 @@ json.remove - MapToolDoc
          .. container:: template_description
 
             Removes a field from a `JSON
-            Object </rptools/wiki/JSON_Object>`__, or the value at the
+            Object <JSON_Object>`__, or the value at the
             specified index from a `JSON
-            Array </rptools/wiki/JSON_Array>`__.
+            Array <JSON_Array>`__.
 
          .. rubric:: Usage
             :name: usage

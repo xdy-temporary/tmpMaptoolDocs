@@ -57,7 +57,7 @@ getMacroIndexes - MapToolDoc
 
             Returns a list of the `macro
             buttons </maptool/index.php?title=macro_buttons&action=edit&redlink=1>`__
-            on the `Current Token </rptools/wiki/Current_Token>`__ that
+            on the `Current Token <Current_Token>`__ that
             have the specified label. The type of the value returned
             depends on the delimiter parameter.
 
@@ -92,9 +92,9 @@ getMacroIndexes - MapToolDoc
 
          -  ``label`` - The label for the macro buttons to return.
          -  ``delim`` - The delimiter used to separate the values in the
-            `String List </rptools/wiki/String_List>`__ which defaults
+            `String List <String_List>`__ which defaults
             to ``","`` if not specified. This function returns a `JSON
-            Object </rptools/wiki/JSON_Object>`__ if ``"json"`` is
+            Object <JSON_Object>`__ if ``"json"`` is
             specified.
          -  ``id`` - The token ``id`` of the token that the function is
             executed on.
@@ -102,7 +102,7 @@ getMacroIndexes - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          | 
 

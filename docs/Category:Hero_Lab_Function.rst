@@ -67,14 +67,14 @@ Category:Hero Lab Function - MapToolDoc
                         .. rubric:: H
                            :name: h
 
-                        -  `herolab.getImage </rptools/wiki/herolab.getImage>`__
-                        -  `herolab.getInfo </rptools/wiki/herolab.getInfo>`__
-                        -  `herolab.getMasterName </rptools/wiki/herolab.getMasterName>`__
-                        -  `herolab.getStatBlock </rptools/wiki/herolab.getStatBlock>`__
-                        -  `herolab.hasChanged </rptools/wiki/herolab.hasChanged>`__
-                        -  `herolab.isMinion </rptools/wiki/herolab.isMinion>`__
-                        -  `herolab.refresh </rptools/wiki/herolab.refresh>`__
-                        -  `herolab.XPath </rptools/wiki/herolab.XPath>`__
+                        -  `herolab.getImage <herolab.getImage>`__
+                        -  `herolab.getInfo <herolab.getInfo>`__
+                        -  `herolab.getMasterName <herolab.getMasterName>`__
+                        -  `herolab.getStatBlock <herolab.getStatBlock>`__
+                        -  `herolab.hasChanged <herolab.hasChanged>`__
+                        -  `herolab.isMinion <herolab.isMinion>`__
+                        -  `herolab.refresh <herolab.refresh>`__
+                        -  `herolab.XPath <herolab.XPath>`__
 
       .. container:: printfooter
 

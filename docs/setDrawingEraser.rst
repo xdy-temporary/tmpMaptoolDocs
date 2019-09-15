@@ -62,7 +62,7 @@ setDrawingEraser - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -125,8 +125,8 @@ setDrawingEraser - MapToolDoc
 
          .. container:: template_also
 
-            `getDrawingEraser() </rptools/wiki/getDrawingEraser>`__
-            `refreshDrawing() </rptools/wiki/refreshDrawing>`__
+            `getDrawingEraser() <getDrawingEraser>`__
+            `refreshDrawing() <refreshDrawing>`__
 
       .. container:: printfooter
 

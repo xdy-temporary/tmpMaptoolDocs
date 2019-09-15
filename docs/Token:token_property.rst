@@ -44,7 +44,7 @@ Token Property - MapToolDoc
          :name: mw-content-text
 
          A *token property* is a variable (string or numeric) that
-         resides on a particular `token </rptools/wiki/Token:token>`__
+         resides on a particular `token <Token:token>`__
          within MapTool, and may be called upon or evaluated by macros.
 
          Token properties are tailored to fit each individual campaign
@@ -52,7 +52,7 @@ Token Property - MapToolDoc
          of token properties can be created (allowing them to be applied
          to different classes of token - for example, PC tokens versus
          NPC tokens). These multiple sets are called `token property
-         types </rptools/wiki/Token:token_property_type>`__.
+         types <Token:token_property_type>`__.
 
          .. container:: toc
             :name: toc

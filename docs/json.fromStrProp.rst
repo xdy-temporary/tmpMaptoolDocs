@@ -49,9 +49,9 @@ json.fromStrProp - MapToolDoc
 
          .. container:: template_description
 
-            Creates a `json object </rptools/wiki/JSON_Object>`__ from a
+            Creates a `json object <JSON_Object>`__ from a
             `string property
-            list </rptools/wiki/Macros:string_property_list>`__.
+            list <Macros:string_property_list>`__.
 
          .. rubric:: Usage
             :name: usage

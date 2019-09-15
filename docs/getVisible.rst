@@ -72,18 +72,18 @@ getVisible - MapToolDoc
 
             Returns ``true``\ (``1``) if the `visible to
             players </maptool/index.php?title=Token:visible_to_players&action=edit&redlink=1>`__
-            flag is set on a `Token </rptools/wiki/Token>`__ otherwise
+            flag is set on a `Token <Token>`__ otherwise
             returns ``false``\ (``0``). The `visible to
             players </maptool/index.php?title=Token:visible_to_players&action=edit&redlink=1>`__
             flag has two meanings, on a normal
-            `Token </rptools/wiki/Token>`__ players will only be able to
-            see the `Token </rptools/wiki/Token>`__ if it is set (when
+            `Token <Token>`__ players will only be able to
+            see the `Token <Token>`__ if it is set (when
             all other things like `Fog of
             War </maptool/index.php?title=Map:Fog_of_War&action=edit&redlink=1>`__
             etc are taken into account). If it is a `Library
-            Token </rptools/wiki/Library_Token>`__ then it determines if
+            Token <Library_Token>`__ then it determines if
             players can call Macros using
-            `[macro():] </rptools/wiki/macro_(roll_option)>`__.
+            `[macro():] <macro_(roll_option)>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -108,12 +108,12 @@ getVisible - MapToolDoc
 
          -  ``id`` - The token ``id`` of token that has its player
             visibility checked, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          | 
 
@@ -122,7 +122,7 @@ getVisible - MapToolDoc
 
          .. container:: template_also
 
-            `setVisible() </rptools/wiki/setVisible>`__
+            `setVisible() <setVisible>`__
 
          .. rubric:: Version Changes
             :name: version-changes

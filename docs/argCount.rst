@@ -73,7 +73,7 @@ argCount - MapToolDoc
             were passed when it was called.
 
             Once the number of arguments have been determined you can
-            use ```arg()`` </rptools/wiki/arg>`__ to retrieve them.
+            use ```arg()`` <arg>`__ to retrieve them.
 
          .. rubric:: Usage
             :name: usage
@@ -120,9 +120,9 @@ argCount - MapToolDoc
 
          .. container:: template_also
 
-            `defineFunction() </rptools/wiki/defineFunction>`__,
-            `isFunctionDefined() </rptools/wiki/isFunctionDefined>`__,
-            `arg() </rptools/wiki/arg>`__
+            `defineFunction() <defineFunction>`__,
+            `isFunctionDefined() <isFunctionDefined>`__,
+            `arg() <arg>`__
 
       .. container:: printfooter
 

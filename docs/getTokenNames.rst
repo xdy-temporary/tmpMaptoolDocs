@@ -62,7 +62,7 @@ getTokenNames - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -71,7 +71,7 @@ getTokenNames - MapToolDoc
          .. container:: template_description
 
             Gets a list containing the names of all the
-            `tokens </rptools/wiki/Token>`__ on the current
+            `tokens <Token>`__ on the current
             `map </maptool/index.php?title=Map&action=edit&redlink=1>`__.
 
          .. rubric:: Usage
@@ -214,7 +214,7 @@ getTokenNames - MapToolDoc
                         [foreach(name, names, "<br>"): name]
 
             -  Find and return a `JSON
-               Array </rptools/wiki/JSON_Array>`__ containing all NPC
+               Array <JSON_Array>`__ containing all NPC
                tokens' names that are within 2 squares or hexes:
 
             .. container:: mw-geshi mw-code mw-content-ltr

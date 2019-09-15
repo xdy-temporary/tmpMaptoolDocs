@@ -80,7 +80,7 @@ File:Nofog-visionnight-plyrview-candle.png - MapToolDoc
             ======= =================================================================================== ================================================ ==================== ====================================================================================================================================================================== ====================================================
             \       Date/Time                                                                           Thumbnail                                        Dimensions           User                                                                                                                                                                   Comment
             ======= =================================================================================== ================================================ ==================== ====================================================================================================================================================================== ====================================================
-            current `23:23, 7 July 2009 </maptool/images/d/d8/Nofog-visionnight-plyrview-candle.png>`__ |Thumbnail for version as of 23:23, 7 July 2009| 1,104 × 745 (687 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Vision Night, no Fog, player view with light source.
+            current `23:23, 7 July 2009 </maptool/images/d/d8/Nofog-visionnight-plyrview-candle.png>`__ |Thumbnail for version as of 23:23, 7 July 2009| 1,104 × 745 (687 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Vision Night, no Fog, player view with light source.
             ======= =================================================================================== ================================================ ==================== ====================================================================================================================================================================== ====================================================
 
          -  You cannot overwrite this file.
@@ -94,13 +94,13 @@ File:Nofog-visionnight-plyrview-candle.png - MapToolDoc
             The following 4 pages link to this file:
 
             -  `Introduction to Lights and
-               Sights </rptools/wiki/Introduction_to_Lights_and_Sights>`__
+               Sights <Introduction_to_Lights_and_Sights>`__
             -  `Introduction to Lights and
-               Sights/es </rptools/wiki/Introduction_to_Lights_and_Sights/es>`__
+               Sights/es <Introduction_to_Lights_and_Sights/es>`__
             -  `Introduction to Lights and
-               Sights/fr </rptools/wiki/Introduction_to_Lights_and_Sights/fr>`__
+               Sights/fr <Introduction_to_Lights_and_Sights/fr>`__
             -  `Introduction to Lights and
-               Sights/ja </rptools/wiki/Introduction_to_Lights_and_Sights/ja>`__
+               Sights/ja <Introduction_to_Lights_and_Sights/ja>`__
 
       .. container:: printfooter
 

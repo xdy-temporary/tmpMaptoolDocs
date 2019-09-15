@@ -50,9 +50,9 @@ hasMacro - MapToolDoc
          .. container:: template_description
 
             Returns ``true``\ (``1``) if a `macro
-            button </rptools/wiki/Macro_Button>`__ with the specified
+            button <Macro_Button>`__ with the specified
             label exists on the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -82,7 +82,7 @@ hasMacro - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          | 
 

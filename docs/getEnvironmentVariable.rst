@@ -46,7 +46,7 @@ getEnvironmentVariable - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -59,7 +59,7 @@ getEnvironmentVariable - MapToolDoc
             This function is useful for situations where the script may
             wish to interact with the environment outside of MapTool,
             such as using the
-            `exportData() </rptools/wiki/exportData>`__ function to
+            `exportData() <exportData>`__ function to
             write a string to an external file.
 
             .. container:: template_caution

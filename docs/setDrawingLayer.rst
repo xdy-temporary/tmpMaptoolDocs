@@ -62,7 +62,7 @@ setDrawingLayer - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -124,8 +124,8 @@ setDrawingLayer - MapToolDoc
 
          .. container:: template_also
 
-            `getDrawingLayer() </rptools/wiki/getDrawingLayer>`__
-            `refreshDrawing() </rptools/wiki/refreshDrawing>`__
+            `getDrawingLayer() <getDrawingLayer>`__
+            `refreshDrawing() <refreshDrawing>`__
 
       .. container:: printfooter
 

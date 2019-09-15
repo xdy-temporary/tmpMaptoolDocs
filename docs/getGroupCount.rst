@@ -50,7 +50,7 @@ getGroupCount - MapToolDoc
          .. container:: template_description
 
             Returns the number of capture groups for the match performed
-            by `strfind() </rptools/wiki/strfind>`__.
+            by `strfind() <strfind>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -63,7 +63,7 @@ getGroupCount - MapToolDoc
 
                      [h: text = getGroupCount(id)]
 
-         id is the id returned by `strfind() </rptools/wiki/strfind>`__
+         id is the id returned by `strfind() <strfind>`__
 
          .. rubric:: Example
             :name: example

@@ -57,7 +57,7 @@ getOwnerOnlyVisible - MapToolDoc
 
             Returns ``true``\ (``1``) if the `Visible to Owners
             Only </maptool/index.php?title=Token:Visible_to_Owners_Only&action=edit&redlink=1>`__
-            flag is set on a `Token </rptools/wiki/Token>`__ otherwise
+            flag is set on a `Token <Token>`__ otherwise
             returns ``false``\ (``0``).
 
          .. rubric:: Usage
@@ -83,12 +83,12 @@ getOwnerOnlyVisible - MapToolDoc
 
          -  ``id`` - The token ``id`` of token that has its player
             visibility checked, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          | 
 
@@ -97,8 +97,8 @@ getOwnerOnlyVisible - MapToolDoc
 
          .. container:: template_also
 
-            `getVisible() </rptools/wiki/getVisible>`__,
-            `setOwnerOnlyVisible() </rptools/wiki/setOwnerOnlyVisible>`__
+            `getVisible() <getVisible>`__,
+            `setOwnerOnlyVisible() <setOwnerOnlyVisible>`__
 
       .. container:: printfooter
 

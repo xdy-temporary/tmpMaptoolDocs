@@ -78,7 +78,7 @@ File:TokenToolOrcPrincessExample.png - MapToolDoc
             ======= ================================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =======
             \       Date/Time                                                                          Thumbnail                                             Dimensions         User                                                                                                                                                                                                                                 Comment
             ======= ================================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =======
-            current `19:54, 11 February 2019 </maptool/images/4/43/TokenToolOrcPrincessExample.png>`__ |Thumbnail for version as of 19:54, 11 February 2019| 857 × 775 (557 KB) `Phergus </maptool/index.php?title=User:Phergus&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Phergus&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Phergus>`__\ \ )
+            current `19:54, 11 February 2019 </maptool/images/4/43/TokenToolOrcPrincessExample.png>`__ |Thumbnail for version as of 19:54, 11 February 2019| 857 × 775 (557 KB) `Phergus </maptool/index.php?title=User:Phergus&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Phergus&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Phergus>`__\ \ )
             ======= ================================================================================== ===================================================== ================== ==================================================================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -92,7 +92,7 @@ File:TokenToolOrcPrincessExample.png - MapToolDoc
             The following page links to this file:
 
             -  `TokenTool
-               QuickStart </rptools/wiki/TokenTool_QuickStart>`__
+               QuickStart <TokenTool_QuickStart>`__
 
          .. rubric:: Metadata
             :name: metadata

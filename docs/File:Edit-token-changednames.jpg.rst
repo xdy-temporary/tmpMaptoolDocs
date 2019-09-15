@@ -73,7 +73,7 @@ File:Edit-token-changednames.jpg - MapToolDoc
             ======= =========================================================================== ================================================== ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                                   Thumbnail                                          Dimensions        User                                                                                                                                                                   Comment
             ======= =========================================================================== ================================================== ================= ====================================================================================================================================================================== =======
-            current `13:23, 30 March 2009 </maptool/images/4/42/Edit-token-changednames.jpg>`__ |Thumbnail for version as of 13:23, 30 March 2009| 588 × 143 (15 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `13:23, 30 March 2009 </maptool/images/4/42/Edit-token-changednames.jpg>`__ |Thumbnail for version as of 13:23, 30 March 2009| 588 × 143 (15 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= =========================================================================== ================================================== ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,17 +87,17 @@ File:Edit-token-changednames.jpg - MapToolDoc
             The following 6 pages link to this file:
 
             -  `Introduction to
-               Mapping </rptools/wiki/Introduction_to_Mapping>`__
+               Mapping <Introduction_to_Mapping>`__
             -  `Introduction to
-               Mapping/de </rptools/wiki/Introduction_to_Mapping/de>`__
+               Mapping/de <Introduction_to_Mapping/de>`__
             -  `Introduction to
-               Mapping/es </rptools/wiki/Introduction_to_Mapping/es>`__
+               Mapping/es <Introduction_to_Mapping/es>`__
             -  `Introduction to
-               Mapping/fr </rptools/wiki/Introduction_to_Mapping/fr>`__
+               Mapping/fr <Introduction_to_Mapping/fr>`__
             -  `Introduction to
-               Mapping/it </rptools/wiki/Introduction_to_Mapping/it>`__
+               Mapping/it <Introduction_to_Mapping/it>`__
             -  `Introduction to
-               Mapping/ja </rptools/wiki/Introduction_to_Mapping/ja>`__
+               Mapping/ja <Introduction_to_Mapping/ja>`__
 
       .. container:: printfooter
 

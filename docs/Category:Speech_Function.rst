@@ -61,13 +61,13 @@ Category:Speech Function - MapToolDoc
                   .. rubric:: G
                      :name: g
 
-                  -  `getSpeech </rptools/wiki/getSpeech>`__
-                  -  `getSpeechNames </rptools/wiki/getSpeechNames>`__
+                  -  `getSpeech <getSpeech>`__
+                  -  `getSpeechNames <getSpeechNames>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `setSpeech </rptools/wiki/setSpeech>`__
+                  -  `setSpeech <setSpeech>`__
 
       .. container:: printfooter
 

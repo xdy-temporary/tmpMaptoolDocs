@@ -73,8 +73,8 @@ File:Token-halo.jpg - MapToolDoc
             ======= ========================================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                                                  Thumbnail                                             Dimensions        User                                                                                                                                                                   Comment
             ======= ========================================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
-            current `17:09, 22 December 2008 </maptool/images/8/8f/Token-halo.jpg>`__                          |Thumbnail for version as of 17:09, 22 December 2008| 303 × 282 (20 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
-            \       `16:49, 22 December 2008 </maptool/images/archive/8/8f/20081222170925%21Token-halo.jpg>`__ |Thumbnail for version as of 16:49, 22 December 2008| 309 × 255 (19 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `17:09, 22 December 2008 </maptool/images/8/8f/Token-halo.jpg>`__                          |Thumbnail for version as of 17:09, 22 December 2008| 303 × 282 (20 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
+            \       `16:49, 22 December 2008 </maptool/images/archive/8/8f/20081222170925%21Token-halo.jpg>`__ |Thumbnail for version as of 16:49, 22 December 2008| 309 × 255 (19 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= ========================================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,7 +87,7 @@ File:Token-halo.jpg - MapToolDoc
 
             The following page links to this file:
 
-            -  `token.halo </rptools/wiki/token.halo>`__
+            -  `token.halo <token.halo>`__
 
       .. container:: printfooter
 

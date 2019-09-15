@@ -43,13 +43,13 @@ Token Types - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/Token_Types/ja>`__\ 
+             • \ `日本語 <Token_Types/ja>`__\ 
 
          There are various token types available in MapTool, each with a
          different purpose.
 
-         -  `Image Token </rptools/wiki/Image_Token>`__
-         -  `Library Token </rptools/wiki/Library_Token>`__
+         -  `Image Token <Image_Token>`__
+         -  `Library Token <Library_Token>`__
          -  `PC
             Tokens </maptool/index.php?title=PC_Tokens&action=edit&redlink=1>`__
          -  `NPC

@@ -51,7 +51,7 @@ getSightType - MapToolDoc
 
             Returns the type of
             `sight </maptool/index.php?title=Token:sight&action=edit&redlink=1>`__
-            that the `Current Token </rptools/wiki/Current_Token>`__
+            that the `Current Token <Current_Token>`__
             has.
 
          .. rubric:: Usage
@@ -76,13 +76,13 @@ getSightType - MapToolDoc
          **Parameters**
 
          -  ``id`` - The ``id`` of the token to have the
-            `State </rptools/wiki/State>`__ set. Defaults to the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            `State <State>`__ set. Defaults to the
+            `Current Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.

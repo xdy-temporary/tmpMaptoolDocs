@@ -72,8 +72,8 @@ resetProperty - MapToolDoc
          .. container:: template_description
 
             Resets the specified `Token
-            Property </rptools/wiki/Token_Property>`__ on a specific
-            `Token </rptools/wiki/Token>`__ so that it is empty and will
+            Property <Token_Property>`__ on a specific
+            `Token <Token>`__ so that it is empty and will
             return the default value when queried (if it has one).
 
          .. rubric:: Usage
@@ -100,12 +100,12 @@ resetProperty - MapToolDoc
          -  ``property`` - The name of the property to reset.
          -  ``id`` - The token ``id`` of the token which has its
             property reset, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -117,10 +117,10 @@ resetProperty - MapToolDoc
 
          .. container:: template_also
 
-            `isPropertyEmpty() </rptools/wiki/isPropertyEmpty>`__,
-            `setProperty() </rptools/wiki/setProperty>`__,
+            `isPropertyEmpty() <isPropertyEmpty>`__,
+            `setProperty() <setProperty>`__,
 
-            `getProperty() </rptools/wiki/getProperty>`__
+            `getProperty() <getProperty>`__
 
          .. rubric:: Version Changes
             :name: version-changes
@@ -129,8 +129,8 @@ resetProperty - MapToolDoc
 
             -  **1.3b51** - Added ``id`` parameter option.
             -  **1.3b68** - `Token
-               Property </rptools/wiki/Token_Property>`__ is now deleted
-               from `Token </rptools/wiki/Token>`__
+               Property <Token_Property>`__ is now deleted
+               from `Token <Token>`__
             -  **1.5.4** - Added ``mapname`` parameter option.
 
       .. container:: printfooter

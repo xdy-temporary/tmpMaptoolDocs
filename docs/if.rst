@@ -113,7 +113,7 @@ if - MapToolDoc
             ``trueExpr`` or ``falseExpr`` will be executed. This follows
             the standard rules for *conditions* that can be found in the
             `Branching and
-            Looping </rptools/wiki/Macros:Branching_and_Looping>`__
+            Looping <Macros:Branching_and_Looping>`__
             article.
          -  ``trueExpr`` - A section of code that is returned if
             ``condition`` is ``true``\ (``1``).
@@ -194,7 +194,7 @@ if - MapToolDoc
             **Returns:** ``property`` set to ``0``
             | 
             | **Example 5:** Usually its better to use the roll option
-              version `[if():] </rptools/wiki/if_(roll_option)>`__.
+              version `[if():] <if_(roll_option)>`__.
               Sometimes it's pretty handy to use the version documented
               here, since you can easily embed it in loops and
               expressions.
@@ -228,8 +228,8 @@ if - MapToolDoc
          .. container:: template_also
 
             `Branching and
-            Looping </rptools/wiki/Macros:Branching_and_Looping>`__, `if
-            (roll option) </rptools/wiki/if_(roll_option)>`__
+            Looping <Macros:Branching_and_Looping>`__, `if
+            (roll option) <if_(roll_option)>`__
 
       .. container:: printfooter
 

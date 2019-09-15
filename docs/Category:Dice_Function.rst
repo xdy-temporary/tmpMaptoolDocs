@@ -65,89 +65,89 @@ Category:Dice Function - MapToolDoc
                         .. rubric:: C
                            :name: c
 
-                        -  `clearRolls </rptools/wiki/clearRolls>`__
-                        -  `countsuccess </rptools/wiki/countsuccess>`__
+                        -  `clearRolls <clearRolls>`__
+                        -  `countsuccess <countsuccess>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: D
                            :name: d
 
-                        -  `d </rptools/wiki/d>`__
-                        -  `dice </rptools/wiki/dice>`__
-                        -  `drop </rptools/wiki/drop>`__
+                        -  `d <d>`__
+                        -  `dice <dice>`__
+                        -  `drop <drop>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: E
                            :name: e
 
-                        -  `explode </rptools/wiki/explode>`__
-                        -  `explodingSuccess </rptools/wiki/explodingSuccess>`__
+                        -  `explode <explode>`__
+                        -  `explodingSuccess <explodingSuccess>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: F
                            :name: f
 
-                        -  `f </rptools/wiki/f>`__
-                        -  `fudge </rptools/wiki/fudge>`__
+                        -  `f <f>`__
+                        -  `fudge <fudge>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getNewRolls </rptools/wiki/getNewRolls>`__
-                        -  `getRolled </rptools/wiki/getRolled>`__
+                        -  `getNewRolls <getNewRolls>`__
+                        -  `getRolled <getRolled>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: H
                            :name: h
 
-                        -  `hero </rptools/wiki/hero>`__
-                        -  `herobody </rptools/wiki/herobody>`__
-                        -  `herostun </rptools/wiki/herostun>`__
+                        -  `hero <hero>`__
+                        -  `herobody <herobody>`__
+                        -  `herostun <herostun>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: K
                            :name: k
 
-                        -  `keep </rptools/wiki/keep>`__
+                        -  `keep <keep>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: O
                            :name: o
 
-                        -  `openTest </rptools/wiki/openTest>`__
+                        -  `openTest <openTest>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `reroll </rptools/wiki/reroll>`__
-                        -  `roll </rptools/wiki/roll>`__
+                        -  `reroll <reroll>`__
+                        -  `roll <roll>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `sr4 </rptools/wiki/sr4>`__
-                        -  `sr4e </rptools/wiki/sr4e>`__
-                        -  `success </rptools/wiki/success>`__
+                        -  `sr4 <sr4>`__
+                        -  `sr4e <sr4e>`__
+                        -  `success <success>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: U
                            :name: u
 
-                        -  `u </rptools/wiki/u>`__
-                        -  `ubiquity </rptools/wiki/ubiquity>`__
+                        -  `u <u>`__
+                        -  `ubiquity <ubiquity>`__
 
       .. container:: printfooter
 

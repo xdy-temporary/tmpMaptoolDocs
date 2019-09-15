@@ -107,8 +107,8 @@ json.rolls - MapToolDoc
          .. container:: template_also
 
             `Introduction to JSON
-            Datatypes </rptools/wiki/Introduction_to_JSON_Datatypes>`__
-            , `json.objrolls() </rptools/wiki/json.objrolls>`__
+            Datatypes <Introduction_to_JSON_Datatypes>`__
+            , `json.objrolls() <json.objrolls>`__
 
       .. container:: printfooter
 

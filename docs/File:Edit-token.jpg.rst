@@ -73,7 +73,7 @@ File:Edit-token.jpg - MapToolDoc
             ======= ============================================================== ================================================== ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                      Thumbnail                                          Dimensions        User                                                                                                                                                                   Comment
             ======= ============================================================== ================================================== ================= ====================================================================================================================================================================== =======
-            current `13:23, 30 March 2009 </maptool/images/0/03/Edit-token.jpg>`__ |Thumbnail for version as of 13:23, 30 March 2009| 589 × 538 (32 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `13:23, 30 March 2009 </maptool/images/0/03/Edit-token.jpg>`__ |Thumbnail for version as of 13:23, 30 March 2009| 589 × 538 (32 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= ============================================================== ================================================== ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,27 +87,27 @@ File:Edit-token.jpg - MapToolDoc
             The following 11 pages link to this file:
 
             -  `Introduction to
-               Mapping </rptools/wiki/Introduction_to_Mapping>`__
+               Mapping <Introduction_to_Mapping>`__
             -  `Introduction to
-               Mapping/de </rptools/wiki/Introduction_to_Mapping/de>`__
+               Mapping/de <Introduction_to_Mapping/de>`__
             -  `Introduction to
-               Mapping/es </rptools/wiki/Introduction_to_Mapping/es>`__
+               Mapping/es <Introduction_to_Mapping/es>`__
             -  `Introduction to
-               Mapping/fr </rptools/wiki/Introduction_to_Mapping/fr>`__
+               Mapping/fr <Introduction_to_Mapping/fr>`__
             -  `Introduction to
-               Mapping/it </rptools/wiki/Introduction_to_Mapping/it>`__
+               Mapping/it <Introduction_to_Mapping/it>`__
             -  `Introduction to
-               Mapping/ja </rptools/wiki/Introduction_to_Mapping/ja>`__
+               Mapping/ja <Introduction_to_Mapping/ja>`__
             -  `Introduction to
-               Tokens </rptools/wiki/Introduction_to_Tokens>`__
+               Tokens <Introduction_to_Tokens>`__
             -  `Introduction to
-               Tokens/es </rptools/wiki/Introduction_to_Tokens/es>`__
+               Tokens/es <Introduction_to_Tokens/es>`__
             -  `Introduction to
-               Tokens/fr </rptools/wiki/Introduction_to_Tokens/fr>`__
+               Tokens/fr <Introduction_to_Tokens/fr>`__
             -  `Introduction to
-               Tokens/it </rptools/wiki/Introduction_to_Tokens/it>`__
+               Tokens/it <Introduction_to_Tokens/it>`__
             -  `Introduction to
-               Tokens/ja </rptools/wiki/Introduction_to_Tokens/ja>`__
+               Tokens/ja <Introduction_to_Tokens/ja>`__
 
       .. container:: printfooter
 

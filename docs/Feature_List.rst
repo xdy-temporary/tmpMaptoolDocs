@@ -42,8 +42,8 @@ Feature List - MapToolDoc
 
          .. container:: template_languages
 
-            Languages:  `English </rptools/wiki/Shortcut_Keys>`__\ 
-             • \ `日本語 </rptools/wiki/Shortcut_Keys/ja>`__\ 
+            Languages:  `English <Shortcut_Keys>`__\ 
+             • \ `日本語 <Shortcut_Keys/ja>`__\ 
 
          This list is compiled for Maptools version 1.3b86. If fairly
          extensive but still misses quite a lot of entries. It will
@@ -367,7 +367,7 @@ Feature List - MapToolDoc
          `here <http://forums.rptools.net/viewtopic.php?f=46&t=16066>`__.
          The web-post includes a full list of all features, tutorials on
          how to use and install it.
-         --`Wolph42 </rptools/wiki/User:Wolph42>`__ 15:18, 11 May 2011
+         --`Wolph42 <User:Wolph42>`__ 15:18, 11 May 2011
          (UTC)
 
       .. container:: printfooter

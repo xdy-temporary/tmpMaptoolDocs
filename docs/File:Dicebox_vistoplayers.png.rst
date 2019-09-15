@@ -75,8 +75,8 @@ File:Dicebox vistoplayers.png - MapToolDoc
             ======= ================================================================================================ ================================================= ================== ====================================================================================================================================================================== =======================
             \       Date/Time                                                                                        Thumbnail                                         Dimensions         User                                                                                                                                                                   Comment
             ======= ================================================================================================ ================================================= ================== ====================================================================================================================================================================== =======================
-            current `22:33, 25 July 2009 </maptool/images/d/d7/Dicebox_vistoplayers.png>`__                          |Thumbnail for version as of 22:33, 25 July 2009| 597 × 547 (183 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
-            \       `22:32, 25 July 2009 </maptool/images/archive/d/d7/20090725223356%21Dicebox_vistoplayers.png>`__ |Thumbnail for version as of 22:32, 25 July 2009| 597 × 547 (197 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Dice box configuration.
+            current `22:33, 25 July 2009 </maptool/images/d/d7/Dicebox_vistoplayers.png>`__                          |Thumbnail for version as of 22:33, 25 July 2009| 597 × 547 (183 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
+            \       `22:32, 25 July 2009 </maptool/images/archive/d/d7/20090725223356%21Dicebox_vistoplayers.png>`__ |Thumbnail for version as of 22:32, 25 July 2009| 597 × 547 (197 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Dice box configuration.
             ======= ================================================================================================ ================================================= ================== ====================================================================================================================================================================== =======================
 
          -  You cannot overwrite this file.
@@ -89,8 +89,8 @@ File:Dicebox vistoplayers.png - MapToolDoc
 
             The following 2 pages link to this file:
 
-            -  `Dice Box </rptools/wiki/Dice_Box>`__
-            -  `Dice Box/ja </rptools/wiki/Dice_Box/ja>`__
+            -  `Dice Box <Dice_Box>`__
+            -  `Dice Box/ja <Dice_Box/ja>`__
 
       .. container:: printfooter
 

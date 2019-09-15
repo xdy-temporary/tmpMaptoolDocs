@@ -62,7 +62,7 @@ setPenColor - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -119,7 +119,7 @@ setPenColor - MapToolDoc
 
          .. container:: template_also
 
-            `getPenColor() </rptools/wiki/getPenColor>`__
+            `getPenColor() <getPenColor>`__
 
       .. container:: printfooter
 

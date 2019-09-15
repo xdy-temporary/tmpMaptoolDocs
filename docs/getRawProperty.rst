@@ -55,7 +55,7 @@ getRawProperty - MapToolDoc
          .. container:: template_description
 
             Gets the unevaluated value of a `token
-            property </rptools/wiki/Token:token_property>`__, returns
+            property <Token:token_property>`__, returns
             ``""`` if the property is empty. This will not return the
             property's default value.
 

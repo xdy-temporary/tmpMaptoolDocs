@@ -64,9 +64,9 @@ Category:Proposed Change - MapToolDoc
                   .. rubric:: G
                      :name: g
 
-                  -  `getInfo </rptools/wiki/getInfo>`__
-                  -  `getTokenX </rptools/wiki/getTokenX>`__
-                  -  `getTokenY </rptools/wiki/getTokenY>`__
+                  -  `getInfo <getInfo>`__
+                  -  `getTokenX <getTokenX>`__
+                  -  `getTokenY <getTokenY>`__
 
       .. container:: printfooter
 

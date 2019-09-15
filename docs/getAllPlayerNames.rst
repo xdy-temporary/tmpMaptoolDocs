@@ -46,7 +46,7 @@ getAllPlayerNames - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -54,7 +54,7 @@ getAllPlayerNames - MapToolDoc
 
          .. container:: template_description
 
-            Gets a `string list </rptools/wiki/Macros:string_list>`__
+            Gets a `string list <Macros:string_list>`__
             containing the names of all the players that are connected.
 
          .. rubric:: Usage
@@ -76,7 +76,7 @@ getAllPlayerNames - MapToolDoc
          values in the list; if it is not specified then it defaults to
          "``,``". When ``delim`` is the string "``json``" the return
          value will be in the form of a `JSON
-         Array </rptools/wiki/JSON_Array>`__.
+         Array <JSON_Array>`__.
 
          .. rubric:: Example
             :name: example

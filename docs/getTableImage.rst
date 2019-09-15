@@ -52,7 +52,7 @@ getTableImage - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -63,7 +63,7 @@ getTableImage - MapToolDoc
             Gets the `asset
             id </maptool/index.php?title=Asset_ID&action=edit&redlink=1>`__
             for the image of the current row for the given table. See
-            `setTableRoll() </rptools/wiki/setTableRoll>`__ to learn how
+            `setTableRoll() <setTableRoll>`__ to learn how
             to set the current row.
 
          .. rubric:: Usage

@@ -103,7 +103,7 @@ Guide to onTokenMove - MapToolDoc
          background layer. That tokens path is available as content of
          ``macro.args``. The moved token is the token in context, so you
          can get its id with
-         `currentToken() </rptools/wiki/currentToken>`__.
+         `currentToken() <currentToken>`__.
 
          .. rubric:: onMultipleTokensMove
             :name: onmultipletokensmove
@@ -126,7 +126,7 @@ Guide to onTokenMove - MapToolDoc
          .. rubric:: How to set it up
             :name: how-to-set-it-up
 
-         #. You need a `Library Token </rptools/wiki/Library_Token>`__.
+         #. You need a `Library Token <Library_Token>`__.
             You'll find some details if you follow that link, but its
             simply a token named "Lib:something" that is a NPC and
             visible to players.
@@ -144,10 +144,10 @@ Guide to onTokenMove - MapToolDoc
          context of these events.
 
          | 
-         | ```tokens.denyMove`` </rptools/wiki/tokens.denyMove>`__ has
+         | ```tokens.denyMove`` <tokens.denyMove>`__ has
            to be set to ``1`` to cancel the current movement.
 
-         ```tokens.moveCount`` </rptools/wiki/tokens.moveCount>`__
+         ```tokens.moveCount`` <tokens.moveCount>`__
          contains the number of tokens moved.
 
          .. rubric:: Paths
@@ -216,14 +216,14 @@ Guide to onTokenMove - MapToolDoc
          .. rubric:: getLastPath()
             :name: getlastpath
 
-         `getLastPath() </rptools/wiki/getLastPath>`__ returns the last
+         `getLastPath() <getLastPath>`__ returns the last
          path. Note that - if you use this in ``onTokenMove`` - it
          returns exactly the same as ``macro.args``. *(requires b74+)*
 
          .. rubric:: movedOverPoints(arrayOfCoordinates)
             :name: movedoverpointsarrayofcoordinates
 
-         `movedOverPoints() </rptools/wiki/movedOverPoints>`__ returns
+         `movedOverPoints() <movedOverPoints>`__ returns
          an array of coordinates with all "hit" cells within a shape
          formed by the specified array of coordinates. *(requires b75+)*
 
@@ -232,7 +232,7 @@ Guide to onTokenMove - MapToolDoc
          .. rubric:: movedOverToken(tokenName, [lastPath])
             :name: movedovertokentokenname-lastpath
 
-         `movedOverToken() </rptools/wiki/movedOverToken>`__ returns an
+         `movedOverToken() <movedOverToken>`__ returns an
          array of coordinates with all "hit" cells where the moved token
          crosses the specified token. *(requires b74+)*
 
@@ -242,7 +242,7 @@ Guide to onTokenMove - MapToolDoc
          .. rubric:: getMoveCount()
             :name: getmovecount
 
-         `getMoveCount() </rptools/wiki/getMoveCount>`__ returns the
+         `getMoveCount() <getMoveCount>`__ returns the
          calculated move cost according to the selected move metric.
          *(requires b76+)*
 

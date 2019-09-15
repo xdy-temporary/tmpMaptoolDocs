@@ -130,7 +130,7 @@ ubiquity - MapToolDoc
          .. container:: template_also
 
             For another method of rolling dice, see `Dice
-            Expressions </rptools/wiki/Dice_Expressions>`__.
+            Expressions <Dice_Expressions>`__.
 
       .. container:: printfooter
 

@@ -122,7 +122,7 @@ ln - MapToolDoc
 
             `Natural
             logarithm <http://en.wikipedia.org/wiki/Natural_logarithm>`__,
-            `power() </rptools/wiki/power>`__
+            `power() <power>`__
 
       .. container:: printfooter
 

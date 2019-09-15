@@ -57,7 +57,7 @@ getSpeech - MapToolDoc
             Returns the
             `speech </maptool/index.php?title=Token:speech&action=edit&redlink=1>`__
             value from the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage

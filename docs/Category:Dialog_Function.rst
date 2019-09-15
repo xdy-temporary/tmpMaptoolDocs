@@ -61,17 +61,17 @@ Category:Dialog Function - MapToolDoc
                   .. rubric:: C
                      :name: c
 
-                  -  `closeDialog </rptools/wiki/closeDialog>`__
+                  -  `closeDialog <closeDialog>`__
 
                   .. rubric:: G
                      :name: g
 
-                  -  `getDialogProperties </rptools/wiki/getDialogProperties>`__
+                  -  `getDialogProperties <getDialogProperties>`__
 
                   .. rubric:: I
                      :name: i
 
-                  -  `isDialogVisible </rptools/wiki/isDialogVisible>`__
+                  -  `isDialogVisible <isDialogVisible>`__
 
       .. container:: printfooter
 

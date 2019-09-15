@@ -50,7 +50,7 @@ listFind - MapToolDoc
          .. container:: template_description
 
             Returns the index of the first occurrence of a value in a
-            `string list </rptools/wiki/Macros:string_list>`__. If the
+            `string list <Macros:string_list>`__. If the
             value is not found then -1 is returned.
 
          .. rubric:: Usage
@@ -74,7 +74,7 @@ listFind - MapToolDoc
 
          If delim is not specified then the default value of ',' is used
          as the value separator in the `string
-         list </rptools/wiki/Macros:string_list>`__
+         list <Macros:string_list>`__
 
          .. rubric:: Examples
             :name: examples

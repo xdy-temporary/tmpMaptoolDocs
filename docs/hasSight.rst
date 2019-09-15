@@ -55,7 +55,7 @@ hasSight - MapToolDoc
          .. container:: template_description
 
             Returns 1 if the `Current
-            Token </rptools/wiki/Current_Token>`__ has
+            Token <Current_Token>`__ has
             `sight </maptool/index.php?title=Token:sight&action=edit&redlink=1>`__.
 
          .. rubric:: Usage
@@ -81,12 +81,12 @@ hasSight - MapToolDoc
 
          -  ``id`` - The ``id`` of the token to return the sight.
             Defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.

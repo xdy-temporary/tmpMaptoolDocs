@@ -62,7 +62,7 @@ getTerrainModifier - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -122,7 +122,7 @@ getTerrainModifier - MapToolDoc
 
          .. container:: template_also
 
-            `setTerrainModifier() </rptools/wiki/setTerrainModifier>`__
+            `setTerrainModifier() <setTerrainModifier>`__
 
       .. container:: printfooter
 

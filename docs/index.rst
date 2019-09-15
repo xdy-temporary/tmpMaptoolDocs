@@ -51,7 +51,7 @@ MapToolDoc
          finding exactly what you need may take a little effort at
          times. If you would like to help contribute to the maintenance
          of this wiki feel free to create an account and take a look at
-         our `editing guidelines </rptools/wiki/Editor>`__.
+         our `editing guidelines <Editor>`__.
          Unfortunately due to a large amount of spam from new user
          accounts you will need to send a PM to Craig on the RPTools
          forums (http://forums.rptools.net) to create an account.
@@ -64,96 +64,96 @@ MapToolDoc
          |    :name: basic-maptool-use       |    :name: macro-technical-referen |
          |                                   | ce                                |
          | -  `MapTool                       |                                   |
-         |    FAQ </rptools/wiki/MapTool_FAQ | -  `Macro                         |
-         | >`__                              |    Reference </rptools/wiki/Categ |
+         |    FAQ <MapTool_FAQ | -  `Macro                         |
+         | >`__                              |    Reference <Categ |
          | -  `Introduction to               | ory:Macro>`__                     |
-         |    Mapping </rptools/wiki/Introdu | -  `List of                       |
-         | ction_to_Mapping>`__              |    Functions </rptools/wiki/Categ |
+         |    Mapping <Introdu | -  `List of                       |
+         | ction_to_Mapping>`__              |    Functions <Categ |
          | -  `Introduction to Game          | ory:Macro_Function>`__            |
-         |    Hosting </rptools/wiki/Introdu | -  `Branching and Looping         |
-         | ction_to_Game_Hosting>`__         |    Options </rptools/wiki/Macros: |
+         |    Hosting <Introdu | -  `Branching and Looping         |
+         | ction_to_Game_Hosting>`__         |    Options <Macros: |
          | -  `Introduction to               | Branching_and_Looping>`__         |
-         |    Tokens </rptools/wiki/Introduc | -  `Variable                      |
-         | tion_to_Tokens>`__                |    Types </rptools/wiki/Variable_ |
+         |    Tokens <Introduc | -  `Variable                      |
+         | tion_to_Tokens>`__                |    Types <Variable_ |
          | -  `Introduction to               | Types>`__                         |
-         |    Properties </rptools/wiki/Intr | -  `Library                       |
-         | oduction_to_Properties>`__        |    Token </rptools/wiki/Library_T |
+         |    Properties <Intr | -  `Library                       |
+         | oduction_to_Properties>`__        |    Token <Library_T |
          | -  `Introduction to Macro         | oken>`__                          |
-         |    Writing </rptools/wiki/Introdu | -  `Special                       |
-         | ction_to_Macro_Writing>`__        |    Variables </rptools/wiki/Categ |
+         |    Writing <Introdu | -  `Special                       |
+         | ction_to_Macro_Writing>`__        |    Variables <Categ |
          |                                   | ory:Special_Variable>`__          |
          |    -  `Introduction to Macro      | -  `List of                       |
-         |       Branching </rptools/wiki/In |    events </rptools/wiki/Category |
+         |       Branching <In |    events <Category |
          | troduction_to_Macro_Branching>`__ | :Event>`__                        |
          |    -  `More Branching             | -  `Macro                         |
-         |       Options </rptools/wiki/More |    Tutorials </rptools/wiki/Categ |
+         |       Options <More |    Tutorials <Categ |
          | _Branching_Options>`__            | ory:Tutorial>`__                  |
          |    -  `Introduction to Macro      | -  `Macros How                    |
-         |       Loops </rptools/wiki/Introd |    To </rptools/wiki/Category:How |
+         |       Loops <Introd |    To <Category:How |
          | uction_to_Macro_Loops>`__         | _To>`__                           |
          |                                   | -  `Macro Code                    |
-         | -  `Introduction to Vision        |    Cookbook </rptools/wiki/Catego |
-         |    Blocking </rptools/wiki/Introd | ry:Cookbook>`__                   |
+         | -  `Introduction to Vision        |    Cookbook <Catego |
+         |    Blocking <Introd | ry:Cookbook>`__                   |
          | uction_to_Vision_Blocking>`__     | -  `Macro Tips and                |
-         | -  `Introduction to Lights and    |    Tricks </rptools/wiki/Macro_Ti |
-         |    Sights </rptools/wiki/Introduc | ps_and_Tricks>`__                 |
+         | -  `Introduction to Lights and    |    Tricks <Macro_Ti |
+         |    Sights <Introduc | ps_and_Tricks>`__                 |
          | tion_to_Lights_and_Sights>`__     | -  `Macro                         |
          | -  `Introduction to Campaign      |    FAQ </maptool/index.php?title= |
-         |    Repositories </rptools/wiki/In | Macro_FAQ&action=edit&redlink=1>` |
+         |    Repositories <In | Macro_FAQ&action=edit&redlink=1>` |
          | troduction_to_Campaign_Repositori | __                                |
          | es>`__                            |                                   |
          | -  `About Java Memory             | .. rubric:: Tokens                |
-         |    Settings </rptools/wiki/Stack_ |    :name: tokens                  |
+         |    Settings <Stack_ |    :name: tokens                  |
          | Size>`__                          |                                   |
          | -  `MapTool                       | -  `MapTool                       |
-         |    Preferences </rptools/wiki/Map |    Tokens </rptools/wiki/Token>`_ |
+         |    Preferences <Map |    Tokens <Token>`_ |
          | Tool_Preferences>`__              | _                                 |
          | -  `Network Connection Problems   | -  `Token                         |
-         |    and                            |    Types </rptools/wiki/Token_Typ |
-         |    Solutions </rptools/wiki/Netwo | es>`__                            |
+         |    and                            |    Types <Token_Typ |
+         |    Solutions <Netwo | es>`__                            |
          | rk_Connection_Problems_and_Soluti | -  `TokenTool QuickStart          |
-         | ons>`__                           |    Guide </rptools/wiki/TokenTool |
+         | ons>`__                           |    Guide <TokenTool |
          | -  `Feature                       | _QuickStart>`__                   |
-         |    List </rptools/wiki/Feature_Li |                                   |
+         |    List <Feature_Li |                                   |
          | st>`__                            | .. rubric:: Miscellaneous         |
          | -  `Shortcut                      |    :name: miscellaneous           |
-         |    Keys </rptools/wiki/Shortcut_K |                                   |
+         |    Keys <Shortcut_K |                                   |
          | eys>`__                           | -  `Supported CSS                 |
-         | -  `MapTool                       |    Styles </rptools/wiki/Supporte |
-         |    Glossary </rptools/wiki/Glossa | d_CSS_Styles>`__                  |
+         | -  `MapTool                       |    Styles <Supporte |
+         |    Glossary <Glossa | d_CSS_Styles>`__                  |
          | ry>`__                            | -  `Sample                        |
-         |                                   |    Ruleset </rptools/wiki/Sample_ |
+         |                                   |    Ruleset <Sample_ |
          | .. rubric:: Chat & Dice Rolling   | Ruleset>`__                       |
          |    :name: chat-dice-rolling       | -  `Java 64 fails when using      |
-         |                                   |    Launcher </rptools/wiki/Java_6 |
+         |                                   |    Launcher <Java_6 |
          | -  `Chat                          | 4_fails_when_using_Launcher>`__   |
-         |    Commands </rptools/wiki/Chat_C | -  `Command Line                  |
-         | ommands>`__                       |    Options </rptools/wiki/Command |
+         |    Commands <Chat_C | -  `Command Line                  |
+         | ommands>`__                       |    Options <Command |
          | -  `Dice                          | _Line_Options>`__                 |
-         |    Expressions </rptools/wiki/Dic | -  `MapTool ChangeLog (by build   |
-         | e_Expressions>`__                 |    version) </rptools/wiki/MapToo |
+         |    Expressions <Dic | -  `MapTool ChangeLog (by build   |
+         | e_Expressions>`__                 |    version) <MapToo |
          | -  `[ ] Roll formatting           | l_ChangeLog_(by_build_version)>`_ |
-         |    options </rptools/wiki/Macros: | _                                 |
+         |    options <Macros: | _                                 |
          | Roll:types>`__                    |                                   |
          | -  `Roll visibility               |                                   |
-         |    options </rptools/wiki/Macros: |                                   |
+         |    options <Macros: |                                   |
          | Roll:output>`__                   |                                   |
          |                                   |                                   |
          | .. rubric:: Resources for Users   |                                   |
          |    :name: resources-for-users     |                                   |
          |                                   |                                   |
          | -  `Dice                          |                                   |
-         |    Box </rptools/wiki/Dice_Box>`_ |                                   |
+         |    Box <Dice_Box>`_ |                                   |
          | _                                 |                                   |
-         | -  `Frameworks </rptools/wiki/Fra |                                   |
+         | -  `Frameworks <Fra |                                   |
          | meworks>`__                       |                                   |
          +-----------------------------------+-----------------------------------+
 
          .. container:: template_languages
 
             Languages:  English
-             • \ `Deutsch </rptools/wiki/Main_Page/de>`__\ 
-             • \ `español </rptools/wiki/Main_Page/es>`__\  • \ `français </rptools/wiki/Main_Page/fr>`__\  • \ `italiano </rptools/wiki/Main_Page/it>`__\  • \ `日本語 </rptools/wiki/Main_Page/ja>`__\  • \ `한국어 </rptools/wiki/Main_Page/ko>`__\ 
+             • \ `Deutsch <Main_Page/de>`__\ 
+             • \ `español <Main_Page/es>`__\  • \ `français <Main_Page/fr>`__\  • \ `italiano <Main_Page/it>`__\  • \ `日本語 <Main_Page/ja>`__\  • \ `한국어 <Main_Page/ko>`__\ 
 
       .. container:: printfooter
 

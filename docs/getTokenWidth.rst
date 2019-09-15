@@ -91,12 +91,12 @@ getTokenWidth - MapToolDoc
 
          -  ``id`` - The token id of the token to check for its width,
             defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -136,10 +136,10 @@ getTokenWidth - MapToolDoc
 
          .. container:: template_also
 
-            `getTokenHeight() </rptools/wiki/getTokenHeight>`__
-            `getTokenNativeHeight() </rptools/wiki/getTokenNativeHeight>`__
+            `getTokenHeight() <getTokenHeight>`__
+            `getTokenNativeHeight() <getTokenNativeHeight>`__
 
-            `getTokenNativeWidth() </rptools/wiki/getTokenNativeWidth>`__
+            `getTokenNativeWidth() <getTokenNativeWidth>`__
 
          .. rubric:: Version Changes
             :name: version-changes

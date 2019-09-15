@@ -61,13 +61,13 @@ herobody - MapToolDoc
          .. container:: template_description
 
             Generates random numbers to emulate dice rolls; this is the
-            partner function to `herostun() </rptools/wiki/herostun>`__.
+            partner function to `herostun() <herostun>`__.
             The parameters used when calling this function must be
             exactly the same as the parameters used when calling
-            `herostun() </rptools/wiki/herostun>`__, and it must be
+            `herostun() <herostun>`__, and it must be
             called during the same macro as
-            `herostun() </rptools/wiki/herostun>`__ or an error will
-            result. Refer to `herostun() </rptools/wiki/herostun>`__ for
+            `herostun() <herostun>`__ or an error will
+            result. Refer to `herostun() <herostun>`__ for
             full usage details.
 
          .. rubric:: Usage
@@ -84,9 +84,9 @@ herobody - MapToolDoc
          **Parameters**
 
          -  ``times`` - The same ``times`` parameter that was used when
-            calling `herostun() </rptools/wiki/herostun>`__.
+            calling `herostun() <herostun>`__.
          -  ``sides`` - The same ``sides`` parameter that was used when
-            calling `herostun() </rptools/wiki/herostun>`__.
+            calling `herostun() <herostun>`__.
 
          .. rubric:: Examples
             :name: examples
@@ -137,9 +137,9 @@ herobody - MapToolDoc
          .. container:: template_also
 
             Used in conjunction with
-            `herostun() </rptools/wiki/herostun>`__
+            `herostun() <herostun>`__
             For another method of rolling dice, see `Dice
-            Expressions </rptools/wiki/Dice_Expressions>`__.
+            Expressions <Dice_Expressions>`__.
 
       .. container:: printfooter
 

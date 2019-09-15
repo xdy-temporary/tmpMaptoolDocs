@@ -65,10 +65,10 @@ json.count - MapToolDoc
          .. container:: template_description
 
             Returns the number of occurrences of a value in a `JSON
-            Array </rptools/wiki/JSON_Array>`__. If the value does
-            not occur in the `JSON Array </rptools/wiki/JSON_Array>`__
+            Array <JSON_Array>`__. If the value does
+            not occur in the `JSON Array <JSON_Array>`__
             then ``-1`` is returned. The index for the `JSON
-            Array </rptools/wiki/JSON_Array>`__
+            Array <JSON_Array>`__
 
             starts at ``0``.
 
@@ -93,7 +93,7 @@ json.count - MapToolDoc
 
          **Parameters**
 
-         -  ``array`` - The `JSON Array </rptools/wiki/JSON_Array>`__ to
+         -  ``array`` - The `JSON Array <JSON_Array>`__ to
             search.
          -  ``value`` - The value to count the occurrences of.
          -  ``start`` - The index to start searching from, if not
@@ -134,7 +134,7 @@ json.count - MapToolDoc
 
          .. container:: template_also
 
-            `json.contains() </rptools/wiki/json.contains>`__
+            `json.contains() <json.contains>`__
 
       .. container:: printfooter
 

@@ -62,7 +62,7 @@ movedOverDrawing - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -93,7 +93,7 @@ movedOverDrawing - MapToolDoc
             The easiest way to discover a drawing's Id is via the Draw
             Explorer interface.
          -  ``path`` - JSON array of X/Y coordinate such as that
-            returned by `getLastPath() </rptools/wiki/getLastPath>`__
+            returned by `getLastPath() <getLastPath>`__
 
          .. rubric:: Examples
             :name: examples
@@ -121,8 +121,8 @@ movedOverDrawing - MapToolDoc
 
          .. container:: template_also
 
-            `getDrawingInfo() </rptools/wiki/getDrawingInfo>`__
-            `getLastPath() </rptools/wiki/getLastPath>`__
+            `getDrawingInfo() <getDrawingInfo>`__
+            `getLastPath() <getLastPath>`__
 
       .. container:: printfooter
 

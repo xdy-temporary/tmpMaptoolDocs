@@ -65,23 +65,23 @@ Category:String List Function - MapToolDoc
                         .. rubric:: L
                            :name: l
 
-                        -  `listAppend </rptools/wiki/listAppend>`__
-                        -  `listContains </rptools/wiki/listContains>`__
-                        -  `listCount </rptools/wiki/listCount>`__
-                        -  `listDelete </rptools/wiki/listDelete>`__
-                        -  `listFind </rptools/wiki/listFind>`__
-                        -  `listFormat </rptools/wiki/listFormat>`__
-                        -  `listGet </rptools/wiki/listGet>`__
-                        -  `listInsert </rptools/wiki/listInsert>`__
-                        -  `listReplace </rptools/wiki/listReplace>`__
-                        -  `listSort </rptools/wiki/listSort>`__
+                        -  `listAppend <listAppend>`__
+                        -  `listContains <listContains>`__
+                        -  `listCount <listCount>`__
+                        -  `listDelete <listDelete>`__
+                        -  `listFind <listFind>`__
+                        -  `listFormat <listFormat>`__
+                        -  `listGet <listGet>`__
+                        -  `listInsert <listInsert>`__
+                        -  `listReplace <listReplace>`__
+                        -  `listSort <listSort>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `stringToList </rptools/wiki/stringToList>`__
+                        -  `stringToList <stringToList>`__
 
       .. container:: printfooter
 

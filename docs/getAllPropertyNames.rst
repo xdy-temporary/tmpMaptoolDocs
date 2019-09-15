@@ -66,19 +66,19 @@ getAllPropertyNames - MapToolDoc
          .. container:: template_description
 
             Gets a list containing the `token
-            property </rptools/wiki/Token:token_property>`__ names that
+            property <Token:token_property>`__ names that
             are defined in the `campaign
             properties </maptool/index.php?title=Campaign:campaign_properties&action=edit&redlink=1>`__.
             The type of the value returned depends on the delimiter
             parameter.
 
             -  If the delimiter is not specified then a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                and the default value of ``","`` is used.
             -  If the delimiter is ``"json"`` then a `JSON
-               Array </rptools/wiki/JSON_Array>`__ is returned.
+               Array <JSON_Array>`__ is returned.
             -  Otherwise, a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the delimiter passed in.
 
              
@@ -111,16 +111,16 @@ getAllPropertyNames - MapToolDoc
                      getAllPropertyNames(type, delim)
 
          If type is specified then the `string
-         list </rptools/wiki/Macros:string_list>`__ contains the
-         `property </rptools/wiki/Token:token_property>`__ names for
+         list <Macros:string_list>`__ contains the
+         `property <Token:token_property>`__ names for
          that `token property
-         type </rptools/wiki/Token:token_property_type>`__, otherwise it
+         type <Token:token_property_type>`__, otherwise it
          will contain the `token
-         property </rptools/wiki/Token:token_property>`__ names for all
+         property <Token:token_property>`__ names for all
          `token property
-         types </rptools/wiki/Token:token_property_type>`__. If delim is
+         types <Token:token_property_type>`__. If delim is
          specified then it is used to separate the values in the `string
-         list </rptools/wiki/Macros:string_list>`__, if it is not
+         list <Macros:string_list>`__, if it is not
          specified then it defaults to ','.
 
          .. rubric:: Examples

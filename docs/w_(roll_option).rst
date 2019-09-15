@@ -85,13 +85,13 @@ w (roll option) - MapToolDoc
                      [w(names): d20]
 
          This roll option may be combined with the
-         `[s:] </rptools/wiki/s_(roll_option)>`__,
-         `[g:] </rptools/wiki/g_(roll_option)>`__,
-         `[gt:] </rptools/wiki/gt_(roll_option)>`__, and
-         `[st:] </rptools/wiki/st_(roll_option)>`__ options. Blank
+         `[s:] <s_(roll_option)>`__,
+         `[g:] <g_(roll_option)>`__,
+         `[gt:] <gt_(roll_option)>`__, and
+         `[st:] <st_(roll_option)>`__ options. Blank
          messages will not be shown to a certain user if an entire
          message is invisible to that user due to these roll options or
-         the `[h:] </rptools/wiki/h_(roll_option)>`__ roll option.
+         the `[h:] <h_(roll_option)>`__ roll option.
 
       .. container:: printfooter
 

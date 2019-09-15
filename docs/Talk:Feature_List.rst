@@ -49,7 +49,7 @@ Talk:Feature List - MapToolDoc
          help document, I'm following this convention with my edits. If
          this is not intentional, or others see value in peppering links
          to expanded articles within the feature list, please make the
-         case. --`Melek </rptools/wiki/User:Melek>`__
+         case. --`Melek <User:Melek>`__
          (`talk </maptool/index.php?title=User_talk:Melek&action=edit&redlink=1>`__)
          06:17, 14 September 2019 (UTC)
 

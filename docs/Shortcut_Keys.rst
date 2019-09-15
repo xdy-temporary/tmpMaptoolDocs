@@ -43,7 +43,7 @@ Shortcut Keys - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/Shortcut_Keys/ja>`__\ 
+             • \ `日本語 <Shortcut_Keys/ja>`__\ 
 
          Most of the Shortcut Keys in Maptool 1.3b76+ can be found in
          the menu; some however are not listed. These "stealth" keys are
@@ -181,7 +181,7 @@ Shortcut Keys - MapToolDoc
          .. rubric:: Chat Related
             :name: chat-related
 
-         See `Chat Commands </rptools/wiki/Chat_Commands>`__ for
+         See `Chat Commands <Chat_Commands>`__ for
          specifics on the **/** commands.
 
          ============== ===========================================

@@ -51,7 +51,7 @@ dialog (roll option) - MapToolDoc
          default opening size in the future.
 
          Dialogs are not dockable panels as a
-         `[frame():] </rptools/wiki/frame_(roll_option)>`__ is. Dialogs
+         `[frame():] <frame_(roll_option)>`__ is. Dialogs
          also have at least one button for dismissing the dialog.
 
          .. rubric:: Usage
@@ -73,11 +73,11 @@ dialog (roll option) - MapToolDoc
          from b50 forward)
 
          The second parameter is optional, it is a semicolon separated
-         `String Property List </rptools/wiki/String_Property_List>`__,
+         `String Property List <String_Property_List>`__,
          which could include the following parameters:
 
          The **size** parameter is a `String Property
-         List </rptools/wiki/String_Property_List>`__ that contains two
+         List <String_Property_List>`__ that contains two
          values, *width* and *height*. Those values can be measured in
          pixels (**px** and the default) or other HTML units, such as
          ems (**em**) or screen width percentages (**%**).
@@ -105,7 +105,7 @@ dialog (roll option) - MapToolDoc
 
          The **value** parameter associates arbitrary data to the frame.
          The data can be recovered through the
-         `getDialogProperties </rptools/wiki/getDialogProperties>`__
+         `getDialogProperties <getDialogProperties>`__
          function.
 
          .. rubric:: Examples

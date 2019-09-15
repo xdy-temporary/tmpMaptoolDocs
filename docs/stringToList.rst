@@ -50,13 +50,13 @@ stringToList - MapToolDoc
          .. container:: template_description
 
             Converts a string into a `string
-            list </rptools/wiki/Macros:string_list>`__ using a pattern
+            list <Macros:string_list>`__ using a pattern
             to determine separator between elements. The specified
             delimiter is used to separate the elements in the
-            `Macros:string list </rptools/wiki/Macros:string_list>`__ if
+            `Macros:string list <Macros:string_list>`__ if
             it is specified, otherwise the default value of "," is used.
             Pattern can be a `regular
-            expression </rptools/wiki/Macros:regular_expression>`__.
+            expression <Macros:regular_expression>`__.
 
          .. rubric:: Usage
             :name: usage

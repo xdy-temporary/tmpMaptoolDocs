@@ -62,7 +62,7 @@ getOwned - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -71,17 +71,17 @@ getOwned - MapToolDoc
          .. container:: template_description
 
             Returns a list containing the ids of the
-            `tokens </rptools/wiki/token>`__ on the current
+            `tokens <token>`__ on the current
             `map </maptool/index.php?title=Map&action=edit&redlink=1>`__
             that are owned by the specified player. The type of the
             value returned depends on the delimiter parameter.
 
             -  If the delimiter is not specified then a `string
-               list </rptools/wiki/String_List>`__ is returned with the
+               list <String_List>`__ is returned with the
                default value of ``","`` is used.
             -  If the delimiter ``json`` then a `json
-               array </rptools/wiki/JSON_Array>`__ is returned.
-            -  Otherwise a `string list </rptools/wiki/String_List>`__
+               array <JSON_Array>`__ is returned.
+            -  Otherwise a `string list <String_List>`__
                is returned with the delimiter passed in.
 
              
@@ -102,7 +102,7 @@ getOwned - MapToolDoc
                      getOwned(player, delim)
 
          ``delim`` is the delimiter used to separate the values in the
-         `string list </rptools/wiki/String_List>`__ which defaults to
+         `string list <String_List>`__ which defaults to
          ``","`` if not specified.
 
          .. rubric:: Example
@@ -111,7 +111,7 @@ getOwned - MapToolDoc
          .. container:: template_example
 
             To display the ids of all of the
-            `tokens </rptools/wiki/Token>`__ on the current
+            `tokens <Token>`__ on the current
             `map </maptool/index.php?title=Map&action=edit&redlink=1>`__
             by the
             `Player </maptool/index.php?title=Player&action=edit&redlink=1>`__
@@ -134,7 +134,7 @@ getOwned - MapToolDoc
 
          .. container:: template_also
 
-            `[foreach():] </rptools/wiki/foreach_(roll_option)>`__
+            `[foreach():] <foreach_(roll_option)>`__
 
          .. rubric:: Version Changes
             :name: version-changes

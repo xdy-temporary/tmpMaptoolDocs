@@ -68,7 +68,7 @@ oldFunction - MapToolDoc
             If a user-defined function redefines a standard MapTool
             function or another user-defined function -- for instance, a
             user defines a function called ``eval()``, redefining the
-            standard MapTool `eval() </rptools/wiki/eval>`__ --
+            standard MapTool `eval() <eval>`__ --
             **oldFunction()** can be used in the user-defined function
             to call the original function. When a user-defined function
             redefines an existing function, it keeps track of the
@@ -78,9 +78,9 @@ oldFunction - MapToolDoc
             function in the chain. **Note:** Do not rely on a specific
             order in the function chain unless you are sure that the
             functions will be redefined in that order. Calls to
-            `defineFunction() </rptools/wiki/defineFunction>`__ within
-            `onCampaignLoad </rptools/wiki/onCampaignLoad>`__ macros on
-            different `Library Tokens </rptools/wiki/Library_Token>`__
+            `defineFunction() <defineFunction>`__ within
+            `onCampaignLoad <onCampaignLoad>`__ macros on
+            different `Library Tokens <Library_Token>`__
             are not executed in any standard order.
 
          .. rubric:: Usage
@@ -106,7 +106,7 @@ oldFunction - MapToolDoc
 
             Within a user-defined function named ``eval()``,
             **oldFunction()** is used to call the standard MapTool
-            `eval() </rptools/wiki/eval>`__ function.
+            `eval() <eval>`__ function.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -130,7 +130,7 @@ oldFunction - MapToolDoc
 
          .. container:: template_also
 
-            `defineFunction() </rptools/wiki/defineFunction>`__
+            `defineFunction() <defineFunction>`__
 
       .. container:: printfooter
 

@@ -82,7 +82,7 @@ setZoom - MapToolDoc
 
          -  ``z`` - The zoom level of the viewport (the current zoom
             level can be seen at the bottom of the maptool screen. You
-            can also use `getZoom() </rptools/wiki/getZoom>`__. Note
+            can also use `getZoom() <getZoom>`__. Note
             that this value is given in the numerical representation
             of %. E.g. to set zoom to 50% you give 0.5 as parameter.
 
@@ -138,12 +138,12 @@ setZoom - MapToolDoc
 
          .. container:: template_also
 
-            `moveToken() </rptools/wiki/moveToken>`__,
-            `getTokenY() </rptools/wiki/getTokenY>`__,
-            `goto() </rptools/wiki/goto>`__,
-            `setViewArea() </rptools/wiki/setViewArea>`__,
+            `moveToken() <moveToken>`__,
+            `getTokenY() <getTokenY>`__,
+            `goto() <goto>`__,
+            `setViewArea() <setViewArea>`__,
 
-            `getZoom() </rptools/wiki/getZoom>`__.
+            `getZoom() <getZoom>`__.
 
       .. container:: printfooter
 

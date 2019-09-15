@@ -43,7 +43,7 @@ Queued Conditional Output - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          | **Requires MapTool 1.3b55**
          | The following is a user defined function that allows you to
@@ -159,8 +159,8 @@ Queued Conditional Output - MapToolDoc
          .. rubric:: See Also
             :name: see-also
 
-         `macroLinkText </rptools/wiki/macroLinkText>`__,
-         `execLink </rptools/wiki/execLink>`__
+         `macroLinkText <macroLinkText>`__,
+         `execLink <execLink>`__
 
       .. container:: printfooter
 

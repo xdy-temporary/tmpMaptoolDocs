@@ -66,10 +66,10 @@ getMatchingProperties - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `String List </rptools/wiki/String_List>`__ or
-            `JSON Array </rptools/wiki/JSON_Array>`__ with names of the
-            `Token Properties </rptools/wiki/Token_Property>`__ on a
-            specific `Token </rptools/wiki/Token>`__ that match the
+            Returns a `String List <String_List>`__ or
+            `JSON Array <JSON_Array>`__ with names of the
+            `Token Properties <Token_Property>`__ on a
+            specific `Token <Token>`__ that match the
             given pattern.
 
          .. rubric:: Usage
@@ -100,18 +100,18 @@ getMatchingProperties - MapToolDoc
          -  ``pattern`` - A regular expression(regex) that represents
             the pattern the properties should match.
          -  ``delim`` - The delimiter used in the `String
-            List </rptools/wiki/String_List>`__ that is returned,
+            List <String_List>`__ that is returned,
             defaults to ``","``. Returns a `JSON
-            Array </rptools/wiki/JSON_Array>`__ if ``"json"`` is
+            Array <JSON_Array>`__ if ``"json"`` is
             specified.
          -  ``id`` - The token ``id`` of the token that is checked for
             properties that match the given pattern, defaults to the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            `Current Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -122,7 +122,7 @@ getMatchingProperties - MapToolDoc
          .. container:: template_examples
 
             Say you wanted to keep an inventory list for the
-            `Token </rptools/wiki/Token>`__ you could prefix all of your
+            `Token <Token>`__ you could prefix all of your
             inventory properties with ``Inv:Category:``. For example
             ``Inv:Weapon:Longsword``.
             Then to loop through all of the inventory properties you
@@ -185,8 +185,8 @@ getMatchingProperties - MapToolDoc
 
          .. container:: template_also
 
-            `getMatchingLibProperties() </rptools/wiki/getMatchingLibProperties>`__
-            `getPropertyNames() </rptools/wiki/getPropertyNames>`__
+            `getMatchingLibProperties() <getMatchingLibProperties>`__
+            `getPropertyNames() <getPropertyNames>`__
 
          .. rubric:: Version Changes
             :name: version-changes

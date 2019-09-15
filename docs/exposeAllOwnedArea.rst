@@ -46,7 +46,7 @@ exposeAllOwnedArea - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -85,8 +85,8 @@ exposeAllOwnedArea - MapToolDoc
 
          .. container:: template_also
 
-            `exposeFOW() </rptools/wiki/exposeFOW>`__,
-            `toggleFoW() </rptools/wiki/toggleFoW>`__
+            `exposeFOW() <exposeFOW>`__,
+            `toggleFoW() <toggleFoW>`__
 
       .. container:: printfooter
 

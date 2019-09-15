@@ -122,9 +122,9 @@ Macros:Roll:output - MapToolDoc
          .. rubric:: Related Pages
             :name: related-pages
 
-         -  `Roll Types and Options </rptools/wiki/Macros:Roll:types>`__
+         -  `Roll Types and Options <Macros:Roll:types>`__
          -  `Branching and Looping Roll
-            Options </rptools/wiki/Macros:Branching_and_Looping>`__
+            Options <Macros:Branching_and_Looping>`__
 
       .. container:: printfooter
 

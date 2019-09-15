@@ -61,7 +61,7 @@ getTokens - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -230,7 +230,7 @@ getTokens - MapToolDoc
                         [r:getTokens(",", json.set("{}", "layer", json.append("[]","TOKEN","HIDDEN","OBJECT","BACKGROUND")))]
 
             -  Find and return a `JSON
-               Array </rptools/wiki/JSON_Array>`__ containing all NPC
+               Array <JSON_Array>`__ containing all NPC
                tokens that are with 2 squares or hexes of the selected
                token:
 

@@ -179,10 +179,10 @@ getViewArea - MapToolDoc
 
          .. container:: template_also
 
-            `setViewArea() </rptools/wiki/setViewArea>`__,
-            `goto() </rptools/wiki/goto>`__,
-            `setZoom() </rptools/wiki/setZoom>`__,
-            `getZoom() </rptools/wiki/getZoom>`__.
+            `setViewArea() <setViewArea>`__,
+            `goto() <goto>`__,
+            `setZoom() <setZoom>`__,
+            `getZoom() <getZoom>`__.
 
       .. container:: printfooter
 

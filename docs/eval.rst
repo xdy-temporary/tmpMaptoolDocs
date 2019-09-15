@@ -68,11 +68,11 @@ eval - MapToolDoc
             The string contains the same type of expression that is
             usually located between macro brackets (e.g **{ }** or **[r:
             2+2]**). **eval()** is commonly used to evaluate dynamically
-            built `input() </rptools/wiki/input>`__ parameters, or dice
+            built `input() <input>`__ parameters, or dice
             expressions stored in token properties. For more complex
             evaluation functions, see
-            `evalMacro() </rptools/wiki/evalMacro>`__ and
-            `execMacro() </rptools/wiki/execMacro>`__.
+            `evalMacro() <evalMacro>`__ and
+            `execMacro() <execMacro>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -154,8 +154,8 @@ eval - MapToolDoc
 
          .. container:: template_also
 
-            `evalMacro() </rptools/wiki/evalMacro>`__,
-            `execMacro() </rptools/wiki/execMacro>`__
+            `evalMacro() <evalMacro>`__,
+            `execMacro() <execMacro>`__
 
       .. container:: printfooter
 

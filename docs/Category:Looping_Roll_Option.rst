@@ -61,25 +61,25 @@ Category:Looping Roll Option - MapToolDoc
                   .. rubric:: C
                      :name: c
 
-                  -  `c (roll option) </rptools/wiki/c_(roll_option)>`__
+                  -  `c (roll option) <c_(roll_option)>`__
                   -  `code (roll
-                     option) </rptools/wiki/code_(roll_option)>`__
+                     option) <code_(roll_option)>`__
                   -  `count (roll
-                     option) </rptools/wiki/count_(roll_option)>`__
+                     option) <count_(roll_option)>`__
 
                   .. rubric:: F
                      :name: f
 
                   -  `for (roll
-                     option) </rptools/wiki/for_(roll_option)>`__
+                     option) <for_(roll_option)>`__
                   -  `foreach (roll
-                     option) </rptools/wiki/foreach_(roll_option)>`__
+                     option) <foreach_(roll_option)>`__
 
                   .. rubric:: W
                      :name: w
 
                   -  `while (roll
-                     option) </rptools/wiki/while_(roll_option)>`__
+                     option) <while_(roll_option)>`__
 
       .. container:: printfooter
 

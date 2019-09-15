@@ -78,7 +78,7 @@ File:Cprops-lighttab.png - MapToolDoc
             ======= ================================================================= ================================================ ================= ====================================================================================================================================================================== =================================
             \       Date/Time                                                         Thumbnail                                        Dimensions        User                                                                                                                                                                   Comment
             ======= ================================================================= ================================================ ================= ====================================================================================================================================================================== =================================
-            current `18:27, 7 July 2009 </maptool/images/6/6e/Cprops-lighttab.png>`__ |Thumbnail for version as of 18:27, 7 July 2009| 635 × 605 (36 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Light tab on Campaign Properties.
+            current `18:27, 7 July 2009 </maptool/images/6/6e/Cprops-lighttab.png>`__ |Thumbnail for version as of 18:27, 7 July 2009| 635 × 605 (36 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Light tab on Campaign Properties.
             ======= ================================================================= ================================================ ================= ====================================================================================================================================================================== =================================
 
          -  You cannot overwrite this file.
@@ -92,13 +92,13 @@ File:Cprops-lighttab.png - MapToolDoc
             The following 4 pages link to this file:
 
             -  `Introduction to Lights and
-               Sights </rptools/wiki/Introduction_to_Lights_and_Sights>`__
+               Sights <Introduction_to_Lights_and_Sights>`__
             -  `Introduction to Lights and
-               Sights/es </rptools/wiki/Introduction_to_Lights_and_Sights/es>`__
+               Sights/es <Introduction_to_Lights_and_Sights/es>`__
             -  `Introduction to Lights and
-               Sights/fr </rptools/wiki/Introduction_to_Lights_and_Sights/fr>`__
+               Sights/fr <Introduction_to_Lights_and_Sights/fr>`__
             -  `Introduction to Lights and
-               Sights/ja </rptools/wiki/Introduction_to_Lights_and_Sights/ja>`__
+               Sights/ja <Introduction_to_Lights_and_Sights/ja>`__
 
       .. container:: printfooter
 

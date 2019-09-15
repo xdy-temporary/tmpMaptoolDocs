@@ -108,7 +108,7 @@ while (roll option) - MapToolDoc
 
          This example demonstrates how to put multiple instructions
          inside a ``while`` loop using the
-         `[code():] </rptools/wiki/code_(roll_option)>`__ block
+         `[code():] <code_(roll_option)>`__ block
          extension.
 
          Note the use of the second parameter to ``while`` to force a

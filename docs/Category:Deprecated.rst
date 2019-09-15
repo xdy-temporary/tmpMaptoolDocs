@@ -63,15 +63,15 @@ Category:Deprecated - MapToolDoc
                   .. rubric:: G
                      :name: g
 
-                  -  `getTokenGMName </rptools/wiki/getTokenGMName>`__
-                  -  `getTokenHalo </rptools/wiki/getTokenHalo>`__
-                  -  `getTokenLabel </rptools/wiki/getTokenLabel>`__
+                  -  `getTokenGMName <getTokenGMName>`__
+                  -  `getTokenHalo <getTokenHalo>`__
+                  -  `getTokenLabel <getTokenLabel>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `setTokenGMName </rptools/wiki/setTokenGMName>`__
-                  -  `setTokenLabel </rptools/wiki/setTokenLabel>`__
+                  -  `setTokenGMName <setTokenGMName>`__
+                  -  `setTokenLabel <setTokenLabel>`__
 
       .. container:: printfooter
 

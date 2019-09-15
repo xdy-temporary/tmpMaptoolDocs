@@ -79,7 +79,7 @@ File:Vbl-map-zoomed-extents.png - MapToolDoc
             ======= ======================================================================== ================================================ ================== ====================================================================================================================================================================== =================================================
             \       Date/Time                                                                Thumbnail                                        Dimensions         User                                                                                                                                                                   Comment
             ======= ======================================================================== ================================================ ================== ====================================================================================================================================================================== =================================================
-            current `15:47, 7 July 2009 </maptool/images/7/77/Vbl-map-zoomed-extents.png>`__ |Thumbnail for version as of 15:47, 7 July 2009| 972 × 745 (534 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Sample dungeon, zoomed to see the full play area.
+            current `15:47, 7 July 2009 </maptool/images/7/77/Vbl-map-zoomed-extents.png>`__ |Thumbnail for version as of 15:47, 7 July 2009| 972 × 745 (534 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Sample dungeon, zoomed to see the full play area.
             ======= ======================================================================== ================================================ ================== ====================================================================================================================================================================== =================================================
 
          -  You cannot overwrite this file.
@@ -93,13 +93,13 @@ File:Vbl-map-zoomed-extents.png - MapToolDoc
             The following 4 pages link to this file:
 
             -  `Introduction to Vision
-               Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
+               Blocking <Introduction_to_Vision_Blocking>`__
             -  `Introduction to Vision
-               Blocking/es </rptools/wiki/Introduction_to_Vision_Blocking/es>`__
+               Blocking/es <Introduction_to_Vision_Blocking/es>`__
             -  `Introduction to Vision
-               Blocking/fr </rptools/wiki/Introduction_to_Vision_Blocking/fr>`__
+               Blocking/fr <Introduction_to_Vision_Blocking/fr>`__
             -  `Introduction to Vision
-               Blocking/ja </rptools/wiki/Introduction_to_Vision_Blocking/ja>`__
+               Blocking/ja <Introduction_to_Vision_Blocking/ja>`__
 
       .. container:: printfooter
 

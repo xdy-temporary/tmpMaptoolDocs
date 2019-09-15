@@ -65,26 +65,26 @@ Category:Map Function - MapToolDoc
                         .. rubric:: C
                            :name: c
 
-                        -  `copyMap </rptools/wiki/copyMap>`__
+                        -  `copyMap <copyMap>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getAllMapNames </rptools/wiki/getAllMapNames>`__
-                        -  `getCurrentMapName </rptools/wiki/getCurrentMapName>`__
-                        -  `getMapVisible </rptools/wiki/getMapVisible>`__
-                        -  `getVisibleMapNames </rptools/wiki/getVisibleMapNames>`__
+                        -  `getAllMapNames <getAllMapNames>`__
+                        -  `getCurrentMapName <getCurrentMapName>`__
+                        -  `getMapVisible <getMapVisible>`__
+                        -  `getVisibleMapNames <getVisibleMapNames>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `setCurrentMap </rptools/wiki/setCurrentMap>`__
-                        -  `setMapName </rptools/wiki/setMapName>`__
-                        -  `setMapVisible </rptools/wiki/setMapVisible>`__
+                        -  `setCurrentMap <setCurrentMap>`__
+                        -  `setMapName <setMapName>`__
+                        -  `setMapVisible <setMapVisible>`__
 
       .. container:: printfooter
 

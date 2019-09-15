@@ -50,7 +50,7 @@ countStrProp - MapToolDoc
          .. container:: template_description
 
             Returns the number of keys in a `string property
-            list </rptools/wiki/Macros:string_property_list>`__.
+            list <Macros:string_property_list>`__.
 
          .. rubric:: Usage
             :name: usage

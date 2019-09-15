@@ -57,7 +57,7 @@ number - MapToolDoc
             Returns the value that is passed in as a number. If the
             value can not be converted to a number then an error will
             occur. If you are unsure if a value is a number to can use
-            `isNumber() </rptools/wiki/Macros:Functions:isNumber>`__
+            `isNumber() <Macros:Functions:isNumber>`__
             before calling this function.
 
          .. rubric:: Usage

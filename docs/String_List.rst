@@ -56,12 +56,12 @@ String List - MapToolDoc
          String lists are zero-based (*i.e.*, the first item in a string
          list is item 0). The default delimiter in a string property
          list is the comma (","), however, the `String
-         Functions </rptools/wiki/Category:String_Function>`__ that work
+         Functions <Category:String_Function>`__ that work
          with string lists allow for optional arguments to permit the
          use of alternate delimiters.
 
          String lists may be stored in a `Token
-         Property </rptools/wiki/Token_Property>`__.
+         Property <Token_Property>`__.
 
       .. container:: printfooter
 

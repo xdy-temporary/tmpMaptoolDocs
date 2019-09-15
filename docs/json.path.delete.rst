@@ -49,8 +49,8 @@ json.path.delete - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `JSON Array </rptools/wiki/JSON_Array>`__ or `JSON
-            Object </rptools/wiki/JSON_Object>`__ with deleted elements.
+            Returns a `JSON Array <JSON_Array>`__ or `JSON
+            Object <JSON_Object>`__ with deleted elements.
             These deletions are specified through the path parameter.
             Additional information on how to specify the path is
             availabe `here <https://github.com/json-path/JsonPath>`__.

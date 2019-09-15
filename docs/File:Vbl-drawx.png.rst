@@ -80,7 +80,7 @@ File:Vbl-drawx.png - MapToolDoc
             ======= =========================================================== ================================================ ==================== ====================================================================================================================================================================== ===============================================================
             \       Date/Time                                                   Thumbnail                                        Dimensions           User                                                                                                                                                                   Comment
             ======= =========================================================== ================================================ ==================== ====================================================================================================================================================================== ===============================================================
-            current `15:52, 7 July 2009 </maptool/images/1/1e/Vbl-drawx.png>`__ |Thumbnail for version as of 15:52, 7 July 2009| 1,001 × 745 (337 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) An "X" drawn with VBL, frequently used for pillars and statues.
+            current `15:52, 7 July 2009 </maptool/images/1/1e/Vbl-drawx.png>`__ |Thumbnail for version as of 15:52, 7 July 2009| 1,001 × 745 (337 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) An "X" drawn with VBL, frequently used for pillars and statues.
             ======= =========================================================== ================================================ ==================== ====================================================================================================================================================================== ===============================================================
 
          -  You cannot overwrite this file.
@@ -94,13 +94,13 @@ File:Vbl-drawx.png - MapToolDoc
             The following 4 pages link to this file:
 
             -  `Introduction to Vision
-               Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
+               Blocking <Introduction_to_Vision_Blocking>`__
             -  `Introduction to Vision
-               Blocking/es </rptools/wiki/Introduction_to_Vision_Blocking/es>`__
+               Blocking/es <Introduction_to_Vision_Blocking/es>`__
             -  `Introduction to Vision
-               Blocking/fr </rptools/wiki/Introduction_to_Vision_Blocking/fr>`__
+               Blocking/fr <Introduction_to_Vision_Blocking/fr>`__
             -  `Introduction to Vision
-               Blocking/ja </rptools/wiki/Introduction_to_Vision_Blocking/ja>`__
+               Blocking/ja <Introduction_to_Vision_Blocking/ja>`__
 
       .. container:: printfooter
 

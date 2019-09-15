@@ -66,12 +66,12 @@ addToInitiative - MapToolDoc
 
          .. container:: template_description
 
-            Adds the `Current Token </rptools/wiki/Current_Token>`__ to
+            Adds the `Current Token <Current_Token>`__ to
             the `initiative
             panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__.
             This function will not assign any initiative value to the
-            `tokens </rptools/wiki/Token:token>`__, you can use the
-            `setInitiative() </rptools/wiki/setInitiative>`__ function
+            `tokens <Token:token>`__, you can use the
+            `setInitiative() <setInitiative>`__ function
 
             to set the initiative value of tokens.
 
@@ -109,7 +109,7 @@ addToInitiative - MapToolDoc
          .. container:: template_example
 
             The following example shows how to add a `Current
-            Token </rptools/wiki/Current_Token>`__ to the `initiative
+            Token <Current_Token>`__ to the `initiative
             panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__,
             set
             its initiative and then sort the `initiative
@@ -117,7 +117,7 @@ addToInitiative - MapToolDoc
             Normally you would not sort the `initiative
             panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__
             every time you add a `Current
-            Token </rptools/wiki/Current_Token>`__ but its done here to
+            Token <Current_Token>`__ but its done here to
             show you how it is done.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -141,9 +141,9 @@ addToInitiative - MapToolDoc
 
          .. container:: template_also
 
-            `setInitiative() </rptools/wiki/setInitiative>`__
-            `addAllPCsToInitiative() </rptools/wiki/addAllPCsToInitiative>`__
-            `addAllToInitiative() </rptools/wiki/addAllToInitiative>`__
+            `setInitiative() <setInitiative>`__
+            `addAllPCsToInitiative() <addAllPCsToInitiative>`__
+            `addAllToInitiative() <addAllToInitiative>`__
 
       .. container:: printfooter
 

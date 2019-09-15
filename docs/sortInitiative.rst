@@ -51,7 +51,7 @@ sortInitiative - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -61,8 +61,8 @@ sortInitiative - MapToolDoc
 
             Sorts the `Initiative
             Panel </maptool/index.php?title=Initiative:Initiative_Panel&action=edit&redlink=1>`__
-            `Tokens </rptools/wiki/Token>`__ and returns the number of
-            `Tokens </rptools/wiki/Token>`__ in the `Initiative
+            `Tokens <Token>`__ and returns the number of
+            `Tokens <Token>`__ in the `Initiative
             Panel </maptool/index.php?title=Initiative:Initiative_Panel&action=edit&redlink=1>`__.
 
          .. rubric:: Usage

@@ -88,12 +88,12 @@ setTokenHeight - MapToolDoc
          -  ``size`` - grid size of the token
          -  ``id`` - The token ``id`` of the token to set its height.
             Defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -120,9 +120,9 @@ setTokenHeight - MapToolDoc
 
          .. container:: template_also
 
-            `setTokenWidth() </rptools/wiki/setTokenWidth>`__,
-            `getTokenHeight() </rptools/wiki/getTokenHeight>`__,
-            `getTokenWidth() </rptools/wiki/getTokenWidth>`__
+            `setTokenWidth() <setTokenWidth>`__,
+            `getTokenHeight() <getTokenHeight>`__,
+            `getTokenWidth() <getTokenWidth>`__
 
          .. rubric:: Version Changes
             :name: version-changes

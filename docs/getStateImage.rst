@@ -91,7 +91,7 @@ getStateImage - MapToolDoc
          .. container:: template_example
 
             To display the image for the "Dead" `token
-            state </rptools/wiki/Token:state>`__ use.
+            state <Token:state>`__ use.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

@@ -63,32 +63,32 @@ Category:Advanced - MapToolDoc
                   .. rubric:: C
                      :name: c
 
-                  -  `Calling macros </rptools/wiki/Calling_macros>`__
+                  -  `Calling macros <Calling_macros>`__
 
                   .. rubric:: D
                      :name: d
 
                   -  `Debugging
-                     Tutorial </rptools/wiki/Debugging_Tutorial>`__
+                     Tutorial <Debugging_Tutorial>`__
 
                   .. rubric:: F
                      :name: f
 
-                  -  `Forms tutorial </rptools/wiki/Forms_tutorial>`__
+                  -  `Forms tutorial <Forms_tutorial>`__
 
                   .. rubric:: I
                      :name: i
 
                   -  `Introduction to Dialogs and
-                     Frames </rptools/wiki/Introduction_to_Dialogs_and_Frames>`__
+                     Frames <Introduction_to_Dialogs_and_Frames>`__
 
                   .. rubric:: S
                      :name: s
 
                   -  `Speed Up Your
-                     Macros </rptools/wiki/Speed_Up_Your_Macros>`__
+                     Macros <Speed_Up_Your_Macros>`__
                   -  `Supported CSS
-                     Styles </rptools/wiki/Supported_CSS_Styles>`__
+                     Styles <Supported_CSS_Styles>`__
 
       .. container:: printfooter
 

@@ -62,31 +62,31 @@ Category:Branching Roll Option - MapToolDoc
                      :name: c
 
                   -  `code (roll
-                     option) </rptools/wiki/code_(roll_option)>`__
+                     option) <code_(roll_option)>`__
 
                   .. rubric:: I
                      :name: i
 
                   -  `if (roll
-                     option) </rptools/wiki/if_(roll_option)>`__
+                     option) <if_(roll_option)>`__
 
                   .. rubric:: M
                      :name: m
 
                   -  `macro (roll
-                     option) </rptools/wiki/macro_(roll_option)>`__
+                     option) <macro_(roll_option)>`__
 
                   .. rubric:: S
                      :name: s
 
                   -  `switch (roll
-                     option) </rptools/wiki/switch_(roll_option)>`__
+                     option) <switch_(roll_option)>`__
 
                   .. rubric:: T
                      :name: t
 
                   -  `token (roll
-                     option) </rptools/wiki/token_(roll_option)>`__
+                     option) <token_(roll_option)>`__
 
       .. container:: printfooter
 

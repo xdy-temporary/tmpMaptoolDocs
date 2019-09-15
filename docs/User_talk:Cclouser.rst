@@ -49,7 +49,7 @@ User talk:Cclouser - MapToolDoc
          Suggestions?
 
          | -Mike
-         | `My talk page </rptools/wiki/User_talk:Michaelheggen>`__
+         | `My talk page <User_talk:Michaelheggen>`__
 
       .. container:: printfooter
 

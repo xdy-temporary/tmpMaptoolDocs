@@ -46,7 +46,7 @@ setTokenVBL - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -70,10 +70,10 @@ setTokenVBL - MapToolDoc
 
          This function is used to attach the TOKEN VBL passed in as a
          JSON object to a token. The JSON object may be be created by
-         calling `getTokenVBL() </rptools/wiki/getTokenVBL>`__ on a
+         calling `getTokenVBL() <getTokenVBL>`__ on a
          different token and may also be used with
-         `drawVBL() </rptools/wiki/drawVBL>`__ or
-         `eraseVBL() </rptools/wiki/eraseVBL>`__.
+         `drawVBL() <drawVBL>`__ or
+         `eraseVBL() <eraseVBL>`__.
 
          Token VBL moves with the token, can be set under the VBL tab on
          the token edit menu and is colored YELLOW. Normal VBL is
@@ -84,11 +84,11 @@ setTokenVBL - MapToolDoc
 
          -  ``vbl`` - A JSON object containing the ``vbl`` to be added
             to the token. Use
-            `getTokenVBL() </rptools/wiki/getTokenVBL>`__ to get VBL
+            `getTokenVBL() <getTokenVBL>`__ to get VBL
             from another token.
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to set this setting, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          *Example: Transfer VBL from one Token to another*
 
@@ -120,10 +120,10 @@ setTokenVBL - MapToolDoc
          .. container:: template_also
 
             `Introduction to Vision
-            Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
-            , `getTokenVBL() </rptools/wiki/getTokenVBL>`__,
-            `drawVBL() </rptools/wiki/drawVBL>`__,
-            `eraseVBL() </rptools/wiki/eraseVBL>`__
+            Blocking <Introduction_to_Vision_Blocking>`__
+            , `getTokenVBL() <getTokenVBL>`__,
+            `drawVBL() <drawVBL>`__,
+            `eraseVBL() <eraseVBL>`__
 
       .. container:: printfooter
 

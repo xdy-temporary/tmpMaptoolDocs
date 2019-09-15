@@ -61,7 +61,7 @@ drawVBL - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -83,15 +83,15 @@ drawVBL - MapToolDoc
                      drawVBL(shapesList)
 
          This function works EXACTLY the same as
-         `eraseVBL() </rptools/wiki/eraseVBL>`__ with the ONLY
+         `eraseVBL() <eraseVBL>`__ with the ONLY
          difference that drawVBL draws the shapes on the vision blocking
-         layer and `eraseVBL() </rptools/wiki/eraseVBL>`__ erases them.
+         layer and `eraseVBL() <eraseVBL>`__ erases them.
 
          | 
          | **Parameters**
 
-         -  ``shapesList`` - A `JSON Array </rptools/wiki/JSON_Array>`__
-            of `JSON objects </rptools/wiki/JSON_Object>`__, one of the
+         -  ``shapesList`` - A `JSON Array <JSON_Array>`__
+            of `JSON objects <JSON_Object>`__, one of the
             latter for each VBL shape.
 
          The shapes can be one of ``"Rectangle"``, ``"Circle"``,
@@ -212,7 +212,7 @@ drawVBL - MapToolDoc
          | **Shape - Polygon**
          | *Required arguments*
 
-         -  ``"points"`` - `JSON Array </rptools/wiki/JSON_Array>`__ of
+         -  ``"points"`` - `JSON Array <JSON_Array>`__ of
             2 or more ``"x"``, ``"y"`` coordinates.
 
          *Optional arguments*
@@ -282,8 +282,8 @@ drawVBL - MapToolDoc
          .. container:: template_also
 
             `Introduction to Vision
-            Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
-            , `eraseVBL() </rptools/wiki/eraseVBL>`__
+            Blocking <Introduction_to_Vision_Blocking>`__
+            , `eraseVBL() <eraseVBL>`__
 
       .. container:: printfooter
 

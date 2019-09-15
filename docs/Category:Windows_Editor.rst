@@ -60,7 +60,7 @@ Category:Windows Editor - MapToolDoc
                   .. rubric:: N
                      :name: n
 
-                  -  `Notepad++ </rptools/wiki/Notepad%2B%2B>`__
+                  -  `Notepad++ <Notepad%2B%2B>`__
 
       .. container:: printfooter
 

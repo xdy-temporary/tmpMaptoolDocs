@@ -41,7 +41,7 @@ Editor:Wanted Pages - MapToolDoc
          :name: mw-content-text
 
          Discussion on articles that appear in
-         `Special:WantedPages </rptools/wiki/Special:WantedPages>`__;
+         `Special:WantedPages <Special:WantedPages>`__;
          whether they should be given higher priority than their link
          count indicates, or if they should stop being linked to.
 

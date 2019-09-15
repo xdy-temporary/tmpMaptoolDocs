@@ -62,7 +62,7 @@ setMacroCommand - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -71,11 +71,11 @@ setMacroCommand - MapToolDoc
          .. container:: template_description
 
             Sets the command that will be run when the `Macro
-            Button </rptools/wiki/Token:Macro_Button>`__ is pressed.
+            Button <Token:Macro_Button>`__ is pressed.
             Note because of the way the parser interprets values within
             [] you may have to use the
-            `encode() </rptools/wiki/Macros:Functions:encode>`__ and
-            `decode() </rptools/wiki/Macros:Functions:decode>`__
+            `encode() <Macros:Functions:encode>`__ and
+            `decode() <Macros:Functions:decode>`__
             functions with the string.
 
          .. rubric:: Usage

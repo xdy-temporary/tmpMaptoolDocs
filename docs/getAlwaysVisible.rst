@@ -71,12 +71,12 @@ getAlwaysVisible - MapToolDoc
             ``true``\ (``1``) or ``false``\ (``0``).
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to set this setting, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          .. rubric:: Example
             :name: example

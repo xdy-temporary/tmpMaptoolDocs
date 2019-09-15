@@ -67,7 +67,7 @@ canSeeToken - MapToolDoc
 
             Returns a json array of the points visible on the target
             token from the source token as an enumerated list. Default
-            source is `Current Token </rptools/wiki/Current_Token>`__.
+            source is `Current Token <Current_Token>`__.
             The enumerated list will contain zero to five of the
             following values:
 

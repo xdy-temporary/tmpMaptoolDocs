@@ -67,7 +67,7 @@ isOwner - MapToolDoc
 
             Returns ``true``\ (``1``) if the given
             `Player </maptool/index.php?title=Player&action=edit&redlink=1>`__
-            is an owner of a specific `Token </rptools/wiki/Token>`__.
+            is an owner of a specific `Token <Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -99,12 +99,12 @@ isOwner - MapToolDoc
             Player </maptool/index.php?title=Current_Player&action=edit&redlink=1>`__.
          -  ``id`` - The token ``id`` of the token which is checked for
             ownership, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -117,7 +117,7 @@ isOwner - MapToolDoc
             Returns ``You can edit me.`` if the `Current
             Player </maptool/index.php?title=Current_Player&action=edit&redlink=1>`__
             is an owner of the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -129,7 +129,7 @@ isOwner - MapToolDoc
 
             Returns ``Azhrei can edit me.`` if the given
             `Player </maptool/index.php?title=Player&action=edit&redlink=1>`__
-            is an owner of the given `Token </rptools/wiki/Token>`__.
+            is an owner of the given `Token <Token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -148,8 +148,8 @@ isOwner - MapToolDoc
 
          .. container:: template_also
 
-            `getOwners() </rptools/wiki/getOwners>`__,
-            `isOwnedByAll() </rptools/wiki/isOwnedByAll>`__
+            `getOwners() <getOwners>`__,
+            `isOwnedByAll() <isOwnedByAll>`__
 
          .. rubric:: Version Changes
             :name: version-changes

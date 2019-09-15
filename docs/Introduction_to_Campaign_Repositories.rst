@@ -43,8 +43,8 @@ Introduction to Campaign Repositories - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Campaign_Repositories/es>`__\  • \ `français </rptools/wiki/Introduction_to_Campaign_Repositories/fr>`__\ 
-             • \ `日本語 </rptools/wiki/Introduction_to_Campaign_Repositories/ja>`__\ 
+             • \ `español <Introduction_to_Campaign_Repositories/es>`__\  • \ `français <Introduction_to_Campaign_Repositories/fr>`__\ 
+             • \ `日本語 <Introduction_to_Campaign_Repositories/ja>`__\ 
 
          .. container:: template_beginner
 
@@ -112,8 +112,8 @@ Introduction to Campaign Repositories - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Campaign_Repositories/es>`__\  • \ `français </rptools/wiki/Introduction_to_Campaign_Repositories/fr>`__\ 
-             • \ `日本語 </rptools/wiki/Introduction_to_Campaign_Repositories/ja>`__\ 
+             • \ `español <Introduction_to_Campaign_Repositories/es>`__\  • \ `français <Introduction_to_Campaign_Repositories/fr>`__\ 
+             • \ `日本語 <Introduction_to_Campaign_Repositories/ja>`__\ 
 
       .. container:: printfooter
 

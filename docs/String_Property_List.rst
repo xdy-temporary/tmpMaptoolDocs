@@ -58,23 +58,23 @@ String Property List - MapToolDoc
          a string property list is item ``0``). When a key-value pair is
          extracted from a string property list using one of the
          available `String
-         Functions </rptools/wiki/Category:String_Function>`__ that work
+         Functions <Category:String_Function>`__ that work
          with string property lists, the value of the pair is considered
          a string, and must be converted to or evaluated to a number to
          perform numeric computations.
 
          The default delimiter in a string property list is the
          semicolon (``";"``), however, the `String
-         Functions </rptools/wiki/Category:String_Function>`__ that work
+         Functions <Category:String_Function>`__ that work
          with string property lists permit the use of alternate
          delimiters.
 
          The `String Property List
-         Functions </rptools/wiki/Category:String_Property_List_Function>`__
+         Functions <Category:String_Property_List_Function>`__
          only work with the default delimiter.
 
          String property lists may be stored in a `token
-         property </rptools/wiki/Token_Property>`__.
+         property <Token_Property>`__.
 
       .. container:: printfooter
 

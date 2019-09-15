@@ -79,7 +79,7 @@ File:Vbl-polyline-wall.png - MapToolDoc
             ======= =================================================================== ================================================ ==================== ====================================================================================================================================================================== ==============================================
             \       Date/Time                                                           Thumbnail                                        Dimensions           User                                                                                                                                                                   Comment
             ======= =================================================================== ================================================ ==================== ====================================================================================================================================================================== ==============================================
-            current `15:51, 7 July 2009 </maptool/images/d/df/Vbl-polyline-wall.png>`__ |Thumbnail for version as of 15:51, 7 July 2009| 1,001 × 745 (709 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Drawing wall VBL using the poly line VBL tool.
+            current `15:51, 7 July 2009 </maptool/images/d/df/Vbl-polyline-wall.png>`__ |Thumbnail for version as of 15:51, 7 July 2009| 1,001 × 745 (709 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Drawing wall VBL using the poly line VBL tool.
             ======= =================================================================== ================================================ ==================== ====================================================================================================================================================================== ==============================================
 
          -  You cannot overwrite this file.
@@ -93,13 +93,13 @@ File:Vbl-polyline-wall.png - MapToolDoc
             The following 4 pages link to this file:
 
             -  `Introduction to Vision
-               Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
+               Blocking <Introduction_to_Vision_Blocking>`__
             -  `Introduction to Vision
-               Blocking/es </rptools/wiki/Introduction_to_Vision_Blocking/es>`__
+               Blocking/es <Introduction_to_Vision_Blocking/es>`__
             -  `Introduction to Vision
-               Blocking/fr </rptools/wiki/Introduction_to_Vision_Blocking/fr>`__
+               Blocking/fr <Introduction_to_Vision_Blocking/fr>`__
             -  `Introduction to Vision
-               Blocking/ja </rptools/wiki/Introduction_to_Vision_Blocking/ja>`__
+               Blocking/ja <Introduction_to_Vision_Blocking/ja>`__
 
       .. container:: printfooter
 

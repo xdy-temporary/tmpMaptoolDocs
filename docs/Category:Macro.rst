@@ -47,7 +47,7 @@ Category:Macro - MapToolDoc
 
          This is the top of the Macro category tree, below you find only
          technical documentation. Refer to the `Main
-         Page </rptools/wiki/Main_Page>`__ for links to tutorials if
+         Page <Main_Page>`__ for links to tutorials if
          that is what you're looking for.
 
          .. container::
@@ -77,7 +77,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ►
-                                 `Cookbook </rptools/wiki/Category:Cookbook>`__\ ‎
+                                 `Cookbook <Category:Cookbook>`__\ ‎
                                  (20 P)
 
                               .. container:: CategoryTreeChildren
@@ -94,7 +94,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `How
-                                 To </rptools/wiki/Category:How_To>`__\ ‎
+                                 To <Category:How_To>`__\ ‎
                                  (3 P)
 
                               .. container:: CategoryTreeChildren
@@ -111,7 +111,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Macro
-                                 Events </rptools/wiki/Category:Macro_Events>`__\ ‎
+                                 Events <Category:Macro_Events>`__\ ‎
                                  (empty)
 
                               .. container:: CategoryTreeChildren
@@ -123,7 +123,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Macro
-                                 Function </rptools/wiki/Category:Macro_Function>`__\ ‎
+                                 Function <Category:Macro_Function>`__\ ‎
                                  (33 C, 450 P)
 
                               .. container:: CategoryTreeChildren
@@ -140,7 +140,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Roll
-                                 Option </rptools/wiki/Category:Roll_Option>`__\ ‎
+                                 Option <Category:Roll_Option>`__\ ‎
                                  (3 C, 33 P)
 
                               .. container:: CategoryTreeChildren
@@ -157,7 +157,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Special
-                                 Macro </rptools/wiki/Category:Special_Macro>`__\ ‎
+                                 Macro <Category:Special_Macro>`__\ ‎
                                  (2 P)
 
                               .. container:: CategoryTreeChildren
@@ -169,7 +169,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Special
-                                 Variable </rptools/wiki/Category:Special_Variable>`__\ ‎
+                                 Variable <Category:Special_Variable>`__\ ‎
                                  (17 P)
 
                               .. container:: CategoryTreeChildren
@@ -181,7 +181,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Syntax
-                                 Highlighting </rptools/wiki/Category:Syntax_Highlighting>`__\ ‎
+                                 Highlighting <Category:Syntax_Highlighting>`__\ ‎
                                  (1 C, 1 P)
 
                               .. container:: CategoryTreeChildren
@@ -198,7 +198,7 @@ Category:Macro - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Variable
-                                 Type </rptools/wiki/Category:Variable_Type>`__\ ‎
+                                 Type <Category:Variable_Type>`__\ ‎
                                  (6 P)
 
                               .. container:: CategoryTreeChildren
@@ -218,12 +218,12 @@ Category:Macro - MapToolDoc
                      :name: s-1
 
                   -  `Supported CSS
-                     Styles </rptools/wiki/Supported_CSS_Styles>`__
+                     Styles <Supported_CSS_Styles>`__
 
                   .. rubric:: T
                      :name: t
 
-                  -  `Trusted Macro </rptools/wiki/Trusted_Macro>`__
+                  -  `Trusted Macro <Trusted_Macro>`__
 
       .. container:: printfooter
 

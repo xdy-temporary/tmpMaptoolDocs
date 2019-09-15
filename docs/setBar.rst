@@ -51,7 +51,7 @@ setBar - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -61,7 +61,7 @@ setBar - MapToolDoc
 
             Sets the value of the specified
             `bar </maptool/index.php?title=Token:bar&action=edit&redlink=1>`__
-            for the `Current Token </rptools/wiki/Current_Token>`__. The
+            for the `Current Token <Current_Token>`__. The
             value to set is between 0 and 1 for 0% to 100% respectively.
 
          .. rubric:: Usage

@@ -42,7 +42,7 @@ Talk:Glossary - MapToolDoc
 
          Craig, there's another glossary page in action - do you want to
          merge or move one of them?
-         `Cclouser </rptools/wiki/User:Cclouser>`__ 15:25, 22 December
+         `Cclouser <User:Cclouser>`__ 15:25, 22 December
          2008 (UTC)
 
       .. container:: printfooter

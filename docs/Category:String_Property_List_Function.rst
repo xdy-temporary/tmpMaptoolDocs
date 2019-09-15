@@ -66,51 +66,51 @@ Category:String Property List Function - MapToolDoc
                         .. rubric:: C
                            :name: c
 
-                        -  `countStrProp </rptools/wiki/countStrProp>`__
+                        -  `countStrProp <countStrProp>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: D
                            :name: d
 
-                        -  `deleteStrProp </rptools/wiki/deleteStrProp>`__
+                        -  `deleteStrProp <deleteStrProp>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: F
                            :name: f
 
-                        -  `formatStrProp </rptools/wiki/formatStrProp>`__
+                        -  `formatStrProp <formatStrProp>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getStrProp </rptools/wiki/getStrProp>`__
+                        -  `getStrProp <getStrProp>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `indexKeyStrProp </rptools/wiki/indexKeyStrProp>`__
-                        -  `indexValueStrProp </rptools/wiki/indexValueStrProp>`__
+                        -  `indexKeyStrProp <indexKeyStrProp>`__
+                        -  `indexValueStrProp <indexValueStrProp>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `setStrProp </rptools/wiki/setStrProp>`__
-                        -  `strPropFromVars </rptools/wiki/strPropFromVars>`__
+                        -  `setStrProp <setStrProp>`__
+                        -  `strPropFromVars <strPropFromVars>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: V
                            :name: v
 
-                        -  `varsFromStrProp </rptools/wiki/varsFromStrProp>`__
+                        -  `varsFromStrProp <varsFromStrProp>`__
 
       .. container:: printfooter
 

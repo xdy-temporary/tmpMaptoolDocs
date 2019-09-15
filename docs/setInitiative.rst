@@ -56,7 +56,7 @@ setInitiative - MapToolDoc
 
             Sets the
             `Initiative </maptool/index.php?title=Initiative:Initiative&action=edit&redlink=1>`__
-            of the `Current Token </rptools/wiki/Current_Token>`__.
+            of the `Current Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage

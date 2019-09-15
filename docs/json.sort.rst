@@ -72,8 +72,8 @@ json.sort - MapToolDoc
 
                      json.sort(array, direction)
 
-         If you have a `JSON Array </rptools/wiki/JSON_Array>`__ that
-         contains `JSON Objects </rptools/wiki/JSON_Object>`__
+         If you have a `JSON Array <JSON_Array>`__ that
+         contains `JSON Objects <JSON_Object>`__
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -99,9 +99,9 @@ json.sort - MapToolDoc
             -  ``"d"``
 
          -  ``key1, ..., keyN`` - The keys in the `JSON
-            Objects </rptools/wiki/JSON_Object>`__ contained within the
-            `JSON Array </rptools/wiki/JSON_Array>`__ used for sorting.
-            All `JSON Objects </rptools/wiki/JSON_Object>`__ must
+            Objects <JSON_Object>`__ contained within the
+            `JSON Array <JSON_Array>`__ used for sorting.
+            All `JSON Objects <JSON_Object>`__ must
             contain these fields.
 
          .. rubric:: Examples
@@ -109,7 +109,7 @@ json.sort - MapToolDoc
 
          .. container:: template_examples
 
-            Sorting a `JSON Array </rptools/wiki/JSON_Array>`__
+            Sorting a `JSON Array <JSON_Array>`__
             containing numbers.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -122,7 +122,7 @@ json.sort - MapToolDoc
 
             Produces ``[1,1,1,2,4,5,6,9,20]``
 
-            Sorting a `JSON Array </rptools/wiki/JSON_Array>`__
+            Sorting a `JSON Array <JSON_Array>`__
             containing strings.
 
             .. container:: mw-geshi mw-code mw-content-ltr

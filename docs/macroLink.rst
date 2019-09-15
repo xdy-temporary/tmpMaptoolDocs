@@ -67,17 +67,17 @@ macroLink - MapToolDoc
 
             Creates the HTML for a link which will run the specified
             macro when clicked on in a
-            `frame </rptools/wiki/frame_(roll_option)>`__,
-            `dialog </rptools/wiki/dialog_(roll_option)>`__, or the chat
+            `frame <frame_(roll_option)>`__,
+            `dialog <dialog_(roll_option)>`__, or the chat
             window. Additionally, if you send the link to the chat
             window, it will automatically be executed by any recipients
             as soon as they receive it. This can be useful for popping
             up or updating
-            `frames </rptools/wiki/frame_(roll_option)>`__ or
-            `dialogs </rptools/wiki/dialog_(roll_option)>`__ for your
+            `frames <frame_(roll_option)>`__ or
+            `dialogs <dialog_(roll_option)>`__ for your
             players. To auto-execute in the chat window, it must not be
             hidden by roll options like
-            `[h:] </rptools/wiki/h_(roll_option)>`__, but may be hidden
+            `[h:] <h_(roll_option)>`__, but may be hidden
             by being contained within an HTML comment.
             **Some notes on the auto execution**
 
@@ -146,7 +146,7 @@ macroLink - MapToolDoc
          -  ``macroName`` - is the name of the macro to run when the
             link is clicked. The ``macroName`` is in the same format
             that is used for `[macro(...):
-            ...] </rptools/wiki/Macros:Branching_and_Looping#MACRO_Option>`__
+            ...] <Macros:Branching_and_Looping#MACRO_Option>`__
             e.g. ``Test@Lib:test``.
          -  ``output`` - contains who the output of the macro should go
             to, values are (defaults to ``"none"``):
@@ -162,9 +162,9 @@ macroLink - MapToolDoc
             -  ``"list"`` - Displays to a list of players. When the
                ``output`` is set to ``"list"`` then the macro link
                expects the ``args`` parameter to be a `JSON
-               Object </rptools/wiki/JSON_Object>`__, that contains a
+               Object <JSON_Object>`__, that contains a
                field called ``mlOutputList`` which is a `JSON
-               Array </rptools/wiki/JSON_Array>`__ containing the
+               Array <JSON_Array>`__ containing the
                players to send the output to.
 
          -  ``args`` - Any arguments to be passed to the macro when it
@@ -174,12 +174,12 @@ macroLink - MapToolDoc
             to ``"impersonated"``):
 
             -  ``"impersonated"`` - the impersonated
-               `Token </rptools/wiki/Token>`__.
+               `Token <Token>`__.
             -  ``"selected"`` - the selected
-               `Tokens </rptools/wiki/Token>`__.
+               `Tokens <Token>`__.
             -  ``"Token Id"`` - the
                `id </maptool/index.php?title=Token:Token_Id&action=edit&redlink=1>`__
-               of a `Token </rptools/wiki/Token>`__.
+               of a `Token <Token>`__.
 
          .. rubric:: Examples
             :name: examples
@@ -187,7 +187,7 @@ macroLink - MapToolDoc
          .. container:: template_examples
 
             \* To create a link that will call a macro called ``Test``
-            on the `Library Token </rptools/wiki/Token:library_token>`__
+            on the `Library Token <Token:library_token>`__
             named ``Lib:Test`` that says "*Click on me!*" and displays
             the output to the GM.
 
@@ -228,7 +228,7 @@ macroLink - MapToolDoc
                         [r: macroLink("Click on me!", "Test@Lib:Test", "list", args)]
 
             -  Updating a character sheet
-               `frame </rptools/wiki/frame_(roll_option)>`__ without
+               `frame <frame_(roll_option)>`__ without
                displaying the link:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -278,7 +278,7 @@ macroLink - MapToolDoc
 
          .. container:: template_also
 
-            `macroLinkText() </rptools/wiki/macroLinkText>`__
+            `macroLinkText() <macroLinkText>`__
 
          .. rubric:: Version Changes
             :name: version-changes

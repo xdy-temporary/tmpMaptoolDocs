@@ -52,7 +52,7 @@ setOwnerOnlyVisible - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -62,7 +62,7 @@ setOwnerOnlyVisible - MapToolDoc
 
             Sets the `Visible to Owners
             Only </maptool/index.php?title=Visible_to_Owners_Only&action=edit&redlink=1>`__
-            flag on a `Token </rptools/wiki/Token>`__ if the value
+            flag on a `Token <Token>`__ if the value
             passed in is non-zero(\ ``true``\ (``1``)), otherwise resets
             it to ``false``\ (``0``).
 
@@ -91,7 +91,7 @@ setOwnerOnlyVisible - MapToolDoc
             ``true``\ (``1``) or ``false``\ (``0``).
          -  ``id`` - The token ``id`` of the token which has its owner
             only visibility set, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          | 
 
@@ -100,8 +100,8 @@ setOwnerOnlyVisible - MapToolDoc
 
          .. container:: template_also
 
-            `setVisible() </rptools/wiki/setVisible>`__,
-            `getOwnerOnlyVisible() </rptools/wiki/getOwnerOnlyVisible>`__
+            `setVisible() <setVisible>`__,
+            `getOwnerOnlyVisible() <getOwnerOnlyVisible>`__
 
       .. container:: printfooter
 

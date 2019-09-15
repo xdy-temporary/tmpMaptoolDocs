@@ -62,7 +62,7 @@ setSize - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -70,10 +70,10 @@ setSize - MapToolDoc
 
          .. container:: template_description
 
-            Sets the size of a `Token </rptools/wiki/Token>`__ with one
+            Sets the size of a `Token <Token>`__ with one
             of the defined sizes according to each Grid Type. The sizes
             can be found on the `Token
-            Size </rptools/wiki/Token_Size>`__ page.
+            Size <Token_Size>`__ page.
 
          .. rubric:: Usage
             :name: usage
@@ -103,7 +103,7 @@ setSize - MapToolDoc
             `Token
             Size </maptool/index.php?title=size&action=edit&redlink=1>`__
             set. Defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
 
@@ -142,7 +142,7 @@ setSize - MapToolDoc
 
          .. container:: template_also
 
-            `getSize() </rptools/wiki/getSize>`__
+            `getSize() <getSize>`__
 
          .. rubric:: Version Changes
             :name: version-changes

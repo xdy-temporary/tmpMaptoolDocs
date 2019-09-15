@@ -129,7 +129,7 @@ base64.encode - MapToolDoc
 
          .. container:: template_also
 
-            `base64.decode() </rptools/wiki/base64.decode>`__
+            `base64.decode() <base64.decode>`__
 
       .. container:: printfooter
 

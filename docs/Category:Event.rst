@@ -56,16 +56,16 @@ Category:Event - MapToolDoc
 
          -  **Frame based events:** these require a frame to be opened
             and are specified in the HTML header of that frame
-            (`onChangeSelection </rptools/wiki/onChangeSelection>`__,
+            (`onChangeSelection <onChangeSelection>`__,
             `onChangeImpersonated </maptool/index.php?title=onChangeImpersonated&action=edit&redlink=1>`__,
             `onChangeToken </maptool/index.php?title=onChangeToken&action=edit&redlink=1>`__).
          -  **Real events:** these are executed automatically
-            (`onCampaignLoad </rptools/wiki/onCampaignLoad>`__,
-            `onTokenMove </rptools/wiki/onTokenMove>`__,
-            `onMultipleTokensMove </rptools/wiki/onMultipleTokensMove>`__).
+            (`onCampaignLoad <onCampaignLoad>`__,
+            `onTokenMove <onTokenMove>`__,
+            `onMultipleTokensMove <onMultipleTokensMove>`__).
          -  **Fake events:** these are cunning workarounds to add events
             by macro that otherwise wouldn't be there
-            (`onMouseOverEvent </rptools/wiki/onMouseOverEvent>`__).
+            (`onMouseOverEvent <onMouseOverEvent>`__).
 
          .. container::
 
@@ -83,11 +83,11 @@ Category:Event - MapToolDoc
                   .. rubric:: O
                      :name: o
 
-                  -  `onCampaignLoad </rptools/wiki/onCampaignLoad>`__
-                  -  `onChangeSelection </rptools/wiki/onChangeSelection>`__
-                  -  `onMouseOverEvent </rptools/wiki/onMouseOverEvent>`__
-                  -  `onMultipleTokensMove </rptools/wiki/onMultipleTokensMove>`__
-                  -  `onTokenMove </rptools/wiki/onTokenMove>`__
+                  -  `onCampaignLoad <onCampaignLoad>`__
+                  -  `onChangeSelection <onChangeSelection>`__
+                  -  `onMouseOverEvent <onMouseOverEvent>`__
+                  -  `onMultipleTokensMove <onMultipleTokensMove>`__
+                  -  `onTokenMove <onTokenMove>`__
 
       .. container:: printfooter
 

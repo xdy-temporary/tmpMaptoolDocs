@@ -61,7 +61,7 @@ getLineCap - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -112,7 +112,7 @@ getLineCap - MapToolDoc
 
          .. container:: template_also
 
-            `setLineCap() </rptools/wiki/setLineCap>`__
+            `setLineCap() <setLineCap>`__
 
       .. container:: printfooter
 

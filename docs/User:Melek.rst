@@ -65,7 +65,7 @@ User:Melek - MapToolDoc
                (`talk </maptool/index.php?title=User_talk:Melek&action=edit&redlink=1>`__)
                05:24, 14 September 2019 (UTC)
             -  **Progress:** Added 'Auto-Resize' to the `Feature
-               List </rptools/wiki/Feature_List>`__
+               List <Feature_List>`__
 
          -  Jamz: FWIW, the for() roll option doesn't mention the use of
             , CODE: {} as an option like for each, put it on the
@@ -88,9 +88,9 @@ User:Melek - MapToolDoc
             :name: other-changesfixes
 
          -  Added DnD 5e to the `Feature
-            List </rptools/wiki/Feature_List>`__
-         -  Added `Stamp </rptools/wiki/Stamp>`__ page to redirect to
-            `Token </rptools/wiki/Token>`__
+            List <Feature_List>`__
+         -  Added `Stamp <Stamp>`__ page to redirect to
+            `Token <Token>`__
 
          .. rubric:: Notes
             :name: notes

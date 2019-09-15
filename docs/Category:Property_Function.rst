@@ -65,47 +65,47 @@ Category:Property Function - MapToolDoc
                         .. rubric:: G
                            :name: g
 
-                        -  `getAllPropertyNames </rptools/wiki/getAllPropertyNames>`__
-                        -  `getLibProperty </rptools/wiki/getLibProperty>`__
-                        -  `getLibPropertyNames </rptools/wiki/getLibPropertyNames>`__
-                        -  `getMatchingLibProperties </rptools/wiki/getMatchingLibProperties>`__
-                        -  `getMatchingProperties </rptools/wiki/getMatchingProperties>`__
-                        -  `getProperty </rptools/wiki/getProperty>`__
-                        -  `getPropertyDefault </rptools/wiki/getPropertyDefault>`__
-                        -  `getPropertyNames </rptools/wiki/getPropertyNames>`__
-                        -  `getPropertyNamesRaw </rptools/wiki/getPropertyNamesRaw>`__
-                        -  `getPropertyType </rptools/wiki/getPropertyType>`__
-                        -  `getRawProperty </rptools/wiki/getRawProperty>`__
+                        -  `getAllPropertyNames <getAllPropertyNames>`__
+                        -  `getLibProperty <getLibProperty>`__
+                        -  `getLibPropertyNames <getLibPropertyNames>`__
+                        -  `getMatchingLibProperties <getMatchingLibProperties>`__
+                        -  `getMatchingProperties <getMatchingProperties>`__
+                        -  `getProperty <getProperty>`__
+                        -  `getPropertyDefault <getPropertyDefault>`__
+                        -  `getPropertyNames <getPropertyNames>`__
+                        -  `getPropertyNamesRaw <getPropertyNamesRaw>`__
+                        -  `getPropertyType <getPropertyType>`__
+                        -  `getRawProperty <getRawProperty>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: H
                            :name: h
 
-                        -  `hasProperty </rptools/wiki/hasProperty>`__
+                        -  `hasProperty <hasProperty>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `isPropertyEmpty </rptools/wiki/isPropertyEmpty>`__
+                        -  `isPropertyEmpty <isPropertyEmpty>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `resetProperty </rptools/wiki/resetProperty>`__
+                        -  `resetProperty <resetProperty>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `setLibProperty </rptools/wiki/setLibProperty>`__
-                        -  `setProperty </rptools/wiki/setProperty>`__
-                        -  `setPropertyType </rptools/wiki/setPropertyType>`__
+                        -  `setLibProperty <setLibProperty>`__
+                        -  `setProperty <setProperty>`__
+                        -  `setPropertyType <setPropertyType>`__
 
       .. container:: printfooter
 

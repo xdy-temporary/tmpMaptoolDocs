@@ -50,16 +50,16 @@ currentToken - MapToolDoc
          .. container:: template_description
 
             Returns the id of the `Current
-            Token </rptools/wiki/Current_Token>`__. In most cases this
+            Token <Current_Token>`__. In most cases this
             will return the same as
-            `getImpersonated() </rptools/wiki/Macros:Functions:getImpersonated>`__
+            `getImpersonated() <Macros:Functions:getImpersonated>`__
             function. The difference is when it is called in a
-            `[token():] </rptools/wiki/token_(roll_option)>`__ or after
+            `[token():] <token_(roll_option)>`__ or after
             a call to the
-            `switchToken() </rptools/wiki/Macros:Functions:switchToken>`__
+            `switchToken() <Macros:Functions:switchToken>`__
             function, in both these cases it will return the id of the
-            `token </rptools/wiki/token>`__ being operated on, while
-            `getImpersonated() </rptools/wiki/Macros:Functions:getImpersonated>`__
+            `token <token>`__ being operated on, while
+            `getImpersonated() <Macros:Functions:getImpersonated>`__
             will return the id of the `impersonated
             token </maptool/index.php?title=impersonated_token&action=edit&redlink=1>`__.
 

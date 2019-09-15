@@ -50,7 +50,7 @@ closeFrame - MapToolDoc
          .. container:: template_description
 
             Closes the specified macro frame that was previously created
-            using `[frame():] </rptools/wiki/frame_(roll_option)>`__. If
+            using `[frame():] <frame_(roll_option)>`__. If
             the
             frame is not open then the function has no effect.
 
@@ -59,8 +59,8 @@ closeFrame - MapToolDoc
             button for the frame that has no close button.
 
             **NOTE** this function can not close dialogs opened with
-            `[dialog():] </rptools/wiki/dialog_(roll_option)>`__. Use
-            `closeDialog() </rptools/wiki/closeDialog>`__ for that.
+            `[dialog():] <dialog_(roll_option)>`__. Use
+            `closeDialog() <closeDialog>`__ for that.
 
          .. rubric:: Usage
             :name: usage

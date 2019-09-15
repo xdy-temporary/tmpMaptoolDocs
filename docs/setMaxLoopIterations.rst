@@ -66,10 +66,10 @@ setMaxLoopIterations - MapToolDoc
          .. container:: template_description
 
             Sets the max amount of loops (in
-            `[count():] </rptools/wiki/count_(roll_option)>`__,
-            `[foreach():] </rptools/wiki/foreach_(roll_option)>`__,
-            `[for():] </rptools/wiki/for_(roll_option)>`__,
-            `[while():] </rptools/wiki/while_(roll_option)>`__) that are
+            `[count():] <count_(roll_option)>`__,
+            `[foreach():] <foreach_(roll_option)>`__,
+            `[for():] <for_(roll_option)>`__,
+            `[while():] <while_(roll_option)>`__) that are
             allowed. The current allowed max is 10,000 and this is also
             the minimum. Note that this settings lasts only for the
             current session.
@@ -108,7 +108,7 @@ setMaxLoopIterations - MapToolDoc
 
          .. container:: template_also
 
-            `getMaxLoopIterations() </rptools/wiki/getMaxLoopIterations>`__.
+            `getMaxLoopIterations() <getMaxLoopIterations>`__.
 
       .. container:: printfooter
 

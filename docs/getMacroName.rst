@@ -50,9 +50,9 @@ getMacroName - MapToolDoc
          .. container:: template_description
 
             Returns the name of the macro being executed via
-            `[macro():] </rptools/wiki/macro_(roll_option)>`__ . If the
+            `[macro():] <macro_(roll_option)>`__ . If the
             macro typed into chat, run by clicking on a `macro
-            button </rptools/wiki/Macro_Button>`__, or run via the
+            button <Macro_Button>`__, or run via the
             `token popup
             menu </maptool/index.php?title=Token:popup_menu&action=edit&redlink=1>`__
             then this function will return "chat".

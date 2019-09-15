@@ -65,19 +65,19 @@ Category:State Function - MapToolDoc
                         .. rubric:: G
                            :name: g
 
-                        -  `getState </rptools/wiki/getState>`__
-                        -  `getStateImage </rptools/wiki/getStateImage>`__
-                        -  `getTokenStates </rptools/wiki/getTokenStates>`__
-                        -  `getWithState </rptools/wiki/getWithState>`__
-                        -  `getWithStateNames </rptools/wiki/getWithStateNames>`__
+                        -  `getState <getState>`__
+                        -  `getStateImage <getStateImage>`__
+                        -  `getTokenStates <getTokenStates>`__
+                        -  `getWithState <getWithState>`__
+                        -  `getWithStateNames <getWithStateNames>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `setAllStates </rptools/wiki/setAllStates>`__
-                        -  `setState </rptools/wiki/setState>`__
+                        -  `setAllStates <setAllStates>`__
+                        -  `setState <setState>`__
 
       .. container:: printfooter
 

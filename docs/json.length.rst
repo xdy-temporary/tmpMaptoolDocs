@@ -50,8 +50,8 @@ json.length - MapToolDoc
          .. container:: template_description
 
             Returns the number of fields in a `json
-            object </rptools/wiki/JSON_Object>`__ or number of elements
-            in a `json array </rptools/wiki/JSON_Array>`__.
+            object <JSON_Object>`__ or number of elements
+            in a `json array <JSON_Array>`__.
 
          .. rubric:: Usage
             :name: usage

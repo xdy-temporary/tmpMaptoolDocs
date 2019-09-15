@@ -75,7 +75,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Audio
-                                 Function </rptools/wiki/Category:Audio_Function>`__\ ‎
+                                 Function <Category:Audio_Function>`__\ ‎
                                  (4 P)
 
                               .. container:: CategoryTreeChildren
@@ -92,7 +92,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Bar
-                                 Function </rptools/wiki/Category:Bar_Function>`__\ ‎
+                                 Function <Category:Bar_Function>`__\ ‎
                                  (4 P)
 
                               .. container:: CategoryTreeChildren
@@ -109,7 +109,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Dialog
-                                 Function </rptools/wiki/Category:Dialog_Function>`__\ ‎
+                                 Function <Category:Dialog_Function>`__\ ‎
                                  (3 P)
 
                               .. container:: CategoryTreeChildren
@@ -121,7 +121,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Dice
-                                 Function </rptools/wiki/Category:Dice_Function>`__\ ‎
+                                 Function <Category:Dice_Function>`__\ ‎
                                  (23 P)
 
                               .. container:: CategoryTreeChildren
@@ -133,7 +133,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Distance
-                                 Function </rptools/wiki/Category:Distance_Function>`__\ ‎
+                                 Function <Category:Distance_Function>`__\ ‎
                                  (4 P)
 
                               .. container:: CategoryTreeChildren
@@ -145,7 +145,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Draw
-                                 Function </rptools/wiki/Category:Draw_Function>`__\ ‎
+                                 Function <Category:Draw_Function>`__\ ‎
                                  (22 P)
 
                               .. container:: CategoryTreeChildren
@@ -162,7 +162,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Find
-                                 Function </rptools/wiki/Category:Find_Function>`__\ ‎
+                                 Function <Category:Find_Function>`__\ ‎
                                  (13 P)
 
                               .. container:: CategoryTreeChildren
@@ -174,7 +174,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Frame
-                                 Function </rptools/wiki/Category:Frame_Function>`__\ ‎
+                                 Function <Category:Frame_Function>`__\ ‎
                                  (5 P)
 
                               .. container:: CategoryTreeChildren
@@ -191,7 +191,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Hero Lab
-                                 Function </rptools/wiki/Category:Hero_Lab_Function>`__\ ‎
+                                 Function <Category:Hero_Lab_Function>`__\ ‎
                                  (8 P)
 
                               .. container:: CategoryTreeChildren
@@ -208,7 +208,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Initiative
-                                 Function </rptools/wiki/Category:Initiative_Function>`__\ ‎
+                                 Function <Category:Initiative_Function>`__\ ‎
                                  (21 P)
 
                               .. container:: CategoryTreeChildren
@@ -225,7 +225,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `JSON
-                                 Function </rptools/wiki/Category:JSON_Function>`__\ ‎
+                                 Function <Category:JSON_Function>`__\ ‎
                                  (33 P)
 
                               .. container:: CategoryTreeChildren
@@ -242,7 +242,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Light
-                                 Function </rptools/wiki/Category:Light_Function>`__\ ‎
+                                 Function <Category:Light_Function>`__\ ‎
                                  (4 P)
 
                               .. container:: CategoryTreeChildren
@@ -254,7 +254,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Log
-                                 Function </rptools/wiki/Category:Log_Function>`__\ ‎
+                                 Function <Category:Log_Function>`__\ ‎
                                  (8 P)
 
                               .. container:: CategoryTreeChildren
@@ -266,7 +266,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Logical
-                                 Function </rptools/wiki/Category:Logical_Function>`__\ ‎
+                                 Function <Category:Logical_Function>`__\ ‎
                                  (8 P)
 
                               .. container:: CategoryTreeChildren
@@ -278,7 +278,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Loop and Recursion
-                                 limits </rptools/wiki/Category:Loop_and_Recursion_limits>`__\ ‎
+                                 limits <Category:Loop_and_Recursion_limits>`__\ ‎
                                  (5 P)
 
                               .. container:: CategoryTreeChildren
@@ -295,7 +295,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Map
-                                 Function </rptools/wiki/Category:Map_Function>`__\ ‎
+                                 Function <Category:Map_Function>`__\ ‎
                                  (8 P)
 
                               .. container:: CategoryTreeChildren
@@ -307,7 +307,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Mathematical
-                                 Function </rptools/wiki/Category:Mathematical_Function>`__\ ‎
+                                 Function <Category:Mathematical_Function>`__\ ‎
                                  (34 P)
 
                               .. container:: CategoryTreeChildren
@@ -319,7 +319,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Metamacro
-                                 Function </rptools/wiki/Category:Metamacro_Function>`__\ ‎
+                                 Function <Category:Metamacro_Function>`__\ ‎
                                  (16 P)
 
                               .. container:: CategoryTreeChildren
@@ -331,7 +331,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Miscellaneous
-                                 Function </rptools/wiki/Category:Miscellaneous_Function>`__\ ‎
+                                 Function <Category:Miscellaneous_Function>`__\ ‎
                                  (41 P)
 
                               .. container:: CategoryTreeChildren
@@ -348,7 +348,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Permission
-                                 Function </rptools/wiki/Category:Permission_Function>`__\ ‎
+                                 Function <Category:Permission_Function>`__\ ‎
                                  (4 P)
 
                               .. container:: CategoryTreeChildren
@@ -360,7 +360,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Property
-                                 Function </rptools/wiki/Category:Property_Function>`__\ ‎
+                                 Function <Category:Property_Function>`__\ ‎
                                  (17 P)
 
                               .. container:: CategoryTreeChildren
@@ -377,7 +377,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `RESTful
-                                 Function </rptools/wiki/Category:RESTful_Function>`__\ ‎
+                                 Function <Category:RESTful_Function>`__\ ‎
                                  (5 P)
 
                               .. container:: CategoryTreeChildren
@@ -394,7 +394,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Sight
-                                 Function </rptools/wiki/Category:Sight_Function>`__\ ‎
+                                 Function <Category:Sight_Function>`__\ ‎
                                  (5 P)
 
                               .. container:: CategoryTreeChildren
@@ -406,7 +406,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Speech
-                                 Function </rptools/wiki/Category:Speech_Function>`__\ ‎
+                                 Function <Category:Speech_Function>`__\ ‎
                                  (3 P)
 
                               .. container:: CategoryTreeChildren
@@ -418,7 +418,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `State
-                                 Function </rptools/wiki/Category:State_Function>`__\ ‎
+                                 Function <Category:State_Function>`__\ ‎
                                  (7 P)
 
                               .. container:: CategoryTreeChildren
@@ -430,7 +430,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `String
-                                 Function </rptools/wiki/Category:String_Function>`__\ ‎
+                                 Function <Category:String_Function>`__\ ‎
                                  (24 P)
 
                               .. container:: CategoryTreeChildren
@@ -442,7 +442,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `String List
-                                 Function </rptools/wiki/Category:String_List_Function>`__\ ‎
+                                 Function <Category:String_List_Function>`__\ ‎
                                  (11 P)
 
                               .. container:: CategoryTreeChildren
@@ -454,7 +454,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `String Property List
-                                 Function </rptools/wiki/Category:String_Property_List_Function>`__\ ‎
+                                 Function <Category:String_Property_List_Function>`__\ ‎
                                  (9 P)
 
                               .. container:: CategoryTreeChildren
@@ -471,7 +471,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Table
-                                 Function </rptools/wiki/Category:Table_Function>`__\ ‎
+                                 Function <Category:Table_Function>`__\ ‎
                                  (21 P)
 
                               .. container:: CategoryTreeChildren
@@ -483,7 +483,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Token
-                                 Function </rptools/wiki/Category:Token_Function>`__\ ‎
+                                 Function <Category:Token_Function>`__\ ‎
                                  (104 P)
 
                               .. container:: CategoryTreeChildren
@@ -495,7 +495,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `Token Library
-                                 Function </rptools/wiki/Category:Token_Library_Function>`__\ ‎
+                                 Function <Category:Token_Library_Function>`__\ ‎
                                  (4 P)
 
                               .. container:: CategoryTreeChildren
@@ -512,7 +512,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `User Defined
-                                 Function </rptools/wiki/Category:User_Defined_Function>`__\ ‎
+                                 Function <Category:User_Defined_Function>`__\ ‎
                                  (5 P)
 
                               .. container:: CategoryTreeChildren
@@ -529,7 +529,7 @@ Category:Macro Function - MapToolDoc
                               .. container:: CategoryTreeItem
 
                                  ► `VBL
-                                 Function </rptools/wiki/Category:VBL_Function>`__\ ‎
+                                 Function <Category:VBL_Function>`__\ ‎
                                  (10 P)
 
                               .. container:: CategoryTreeChildren
@@ -552,576 +552,576 @@ Category:Macro Function - MapToolDoc
                         .. rubric:: A
                            :name: a-1
 
-                        -  `abort </rptools/wiki/abort>`__
-                        -  `abs </rptools/wiki/abs>`__
-                        -  `absolutevalue </rptools/wiki/absolutevalue>`__
-                        -  `absolutevalue/ko </rptools/wiki/absolutevalue/ko>`__
-                        -  `add </rptools/wiki/add>`__
-                        -  `addAllNPCsToInitiative </rptools/wiki/addAllNPCsToInitiative>`__
-                        -  `addAllPCsToInitiative </rptools/wiki/addAllPCsToInitiative>`__
-                        -  `addAllToInitiative </rptools/wiki/addAllToInitiative>`__
-                        -  `addTableEntry </rptools/wiki/addTableEntry>`__
-                        -  `addToInitiative </rptools/wiki/addToInitiative>`__
-                        -  `arg </rptools/wiki/arg>`__
-                        -  `argCount </rptools/wiki/argCount>`__
-                        -  `assert </rptools/wiki/assert>`__
-                        -  `average </rptools/wiki/average>`__
-                        -  `avg </rptools/wiki/avg>`__
+                        -  `abort <abort>`__
+                        -  `abs <abs>`__
+                        -  `absolutevalue <absolutevalue>`__
+                        -  `absolutevalue/ko <absolutevalue/ko>`__
+                        -  `add <add>`__
+                        -  `addAllNPCsToInitiative <addAllNPCsToInitiative>`__
+                        -  `addAllPCsToInitiative <addAllPCsToInitiative>`__
+                        -  `addAllToInitiative <addAllToInitiative>`__
+                        -  `addTableEntry <addTableEntry>`__
+                        -  `addToInitiative <addToInitiative>`__
+                        -  `arg <arg>`__
+                        -  `argCount <argCount>`__
+                        -  `assert <assert>`__
+                        -  `average <average>`__
+                        -  `avg <avg>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: B
                            :name: b-1
 
-                        -  `band </rptools/wiki/band>`__
-                        -  `base64.decode </rptools/wiki/base64.decode>`__
-                        -  `base64.encode </rptools/wiki/base64.encode>`__
-                        -  `bitwiseand </rptools/wiki/bitwiseand>`__
-                        -  `bitwisenot </rptools/wiki/bitwisenot>`__
-                        -  `bitwiseor </rptools/wiki/bitwiseor>`__
-                        -  `bitwisexor </rptools/wiki/bitwisexor>`__
-                        -  `bnot </rptools/wiki/bnot>`__
-                        -  `bor </rptools/wiki/bor>`__
-                        -  `bringDrawingToFront </rptools/wiki/bringDrawingToFront>`__
-                        -  `bringToFront </rptools/wiki/bringToFront>`__
-                        -  `broadcast </rptools/wiki/broadcast>`__
-                        -  `bxor </rptools/wiki/bxor>`__
+                        -  `band <band>`__
+                        -  `base64.decode <base64.decode>`__
+                        -  `base64.encode <base64.encode>`__
+                        -  `bitwiseand <bitwiseand>`__
+                        -  `bitwisenot <bitwisenot>`__
+                        -  `bitwiseor <bitwiseor>`__
+                        -  `bitwisexor <bitwisexor>`__
+                        -  `bnot <bnot>`__
+                        -  `bor <bor>`__
+                        -  `bringDrawingToFront <bringDrawingToFront>`__
+                        -  `bringToFront <bringToFront>`__
+                        -  `broadcast <broadcast>`__
+                        -  `bxor <bxor>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: C
                            :name: c
 
-                        -  `canSeeToken </rptools/wiki/canSeeToken>`__
-                        -  `ceil </rptools/wiki/ceil>`__
-                        -  `ceiling </rptools/wiki/ceiling>`__
-                        -  `clearLights </rptools/wiki/clearLights>`__
-                        -  `clearRolls </rptools/wiki/clearRolls>`__
-                        -  `clearTable </rptools/wiki/clearTable>`__
-                        -  `closeDialog </rptools/wiki/closeDialog>`__
-                        -  `closeFrame </rptools/wiki/closeFrame>`__
-                        -  `concat </rptools/wiki/concat>`__
-                        -  `copyMap </rptools/wiki/copyMap>`__
-                        -  `copyTable </rptools/wiki/copyTable>`__
-                        -  `copyToken </rptools/wiki/copyToken>`__
-                        -  `countStrProp </rptools/wiki/countStrProp>`__
-                        -  `countsuccess </rptools/wiki/countsuccess>`__
-                        -  `createMacro </rptools/wiki/createMacro>`__
-                        -  `createTable </rptools/wiki/createTable>`__
-                        -  `currentToken </rptools/wiki/currentToken>`__
+                        -  `canSeeToken <canSeeToken>`__
+                        -  `ceil <ceil>`__
+                        -  `ceiling <ceiling>`__
+                        -  `clearLights <clearLights>`__
+                        -  `clearRolls <clearRolls>`__
+                        -  `clearTable <clearTable>`__
+                        -  `closeDialog <closeDialog>`__
+                        -  `closeFrame <closeFrame>`__
+                        -  `concat <concat>`__
+                        -  `copyMap <copyMap>`__
+                        -  `copyTable <copyTable>`__
+                        -  `copyToken <copyToken>`__
+                        -  `countStrProp <countStrProp>`__
+                        -  `countsuccess <countsuccess>`__
+                        -  `createMacro <createMacro>`__
+                        -  `createTable <createTable>`__
+                        -  `currentToken <currentToken>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: D
                            :name: d-1
 
-                        -  `d </rptools/wiki/d>`__
-                        -  `decode </rptools/wiki/decode>`__
-                        -  `defineFunction </rptools/wiki/defineFunction>`__
-                        -  `deleteStrProp </rptools/wiki/deleteStrProp>`__
-                        -  `deleteTable </rptools/wiki/deleteTable>`__
-                        -  `deleteTableEntry </rptools/wiki/deleteTableEntry>`__
-                        -  `deselectTokens </rptools/wiki/deselectTokens>`__
-                        -  `dice </rptools/wiki/dice>`__
-                        -  `divide </rptools/wiki/divide>`__
-                        -  `drawVBL </rptools/wiki/drawVBL>`__
-                        -  `drop </rptools/wiki/drop>`__
+                        -  `d <d>`__
+                        -  `decode <decode>`__
+                        -  `defineFunction <defineFunction>`__
+                        -  `deleteStrProp <deleteStrProp>`__
+                        -  `deleteTable <deleteTable>`__
+                        -  `deleteTableEntry <deleteTableEntry>`__
+                        -  `deselectTokens <deselectTokens>`__
+                        -  `dice <dice>`__
+                        -  `divide <divide>`__
+                        -  `drawVBL <drawVBL>`__
+                        -  `drop <drop>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: E
                            :name: e
 
-                        -  `editStream </rptools/wiki/editStream>`__
-                        -  `encode </rptools/wiki/encode>`__
-                        -  `endsWith </rptools/wiki/endsWith>`__
-                        -  `eraseVBL </rptools/wiki/eraseVBL>`__
-                        -  `eval </rptools/wiki/eval>`__
-                        -  `evalMacro </rptools/wiki/evalMacro>`__
-                        -  `execLink </rptools/wiki/execLink>`__
-                        -  `execMacro </rptools/wiki/execMacro>`__
-                        -  `explode </rptools/wiki/explode>`__
-                        -  `explodingSuccess </rptools/wiki/explodingSuccess>`__
-                        -  `exportData </rptools/wiki/exportData>`__
-                        -  `exposeAllOwnedArea </rptools/wiki/exposeAllOwnedArea>`__
-                        -  `exposeFogAtWaypoints </rptools/wiki/exposeFogAtWaypoints>`__
-                        -  `exposeFOW </rptools/wiki/exposeFOW>`__
-                        -  `exposePCOnlyArea </rptools/wiki/exposePCOnlyArea>`__
+                        -  `editStream <editStream>`__
+                        -  `encode <encode>`__
+                        -  `endsWith <endsWith>`__
+                        -  `eraseVBL <eraseVBL>`__
+                        -  `eval <eval>`__
+                        -  `evalMacro <evalMacro>`__
+                        -  `execLink <execLink>`__
+                        -  `execMacro <execMacro>`__
+                        -  `explode <explode>`__
+                        -  `explodingSuccess <explodingSuccess>`__
+                        -  `exportData <exportData>`__
+                        -  `exposeAllOwnedArea <exposeAllOwnedArea>`__
+                        -  `exposeFogAtWaypoints <exposeFogAtWaypoints>`__
+                        -  `exposeFOW <exposeFOW>`__
+                        -  `exposePCOnlyArea <exposePCOnlyArea>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: F
                            :name: f-1
 
-                        -  `f </rptools/wiki/f>`__
-                        -  `findDrawings </rptools/wiki/findDrawings>`__
-                        -  `findToken </rptools/wiki/findToken>`__
-                        -  `floor </rptools/wiki/floor>`__
-                        -  `formatStrProp </rptools/wiki/formatStrProp>`__
-                        -  `fudge </rptools/wiki/fudge>`__
+                        -  `f <f>`__
+                        -  `findDrawings <findDrawings>`__
+                        -  `findToken <findToken>`__
+                        -  `floor <floor>`__
+                        -  `formatStrProp <formatStrProp>`__
+                        -  `fudge <fudge>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getAllMapNames </rptools/wiki/getAllMapNames>`__
-                        -  `getAllPlayerNames </rptools/wiki/getAllPlayerNames>`__
-                        -  `getAllPropertyNames </rptools/wiki/getAllPropertyNames>`__
-                        -  `getAlwaysVisible </rptools/wiki/getAlwaysVisible>`__
-                        -  `getBar </rptools/wiki/getBar>`__
-                        -  `getCurrentInitiative </rptools/wiki/getCurrentInitiative>`__
-                        -  `getCurrentMapName </rptools/wiki/getCurrentMapName>`__
-                        -  `getDialogProperties </rptools/wiki/getDialogProperties>`__
-                        -  `getDistance </rptools/wiki/getDistance>`__
-                        -  `getDistanceToXY </rptools/wiki/getDistanceToXY>`__
-                        -  `getDrawingEraser </rptools/wiki/getDrawingEraser>`__
-                        -  `getDrawingInfo </rptools/wiki/getDrawingInfo>`__
-                        -  `getDrawingLayer </rptools/wiki/getDrawingLayer>`__
-                        -  `getDrawingOpacity </rptools/wiki/getDrawingOpacity>`__
-                        -  `getDrawingProperties </rptools/wiki/getDrawingProperties>`__
-                        -  `getEnvironmentVariable </rptools/wiki/getEnvironmentVariable>`__
-                        -  `getExposedTokenNames </rptools/wiki/getExposedTokenNames>`__
-                        -  `getExposedTokens </rptools/wiki/getExposedTokens>`__
-                        -  `getFillColor </rptools/wiki/getFillColor>`__
-                        -  `getFindCount </rptools/wiki/getFindCount>`__
-                        -  `getFrameProperties </rptools/wiki/getFrameProperties>`__
-                        -  `getGMName </rptools/wiki/getGMName>`__
-                        -  `getGMNotes </rptools/wiki/getGMNotes>`__
-                        -  `getGroup </rptools/wiki/getGroup>`__
-                        -  `getGroupCount </rptools/wiki/getGroupCount>`__
-                        -  `getGroupEnd </rptools/wiki/getGroupEnd>`__
-                        -  `getGroupStart </rptools/wiki/getGroupStart>`__
-                        -  `getHalo </rptools/wiki/getHalo>`__
-                        -  `getImage </rptools/wiki/getImage>`__
-                        -  `getImpersonated </rptools/wiki/getImpersonated>`__
-                        -  `getImpersonatedName </rptools/wiki/getImpersonatedName>`__
-                        -  `getInfo </rptools/wiki/getInfo>`__
-                        -  `getInitiative </rptools/wiki/getInitiative>`__
-                        -  `getInitiativeHold </rptools/wiki/getInitiativeHold>`__
-                        -  `getInitiativeList </rptools/wiki/getInitiativeList>`__
-                        -  `getInitiativeRound </rptools/wiki/getInitiativeRound>`__
-                        -  `getInitiativeToken </rptools/wiki/getInitiativeToken>`__
-                        -  `getLabel </rptools/wiki/getLabel>`__
-                        -  `getLastPath </rptools/wiki/getLastPath>`__
-                        -  `getLayer </rptools/wiki/getLayer>`__
-                        -  `getLibProperty </rptools/wiki/getLibProperty>`__
-                        -  `getLibPropertyNames </rptools/wiki/getLibPropertyNames>`__
-                        -  `getLights </rptools/wiki/getLights>`__
-                        -  `getLineCap </rptools/wiki/getLineCap>`__
-                        -  `getMacroButtonIndex </rptools/wiki/getMacroButtonIndex>`__
-                        -  `getMacroCommand </rptools/wiki/getMacroCommand>`__
-                        -  `getMacroContext </rptools/wiki/getMacroContext>`__
-                        -  `getMacroGroup </rptools/wiki/getMacroGroup>`__
-                        -  `getMacroIndexes </rptools/wiki/getMacroIndexes>`__
-                        -  `getMacroLocation </rptools/wiki/getMacroLocation>`__
-                        -  `getMacroName </rptools/wiki/getMacroName>`__
-                        -  `getMacroProps </rptools/wiki/getMacroProps>`__
-                        -  `getMacros </rptools/wiki/getMacros>`__
-                        -  `getMapVisible </rptools/wiki/getMapVisible>`__
-                        -  `getMatchingLibProperties </rptools/wiki/getMatchingLibProperties>`__
-                        -  `getMatchingProperties </rptools/wiki/getMatchingProperties>`__
-                        -  `getMaxLoopIterations </rptools/wiki/getMaxLoopIterations>`__
-                        -  `getMaxRecursionDepth </rptools/wiki/getMaxRecursionDepth>`__
-                        -  `getMoveCount </rptools/wiki/getMoveCount>`__
-                        -  `getName </rptools/wiki/getName>`__
-                        -  `getNewRolls </rptools/wiki/getNewRolls>`__
-                        -  `getNotes </rptools/wiki/getNotes>`__
-                        -  `getNPC </rptools/wiki/getNPC>`__
-                        -  `getNPCNames </rptools/wiki/getNPCNames>`__
-                        -  `getOwned </rptools/wiki/getOwned>`__
-                        -  `getOwnedNames </rptools/wiki/getOwnedNames>`__
-                        -  `getOwnerOnlyVisible </rptools/wiki/getOwnerOnlyVisible>`__
-                        -  `getOwners </rptools/wiki/getOwners>`__
-                        -  `getPC </rptools/wiki/getPC>`__
-                        -  `getPCNames </rptools/wiki/getPCNames>`__
-                        -  `getPenColor </rptools/wiki/getPenColor>`__
-                        -  `getPenWidth </rptools/wiki/getPenWidth>`__
-                        -  `getPlayerName </rptools/wiki/getPlayerName>`__
-                        -  `getProperty </rptools/wiki/getProperty>`__
-                        -  `getPropertyDefault </rptools/wiki/getPropertyDefault>`__
-                        -  `getPropertyNames </rptools/wiki/getPropertyNames>`__
-                        -  `getPropertyNamesRaw </rptools/wiki/getPropertyNamesRaw>`__
-                        -  `getPropertyType </rptools/wiki/getPropertyType>`__
-                        -  `getRawProperty </rptools/wiki/getRawProperty>`__
-                        -  `getRecursionDepth </rptools/wiki/getRecursionDepth>`__
-                        -  `getRolled </rptools/wiki/getRolled>`__
-                        -  `getSelected </rptools/wiki/getSelected>`__
-                        -  `getSelectedNames </rptools/wiki/getSelectedNames>`__
-                        -  `getSightType </rptools/wiki/getSightType>`__
-                        -  `getSize </rptools/wiki/getSize>`__
-                        -  `getSpeech </rptools/wiki/getSpeech>`__
-                        -  `getSpeechNames </rptools/wiki/getSpeechNames>`__
-                        -  `getState </rptools/wiki/getState>`__
-                        -  `getStateImage </rptools/wiki/getStateImage>`__
-                        -  `getStreamProperties </rptools/wiki/getStreamProperties>`__
-                        -  `getStrProp </rptools/wiki/getStrProp>`__
-                        -  `getTableAccess </rptools/wiki/getTableAccess>`__
-                        -  `getTableEntry </rptools/wiki/getTableEntry>`__
-                        -  `getTableImage </rptools/wiki/getTableImage>`__
-                        -  `getTableNames </rptools/wiki/getTableNames>`__
-                        -  `getTableRoll </rptools/wiki/getTableRoll>`__
-                        -  `getTableVisible </rptools/wiki/getTableVisible>`__
-                        -  `getTerrainModifier </rptools/wiki/getTerrainModifier>`__
-                        -  `getTokenDrawOrder </rptools/wiki/getTokenDrawOrder>`__
-                        -  `getTokenFacing </rptools/wiki/getTokenFacing>`__
-                        -  `getTokenGMName </rptools/wiki/getTokenGMName>`__
-                        -  `getTokenHalo </rptools/wiki/getTokenHalo>`__
-                        -  `getTokenHandout </rptools/wiki/getTokenHandout>`__
-                        -  `getTokenHeight </rptools/wiki/getTokenHeight>`__
-                        -  `getTokenImage </rptools/wiki/getTokenImage>`__
-                        -  `getTokenLabel </rptools/wiki/getTokenLabel>`__
-                        -  `getTokenNames </rptools/wiki/getTokenNames>`__
-                        -  `getTokenNativeHeight </rptools/wiki/getTokenNativeHeight>`__
-                        -  `getTokenNativeWidth </rptools/wiki/getTokenNativeWidth>`__
-                        -  `getTokenOpacity </rptools/wiki/getTokenOpacity>`__
-                        -  `getTokenPortrait </rptools/wiki/getTokenPortrait>`__
-                        -  `getTokenRotation </rptools/wiki/getTokenRotation>`__
-                        -  `getTokens </rptools/wiki/getTokens>`__
-                        -  `getTokenShape </rptools/wiki/getTokenShape>`__
-                        -  `getTokenStates </rptools/wiki/getTokenStates>`__
-                        -  `getTokenVBL </rptools/wiki/getTokenVBL>`__
-                        -  `getTokenWidth </rptools/wiki/getTokenWidth>`__
-                        -  `getTokenX </rptools/wiki/getTokenX>`__
-                        -  `getTokenY </rptools/wiki/getTokenY>`__
-                        -  `getVBL </rptools/wiki/getVBL>`__
-                        -  `getViewArea </rptools/wiki/getViewArea>`__
-                        -  `getViewCenter </rptools/wiki/getViewCenter>`__
-                        -  `getVisible </rptools/wiki/getVisible>`__
-                        -  `getVisibleMapNames </rptools/wiki/getVisibleMapNames>`__
-                        -  `getVisibleTokenNames </rptools/wiki/getVisibleTokenNames>`__
-                        -  `getVisibleTokens </rptools/wiki/getVisibleTokens>`__
-                        -  `getWithState </rptools/wiki/getWithState>`__
-                        -  `getWithStateNames </rptools/wiki/getWithStateNames>`__
-                        -  `getZoom </rptools/wiki/getZoom>`__
-                        -  `goto </rptools/wiki/goto>`__
+                        -  `getAllMapNames <getAllMapNames>`__
+                        -  `getAllPlayerNames <getAllPlayerNames>`__
+                        -  `getAllPropertyNames <getAllPropertyNames>`__
+                        -  `getAlwaysVisible <getAlwaysVisible>`__
+                        -  `getBar <getBar>`__
+                        -  `getCurrentInitiative <getCurrentInitiative>`__
+                        -  `getCurrentMapName <getCurrentMapName>`__
+                        -  `getDialogProperties <getDialogProperties>`__
+                        -  `getDistance <getDistance>`__
+                        -  `getDistanceToXY <getDistanceToXY>`__
+                        -  `getDrawingEraser <getDrawingEraser>`__
+                        -  `getDrawingInfo <getDrawingInfo>`__
+                        -  `getDrawingLayer <getDrawingLayer>`__
+                        -  `getDrawingOpacity <getDrawingOpacity>`__
+                        -  `getDrawingProperties <getDrawingProperties>`__
+                        -  `getEnvironmentVariable <getEnvironmentVariable>`__
+                        -  `getExposedTokenNames <getExposedTokenNames>`__
+                        -  `getExposedTokens <getExposedTokens>`__
+                        -  `getFillColor <getFillColor>`__
+                        -  `getFindCount <getFindCount>`__
+                        -  `getFrameProperties <getFrameProperties>`__
+                        -  `getGMName <getGMName>`__
+                        -  `getGMNotes <getGMNotes>`__
+                        -  `getGroup <getGroup>`__
+                        -  `getGroupCount <getGroupCount>`__
+                        -  `getGroupEnd <getGroupEnd>`__
+                        -  `getGroupStart <getGroupStart>`__
+                        -  `getHalo <getHalo>`__
+                        -  `getImage <getImage>`__
+                        -  `getImpersonated <getImpersonated>`__
+                        -  `getImpersonatedName <getImpersonatedName>`__
+                        -  `getInfo <getInfo>`__
+                        -  `getInitiative <getInitiative>`__
+                        -  `getInitiativeHold <getInitiativeHold>`__
+                        -  `getInitiativeList <getInitiativeList>`__
+                        -  `getInitiativeRound <getInitiativeRound>`__
+                        -  `getInitiativeToken <getInitiativeToken>`__
+                        -  `getLabel <getLabel>`__
+                        -  `getLastPath <getLastPath>`__
+                        -  `getLayer <getLayer>`__
+                        -  `getLibProperty <getLibProperty>`__
+                        -  `getLibPropertyNames <getLibPropertyNames>`__
+                        -  `getLights <getLights>`__
+                        -  `getLineCap <getLineCap>`__
+                        -  `getMacroButtonIndex <getMacroButtonIndex>`__
+                        -  `getMacroCommand <getMacroCommand>`__
+                        -  `getMacroContext <getMacroContext>`__
+                        -  `getMacroGroup <getMacroGroup>`__
+                        -  `getMacroIndexes <getMacroIndexes>`__
+                        -  `getMacroLocation <getMacroLocation>`__
+                        -  `getMacroName <getMacroName>`__
+                        -  `getMacroProps <getMacroProps>`__
+                        -  `getMacros <getMacros>`__
+                        -  `getMapVisible <getMapVisible>`__
+                        -  `getMatchingLibProperties <getMatchingLibProperties>`__
+                        -  `getMatchingProperties <getMatchingProperties>`__
+                        -  `getMaxLoopIterations <getMaxLoopIterations>`__
+                        -  `getMaxRecursionDepth <getMaxRecursionDepth>`__
+                        -  `getMoveCount <getMoveCount>`__
+                        -  `getName <getName>`__
+                        -  `getNewRolls <getNewRolls>`__
+                        -  `getNotes <getNotes>`__
+                        -  `getNPC <getNPC>`__
+                        -  `getNPCNames <getNPCNames>`__
+                        -  `getOwned <getOwned>`__
+                        -  `getOwnedNames <getOwnedNames>`__
+                        -  `getOwnerOnlyVisible <getOwnerOnlyVisible>`__
+                        -  `getOwners <getOwners>`__
+                        -  `getPC <getPC>`__
+                        -  `getPCNames <getPCNames>`__
+                        -  `getPenColor <getPenColor>`__
+                        -  `getPenWidth <getPenWidth>`__
+                        -  `getPlayerName <getPlayerName>`__
+                        -  `getProperty <getProperty>`__
+                        -  `getPropertyDefault <getPropertyDefault>`__
+                        -  `getPropertyNames <getPropertyNames>`__
+                        -  `getPropertyNamesRaw <getPropertyNamesRaw>`__
+                        -  `getPropertyType <getPropertyType>`__
+                        -  `getRawProperty <getRawProperty>`__
+                        -  `getRecursionDepth <getRecursionDepth>`__
+                        -  `getRolled <getRolled>`__
+                        -  `getSelected <getSelected>`__
+                        -  `getSelectedNames <getSelectedNames>`__
+                        -  `getSightType <getSightType>`__
+                        -  `getSize <getSize>`__
+                        -  `getSpeech <getSpeech>`__
+                        -  `getSpeechNames <getSpeechNames>`__
+                        -  `getState <getState>`__
+                        -  `getStateImage <getStateImage>`__
+                        -  `getStreamProperties <getStreamProperties>`__
+                        -  `getStrProp <getStrProp>`__
+                        -  `getTableAccess <getTableAccess>`__
+                        -  `getTableEntry <getTableEntry>`__
+                        -  `getTableImage <getTableImage>`__
+                        -  `getTableNames <getTableNames>`__
+                        -  `getTableRoll <getTableRoll>`__
+                        -  `getTableVisible <getTableVisible>`__
+                        -  `getTerrainModifier <getTerrainModifier>`__
+                        -  `getTokenDrawOrder <getTokenDrawOrder>`__
+                        -  `getTokenFacing <getTokenFacing>`__
+                        -  `getTokenGMName <getTokenGMName>`__
+                        -  `getTokenHalo <getTokenHalo>`__
+                        -  `getTokenHandout <getTokenHandout>`__
+                        -  `getTokenHeight <getTokenHeight>`__
+                        -  `getTokenImage <getTokenImage>`__
+                        -  `getTokenLabel <getTokenLabel>`__
+                        -  `getTokenNames <getTokenNames>`__
+                        -  `getTokenNativeHeight <getTokenNativeHeight>`__
+                        -  `getTokenNativeWidth <getTokenNativeWidth>`__
+                        -  `getTokenOpacity <getTokenOpacity>`__
+                        -  `getTokenPortrait <getTokenPortrait>`__
+                        -  `getTokenRotation <getTokenRotation>`__
+                        -  `getTokens <getTokens>`__
+                        -  `getTokenShape <getTokenShape>`__
+                        -  `getTokenStates <getTokenStates>`__
+                        -  `getTokenVBL <getTokenVBL>`__
+                        -  `getTokenWidth <getTokenWidth>`__
+                        -  `getTokenX <getTokenX>`__
+                        -  `getTokenY <getTokenY>`__
+                        -  `getVBL <getVBL>`__
+                        -  `getViewArea <getViewArea>`__
+                        -  `getViewCenter <getViewCenter>`__
+                        -  `getVisible <getVisible>`__
+                        -  `getVisibleMapNames <getVisibleMapNames>`__
+                        -  `getVisibleTokenNames <getVisibleTokenNames>`__
+                        -  `getVisibleTokens <getVisibleTokens>`__
+                        -  `getWithState <getWithState>`__
+                        -  `getWithStateNames <getWithStateNames>`__
+                        -  `getZoom <getZoom>`__
+                        -  `goto <goto>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: H
                            :name: h-1
 
-                        -  `hasImpersonated </rptools/wiki/hasImpersonated>`__
-                        -  `hasLightSource </rptools/wiki/hasLightSource>`__
-                        -  `hasMacro </rptools/wiki/hasMacro>`__
-                        -  `hasProperty </rptools/wiki/hasProperty>`__
-                        -  `hasSight </rptools/wiki/hasSight>`__
-                        -  `hero </rptools/wiki/hero>`__
-                        -  `herobody </rptools/wiki/herobody>`__
-                        -  `herolab.getImage </rptools/wiki/herolab.getImage>`__
-                        -  `herolab.getInfo </rptools/wiki/herolab.getInfo>`__
-                        -  `herolab.getMasterName </rptools/wiki/herolab.getMasterName>`__
-                        -  `herolab.getStatBlock </rptools/wiki/herolab.getStatBlock>`__
-                        -  `herolab.hasChanged </rptools/wiki/herolab.hasChanged>`__
-                        -  `herolab.isMinion </rptools/wiki/herolab.isMinion>`__
-                        -  `herolab.refresh </rptools/wiki/herolab.refresh>`__
-                        -  `herolab.XPath </rptools/wiki/herolab.XPath>`__
-                        -  `herostun </rptools/wiki/herostun>`__
-                        -  `hex </rptools/wiki/hex>`__
-                        -  `hypot </rptools/wiki/hypot>`__
-                        -  `hypotenuse </rptools/wiki/hypotenuse>`__
+                        -  `hasImpersonated <hasImpersonated>`__
+                        -  `hasLightSource <hasLightSource>`__
+                        -  `hasMacro <hasMacro>`__
+                        -  `hasProperty <hasProperty>`__
+                        -  `hasSight <hasSight>`__
+                        -  `hero <hero>`__
+                        -  `herobody <herobody>`__
+                        -  `herolab.getImage <herolab.getImage>`__
+                        -  `herolab.getInfo <herolab.getInfo>`__
+                        -  `herolab.getMasterName <herolab.getMasterName>`__
+                        -  `herolab.getStatBlock <herolab.getStatBlock>`__
+                        -  `herolab.hasChanged <herolab.hasChanged>`__
+                        -  `herolab.isMinion <herolab.isMinion>`__
+                        -  `herolab.refresh <herolab.refresh>`__
+                        -  `herolab.XPath <herolab.XPath>`__
+                        -  `herostun <herostun>`__
+                        -  `hex <hex>`__
+                        -  `hypot <hypot>`__
+                        -  `hypotenuse <hypotenuse>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i-1
 
-                        -  `if </rptools/wiki/if>`__
-                        -  `indexKeyStrProp </rptools/wiki/indexKeyStrProp>`__
-                        -  `indexOf </rptools/wiki/indexOf>`__
-                        -  `indexValueStrProp </rptools/wiki/indexValueStrProp>`__
-                        -  `initiativeSize </rptools/wiki/initiativeSize>`__
-                        -  `input </rptools/wiki/input>`__
-                        -  `isBarVisible </rptools/wiki/isBarVisible>`__
-                        -  `isDialogVisible </rptools/wiki/isDialogVisible>`__
-                        -  `isExternalMacroAccessAllowed </rptools/wiki/isExternalMacroAccessAllowed>`__
-                        -  `isFrameVisible </rptools/wiki/isFrameVisible>`__
-                        -  `isFunctionDefined </rptools/wiki/isFunctionDefined>`__
-                        -  `isGM </rptools/wiki/isGM>`__
-                        -  `isNPC </rptools/wiki/isNPC>`__
-                        -  `isNumber </rptools/wiki/isNumber>`__
-                        -  `isOwnedByAll </rptools/wiki/isOwnedByAll>`__
-                        -  `isOwner </rptools/wiki/isOwner>`__
-                        -  `isPC </rptools/wiki/isPC>`__
-                        -  `isPropertyEmpty </rptools/wiki/isPropertyEmpty>`__
-                        -  `isSnapToGrid </rptools/wiki/isSnapToGrid>`__
-                        -  `isTrusted </rptools/wiki/isTrusted>`__
-                        -  `isVisible </rptools/wiki/isVisible>`__
+                        -  `if <if>`__
+                        -  `indexKeyStrProp <indexKeyStrProp>`__
+                        -  `indexOf <indexOf>`__
+                        -  `indexValueStrProp <indexValueStrProp>`__
+                        -  `initiativeSize <initiativeSize>`__
+                        -  `input <input>`__
+                        -  `isBarVisible <isBarVisible>`__
+                        -  `isDialogVisible <isDialogVisible>`__
+                        -  `isExternalMacroAccessAllowed <isExternalMacroAccessAllowed>`__
+                        -  `isFrameVisible <isFrameVisible>`__
+                        -  `isFunctionDefined <isFunctionDefined>`__
+                        -  `isGM <isGM>`__
+                        -  `isNPC <isNPC>`__
+                        -  `isNumber <isNumber>`__
+                        -  `isOwnedByAll <isOwnedByAll>`__
+                        -  `isOwner <isOwner>`__
+                        -  `isPC <isPC>`__
+                        -  `isPropertyEmpty <isPropertyEmpty>`__
+                        -  `isSnapToGrid <isSnapToGrid>`__
+                        -  `isTrusted <isTrusted>`__
+                        -  `isVisible <isVisible>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: J
                            :name: j-1
 
-                        -  `json.append </rptools/wiki/json.append>`__
-                        -  `json.contains </rptools/wiki/json.contains>`__
-                        -  `json.count </rptools/wiki/json.count>`__
-                        -  `json.difference </rptools/wiki/json.difference>`__
-                        -  `json.equals </rptools/wiki/json.equals>`__
-                        -  `json.evaluate </rptools/wiki/json.evaluate>`__
-                        -  `json.fields </rptools/wiki/json.fields>`__
-                        -  `json.fromList </rptools/wiki/json.fromList>`__
-                        -  `json.fromStrProp </rptools/wiki/json.fromStrProp>`__
-                        -  `json.get </rptools/wiki/json.get>`__
-                        -  `json.indent </rptools/wiki/json.indent>`__
-                        -  `json.indexOf </rptools/wiki/json.indexOf>`__
-                        -  `json.intersection </rptools/wiki/json.intersection>`__
-                        -  `json.isEmpty </rptools/wiki/json.isEmpty>`__
-                        -  `json.isSubset </rptools/wiki/json.isSubset>`__
-                        -  `json.length </rptools/wiki/json.length>`__
-                        -  `json.merge </rptools/wiki/json.merge>`__
-                        -  `json.objrolls </rptools/wiki/json.objrolls>`__
-                        -  `json.path.delete </rptools/wiki/json.path.delete>`__
-                        -  `json.path.read </rptools/wiki/json.path.read>`__
-                        -  `json.remove </rptools/wiki/json.remove>`__
-                        -  `json.removeAll </rptools/wiki/json.removeAll>`__
-                        -  `json.removeFirst </rptools/wiki/json.removeFirst>`__
-                        -  `json.reverse </rptools/wiki/json.reverse>`__
-                        -  `json.rolls </rptools/wiki/json.rolls>`__
-                        -  `json.set </rptools/wiki/json.set>`__
-                        -  `json.shuffle </rptools/wiki/json.shuffle>`__
-                        -  `json.sort </rptools/wiki/json.sort>`__
-                        -  `json.toList </rptools/wiki/json.toList>`__
-                        -  `json.toStrProp </rptools/wiki/json.toStrProp>`__
-                        -  `json.type </rptools/wiki/json.type>`__
-                        -  `json.union </rptools/wiki/json.union>`__
-                        -  `json.unique </rptools/wiki/json.unique>`__
+                        -  `json.append <json.append>`__
+                        -  `json.contains <json.contains>`__
+                        -  `json.count <json.count>`__
+                        -  `json.difference <json.difference>`__
+                        -  `json.equals <json.equals>`__
+                        -  `json.evaluate <json.evaluate>`__
+                        -  `json.fields <json.fields>`__
+                        -  `json.fromList <json.fromList>`__
+                        -  `json.fromStrProp <json.fromStrProp>`__
+                        -  `json.get <json.get>`__
+                        -  `json.indent <json.indent>`__
+                        -  `json.indexOf <json.indexOf>`__
+                        -  `json.intersection <json.intersection>`__
+                        -  `json.isEmpty <json.isEmpty>`__
+                        -  `json.isSubset <json.isSubset>`__
+                        -  `json.length <json.length>`__
+                        -  `json.merge <json.merge>`__
+                        -  `json.objrolls <json.objrolls>`__
+                        -  `json.path.delete <json.path.delete>`__
+                        -  `json.path.read <json.path.read>`__
+                        -  `json.remove <json.remove>`__
+                        -  `json.removeAll <json.removeAll>`__
+                        -  `json.removeFirst <json.removeFirst>`__
+                        -  `json.reverse <json.reverse>`__
+                        -  `json.rolls <json.rolls>`__
+                        -  `json.set <json.set>`__
+                        -  `json.shuffle <json.shuffle>`__
+                        -  `json.sort <json.sort>`__
+                        -  `json.toList <json.toList>`__
+                        -  `json.toStrProp <json.toStrProp>`__
+                        -  `json.type <json.type>`__
+                        -  `json.union <json.union>`__
+                        -  `json.unique <json.unique>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: K
                            :name: k
 
-                        -  `keep </rptools/wiki/keep>`__
+                        -  `keep <keep>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: L
                            :name: l-1
 
-                        -  `lastIndexOf </rptools/wiki/lastIndexOf>`__
-                        -  `length </rptools/wiki/length>`__
-                        -  `listAppend </rptools/wiki/listAppend>`__
-                        -  `listContains </rptools/wiki/listContains>`__
-                        -  `listCount </rptools/wiki/listCount>`__
-                        -  `listDelete </rptools/wiki/listDelete>`__
-                        -  `listFind </rptools/wiki/listFind>`__
-                        -  `listFormat </rptools/wiki/listFormat>`__
-                        -  `listGet </rptools/wiki/listGet>`__
-                        -  `listInsert </rptools/wiki/listInsert>`__
-                        -  `listReplace </rptools/wiki/listReplace>`__
-                        -  `listSort </rptools/wiki/listSort>`__
-                        -  `ln </rptools/wiki/ln>`__
-                        -  `log </rptools/wiki/log>`__
-                        -  `log.debug </rptools/wiki/log.debug>`__
-                        -  `log.error </rptools/wiki/log.error>`__
-                        -  `log.fatal </rptools/wiki/log.fatal>`__
-                        -  `log.getLoggers </rptools/wiki/log.getLoggers>`__
-                        -  `log.info </rptools/wiki/log.info>`__
-                        -  `log.setLevel </rptools/wiki/log.setLevel>`__
-                        -  `log.warn </rptools/wiki/log.warn>`__
-                        -  `log10 </rptools/wiki/log10>`__
-                        -  `lower </rptools/wiki/lower>`__
+                        -  `lastIndexOf <lastIndexOf>`__
+                        -  `length <length>`__
+                        -  `listAppend <listAppend>`__
+                        -  `listContains <listContains>`__
+                        -  `listCount <listCount>`__
+                        -  `listDelete <listDelete>`__
+                        -  `listFind <listFind>`__
+                        -  `listFormat <listFormat>`__
+                        -  `listGet <listGet>`__
+                        -  `listInsert <listInsert>`__
+                        -  `listReplace <listReplace>`__
+                        -  `listSort <listSort>`__
+                        -  `ln <ln>`__
+                        -  `log <log>`__
+                        -  `log.debug <log.debug>`__
+                        -  `log.error <log.error>`__
+                        -  `log.fatal <log.fatal>`__
+                        -  `log.getLoggers <log.getLoggers>`__
+                        -  `log.info <log.info>`__
+                        -  `log.setLevel <log.setLevel>`__
+                        -  `log.warn <log.warn>`__
+                        -  `log10 <log10>`__
+                        -  `lower <lower>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: M
                            :name: m-1
 
-                        -  `macroLink </rptools/wiki/macroLink>`__
-                        -  `macroLinkText </rptools/wiki/macroLinkText>`__
-                        -  `matches </rptools/wiki/matches>`__
-                        -  `math </rptools/wiki/math>`__
-                        -  `max </rptools/wiki/max>`__
-                        -  `mean </rptools/wiki/mean>`__
-                        -  `median </rptools/wiki/median>`__
-                        -  `min </rptools/wiki/min>`__
-                        -  `mod </rptools/wiki/mod>`__
-                        -  `movedOverDrawing </rptools/wiki/movedOverDrawing>`__
-                        -  `movedOverPoints </rptools/wiki/movedOverPoints>`__
-                        -  `movedOverToken </rptools/wiki/movedOverToken>`__
-                        -  `moveToken </rptools/wiki/moveToken>`__
-                        -  `moveTokenFromMap </rptools/wiki/moveTokenFromMap>`__
-                        -  `moveTokenToMap </rptools/wiki/moveTokenToMap>`__
-                        -  `multiply </rptools/wiki/multiply>`__
+                        -  `macroLink <macroLink>`__
+                        -  `macroLinkText <macroLinkText>`__
+                        -  `matches <matches>`__
+                        -  `math <math>`__
+                        -  `max <max>`__
+                        -  `mean <mean>`__
+                        -  `median <median>`__
+                        -  `min <min>`__
+                        -  `mod <mod>`__
+                        -  `movedOverDrawing <movedOverDrawing>`__
+                        -  `movedOverPoints <movedOverPoints>`__
+                        -  `movedOverToken <movedOverToken>`__
+                        -  `moveToken <moveToken>`__
+                        -  `moveTokenFromMap <moveTokenFromMap>`__
+                        -  `moveTokenToMap <moveTokenToMap>`__
+                        -  `multiply <multiply>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: N
                            :name: n
 
-                        -  `nextInitiative </rptools/wiki/nextInitiative>`__
-                        -  `number </rptools/wiki/number>`__
+                        -  `nextInitiative <nextInitiative>`__
+                        -  `number <number>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: O
                            :name: o
 
-                        -  `oldFunction </rptools/wiki/oldFunction>`__
-                        -  `openTest </rptools/wiki/openTest>`__
+                        -  `oldFunction <oldFunction>`__
+                        -  `openTest <openTest>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: P
                            :name: p-1
 
-                        -  `playStream </rptools/wiki/playStream>`__
-                        -  `pow </rptools/wiki/pow>`__
-                        -  `power </rptools/wiki/power>`__
+                        -  `playStream <playStream>`__
+                        -  `pow <pow>`__
+                        -  `power <power>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r-1
 
-                        -  `refreshDrawing </rptools/wiki/refreshDrawing>`__
-                        -  `removeAllFromInitiative </rptools/wiki/removeAllFromInitiative>`__
-                        -  `removeAllNPCsFromInitiative </rptools/wiki/removeAllNPCsFromInitiative>`__
-                        -  `removeAllPCsFromInitiative </rptools/wiki/removeAllPCsFromInitiative>`__
-                        -  `removeFromInitiative </rptools/wiki/removeFromInitiative>`__
-                        -  `removeMacro </rptools/wiki/removeMacro>`__
-                        -  `removeToken </rptools/wiki/removeToken>`__
-                        -  `removeTokenFacing </rptools/wiki/removeTokenFacing>`__
-                        -  `replace </rptools/wiki/replace>`__
-                        -  `reroll </rptools/wiki/reroll>`__
-                        -  `resetFrame </rptools/wiki/resetFrame>`__
-                        -  `resetProperty </rptools/wiki/resetProperty>`__
-                        -  `resetSize </rptools/wiki/resetSize>`__
-                        -  `REST.delete </rptools/wiki/REST.delete>`__
-                        -  `REST.get </rptools/wiki/REST.get>`__
-                        -  `REST.patch </rptools/wiki/REST.patch>`__
-                        -  `REST.post </rptools/wiki/REST.post>`__
-                        -  `REST.put </rptools/wiki/REST.put>`__
-                        -  `restoreFoW </rptools/wiki/restoreFoW>`__
-                        -  `return </rptools/wiki/return>`__
-                        -  `roll </rptools/wiki/roll>`__
-                        -  `round </rptools/wiki/round>`__
+                        -  `refreshDrawing <refreshDrawing>`__
+                        -  `removeAllFromInitiative <removeAllFromInitiative>`__
+                        -  `removeAllNPCsFromInitiative <removeAllNPCsFromInitiative>`__
+                        -  `removeAllPCsFromInitiative <removeAllPCsFromInitiative>`__
+                        -  `removeFromInitiative <removeFromInitiative>`__
+                        -  `removeMacro <removeMacro>`__
+                        -  `removeToken <removeToken>`__
+                        -  `removeTokenFacing <removeTokenFacing>`__
+                        -  `replace <replace>`__
+                        -  `reroll <reroll>`__
+                        -  `resetFrame <resetFrame>`__
+                        -  `resetProperty <resetProperty>`__
+                        -  `resetSize <resetSize>`__
+                        -  `REST.delete <REST.delete>`__
+                        -  `REST.get <REST.get>`__
+                        -  `REST.patch <REST.patch>`__
+                        -  `REST.post <REST.post>`__
+                        -  `REST.put <REST.put>`__
+                        -  `restoreFoW <restoreFoW>`__
+                        -  `return <return>`__
+                        -  `roll <roll>`__
+                        -  `round <round>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s-1
 
-                        -  `selectTokens </rptools/wiki/selectTokens>`__
-                        -  `sendDrawingToBack </rptools/wiki/sendDrawingToBack>`__
-                        -  `sendToBack </rptools/wiki/sendToBack>`__
-                        -  `set </rptools/wiki/set>`__
-                        -  `setAllStates </rptools/wiki/setAllStates>`__
-                        -  `setAlwaysVisible </rptools/wiki/setAlwaysVisible>`__
-                        -  `setBar </rptools/wiki/setBar>`__
-                        -  `setBarVisible </rptools/wiki/setBarVisible>`__
-                        -  `setCurrentInitiative </rptools/wiki/setCurrentInitiative>`__
-                        -  `setCurrentMap </rptools/wiki/setCurrentMap>`__
-                        -  `setDrawingEraser </rptools/wiki/setDrawingEraser>`__
-                        -  `setDrawingLayer </rptools/wiki/setDrawingLayer>`__
-                        -  `setDrawingOpacity </rptools/wiki/setDrawingOpacity>`__
-                        -  `setDrawingProperties </rptools/wiki/setDrawingProperties>`__
-                        -  `setFillColor </rptools/wiki/setFillColor>`__
-                        -  `setGMName </rptools/wiki/setGMName>`__
-                        -  `setGMNotes </rptools/wiki/setGMNotes>`__
-                        -  `setHalo </rptools/wiki/setHalo>`__
-                        -  `setHasSight </rptools/wiki/setHasSight>`__
-                        -  `setInitiative </rptools/wiki/setInitiative>`__
-                        -  `setInitiativeHold </rptools/wiki/setInitiativeHold>`__
-                        -  `setInitiativeRound </rptools/wiki/setInitiativeRound>`__
-                        -  `setLabel </rptools/wiki/setLabel>`__
-                        -  `setLayer </rptools/wiki/setLayer>`__
-                        -  `setLibProperty </rptools/wiki/setLibProperty>`__
-                        -  `setLight </rptools/wiki/setLight>`__
-                        -  `setLineCap </rptools/wiki/setLineCap>`__
-                        -  `setMacroCommand </rptools/wiki/setMacroCommand>`__
-                        -  `setMacroProps </rptools/wiki/setMacroProps>`__
-                        -  `setMapName </rptools/wiki/setMapName>`__
-                        -  `setMapVisible </rptools/wiki/setMapVisible>`__
-                        -  `setMaxLoopIterations </rptools/wiki/setMaxLoopIterations>`__
-                        -  `setMaxRecursionDepth </rptools/wiki/setMaxRecursionDepth>`__
-                        -  `setName </rptools/wiki/setName>`__
-                        -  `setNotes </rptools/wiki/setNotes>`__
-                        -  `setNPC </rptools/wiki/setNPC>`__
-                        -  `setOwnedByAll </rptools/wiki/setOwnedByAll>`__
-                        -  `setOwner </rptools/wiki/setOwner>`__
-                        -  `setOwnerOnlyVisible </rptools/wiki/setOwnerOnlyVisible>`__
-                        -  `setPC </rptools/wiki/setPC>`__
-                        -  `setPenColor </rptools/wiki/setPenColor>`__
-                        -  `setPenWidth </rptools/wiki/setPenWidth>`__
-                        -  `setProperty </rptools/wiki/setProperty>`__
-                        -  `setPropertyType </rptools/wiki/setPropertyType>`__
-                        -  `setSightType </rptools/wiki/setSightType>`__
-                        -  `setSize </rptools/wiki/setSize>`__
-                        -  `setSpeech </rptools/wiki/setSpeech>`__
-                        -  `setState </rptools/wiki/setState>`__
-                        -  `setStrProp </rptools/wiki/setStrProp>`__
-                        -  `setTableAccess </rptools/wiki/setTableAccess>`__
-                        -  `setTableEntry </rptools/wiki/setTableEntry>`__
-                        -  `setTableImage </rptools/wiki/setTableImage>`__
-                        -  `setTableRoll </rptools/wiki/setTableRoll>`__
-                        -  `setTableVisible </rptools/wiki/setTableVisible>`__
-                        -  `setTerrainModifier </rptools/wiki/setTerrainModifier>`__
-                        -  `setTokenDrawOrder </rptools/wiki/setTokenDrawOrder>`__
-                        -  `setTokenFacing </rptools/wiki/setTokenFacing>`__
-                        -  `setTokenGMName </rptools/wiki/setTokenGMName>`__
-                        -  `setTokenHandout </rptools/wiki/setTokenHandout>`__
-                        -  `setTokenHeight </rptools/wiki/setTokenHeight>`__
-                        -  `setTokenImage </rptools/wiki/setTokenImage>`__
-                        -  `setTokenLabel </rptools/wiki/setTokenLabel>`__
-                        -  `setTokenOpacity </rptools/wiki/setTokenOpacity>`__
-                        -  `setTokenPortrait </rptools/wiki/setTokenPortrait>`__
-                        -  `setTokenShape </rptools/wiki/setTokenShape>`__
-                        -  `setTokenSnapToGrid </rptools/wiki/setTokenSnapToGrid>`__
-                        -  `setTokenVBL </rptools/wiki/setTokenVBL>`__
-                        -  `setTokenWidth </rptools/wiki/setTokenWidth>`__
-                        -  `setViewArea </rptools/wiki/setViewArea>`__
-                        -  `setVisible </rptools/wiki/setVisible>`__
-                        -  `setZoom </rptools/wiki/setZoom>`__
-                        -  `sortInitiative </rptools/wiki/sortInitiative>`__
-                        -  `sqr </rptools/wiki/sqr>`__
-                        -  `sqrt </rptools/wiki/sqrt>`__
-                        -  `square </rptools/wiki/square>`__
-                        -  `squareroot </rptools/wiki/squareroot>`__
-                        -  `sr4 </rptools/wiki/sr4>`__
-                        -  `sr4e </rptools/wiki/sr4e>`__
-                        -  `startsWith </rptools/wiki/startsWith>`__
-                        -  `stopStream </rptools/wiki/stopStream>`__
-                        -  `strfind </rptools/wiki/strfind>`__
-                        -  `strformat </rptools/wiki/strformat>`__
-                        -  `string </rptools/wiki/string>`__
-                        -  `stringToList </rptools/wiki/stringToList>`__
-                        -  `strPropFromVars </rptools/wiki/strPropFromVars>`__
-                        -  `substring </rptools/wiki/substring>`__
-                        -  `subtract </rptools/wiki/subtract>`__
-                        -  `success </rptools/wiki/success>`__
-                        -  `sum </rptools/wiki/sum>`__
-                        -  `switchToken </rptools/wiki/switchToken>`__
+                        -  `selectTokens <selectTokens>`__
+                        -  `sendDrawingToBack <sendDrawingToBack>`__
+                        -  `sendToBack <sendToBack>`__
+                        -  `set <set>`__
+                        -  `setAllStates <setAllStates>`__
+                        -  `setAlwaysVisible <setAlwaysVisible>`__
+                        -  `setBar <setBar>`__
+                        -  `setBarVisible <setBarVisible>`__
+                        -  `setCurrentInitiative <setCurrentInitiative>`__
+                        -  `setCurrentMap <setCurrentMap>`__
+                        -  `setDrawingEraser <setDrawingEraser>`__
+                        -  `setDrawingLayer <setDrawingLayer>`__
+                        -  `setDrawingOpacity <setDrawingOpacity>`__
+                        -  `setDrawingProperties <setDrawingProperties>`__
+                        -  `setFillColor <setFillColor>`__
+                        -  `setGMName <setGMName>`__
+                        -  `setGMNotes <setGMNotes>`__
+                        -  `setHalo <setHalo>`__
+                        -  `setHasSight <setHasSight>`__
+                        -  `setInitiative <setInitiative>`__
+                        -  `setInitiativeHold <setInitiativeHold>`__
+                        -  `setInitiativeRound <setInitiativeRound>`__
+                        -  `setLabel <setLabel>`__
+                        -  `setLayer <setLayer>`__
+                        -  `setLibProperty <setLibProperty>`__
+                        -  `setLight <setLight>`__
+                        -  `setLineCap <setLineCap>`__
+                        -  `setMacroCommand <setMacroCommand>`__
+                        -  `setMacroProps <setMacroProps>`__
+                        -  `setMapName <setMapName>`__
+                        -  `setMapVisible <setMapVisible>`__
+                        -  `setMaxLoopIterations <setMaxLoopIterations>`__
+                        -  `setMaxRecursionDepth <setMaxRecursionDepth>`__
+                        -  `setName <setName>`__
+                        -  `setNotes <setNotes>`__
+                        -  `setNPC <setNPC>`__
+                        -  `setOwnedByAll <setOwnedByAll>`__
+                        -  `setOwner <setOwner>`__
+                        -  `setOwnerOnlyVisible <setOwnerOnlyVisible>`__
+                        -  `setPC <setPC>`__
+                        -  `setPenColor <setPenColor>`__
+                        -  `setPenWidth <setPenWidth>`__
+                        -  `setProperty <setProperty>`__
+                        -  `setPropertyType <setPropertyType>`__
+                        -  `setSightType <setSightType>`__
+                        -  `setSize <setSize>`__
+                        -  `setSpeech <setSpeech>`__
+                        -  `setState <setState>`__
+                        -  `setStrProp <setStrProp>`__
+                        -  `setTableAccess <setTableAccess>`__
+                        -  `setTableEntry <setTableEntry>`__
+                        -  `setTableImage <setTableImage>`__
+                        -  `setTableRoll <setTableRoll>`__
+                        -  `setTableVisible <setTableVisible>`__
+                        -  `setTerrainModifier <setTerrainModifier>`__
+                        -  `setTokenDrawOrder <setTokenDrawOrder>`__
+                        -  `setTokenFacing <setTokenFacing>`__
+                        -  `setTokenGMName <setTokenGMName>`__
+                        -  `setTokenHandout <setTokenHandout>`__
+                        -  `setTokenHeight <setTokenHeight>`__
+                        -  `setTokenImage <setTokenImage>`__
+                        -  `setTokenLabel <setTokenLabel>`__
+                        -  `setTokenOpacity <setTokenOpacity>`__
+                        -  `setTokenPortrait <setTokenPortrait>`__
+                        -  `setTokenShape <setTokenShape>`__
+                        -  `setTokenSnapToGrid <setTokenSnapToGrid>`__
+                        -  `setTokenVBL <setTokenVBL>`__
+                        -  `setTokenWidth <setTokenWidth>`__
+                        -  `setViewArea <setViewArea>`__
+                        -  `setVisible <setVisible>`__
+                        -  `setZoom <setZoom>`__
+                        -  `sortInitiative <sortInitiative>`__
+                        -  `sqr <sqr>`__
+                        -  `sqrt <sqrt>`__
+                        -  `square <square>`__
+                        -  `squareroot <squareroot>`__
+                        -  `sr4 <sr4>`__
+                        -  `sr4e <sr4e>`__
+                        -  `startsWith <startsWith>`__
+                        -  `stopStream <stopStream>`__
+                        -  `strfind <strfind>`__
+                        -  `strformat <strformat>`__
+                        -  `string <string>`__
+                        -  `stringToList <stringToList>`__
+                        -  `strPropFromVars <strPropFromVars>`__
+                        -  `substring <substring>`__
+                        -  `subtract <subtract>`__
+                        -  `success <success>`__
+                        -  `sum <sum>`__
+                        -  `switchToken <switchToken>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: T
                            :name: t-1
 
-                        -  `table </rptools/wiki/table>`__
-                        -  `tableImage </rptools/wiki/tableImage>`__
-                        -  `tbl </rptools/wiki/tbl>`__
-                        -  `tblImage </rptools/wiki/tblImage>`__
-                        -  `toggleFoW </rptools/wiki/toggleFoW>`__
-                        -  `transferVBL </rptools/wiki/transferVBL>`__
-                        -  `trim </rptools/wiki/trim>`__
+                        -  `table <table>`__
+                        -  `tableImage <tableImage>`__
+                        -  `tbl <tbl>`__
+                        -  `tblImage <tblImage>`__
+                        -  `toggleFoW <toggleFoW>`__
+                        -  `transferVBL <transferVBL>`__
+                        -  `trim <trim>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: U
                            :name: u-1
 
-                        -  `u </rptools/wiki/u>`__
-                        -  `ubiquity </rptools/wiki/ubiquity>`__
-                        -  `upper </rptools/wiki/upper>`__
+                        -  `u <u>`__
+                        -  `ubiquity <ubiquity>`__
+                        -  `upper <upper>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: V
                            :name: v-1
 
-                        -  `varsFromStrProp </rptools/wiki/varsFromStrProp>`__
+                        -  `varsFromStrProp <varsFromStrProp>`__
 
       .. container:: printfooter
 

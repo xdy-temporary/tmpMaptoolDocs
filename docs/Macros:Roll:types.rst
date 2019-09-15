@@ -43,7 +43,7 @@ Macros:Roll:types - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/Macros:Roll:types/ja>`__\ 
+             • \ `日本語 <Macros:Roll:types/ja>`__\ 
 
          .. container:: toc
             :name: toc
@@ -72,7 +72,7 @@ Macros:Roll:types - MapToolDoc
             :name: roll-types-and-options
 
          Text that you type into MapTool or execute from a `macro
-         button </rptools/wiki/Macro_Button>`__ is scanned for [ ] and {
+         button <Macro_Button>`__ is scanned for [ ] and {
          } blocks. The text within these blocks is evaluated and the
          output from this evaluation is placed into the string in its
          place.
@@ -169,16 +169,16 @@ Macros:Roll:types - MapToolDoc
          .. rubric:: Related Pages
             :name: related-pages
 
-         -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+         -  `Dice Expressions <Dice_Expressions>`__
          -  `Roll Visibility
-            Options </rptools/wiki/Macros:Roll:output>`__
+            Options <Macros:Roll:output>`__
          -  `Branching and Looping Roll
-            Options </rptools/wiki/Macros:Branching_and_Looping>`__
+            Options <Macros:Branching_and_Looping>`__
 
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/Macros:Roll:types/ja>`__\ 
+             • \ `日本語 <Macros:Roll:types/ja>`__\ 
 
       .. container:: printfooter
 

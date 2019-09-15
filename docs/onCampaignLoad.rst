@@ -63,7 +63,7 @@ onCampaignLoad - MapToolDoc
          **• Introduced in version 1.3b51**
 
          A special macro that can be created on `library
-         tokens </rptools/wiki/Library_Token>`__ to have macro code
+         tokens <Library_Token>`__ to have macro code
          automatically execute when a campaign is loaded. A campaign is
          considered to have been loaded if it is opened via the File
          menu, or upon connecting to a server running that campaign. All
@@ -72,20 +72,20 @@ onCampaignLoad - MapToolDoc
 
          This special macro is ideally suited for loading your User
          Defined Functions (UDFs) via
-         `defineFunction() </rptools/wiki/defineFunction>`__.
+         `defineFunction() <defineFunction>`__.
 
          When an onCampaignLoad macro is executed automatically, it is
-         considered a `Trusted Macro </rptools/wiki/Trusted_Macro>`__.
+         considered a `Trusted Macro <Trusted_Macro>`__.
          If you wish to use trusted functions within ``onCampaignLoad``
          and execute it manually (e.g. while developing macros), you
          will have to make sure that it follows all of the rules of
-         `Trusted Macros </rptools/wiki/Trusted_Macro>`__.
+         `Trusted Macros <Trusted_Macro>`__.
 
          .. rubric:: How to Create an onCampaignLoad Macro
             :name: how-to-create-an-oncampaignload-macro
 
          You can create an ``onCampaignLoad`` macro on any `library
-         token </rptools/wiki/Library_Token>`__; simply create a macro
+         token <Library_Token>`__; simply create a macro
          that is specifically named ``onCampaignLoad``.
 
          .. rubric:: Limitations
@@ -98,12 +98,12 @@ onCampaignLoad - MapToolDoc
          -  Some macro functions may not work as expected if run in
             ``onCampaignLoad`` without deferring their execution by
             using the defer option of
-            `execLink() </rptools/wiki/execLink>`__.
+            `execLink() <execLink>`__.
 
-            -  `goto() </rptools/wiki/goto>`__,
-               `setZoom() </rptools/wiki/setZoom>`__ and similar
+            -  `goto() <goto>`__,
+               `setZoom() <setZoom>`__ and similar
                function calls should be placed in a separate macro to be
-               called via `execLink() </rptools/wiki/execLink>`__
+               called via `execLink() <execLink>`__
 
          .. rubric:: Example of Deferred Function Calls
             :name: example-of-deferred-function-calls

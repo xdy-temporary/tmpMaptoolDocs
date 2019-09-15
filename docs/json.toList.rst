@@ -49,8 +49,8 @@ json.toList - MapToolDoc
 
          .. container:: template_description
 
-            Creates a `string list </rptools/wiki/Macros:string_list>`__
-            from a `JSON Array </rptools/wiki/JSON_Array>`__. If the
+            Creates a `string list <Macros:string_list>`__
+            from a `JSON Array <JSON_Array>`__. If the
             delimiter is not specified then the default value of ',' is
             used.
 

@@ -65,11 +65,11 @@ json.set - MapToolDoc
          .. container:: template_description
 
             Sets the value in at the specified index in a `JSON
-            Array </rptools/wiki/JSON_Array>`__ or for the specified key
-            in a `JSON Object </rptools/wiki/JSON_Object>`__. You can
+            Array <JSON_Array>`__ or for the specified key
+            in a `JSON Object <JSON_Object>`__. You can
             use an empty string (``""``) to represent a new `JSON
-            Array </rptools/wiki/JSON_Array>`__ or `JSON
-            Object </rptools/wiki/JSON_Object>`__.
+            Array <JSON_Array>`__ or `JSON
+            Object <JSON_Object>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -116,10 +116,10 @@ json.set - MapToolDoc
 
          **Parameters**
 
-         -  ``jarr`` - The `JSON Array </rptools/wiki/JSON_Array>`__
+         -  ``jarr`` - The `JSON Array <JSON_Array>`__
             that has an index's value set.
          -  ``index`` - The numeric index which has its value set.
-         -  ``jobj`` - The `JSON Object </rptools/wiki/JSON_Object>`__
+         -  ``jobj`` - The `JSON Object <JSON_Object>`__
             that has a key's value set.
          -  ``key`` - The named key which has its value set.
          -  ``value`` - The content that is set to the ``index`` or
@@ -168,8 +168,8 @@ json.set - MapToolDoc
                 [8, 3]
 
             To save the new value in the `JSON
-            Array </rptools/wiki/JSON_Array>`__ or `JSON
-            Object </rptools/wiki/JSON_Object>`__ so that you can
+            Array <JSON_Array>`__ or `JSON
+            Object <JSON_Object>`__ so that you can
             reference it later in a macro, you must set the array equal
             to the result of json.set().
 
@@ -203,7 +203,7 @@ json.set - MapToolDoc
 
          .. container:: template_also
 
-            `json.get() </rptools/wiki/json.get>`__
+            `json.get() <json.get>`__
 
       .. container:: printfooter
 

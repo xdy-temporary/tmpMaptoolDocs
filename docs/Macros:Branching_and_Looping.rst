@@ -123,8 +123,8 @@ Macros:Branching and Looping - MapToolDoc
 
          This page details the branching and looping structures in
          MapTool. With the exception of the block
-         `if() </rptools/wiki/if>`__ statement, these are all `roll
-         options </rptools/wiki/Macros:Roll:types>`__ and should follow
+         `if() <if>`__ statement, these are all `roll
+         options <Macros:Roll:types>`__ and should follow
          the general form for roll options:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -137,7 +137,7 @@ Macros:Branching and Looping - MapToolDoc
 
          These may be combined with other roll options (note that in
          some examples, they are combined with the `Hidden
-         Roll </rptools/wiki/Macros:Roll:types#.5B_.5D_Hidden_Rolls>`__
+         Roll <Macros:Roll:types#.5B_.5D_Hidden_Rolls>`__
          option (``h``) to hide the default output of the loop or
          branch).
 
@@ -145,11 +145,11 @@ Macros:Branching and Looping - MapToolDoc
          separate the roll options with a comma, and place the colon at
          the end of the sequence of roll options. Note that some
          combinations have unpredictable results, such as
-         using**\ `[if():] </rptools/wiki/if_(roll_option)>`__\ **with**\ `[macro():] </rptools/wiki/macro_(roll_option)>`__\ **.**
+         using**\ `[if():] <if_(roll_option)>`__\ **with**\ `[macro():] <macro_(roll_option)>`__\ **.**
 
          For example, if you want to combine a Hidden Roll,
-         `[token():] </rptools/wiki/token_(roll_option)>`__, and
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__ option
+         `[token():] <token_(roll_option)>`__, and
+         `[foreach():] <foreach_(roll_option)>`__ option
          in a single statement, you would enter the line like so:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -170,9 +170,9 @@ Macros:Branching and Looping - MapToolDoc
 
          **Introduced**: Version 1.3.b46
 
-         This `[if():] </rptools/wiki/if_(roll_option)>`__ is a roll
+         This `[if():] <if_(roll_option)>`__ is a roll
          option (as mentioned above), but operates similarly to the
-         block-style `if() </rptools/wiki/if>`__.
+         block-style `if() <if>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -225,13 +225,13 @@ Macros:Branching and Looping - MapToolDoc
             :name: note
 
          For an alternate method for evaluating "if" conditions, see the
-         function `if() </rptools/wiki/if>`__. Note that the
-         `[if():] </rptools/wiki/if_(roll_option)>`__ roll option cannot
+         function `if() <if>`__. Note that the
+         `[if():] <if_(roll_option)>`__ roll option cannot
          be (usefully) combined with the
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__ roll option
+         `[macro():] <macro_(roll_option)>`__ roll option
          as the roll options are not guaranteed to be executed in any
          particular order. This means that the
-         `if() </rptools/wiki/if>`__ function is a better choice in
+         `if() <if>`__ function is a better choice in
          those cases.
 
          .. rubric:: SWITCH Option
@@ -239,7 +239,7 @@ Macros:Branching and Looping - MapToolDoc
 
          **Introduced**: Version 1.3.b46
 
-         `[switch():] </rptools/wiki/switch_(roll_option)>`__ chooses
+         `[switch():] <switch_(roll_option)>`__ chooses
          among several options and executes code based on the switch
          expression.
 
@@ -424,7 +424,7 @@ Macros:Branching and Looping - MapToolDoc
 
          Outputs ``used for jabs, so is a puncturing weapon``. Notice
          that the first matching clause was the one that the
-         `[switch():] </rptools/wiki/switch_(roll_option)>`__ option
+         `[switch():] <switch_(roll_option)>`__ option
          found.
 
          .. rubric:: MACRO Option
@@ -432,7 +432,7 @@ Macros:Branching and Looping - MapToolDoc
 
          **Introduced**: Version 1.3.b46
 
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__ runs the
+         `[macro():] <macro_(roll_option)>`__ runs the
          named macro, inserting its text into chat.
 
          .. rubric:: Usage
@@ -447,10 +447,10 @@ Macros:Branching and Looping - MapToolDoc
                      [macro("macro_name@location"): macro_arguments]
 
          The called macro sees a variable called
-         ```macro.args`` </rptools/wiki/Macros:Special_Variables:macro.args>`__
+         ```macro.args`` <Macros:Special_Variables:macro.args>`__
          which contains the value of ``macro_arguments``. The called
          macro can set a variable called
-         ```macro.return`` </rptools/wiki/Macros:Special_Variables:macro.return>`__,
+         ```macro.return`` <Macros:Special_Variables:macro.return>`__,
          which becomes available to the calling macro. Other than
          ``macro.return``, the called macro shares no variables with the
          calling macro.
@@ -467,7 +467,7 @@ Macros:Branching and Looping - MapToolDoc
                      [macro("getDamage@Lib:combat"): damageRoll]
 
          Calls the macro ``getDamage`` which resides on a `library
-         token </rptools/wiki/Token:library_token>`__ called
+         token <Token:library_token>`__ called
          ``Lib:combat``, and passes the variable ``damageRoll`` as an
          argument to the called macro.
 
@@ -479,7 +479,7 @@ Macros:Branching and Looping - MapToolDoc
          #. ``TOKEN`` - the currently impersonated token (use the word
             ``TOKEN``, not the token's name)
          #. ``Library Token`` - a `Library
-            Token </rptools/wiki/Token:library_token>`__ in the current
+            Token <Token:library_token>`__ in the current
             campaign
          #. ``this`` - if the macro is calling another macro in the same
             library, ``this`` may be used instead of retyping the full
@@ -494,8 +494,8 @@ Macros:Branching and Looping - MapToolDoc
          calling token and applies all results to that token), unless
          the focus is explicitly changed to another token via either a
          roll option, or the
-         `switchToken() </rptools/wiki/switchToken>`__ function, or the
-         `getLibProperty() </rptools/wiki/getLibProperty>`__ function.
+         `switchToken() <switchToken>`__ function, or the
+         `getLibProperty() <getLibProperty>`__ function.
 
          Also, as of at least 1.3.b50, a variable must be given for
          ``macro_arguments``, or the *"Could not execute the command:
@@ -507,7 +507,7 @@ Macros:Branching and Looping - MapToolDoc
 
          **Introduced**: Version 1.3.b48
 
-         `[token():] </rptools/wiki/token_(roll_option)>`__ executes a
+         `[token():] <token_(roll_option)>`__ executes a
          series of instructions against a token specified in the
          argument rather than against the token running the macro.
 
@@ -519,7 +519,7 @@ Macros:Branching and Looping - MapToolDoc
 
          To permanently switch (for the duration of the macro) the token
          against which macro commands are executed, see the
-         `switchToken() </rptools/wiki/switchToken>`__ function.
+         `switchToken() <switchToken>`__ function.
 
          .. rubric:: Usage
             :name: usage-3
@@ -551,16 +551,16 @@ Macros:Branching and Looping - MapToolDoc
 
                      [h,token(target): targetAC = getProperty("AC")]
 
-         Uses the `getProperty() </rptools/wiki/getProperty>`__ function
+         Uses the `getProperty() <getProperty>`__ function
          to retrieve the property ``AC`` from the token named
          ``"Orc 5"``, and assigns that value to the variable
          ``targetAC``. ``targetAC`` can be used in future calculations,
          such as determining whether an attack hits. If the
-         `[token():] </rptools/wiki/token_(roll_option)>`__ option was
+         `[token():] <token_(roll_option)>`__ option was
          not used, the macro would have looked for the property ``AC``
          on the token currently *running* the macro. Note also that this
          function is considered
-         `trusted </rptools/wiki/Macros:TrustedMacros>`__.
+         `trusted <Macros:TrustedMacros>`__.
 
          .. rubric:: Looping
             :name: looping
@@ -570,7 +570,7 @@ Macros:Branching and Looping - MapToolDoc
 
          **Introduced**: Version 1.3.b41
 
-         The `[count():] </rptools/wiki/count_(roll_option)>`__ option
+         The `[count():] <count_(roll_option)>`__ option
          executes a statement for a specified number of times, storing
          the number of the current iteration in a variable called
          ``roll.count``.
@@ -612,7 +612,7 @@ Macros:Branching and Looping - MapToolDoc
          This will iterate the ``Damage = Damage + 1d12`` operation 3
          times, separating the result of each iteration with the default
          separator (a comma). An optional second argument to
-         `[count():] </rptools/wiki/count_(roll_option)>`__ allows the
+         `[count():] <count_(roll_option)>`__ allows the
          setting of a different separator.
 
          .. rubric:: FOR Option
@@ -836,7 +836,7 @@ Macros:Branching and Looping - MapToolDoc
             Name: Longsword, Damage: 1d6, Type: Slashing, Weight: 30
 
          *P.S.: Note the trailing comma after the Weight field in
-         the*\ `json.set() </rptools/wiki/json.set>`__\ *function? It's
+         the*\ `json.set() <json.set>`__\ *function? It's
          ignored. But putting it in makes it easier to copy/paste new
          lines into the function...*
 
@@ -888,7 +888,7 @@ Macros:Branching and Looping - MapToolDoc
 
          **Introduced**: Version 1.3.b46
 
-         The `[code():] </rptools/wiki/code_(roll_option)>`__ option is
+         The `[code():] <code_(roll_option)>`__ option is
          used in conjunction with looping / branching options to execute
          multiple statements within a single "block" of a loop or
          branch, allowing the creation of more complex loops and
@@ -958,16 +958,16 @@ Macros:Branching and Looping - MapToolDoc
 
          **NOTE**: the digit output at the beginning of each line is an
          artifact of the
-         `[while():] </rptools/wiki/while_(roll_option)>`__ loop's
+         `[while():] <while_(roll_option)>`__ loop's
          evaluation of ``num`` - since this roll does not have the
-         `[h:] </rptools/wiki/h_(roll_option)>`__ option active, the
+         `[h:] <h_(roll_option)>`__ option active, the
          result of that evaluation is displayed.
 
          .. rubric:: Nested CODE Blocks
             :name: nested-code-blocks
 
          To nest ``code:{}`` blocks, use a second
-         `[code():] </rptools/wiki/code_(roll_option)>`__ option, like
+         `[code():] <code_(roll_option)>`__ option, like
          so:
 
          .. container:: mw-geshi mw-code mw-content-ltr

@@ -45,14 +45,14 @@ onMouseOverEvent - MapToolDoc
 
          This event can be simulated by turning on *"Show stat sheet on
          mouse over"* in the `MapTool
-         Preferences </rptools/wiki/MapTool_Preferences#Tokens>`__:
+         Preferences <MapTool_Preferences#Tokens>`__:
 
          ::
 
                menu--> edit --> preferences --> Interactions --> 'Tokens' box: at the bottom --> check the checkbox
 
          And then creating a macro as a `campaign
-         property </rptools/wiki/Introduction_to_Properties>`__ e.g.:
+         property <Introduction_to_Properties>`__ e.g.:
 
          ::
 

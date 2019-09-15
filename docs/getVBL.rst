@@ -51,7 +51,7 @@ getVBL - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -78,7 +78,7 @@ getVBL - MapToolDoc
          **Parameters**
 
          -  ``shape`` - A JSON object as described in
-            `drawVBL() </rptools/wiki/drawVBL>`__.
+            `drawVBL() <drawVBL>`__.
          -  ``format`` - Boolean. Returns a JSON object if
             ``false``\ (``0``), or an JSON array of coordinates if
             ``true``\ (``1``). In either case, the returned shape covers
@@ -105,9 +105,9 @@ getVBL - MapToolDoc
          .. container:: template_also
 
             `Introduction to Vision
-            Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__,
-            `eraseVBL() </rptools/wiki/eraseVBL>`__,
-            `drawVBL() </rptools/wiki/drawVBL>`__
+            Blocking <Introduction_to_Vision_Blocking>`__,
+            `eraseVBL() <eraseVBL>`__,
+            `drawVBL() <drawVBL>`__
 
       .. container:: printfooter
 

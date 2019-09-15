@@ -46,10 +46,10 @@ Custom Robust eval Function - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          This user defined function redefines the standard
-         `eval() </rptools/wiki/eval>`__ function, allowing it to be
+         `eval() <eval>`__ function, allowing it to be
          given a number, empty string, or JSON object/array and not
          throw an exception.
 

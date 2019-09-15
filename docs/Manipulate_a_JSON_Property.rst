@@ -475,7 +475,7 @@ Manipulate a JSON Property - MapToolDoc
          **Macro Code and Discussion**
 
          Please see the `full macro
-         code </rptools/wiki/Tutorials:Macros:JSONSortingFullCode>`__
+         code <Tutorials:Macros:JSONSortingFullCode>`__
          for the complete macro.
 
          **1. Create Sample Object**
@@ -518,10 +518,10 @@ Manipulate a JSON Property - MapToolDoc
          This section is also optional (and not useful if this macro
          will be used as a function/called macro), but for the example
          code it makes it easier to experiment with. This section uses
-         `input() </rptools/wiki/input>`__ to gather user input, and
-         `abort() </rptools/wiki/abort>`__ to halt processing if the
+         `input() <input>`__ to gather user input, and
+         `abort() <abort>`__ to halt processing if the
          user hits "Cancel." Finally, it uses an
-         `IF(): </rptools/wiki/Macros:Branching_and_Looping#IF_Option>`__
+         `IF(): <Macros:Branching_and_Looping#IF_Option>`__
          roll option to set a variable with a "friendly" indicator of
          sort direction, which will be used at the end in the final
          output.
@@ -568,9 +568,9 @@ Manipulate a JSON Property - MapToolDoc
          -  *sortOn* is the value on which to sort (**name**, **HD**, or
             **HP**)
          -  *sortDirection* is the direction of the sort, which will be
-            passed to `listSort() </rptools/wiki/listSort>`__
+            passed to `listSort() <listSort>`__
          -  *sortObjContentList* is a list - created using
-            `json.fields() </rptools/wiki/json.fields>`__ - of each
+            `json.fields() <json.fields>`__ - of each
             nested object within **Monsters**; effectively it is a list
             of the "names" of each monster
          -  *keyList* is a list that will contain the value that
@@ -624,7 +624,7 @@ Manipulate a JSON Property - MapToolDoc
 
          With the nested objects extracted, we can then retrieve the
          value of the thing we're sorting on by using
-         `json.get() </rptools/wiki/json.get>`__ on the variable
+         `json.get() <json.get>`__ on the variable
          *itemDetail*. We stick that value in the previously empty list
          *keyList*.
 
@@ -635,7 +635,7 @@ Manipulate a JSON Property - MapToolDoc
 
          Now we actually can determine what the right order will
          ultimately be - we sort *keyList* using
-         `listSort() </rptools/wiki/listSort>`__ based on the direction
+         `listSort() <listSort>`__ based on the direction
          specified by the user. **This is a critical step!** We've gone
          through each object, and figured out what the *value* of the
          thing we're sorting on is - so if we're sorting on "name",
@@ -679,7 +679,7 @@ Manipulate a JSON Property - MapToolDoc
          **5. Iterating through keyList and Each Nested Object**
 
          This is the most complex part of the routine.
-         `FOREACH(): </rptools/wiki/Macros:Branching_and_Looping#FOREACH_Option>`__
+         `FOREACH(): <Macros:Branching_and_Looping#FOREACH_Option>`__
          through each element in the variable *keyList* (which, you will
          recall, contains the values corresponding to *sortKey* for each
          nested object). For *each* element in *keyList*, we then loop
@@ -692,7 +692,7 @@ Manipulate a JSON Property - MapToolDoc
          value of "HD" for that nested object is equal to 4.
 
          If a match is found, the matching nested object is added to
-         *sortedJSON* using `json.set() </rptools/wiki/json.set>`__. In
+         *sortedJSON* using `json.set() <json.set>`__. In
          this fashion, we're using *keyList* to tell us what order the
          final nested objects should be in, and we then just need to go
          through our nested objects, setting them in that order via the
@@ -741,7 +741,7 @@ Manipulate a JSON Property - MapToolDoc
          **6. Outputting the Results in an Attractive Fashion**
 
          The final step is to output results. The use of
-         `json.indent() </rptools/wiki/json.indent>`__ here simply makes
+         `json.indent() <json.indent>`__ here simply makes
          the sorted JSON object easy to read.
 
          .. container:: mw-geshi mw-code mw-content-ltr

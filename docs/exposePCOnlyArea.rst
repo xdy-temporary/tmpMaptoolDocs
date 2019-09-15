@@ -46,7 +46,7 @@ exposePCOnlyArea - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -59,7 +59,7 @@ exposePCOnlyArea - MapToolDoc
             the same as the hotkey Meta-Shift-O. Note that the keystroke
             may be different for locales other than U.S. English. This
             function is often used in combination with the
-            `onTokenMove </rptools/wiki/onTokenMove>`__ event.
+            `onTokenMove <onTokenMove>`__ event.
 
          .. rubric:: Usage
             :name: usage

@@ -56,10 +56,10 @@ json.isSubset - MapToolDoc
          .. container:: template_description
 
             Returns ``true``\ (``1``) if all of the `JSON
-            Object </rptools/wiki/JSON_Object>`__ keys or `JSON
-            Array </rptools/wiki/JSON_Array>`__ values are contained
-            within the first `JSON Object </rptools/wiki/JSON_Object>`__
-            or `JSON Array </rptools/wiki/JSON_Array>`__.
+            Object <JSON_Object>`__ keys or `JSON
+            Array <JSON_Array>`__ values are contained
+            within the first `JSON Object <JSON_Object>`__
+            or `JSON Array <JSON_Array>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -83,18 +83,18 @@ json.isSubset - MapToolDoc
          **Parameters**
 
          -  ``firstArray`` - The `JSON
-            Array </rptools/wiki/JSON_Array>`__ that must contain all of
+            Array <JSON_Array>`__ that must contain all of
             the values of the subsequent `JSON
-            Arrays </rptools/wiki/JSON_Array>`__ for this function to
+            Arrays <JSON_Array>`__ for this function to
             return ``true``\ (``1``).
-         -  ``array`` - A `JSON Array </rptools/wiki/JSON_Array>`__ with
+         -  ``array`` - A `JSON Array <JSON_Array>`__ with
             values that are tested to be within the ``firstArray``.
          -  ``firstObject`` - The `JSON
-            Object </rptools/wiki/JSON_Object>`__ that must contain all
+            Object <JSON_Object>`__ that must contain all
             of the keys of the subsequent `JSON
-            Objects </rptools/wiki/JSON_Object>`__ for this function to
+            Objects <JSON_Object>`__ for this function to
             return ``true``\ (``1``).
-         -  ``object`` - A `JSON Object </rptools/wiki/JSON_Object>`__
+         -  ``object`` - A `JSON Object <JSON_Object>`__
             with keys that are tested to be within the ``firstObject``.
 
          | 
@@ -104,7 +104,7 @@ json.isSubset - MapToolDoc
 
          .. container:: template_also
 
-            `json.contains() </rptools/wiki/json.contains>`__
+            `json.contains() <json.contains>`__
 
       .. container:: printfooter
 

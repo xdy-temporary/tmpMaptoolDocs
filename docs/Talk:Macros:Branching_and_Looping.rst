@@ -41,7 +41,7 @@ Talk:Macros:Branching and Looping - MapToolDoc
          :name: mw-content-text
 
          Made change pointed out by Krenig - removed h: to make the if()
-         example actually work. `Rumble </rptools/wiki/User:Cclouser>`__
+         example actually work. `Rumble <User:Cclouser>`__
          02:01, 10 January 2009 (UTC)
 
          Added "Also- as of at least 1.3.b50- an argument must be

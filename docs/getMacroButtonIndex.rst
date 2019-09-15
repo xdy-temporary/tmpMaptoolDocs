@@ -71,10 +71,10 @@ getMacroButtonIndex - MapToolDoc
 
          .. container:: template_description
 
-            Returns the index of the `Token </rptools/wiki/Token>`__
+            Returns the index of the `Token <Token>`__
             macro button that was clicked on. The macro button must have
             the auto-execute check box selected. If the macro is not
-            running from a `Token </rptools/wiki/Token>`__ macro button
+            running from a `Token <Token>`__ macro button
             then ``-1`` is returned.
 
          .. rubric:: Usage
@@ -102,7 +102,7 @@ getMacroButtonIndex - MapToolDoc
                         [h: ind = getMacroButtonIndex()]
 
             If the macro is not run from an auto-execute macro button on
-            a `Token </rptools/wiki/Token>`__, ``ind`` is set to ``-1``.
+            a `Token <Token>`__, ``ind`` is set to ``-1``.
             Otherwise ``ind`` is set to a non-negative number which is
             the index of the button.
 
@@ -111,7 +111,7 @@ getMacroButtonIndex - MapToolDoc
 
          .. container:: template_also
 
-            `getMacroIndexes() </rptools/wiki/getMacroIndexes>`__
+            `getMacroIndexes() <getMacroIndexes>`__
 
       .. container:: printfooter
 

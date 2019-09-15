@@ -76,7 +76,7 @@ File:StartServerDialog.png - MapToolDoc
             ======= ====================================================================== =================================================== ================= ==================================================================================================================================================================================================================================== =============================
             \       Date/Time                                                              Thumbnail                                           Dimensions        User                                                                                                                                                                                                                                 Comment
             ======= ====================================================================== =================================================== ================= ==================================================================================================================================================================================================================================== =============================
-            current `16:37, 13 August 2019 </maptool/images/0/0c/StartServerDialog.png>`__ |Thumbnail for version as of 16:37, 13 August 2019| 363 × 460 (32 KB) `Phergus </maptool/index.php?title=User:Phergus&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Phergus&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Phergus>`__\ \ ) MT 1.5.4 Start Server dialog.
+            current `16:37, 13 August 2019 </maptool/images/0/0c/StartServerDialog.png>`__ |Thumbnail for version as of 16:37, 13 August 2019| 363 × 460 (32 KB) `Phergus </maptool/index.php?title=User:Phergus&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Phergus&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Phergus>`__\ \ ) MT 1.5.4 Start Server dialog.
             ======= ====================================================================== =================================================== ================= ==================================================================================================================================================================================================================================== =============================
 
          -  You cannot overwrite this file.
@@ -90,7 +90,7 @@ File:StartServerDialog.png - MapToolDoc
             The following page links to this file:
 
             -  `Introduction to Game
-               Hosting </rptools/wiki/Introduction_to_Game_Hosting>`__
+               Hosting <Introduction_to_Game_Hosting>`__
 
          .. rubric:: Metadata
             :name: metadata

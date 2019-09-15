@@ -64,10 +64,10 @@ json.union - MapToolDoc
 
          .. container:: template_description
 
-            Returns an `JSON Array </rptools/wiki/JSON_Array>`__ with
+            Returns an `JSON Array <JSON_Array>`__ with
             the union of all of the `JSON
-            Object </rptools/wiki/JSON_Object>`__ keys, or `JSON
-            Array </rptools/wiki/JSON_Array>`__ values. If a value or a
+            Object <JSON_Object>`__ keys, or `JSON
+            Array <JSON_Array>`__ values. If a value or a
             key occurs in multiple different objects or arrays, it will
             only be placed once in the output object or array.
 
@@ -92,10 +92,10 @@ json.union - MapToolDoc
 
          **Parameters**
 
-         -  ``array`` - The `JSON Arrays </rptools/wiki/JSON_Array>`__
+         -  ``array`` - The `JSON Arrays <JSON_Array>`__
             to union.
          -  ``object`` - The `JSON
-            Objects </rptools/wiki/JSON_Object>`__ to union.
+            Objects <JSON_Object>`__ to union.
 
          .. rubric:: Examples
             :name: examples
@@ -127,8 +127,8 @@ json.union - MapToolDoc
 
          .. container:: template_also
 
-            `json.merge() </rptools/wiki/json.merge>`__,
-            `json.intersection() </rptools/wiki/json.intersection>`__
+            `json.merge() <json.merge>`__,
+            `json.intersection() <json.intersection>`__
 
       .. container:: printfooter
 

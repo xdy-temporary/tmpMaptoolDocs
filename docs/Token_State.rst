@@ -42,7 +42,7 @@ Token State - MapToolDoc
 
          A *token state* is a binary (*i.e.*, it has two possible
          values, on or off) condition that is set for a given
-         `token </rptools/wiki/Token:token>`__. States are frequently
+         `token <Token:token>`__. States are frequently
          used for conditions or statuses that affect a particular
          character in a game (for example "Bloodied" or "Fatigued" or
          "Fighting Defensively") and frequently have images associated
@@ -84,7 +84,7 @@ Token State - MapToolDoc
          States are configured by the user and are specific to a given
          campaign. States are configured via the Campaign Properties
          window, under the **States** tab. See `Configuring
-         States </rptools/wiki/States:Configuring_states>`__ for details
+         States <States:Configuring_states>`__ for details
          on setting up states for your campaign.
 
          .. rubric:: Getting Token States with Macros
@@ -152,7 +152,7 @@ Token State - MapToolDoc
          called "Dead", it will appear if *state.Dead* equals 1, and
          disappear if *state.Dead* equals 0.
 
-         Use the `setState() </rptools/wiki/setState>`__ function
+         Use the `setState() <setState>`__ function
          instead if your state name has a space in it.
 
       .. container:: printfooter

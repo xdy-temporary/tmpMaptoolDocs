@@ -49,9 +49,9 @@ User:Verisimilar - MapToolDoc
          .. rubric:: Subpages
             :name: subpages
 
-         -  `/Sandbox </rptools/wiki/User:Verisimilar/Sandbox>`__ -
+         -  `/Sandbox <User:Verisimilar/Sandbox>`__ -
             Where I play with stuff.
-         -  `/Projects </rptools/wiki/User:Verisimilar/Projects>`__ -
+         -  `/Projects <User:Verisimilar/Projects>`__ -
             Where I keep track of wiki projects I'm working on, or notes
             related to such projects.
 
@@ -59,9 +59,9 @@ User:Verisimilar - MapToolDoc
             :name: stuff-ive-created
 
          -  `Queued Conditional
-            Output </rptools/wiki/Queued_Conditional_Output>`__ Cookbook
+            Output <Queued_Conditional_Output>`__ Cookbook
             Macros
-         -  `Zero-Proof eval() </rptools/wiki/Zero-Proof_eval>`__
+         -  `Zero-Proof eval() <Zero-Proof_eval>`__
             Cookbook Macros
 
       .. container:: printfooter

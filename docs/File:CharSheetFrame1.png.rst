@@ -73,7 +73,7 @@ File:CharSheetFrame1.png - MapToolDoc
             ======= ====================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
             \       Date/Time                                                              Thumbnail                                             Dimensions        User                                                                                                                                                                                        Comment
             ======= ====================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
-            current `14:30, 14 December 2008 </maptool/images/5/53/CharSheetFrame1.png>`__ |Thumbnail for version as of 14:30, 14 December 2008| 258 × 307 (38 KB) `Craig </rptools/wiki/User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Craig>`__\ \ )
+            current `14:30, 14 December 2008 </maptool/images/5/53/CharSheetFrame1.png>`__ |Thumbnail for version as of 14:30, 14 December 2008| 258 × 307 (38 KB) `Craig <User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Craig>`__\ \ )
             ======= ====================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,7 +87,7 @@ File:CharSheetFrame1.png - MapToolDoc
             The following page links to this file:
 
             -  `Introduction to Dialogs and
-               Frames </rptools/wiki/Introduction_to_Dialogs_and_Frames>`__
+               Frames <Introduction_to_Dialogs_and_Frames>`__
 
       .. container:: printfooter
 

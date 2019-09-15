@@ -42,7 +42,7 @@ Automate Updating a Token Property - MapToolDoc
 
          This section expects that you are already familiar with how to
          add `macro
-         buttons </rptools/wiki/Introduction_to_Macro_Writing>`__ to the
+         buttons <Introduction_to_Macro_Writing>`__ to the
          MapTool user interface.
 
          .. container:: toc
@@ -67,8 +67,8 @@ Automate Updating a Token Property - MapToolDoc
          Let's say you have a property to represent hit points. We'll
          call our property ``HP``. Now we want some easy way to update
          ``HP``, so we're going to create a `macro
-         button </rptools/wiki/Macro_Button>`__ that executes a
-         `macro </rptools/wiki/Introduction_to_Macro_Writing>`__.
+         button <Macro_Button>`__ that executes a
+         `macro <Introduction_to_Macro_Writing>`__.
 
          First, consider how you want this to work. We want a window to
          popup on the screen and ask the user to enter a number. That
@@ -189,11 +189,11 @@ Automate Updating a Token Property - MapToolDoc
 
                      [ HP = HP + healing ]
 
-         You may notice the `if() </rptools/wiki/if>`__ function on the
+         You may notice the `if() <if>`__ function on the
          second line. One word of warning when using the
-         `if() </rptools/wiki/if>`__ function: both the true and the
+         `if() <if>`__ function: both the true and the
          false sections are executed! For that reason, you may want the
-         `[if():] </rptools/wiki/if_(roll_option)>`__ roll option
+         `[if():] <if_(roll_option)>`__ roll option
          instead. Note that the syntax is slightly different between the
          two, so be careful about which one you choose.
 
@@ -213,7 +213,7 @@ Automate Updating a Token Property - MapToolDoc
             and temporary HPs don't stack)
 
          Using the simple variable prompt explained above becomes
-         clumsy, so let's use the `input() </rptools/wiki/input>`__
+         clumsy, so let's use the `input() <input>`__
          function instead:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -242,8 +242,8 @@ Automate Updating a Token Property - MapToolDoc
 
          This will prompt you for all possible variations detailed
          above, in a single input screen. ((image needed)) Then, you can
-         use some `if() </rptools/wiki/if>`__ functions or
-         `[if():] </rptools/wiki/if_(roll_option)>`__ roll options to
+         use some `if() <if>`__ functions or
+         `[if():] <if_(roll_option)>`__ roll options to
          update all the properties involved. This example assumes that
          you're using the token properties ``HP``, ``TempHP``,
          ``SurgeRemain`` and ``SurgeValue``:
@@ -288,8 +288,8 @@ Automate Updating a Token Property - MapToolDoc
 
                      [ TempHP = max(TempHP, GainTempHP) ]
 
-         Notice that the `abort() </rptools/wiki/abort>`__ function was
-         used after the `input() </rptools/wiki/input>`__ function to
+         Notice that the `abort() <abort>`__ function was
+         used after the `input() <input>`__ function to
          make sure that, in case the user clicked "Cancel" in the input
          window, the properties wouldn't be updated.
 

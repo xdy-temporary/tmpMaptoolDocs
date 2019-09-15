@@ -90,11 +90,11 @@ goto - MapToolDoc
 
          .. container:: template_also
 
-            `moveToken() </rptools/wiki/moveToken>`__,
-            `getTokenY() </rptools/wiki/getTokenY>`__,
-            `getZoom() </rptools/wiki/getZoom>`__,
+            `moveToken() <moveToken>`__,
+            `getTokenY() <getTokenY>`__,
+            `getZoom() <getZoom>`__,
 
-            `setZoom() </rptools/wiki/setZoom>`__.
+            `setZoom() <setZoom>`__.
 
       .. container:: printfooter
 

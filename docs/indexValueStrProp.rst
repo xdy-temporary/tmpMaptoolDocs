@@ -50,9 +50,9 @@ indexValueStrProp - MapToolDoc
          .. container:: template_description
 
             Returns the value from the specified `string property
-            list </rptools/wiki/Macros:string_property_list>`__ at the
+            list <Macros:string_property_list>`__ at the
             specified index. The index for the `string property
-            list </rptools/wiki/Macros:string_property_list>`__ starts
+            list <Macros:string_property_list>`__ starts
             at 0.
 
          .. rubric:: Usage

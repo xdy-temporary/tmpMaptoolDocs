@@ -153,7 +153,7 @@ Working With Two CODE Levels - MapToolDoc
          loops. Now you have a json object containing all code that
          needs to be executed onto certain tokens. For this you can
          start a new loop that uses
-         `json.evaluate() </rptools/wiki/json.evaluate>`__ per json
+         `json.evaluate() <json.evaluate>`__ per json
          object per token id.
 
          .. container:: template_clarify
@@ -247,7 +247,7 @@ Working With Two CODE Levels - MapToolDoc
          Note that if in the above example the ``''`` will show up in
          the chat. You can also use ``[h:'']`` instead to prevent this.
 
-         --`Wolph42 </rptools/wiki/User:Wolph42>`__ 16:22, 19 March 2011
+         --`Wolph42 <User:Wolph42>`__ 16:22, 19 March 2011
          (UTC)
 
       .. container:: printfooter

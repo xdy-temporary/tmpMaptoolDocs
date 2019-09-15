@@ -71,7 +71,7 @@ isFunctionDefined - MapToolDoc
          .. container:: template_description
 
             Checks if a function has been defined using
-            `defineFunction() </rptools/wiki/defineFunction>`__. Returns
+            `defineFunction() <defineFunction>`__. Returns
             ``true``\ (``1``) if it has, or ``false``\ (``0``) if it has
             not. Returns '2' if the entered function is a built-in
             MapTool function rather than a user-defined function.
@@ -135,9 +135,9 @@ isFunctionDefined - MapToolDoc
 
          .. container:: template_also
 
-            `defineFunction() </rptools/wiki/defineFunction>`__,
-            `arg() </rptools/wiki/arg>`__,
-            `argCount() </rptools/wiki/argCount>`__
+            `defineFunction() <defineFunction>`__,
+            `arg() <arg>`__,
+            `argCount() <argCount>`__
 
       .. container:: printfooter
 

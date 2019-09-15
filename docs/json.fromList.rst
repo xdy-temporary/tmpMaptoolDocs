@@ -65,8 +65,8 @@ json.fromList - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `JSON Array </rptools/wiki/JSON_Array>`__ from a
-            `String List </rptools/wiki/String_List>`__.
+            Returns a `JSON Array <JSON_Array>`__ from a
+            `String List <String_List>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -90,10 +90,10 @@ json.fromList - MapToolDoc
          **Parameters**
 
          -  ``strList`` - The `String
-            List </rptools/wiki/String_List>`__ that is converted to a
-            `JSON Array </rptools/wiki/JSON_Array>`__.
+            List <String_List>`__ that is converted to a
+            `JSON Array <JSON_Array>`__.
          -  ``delim`` - The delimiter used in the `String
-            List </rptools/wiki/String_List>`__, defaults to ``","``.
+            List <String_List>`__, defaults to ``","``.
 
          .. rubric:: Example
             :name: example
@@ -115,7 +115,7 @@ json.fromList - MapToolDoc
 
          .. container:: template_also
 
-            `json.toList() </rptools/wiki/json.toList>`__
+            `json.toList() <json.toList>`__
 
       .. container:: printfooter
 

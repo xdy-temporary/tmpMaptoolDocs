@@ -75,7 +75,7 @@ File:Property List Editor.png - MapToolDoc
             ======= ======================================================================== ================================================== ================= ================================================================================================================================================================================================================================ =====================================
             \       Date/Time                                                                Thumbnail                                          Dimensions        User                                                                                                                                                                                                                             Comment
             ======= ======================================================================== ================================================== ================= ================================================================================================================================================================================================================================ =====================================
-            current `18:47, 11 March 2011 </maptool/images/9/9e/Property_List_Editor.png>`__ |Thumbnail for version as of 18:47, 11 March 2011| 534 × 432 (63 KB) `Azhrei </maptool/index.php?title=User:Azhrei&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Azhrei&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Azhrei>`__\ \ ) Property List Editor on Mac OS 10.6.6
+            current `18:47, 11 March 2011 </maptool/images/9/9e/Property_List_Editor.png>`__ |Thumbnail for version as of 18:47, 11 March 2011| 534 × 432 (63 KB) `Azhrei </maptool/index.php?title=User:Azhrei&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Azhrei&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Azhrei>`__\ \ ) Property List Editor on Mac OS 10.6.6
             ======= ======================================================================== ================================================== ================= ================================================================================================================================================================================================================================ =====================================
 
          -  You cannot overwrite this file.
@@ -88,7 +88,7 @@ File:Property List Editor.png - MapToolDoc
 
             The following page links to this file:
 
-            -  `Stack Size </rptools/wiki/Stack_Size>`__
+            -  `Stack Size <Stack_Size>`__
 
       .. container:: printfooter
 

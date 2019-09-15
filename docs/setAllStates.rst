@@ -73,8 +73,8 @@ setAllStates - MapToolDoc
 
          .. container:: template_description
 
-            Sets all of the `States </rptools/wiki/State>`__ of a
-            `Token </rptools/wiki/Token>`__ to on (``true``\ (``1``)) or
+            Sets all of the `States <State>`__ of a
+            `Token <Token>`__ to on (``true``\ (``1``)) or
             off (``false``\ (``0``)).
 
          .. rubric:: Usage
@@ -95,13 +95,13 @@ setAllStates - MapToolDoc
          -  ``value`` - If all states should be set on or off,
             ``true``\ (``1``) or ``false``\ (``0``).
          -  ``id`` - The ``id`` of the token that should have its
-            `States </rptools/wiki/State>`__ set. Defaults to the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            `States <State>`__ set. Defaults to the
+            `Current Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -111,7 +111,7 @@ setAllStates - MapToolDoc
 
          .. container:: template_examples
 
-            Set all `Token States </rptools/wiki/Token:state>`__ on
+            Set all `Token States <Token:state>`__ on
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -121,7 +121,7 @@ setAllStates - MapToolDoc
 
                         [h: setAllStates(1)]
 
-            Set all `Token States </rptools/wiki/Token:state>`__ off
+            Set all `Token States <Token:state>`__ off
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -136,9 +136,9 @@ setAllStates - MapToolDoc
 
          .. container:: template_also
 
-            `State </rptools/wiki/State>`__,
-            `getState() </rptools/wiki/getState>`__,
-            `setState() </rptools/wiki/setState>`__
+            `State <State>`__,
+            `getState() <getState>`__,
+            `setState() <setState>`__
 
          .. rubric:: Version Changes
             :name: version-changes

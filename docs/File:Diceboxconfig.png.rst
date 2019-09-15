@@ -75,7 +75,7 @@ File:Diceboxconfig.png - MapToolDoc
             ======= ================================================================ ================================================= ================= ====================================================================================================================================================================== ================================
             \       Date/Time                                                        Thumbnail                                         Dimensions        User                                                                                                                                                                   Comment
             ======= ================================================================ ================================================= ================= ====================================================================================================================================================================== ================================
-            current `22:29, 25 July 2009 </maptool/images/0/06/Diceboxconfig.png>`__ |Thumbnail for version as of 22:29, 25 July 2009| 599 × 548 (98 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Config Screen for Dice Box v. 27
+            current `22:29, 25 July 2009 </maptool/images/0/06/Diceboxconfig.png>`__ |Thumbnail for version as of 22:29, 25 July 2009| 599 × 548 (98 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Config Screen for Dice Box v. 27
             ======= ================================================================ ================================================= ================= ====================================================================================================================================================================== ================================
 
          -  You cannot overwrite this file.
@@ -88,8 +88,8 @@ File:Diceboxconfig.png - MapToolDoc
 
             The following 2 pages link to this file:
 
-            -  `Dice Box </rptools/wiki/Dice_Box>`__
-            -  `Dice Box/ja </rptools/wiki/Dice_Box/ja>`__
+            -  `Dice Box <Dice_Box>`__
+            -  `Dice Box/ja <Dice_Box/ja>`__
 
       .. container:: printfooter
 

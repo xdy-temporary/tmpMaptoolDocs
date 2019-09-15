@@ -74,8 +74,8 @@ table - MapToolDoc
             either a string or a number. You can put code in a table
             entry but that too will be returned as a string and will not
             be evaluated. To evaluate the result you can use
-            `eval() </rptools/wiki/eval>`__ to evaluate e.g. the table
-            entry ``1d5`` and `evalMacro() </rptools/wiki/evalMacro>`__
+            `eval() <eval>`__ to evaluate e.g. the table
+            entry ``1d5`` and `evalMacro() <evalMacro>`__
             to evaluate e.g. the table entry ``[r:1d5]``
 
          .. rubric:: Usage
@@ -194,7 +194,7 @@ table - MapToolDoc
 
          .. container:: template_also
 
-            `tableImage() </rptools/wiki/tableImage>`__ There is a tool
+            `tableImage() <tableImage>`__ There is a tool
             available to import tables from excel. You can find more
             about this
             `here <http://forums.rptools.net/viewtopic.php?f=3&t=11568#p124557>`__

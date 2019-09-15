@@ -102,8 +102,8 @@ token.name - MapToolDoc
          .. rubric:: Related Pages
             :name: related-pages
 
-         -  `token.gm_name </rptools/wiki/token.gm_name>`__
-         -  `token.label </rptools/wiki/token.label>`__
+         -  `token.gm_name <token.gm_name>`__
+         -  `token.label <token.label>`__
 
       .. container:: printfooter
 

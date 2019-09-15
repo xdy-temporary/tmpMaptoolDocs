@@ -64,9 +64,9 @@ herostun - MapToolDoc
          .. container:: template_description
 
             Generates random numbers to emulate dice rolls; acts like a
-            standard `roll() </rptools/wiki/roll>`__ with the difference
+            standard `roll() <roll>`__ with the difference
             being that a hidden variable is tracked, which can then be
-            returned using `herobody() </rptools/wiki/herobody>`__. This
+            returned using `herobody() <herobody>`__. This
             hidden variable is calculated by adding ``2`` for each dice
             that is rolled at maximum value, ``0`` for each dice that is
             rolled at minimum value, and ``1`` for each dice that is
@@ -102,7 +102,7 @@ herostun - MapToolDoc
          .. container:: template_examples
 
             Roll a twenty-sided dice, and return the
-            `herobody() </rptools/wiki/herobody>`__ result as well.
+            `herobody() <herobody>`__ result as well.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -117,7 +117,7 @@ herostun - MapToolDoc
             herobody roll.
 
             Roll five ten-sided dice, and return the
-            `herobody() </rptools/wiki/herobody>`__ result as well,
+            `herobody() <herobody>`__ result as well,
             using variables.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -146,9 +146,9 @@ herostun - MapToolDoc
          .. container:: template_also
 
             Used in conjunction with
-            `herobody() </rptools/wiki/herobody>`__
+            `herobody() <herobody>`__
             For another method of rolling dice, see `Dice
-            Expressions </rptools/wiki/Dice_Expressions>`__.
+            Expressions <Dice_Expressions>`__.
 
       .. container:: printfooter
 

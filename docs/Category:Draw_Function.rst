@@ -65,58 +65,58 @@ Category:Draw Function - MapToolDoc
                         .. rubric:: B
                            :name: b
 
-                        -  `bringDrawingToFront </rptools/wiki/bringDrawingToFront>`__
+                        -  `bringDrawingToFront <bringDrawingToFront>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: F
                            :name: f
 
-                        -  `findDrawings </rptools/wiki/findDrawings>`__
+                        -  `findDrawings <findDrawings>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getDrawingEraser </rptools/wiki/getDrawingEraser>`__
-                        -  `getDrawingInfo </rptools/wiki/getDrawingInfo>`__
-                        -  `getDrawingLayer </rptools/wiki/getDrawingLayer>`__
-                        -  `getDrawingOpacity </rptools/wiki/getDrawingOpacity>`__
-                        -  `getDrawingProperties </rptools/wiki/getDrawingProperties>`__
-                        -  `getFillColor </rptools/wiki/getFillColor>`__
-                        -  `getLineCap </rptools/wiki/getLineCap>`__
-                        -  `getPenColor </rptools/wiki/getPenColor>`__
-                        -  `getPenWidth </rptools/wiki/getPenWidth>`__
+                        -  `getDrawingEraser <getDrawingEraser>`__
+                        -  `getDrawingInfo <getDrawingInfo>`__
+                        -  `getDrawingLayer <getDrawingLayer>`__
+                        -  `getDrawingOpacity <getDrawingOpacity>`__
+                        -  `getDrawingProperties <getDrawingProperties>`__
+                        -  `getFillColor <getFillColor>`__
+                        -  `getLineCap <getLineCap>`__
+                        -  `getPenColor <getPenColor>`__
+                        -  `getPenWidth <getPenWidth>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: M
                            :name: m
 
-                        -  `movedOverDrawing </rptools/wiki/movedOverDrawing>`__
+                        -  `movedOverDrawing <movedOverDrawing>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `refreshDrawing </rptools/wiki/refreshDrawing>`__
+                        -  `refreshDrawing <refreshDrawing>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `sendDrawingToBack </rptools/wiki/sendDrawingToBack>`__
-                        -  `setDrawingEraser </rptools/wiki/setDrawingEraser>`__
-                        -  `setDrawingLayer </rptools/wiki/setDrawingLayer>`__
-                        -  `setDrawingOpacity </rptools/wiki/setDrawingOpacity>`__
-                        -  `setDrawingProperties </rptools/wiki/setDrawingProperties>`__
-                        -  `setFillColor </rptools/wiki/setFillColor>`__
-                        -  `setLineCap </rptools/wiki/setLineCap>`__
-                        -  `setPenColor </rptools/wiki/setPenColor>`__
-                        -  `setPenWidth </rptools/wiki/setPenWidth>`__
+                        -  `sendDrawingToBack <sendDrawingToBack>`__
+                        -  `setDrawingEraser <setDrawingEraser>`__
+                        -  `setDrawingLayer <setDrawingLayer>`__
+                        -  `setDrawingOpacity <setDrawingOpacity>`__
+                        -  `setDrawingProperties <setDrawingProperties>`__
+                        -  `setFillColor <setFillColor>`__
+                        -  `setLineCap <setLineCap>`__
+                        -  `setPenColor <setPenColor>`__
+                        -  `setPenWidth <setPenWidth>`__
 
       .. container:: printfooter
 

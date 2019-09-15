@@ -206,7 +206,7 @@ More Roll Initiative - MapToolDoc
          share a different initiative.
 
          This code was based on the `Roll
-         Initiative </rptools/wiki/Roll_Initiative>`__ sample.
+         Initiative <Roll_Initiative>`__ sample.
 
       .. container:: printfooter
 

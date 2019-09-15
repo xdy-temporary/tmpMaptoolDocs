@@ -65,7 +65,7 @@ setStrProp - MapToolDoc
          .. container:: template_description
 
             Returns a `String Property
-            List </rptools/wiki/String_Property_List>`__ with the key
+            List <String_Property_List>`__ with the key
             set to the value passed in.
 
          .. rubric:: Usage
@@ -82,10 +82,10 @@ setStrProp - MapToolDoc
          **Parameters**
 
          -  ``propList`` - The `String Property
-            List </rptools/wiki/String_Property_List>`__ affected by
+            List <String_Property_List>`__ affected by
             this function.
          -  ``key`` - The key in the specified `String Property
-            List </rptools/wiki/String_Property_List>`__ that will have
+            List <String_Property_List>`__ that will have
             its value set.
          -  ``value`` - The value that the specified key will be set to.
 
@@ -95,7 +95,7 @@ setStrProp - MapToolDoc
          .. container:: template_examples
 
             Add a new key to an existing `String Property
-            List </rptools/wiki/String_Property_List>`__:
+            List <String_Property_List>`__:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -117,7 +117,7 @@ setStrProp - MapToolDoc
             ``"name=longsword ; damage=1d8 ; maxdamage=8 ; value=10 ; "``
 
             Change the value of a key in an existing `String Property
-            List </rptools/wiki/String_Property_List>`__:
+            List <String_Property_List>`__:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -142,7 +142,7 @@ setStrProp - MapToolDoc
 
          .. container:: template_also
 
-            `getStrProp() </rptools/wiki/getStrProp>`__
+            `getStrProp() <getStrProp>`__
 
       .. container:: printfooter
 

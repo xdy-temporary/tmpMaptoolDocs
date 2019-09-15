@@ -62,7 +62,7 @@ getWithStateNames - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -71,19 +71,19 @@ getWithStateNames - MapToolDoc
          .. container:: template_description
 
             Gets a list containing the names of all the
-            `tokens </rptools/wiki/Token:token>`__ on the current
+            `tokens <Token:token>`__ on the current
             `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
             that have the specified `token
-            state </rptools/wiki/Token:state>`__ set. The type of the
+            state <Token:state>`__ set. The type of the
             value returned depends on the delimiter parameter.
 
             -  If the delimiter is not specified then a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the default value of ``","`` is used.
             -  If the delimiter ``json`` then a `JSON
-               Array </rptools/wiki/JSON_Array>`__ is returned.
+               Array <JSON_Array>`__ is returned.
             -  Otherwise a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the delimiter passed in.
 
              
@@ -113,9 +113,9 @@ getWithStateNames - MapToolDoc
          .. container:: template_example
 
             You can use the following code to print out the names of all
-            of the `tokens </rptools/wiki/Token:token>`__ on the current
+            of the `tokens <Token:token>`__ on the current
             `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
-            with the "Dead" `token state </rptools/wiki/Token:state>`__
+            with the "Dead" `token state <Token:state>`__
             set.
 
             .. container:: mw-geshi mw-code mw-content-ltr

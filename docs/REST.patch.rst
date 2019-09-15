@@ -61,7 +61,7 @@ REST.patch - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -254,7 +254,7 @@ REST.patch - MapToolDoc
          .. container:: template_also
 
             `RESTful Functions
-            Overview </rptools/wiki/RESTful_Functions_Overview>`__
+            Overview <RESTful_Functions_Overview>`__
 
       .. container:: printfooter
 

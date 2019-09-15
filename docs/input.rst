@@ -125,8 +125,8 @@ input - MapToolDoc
             ``inputField``; requires at least one ``inputField`` but
             will accept a reasonably large amount. The ``inputField``\ s
             can be set using a series of individual parameters, or as
-            one or more `String Lists </rptools/wiki/String_List>`__. If
-            a `String List </rptools/wiki/String_List>`__ is used, the
+            one or more `String Lists <String_List>`__. If
+            a `String List <String_List>`__ is used, the
             delimiter must be ``"##"``. This allows, among other things,
             for more dynamic input menus, with the number and type of
             input requests customized to the circumstances. Normally,
@@ -139,7 +139,7 @@ input - MapToolDoc
             more easily, it is possible to have a single string, wrapped
             in quotes, describe multiple input requests. The strings can
             be compiled in any number of ways: for instance using
-            `listAppend() </rptools/wiki/listAppend>`__ and setting the
+            `listAppend() <listAppend>`__ and setting the
             delimiter to ``"##"``. Strings involving these ``##``'s can
             be intermixed with other standard strings. See the example
             below.
@@ -210,8 +210,8 @@ input - MapToolDoc
             and then an image asset URL, the image is displayed in the
             entry; defaults to ``ICON=FALSE``. Text before the URL is
             used for the entry's text. The
-            `getTokenImage() </rptools/wiki/getTokenImage>`__ and
-            `getStateImage() </rptools/wiki/getStateImage>`__ functions
+            `getTokenImage() <getTokenImage>`__ and
+            `getStateImage() <getStateImage>`__ functions
             can be used to obtain asset URLs.
          -  ``ICONSIZE=nnn`` - The size the icons; defaults to
             ``ICONSIZE=50``. All icons are stretched to fit a square
@@ -297,7 +297,7 @@ input - MapToolDoc
 
          Creates a bordered sub-area containing multiple text boxes, one
          for each entry in a `String Property
-         List </rptools/wiki/String_Property_List>`__ stored in
+         List <String_Property_List>`__ stored in
          ``value``. The ``variableName`` is assigned a new string
          property containing all the entries with their updated values.
 
@@ -310,7 +310,7 @@ input - MapToolDoc
          -  ``SETVARS=UNSUFFIXED`` - Makes variable assignments to
             unmodified variable names. ``SUFFIXED`` is usually
             preferred, unless you are not using variable names that
-            match `Token Properties </rptools/wiki/Token_Property>`__ or
+            match `Token Properties <Token_Property>`__ or
             if you specifically intend to overwrite them.
          -  ``SPAN=TRUE`` - Causes the ``prompt`` to be hidden and
             allows the ``inputField`` to span the width of the dialog;
@@ -324,7 +324,7 @@ input - MapToolDoc
 
          Creates a tab for a tabbed dialog box. The ``variableName``
          variable gets assigned a `String Property
-         List </rptools/wiki/String_Property_List>`__ containing all the
+         List <String_Property_List>`__ containing all the
          variable assignments made on this tab. Since some of the
          variables may be property strings themselves, the tab property
          string uses the non-default delimiter ``"##"``. When using
@@ -449,7 +449,7 @@ input - MapToolDoc
             (``"string text"+variable+"more string text"``). Finally,
             observe that the variable ``status`` is assigned the value
             returned by the ``input()`` function, and the
-            `abort() </rptools/wiki/abort>`__ function is called using
+            `abort() <abort>`__ function is called using
             the value of ``status``. In this fashion, the macro is
             terminated if the user clicks the **Cancel** button or hits
             the **ESC** key.
@@ -491,7 +491,7 @@ input - MapToolDoc
 
             Note that the ``prompt`` section for each list contains a
             list of items, *or* a variable containing a `String
-            List </rptools/wiki/String_List>`__ (*e.g.*, the variable
+            List <String_List>`__ (*e.g.*, the variable
             ``imgList``). In the first list, the ``ICON`` and
             ``ICONSIZE`` options are set, because that list contains
             image asset URLs for token images. In the second two lists,
@@ -571,7 +571,7 @@ input - MapToolDoc
             levels beyond what is available. The first line in the input
             is a standard string, followed by a comma. The second is a
             ``"##"``-containing string set by the
-            `[foreach():] </rptools/wiki/foreach_(roll_option)>`__
+            `[foreach():] <foreach_(roll_option)>`__
             function above, which will contain just the number of input
             requests, separated by ``##``'s, needed in the situation.
 
@@ -580,7 +580,7 @@ input - MapToolDoc
             trick** If you are in need of an ``input()`` function where
             the number of inputs can vary like in ex. 4, you can also
             opt to use a json array and use
-            `json.evaluate() </rptools/wiki/json.evaluate>`__. This will
+            `json.evaluate() <json.evaluate>`__. This will
             look as follows:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -761,7 +761,7 @@ input - MapToolDoc
 
                **b89 (b90 also ?)**: **input()** no longer *eats* the
                colon ``':'``. And as the
-               `getTokenImage() </rptools/wiki/getTokenImage>`__ will
+               `getTokenImage() <getTokenImage>`__ will
                return ``'asset://....'`` this will fail.
 
             ∗

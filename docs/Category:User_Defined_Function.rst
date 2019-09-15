@@ -61,23 +61,23 @@ Category:User Defined Function - MapToolDoc
                   .. rubric:: A
                      :name: a
 
-                  -  `arg </rptools/wiki/arg>`__
-                  -  `argCount </rptools/wiki/argCount>`__
+                  -  `arg <arg>`__
+                  -  `argCount <argCount>`__
 
                   .. rubric:: D
                      :name: d
 
-                  -  `defineFunction </rptools/wiki/defineFunction>`__
+                  -  `defineFunction <defineFunction>`__
 
                   .. rubric:: I
                      :name: i
 
-                  -  `isFunctionDefined </rptools/wiki/isFunctionDefined>`__
+                  -  `isFunctionDefined <isFunctionDefined>`__
 
                   .. rubric:: O
                      :name: o
 
-                  -  `oldFunction </rptools/wiki/oldFunction>`__
+                  -  `oldFunction <oldFunction>`__
 
       .. container:: printfooter
 

@@ -230,7 +230,7 @@ Setting up DeviantNull's Character Sheet framework - MapToolDoc
          .. rubric:: See also
             :name: see-also
 
-         -  http://lmwcs.com/rptools/wiki/Frameworks : List of some
+         -  http://lmwcs.comFrameworks : List of some
             frameworks for Maptools
 
       .. container:: printfooter

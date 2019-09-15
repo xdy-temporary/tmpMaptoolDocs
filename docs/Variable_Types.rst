@@ -64,21 +64,21 @@ Category:Variable Type - MapToolDoc
                   .. rubric:: J
                      :name: j
 
-                  -  `JSON Array </rptools/wiki/JSON_Array>`__
-                  -  `JSON Object </rptools/wiki/JSON_Object>`__
+                  -  `JSON Array <JSON_Array>`__
+                  -  `JSON Object <JSON_Object>`__
 
                   .. rubric:: N
                      :name: n
 
-                  -  `Number </rptools/wiki/Number>`__
+                  -  `Number <Number>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `String </rptools/wiki/String>`__
-                  -  `String List </rptools/wiki/String_List>`__
+                  -  `String <String>`__
+                  -  `String List <String_List>`__
                   -  `String Property
-                     List </rptools/wiki/String_Property_List>`__
+                     List <String_Property_List>`__
 
       .. container:: printfooter
 

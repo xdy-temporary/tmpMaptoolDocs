@@ -67,8 +67,8 @@ getCurrentMapName - MapToolDoc
 
          .. container:: template_examples
 
-            `getAllMapNames() </rptools/wiki/getAllMapNames>`__
-            `getVisibleMapNames() </rptools/wiki/getVisibleMapNames>`__
+            `getAllMapNames() <getAllMapNames>`__
+            `getVisibleMapNames() <getVisibleMapNames>`__
 
       .. container:: printfooter
 

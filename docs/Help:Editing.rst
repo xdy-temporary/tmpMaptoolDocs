@@ -161,7 +161,7 @@ Help:Editing - MapToolDoc
          variable, function, or anything else that would be more
          appropriate in a monospaced typeface. This template works
          inside wiki-links as well, the following syntax produces:
-         ```abort()`` </rptools/wiki/abort>`__
+         ```abort()`` <abort>`__
 
          ::
 
@@ -268,7 +268,7 @@ Help:Editing - MapToolDoc
             :name: notes
 
          -  This template only adds the function to the `Macro
-            Function </rptools/wiki/Category:Macro_Function>`__
+            Function <Category:Macro_Function>`__
             category, you should manually add any other categories it
             belongs in. Categories can be added by including
             [[Category:Example]], where Example is the name of the
@@ -305,7 +305,7 @@ Help:Editing - MapToolDoc
 
          -  **\|trusted=true** • Adds a note that the function can only
             be used in a `trusted
-            macro </rptools/wiki/Trusted_Macro>`__. If this parameter is
+            macro <Trusted_Macro>`__. If this parameter is
             missing, or contains a value that is not ``true``, it will
             be treated as ``false`` and not displayed.
 

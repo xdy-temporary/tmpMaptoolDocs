@@ -72,7 +72,7 @@ getState - MapToolDoc
 
          .. container:: template_description
 
-            Checks whether the specified `State </rptools/wiki/State>`__
+            Checks whether the specified `State <State>`__
             is active on a token, returning ``true``\ (``1``) or
             ``false``\ (``0``).
 
@@ -94,12 +94,12 @@ getState - MapToolDoc
          -  ``state`` - The name of the state to check for.
          -  ``id`` - The token ``id`` of the token to check for the
             state. Defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -122,9 +122,9 @@ getState - MapToolDoc
 
          .. container:: template_also
 
-            `State </rptools/wiki/State>`__,
-            `setState() </rptools/wiki/setState>`__,
-            `setAllStates() </rptools/wiki/setAllStates>`__
+            `State <State>`__,
+            `setState() <setState>`__,
+            `setAllStates() <setAllStates>`__
 
          .. rubric:: Version Changes
             :name: version-changes

@@ -50,9 +50,9 @@ listGet - MapToolDoc
          .. container:: template_description
 
             Returns the value in the `string
-            list </rptools/wiki/Macros:string_list>`__ at the specified
+            list <Macros:string_list>`__ at the specified
             index. The index for a `string
-            list </rptools/wiki/Macros:string_list>`__ starts at 0.
+            list <Macros:string_list>`__ starts at 0.
 
          .. rubric:: Usage
             :name: usage
@@ -75,7 +75,7 @@ listGet - MapToolDoc
 
          If delim is not specified then the default value of ',' is used
          as the value separator in the `string
-         list </rptools/wiki/Macros:string_list>`__
+         list <Macros:string_list>`__
 
          .. rubric:: Example
             :name: example

@@ -73,7 +73,7 @@ File:Add-asset-dialog.jpg - MapToolDoc
             ======= ====================================================================== ==================================================== ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                              Thumbnail                                            Dimensions        User                                                                                                                                                                   Comment
             ======= ====================================================================== ==================================================== ================= ====================================================================================================================================================================== =======
-            current `18:54, 16 January 2011 </maptool/images/8/8e/Add-asset-dialog.jpg>`__ |Thumbnail for version as of 18:54, 16 January 2011| 571 × 342 (42 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `18:54, 16 January 2011 </maptool/images/8/8e/Add-asset-dialog.jpg>`__ |Thumbnail for version as of 18:54, 16 January 2011| 571 × 342 (42 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= ====================================================================== ==================================================== ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,9 +87,9 @@ File:Add-asset-dialog.jpg - MapToolDoc
             The following 2 pages link to this file:
 
             -  `Introduction to
-               Mapping </rptools/wiki/Introduction_to_Mapping>`__
+               Mapping <Introduction_to_Mapping>`__
             -  `Introduction to
-               Mapping/it </rptools/wiki/Introduction_to_Mapping/it>`__
+               Mapping/it <Introduction_to_Mapping/it>`__
 
       .. container:: printfooter
 

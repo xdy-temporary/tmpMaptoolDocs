@@ -50,7 +50,7 @@ listInsert - MapToolDoc
          .. container:: template_description
 
             Inserts a value into the `string
-            list </rptools/wiki/Macros:string_list>`__ at the specified
+            list <Macros:string_list>`__ at the specified
             index. If a delimiter is not specified then the default
             value of ',' is used. The index for lists starts at 0
 

@@ -66,7 +66,7 @@ json.removeFirst - MapToolDoc
          .. container:: template_description
 
             Is similar to
-            `json.difference() </rptools/wiki/json.difference>`__ but
+            `json.difference() <json.difference>`__ but
             will only remove the first occurrence of a match.
 
          .. rubric:: Usage
@@ -108,7 +108,7 @@ json.removeFirst - MapToolDoc
                  [2,4,5,6,4]
 
             Difference between **json.removeFirst()** and
-            `json.difference() </rptools/wiki/json.difference>`__.
+            `json.difference() <json.difference>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -151,8 +151,8 @@ json.removeFirst - MapToolDoc
          .. container:: template_also
 
             `Introduction to JSON
-            Datatypes </rptools/wiki/Introduction_to_JSON_Datatypes>`__
-            , `json.difference() </rptools/wiki/json.difference>`__
+            Datatypes <Introduction_to_JSON_Datatypes>`__
+            , `json.difference() <json.difference>`__
 
       .. container:: printfooter
 

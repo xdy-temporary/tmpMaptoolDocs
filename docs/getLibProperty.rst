@@ -50,14 +50,14 @@ getLibProperty - MapToolDoc
          .. container:: template_description
 
             Returns the value of a `token
-            property </rptools/wiki/Token:token_property>`__ from a
-            `library token </rptools/wiki/Token:library_token>`__. If
+            property <Token:token_property>`__ from a
+            `library token <Token:library_token>`__. If
             the lib argument is not specified then the `token
-            property </rptools/wiki/Token:token_property>`__ will be
+            property <Token:token_property>`__ will be
             retrieved from the `library
-            token </rptools/wiki/Token:library_token>`__ that the macro
+            token <Token:library_token>`__ that the macro
             is currently running from. Unlike
-            `getProperty() </rptools/wiki/getProperty>`__, this function
+            `getProperty() <getProperty>`__, this function
             will not retrieve the default value of a campaign property.
             Default values are generally programmed as local variables
             in a macro, then overridden with the result of this function
@@ -111,8 +111,8 @@ getLibProperty - MapToolDoc
          .. container:: template_examples
 
             To get the "init" `token
-            property </rptools/wiki/Token:token_property>`__ from the
-            `library token </rptools/wiki/Token:library_token>`__ that a
+            property <Token:token_property>`__ from the
+            `library token <Token:library_token>`__ that a
             macro is running from use.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -124,8 +124,8 @@ getLibProperty - MapToolDoc
                         [getLibProperty("init")]
 
             To get the "init" `token
-            property </rptools/wiki/Token:token_property>`__ from the
-            `library token </rptools/wiki/Token:library_token>`__ if the
+            property <Token:token_property>`__ from the
+            `library token <Token:library_token>`__ if the
             library token has such a property. If not, use a default
             value of "default".
 
@@ -142,8 +142,8 @@ getLibProperty - MapToolDoc
                         [IF(result == ""): result = "default" ]
 
             To get the "init" `token
-            property </rptools/wiki/Token:token_property>`__ from a
-            `library token </rptools/wiki/Token:library_token>`__ called
+            property <Token:token_property>`__ from a
+            `library token <Token:library_token>`__ called
             "lib:Attacks" use.
 
             .. container:: mw-geshi mw-code mw-content-ltr

@@ -43,8 +43,8 @@ Introduction to Mapping - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `Deutsch </rptools/wiki/Introduction_to_Mapping/de>`__\ 
-             • \ `español </rptools/wiki/Introduction_to_Mapping/es>`__\  • \ `français </rptools/wiki/Introduction_to_Mapping/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Mapping/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Mapping/ja>`__\ 
+             • \ `Deutsch <Introduction_to_Mapping/de>`__\ 
+             • \ `español <Introduction_to_Mapping/es>`__\  • \ `français <Introduction_to_Mapping/fr>`__\  • \ `italiano <Introduction_to_Mapping/it>`__\  • \ `日本語 <Introduction_to_Mapping/ja>`__\ 
 
          .. container:: template_beginner
 
@@ -125,12 +125,12 @@ Introduction to Mapping - MapToolDoc
          should get you started on the path of using MapTool as a
          *mapping* program for role-playing games. Other guides address
          topics like `hosting an online
-         game </rptools/wiki/Introduction_to_Game_Hosting>`__, `working
-         with tokens </rptools/wiki/Introduction_to_Tokens>`__, `setting
+         game <Introduction_to_Game_Hosting>`__, `working
+         with tokens <Introduction_to_Tokens>`__, `setting
          up vision and
-         light </rptools/wiki/Introduction_to_Lights_and_Sights>`__, and
+         light <Introduction_to_Lights_and_Sights>`__, and
          `writing
-         macros </rptools/wiki/Introduction_to_Macro_Writing>`__.
+         macros <Introduction_to_Macro_Writing>`__.
 
          The following instructions should get you up and running with
          MapTool to use as a battle mapping/general mapping tool. This
@@ -185,7 +185,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Mt-f-addtoreslib.jpg>`__
+                     ` <File:Mt-f-addtoreslib.jpg>`__
 
                   File menu showing **Add to Resource Library**
 
@@ -199,7 +199,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Add-asset-dialog.jpg>`__
+                     ` <File:Add-asset-dialog.jpg>`__
 
                   **Add Resource to Library** dialog
 
@@ -243,7 +243,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Mtreslib.jpg>`__
+                     ` <File:Mtreslib.jpg>`__
 
                   Folders in the MapTool Resource Library. These are
                   pointers to folders on your hard drive.
@@ -276,7 +276,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Map-newmap.jpg>`__
+                     ` <File:Map-newmap.jpg>`__
 
                   The **New Map** menu item
 
@@ -290,7 +290,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Map-new-dialog.jpg>`__
+                     ` <File:Map-new-dialog.jpg>`__
 
                   The **Map Properties** dialog
 
@@ -329,7 +329,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Background-dialog.jpg>`__
+                     ` <File:Background-dialog.jpg>`__
 
                   The **Choose Background** dialog
 
@@ -365,7 +365,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Map-mapbutton.jpg>`__
+                     ` <File:Map-mapbutton.jpg>`__
 
                   The **Map** button on the map properties dialog
 
@@ -387,7 +387,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Map-create-done.jpg>`__
+                     ` <File:Map-create-done.jpg>`__
 
                   The **Map Properties** dialog after a map has been
                   selected from the Resource Library. Note the map
@@ -406,7 +406,7 @@ Introduction to Mapping - MapToolDoc
          MapTool lets you create multiple maps, all of which will be in
          one campaign. The process is very simple: you simply repeat the
          `Creating a
-         Map </rptools/wiki/Introduction_to_Mapping#Creating_a_Map>`__
+         Map <Introduction_to_Mapping#Creating_a_Map>`__
          steps for each new map, selecting a new image, background
          color/texture, and title for each new map.
 
@@ -414,7 +414,7 @@ Introduction to Mapping - MapToolDoc
          the campaign you are currently working on (creating a new map
          does not automatically save your campaign, so make sure to
          `save your
-         work </rptools/wiki/Introduction_to_Mapping#Saving_Your_Work>`__
+         work <Introduction_to_Mapping#Saving_Your_Work>`__
          when you're finished).
 
          You can also add new maps to a campaign you've already saved -
@@ -437,7 +437,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Layer-window.png>`__
+                     ` <File:Layer-window.png>`__
 
                   The **Layer** window, which is present on all maps in
                   MapTool
@@ -487,7 +487,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Blueglobe.jpg>`__
+                     ` <File:Blueglobe.jpg>`__
 
                   The Globe button, where you can select among your maps
 
@@ -501,7 +501,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Maplist.jpg>`__
+                     ` <File:Maplist.jpg>`__
 
                   A list of maps, which appears after you click the
                   Globe button.
@@ -510,7 +510,7 @@ Introduction to Mapping - MapToolDoc
          by default and will be the only map you can see.
 
          If you `create multiple
-         maps </rptools/wiki/Introduction_to_Mapping#Creating_Multiple_Maps_in_One_Campaign>`__
+         maps <Introduction_to_Mapping#Creating_Multiple_Maps_in_One_Campaign>`__
          or have a campaign with multiple maps, you can choose between
          them by clicking the blue globe icon in the upper right hand
          side of the MapTool window – this will present a list of
@@ -534,7 +534,7 @@ Introduction to Mapping - MapToolDoc
          .. rubric:: Token Basics
             :name: token-basics
 
-         `MapTool Tokens </rptools/wiki/Token:token>`__ (or just
+         `MapTool Tokens <Token:token>`__ (or just
          "Tokens") are small images that act as visual representations
          of many things in a MapTool map. The most common use for tokens
          is to represent player and non-player characters - in other
@@ -542,7 +542,7 @@ Introduction to Mapping - MapToolDoc
 
          Tokens, like everything else, start as image files that are
          stored in your `Resource
-         Library </rptools/wiki/Macros:Glossary#R>`__. MapTool comes
+         Library <Macros:Glossary#R>`__. MapTool comes
          with some default tokens (and they have a great, separate
          program called
          `TokenTool <http://www.rptools.net/index.php?page=tokentool>`__
@@ -568,7 +568,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Default-library.jpg>`__
+                     ` <File:Default-library.jpg>`__
 
                   The *Default* folder in the Resource Library
 
@@ -588,7 +588,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Default-tokens.jpg>`__
+                     ` <File:Default-tokens.jpg>`__
 
                   The *Tokens* subfolder
 
@@ -606,7 +606,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Token-drag-to-map.jpg>`__
+                     ` <File:Token-drag-to-map.jpg>`__
 
                   Dragging a token onto the map
 
@@ -620,7 +620,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Token-on-map.jpg>`__
+                     ` <File:Token-on-map.jpg>`__
 
                   The token appears!
 
@@ -658,7 +658,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Token-default-name.jpg>`__
+                     ` <File:Token-default-name.jpg>`__
 
                   A token, showing the default name assigned when it was
                   first dragged onto the map.
@@ -673,7 +673,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Edit-token.jpg>`__
+                     ` <File:Edit-token.jpg>`__
 
                   The **Edit Token** dialog
 
@@ -714,7 +714,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Edit-token-changednames.jpg>`__
+                     ` <File:Edit-token-changednames.jpg>`__
 
                   Editing the token's name, GM name, and label
 
@@ -728,7 +728,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:New-token-names.jpg>`__
+                     ` <File:New-token-names.jpg>`__
 
                   Token showing the new names and label
 
@@ -772,14 +772,14 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Edit-token.jpg>`__
+                     ` <File:Edit-token.jpg>`__
 
                   The **Edit Token** dialog
 
          1. Make sure you have a new token image in PNG or JPG format,
          already available in your MapTool Resource Library. If you look
          at `Getting Images Into your MapTool Resource
-         Library </rptools/wiki/Introduction_to_Mapping#Getting_Images_into_your_MapTool_Resource_Library>`__
+         Library <Introduction_to_Mapping#Getting_Images_into_your_MapTool_Resource_Library>`__
          section, above, it talks about how to get map images into your
          Resource Library: well, token images (in fact, *any* image) can
          be added to your resource library in exactly the same way.
@@ -798,7 +798,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Edit-token-changeimage.jpg>`__
+                     ` <File:Edit-token-changeimage.jpg>`__
 
                   The button to change the token image
 
@@ -817,7 +817,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:New-image-picked.jpg>`__
+                     ` <File:New-image-picked.jpg>`__
 
                   A new image is selected from the resource library
 
@@ -838,7 +838,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Token-image-changed.jpg>`__
+                     ` <File:Token-image-changed.jpg>`__
 
                   The token's image has been changed
 
@@ -861,7 +861,7 @@ Introduction to Mapping - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Token-rightclick.jpg>`__
+                     ` <File:Token-rightclick.jpg>`__
 
                   Changing the token size using the right-click menu
 
@@ -921,13 +921,13 @@ Introduction to Mapping - MapToolDoc
          the next step is connecting up with some friends over the
          Internet (or face to face) and using it for a game session!
          This topic is covered in the `Introduction to Game
-         Hosting </rptools/wiki/Introduction_to_Game_Hosting>`__.
+         Hosting <Introduction_to_Game_Hosting>`__.
 
          .. container:: template_languages
 
             Languages:  English
-             • \ `Deutsch </rptools/wiki/Introduction_to_Mapping/de>`__\ 
-             • \ `español </rptools/wiki/Introduction_to_Mapping/es>`__\  • \ `français </rptools/wiki/Introduction_to_Mapping/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Mapping/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Mapping/ja>`__\ 
+             • \ `Deutsch <Introduction_to_Mapping/de>`__\ 
+             • \ `español <Introduction_to_Mapping/es>`__\  • \ `français <Introduction_to_Mapping/fr>`__\  • \ `italiano <Introduction_to_Mapping/it>`__\  • \ `日本語 <Introduction_to_Mapping/ja>`__\ 
 
       .. container:: printfooter
 

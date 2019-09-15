@@ -73,8 +73,8 @@ foreach (roll option) - MapToolDoc
          Iterates over the contents of a string list in the format
          ``"item1, item2, item3"``. Can also be used easily with `JSON
          arrays and JSON
-         objects </rptools/wiki/Introduction_to_JSON_Datatypes>`__.
-         `String Property Lists </rptools/wiki/String_Property_List>`__
+         objects <Introduction_to_JSON_Datatypes>`__.
+         `String Property Lists <String_Property_List>`__
          can be processed with a couple of extra functions.
 
          .. rubric:: Usage
@@ -165,7 +165,7 @@ foreach (roll option) - MapToolDoc
             :name: using-with-code-and-output_separator
 
          To use roll options with your ``FOREACH`` loop, you will need
-         to use `[code():] </rptools/wiki/code_(roll_option)>`__ roll
+         to use `[code():] <code_(roll_option)>`__ roll
          option. In this example I have separated the results with the
          string ``" then "``.
 
@@ -243,12 +243,12 @@ foreach (roll option) - MapToolDoc
          .. rubric:: See Also
             :name: see-also
 
-         `json.append() </rptools/wiki/json.append>`__,
-         `json.set() </rptools/wiki/json.set>`__,
-         `[code():] </rptools/wiki/code_(roll_option)>`__,
-         `stringToList() </rptools/wiki/stringToList>`__,
-         `listGet() </rptools/wiki/listGet>`__,
-         `listDelete() </rptools/wiki/listDelete>`__
+         `json.append() <json.append>`__,
+         `json.set() <json.set>`__,
+         `[code():] <code_(roll_option)>`__,
+         `stringToList() <stringToList>`__,
+         `listGet() <listGet>`__,
+         `listDelete() <listDelete>`__
 
       .. container:: printfooter
 

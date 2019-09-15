@@ -41,7 +41,7 @@ Generate Variables From JSON - MapToolDoc
          :name: mw-content-text
 
          When working with string properties, the
-         `varsFromStrProp() </rptools/wiki/varsFromStrProp>`__ function
+         `varsFromStrProp() <varsFromStrProp>`__ function
          is an automated way to generate variables from the keys within
          a string property. For example, if you have the following
          string property:
@@ -55,7 +55,7 @@ Generate Variables From JSON - MapToolDoc
                      [prop = "name=Axe; damage=1d12; proficiency=2;"]
 
          You can use
-         `varsFromStrProp() </rptools/wiki/varsFromStrProp>`__ to
+         `varsFromStrProp() <varsFromStrProp>`__ to
          generate a variable for each key - in other words, using the
          function to generate a list of locally accessible variables
          ``name``, ``damage``, and ``proficiency``.

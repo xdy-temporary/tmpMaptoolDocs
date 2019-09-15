@@ -62,7 +62,7 @@ getExposedTokenNames - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -71,7 +71,7 @@ getExposedTokenNames - MapToolDoc
          .. container:: template_description
 
             Gets a list containing the names of all of the
-            `tokens </rptools/wiki/Token:token>`__ on the current
+            `tokens <Token:token>`__ on the current
             `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
             that have been exposed, (i.e. not covered by `fog of
             war </maptool/index.php?title=Map:fog_of_war&action=edit&redlink=1>`__).
@@ -79,12 +79,12 @@ getExposedTokenNames - MapToolDoc
             parameter.
 
             -  If the delimiter is not specified then a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                and the default value of ``","`` is used.
             -  If the delimiter ``"json"`` then a `JSON
-               Array </rptools/wiki/JSON_Array>`__ is returned.
+               Array <JSON_Array>`__ is returned.
             -  Otherwise, a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the delimiter passed in.
 
              
@@ -105,7 +105,7 @@ getExposedTokenNames - MapToolDoc
                      getExposedTokenNames(delim)
 
          If delim is specified then it is used as the delimiter that
-         separates the `token </rptools/wiki/Token:token>`__ names.
+         separates the `token <Token:token>`__ names.
 
          .. rubric:: Example
             :name: example
@@ -113,7 +113,7 @@ getExposedTokenNames - MapToolDoc
          .. container:: template_example
 
             The following example will print out the names of all the
-            `tokens </rptools/wiki/Token:token>`__ on the current
+            `tokens <Token:token>`__ on the current
             `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
             not covered by `fog of
             war </maptool/index.php?title=Map:fog_of_war&action=edit&redlink=1>`__.

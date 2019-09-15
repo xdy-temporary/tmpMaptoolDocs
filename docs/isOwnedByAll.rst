@@ -74,7 +74,7 @@ isOwnedByAll - MapToolDoc
          .. container:: template_description
 
             Returns ``true``\ (``1``) if a
-            `Token </rptools/wiki/Token>`__ has the `Owned by
+            `Token <Token>`__ has the `Owned by
             All </maptool/index.php?title=Owned_by_All&action=edit&redlink=1>`__
             check box checked.
 
@@ -103,12 +103,12 @@ isOwnedByAll - MapToolDoc
             by
             All </maptool/index.php?title=Owned_by_All&action=edit&redlink=1>`__
             status checked, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -119,7 +119,7 @@ isOwnedByAll - MapToolDoc
          .. container:: template_example
 
             Returns ``Anyone can edit me`` if the `Current
-            Token </rptools/wiki/Current_Token>`__ has the `Owned by
+            Token <Current_Token>`__ has the `Owned by
             All </maptool/index.php?title=Owned_by_All&action=edit&redlink=1>`__
             check box checked.
 
@@ -136,8 +136,8 @@ isOwnedByAll - MapToolDoc
 
          .. container:: template_also
 
-            `getOwners() </rptools/wiki/getOwners>`__,
-            `isOwner() </rptools/wiki/isOwner>`__
+            `getOwners() <getOwners>`__,
+            `isOwner() <isOwner>`__
 
          .. rubric:: Version Changes
             :name: version-changes

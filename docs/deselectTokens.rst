@@ -101,12 +101,12 @@ deselectTokens - MapToolDoc
             deselect (the examples below use the token name, but token
             IDs are also valid); if left blank all currently selected
             tokens are deselected.
-         -  ``tokens`` - a `String List </rptools/wiki/String_List>`__
+         -  ``tokens`` - a `String List <String_List>`__
             of tokens to deselect.
          -  ``delim`` - Specifies the delimiter used in the string list
             that is supplied. If the delimiter is "json", then the value
             for ``list`` may be a `JSON
-            Array </rptools/wiki/JSON_Array>`__ instead. **Note: if
+            Array <JSON_Array>`__ instead. **Note: if
             using a JSON Array or String List, ``delim`` must be
             specified.**
 
@@ -125,8 +125,8 @@ deselectTokens - MapToolDoc
 
                         [h:deselectTokens("Adventurer")]
 
-            To deselect a list of `Tokens </rptools/wiki/Token>`__ using
-            a `String List </rptools/wiki/String_List>`__:
+            To deselect a list of `Tokens <Token>`__ using
+            a `String List <String_List>`__:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -141,10 +141,10 @@ deselectTokens - MapToolDoc
 
          .. container:: template_also
 
-            `selectTokens() </rptools/wiki/selectTokens>`__,
-            `getSelected() </rptools/wiki/getSelected>`__,
+            `selectTokens() <selectTokens>`__,
+            `getSelected() <getSelected>`__,
 
-            `getSelectedNames() </rptools/wiki/getSelectedNames>`__
+            `getSelectedNames() <getSelectedNames>`__
 
          .. rubric:: Version Changes
             :name: version-changes

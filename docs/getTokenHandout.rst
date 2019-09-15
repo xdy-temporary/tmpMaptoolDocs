@@ -64,7 +64,7 @@ getTokenHandout - MapToolDoc
             Returns the `asset
             id </maptool/index.php?title=Asset_ID&action=edit&redlink=1>`__
             of the handout image for the for the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -96,7 +96,7 @@ getTokenHandout - MapToolDoc
             Defaults to "".
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to retrieve the token handout image, defaults to
-            the `Current Token </rptools/wiki/Current_Token>`__.
+            the `Current Token <Current_Token>`__.
          -  ``mapname`` - OPTIONAL: The name of the map to find the
             token. Defaults to the current map.
 
@@ -106,7 +106,7 @@ getTokenHandout - MapToolDoc
          .. container:: template_example
 
             To display the image for the current
-            `Token </rptools/wiki/Token>`__.
+            `Token <Token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

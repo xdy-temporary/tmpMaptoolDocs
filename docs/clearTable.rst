@@ -46,7 +46,7 @@ clearTable - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -78,8 +78,8 @@ clearTable - MapToolDoc
 
          .. container:: template_also
 
-            `deleteTableEntry() </rptools/wiki/deleteTableEntry>`__
-            `deleteTable() </rptools/wiki/deleteTable>`__
+            `deleteTableEntry() <deleteTableEntry>`__
+            `deleteTable() <deleteTable>`__
 
       .. container:: printfooter
 

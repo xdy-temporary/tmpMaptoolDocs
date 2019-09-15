@@ -65,14 +65,14 @@ Category:Logical Function - MapToolDoc
                         .. rubric:: B
                            :name: b
 
-                        -  `band </rptools/wiki/band>`__
-                        -  `bitwiseand </rptools/wiki/bitwiseand>`__
-                        -  `bitwisenot </rptools/wiki/bitwisenot>`__
-                        -  `bitwiseor </rptools/wiki/bitwiseor>`__
-                        -  `bitwisexor </rptools/wiki/bitwisexor>`__
-                        -  `bnot </rptools/wiki/bnot>`__
-                        -  `bor </rptools/wiki/bor>`__
-                        -  `bxor </rptools/wiki/bxor>`__
+                        -  `band <band>`__
+                        -  `bitwiseand <bitwiseand>`__
+                        -  `bitwisenot <bitwisenot>`__
+                        -  `bitwiseor <bitwiseor>`__
+                        -  `bitwisexor <bitwisexor>`__
+                        -  `bnot <bnot>`__
+                        -  `bor <bor>`__
+                        -  `bxor <bxor>`__
 
       .. container:: printfooter
 

@@ -73,9 +73,9 @@ getProperty - MapToolDoc
          .. container:: template_description
 
             Returns the value of a `Token
-            Property </rptools/wiki/Token_Property>`__ on a
-            `Token </rptools/wiki/Token>`__. If the `Token
-            Property </rptools/wiki/Token_Property>`__ is empty
+            Property <Token_Property>`__ on a
+            `Token <Token>`__. If the `Token
+            Property <Token_Property>`__ is empty
             (``NULL``) or not defined, an empty string (``""``) is
             returned.
 
@@ -108,12 +108,12 @@ getProperty - MapToolDoc
             property, do not enclose the variable name in quotes.
          -  ``id`` - The token ``id`` or name of the token that has its
             property value returned, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -164,10 +164,10 @@ getProperty - MapToolDoc
 
          .. container:: template_also
 
-            `setProperty() </rptools/wiki/setProperty>`__,
-            `resetProperty() </rptools/wiki/resetProperty>`__,
+            `setProperty() <setProperty>`__,
+            `resetProperty() <resetProperty>`__,
 
-            `isPropertyEmpty() </rptools/wiki/isPropertyEmpty>`__
+            `isPropertyEmpty() <isPropertyEmpty>`__
 
          .. rubric:: Version Changes
             :name: version-changes

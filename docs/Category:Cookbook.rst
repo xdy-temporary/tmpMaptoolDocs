@@ -66,7 +66,7 @@ Category:Cookbook - MapToolDoc
                            :name: a
 
                         -  `Avoiding Stack
-                           Overflow </rptools/wiki/Avoiding_Stack_Overflow>`__
+                           Overflow <Avoiding_Stack_Overflow>`__
 
                      .. container:: mw-category-group
 
@@ -74,17 +74,17 @@ Category:Cookbook - MapToolDoc
                            :name: c
 
                         -  `Create Macro Buttons with a
-                           Macro </rptools/wiki/Create_Macro_Buttons_with_a_Macro>`__
+                           Macro <Create_Macro_Buttons_with_a_Macro>`__
                         -  `Custom Robust eval
-                           Function </rptools/wiki/Custom_Robust_eval_Function>`__
+                           Function <Custom_Robust_eval_Function>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: D
                            :name: d
 
-                        -  `Dice Box </rptools/wiki/Dice_Box>`__
-                        -  `Dice Box/ja </rptools/wiki/Dice_Box/ja>`__
+                        -  `Dice Box <Dice_Box>`__
+                        -  `Dice Box/ja <Dice_Box/ja>`__
 
                      .. container:: mw-category-group
 
@@ -92,9 +92,9 @@ Category:Cookbook - MapToolDoc
                            :name: g
 
                         -  `Generate Variables From
-                           JSON </rptools/wiki/Generate_Variables_From_JSON>`__
+                           JSON <Generate_Variables_From_JSON>`__
                         -  `Guide to
-                           onTokenMove </rptools/wiki/Guide_to_onTokenMove>`__
+                           onTokenMove <Guide_to_onTokenMove>`__
 
                      .. container:: mw-category-group
 
@@ -102,16 +102,16 @@ Category:Cookbook - MapToolDoc
                            :name: h
 
                         -  `Hit Check
-                           Function </rptools/wiki/Hit_Check_Function>`__
+                           Function <Hit_Check_Function>`__
                         -  `HP and Health
-                           Bars </rptools/wiki/HP_and_Health_Bars>`__
+                           Bars <HP_and_Health_Bars>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: J
                            :name: j
 
-                        -  `JSON Sorting </rptools/wiki/JSON_Sorting>`__
+                        -  `JSON Sorting <JSON_Sorting>`__
 
                      .. container:: mw-category-group
 
@@ -119,7 +119,7 @@ Category:Cookbook - MapToolDoc
                            :name: l
 
                         -  `List Input with
-                           Images </rptools/wiki/List_Input_with_Images>`__
+                           Images <List_Input_with_Images>`__
 
                      .. container:: mw-category-group
 
@@ -127,7 +127,7 @@ Category:Cookbook - MapToolDoc
                            :name: m
 
                         -  `More Roll
-                           Initiative </rptools/wiki/More_Roll_Initiative>`__
+                           Initiative <More_Roll_Initiative>`__
 
                      .. container:: mw-category-group
 
@@ -135,7 +135,7 @@ Category:Cookbook - MapToolDoc
                            :name: q
 
                         -  `Queued Conditional
-                           Output </rptools/wiki/Queued_Conditional_Output>`__
+                           Output <Queued_Conditional_Output>`__
 
                      .. container:: mw-category-group
 
@@ -143,16 +143,16 @@ Category:Cookbook - MapToolDoc
                            :name: r
 
                         -  `Roll
-                           Initiative </rptools/wiki/Roll_Initiative>`__
+                           Initiative <Roll_Initiative>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `Show HTML </rptools/wiki/Show_HTML>`__
+                        -  `Show HTML <Show_HTML>`__
                         -  `Speed Up Your
-                           Macros </rptools/wiki/Speed_Up_Your_Macros>`__
+                           Macros <Speed_Up_Your_Macros>`__
 
                      .. container:: mw-category-group
 
@@ -160,9 +160,9 @@ Category:Cookbook - MapToolDoc
                            :name: t
 
                         -  `Target a Visible
-                           NPC </rptools/wiki/Target_a_Visible_NPC>`__
-                        -  `Toggle State </rptools/wiki/Toggle_State>`__
-                        -  `Trim Number </rptools/wiki/Trim_Number>`__
+                           NPC <Target_a_Visible_NPC>`__
+                        -  `Toggle State <Toggle_State>`__
+                        -  `Trim Number <Trim_Number>`__
 
                      .. container:: mw-category-group
 
@@ -170,7 +170,7 @@ Category:Cookbook - MapToolDoc
                            :name: w
 
                         -  `Working With Two CODE
-                           Levels </rptools/wiki/Working_With_Two_CODE_Levels>`__
+                           Levels <Working_With_Two_CODE_Levels>`__
 
       .. container:: printfooter
 

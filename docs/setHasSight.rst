@@ -66,9 +66,9 @@ setHasSight - MapToolDoc
          .. container:: template_description
 
             Enables/disables sight for the `Current
-            Token </rptools/wiki/Current_Token>`__. If the argument is 0
+            Token <Current_Token>`__. If the argument is 0
             (false) sight will be disabled on the `Current
-            Token </rptools/wiki/Current_Token>`__. If it is non-zero
+            Token <Current_Token>`__. If it is non-zero
             (true) sight is enabled.
 
          .. rubric:: Usage
@@ -95,12 +95,12 @@ setHasSight - MapToolDoc
          -  ``state`` - Boolean - true to enable sight, false to disable
          -  ``id`` - The ``id`` of the token to set the sight of.
             Defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -111,7 +111,7 @@ setHasSight - MapToolDoc
          .. container:: template_example
 
             Enables sight for `Current
-            Token </rptools/wiki/Current_Token>`__
+            Token <Current_Token>`__
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

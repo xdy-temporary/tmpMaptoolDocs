@@ -64,7 +64,7 @@ evalMacro - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -84,13 +84,13 @@ evalMacro - MapToolDoc
             The **evalMacro()** function executes the macro in the same
             variable scope (i.e. the executed macro can read and alter
             variables from the current macro), where as
-            `execMacro() </rptools/wiki/execMacro>`__ creates a new
+            `execMacro() <execMacro>`__ creates a new
             variable scope (i.e. the executed macro can neither read nor
             alter varaibles from the current macro).
 
             The advantage of this function over
-            `eval() </rptools/wiki/eval>`__ is that with
-            `eval() </rptools/wiki/eval>`__ you can only give a string
+            `eval() <eval>`__ is that with
+            `eval() <eval>`__ you can only give a string
             as parameter that can be evaluated (e.g. ``"3+5"``), while
             with **evalMacro()** you can give anything as parameter but
             only the parts between ``[``\ brackets\ ``]`` will be
@@ -133,10 +133,10 @@ evalMacro - MapToolDoc
 
                         [h: setNotes(evalMacro('[r,macro("CreateNotes@Lib:Notes"): ""]'))]
 
-            Sets the Notes of a `Token </rptools/wiki/Token>`__ to the
+            Sets the Notes of a `Token <Token>`__ to the
             output of the ``CreateNotes`` macro located on the
             ``Lib:Notes`` `Library
-            Token </rptools/wiki/Library_Token>`__.
+            Token <Library_Token>`__.
 
             | 
 
@@ -260,7 +260,7 @@ evalMacro - MapToolDoc
 
          .. container:: template_also
 
-            `eval() </rptools/wiki/eval>`__
+            `eval() <eval>`__
 
       .. container:: printfooter
 

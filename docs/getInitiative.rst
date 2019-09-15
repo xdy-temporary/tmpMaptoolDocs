@@ -56,7 +56,7 @@ getInitiative - MapToolDoc
 
             Returns the
             `initiative </maptool/index.php?title=Iniatiative:initiative&action=edit&redlink=1>`__
-            of the current `token </rptools/wiki/Token:token>`__
+            of the current `token <Token:token>`__
 
          .. rubric:: Usage
             :name: usage

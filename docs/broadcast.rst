@@ -66,7 +66,7 @@ broadcast - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -88,7 +88,7 @@ broadcast - MapToolDoc
                sent even if the macro is aborted (after the broadcast),
             #. the sender of the message is NOT displayed, and
             #. if you broadcast an
-               `execLink() </rptools/wiki/execLink>`__, then that macro
+               `execLink() <execLink>`__, then that macro
                is AUTOMATICALLY executed on the clients it's broadcasted
                to, with the exception of the client that sends the
                message!
@@ -204,7 +204,7 @@ broadcast - MapToolDoc
          maybe you want to execute a macro on ALL clients but you have
          to figure out who the current 'executer' is and run the macro
          for that client separately as the
-         `execLink() </rptools/wiki/execLink>`__ is only executed on
+         `execLink() <execLink>`__ is only executed on
          remote clients. To make this a bit easier, I've created a
          couple of functions which are part of the `Bag of Tricks
          (BoT) <http://forums.rptools.net/viewtopic.php?f=46&t=16066>`__.

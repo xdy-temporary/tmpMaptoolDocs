@@ -133,11 +133,11 @@ getZoom - MapToolDoc
 
          .. container:: template_also
 
-            `setZoom() </rptools/wiki/setZoom>`__,
-            `getTokenX() </rptools/wiki/getTokenX>`__,
-            `getTokenY() </rptools/wiki/getTokenY>`__,
+            `setZoom() <setZoom>`__,
+            `getTokenX() <getTokenX>`__,
+            `getTokenY() <getTokenY>`__,
 
-            `goto() </rptools/wiki/goto>`__
+            `goto() <goto>`__
 
       .. container:: printfooter
 

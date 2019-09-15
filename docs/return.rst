@@ -74,7 +74,7 @@ return - MapToolDoc
             macro like an abort, but not stopping further macro
             execution. Optionally also returning a value by
             automatically assigning
-            `macro.return </rptools/wiki/macro.return>`__. If the first
+            `macro.return <macro.return>`__. If the first
             argument to ``return()`` is 0 then the return is happening.
             If the first argument to ``return()`` is non zero then the
             macro continues. The optional second argument of
@@ -91,10 +91,10 @@ return - MapToolDoc
                current macro.
 
             If you prefer to display an error message when exiting the
-            macro see the ```assert()`` </rptools/wiki/assert>`__
+            macro see the ```assert()`` <assert>`__
             function or if you want to abort the flow of overall macro
             execution (e.g. in case of an error) see the
-            ```abort()`` </rptools/wiki/abort>`__ function.
+            ```abort()`` <abort>`__ function.
 
          .. rubric:: Usage
             :name: usage
@@ -178,8 +178,8 @@ return - MapToolDoc
 
          .. container:: template_also
 
-            `assert() </rptools/wiki/assert>`__
-            `abort() </rptools/wiki/abort>`__
+            `assert() <assert>`__
+            `abort() <abort>`__
 
          .. rubric:: Version Changes
             :name: version-changes

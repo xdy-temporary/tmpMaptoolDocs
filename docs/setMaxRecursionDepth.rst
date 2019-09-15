@@ -105,8 +105,8 @@ setMaxRecursionDepth - MapToolDoc
 
          .. container:: template_also
 
-            `getRecursionDepth() </rptools/wiki/getRecursionDepth>`__,
-            `getMaxRecursionDepth() </rptools/wiki/getMaxRecursionDepth>`__.
+            `getRecursionDepth() <getRecursionDepth>`__,
+            `getMaxRecursionDepth() <getMaxRecursionDepth>`__.
 
       .. container:: printfooter
 

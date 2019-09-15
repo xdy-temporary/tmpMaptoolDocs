@@ -48,8 +48,8 @@ Introduction to JSON Datatypes - MapToolDoc
          other than JavaScript to define data.
 
          MapTool macros have two different data types for JSON, `JSON
-         Objects </rptools/wiki/JSON_Object>`__ and `JSON
-         Arrays </rptools/wiki/JSON_Array>`__, which I will refer to as
+         Objects <JSON_Object>`__ and `JSON
+         Arrays <JSON_Array>`__, which I will refer to as
          just objects and arrays from this point.
 
          The following is a brief description of what arrays and objects
@@ -78,7 +78,7 @@ Introduction to JSON Datatypes - MapToolDoc
          the examples in this section are how you would do it in
          JavaScript, so you understand how it looks and get a feel for
          it, in `Using JSON Datatypes in
-         Macros </rptools/wiki/Using_JSON_Datatypes_in_Macros>`__ I will
+         Macros <Using_JSON_Datatypes_in_Macros>`__ I will
          go show you how to use JSON objects and arrays in your macros.
 
          An array is enclosed in ``[ ]`` and has commas separating the
@@ -166,8 +166,8 @@ Introduction to JSON Datatypes - MapToolDoc
                      person = { "first name" : "Fred", "last name" : "Flintstone" }
 
          If you are familiar with the current `String
-         Lists </rptools/wiki/String_List>`__ and `String Property
-         Lists </rptools/wiki/String_Property_List>`__ you may at this
+         Lists <String_List>`__ and `String Property
+         Lists <String_Property_List>`__ you may at this
          point in time be asking what does this give me that they don't?
          Lets have a look at the differences so far.
 

@@ -62,7 +62,7 @@ findDrawings - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -124,8 +124,8 @@ findDrawings - MapToolDoc
 
          .. container:: template_also
 
-            `setFillColor() </rptools/wiki/setFillColor>`__
-            `refreshDrawing() </rptools/wiki/refreshDrawing>`__
+            `setFillColor() <setFillColor>`__
+            `refreshDrawing() <refreshDrawing>`__
 
       .. container:: printfooter
 

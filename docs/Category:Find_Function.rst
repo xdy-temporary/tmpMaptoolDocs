@@ -65,25 +65,25 @@ Category:Find Function - MapToolDoc
                         .. rubric:: F
                            :name: f
 
-                        -  `findToken </rptools/wiki/findToken>`__
+                        -  `findToken <findToken>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getExposedTokenNames </rptools/wiki/getExposedTokenNames>`__
-                        -  `getExposedTokens </rptools/wiki/getExposedTokens>`__
-                        -  `getNPC </rptools/wiki/getNPC>`__
-                        -  `getNPCNames </rptools/wiki/getNPCNames>`__
-                        -  `getOwned </rptools/wiki/getOwned>`__
-                        -  `getOwnedNames </rptools/wiki/getOwnedNames>`__
-                        -  `getTokenNames </rptools/wiki/getTokenNames>`__
-                        -  `getTokens </rptools/wiki/getTokens>`__
-                        -  `getVisibleTokenNames </rptools/wiki/getVisibleTokenNames>`__
-                        -  `getVisibleTokens </rptools/wiki/getVisibleTokens>`__
-                        -  `getWithState </rptools/wiki/getWithState>`__
-                        -  `getWithStateNames </rptools/wiki/getWithStateNames>`__
+                        -  `getExposedTokenNames <getExposedTokenNames>`__
+                        -  `getExposedTokens <getExposedTokens>`__
+                        -  `getNPC <getNPC>`__
+                        -  `getNPCNames <getNPCNames>`__
+                        -  `getOwned <getOwned>`__
+                        -  `getOwnedNames <getOwnedNames>`__
+                        -  `getTokenNames <getTokenNames>`__
+                        -  `getTokens <getTokens>`__
+                        -  `getVisibleTokenNames <getVisibleTokenNames>`__
+                        -  `getVisibleTokens <getVisibleTokens>`__
+                        -  `getWithState <getWithState>`__
+                        -  `getWithStateNames <getWithStateNames>`__
 
       .. container:: printfooter
 

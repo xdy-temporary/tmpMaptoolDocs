@@ -42,12 +42,12 @@ Using JSON Datatypes in Macros - MapToolDoc
 
          If you don't know JavaScript or JSON already I highly suggest
          you read `Introduction to JSON
-         Datatypes </rptools/wiki/Introduction_to_JSON_Datatypes>`__
+         Datatypes <Introduction_to_JSON_Datatypes>`__
          first even though it is JavaScript based.
 
          So how do you create `JSON
-         Objects </rptools/wiki/JSON_Object>`__ and `JSON
-         Arrays </rptools/wiki/JSON_Array>`__ in MapTool macro script?
+         Objects <JSON_Object>`__ and `JSON
+         Arrays <JSON_Array>`__ in MapTool macro script?
          Well the easy way if you already know everything you want is to
          create it as a string. Lets define a data structure that will
          hold the details for a weapon.
@@ -166,7 +166,7 @@ Using JSON Datatypes in Macros - MapToolDoc
          The above is well and good if you know what you want to store
          ahead of time, but how do you create a JSON object based on
          user input or results of a macro. For this you use
-         `json.set() </rptools/wiki/json.set>`__.
+         `json.set() <json.set>`__.
 
          So to create the above weapon you could use
 
@@ -180,10 +180,10 @@ Using JSON Datatypes in Macros - MapToolDoc
 
          Where ``"{}"`` is an empty JSON object, for convenience ``""``
          can be used as the first argument to
-         `json.set() </rptools/wiki/json.set>`__ to represent an empty
+         `json.set() <json.set>`__ to represent an empty
          object.
 
-         `json.set() </rptools/wiki/json.set>`__ takes an object as well
+         `json.set() <json.set>`__ takes an object as well
          a list of key and value pairs and returns a new object with the
          specified keys set . **It is important to rememeber this last
          bit, all of the json functions do not modify the object,
@@ -223,7 +223,7 @@ Using JSON Datatypes in Macros - MapToolDoc
          notice that json.set() creates the object on one line, not
          formatted nicely across multiple lines as it was when we
          created it manually. If you want to "format" this nicely you
-         can use the `json.indent() </rptools/wiki/json.indent>`__
+         can use the `json.indent() <json.indent>`__
          command.
 
          For example:
@@ -261,7 +261,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
                      [r: modifiers = '[0, 1, 3, 5, 8, 12]']
 
-         The `json.append() </rptools/wiki/json.append>`__ function
+         The `json.append() <json.append>`__ function
          allows you to append items to the end of an array, if the array
          is empty then it will create a new one.
 
@@ -372,7 +372,7 @@ Using JSON Datatypes in Macros - MapToolDoc
            a JSON object or array how do we get it out when we need it?
 
          To get things out of objects or arrays we use
-         `json.get() </rptools/wiki/json.get>`__
+         `json.get() <json.get>`__
 
          So
 
@@ -419,7 +419,7 @@ Using JSON Datatypes in Macros - MapToolDoc
             Modifiers 0, 1, 3, 5, 8, 12
 
          You could also use
-         `json.length() </rptools/wiki/json.length>`__ to change the
+         `json.length() <json.length>`__ to change the
          line that displays the modifiers to
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -432,7 +432,7 @@ Using JSON Datatypes in Macros - MapToolDoc
 
          But there is an easier way to loop through every value in the
          array and that is using
-         `foreach </rptools/wiki/foreach_(roll_option)>`__
+         `foreach <foreach_(roll_option)>`__
 
          .. container:: mw-geshi mw-code mw-content-ltr
 

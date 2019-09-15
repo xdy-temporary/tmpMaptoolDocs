@@ -55,7 +55,7 @@ onTokenMove - MapToolDoc
          onTokenMove-macro.
 
          For more information see `Guide to
-         onTokenMove </rptools/wiki/Guide_to_onTokenMove>`__.
+         onTokenMove <Guide_to_onTokenMove>`__.
 
       .. container:: printfooter
 

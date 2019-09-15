@@ -62,7 +62,7 @@ setGMName - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -96,7 +96,7 @@ setGMName - MapToolDoc
          -  ``name`` - A string that is set as the GM Name on the token.
          -  ``id`` - The token id of the token that has its GM Name set.
             Defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          .. rubric:: Examples
             :name: examples
@@ -104,7 +104,7 @@ setGMName - MapToolDoc
          .. container:: template_examples
 
             Sets the GM Name of the `Current
-            Token </rptools/wiki/Current_Token>`__ to ``New GM Name``.
+            Token <Current_Token>`__ to ``New GM Name``.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -145,7 +145,7 @@ setGMName - MapToolDoc
 
          .. container:: template_also
 
-            `getGMName() </rptools/wiki/getGMName>`__
+            `getGMName() <getGMName>`__
 
          .. rubric:: Version Changes
             :name: version-changes

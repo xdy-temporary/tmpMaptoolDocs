@@ -70,7 +70,7 @@ Category:Review - MapToolDoc
                         .. container:: CategoryTreeItem
 
                            ►
-                           `Clarify </rptools/wiki/Category:Clarify>`__\ ‎
+                           `Clarify <Category:Clarify>`__\ ‎
                            (4 P)
 
                         .. container:: CategoryTreeChildren
@@ -85,7 +85,7 @@ Category:Review - MapToolDoc
                         .. container:: CategoryTreeItem
 
                            ►
-                           `Deprecated </rptools/wiki/Category:Deprecated>`__\ ‎
+                           `Deprecated <Category:Deprecated>`__\ ‎
                            (5 P)
 
                         .. container:: CategoryTreeChildren
@@ -100,7 +100,7 @@ Category:Review - MapToolDoc
                         .. container:: CategoryTreeItem
 
                            ► `Proposed
-                           Change </rptools/wiki/Category:Proposed_Change>`__\ ‎
+                           Change <Category:Proposed_Change>`__\ ‎
                            (3 P)
 
                         .. container:: CategoryTreeChildren
@@ -114,7 +114,7 @@ Category:Review - MapToolDoc
 
                         .. container:: CategoryTreeItem
 
-                           ► `Stub </rptools/wiki/Category:Stub>`__\ ‎
+                           ► `Stub <Category:Stub>`__\ ‎
                            (1 C, 108 P)
 
                         .. container:: CategoryTreeChildren

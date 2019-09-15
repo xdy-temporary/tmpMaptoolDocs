@@ -66,15 +66,15 @@ setTokenImage - MapToolDoc
          .. container:: template_description
 
             Sets the image for the for the `Current
-            Token </rptools/wiki/Current_Token>`__. The image can come
+            Token <Current_Token>`__. The image can come
             from several sources. It can come from a function that
             returns an `asset
             id </maptool/index.php?title=asset_id&action=edit&redlink=1>`__
             such as
-            `tblImage() </rptools/wiki/Macros:Functions:tblImage>`__ or
-            `getTokenImage() </rptools/wiki/Macros:Functions:getTokenImage>`__.
+            `tblImage() <Macros:Functions:tblImage>`__ or
+            `getTokenImage() <Macros:Functions:getTokenImage>`__.
             Or it could come from a `Image
-            Token </rptools/wiki/Image_Token>`__.
+            Token <Image_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -113,7 +113,7 @@ setTokenImage - MapToolDoc
 
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to set the image, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
          -  ``mapname`` - OPTIONAL: The name of the map to find the
             token. Defaults to the current map.
 

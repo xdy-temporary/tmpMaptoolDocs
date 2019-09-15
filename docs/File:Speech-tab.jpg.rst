@@ -73,7 +73,7 @@ File:Speech-tab.jpg - MapToolDoc
             ======= ============================================================= ================================================= ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                     Thumbnail                                         Dimensions        User                                                                                                                                                                   Comment
             ======= ============================================================= ================================================= ================= ====================================================================================================================================================================== =======
-            current `03:47, 1 April 2009 </maptool/images/e/e4/Speech-tab.jpg>`__ |Thumbnail for version as of 03:47, 1 April 2009| 597 × 458 (34 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `03:47, 1 April 2009 </maptool/images/e/e4/Speech-tab.jpg>`__ |Thumbnail for version as of 03:47, 1 April 2009| 597 × 458 (34 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= ============================================================= ================================================= ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,15 +87,15 @@ File:Speech-tab.jpg - MapToolDoc
             The following 5 pages link to this file:
 
             -  `Introduction to
-               Tokens </rptools/wiki/Introduction_to_Tokens>`__
+               Tokens <Introduction_to_Tokens>`__
             -  `Introduction to
-               Tokens/es </rptools/wiki/Introduction_to_Tokens/es>`__
+               Tokens/es <Introduction_to_Tokens/es>`__
             -  `Introduction to
-               Tokens/fr </rptools/wiki/Introduction_to_Tokens/fr>`__
+               Tokens/fr <Introduction_to_Tokens/fr>`__
             -  `Introduction to
-               Tokens/it </rptools/wiki/Introduction_to_Tokens/it>`__
+               Tokens/it <Introduction_to_Tokens/it>`__
             -  `Introduction to
-               Tokens/ja </rptools/wiki/Introduction_to_Tokens/ja>`__
+               Tokens/ja <Introduction_to_Tokens/ja>`__
 
       .. container:: printfooter
 

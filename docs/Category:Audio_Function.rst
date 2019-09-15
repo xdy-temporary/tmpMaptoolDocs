@@ -61,22 +61,22 @@ Category:Audio Function - MapToolDoc
                   .. rubric:: E
                      :name: e
 
-                  -  `editStream </rptools/wiki/editStream>`__
+                  -  `editStream <editStream>`__
 
                   .. rubric:: G
                      :name: g
 
-                  -  `getStreamProperties </rptools/wiki/getStreamProperties>`__
+                  -  `getStreamProperties <getStreamProperties>`__
 
                   .. rubric:: P
                      :name: p
 
-                  -  `playStream </rptools/wiki/playStream>`__
+                  -  `playStream <playStream>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `stopStream </rptools/wiki/stopStream>`__
+                  -  `stopStream <stopStream>`__
 
       .. container:: printfooter
 

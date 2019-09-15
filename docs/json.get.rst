@@ -65,11 +65,11 @@ json.get - MapToolDoc
          .. container:: template_description
 
             Returns the value in a `JSON
-            Array </rptools/wiki/JSON_Array>`__ at the specified index,
+            Array <JSON_Array>`__ at the specified index,
             returns a slice of a `JSON
-            Array </rptools/wiki/JSON_Array>`__ from the specified
+            Array <JSON_Array>`__ from the specified
             indexes, or returns the value from `JSON
-            Object </rptools/wiki/JSON_Object>`__ for the specified key.
+            Object <JSON_Object>`__ for the specified key.
 
          .. rubric:: Usage
             :name: usage
@@ -100,7 +100,7 @@ json.get - MapToolDoc
 
          **Parameters**
 
-         -  ``array`` - The `JSON Array </rptools/wiki/JSON_Array>`__ to
+         -  ``array`` - The `JSON Array <JSON_Array>`__ to
             retrieve the element from.
          -  ``index`` - The numerical index of the element you want
             returned.
@@ -108,11 +108,11 @@ json.get - MapToolDoc
             slice to begin at.
          -  ``end`` - The ending index of the element you wish the slice
             to end at.
-         -  ``object`` - The `JSON Object </rptools/wiki/JSON_Object>`__
+         -  ``object`` - The `JSON Object <JSON_Object>`__
             to retrieve the element from.
          -  ``key`` - The name of a field that should be returned. This
             parameter can exist more than once, if it does then a `JSON
-            Object </rptools/wiki/JSON_Object>`__ is returned with all
+            Object <JSON_Object>`__ is returned with all
             the specified elements.
 
          When extracting slices: Negative numbers can be used as the
@@ -212,10 +212,10 @@ json.get - MapToolDoc
          .. container:: template_changes
 
             -  **1.3b51** - Added ability to return `JSON
-               Array </rptools/wiki/JSON_Array>`__ slices.
+               Array <JSON_Array>`__ slices.
             -  **1.3b51** - Added ability to return `JSON
-               Objects </rptools/wiki/JSON_Object>`__ of select fields
-               from other `JSON Objects </rptools/wiki/JSON_Object>`__.
+               Objects <JSON_Object>`__ of select fields
+               from other `JSON Objects <JSON_Object>`__.
 
       .. container:: printfooter
 

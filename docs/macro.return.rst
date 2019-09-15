@@ -49,7 +49,7 @@ macro.return - MapToolDoc
             :name: examples
 
          When a macro on a `library
-         token </rptools/wiki/Token:library_token>`__ is called by
+         token <Token:library_token>`__ is called by
          another macro, the called macro may return a value to the
          called macro by assigning that value to the variable
          *macro.args*.
@@ -58,7 +58,7 @@ macro.return - MapToolDoc
             :name: calling-macro
 
          The macro below calls a macro called **getDamage** on the
-         `library token </rptools/wiki/Token:library_token>`__
+         `library token <Token:library_token>`__
          "Lib:combat", passing the variable *damageDice* as an argument.
          It also sets
 

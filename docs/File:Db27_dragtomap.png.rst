@@ -78,7 +78,7 @@ File:Db27 dragtomap.png - MapToolDoc
             ======= ================================================================= ================================================= ================== ====================================================================================================================================================================== =============================
             \       Date/Time                                                         Thumbnail                                         Dimensions         User                                                                                                                                                                   Comment
             ======= ================================================================= ================================================= ================== ====================================================================================================================================================================== =============================
-            current `22:30, 25 July 2009 </maptool/images/d/d6/Db27_dragtomap.png>`__ |Thumbnail for version as of 22:30, 25 July 2009| 858 × 398 (190 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ ) Dragging Dice Box to the map.
+            current `22:30, 25 July 2009 </maptool/images/d/d6/Db27_dragtomap.png>`__ |Thumbnail for version as of 22:30, 25 July 2009| 858 × 398 (190 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ ) Dragging Dice Box to the map.
             ======= ================================================================= ================================================= ================== ====================================================================================================================================================================== =============================
 
          -  You cannot overwrite this file.
@@ -91,8 +91,8 @@ File:Db27 dragtomap.png - MapToolDoc
 
             The following 2 pages link to this file:
 
-            -  `Dice Box </rptools/wiki/Dice_Box>`__
-            -  `Dice Box/ja </rptools/wiki/Dice_Box/ja>`__
+            -  `Dice Box <Dice_Box>`__
+            -  `Dice Box/ja <Dice_Box/ja>`__
 
       .. container:: printfooter
 

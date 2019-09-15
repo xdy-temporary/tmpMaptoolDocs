@@ -49,7 +49,7 @@ Macro Introduction - MapToolDoc
             objections, speak up now.
             **
             | This URL will be forwarded to `Introduction to Macro
-              Writing </rptools/wiki/Introduction_to_Macro_Writing>`__
+              Writing <Introduction_to_Macro_Writing>`__
               upon removal.
 
             Removal date set for: 04.21.2009
@@ -185,7 +185,7 @@ Macro Introduction - MapToolDoc
          about weapons, or record damage and subsequent healing.
 
          (In the v1.3.b48 release of **MapTool**, there are now
-         `"library tokens" </rptools/wiki/Token:library_token>`__. These
+         `"library tokens" <Token:library_token>`__. These
          are tokens that are accessible from any map within a campaign.
          The tokens themselves have names that start with **Lib:** and
          they represent "trusted" macro code. Only GMs may create tokens

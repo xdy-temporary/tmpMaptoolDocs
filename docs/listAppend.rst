@@ -49,9 +49,9 @@ listAppend - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `string list </rptools/wiki/Macros:string_list>`__
+            Returns a `string list <Macros:string_list>`__
             with a value appended to the end of the `string
-            list </rptools/wiki/Macros:string_list>`__.
+            list <Macros:string_list>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -74,7 +74,7 @@ listAppend - MapToolDoc
 
          If delim is not specified then the default value of ',' is used
          to separate the values in the `string
-         list </rptools/wiki/Macros:string_list>`__
+         list <Macros:string_list>`__
 
          .. rubric:: Examples
             :name: examples

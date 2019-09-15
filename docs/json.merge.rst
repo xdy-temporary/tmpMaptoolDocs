@@ -65,19 +65,19 @@ json.merge - MapToolDoc
 
          .. container:: template_description
 
-            Merges multiple `JSON Arrays </rptools/wiki/JSON_Array>`__
-            or `JSON Objects </rptools/wiki/JSON_Object>`__.
-            For `JSON Arrays </rptools/wiki/JSON_Array>`__ the value
+            Merges multiple `JSON Arrays <JSON_Array>`__
+            or `JSON Objects <JSON_Object>`__.
+            For `JSON Arrays <JSON_Array>`__ the value
             returned is that of all the `JSON
-            Arrays </rptools/wiki/JSON_Array>`__ concatenated together.
+            Arrays <JSON_Array>`__ concatenated together.
 
-            For `JSON Objects </rptools/wiki/JSON_Object>`__ the value
-            returned is a `JSON Object </rptools/wiki/JSON_Object>`__
+            For `JSON Objects <JSON_Object>`__ the value
+            returned is a `JSON Object <JSON_Object>`__
             with all of the keys from all of the `JSON
-            Objects </rptools/wiki/JSON_Object>`__ set, if any key is
+            Objects <JSON_Object>`__ set, if any key is
             specified in more than one `JSON
-            Object </rptools/wiki/JSON_Object>`__ then the value for the
-            last specified `JSON Object </rptools/wiki/JSON_Object>`__
+            Object <JSON_Object>`__ then the value for the
+            last specified `JSON Object <JSON_Object>`__
             is used.
 
          .. rubric:: Usage
@@ -101,15 +101,15 @@ json.merge - MapToolDoc
 
          **Parameters**
 
-         -  ``array`` - A `JSON Array </rptools/wiki/JSON_Array>`__.
-         -  ``object`` - A `JSON Object </rptools/wiki/JSON_Object>`__.
+         -  ``array`` - A `JSON Array <JSON_Array>`__.
+         -  ``object`` - A `JSON Object <JSON_Object>`__.
 
          .. rubric:: Examples
             :name: examples
 
          .. container:: template_examples
 
-            Merge three `JSON Arrays </rptools/wiki/JSON_Array>`__:
+            Merge three `JSON Arrays <JSON_Array>`__:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -121,7 +121,7 @@ json.merge - MapToolDoc
 
             Returns: ``[1,2,3,4,1,2]``
 
-            Merge two `JSON Objects </rptools/wiki/JSON_Object>`__ with
+            Merge two `JSON Objects <JSON_Object>`__ with
             no matching keys:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -134,7 +134,7 @@ json.merge - MapToolDoc
 
             Returns: ``{"a":1,"b":2,"c":10,"d":7}``
 
-            Merge three `JSON Objects </rptools/wiki/JSON_Object>`__
+            Merge three `JSON Objects <JSON_Object>`__
             with a matching key, ``a``:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -152,8 +152,8 @@ json.merge - MapToolDoc
 
          .. container:: template_also
 
-            `json.union() </rptools/wiki/json.union>`__,
-            `json.intersection() </rptools/wiki/json.intersection>`__
+            `json.union() <json.union>`__,
+            `json.intersection() <json.intersection>`__
 
          .. rubric:: Version Changes
             :name: version-changes
@@ -162,7 +162,7 @@ json.merge - MapToolDoc
 
             -  **1.3b54** - Fixed bug which allows ``json.merge()`` to
                work correctly with `JSON
-               Objects </rptools/wiki/JSON_Object>`__.
+               Objects <JSON_Object>`__.
 
       .. container:: printfooter
 

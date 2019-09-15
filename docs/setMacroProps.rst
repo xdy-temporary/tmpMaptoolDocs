@@ -73,17 +73,17 @@ setMacroProps - MapToolDoc
          .. container:: template_description
 
             Sets the properties for the specified `Macro
-            Button </rptools/wiki/Token:Macro_Button>`__ on the `Current
-            Token </rptools/wiki/Current_Token>`__ . The properties are
+            Button <Token:Macro_Button>`__ on the `Current
+            Token <Current_Token>`__ . The properties are
             passed to this function as a `String Property
-            List </rptools/wiki/String_Property_List>`__. This function
+            List <String_Property_List>`__. This function
             accepts either a `Macro Button
             Index </maptool/index.php?title=Token:Macro_Button_Index&action=edit&redlink=1>`__
             or the label of a `Macro
-            Button </rptools/wiki/Token:Macro_Button>`__. If it is a
+            Button <Token:Macro_Button>`__. If it is a
             label then all of `Macro
-            Buttons </rptools/wiki/Token:Macro_Button>`__ on the
-            `Current Token </rptools/wiki/Current_Token>`__ with a
+            Buttons <Token:Macro_Button>`__ on the
+            `Current Token <Current_Token>`__ with a
             matching label are changed.
 
          .. rubric:: Usage
@@ -142,8 +142,8 @@ setMacroProps - MapToolDoc
          -  ``index`` - The index of the macro button.
          -  ``label`` - The label of the macro button.
          -  ``props`` - A `String Property
-            List </rptools/wiki/String_Property_List>`__ or `JSON
-            Object </rptools/wiki/JSON_Object>`__ containing the
+            List <String_Property_List>`__ or `JSON
+            Object <JSON_Object>`__ containing the
             properties for the button.
 
             -  ``applyToSelected`` - Should the macro be applied to the
@@ -170,7 +170,7 @@ setMacroProps - MapToolDoc
                accepts ``true``\ (``1``) or ``false``\ (``0``).
             -  ``tooltip`` - The tool tip for the macro button.
             -  ``compare`` - Takes a `JSON
-               Array </rptools/wiki/JSON_Array>`__ which can contain one
+               Array <JSON_Array>`__ which can contain one
                or more of the following keywords (only usable with JSON
                version of the function).
 
@@ -188,12 +188,12 @@ setMacroProps - MapToolDoc
                   macro comparisons.
 
          -  ``delim`` - The delimiter used in the `String Property
-            List </rptools/wiki/String_Property_List>`__ that is sent to
+            List <String_Property_List>`__ that is sent to
             the ``props`` parameter, defaults to ``";"`` and can be
             omitted if you are sending a `JSON
-            Object </rptools/wiki/JSON_Object>`__ to the ``props``
+            Object <JSON_Object>`__ to the ``props``
             parameter. If you are sending a `JSON
-            Object </rptools/wiki/JSON_Object>`__ to the ``props``
+            Object <JSON_Object>`__ to the ``props``
             parameter, and using the ``id`` parameter, you can set this
             to ``"json"``.
          -  ``id`` - The token ``id`` of the token that the macro button
@@ -202,7 +202,7 @@ setMacroProps - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          .. rubric:: Example
             :name: example

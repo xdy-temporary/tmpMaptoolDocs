@@ -43,7 +43,7 @@ More Branching Options - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/More_Branching_Options/ja>`__\ 
+             • \ `日本語 <More_Branching_Options/ja>`__\ 
 
          .. container:: template_intermediate
 
@@ -86,7 +86,7 @@ More Branching Options - MapToolDoc
             :name: introduction
 
          This is a guide to the "advanced" macro branching option,
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__.
+         `[macro():] <macro_(roll_option)>`__.
 
          .. rubric:: Assumptions
             :name: assumptions
@@ -112,18 +112,18 @@ More Branching Options - MapToolDoc
          macros clear (it also makes them easier to fix if something
          goes wrong!). What's more, it helps keep your memory use lower,
          so you don't get run into `stack overflow
-         errors </rptools/wiki/Stack_Size>`__ or, more commonly, slow
+         errors <Stack_Size>`__ or, more commonly, slow
          macros.
 
          But if you do this, how can you make one macro run based on
          another one - surely, you don't want to have to hit each button
          every time something happens, right? Enter the
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__ roll option.
+         `[macro():] <macro_(roll_option)>`__ roll option.
 
          .. rubric:: What's It Do?
             :name: whats-it-do
 
-         The `[macro():] </rptools/wiki/macro_(roll_option)>`__ roll
+         The `[macro():] <macro_(roll_option)>`__ roll
          option is they way you can have one macro - the *calling* macro
          - trigger another macro, which we call the *called* macro. The
          *calling* macro can send some information to the *called*
@@ -148,7 +148,7 @@ More Branching Options - MapToolDoc
 
          Let's look at the first benefit: take, for example, a macro
          that applies damage to a token in accordance with the `Sample
-         Ruleset </rptools/wiki/Sample_Ruleset>`__ (in other words, it
+         Ruleset <Sample_Ruleset>`__ (in other words, it
          looks at a token's properties, and then deducts damage from the
          token's ``HitPoints`` property). How many ways can you think a
          token might get damaged?
@@ -244,11 +244,11 @@ More Branching Options - MapToolDoc
          .. rubric:: How Do I Use It?
             :name: how-do-i-use-it
 
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__ is a roll
+         `[macro():] <macro_(roll_option)>`__ is a roll
          option, so, like other roll options you've seen, it is put at
          the beginning of a line and ends with a colon. The essential
          format of the
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__ roll option
+         `[macro():] <macro_(roll_option)>`__ roll option
          is:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -270,7 +270,7 @@ More Branching Options - MapToolDoc
          -  @: this is used in the same sense as in an email address -
             it means "at"
          -  **Lib:token**: this is the `Library
-            Token </rptools/wiki/Library_Token>`__ that contains the
+            Token <Library_Token>`__ that contains the
             macro you wish to call. Library tokens are a complex
             subject, but you can think of them as a single token that
             holds a "library" of macros, that can be called by other
@@ -309,7 +309,7 @@ More Branching Options - MapToolDoc
          is sent to the called macro). For example, let us assume the
          following:
 
-         -  There is a `Library Token </rptools/wiki/Library_Token>`__
+         -  There is a `Library Token <Library_Token>`__
             called "'Lib:MT **which has a macro called** Use
             Power\ **.**
          -  You have a token for Bork the Brave, which has a macro
@@ -408,7 +408,7 @@ More Branching Options - MapToolDoc
          The examples below are the two macros discussed above, side by
          side, to illustrate the use of macro calls and the
          ``macro.args`` and ``macro.return`` variables. Make sure to
-         check out the `Sample Ruleset </rptools/wiki/Sample_Ruleset>`__
+         check out the `Sample Ruleset <Sample_Ruleset>`__
          if you're not familiar with some of the various game terms.
          Also, note that these are not *complete* macros that include
          all of the possible classes and powers in the game, but a
@@ -564,7 +564,7 @@ More Branching Options - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/More_Branching_Options/ja>`__\ 
+             • \ `日本語 <More_Branching_Options/ja>`__\ 
 
       .. container:: printfooter
 

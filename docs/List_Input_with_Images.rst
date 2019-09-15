@@ -42,7 +42,7 @@ List Input with Images - MapToolDoc
 
          The following is the full code for the `Creating a List Input
          with Names and
-         Images </rptools/wiki/Creating_a_List_Input_with_Names_and_Images>`__
+         Images <Creating_a_List_Input_with_Names_and_Images>`__
          tutorial.
 
          .. container:: mw-geshi mw-code mw-content-ltr

@@ -66,7 +66,7 @@ getStrProp - MapToolDoc
 
             Returns the value associated with a key from the specified
             `string property
-            list </rptools/wiki/Macros:string_property_list>`__.
+            list <Macros:string_property_list>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -101,7 +101,7 @@ getStrProp - MapToolDoc
          .. container:: template_example
 
             To get the name from a weapon `string property
-            list </rptools/wiki/Macros:string_property_list>`__
+            list <Macros:string_property_list>`__
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -118,7 +118,7 @@ getStrProp - MapToolDoc
             Returns ``Name of Weapon: longsword``.
 
             To get the minimum damage from a weapon `string property
-            list </rptools/wiki/Macros:string_property_list>`__ with a
+            list <Macros:string_property_list>`__ with a
             default value should the key not exist
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -136,7 +136,7 @@ getStrProp - MapToolDoc
             Returns ``Minimum damage of Weapon: 1``.
 
             To get the damage from a weapon `string property
-            list </rptools/wiki/Macros:string_property_list>`__ where
+            list <Macros:string_property_list>`__ where
             the field delimiter is a colon. The default is **1d3** (note
             that a default value must be provided in order to specify
             the delimiter).

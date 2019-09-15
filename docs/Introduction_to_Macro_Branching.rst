@@ -109,7 +109,7 @@ Introduction to Macro Branching - MapToolDoc
          Since there's a lot of ground to cover, this tutorial will
          cover *branching* (running different commands based on some
          condition). The `Introduction to Macro
-         Loops </rptools/wiki/Introduction_to_Macro_Loops>`__ will
+         Loops <Introduction_to_Macro_Loops>`__ will
          handle looping (running a process repeatedly, until you wish it
          to stop).
 
@@ -118,14 +118,14 @@ Introduction to Macro Branching - MapToolDoc
 
          We're going to get to using these options pretty fast, so I
          assume you've read the `Introduction to Macro
-         Writing </rptools/wiki/Introduction_to_Macro_Writing>`__ and
+         Writing <Introduction_to_Macro_Writing>`__ and
          have knowledge of how to create a new macro and use some very
          basic commands in it (like creating a variable or a dice roll).
 
          There are a couple concepts that should be introduced first,
          since they're going to be a great way to illustrate some of the
          branching concepts (and looping concepts, in the `Introduction
-         to Macro Loops </rptools/wiki/Introduction_to_Macro_Loops>`__.
+         to Macro Loops <Introduction_to_Macro_Loops>`__.
          You'll get an explanation of the new concepts below.
 
          Also, don't forget to enable the *Use ToolTips for Inline
@@ -177,7 +177,7 @@ Introduction to Macro Branching - MapToolDoc
          If you could only do one thing when you branch or loop, macros
          would be very limited - so the macro language supports a
          special roll option called
-         `[code():] </rptools/wiki/code_(roll_option)>`__, which
+         `[code():] <code_(roll_option)>`__, which
          indicates to MapTool that you want to perform several different
          operations at once, but have them all be treated as a single
          unit (a single "branch" of a branching statement, or the body
@@ -185,7 +185,7 @@ Introduction to Macro Branching - MapToolDoc
          commands inside a pair of curly braces ( { } ).
 
          The examples below will use the
-         `[code():] </rptools/wiki/code_(roll_option)>`__ option, so you
+         `[code():] <code_(roll_option)>`__ option, so you
          can see how it works.
 
          .. rubric:: New Concept: Comparison and Logical Operators
@@ -208,10 +208,10 @@ Introduction to Macro Branching - MapToolDoc
          comparisons together. The comparison and logical operators are
          described below:
 
-         In the examples below, the `if() </rptools/wiki/if>`__ function
+         In the examples below, the `if() <if>`__ function
          is used to illustrate the examples. It's described in more
          detail later, but the basic "format" of the
-         `if() </rptools/wiki/if>`__ function is this:
+         `if() <if>`__ function is this:
 
          ``if(comparison, value_if_true, value_if_false)``
 
@@ -312,7 +312,7 @@ Introduction to Macro Branching - MapToolDoc
          .. rubric:: if() Function
             :name: if-function
 
-         The `if() </rptools/wiki/if>`__ function is called simply by
+         The `if() <if>`__ function is called simply by
          writing ``if()`` and putting the thing you want compared, what
          to do if the comparison is true, and what to do if the
          comparison is false, all inside the parentheses. The general
@@ -340,10 +340,10 @@ Introduction to Macro Branching - MapToolDoc
             ``You missed`` to chat
 
          The *value_if_true* and *value_if_false* parts of the
-         `if() </rptools/wiki/if>`__ statement can be text, dice roll
+         `if() <if>`__ statement can be text, dice roll
          commands (like 1d6 or 1d20), or variables. What they *cannot*
          be is variable assignments - that is, you can't write an
-         `if() </rptools/wiki/if>`__ statement like this:
+         `if() <if>`__ statement like this:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -356,7 +356,7 @@ Introduction to Macro Branching - MapToolDoc
          It may seem like a good idea, but it won't work - MapTool will
          give what's known as a *null pointer exception*, and the macro
          will fail. However, there is a trick to get around that: since
-         `if() </rptools/wiki/if>`__ is a function, and all functions -
+         `if() <if>`__ is a function, and all functions -
          when they run - produce a *value*, you can assign the *result*
          of it to a variable! You would do it like this:
 
@@ -371,24 +371,24 @@ Introduction to Macro Branching - MapToolDoc
          When you do it that way, MapTool will:
 
          -  First, decide what the result of the
-            `if() </rptools/wiki/if>`__ is, and
+            `if() <if>`__ is, and
          -  Second, assign that *result* to the variable ``output``,
             which you can then use like any variable
 
-         .. rubric:: `[if():] </rptools/wiki/if_(roll_option)>`__\ Roll
+         .. rubric:: `[if():] <if_(roll_option)>`__\ Roll
             Option
             :name: if-roll-option
 
-         In addition to `if() </rptools/wiki/if>`__, there is another
+         In addition to `if() <if>`__, there is another
          way to employ the concept of "if-then" in macro code. The
-         `[if():] </rptools/wiki/if_(roll_option)>`__ *roll option*.
+         `[if():] <if_(roll_option)>`__ *roll option*.
          Roll options are, as mentioned above, effectively "switches" or
          "toggles" that you set for a macro command that affect how
          MapTool will handle it. A couple simple roll options are
          mentioned in the `Introduction to Macro
-         Writing </rptools/wiki/Introduction_to_Macro_Writing>`__ -
-         things like `[h:] </rptools/wiki/h_(roll_option)>`__ and
-         `[e:] </rptools/wiki/e_(roll_option)>`__ for hidden or expanded
+         Writing <Introduction_to_Macro_Writing>`__ -
+         things like `[h:] <h_(roll_option)>`__ and
+         `[e:] <e_(roll_option)>`__ for hidden or expanded
          output, for example.
 
          Roll options must follow these rules:
@@ -405,7 +405,7 @@ Introduction to Macro Branching - MapToolDoc
             options) goes *after* the parentheses. Look at the examples
             below to see how it's used.
 
-         To use the `[if():] </rptools/wiki/if_(roll_option)>`__ option
+         To use the `[if():] <if_(roll_option)>`__ option
          as a comparison, you must follow the format:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -419,11 +419,11 @@ Introduction to Macro Branching - MapToolDoc
          | 
 
          -  **Comparison**: this is a comparison statement, as used in
-            the `if() </rptools/wiki/if>`__ above.
+            the `if() <if>`__ above.
          -  **Command_if_true**: this is the command to execute if true;
             in this form of IF, you *can* do variable assignments or
             commands that you cannot do in the
-            `if() </rptools/wiki/if>`__ method. However, it doesn't
+            `if() <if>`__ method. However, it doesn't
             *have* to be a whole command - it can still be a bit of
             text.
          -  **Command_if_false**: this is the command to execute if
@@ -432,7 +432,7 @@ Introduction to Macro Branching - MapToolDoc
             semicolon and the ``command_if_false`` part entirely.
 
          An example of the use of the
-         `[if():] </rptools/wiki/if_(roll_option)>`__ roll option might
+         `[if():] <if_(roll_option)>`__ roll option might
          be:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -462,8 +462,8 @@ Introduction to Macro Branching - MapToolDoc
 
          You'll note that the first line - the line that uses if - has
          **two** roll options on the same line:
-         `[h:] </rptools/wiki/h_(roll_option)>`__ and
-         `[if():] </rptools/wiki/if_(roll_option)>`__. You'll also see
+         `[h:] <h_(roll_option)>`__ and
+         `[if():] <if_(roll_option)>`__. You'll also see
          that they are separated by a comma, and the colon goes *after*
          the last roll option, and *before* the commands in the
          ``command_if_true`` and ``command_if_false`` sections.
@@ -474,14 +474,14 @@ Introduction to Macro Branching - MapToolDoc
          So what if you want to do more than one thing based on a
          comparison? Say, set a bunch of variables to a certain value?
          For that, you use the
-         `[code():] </rptools/wiki/code_(roll_option)>`__ roll option.
+         `[code():] <code_(roll_option)>`__ roll option.
 
          Like all roll options,
-         `[code():] </rptools/wiki/code_(roll_option)>`__ is put at the
+         `[code():] <code_(roll_option)>`__ is put at the
          beginning of the line, separated from other roll options by a
          comma. Macro programming convention (that is, the way most
          macro writers seem to do it) is to put
-         `[code():] </rptools/wiki/code_(roll_option)>`__ as the last
+         `[code():] <code_(roll_option)>`__ as the last
          roll option in the list. So, the general format you will see in
          a macro is likely to be:
 
@@ -494,10 +494,10 @@ Introduction to Macro Branching - MapToolDoc
                      [roll_option1, roll_option2, code: macro_commands]
 
          The second component of the
-         `[code():] </rptools/wiki/code_(roll_option)>`__ option is the
+         `[code():] <code_(roll_option)>`__ option is the
          curly bracket ({ }). You use these to enclose multiple commands
          as a single group. Remember the format of the
-         `[if():] </rptools/wiki/if_(roll_option)>`__ roll option?
+         `[if():] <if_(roll_option)>`__ roll option?
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -507,7 +507,7 @@ Introduction to Macro Branching - MapToolDoc
 
                      [if(comparison): command_if_true; command_if_false]
 
-         Well, the `[code():] </rptools/wiki/code_(roll_option)>`__
+         Well, the `[code():] <code_(roll_option)>`__
          option lets you replace ``command_if_true`` and
          ``command_if_false`` with *multiple* macro commands. Let's look
          at an example:
@@ -575,9 +575,9 @@ Introduction to Macro Branching - MapToolDoc
          -  We set up the comparison (putting an h, in front - remember,
             that will hide the results from chat, so you don't see all
             the calculations in the if statement).
-         -  We put `[code():] </rptools/wiki/code_(roll_option)>`__ in
+         -  We put `[code():] <code_(roll_option)>`__ in
             there to warn MapTool that each part of the
-            `[if():] </rptools/wiki/if_(roll_option)>`__ roll option -
+            `[if():] <if_(roll_option)>`__ roll option -
             ``command_if_true`` and ``command_if_false`` - will actually
             consist of multiple separate commands.
          -  We put a colon after the word ``code``, to mark off the end
@@ -604,21 +604,21 @@ Introduction to Macro Branching - MapToolDoc
          | 
          | **NOTE**: The CODE roll option only works with *other roll
            options*. You would not use this with the
-           `if() </rptools/wiki/if>`__ *function*. That is a bit
+           `if() <if>`__ *function*. That is a bit
            confusing, but just remember: CODE only goes with other roll
            options.
 
          .. rubric:: SWITCH: Choosing from Many Options
             :name: switch-choosing-from-many-options
 
-         The `if() </rptools/wiki/if>`__ function and the
-         `[if():] </rptools/wiki/if_(roll_option)>`__ roll option both
+         The `if() <if>`__ function and the
+         `[if():] <if_(roll_option)>`__ roll option both
          let you pick from two options - either do something when the
          comparison is *true*, or do something different when the
          comparison is *false*. But life - and RPG's - are not always so
          black and white. When you want to do different things based on
          one of *many* options, you use the
-         `[switch():] </rptools/wiki/switch_(roll_option)>`__ roll
+         `[switch():] <switch_(roll_option)>`__ roll
          option.
 
          The general format is:
@@ -653,8 +653,8 @@ Introduction to Macro Branching - MapToolDoc
          based on the token's ``Class``. If you've been following along,
          you might recognize the **Armor** value as one of the
          attributes in the `Sample
-         Ruleset </rptools/wiki/Sample_Ruleset>`__. If you visit the
-         `Sample Ruleset </rptools/wiki/Sample_Ruleset>`__ page, you'll
+         Ruleset <Sample_Ruleset>`__. If you visit the
+         `Sample Ruleset <Sample_Ruleset>`__ page, you'll
          see that a character can have one of several armor values,
          based on the character's class:
 
@@ -704,16 +704,16 @@ Introduction to Macro Branching - MapToolDoc
          .. rubric:: SWITCH and CODE
             :name: switch-and-code
 
-         The `[code():] </rptools/wiki/code_(roll_option)>`__ option can
+         The `[code():] <code_(roll_option)>`__ option can
          be used with a
-         `[switch():] </rptools/wiki/switch_(roll_option)>`__ option, in
+         `[switch():] <switch_(roll_option)>`__ option, in
          a similar manner as
-         `[if():] </rptools/wiki/if_(roll_option)>`__. There are a
+         `[if():] <if_(roll_option)>`__. There are a
          couple tricky bits, but if you follow the pattern given in the
          examples, it should work for you.
 
-         To do a `[switch():] </rptools/wiki/switch_(roll_option)>`__
-         option with `[code():] </rptools/wiki/code_(roll_option)>`__,
+         To do a `[switch():] <switch_(roll_option)>`__
+         option with `[code():] <code_(roll_option)>`__,
          the general format is:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -729,7 +729,7 @@ Introduction to Macro Branching - MapToolDoc
                      default: { commands_for_default}]
 
          An actual example can be drawn from the `Sample
-         Ruleset </rptools/wiki/Sample_Ruleset>`__ as well. Not only
+         Ruleset <Sample_Ruleset>`__ as well. Not only
          does a character's class indicate his or her armor value, but
          also the list of "Beginning Powers" from which the character
          can draw. Suppose we wanted to set not only the armor value,
@@ -795,10 +795,10 @@ Introduction to Macro Branching - MapToolDoc
          options for branching macros - there are two others, which
          involve either leaving one macro entirely to call on another,
          or changing the focus (that is, what token is the `Current
-         Token </rptools/wiki/Current_Token>`__) of a macro temporarily.
+         Token <Current_Token>`__) of a macro temporarily.
          Since these are fairly complex operations all on their own,
          you'll find them in the `More Branching
-         Options </rptools/wiki/More_Branching_Options>`__ guide.
+         Options <More_Branching_Options>`__ guide.
 
       .. container:: printfooter
 

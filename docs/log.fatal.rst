@@ -61,7 +61,7 @@ log.fatal - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -70,7 +70,7 @@ log.fatal - MapToolDoc
          .. container:: template_description
 
             Writes a message to the log at the FATAL logging level. Use
-            `log.setLevel() </rptools/wiki/log.setLevel>`__ to set the
+            `log.setLevel() <log.setLevel>`__ to set the
             appropriate level for the ``macro-logger``.
 
          .. rubric:: Usage
@@ -120,8 +120,8 @@ log.fatal - MapToolDoc
 
          .. container:: template_also
 
-            `log.getLoggers() </rptools/wiki/log.getLoggers>`__
-            `log.setLevel() </rptools/wiki/log.setLevel>`__
+            `log.getLoggers() <log.getLoggers>`__
+            `log.setLevel() <log.setLevel>`__
 
       .. container:: printfooter
 

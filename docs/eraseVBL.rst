@@ -61,7 +61,7 @@ eraseVBL - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -83,11 +83,11 @@ eraseVBL - MapToolDoc
                      eraseVBL(shapesList)
 
          This function works EXACTLY the same as
-         `drawVBL() </rptools/wiki/drawVBL>`__ with the ONLY difference
-         that `drawVBL() </rptools/wiki/drawVBL>`__ draws the shapes on
+         `drawVBL() <drawVBL>`__ with the ONLY difference
+         that `drawVBL() <drawVBL>`__ draws the shapes on
          the vision blocking layer and eraseVBL erases them. For
          descriptions on parameters and more examples goto the
-         `drawVBL() </rptools/wiki/drawVBL>`__ page.
+         `drawVBL() <drawVBL>`__ page.
 
          .. rubric:: Example
             :name: example
@@ -119,8 +119,8 @@ eraseVBL - MapToolDoc
          .. container:: template_also
 
             `Introduction to Vision
-            Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__,
-            `drawVBL() </rptools/wiki/drawVBL>`__
+            Blocking <Introduction_to_Vision_Blocking>`__,
+            `drawVBL() <drawVBL>`__
 
       .. container:: printfooter
 

@@ -72,7 +72,7 @@ getLabel - MapToolDoc
 
             Returns the `Token
             Label </maptool/index.php?title=Token_Label&action=edit&redlink=1>`__
-            for a specific `Token </rptools/wiki/Token>`__.
+            for a specific `Token <Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -98,12 +98,12 @@ getLabel - MapToolDoc
          -  ``id`` - The token ``id`` of the token that has its `Token
             Label </maptool/index.php?title=Token_Label&action=edit&redlink=1>`__
             returned, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          | 
 
@@ -112,7 +112,7 @@ getLabel - MapToolDoc
 
          .. container:: template_also
 
-            `setLabel() </rptools/wiki/setLabel>`__
+            `setLabel() <setLabel>`__
 
          .. rubric:: Version Changes
             :name: version-changes

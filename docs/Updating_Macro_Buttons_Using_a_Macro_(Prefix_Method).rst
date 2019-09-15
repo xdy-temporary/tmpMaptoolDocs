@@ -77,16 +77,16 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
          For the first set up lets assume that we have prefixed our
          powers with "Daily:" for daily powers and "Encounter:" for
          encounter powers, and we want to set the color of the `macro
-         button </rptools/wiki/Macro_Button>`__ to blue if the power has
+         button <Macro_Button>`__ to blue if the power has
          been used. If you want another way to do this without having to
          place "Daily:" or "Encounter:" in front of your power see
          `Tracking Used DnD 4e Powers (Macro Group
-         Method) </rptools/wiki/Tutorials:Macros:UpdatingMacroButtons:DnD4ePowersGroup>`__
+         Method) <Tutorials:Macros:UpdatingMacroButtons:DnD4ePowersGroup>`__
 
          | 
          | **Version update:** This tutorial was written before 1.3b50.
            As of 1.3b50 you can use
-           `getMacroButtonIndex </rptools/wiki/Macros:Functions:getMacroButtonIndex>`__
+           `getMacroButtonIndex <Macros:Functions:getMacroButtonIndex>`__
            to determine the index of the button that was pressed instead
            of setting/getting the properties of the button by name you
            can use the index of the button in place of the name, this
@@ -100,21 +100,21 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
             :name: short-rest-resetting-color-of-buttons-starting-with-encounter
 
          So first we will create a `macro
-         button </rptools/wiki/Macro_Button>`__ called "Short Rest", for
+         button <Macro_Button>`__ called "Short Rest", for
          this tutorial I will assume you just create it as a `campaign
-         macro </rptools/wiki/Introduction_to_Macro_Writing#Campaign_Macros>`__
+         macro <Introduction_to_Macro_Writing#Campaign_Macros>`__
          --just remember to check the `Apply to Selected
          Tokens </maptool/index.php?title=Macros:Apply_to_Selected_Tokens&action=edit&redlink=1>`__
          check mark-- you can just as easily create these as macros in
-         `library token </rptools/wiki/Token:library_token>`__ macros
+         `library token <Token:library_token>`__ macros
          and call them from from `macro
-         buttons </rptools/wiki/Macro_Button>`__ on your
-         `tokens </rptools/wiki/Token>`__.
+         buttons <Macro_Button>`__ on your
+         `tokens <Token>`__.
 
          |ShortRest1MacroButton.png|
 
          So create the "Short Rest" `macro
-         button </rptools/wiki/Macro_Button>`__ and copy the following
+         button <Macro_Button>`__ and copy the following
          code into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -191,34 +191,34 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
          The way the above macro works is by getting a list of the
          macros
-         `getMacros() </rptools/wiki/Macros:Functions:getMacros>`__
+         `getMacros() <Macros:Functions:getMacros>`__
          which will return all the labels of the `macro
-         buttons </rptools/wiki/Macro_Button>`__ on the `Current
-         Token </rptools/wiki/Current_Token>`__. Since a
-         `token </rptools/wiki/Token>`__ can contain multiple `macro
-         buttons </rptools/wiki/Macro_Button>`__ with the same label the
+         buttons <Macro_Button>`__ on the `Current
+         Token <Current_Token>`__. Since a
+         `token <Token>`__ can contain multiple `macro
+         buttons <Macro_Button>`__ with the same label the
          function
-         `getMacroIndexes() </rptools/wiki/Macros:Functions:getMacroIndexes>`__
+         `getMacroIndexes() <Macros:Functions:getMacroIndexes>`__
          is used to return the unique index of each `macro
-         button </rptools/wiki/Macro_Button>`__ for each of the labels.
+         button <Macro_Button>`__ for each of the labels.
          Then we use
-         `getMacroProps() </rptools/wiki/Macros:Functions:getMacroProps>`__
+         `getMacroProps() <Macros:Functions:getMacroProps>`__
          to get the properties of the `macro
-         button </rptools/wiki/Macro_Button>`__ in a `string property
-         list </rptools/wiki/Macros:string_property_list>`__. The color
-         of the `macro button </rptools/wiki/Macro_Button>`__ is
+         button <Macro_Button>`__ in a `string property
+         list <Macros:string_property_list>`__. The color
+         of the `macro button <Macro_Button>`__ is
          extracted from this using
-         `getStrProp() </rptools/wiki/Macros:Functions:getStrProp>`__
+         `getStrProp() <Macros:Functions:getStrProp>`__
          and we check to see if it is "blue", if it is we also check to
          see if the label of the button starts with "Encounter:" and set
          the value of isBlue based on this. Then if isBlue is true (non
          zero) we use
-         `setMacroProps() </rptools/wiki/Macros:Functions:setMacroProps>`__
+         `setMacroProps() <Macros:Functions:setMacroProps>`__
          to change the color back to the default.
 
          You can test this macro by dragging a
-         `token </rptools/wiki/Token>`__ onto the map and adding a
-         `macro button </rptools/wiki/Macro_Button>`__ to it called
+         `token <Token>`__ onto the map and adding a
+         `macro button <Macro_Button>`__ to it called
          "Encounter:Something or other" and set it to blue in the
          creation dialog.
 
@@ -230,9 +230,9 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
             :name: extended-rest-resetting-color-of-buttons-starting-with-encounter-or-daily
 
          For an extended rest we want to reset the color of any `macro
-         buttons </rptools/wiki/Macro_Button>`__ that start with either
+         buttons <Macro_Button>`__ that start with either
          "Encounter:" or "Daily:". So create a `campaign
-         macro </rptools/wiki/Introduction_to_Macro_Writing#Campaign_Macros>`__
+         macro <Introduction_to_Macro_Writing#Campaign_Macros>`__
          called "Extended Rest" (don't forget to check the `Apply to
          Selected
          Tokens </maptool/index.php?title=Macros:Apply_to_Selected_Tokens&action=edit&redlink=1>`__
@@ -312,8 +312,8 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
          The only difference between this macro and the previous one is
          where it checks the prefix of the `macro
-         button </rptools/wiki/Macro_Button>`__. In the "Short Rest"
-         `macro button </rptools/wiki/Macro_Button>`__ we had
+         button <Macro_Button>`__. In the "Short Rest"
+         `macro button <Macro_Button>`__ we had
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -328,7 +328,7 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
                                          matches(macro, "Encounter:.*"),  1, 0)]
 
          Where as in the "Extended Rest" `macro
-         button </rptools/wiki/Macro_Button>`__ it is
+         button <Macro_Button>`__ it is
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -408,9 +408,9 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
                          [h: setMacroProps("Encouner:Burning Hands", "color=blue")]
 
          Replacing the "Encounter:Burning Hands" with the label of your
-         `macro button </rptools/wiki/Macro_Button>`__. So lets try it,
+         `macro button <Macro_Button>`__. So lets try it,
          on your token create a `macro
-         button </rptools/wiki/Macro_Button>`__ called "Daily:Sleep" and
+         button <Macro_Button>`__ called "Daily:Sleep" and
          in the button place the following code
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -432,9 +432,9 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
          only want to set one (you may want to implement multi use per
          day powers as multiple buttons for example)
 
-         Drag a new `token </rptools/wiki/Token:token>`__ onto the map
+         Drag a new `token <Token:token>`__ onto the map
          and change its name to Lib:DnD4ePowers, and create a `macro
-         button </rptools/wiki/Macro_Button>`__ called "UsePower", then
+         button <Macro_Button>`__ called "UsePower", then
          copy in the following code.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -478,13 +478,13 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
                      }]
 
          This will loop through all of the indexes for the `macro
-         buttons </rptools/wiki/Macro_Button>`__ with the specified name
+         buttons <Macro_Button>`__ with the specified name
          searching for one that is the default color, once it finds one
          it sets its color to blue and sets found=1 so no other buttons
          are changed (as of 1.3b48 there is no way to break out of a
          loop).
 
-         Now create a `macro button </rptools/wiki/Macro_Button>`__
+         Now create a `macro button <Macro_Button>`__
          called "Daily:Lay On Hands" and copy the following in.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -509,7 +509,7 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
          We can do that by changing the "UsePower" macro we created
          above on the Lib:DnD4ePowers `library
-         token </rptools/wiki/Token:library_token>`__. Change it to the
+         token <Token:library_token>`__. Change it to the
          following
 
          .. rubric:: Sorry Sir/Madam, you have already used that!
@@ -591,7 +591,7 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
                      [abort(found)] <!-- Abort the macro if an unused power was not found -->
 
-         And change the `Token:token </rptools/wiki/Token:token>`__'s
+         And change the `Token:token <Token:token>`__'s
          "Daily:Lay On Hands" macro code (don't forget to change all the
          duplicates too).
 

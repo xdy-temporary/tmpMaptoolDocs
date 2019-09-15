@@ -72,7 +72,7 @@ setLabel - MapToolDoc
 
             Sets the `Token
             Label </maptool/index.php?title=Token_Label&action=edit&redlink=1>`__
-            of a specific `Token </rptools/wiki/Token>`__.
+            of a specific `Token <Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -100,12 +100,12 @@ setLabel - MapToolDoc
             is set to.
          -  ``id`` - The token ``id`` of the token that has its label
             set, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          | 
 
@@ -114,7 +114,7 @@ setLabel - MapToolDoc
 
          .. container:: template_also
 
-            `getLabel() </rptools/wiki/getLabel>`__
+            `getLabel() <getLabel>`__
 
          .. rubric:: Version Changes
             :name: version-changes

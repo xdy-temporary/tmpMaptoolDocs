@@ -53,7 +53,7 @@ getPropertyDefault - MapToolDoc
             value </maptool/index.php?title=Campaign:property_default_value&action=edit&redlink=1>`__
             of a `token
             property </maptool/index.php?title=Token:property&action=edit&redlink=1>`__
-            for the `Current Token </rptools/wiki/Current_Token>`__. If
+            for the `Current Token <Current_Token>`__. If
             the `default
             value </maptool/index.php?title=Campaign:property_default_value&action=edit&redlink=1>`__
             contains nothing then an empty string (``""``) is returned.
@@ -79,7 +79,7 @@ getPropertyDefault - MapToolDoc
             of.
          -  ``propType`` - The token type to get the property from.
             Defaults to the token type of the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
       .. container:: printfooter
 

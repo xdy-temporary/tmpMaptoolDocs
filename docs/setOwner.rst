@@ -66,9 +66,9 @@ setOwner - MapToolDoc
          .. container:: template_description
 
             Changes the owners of a token (default is the `Current
-            Token </rptools/wiki/Current_Token>`__) when given a
-            `String </rptools/wiki/String>`__ owner name or `JSON
-            Array </rptools/wiki/JSON_Array>`__ of owner names. All
+            Token <Current_Token>`__) when given a
+            `String <String>`__ owner name or `JSON
+            Array <JSON_Array>`__ of owner names. All
             other owners are removed.
 
          .. rubric:: Usage
@@ -108,21 +108,21 @@ setOwner - MapToolDoc
             token. Ownership is not constrained to the client names
             currently connected, but only currently connected clients
             appear in the Token Editor Dialog. This parameter is a
-            `String </rptools/wiki/String>`__. An empty string here is
+            `String <String>`__. An empty string here is
             treated as an empty JSON array (see next parameter).
          -  ``ownerNames`` - The player names to set the ownership on
             the token. Ownership is not constrained to the client names
             currently connected, but only currently connected clients
             appear in the Token Editor Dialog. This parameter is a `JSON
-            Array </rptools/wiki/JSON_Array>`__.
+            Array <JSON_Array>`__.
          -  ``id`` - The token ``id`` of the token which has its owners
             changed, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -134,7 +134,7 @@ setOwner - MapToolDoc
 
             To change the
             `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
-            of the `Current Token </rptools/wiki/Current_Token>`__ to a
+            of the `Current Token <Current_Token>`__ to a
             single user use:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -147,7 +147,7 @@ setOwner - MapToolDoc
 
             To change the
             `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
-            of the `Current Token </rptools/wiki/Current_Token>`__ to a
+            of the `Current Token <Current_Token>`__ to a
             list of three players use:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -174,7 +174,7 @@ setOwner - MapToolDoc
 
             To make all current players
             `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
-            of the `Current Token </rptools/wiki/Current_Token>`__ use:
+            of the `Current Token <Current_Token>`__ use:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -186,7 +186,7 @@ setOwner - MapToolDoc
 
             To remove all
             `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
-            of the `Current Token </rptools/wiki/Current_Token>`__ use:
+            of the `Current Token <Current_Token>`__ use:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -208,12 +208,12 @@ setOwner - MapToolDoc
 
             To display the current
             `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
-            of the `Current Token </rptools/wiki/Current_Token>`__ as
+            of the `Current Token <Current_Token>`__ as
             checkboxes, then accept the user's changes to apply back
             onto the token, use the following. Note that this example
             does not provide for adding owners to the list, only
             removing them. (Adding owners would require the use of
-            `getAllPlayerNames() </rptools/wiki/getAllPlayerNames>`__
+            `getAllPlayerNames() <getAllPlayerNames>`__
             and would make this example even more complex.)
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -277,10 +277,10 @@ setOwner - MapToolDoc
 
          .. container:: template_also
 
-            `isOwnedByAll() </rptools/wiki/isOwnedByAll>`__,
-            `setOwnerOnlyVisible() </rptools/wiki/setOwnerOnlyVisible>`__,
+            `isOwnedByAll() <isOwnedByAll>`__,
+            `setOwnerOnlyVisible() <setOwnerOnlyVisible>`__,
 
-            `isOwner() </rptools/wiki/isOwner>`__.
+            `isOwner() <isOwner>`__.
 
          .. rubric:: Version Changes
             :name: version-changes

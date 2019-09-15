@@ -207,8 +207,8 @@ getNewRolls - MapToolDoc
 
          .. container:: template_also
 
-            `clearRolls() </rptools/wiki/clearRolls>`__
-            `getRolled() </rptools/wiki/getRolled>`__
+            `clearRolls() <clearRolls>`__
+            `getRolled() <getRolled>`__
 
       .. container:: printfooter
 

@@ -73,7 +73,7 @@ File:mt-connect-direct.jpg - MapToolDoc
             ======= ===================================================================== ================================================== ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                             Thumbnail                                          Dimensions        User                                                                                                                                                                   Comment
             ======= ===================================================================== ================================================== ================= ====================================================================================================================================================================== =======
-            current `15:50, 25 March 2009 </maptool/images/e/ed/mt-connect-direct.jpg>`__ |Thumbnail for version as of 15:50, 25 March 2009| 408 × 427 (20 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `15:50, 25 March 2009 </maptool/images/e/ed/mt-connect-direct.jpg>`__ |Thumbnail for version as of 15:50, 25 March 2009| 408 × 427 (20 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= ===================================================================== ================================================== ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,15 +87,15 @@ File:mt-connect-direct.jpg - MapToolDoc
             The following 5 pages link to this file:
 
             -  `Introduction to Game
-               Hosting </rptools/wiki/Introduction_to_Game_Hosting>`__
+               Hosting <Introduction_to_Game_Hosting>`__
             -  `Introduction to Game
-               Hosting/es </rptools/wiki/Introduction_to_Game_Hosting/es>`__
+               Hosting/es <Introduction_to_Game_Hosting/es>`__
             -  `Introduction to Game
-               Hosting/fr </rptools/wiki/Introduction_to_Game_Hosting/fr>`__
+               Hosting/fr <Introduction_to_Game_Hosting/fr>`__
             -  `Introduction to Game
-               Hosting/it </rptools/wiki/Introduction_to_Game_Hosting/it>`__
+               Hosting/it <Introduction_to_Game_Hosting/it>`__
             -  `Introduction to Game
-               Hosting/ja </rptools/wiki/Introduction_to_Game_Hosting/ja>`__
+               Hosting/ja <Introduction_to_Game_Hosting/ja>`__
 
       .. container:: printfooter
 

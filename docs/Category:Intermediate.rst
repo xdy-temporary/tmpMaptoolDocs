@@ -69,13 +69,13 @@ Category:Intermediate - MapToolDoc
                            :name: i
 
                         -  `Introduction to Macro
-                           Branching </rptools/wiki/Introduction_to_Macro_Branching>`__
+                           Branching <Introduction_to_Macro_Branching>`__
                         -  `Introduction to Macro
-                           Branching/ja </rptools/wiki/Introduction_to_Macro_Branching/ja>`__
+                           Branching/ja <Introduction_to_Macro_Branching/ja>`__
                         -  `Introduction to Macro
-                           Loops </rptools/wiki/Introduction_to_Macro_Loops>`__
+                           Loops <Introduction_to_Macro_Loops>`__
                         -  `Introduction to Macro
-                           Loops/ja </rptools/wiki/Introduction_to_Macro_Loops/ja>`__
+                           Loops/ja <Introduction_to_Macro_Loops/ja>`__
 
                      .. container:: mw-category-group
 
@@ -83,18 +83,18 @@ Category:Intermediate - MapToolDoc
                            :name: m
 
                         -  `Macros:Branching and
-                           Looping </rptools/wiki/Macros:Branching_and_Looping>`__
+                           Looping <Macros:Branching_and_Looping>`__
                         -  `More Branching
-                           Options </rptools/wiki/More_Branching_Options>`__
+                           Options <More_Branching_Options>`__
                         -  `More Branching
-                           Options/ja </rptools/wiki/More_Branching_Options/ja>`__
+                           Options/ja <More_Branching_Options/ja>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `Stack Size </rptools/wiki/Stack_Size>`__
+                        -  `Stack Size <Stack_Size>`__
 
       .. container:: printfooter
 

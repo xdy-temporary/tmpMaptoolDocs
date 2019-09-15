@@ -65,164 +65,164 @@ Category:Token Function - MapToolDoc
                         .. rubric:: B
                            :name: b
 
-                        -  `bringToFront </rptools/wiki/bringToFront>`__
+                        -  `bringToFront <bringToFront>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: C
                            :name: c
 
-                        -  `canSeeToken </rptools/wiki/canSeeToken>`__
-                        -  `copyToken </rptools/wiki/copyToken>`__
-                        -  `currentToken </rptools/wiki/currentToken>`__
+                        -  `canSeeToken <canSeeToken>`__
+                        -  `copyToken <copyToken>`__
+                        -  `currentToken <currentToken>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: D
                            :name: d
 
-                        -  `deselectTokens </rptools/wiki/deselectTokens>`__
+                        -  `deselectTokens <deselectTokens>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: F
                            :name: f
 
-                        -  `findToken </rptools/wiki/findToken>`__
+                        -  `findToken <findToken>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: G
                            :name: g
 
-                        -  `getAllPropertyNames </rptools/wiki/getAllPropertyNames>`__
-                        -  `getExposedTokenNames </rptools/wiki/getExposedTokenNames>`__
-                        -  `getGMName </rptools/wiki/getGMName>`__
-                        -  `getGMNotes </rptools/wiki/getGMNotes>`__
-                        -  `getHalo </rptools/wiki/getHalo>`__
-                        -  `getImpersonated </rptools/wiki/getImpersonated>`__
-                        -  `getImpersonatedName </rptools/wiki/getImpersonatedName>`__
-                        -  `getLabel </rptools/wiki/getLabel>`__
-                        -  `getLayer </rptools/wiki/getLayer>`__
-                        -  `getLibPropertyNames </rptools/wiki/getLibPropertyNames>`__
-                        -  `getLights </rptools/wiki/getLights>`__
-                        -  `getMatchingProperties </rptools/wiki/getMatchingProperties>`__
-                        -  `getName </rptools/wiki/getName>`__
-                        -  `getNotes </rptools/wiki/getNotes>`__
-                        -  `getOwnerOnlyVisible </rptools/wiki/getOwnerOnlyVisible>`__
-                        -  `getOwners </rptools/wiki/getOwners>`__
-                        -  `getPC </rptools/wiki/getPC>`__
-                        -  `getPCNames </rptools/wiki/getPCNames>`__
-                        -  `getProperty </rptools/wiki/getProperty>`__
-                        -  `getPropertyDefault </rptools/wiki/getPropertyDefault>`__
-                        -  `getPropertyNames </rptools/wiki/getPropertyNames>`__
-                        -  `getPropertyNamesRaw </rptools/wiki/getPropertyNamesRaw>`__
-                        -  `getPropertyType </rptools/wiki/getPropertyType>`__
-                        -  `getRawProperty </rptools/wiki/getRawProperty>`__
-                        -  `getSelected </rptools/wiki/getSelected>`__
-                        -  `getSelectedNames </rptools/wiki/getSelectedNames>`__
-                        -  `getSightType </rptools/wiki/getSightType>`__
-                        -  `getSize </rptools/wiki/getSize>`__
-                        -  `getSpeechNames </rptools/wiki/getSpeechNames>`__
-                        -  `getState </rptools/wiki/getState>`__
-                        -  `getTerrainModifier </rptools/wiki/getTerrainModifier>`__
-                        -  `getTokenDrawOrder </rptools/wiki/getTokenDrawOrder>`__
-                        -  `getTokenFacing </rptools/wiki/getTokenFacing>`__
-                        -  `getTokenGMName </rptools/wiki/getTokenGMName>`__
-                        -  `getTokenHalo </rptools/wiki/getTokenHalo>`__
-                        -  `getTokenHandout </rptools/wiki/getTokenHandout>`__
-                        -  `getTokenHeight </rptools/wiki/getTokenHeight>`__
-                        -  `getTokenImage </rptools/wiki/getTokenImage>`__
-                        -  `getTokenLabel </rptools/wiki/getTokenLabel>`__
-                        -  `getTokenNames </rptools/wiki/getTokenNames>`__
-                        -  `getTokenNativeHeight </rptools/wiki/getTokenNativeHeight>`__
-                        -  `getTokenNativeWidth </rptools/wiki/getTokenNativeWidth>`__
-                        -  `getTokenPortrait </rptools/wiki/getTokenPortrait>`__
-                        -  `getTokenRotation </rptools/wiki/getTokenRotation>`__
-                        -  `getTokens </rptools/wiki/getTokens>`__
-                        -  `getTokenShape </rptools/wiki/getTokenShape>`__
-                        -  `getTokenWidth </rptools/wiki/getTokenWidth>`__
-                        -  `getVisible </rptools/wiki/getVisible>`__
-                        -  `getVisibleTokenNames </rptools/wiki/getVisibleTokenNames>`__
-                        -  `getVisibleTokens </rptools/wiki/getVisibleTokens>`__
-                        -  `getWithState </rptools/wiki/getWithState>`__
+                        -  `getAllPropertyNames <getAllPropertyNames>`__
+                        -  `getExposedTokenNames <getExposedTokenNames>`__
+                        -  `getGMName <getGMName>`__
+                        -  `getGMNotes <getGMNotes>`__
+                        -  `getHalo <getHalo>`__
+                        -  `getImpersonated <getImpersonated>`__
+                        -  `getImpersonatedName <getImpersonatedName>`__
+                        -  `getLabel <getLabel>`__
+                        -  `getLayer <getLayer>`__
+                        -  `getLibPropertyNames <getLibPropertyNames>`__
+                        -  `getLights <getLights>`__
+                        -  `getMatchingProperties <getMatchingProperties>`__
+                        -  `getName <getName>`__
+                        -  `getNotes <getNotes>`__
+                        -  `getOwnerOnlyVisible <getOwnerOnlyVisible>`__
+                        -  `getOwners <getOwners>`__
+                        -  `getPC <getPC>`__
+                        -  `getPCNames <getPCNames>`__
+                        -  `getProperty <getProperty>`__
+                        -  `getPropertyDefault <getPropertyDefault>`__
+                        -  `getPropertyNames <getPropertyNames>`__
+                        -  `getPropertyNamesRaw <getPropertyNamesRaw>`__
+                        -  `getPropertyType <getPropertyType>`__
+                        -  `getRawProperty <getRawProperty>`__
+                        -  `getSelected <getSelected>`__
+                        -  `getSelectedNames <getSelectedNames>`__
+                        -  `getSightType <getSightType>`__
+                        -  `getSize <getSize>`__
+                        -  `getSpeechNames <getSpeechNames>`__
+                        -  `getState <getState>`__
+                        -  `getTerrainModifier <getTerrainModifier>`__
+                        -  `getTokenDrawOrder <getTokenDrawOrder>`__
+                        -  `getTokenFacing <getTokenFacing>`__
+                        -  `getTokenGMName <getTokenGMName>`__
+                        -  `getTokenHalo <getTokenHalo>`__
+                        -  `getTokenHandout <getTokenHandout>`__
+                        -  `getTokenHeight <getTokenHeight>`__
+                        -  `getTokenImage <getTokenImage>`__
+                        -  `getTokenLabel <getTokenLabel>`__
+                        -  `getTokenNames <getTokenNames>`__
+                        -  `getTokenNativeHeight <getTokenNativeHeight>`__
+                        -  `getTokenNativeWidth <getTokenNativeWidth>`__
+                        -  `getTokenPortrait <getTokenPortrait>`__
+                        -  `getTokenRotation <getTokenRotation>`__
+                        -  `getTokens <getTokens>`__
+                        -  `getTokenShape <getTokenShape>`__
+                        -  `getTokenWidth <getTokenWidth>`__
+                        -  `getVisible <getVisible>`__
+                        -  `getVisibleTokenNames <getVisibleTokenNames>`__
+                        -  `getVisibleTokens <getVisibleTokens>`__
+                        -  `getWithState <getWithState>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: H
                            :name: h
 
-                        -  `hasProperty </rptools/wiki/hasProperty>`__
+                        -  `hasProperty <hasProperty>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `isNPC </rptools/wiki/isNPC>`__
-                        -  `isOwnedByAll </rptools/wiki/isOwnedByAll>`__
-                        -  `isOwner </rptools/wiki/isOwner>`__
-                        -  `isPC </rptools/wiki/isPC>`__
-                        -  `isPropertyEmpty </rptools/wiki/isPropertyEmpty>`__
-                        -  `isSnapToGrid </rptools/wiki/isSnapToGrid>`__
-                        -  `isVisible </rptools/wiki/isVisible>`__
+                        -  `isNPC <isNPC>`__
+                        -  `isOwnedByAll <isOwnedByAll>`__
+                        -  `isOwner <isOwner>`__
+                        -  `isPC <isPC>`__
+                        -  `isPropertyEmpty <isPropertyEmpty>`__
+                        -  `isSnapToGrid <isSnapToGrid>`__
+                        -  `isVisible <isVisible>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: M
                            :name: m
 
-                        -  `moveToken </rptools/wiki/moveToken>`__
-                        -  `moveTokenFromMap </rptools/wiki/moveTokenFromMap>`__
-                        -  `moveTokenToMap </rptools/wiki/moveTokenToMap>`__
+                        -  `moveToken <moveToken>`__
+                        -  `moveTokenFromMap <moveTokenFromMap>`__
+                        -  `moveTokenToMap <moveTokenToMap>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: R
                            :name: r
 
-                        -  `removeToken </rptools/wiki/removeToken>`__
-                        -  `removeTokenFacing </rptools/wiki/removeTokenFacing>`__
-                        -  `resetProperty </rptools/wiki/resetProperty>`__
-                        -  `resetSize </rptools/wiki/resetSize>`__
+                        -  `removeToken <removeToken>`__
+                        -  `removeTokenFacing <removeTokenFacing>`__
+                        -  `resetProperty <resetProperty>`__
+                        -  `resetSize <resetSize>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: S
                            :name: s
 
-                        -  `selectTokens </rptools/wiki/selectTokens>`__
-                        -  `sendToBack </rptools/wiki/sendToBack>`__
-                        -  `setGMName </rptools/wiki/setGMName>`__
-                        -  `setGMNotes </rptools/wiki/setGMNotes>`__
-                        -  `setHalo </rptools/wiki/setHalo>`__
-                        -  `setLabel </rptools/wiki/setLabel>`__
-                        -  `setLayer </rptools/wiki/setLayer>`__
-                        -  `setName </rptools/wiki/setName>`__
-                        -  `setNotes </rptools/wiki/setNotes>`__
-                        -  `setNPC </rptools/wiki/setNPC>`__
-                        -  `setOwnedByAll </rptools/wiki/setOwnedByAll>`__
-                        -  `setOwner </rptools/wiki/setOwner>`__
-                        -  `setOwnerOnlyVisible </rptools/wiki/setOwnerOnlyVisible>`__
-                        -  `setPC </rptools/wiki/setPC>`__
-                        -  `setProperty </rptools/wiki/setProperty>`__
-                        -  `setPropertyType </rptools/wiki/setPropertyType>`__
-                        -  `setSize </rptools/wiki/setSize>`__
-                        -  `setState </rptools/wiki/setState>`__
-                        -  `setTerrainModifier </rptools/wiki/setTerrainModifier>`__
-                        -  `setTokenDrawOrder </rptools/wiki/setTokenDrawOrder>`__
-                        -  `setTokenFacing </rptools/wiki/setTokenFacing>`__
-                        -  `setTokenGMName </rptools/wiki/setTokenGMName>`__
-                        -  `setTokenHandout </rptools/wiki/setTokenHandout>`__
-                        -  `setTokenHeight </rptools/wiki/setTokenHeight>`__
-                        -  `setTokenImage </rptools/wiki/setTokenImage>`__
-                        -  `setTokenLabel </rptools/wiki/setTokenLabel>`__
-                        -  `setTokenPortrait </rptools/wiki/setTokenPortrait>`__
-                        -  `setTokenShape </rptools/wiki/setTokenShape>`__
-                        -  `setTokenSnapToGrid </rptools/wiki/setTokenSnapToGrid>`__
-                        -  `setTokenWidth </rptools/wiki/setTokenWidth>`__
-                        -  `setVisible </rptools/wiki/setVisible>`__
-                        -  `switchToken </rptools/wiki/switchToken>`__
+                        -  `selectTokens <selectTokens>`__
+                        -  `sendToBack <sendToBack>`__
+                        -  `setGMName <setGMName>`__
+                        -  `setGMNotes <setGMNotes>`__
+                        -  `setHalo <setHalo>`__
+                        -  `setLabel <setLabel>`__
+                        -  `setLayer <setLayer>`__
+                        -  `setName <setName>`__
+                        -  `setNotes <setNotes>`__
+                        -  `setNPC <setNPC>`__
+                        -  `setOwnedByAll <setOwnedByAll>`__
+                        -  `setOwner <setOwner>`__
+                        -  `setOwnerOnlyVisible <setOwnerOnlyVisible>`__
+                        -  `setPC <setPC>`__
+                        -  `setProperty <setProperty>`__
+                        -  `setPropertyType <setPropertyType>`__
+                        -  `setSize <setSize>`__
+                        -  `setState <setState>`__
+                        -  `setTerrainModifier <setTerrainModifier>`__
+                        -  `setTokenDrawOrder <setTokenDrawOrder>`__
+                        -  `setTokenFacing <setTokenFacing>`__
+                        -  `setTokenGMName <setTokenGMName>`__
+                        -  `setTokenHandout <setTokenHandout>`__
+                        -  `setTokenHeight <setTokenHeight>`__
+                        -  `setTokenImage <setTokenImage>`__
+                        -  `setTokenLabel <setTokenLabel>`__
+                        -  `setTokenPortrait <setTokenPortrait>`__
+                        -  `setTokenShape <setTokenShape>`__
+                        -  `setTokenSnapToGrid <setTokenSnapToGrid>`__
+                        -  `setTokenWidth <setTokenWidth>`__
+                        -  `setVisible <setVisible>`__
+                        -  `switchToken <switchToken>`__
 
       .. container:: printfooter
 

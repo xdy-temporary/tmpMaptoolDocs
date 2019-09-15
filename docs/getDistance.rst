@@ -63,7 +63,7 @@ getDistance - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -185,8 +185,8 @@ getDistance - MapToolDoc
 
          .. container:: template_also
 
-            `getDistanceToXY() </rptools/wiki/getDistanceToXY>`__
-            `getTokens() </rptools/wiki/getTokens>`__
+            `getDistanceToXY() <getDistanceToXY>`__
+            `getTokens() <getTokens>`__
 
          .. rubric:: Version Changes
             :name: version-changes

@@ -134,7 +134,7 @@ listFormat - MapToolDoc
                         ]
 
             The first argument is the list, returned by
-            `getSelectedNames() </rptools/wiki/getSelectedNames>`__: it
+            `getSelectedNames() <getSelectedNames>`__: it
             has a delimiter specified ("%%"), to avoid PC names with
             commas or anything other than "%%" from appearing as more
             than one item. The second argument specifies html (text) to

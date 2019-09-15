@@ -54,13 +54,13 @@ setInitiativeHold - MapToolDoc
 
          .. container:: template_description
 
-            Sets if the `Current Token </rptools/wiki/Current_Token>`__
+            Sets if the `Current Token <Current_Token>`__
             is `on
             hold </maptool/index.php?title=Initiative:on_hold&action=edit&redlink=1>`__
             in the `Initiative
             Panel </maptool/index.php?title=Initiative:Initiative_Panel&action=edit&redlink=1>`__.
             If the value passed is non zero then the `Current
-            Token </rptools/wiki/Current_Token>`__ is placed `on
+            Token <Current_Token>`__ is placed `on
             hold </maptool/index.php?title=Initiative:on_hold&action=edit&redlink=1>`__,
             if it is 0 it is removed from `on
             hold </maptool/index.php?title=Initiative:on_hold&action=edit&redlink=1>`__.

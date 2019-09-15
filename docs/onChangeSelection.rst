@@ -60,14 +60,14 @@ onChangeSelection - MapToolDoc
 
          Replace ``macroLink`` by an actual macroLinkText-call to a
          macro of your choice (the returned value of
-         `macroLinkText() </rptools/wiki/macroLinkText>`__). A common
+         `macroLinkText() <macroLinkText>`__). A common
          practice is to call the frame opening macro itself to actualize
          the content.
 
          .. rubric:: See Also
             :name: see-also
 
-         `Forms tutorial#Events </rptools/wiki/Forms_tutorial#Events>`__
+         `Forms tutorial#Events <Forms_tutorial#Events>`__
 
       .. container:: printfooter
 

@@ -169,9 +169,9 @@ Speed Up Your Macros - MapToolDoc
          You can store a variable in three ways:
 
          -  on a token using
-            `setProperty() </rptools/wiki/setProperty>`__
+            `setProperty() <setProperty>`__
          -  on a lib:token using
-            `setLibProperty() </rptools/wiki/setLibProperty>`__
+            `setLibProperty() <setLibProperty>`__
          -  on one of the tokens identifiers (``token.name``,
             ``token.gm_name``, ``token.label``)
 
@@ -179,12 +179,12 @@ Speed Up Your Macros - MapToolDoc
          identifiers. If the time to retrieve a value from an identifier
          takes 1 second then the same value takes (on average) 1.2
          seconds using
-         `getLibProperty() </rptools/wiki/getLibProperty>`__ and 1.8
-         seconds using `getProperty() </rptools/wiki/getProperty>`__.
+         `getLibProperty() <getLibProperty>`__ and 1.8
+         seconds using `getProperty() <getProperty>`__.
          The same test but using a heavy json object: if we set the
          identifier again on 1 (still the fastest) we notice that:
-         `getLibProperty() </rptools/wiki/getLibProperty>`__ is still
-         1.2 however `getProperty() </rptools/wiki/getProperty>`__ time
+         `getLibProperty() <getLibProperty>`__ is still
+         1.2 however `getProperty() <getProperty>`__ time
          has increased to 2.8 seconds. The json used was constructed out
          of 1000 identifiers. And the time average was taken over 10,000
          loops.
@@ -194,8 +194,8 @@ Speed Up Your Macros - MapToolDoc
          json it turns out that ``token.gm_name`` was the fastest and
          ``token.label`` the slowest !!! If ``gm_name`` is set to 1
          second than the rest is: 2 seconds for both
-         `setProperty() </rptools/wiki/setProperty>`__ and
-         `setLibProperty() </rptools/wiki/setLibProperty>`__ (yes equal
+         `setProperty() <setProperty>`__ and
+         `setLibProperty() <setLibProperty>`__ (yes equal
          speed) and 2.4 seconds for ``token.label``. Again 10,000 loops
          used to test.
 
@@ -235,11 +235,11 @@ Speed Up Your Macros - MapToolDoc
                       [testStrProp = strformat('test0=%{test0};test1=%{test1}...;test9=%{test9}')]
 
          Of these 5 methods the
-         `strPropFromVars() </rptools/wiki/strPropFromVars>`__ and the
-         `strformat() </rptools/wiki/strformat>`__ methods were the
+         `strPropFromVars() <strPropFromVars>`__ and the
+         `strformat() <strformat>`__ methods were the
          fastest: 9.1 seconds (10,000 cycles) and
-         `json.set() </rptools/wiki/json.set>`__ the slowest 13.1s. The
-         `json.fromStrProp() </rptools/wiki/json.fromStrProp>`__ was
+         `json.set() <json.set>`__ the slowest 13.1s. The
+         `json.fromStrProp() <json.fromStrProp>`__ was
          slightly only slower 9.6s.
 
          Retrieving the data showed roughly the same result, strProps
@@ -269,13 +269,13 @@ Speed Up Your Macros - MapToolDoc
          is considerably slower.
 
          Another thing that is interesting is that using the above
-         `varsFromStrProp() </rptools/wiki/varsFromStrProp>`__ and
-         `strPropFromVars() </rptools/wiki/strPropFromVars>`__ it hardly
+         `varsFromStrProp() <varsFromStrProp>`__ and
+         `strPropFromVars() <strPropFromVars>`__ it hardly
          matter how many variables you set. I've tested this with
          setting 2 and 100 variables in one go. It turned out that
-         `strPropFromVars() </rptools/wiki/strPropFromVars>`__ took 4x
+         `strPropFromVars() <strPropFromVars>`__ took 4x
          longer (4ms to set 100 vars vs 1 ms to set 2) and
-         `varsFromStrProp() </rptools/wiki/varsFromStrProp>`__ was
+         `varsFromStrProp() <varsFromStrProp>`__ was
          equally fast for both 2 and 100! (ok a very small difference, 2
          takes 0.9ms and 100 take 1.1ms). This was tested again with
          10,000 cycles (I divided the results by 1,000 to get to the
@@ -350,7 +350,7 @@ Speed Up Your Macros - MapToolDoc
             :name: token-getproperty-and-switchtoken
 
          When you need to retrieve a property from a token that is not
-         `currentToken() </rptools/wiki/currentToken>`__ these are the
+         `currentToken() <currentToken>`__ these are the
          three methods to get it. Now there are quite a lot of ways of
          how to use these and even combinations of these. I've ran two
          tests both tests with different approaches. The first test I
@@ -425,9 +425,9 @@ Speed Up Your Macros - MapToolDoc
          -  If you need only a few properties of a token use
             ``getPropety(property, tokID)``.
          -  If you need a lot of properties use
-            `switchToken() </rptools/wiki/switchToken>`__ and then
+            `switchToken() <switchToken>`__ and then
             access the vars straight away.
-         -  If you use `switchToken() </rptools/wiki/switchToken>`__ and
+         -  If you use `switchToken() <switchToken>`__ and
             then assign the property to a local var, or you just keep
             using the property straightaway, makes no difference
             (although in the latter you might inadvertently change the
@@ -473,9 +473,9 @@ Speed Up Your Macros - MapToolDoc
                      [Hitpoints = Hitpoints - 1]
 
          -  It might be the case that converting (using
-            `encode() </rptools/wiki/encode>`__) a json to string and
+            `encode() <encode>`__) a json to string and
             then storing it on a token. Retrieving it using
-            `decode() </rptools/wiki/decode>`__.
+            `decode() <decode>`__.
          -  If you want to store a huge and complex json variable
             temporarily on a token, don't use a property but use
             ``token.gm_name`` (or ``token.label`` or ``token.name``) to
@@ -560,9 +560,9 @@ Speed Up Your Macros - MapToolDoc
             :name: loop-speeds
 
          | The following loops:
-         | `[count():] </rptools/wiki/count_(roll_option)>`__
-         | `[for():] </rptools/wiki/for_(roll_option)>`__
-         | `[foreach():] </rptools/wiki/foreach_(roll_option)>`__
+         | `[count():] <count_(roll_option)>`__
+         | `[for():] <for_(roll_option)>`__
+         | `[foreach():] <foreach_(roll_option)>`__
          | take exactly the same amount of time to roll a 1d100 10000
            times. In other words, they're equally fast.
 
@@ -572,7 +572,7 @@ Speed Up Your Macros - MapToolDoc
          for the right reason. Some examples of good use: Some examples
          of proper use:
 
-         -  use `[foreach():] </rptools/wiki/foreach_(roll_option)>`__
+         -  use `[foreach():] <foreach_(roll_option)>`__
             to loop through a list or json array
          -  use ``count(n)`` if you want to execute a routine n times
          -  use ``for(i, n, 0, -2)`` if you want to use an a-typical but
@@ -615,7 +615,7 @@ Speed Up Your Macros - MapToolDoc
          **Notes:**
 
          -  If you use the
-            `[macro():] </rptools/wiki/macro_(roll_option)>`__ function
+            `[macro():] <macro_(roll_option)>`__ function
             you can only make use of the ``macro.args`` method (the slow
             way).
          -  This method doesn't work the other way around, if you set
@@ -657,8 +657,8 @@ Speed Up Your Macros - MapToolDoc
          .. rubric:: eval vs evalMacro
             :name: eval-vs-evalmacro
 
-         Test `eval() </rptools/wiki/eval>`__ vs
-         `evalMacro() </rptools/wiki/evalMacro>`__. Used the following
+         Test `eval() <eval>`__ vs
+         `evalMacro() <evalMacro>`__. Used the following
          two functions:
 
          ::
@@ -797,8 +797,8 @@ Speed Up Your Macros - MapToolDoc
          .. rubric:: if(): or if(,,)
             :name: if-or-if
 
-         There is the `if() </rptools/wiki/if>`__ and
-         `[if():] </rptools/wiki/if_(roll_option)>`__. A simple test:
+         There is the `if() <if>`__ and
+         `[if():] <if_(roll_option)>`__. A simple test:
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -809,24 +809,24 @@ Speed Up Your Macros - MapToolDoc
                     [tmp = if(1,1,0)]
                     [if(1): tmp = 1, tmp = 0]
 
-         Resulted in the `[if():] </rptools/wiki/if_(roll_option)>`__ to
+         Resulted in the `[if():] <if_(roll_option)>`__ to
          be twice as slow. Although this is only 0.5 ms. Essentially
-         they are both very fast. The `if() </rptools/wiki/if>`__ takes
+         they are both very fast. The `if() <if>`__ takes
          about 0.5 ms and the
-         `[if():] </rptools/wiki/if_(roll_option)>`__ 0.9 ms. Do keep in
-         mind that in the `if() </rptools/wiki/if>`__ evaluates BOTH
-         TRUE AND FALSE and `[if():] </rptools/wiki/if_(roll_option)>`__
+         `[if():] <if_(roll_option)>`__ 0.9 ms. Do keep in
+         mind that in the `if() <if>`__ evaluates BOTH
+         TRUE AND FALSE and `[if():] <if_(roll_option)>`__
          only true OR false. So if you have a rather complex operation
          for the true and or false you might be faster of with
-         `[if():] </rptools/wiki/if_(roll_option)>`__.
+         `[if():] <if_(roll_option)>`__.
 
          .. rubric:: if(x<0,0,x) or max(0,x)
             :name: ifx00x-or-max0x
 
-         A comparison between `if() </rptools/wiki/if>`__ and
-         `max() </rptools/wiki/max>`__, where x was randomized (between
+         A comparison between `if() <if>`__ and
+         `max() <max>`__, where x was randomized (between
          -5 and 5) Resulted in both functions being equally fast.
-         `max() </rptools/wiki/max>`__ occasionally turned out to be
+         `max() <max>`__ occasionally turned out to be
          slightly faster, but we're talking 0,08ms (==0,00008 seconds)
          which really is negligible.
 
@@ -849,10 +849,10 @@ Speed Up Your Macros - MapToolDoc
 
          The realistic conclusion is that THEY ARE ALL EQUALLY FAST !!
          Looking at it at a more 'anal retentive' point of view:
-         `strformat() </rptools/wiki/strformat>`__ is both the fastest
+         `strformat() <strformat>`__ is both the fastest
          and the slowest. This you start to notice when you have more
          then 600 lines of this type of code in one macro!! A second
-         test made `add() </rptools/wiki/add>`__ the fastest, so there's
+         test made `add() <add>`__ the fastest, so there's
          also some marginal error...boiling down to the realistic fact
          that there is no difference!
 
@@ -898,10 +898,10 @@ Speed Up Your Macros - MapToolDoc
              add()                  0.9591ms
              var1 + var2                0.9638ms
 
-         The first `strformat() </rptools/wiki/strformat>`__ is
+         The first `strformat() <strformat>`__ is
          obviously slower as the vars need to be defined each loop. So a
          bit more 'fair' is to move the ``[var1  = …][var2 = …] etc.``
-         outside the first `strformat() </rptools/wiki/strformat>`__
+         outside the first `strformat() <strformat>`__
          loop. If you do that and rerun then you get:
 
          ::
@@ -913,7 +913,7 @@ Speed Up Your Macros - MapToolDoc
              var1 + var2                0.9509ms
 
          And here we see again that
-         `strformat() </rptools/wiki/strformat>`__ is both the slowest
+         `strformat() <strformat>`__ is both the slowest
          and the fastest, but the speed difference is so insignificant
          that I would certainly not start rewriting my code. If you
          happen to have one macro that has 10,000 lines (indeed: *ten
@@ -967,7 +967,7 @@ Speed Up Your Macros - MapToolDoc
 
          | 
 
-         --`Wolph42 </rptools/wiki/User:Wolph42>`__ 08:52, 12 August
+         --`Wolph42 <User:Wolph42>`__ 08:52, 12 August
          2010 (UTC)
 
       .. container:: printfooter

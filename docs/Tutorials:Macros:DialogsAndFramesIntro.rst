@@ -83,9 +83,9 @@ Introduction to Dialogs and Frames - MapToolDoc
          could.
 
          | 
-         | The `[dialog():] </rptools/wiki/dialog_(roll_option)>`__ and
-           `[frame():] </rptools/wiki/frame_(roll_option)>`__ `roll
-           types </rptools/wiki/Macros:Roll:types>`__ create a new
+         | The `[dialog():] <dialog_(roll_option)>`__ and
+           `[frame():] <frame_(roll_option)>`__ `roll
+           types <Macros:Roll:types>`__ create a new
            dialog or frame where all the output from the commands within
            the {} will be displayed. dialog create a dialog box that
            hovers over other windows. frame creates a frame that can be
@@ -180,7 +180,7 @@ Introduction to Dialogs and Frames - MapToolDoc
                      Example Docked Frame
 
          Back to the dialog you can spice it up a little with some `dice
-         rolls </rptools/wiki/Macros:Roll:types>`__ and HTML formatting.
+         rolls <Macros:Roll:types>`__ and HTML formatting.
 
          | 
 
@@ -230,8 +230,8 @@ Introduction to Dialogs and Frames - MapToolDoc
             :name: adding-some-html
 
          This will create a dialog box with some HTML formatting and
-         `dice rolls </rptools/wiki/Macros:Roll:types>`__. The `dice
-         rolls </rptools/wiki/Macros:Roll:types>`__ will have all the
+         `dice rolls <Macros:Roll:types>`__. The `dice
+         rolls <Macros:Roll:types>`__ will have all the
          tooltips that you would normally get in the chat output.
 
          Still the title is boring (it defaults to the name of the
@@ -325,10 +325,10 @@ Introduction to Dialogs and Frames - MapToolDoc
          window, instead it replaced the contents of the dialog you had
          open. When you use [dialog()] with the name of a dialog that
          already exists the contents of that dialog are replaced,
-         (`[frame()] </rptools/wiki/frame_(roll_option)>`__ works the
+         (`[frame()] <frame_(roll_option)>`__ works the
          same way). You can use this behavior to update your dialogs.
          Create a token called
-         `Lib:Test </rptools/wiki/Library_Token>`__ with a macro
+         `Lib:Test <Library_Token>`__ with a macro
          (created on that lib:Test token) called Test
 
          Copy the following code into the Test macro.
@@ -423,9 +423,9 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          | 
          | The above macro uses the
-           `macroLink() </rptools/wiki/Macros:Functions:macroLink>`__
+           `macroLink() <Macros:Functions:macroLink>`__
            function to create a link that will call Test on
-           `Lib:Test </rptools/wiki/Library_Token>`__ when ever it is
+           `Lib:Test <Library_Token>`__ when ever it is
            clicked (which will update the dialog with new rolls).
 
          The above would be really useful if you needed a window that
@@ -433,11 +433,11 @@ Introduction to Dialogs and Frames - MapToolDoc
          assume that is not what most people will want to do with the
          dialogs.
 
-         Drag another `token </rptools/wiki/Token>`__ out on to the map,
+         Drag another `token <Token>`__ out on to the map,
          and fill in the `token
-         properties </rptools/wiki/Token:token_property>`__. We can
+         properties <Token:token_property>`__. We can
          create a simple character sheet with a dialog. On the
-         `Lib:Test </rptools/wiki/Library_Token>`__ token create a macro
+         `Lib:Test <Library_Token>`__ token create a macro
          called CharSheet and paste the following code into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -516,8 +516,8 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      }]
 
-         On the new `Token </rptools/wiki/Token>`__ that you placed on
-         the map create a `macro button </rptools/wiki/Macro_Button>`__
+         On the new `Token <Token>`__ that you placed on
+         the map create a `macro button <Macro_Button>`__
          called CharSheet and paste the following into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -532,7 +532,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      [abort(0)]
 
-         Click on the new `macro button </rptools/wiki/Macro_Button>`__.
+         Click on the new `macro button <Macro_Button>`__.
 
          .. rubric:: Now for a dash of CSS
             :name: now-for-a-dash-of-css
@@ -562,9 +562,9 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          | 
          | Although you can (and probably should) use the
-           `getMacroLocation() </rptools/wiki/Macros:Functions:getMacroLocation>`__
+           `getMacroLocation() <Macros:Functions:getMacroLocation>`__
            function to make sure it comes from the same
-           `Lib:Token </rptools/wiki/Library_Token>`__ as the macro. So,
+           `Lib:Token <Library_Token>`__ as the macro. So,
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -583,8 +583,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      }]
 
          Edit the CharSheet macro on the
-         `Lib:Test </rptools/wiki/Library_Token>`__
-         `Token </rptools/wiki/Token>`__ and paste in the following.
+         `Lib:Test <Library_Token>`__
+         `Token <Token>`__ and paste in the following.
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -690,8 +690,8 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      }]
 
-         Also create a new `macro button </rptools/wiki/Macro_Button>`__
-         on `Lib:Test </rptools/wiki/Library_Token>`__ called
+         Also create a new `macro button <Macro_Button>`__
+         on `Lib:Test <Library_Token>`__ called
          CharSheet_css and paste the following CSS code into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -711,8 +711,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      #stats th { background-color: #113311; color: #FFFFFF }
 
          Click on the CharSheet `macro
-         button </rptools/wiki/Macro_Button>`__ on your
-         `Token </rptools/wiki/Token>`__.
+         button <Macro_Button>`__ on your
+         `Token <Token>`__.
 
          .. container:: center
 
@@ -729,7 +729,7 @@ Introduction to Dialogs and Frames - MapToolDoc
          Looks much better already!
 
          Getting better... Lets make some more changes. Change the
-         CharSheet macro on `Lib:Test </rptools/wiki/Library_Token>`__
+         CharSheet macro on `Lib:Test <Library_Token>`__
          to
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -933,13 +933,13 @@ Introduction to Dialogs and Frames - MapToolDoc
          -  \*@NextLevelXP
 
          | 
-         | Then edit your `Token </rptools/wiki/Token>`__ and set some
+         | Then edit your `Token <Token>`__ and set some
            values in your new
-           `properties </rptools/wiki/Token_Property>`__.
+           `properties <Token_Property>`__.
 
          Time to create a new `macro
-         button </rptools/wiki/Macro_Button>`__ on the
-         `Lib:Test </rptools/wiki/Library_Token>`__ called
+         button <Macro_Button>`__ on the
+         `Lib:Test <Library_Token>`__ called
          TrafficLightBar and paste the following code into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -1102,8 +1102,8 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      </table>
 
-         Create another `macro button </rptools/wiki/Macro_Button>`__ on
-         `Lib:Test </rptools/wiki/Library_Token>`__ called StatusBar and
+         Create another `macro button <Macro_Button>`__ on
+         `Lib:Test <Library_Token>`__ called StatusBar and
          copy the following code into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -1279,17 +1279,17 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          Just a quick point for those who may not know this already, but
          when you call a macro with `[macro("name"):
-         arguments] </rptools/wiki/macro_(roll_option)>`__ the arguments
+         arguments] <macro_(roll_option)>`__ the arguments
          are available in the macro in the variable
-         `macro.args </rptools/wiki/macro.args>`__. To return a value
+         `macro.args <macro.args>`__. To return a value
          from the macro you read the variable
-         `macro.return </rptools/wiki/macro.return>`__, the calling
+         `macro.return <macro.return>`__, the calling
          macro can then read
-         `macro.return </rptools/wiki/macro.return>`__ to get this
+         `macro.return <macro.return>`__ to get this
          value.
 
          Then we change the CharSheet macro on
-         `Lib:Test </rptools/wiki/Library_Token>`__ to
+         `Lib:Test <Library_Token>`__ to
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -1493,8 +1493,8 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          | 
          | Click on the CharSheet `macro
-           button </rptools/wiki/Macro_Button>`__ on your
-           `Token </rptools/wiki/Token>`__ again and you will have a new
+           button <Macro_Button>`__ on your
+           `Token <Token>`__ again and you will have a new
            character sheet.
 
          .. container:: center
@@ -1511,7 +1511,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          | 
          | The above example uses
-           `strformat() </rptools/wiki/Macros:Functions:strformat>`__
+           `strformat() <Macros:Functions:strformat>`__
            which allows you to insert variables in a string using
            the %{*var*} syntax. It also has other flags that can be used
            to format variable output
@@ -1530,7 +1530,7 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          | 
          | We are going to store our weapons in a `string property
-           list </rptools/wiki/String_Property_List>`__ with the
+           list <String_Property_List>`__ with the
            following keys.
 
          -  NumWeapons - The number of weapons in our property list.
@@ -1543,7 +1543,7 @@ Introduction to Dialogs and Frames - MapToolDoc
          post.
 
          The first thing we need is a way to enter weapons, we could use
-         the `input() </rptools/wiki/input>`__ function but since this
+         the `input() <input>`__ function but since this
          is a tutorial on frames and dialogs, I should probably show you
          how to do it in a dialog.
 
@@ -1554,22 +1554,22 @@ Introduction to Dialogs and Frames - MapToolDoc
          are not really that worried if we have gaps in our numbering
          scheme). One problem is though what do we do first time around
          since the `string property
-         list </rptools/wiki/String_Property_List>`__ would be empty so
+         list <String_Property_List>`__ would be empty so
          trying to use the `token
-         property </rptools/wiki/Token_Property>`__ Weapons in
+         property <Token_Property>`__ Weapons in
          strProp*() functions would result in the user being prompted
          for a value. We could add a default value in the campaign for
          the token, but there are also other methods. One thing we can
          do is use the
-         `isPropertyEmpty() </rptools/wiki/isPropertyEmpty>`__ function
-         to check if the `property </rptools/wiki/Token_Property>`__ is
+         `isPropertyEmpty() <isPropertyEmpty>`__ function
+         to check if the `property <Token_Property>`__ is
          empty and if so use a initial value for it, or the
-         `getProperty() </rptools/wiki/getProperty>`__ function that
+         `getProperty() <getProperty>`__ function that
          will just return an empty string ("") not prompt if there is no
-         `property </rptools/wiki/Token_Property>`__.
+         `property <Token_Property>`__.
 
          So lets create a macro that returns the number of a new weapon.
-         Create a `macro button </rptools/wiki/Macro_Button>`__ called
+         Create a `macro button <Macro_Button>`__ called
          NextWeaponNumber and then paste the following code into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -1651,12 +1651,12 @@ Introduction to Dialogs and Frames - MapToolDoc
          | 
          | When you are done you can reset the weapon count simply by
            editing the `token
-           properties </rptools/wiki/Token_Property>`__ and clearing out
+           properties <Token_Property>`__ and clearing out
            the text for weapons.
 
-         Lets also make a `macro button </rptools/wiki/Macro_Button>`__
+         Lets also make a `macro button <Macro_Button>`__
          called AddWeapon which takes a `string property
-         list </rptools/wiki/Macros:string_property_list>`__ with the
+         list <Macros:string_property_list>`__ with the
          following keys
 
          -  Name
@@ -1665,7 +1665,7 @@ Introduction to Dialogs and Frames - MapToolDoc
          -  Number
 
          And adds or updates the weapon in the `string property
-         list </rptools/wiki/Macros:string_property_list>`__.
+         list <Macros:string_property_list>`__.
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -1752,16 +1752,16 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          Look at the Weapons [Token_Property|property]] and see how its
          built up our `string property
-         list </rptools/wiki/Macros:string_property_list>`__ for us. It
+         list <Macros:string_property_list>`__ for us. It
          wont have modified NumWeapons but that is ok we are going to
          assume that NextWeaponNumber is always used before adding a new
          weapon. Before clearing out the Weapons
-         `property </rptools/wiki/Token_Property>`__ to reset it lets
+         `property <Token_Property>`__ to reset it lets
          write a function to retrieve a weapon.
 
-         Create a `macro button </rptools/wiki/Macro_Button>`__ called
-         GetWeapon on your `Lib:Test </rptools/wiki/Library_Token>`__
-         `Token </rptools/wiki/Token>`__ and paste the following into
+         Create a `macro button <Macro_Button>`__ called
+         GetWeapon on your `Lib:Test <Library_Token>`__
+         `Token <Token>`__ and paste the following into
          it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -1872,7 +1872,7 @@ Introduction to Dialogs and Frames - MapToolDoc
                      [h, macro("GetWeapon@Lib:Test"): 1] [macro.return]
 
          Lets add a way to delete items. Create a `macro
-         button </rptools/wiki/Macro_Button>`__ called DeleteWeapon and
+         button <Macro_Button>`__ called DeleteWeapon and
          paste the following code.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -1933,12 +1933,12 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          One more "setup" function then we should be good to go. Lets
          create a function that returns a `string
-         list </rptools/wiki/Macros:string_list>`__ of all the item
+         list <Macros:string_list>`__ of all the item
          numbers (remember we can have gaps because a user could cancel
          the addition of the item after calling NextWeaponNumber or they
          could delete a weapon). Create a `macro
-         button </rptools/wiki/Macro_Button>`__ on
-         `Lib:Test </rptools/wiki/Library_Token>`__ called
+         button <Macro_Button>`__ on
+         `Lib:Test <Library_Token>`__ called
          GetWeaponNumbers
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -2010,11 +2010,11 @@ Introduction to Dialogs and Frames - MapToolDoc
                      [h: macro.return = wnumList]
 
          | 
-         | The `string() </rptools/wiki/Macros:Functions:string>`__
+         | The `string() <Macros:Functions:string>`__
            around the arguments in
-           `listAppend() </rptools/wiki/Macros:Functions:listAppend>`__
+           `listAppend() <Macros:Functions:listAppend>`__
            is to convert the arguments to strings, as of b48
-           `listAppend() </rptools/wiki/Macros:Functions:listAppend>`__
+           `listAppend() <Macros:Functions:listAppend>`__
            seems to have problems with arguments that could be
            interpreted as numbers.
 
@@ -2023,8 +2023,8 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          So now we can get back to the dialogs. Lets create a dialog to
          edit weapons. Create a `macro
-         button </rptools/wiki/Macro_Button>`__ on your
-         `Lib:Test </rptools/wiki/Library_Token>`__ called
+         button <Macro_Button>`__ on your
+         `Lib:Test <Library_Token>`__ called
          EditWeaponDialog and paste the following into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -2270,8 +2270,8 @@ Introduction to Dialogs and Frames - MapToolDoc
          our character sheet so time to add a little bling.
 
          Change your EditWeaponDialog `macro
-         button </rptools/wiki/Macro_Button>`__ on
-         `Lib:Test </rptools/wiki/Library_Token>`__ to
+         button <Macro_Button>`__ on
+         `Lib:Test <Library_Token>`__ to
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -2537,8 +2537,8 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      }]
 
-         And add `macro button </rptools/wiki/Macro_Button>`__
-         EditWeapon_css to `Lib:Test </rptools/wiki/Library_Token>`__
+         And add `macro button <Macro_Button>`__
+         EditWeapon_css to `Lib:Test <Library_Token>`__
          that contains
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -2558,8 +2558,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      }
 
          And you might as well add a AddWeapon `macro
-         button </rptools/wiki/Macro_Button>`__ to your
-         `Token </rptools/wiki/Token>`__ that contains
+         button <Macro_Button>`__ to your
+         `Token <Token>`__ that contains
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -2588,8 +2588,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      Edit Weapon Dialog with a Style Sheet
 
          Ok now lets make a quick dialog to display our weapons. Create
-         a new `macro button </rptools/wiki/Macro_Button>`__ on your
-         `Lib:Test </rptools/wiki/Library_Token>`__ called ViewWeapons
+         a new `macro button <Macro_Button>`__ on your
+         `Lib:Test <Library_Token>`__ called ViewWeapons
          and paste in the following
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -2713,8 +2713,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      }]
 
          For good measure create a `macro
-         button </rptools/wiki/Macro_Button>`__ called ViewWeapon_css on
-         `Lib:Test </rptools/wiki/Library_Token>`__ paste in the
+         button <Macro_Button>`__ called ViewWeapon_css on
+         `Lib:Test <Library_Token>`__ paste in the
          following.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -2741,8 +2741,8 @@ Introduction to Dialogs and Frames - MapToolDoc
 
                      }
 
-         Add a `macro button </rptools/wiki/Macro_Button>`__ to your
-         `Token </rptools/wiki/Token>`__ called ViewWeapons which
+         Add a `macro button <Macro_Button>`__ to your
+         `Token <Token>`__ called ViewWeapons which
          contains.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -2777,8 +2777,8 @@ Introduction to Dialogs and Frames - MapToolDoc
 
          Up until now I havent talked at all about frames, but don't
          worry , change
-         `[dialog():] </rptools/wiki/dialog_(roll_option)>`__ to
-         `[frame():] </rptools/wiki/frame_(roll_option)>`__ above and it
+         `[dialog():] <dialog_(roll_option)>`__ to
+         `[frame():] <frame_(roll_option)>`__ above and it
          will work (except you cant have a frame that closes when you
          submit a form, what would be the point?).
 
@@ -2787,8 +2787,8 @@ Introduction to Dialogs and Frames - MapToolDoc
          been discussed previously in this post.
 
          First we are going to completely change the CharSheet `macro
-         button </rptools/wiki/Macro_Button>`__ on
-         `Lib:Test </rptools/wiki/Library_Token>`__ to
+         button <Macro_Button>`__ on
+         `Lib:Test <Library_Token>`__ to
 
          .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -2855,8 +2855,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      }]
 
          Create a CharSheetHeader `macro
-         button </rptools/wiki/Macro_Button>`__ on
-         `Lib:Test </rptools/wiki/Library_Token>`__ and paste the
+         button <Macro_Button>`__ on
+         `Lib:Test <Library_Token>`__ and paste the
          following into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -2916,8 +2916,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      </table>
 
          Create a CharSheetMain `macro
-         button </rptools/wiki/Macro_Button>`__ on
-         `Lib:Test </rptools/wiki/Library_Token>`__ and paste the
+         button <Macro_Button>`__ on
+         `Lib:Test <Library_Token>`__ and paste the
          following into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -3081,8 +3081,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      </table>
 
          Create a CharSheetWeapons `macro
-         button </rptools/wiki/Macro_Button>`__ on
-         `Lib:Test </rptools/wiki/Library_Token>`__ and paste the
+         button <Macro_Button>`__ on
+         `Lib:Test <Library_Token>`__ and paste the
          following into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -3186,8 +3186,8 @@ Introduction to Dialogs and Frames - MapToolDoc
                      </table>
 
          And the last change to make is the CharSheet_css `macro
-         button </rptools/wiki/Macro_Button>`__ on
-         `Lib:Test </rptools/wiki/Library_Token>`__ an paste the
+         button <Macro_Button>`__ on
+         `Lib:Test <Library_Token>`__ an paste the
          following into it.
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -3307,8 +3307,8 @@ Introduction to Dialogs and Frames - MapToolDoc
             :name: related-pages
 
          -  `Supported CSS
-            Styles </rptools/wiki/Supported_CSS_Styles>`__
-         -  `Forms tutorial </rptools/wiki/Forms_tutorial>`__
+            Styles <Supported_CSS_Styles>`__
+         -  `Forms tutorial <Forms_tutorial>`__
 
       .. container:: printfooter
 

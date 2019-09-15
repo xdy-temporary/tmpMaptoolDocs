@@ -66,16 +66,16 @@ Category:Token - MapToolDoc
                            :name: c
 
                         -  `Current
-                           Token </rptools/wiki/Current_Token>`__
+                           Token <Current_Token>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: I
                            :name: i
 
-                        -  `Image Token </rptools/wiki/Image_Token>`__
+                        -  `Image Token <Image_Token>`__
                         -  `Image
-                           Token/ja </rptools/wiki/Image_Token/ja>`__
+                           Token/ja <Image_Token/ja>`__
 
                      .. container:: mw-category-group
 
@@ -83,30 +83,30 @@ Category:Token - MapToolDoc
                            :name: l
 
                         -  `Library
-                           Token </rptools/wiki/Library_Token>`__
+                           Token <Library_Token>`__
                         -  `Library
-                           Token/ja </rptools/wiki/Library_Token/ja>`__
+                           Token/ja <Library_Token/ja>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: T
                            :name: t
 
-                        -  `Token </rptools/wiki/Token>`__
+                        -  `Token <Token>`__
                         -  `Token
-                           Property </rptools/wiki/Token_Property>`__
+                           Property <Token_Property>`__
                         -  `Token Property
-                           Type </rptools/wiki/Token_Property_Type>`__
+                           Type <Token_Property_Type>`__
                         -  `Token
-                           Property/ja </rptools/wiki/Token_Property/ja>`__
-                        -  `Token Size </rptools/wiki/Token_Size>`__
-                        -  `Token State </rptools/wiki/Token_State>`__
+                           Property/ja <Token_Property/ja>`__
+                        -  `Token Size <Token_Size>`__
+                        -  `Token State <Token_State>`__
                         -  `Token
-                           State/ja </rptools/wiki/Token_State/ja>`__
-                        -  `Token Types </rptools/wiki/Token_Types>`__
+                           State/ja <Token_State/ja>`__
+                        -  `Token Types <Token_Types>`__
                         -  `Token
-                           Types/ja </rptools/wiki/Token_Types/ja>`__
-                        -  `Token/ja </rptools/wiki/Token/ja>`__
+                           Types/ja <Token_Types/ja>`__
+                        -  `Token/ja <Token/ja>`__
 
       .. container:: printfooter
 

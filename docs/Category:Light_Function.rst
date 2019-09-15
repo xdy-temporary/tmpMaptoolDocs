@@ -61,22 +61,22 @@ Category:Light Function - MapToolDoc
                   .. rubric:: C
                      :name: c
 
-                  -  `clearLights </rptools/wiki/clearLights>`__
+                  -  `clearLights <clearLights>`__
 
                   .. rubric:: G
                      :name: g
 
-                  -  `getLights </rptools/wiki/getLights>`__
+                  -  `getLights <getLights>`__
 
                   .. rubric:: H
                      :name: h
 
-                  -  `hasLightSource </rptools/wiki/hasLightSource>`__
+                  -  `hasLightSource <hasLightSource>`__
 
                   .. rubric:: S
                      :name: s
 
-                  -  `setLight </rptools/wiki/setLight>`__
+                  -  `setLight <setLight>`__
 
       .. container:: printfooter
 

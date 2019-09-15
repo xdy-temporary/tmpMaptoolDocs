@@ -67,8 +67,8 @@ json.contains - MapToolDoc
          .. container:: template_description
 
             Returns ``true``\ (``1``) if the `JSON
-            Object </rptools/wiki/JSON_Object>`__ contains the specified
-            key, or if the `JSON Array </rptools/wiki/JSON_Array>`__
+            Object <JSON_Object>`__ contains the specified
+            key, or if the `JSON Array <JSON_Array>`__
             contains the specified value.
 
          .. rubric:: Usage
@@ -92,10 +92,10 @@ json.contains - MapToolDoc
 
          **Parameters**
 
-         -  ``object`` - The `JSON Object </rptools/wiki/JSON_Object>`__
+         -  ``object`` - The `JSON Object <JSON_Object>`__
             to test for the key.
          -  ``key`` - The key to check the object for.
-         -  ``array`` - The `JSON Array </rptools/wiki/JSON_Array>`__ to
+         -  ``array`` - The `JSON Array <JSON_Array>`__ to
             test for the value.
          -  ``value`` - The value to check the array for.
 
@@ -104,7 +104,7 @@ json.contains - MapToolDoc
 
          .. container:: template_examples
 
-            Check if the `JSON Object </rptools/wiki/JSON_Object>`__
+            Check if the `JSON Object <JSON_Object>`__
             ``a`` contains the key ``"b"``:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -121,7 +121,7 @@ json.contains - MapToolDoc
 
             Returns ``true``\ (``1``)
 
-            Check if the `JSON Object </rptools/wiki/JSON_Object>`__
+            Check if the `JSON Object <JSON_Object>`__
             ``a`` contains the key ``"z"``:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -138,7 +138,7 @@ json.contains - MapToolDoc
 
             Returns ``false``\ (``0``)
 
-            Check if the `JSON Array </rptools/wiki/JSON_Array>`__ ``a``
+            Check if the `JSON Array <JSON_Array>`__ ``a``
             contains the value ``"b"``:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -160,7 +160,7 @@ json.contains - MapToolDoc
 
          .. container:: template_also
 
-            `json.type() </rptools/wiki/json.type>`__
+            `json.type() <json.type>`__
 
          .. rubric:: Version Changes
             :name: version-changes
@@ -168,7 +168,7 @@ json.contains - MapToolDoc
          .. container:: template_changes
 
             -  **1.3b51** - Added ability for function to work with
-               `JSON Arrays </rptools/wiki/JSON_Array>`__.
+               `JSON Arrays <JSON_Array>`__.
 
       .. container:: printfooter
 

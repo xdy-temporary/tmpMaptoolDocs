@@ -66,20 +66,20 @@ Category:Log Function - MapToolDoc
                            :name: a
 
                         -  `Available
-                           Loggers </rptools/wiki/Available_Loggers>`__
+                           Loggers <Available_Loggers>`__
 
                      .. container:: mw-category-group
 
                         .. rubric:: L
                            :name: l
 
-                        -  `log.debug </rptools/wiki/log.debug>`__
-                        -  `log.error </rptools/wiki/log.error>`__
-                        -  `log.fatal </rptools/wiki/log.fatal>`__
-                        -  `log.getLoggers </rptools/wiki/log.getLoggers>`__
-                        -  `log.info </rptools/wiki/log.info>`__
-                        -  `log.setLevel </rptools/wiki/log.setLevel>`__
-                        -  `log.warn </rptools/wiki/log.warn>`__
+                        -  `log.debug <log.debug>`__
+                        -  `log.error <log.error>`__
+                        -  `log.fatal <log.fatal>`__
+                        -  `log.getLoggers <log.getLoggers>`__
+                        -  `log.info <log.info>`__
+                        -  `log.setLevel <log.setLevel>`__
+                        -  `log.warn <log.warn>`__
 
       .. container:: printfooter
 

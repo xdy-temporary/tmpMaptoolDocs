@@ -62,7 +62,7 @@ setLayer - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -72,7 +72,7 @@ setLayer - MapToolDoc
 
             Sets the `Map
             Layer </maptool/index.php?title=Map_Layer&action=edit&redlink=1>`__
-            that a `Token </rptools/wiki/Token>`__ is on.
+            that a `Token <Token>`__ is on.
             The `Map
             Layer </maptool/index.php?title=Map_Layer&action=edit&redlink=1>`__
             is one of:
@@ -110,10 +110,10 @@ setLayer - MapToolDoc
          **Parameters**
 
          -  ``layer`` - The layer to move the
-            `Token </rptools/wiki/Token>`__ to.
+            `Token <Token>`__ to.
          -  ``id`` - The token ``id`` of the token which has its layer
             set, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
          -  ``forceshape`` - If ``true``\ (``1``), change the token
             shape type to TOP_DOWN if the layer is ``OBJECT``, and to a
             shape reflecting its image if the layer is ``TOKEN``.
@@ -168,7 +168,7 @@ setLayer - MapToolDoc
 
          .. container:: template_also
 
-            `getLayer() </rptools/wiki/getLayer>`__
+            `getLayer() <getLayer>`__
 
          .. rubric:: Version Changes
             :name: version-changes

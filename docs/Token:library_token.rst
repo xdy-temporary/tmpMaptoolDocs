@@ -46,7 +46,7 @@ Library Token - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/Library_Token/ja>`__\ 
+             • \ `日本語 <Library_Token/ja>`__\ 
 
          Introduced in MapTool version 1.3b46, the Library Token is a
          special token type that acts as a library of properties and
@@ -117,7 +117,7 @@ Library Token - MapToolDoc
             :name: library-tokens-and-trusted-macros
 
          Library Tokens may run `Trusted
-         Macros </rptools/wiki/Trusted_Macro>`__ or utilize trusted
+         Macros <Trusted_Macro>`__ or utilize trusted
          macro functions provided they meet one of the following
          criteria:
 
@@ -138,7 +138,7 @@ Library Token - MapToolDoc
          Library token macros are created and edited like macros on any
          token. Macros on a library token may be called using the
          `[MACRO():
-         ] </rptools/wiki/Macros:Branching_and_Looping#MACRO_Option>`__
+         ] <Macros:Branching_and_Looping#MACRO_Option>`__
          roll option. Since Library token macros are trusted, they may
          perform operations not available to regular tokens.
 
@@ -146,7 +146,7 @@ Library Token - MapToolDoc
             :name: library-token-properties
 
          Library token properties can be accessed by using the
-         `getLibProperty() </rptools/wiki/getLibProperty>`__ function.
+         `getLibProperty() <getLibProperty>`__ function.
          Note that default property values do **NOT** work using that
          function.
 
@@ -154,9 +154,9 @@ Library Token - MapToolDoc
             :name: library-token-oncampaignload
 
          Most users will find it worthwhile to add an
-         `onCampaignLoad </rptools/wiki/onCampaignLoad>`__ macro to your
+         `onCampaignLoad <onCampaignLoad>`__ macro to your
          Lib token that will use
-         `defineFunction() </rptools/wiki/defineFunction>`__ to make
+         `defineFunction() <defineFunction>`__ to make
          your Lib macros accessible like the built-in macro functions
          and recognized by the macro editor.
 

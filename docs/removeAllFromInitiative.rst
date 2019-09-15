@@ -46,15 +46,15 @@ removeAllFromInitiative - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_description
 
-            Removes all of the `Tokens </rptools/wiki/Token>`__ from the
+            Removes all of the `Tokens <Token>`__ from the
             `Initiative
             Panel </maptool/index.php?title=Initiative:Initiative_Panel&action=edit&redlink=1>`__.
             This function returns the number of
-            `Tokens </rptools/wiki/Token>`__ that were removed. Only the
+            `Tokens <Token>`__ that were removed. Only the
             `GM </maptool/index.php?title=GM&action=edit&redlink=1>`__
             can call this function.
 

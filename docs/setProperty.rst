@@ -67,8 +67,8 @@ setProperty - MapToolDoc
          .. container:: template_description
 
             Sets the value of a `Token
-            Property </rptools/wiki/Token_Property>`__ on the `Current
-            Token </rptools/wiki/Current_Token>`__ (unless trusted, in
+            Property <Token_Property>`__ on the `Current
+            Token <Current_Token>`__ (unless trusted, in
             which case a Token ID can be supplied to indicate which
             token is to be affected). Note that if there is not already
             an existing property by the name listed in the macro,
@@ -104,12 +104,12 @@ setProperty - MapToolDoc
          -  ``value`` - The value that the property is set to.
          -  ``id`` - The token ``id`` of the token which has its
             property set, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -120,7 +120,7 @@ setProperty - MapToolDoc
          .. container:: template_examples
 
             Sets a property named ``Health`` to the value of ``10`` on
-            the `Current Token </rptools/wiki/Current_Token>`__.
+            the `Current Token <Current_Token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -169,10 +169,10 @@ setProperty - MapToolDoc
 
          .. container:: template_also
 
-            `getProperty() </rptools/wiki/getProperty>`__,
-            `resetProperty() </rptools/wiki/resetProperty>`__,
+            `getProperty() <getProperty>`__,
+            `resetProperty() <resetProperty>`__,
 
-            `isPropertyEmpty() </rptools/wiki/isPropertyEmpty>`__
+            `isPropertyEmpty() <isPropertyEmpty>`__
 
          .. rubric:: Version Changes
             :name: version-changes

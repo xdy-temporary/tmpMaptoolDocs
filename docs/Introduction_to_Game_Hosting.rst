@@ -43,7 +43,7 @@ Introduction to Game Hosting - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Game_Hosting/es>`__\  • \ `français </rptools/wiki/Introduction_to_Game_Hosting/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Game_Hosting/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Game_Hosting/ja>`__\ 
+             • \ `español <Introduction_to_Game_Hosting/es>`__\  • \ `français <Introduction_to_Game_Hosting/fr>`__\  • \ `italiano <Introduction_to_Game_Hosting/it>`__\  • \ `日本語 <Introduction_to_Game_Hosting/ja>`__\ 
 
          .. container:: template_beginner
 
@@ -109,10 +109,10 @@ Introduction to Game Hosting - MapToolDoc
             :name: introduction
 
          As seen in the `Introduction to
-         Mapping </rptools/wiki/Introduction_to_Mapping>`__, MapTool
+         Mapping <Introduction_to_Mapping>`__, MapTool
          lets you create virtual maps and virtual "miniatures" (which
          are known in MapTool jargon as
-         `tokens </rptools/wiki/Introduction_to_Tokens>`__) to be used
+         `tokens <Introduction_to_Tokens>`__) to be used
          for playing a roleplaying game session, much like you would use
          a real map and real miniatures on a tabletop. In fact, that's
          why we call MapTool a "virtual tabletop," or "VTT." In this
@@ -277,7 +277,7 @@ Introduction to Game Hosting - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:mt-file-menu-startserv.jpg>`__
+                     ` <File:mt-file-menu-startserv.jpg>`__
 
                   Selecting *Start Server* from the File menu
 
@@ -291,7 +291,7 @@ Introduction to Game Hosting - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:StartServerDialog.png>`__
+                     ` <File:StartServerDialog.png>`__
 
                   The **Start Server** dialog
 
@@ -347,7 +347,7 @@ Introduction to Game Hosting - MapToolDoc
 
          -  **Strict Token Ownership**: MapTool uses a concept called
             "token ownership" to control who can select, move, or look
-            at the `properties </rptools/wiki/Macros:Glossary#P>`__ of a
+            at the `properties <Macros:Glossary#P>`__ of a
             particular token. If you enable *Strict Token Ownership*,
             only the *owner* of a particular token may perform any
             actions on it - everyone else is confined to looking at the
@@ -378,7 +378,7 @@ Introduction to Game Hosting - MapToolDoc
             can only impersonate tokens that they have ownership (see
             above) of
          -  **Players Receive Campaign Macros**: MapTool lets you write
-            `macros </rptools/wiki/Macros:introduction>`__, which are
+            `macros <Macros:introduction>`__, which are
             basically sequences of text, token, and dice rolling
             commands used to automate certain activities - basically, a
             short script that does *something*. The GM can create
@@ -435,7 +435,7 @@ Introduction to Game Hosting - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:mt-file-menu-cinfo.jpg>`__
+                     ` <File:mt-file-menu-cinfo.jpg>`__
 
                   Opening *Connection Information* from the File menu
 
@@ -449,7 +449,7 @@ Introduction to Game Hosting - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:connection-info.jpg>`__
+                     ` <File:connection-info.jpg>`__
 
                   The **Connection Information** dialog
 
@@ -522,7 +522,7 @@ Introduction to Game Hosting - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:mt-connect-to-server.jpg>`__
+                     ` <File:mt-connect-to-server.jpg>`__
 
                   The **Connect to Server** dialog
 
@@ -562,7 +562,7 @@ Introduction to Game Hosting - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:mt-connect-registry.jpg>`__
+                     ` <File:mt-connect-registry.jpg>`__
 
                   The RPTools tab in **Connect to Server**
 
@@ -588,7 +588,7 @@ Introduction to Game Hosting - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:mt-connect-lan.jpg>`__
+                     ` <File:mt-connect-lan.jpg>`__
 
                   The **LAN** tab in **Connect to Server**
 
@@ -613,7 +613,7 @@ Introduction to Game Hosting - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:mt-connect-direct.jpg>`__
+                     ` <File:mt-connect-direct.jpg>`__
 
                   The **Direct** tab in **Connect to Server**
 
@@ -658,7 +658,7 @@ Introduction to Game Hosting - MapToolDoc
          after your players have connected!
 
          Token Ownership is explained in more detail in `Introduction to
-         Tokens </rptools/wiki/Introduction_to_Tokens>`__, but for the
+         Tokens <Introduction_to_Tokens>`__, but for the
          purposes of this tutorial, once you've started a server and
          you've got your friends connected as players, do the following
          for each player connected to the game:
@@ -683,7 +683,7 @@ Introduction to Game Hosting - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Game_Hosting/es>`__\  • \ `français </rptools/wiki/Introduction_to_Game_Hosting/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Game_Hosting/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Game_Hosting/ja>`__\ 
+             • \ `español <Introduction_to_Game_Hosting/es>`__\  • \ `français <Introduction_to_Game_Hosting/fr>`__\  • \ `italiano <Introduction_to_Game_Hosting/it>`__\  • \ `日本語 <Introduction_to_Game_Hosting/ja>`__\ 
 
       .. container:: printfooter
 

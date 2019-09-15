@@ -70,7 +70,7 @@ copyToken - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -79,13 +79,13 @@ copyToken - MapToolDoc
          .. container:: template_description
 
             Creates one or more copies of a
-            `Token </rptools/wiki/Token>`__ and returns the id of the
+            `Token <Token>`__ and returns the id of the
             created copy. This function is used to copy
-            `Tokens </rptools/wiki/Token>`__ into the current map, the
-            `Tokens </rptools/wiki/Token>`__ you are making
+            `Tokens <Token>`__ into the current map, the
+            `Tokens <Token>`__ you are making
             copies of can reside on any map. **You can not make any
             modifications to the newly
-            created**\ `Tokens </rptools/wiki/Token>`__\ **in the macro
+            created**\ `Tokens <Token>`__\ **in the macro
             that creates them**. Any changes made to the newly created
             token are reverted as soon as the macro ends! As of b54
             there is a new parameter that allows you to make some
@@ -131,9 +131,9 @@ copyToken - MapToolDoc
             ``1``
          -  ``fromMap`` - The name of the map to copy from, defaults to
             the current map.
-         -  ``updates`` - a `JSON Object </rptools/wiki/JSON_Object>`__
+         -  ``updates`` - a `JSON Object <JSON_Object>`__
             that contains updates to be made to the copied
-            `Tokens </rptools/wiki/Token>`__.
+            `Tokens <Token>`__.
 
          You can use an empty string ("") for ``fromMap`` for the
          current map as of b54.
@@ -142,33 +142,33 @@ copyToken - MapToolDoc
          | The return type of this function is determined by the number
            of copies that you are making. If you are only creating a
            single copy of the token then a string containing the
-           `Tokens </rptools/wiki/Token>`__ id, if you are making more
+           `Tokens <Token>`__ id, if you are making more
            than one copy then a `JSON
-           Array </rptools/wiki/JSON_Array>`__ containing the
-           `Token </rptools/wiki/Token>`__ ids of all the newly created
-           `Tokens </rptools/wiki/Token>`__ is returned.
+           Array <JSON_Array>`__ containing the
+           `Token <Token>`__ ids of all the newly created
+           `Tokens <Token>`__ is returned.
 
          | 
 
          .. rubric:: Updates parameter
             :name: updates-parameter
 
-         ``updates`` is a `JSON Object </rptools/wiki/JSON_Object>`__
+         ``updates`` is a `JSON Object <JSON_Object>`__
          that can contain one or more of the following fields. Field
          names are case-sensitive.
 
          -  ``name`` - The name of the new
-            `Token </rptools/wiki/Token>`__.
+            `Token <Token>`__.
          -  ``label`` - The label for the new
-            `Token </rptools/wiki/Token>`__.
+            `Token <Token>`__.
          -  ``gmName`` - The GM name for the new
-            `Token </rptools/wiki/Token>`__.
+            `Token <Token>`__.
          -  ``layer`` - The layer for the new
-            `Token </rptools/wiki/Token>`__.
+            `Token <Token>`__.
          -  ``x`` - The X Co-ordinate for the new
-            `Token </rptools/wiki/Token>`__. Default is ``0``.
+            `Token <Token>`__. Default is ``0``.
          -  ``y`` - The Y Co-ordinate for the new
-            `Token </rptools/wiki/Token>`__. Default is ``0``.
+            `Token <Token>`__. Default is ``0``.
          -  ``useDistance`` - ``1`` (true) or ``0`` (false). Determines
             if the "Distance Per Cell" measurement for the map is used
             for the x,y coordinates. Unused if neither ``x`` nor ``y``
@@ -176,11 +176,11 @@ copyToken - MapToolDoc
             that are not snap-to-grid and must be placed by pixel
             position instead of grid cell position.
          -  ``facing`` - Sets the facing for the
-            `Token </rptools/wiki/Token>`__. If the
-            `Token </rptools/wiki/Token>`__ is on the background or
+            `Token <Token>`__. If the
+            `Token <Token>`__ is on the background or
             object layer this sets the rotation.
          -  ``size`` - Sets the size of the
-            `Token </rptools/wiki/Token>`__. The list of sizes is
+            `Token <Token>`__. The list of sizes is
             dependent on the type of grid.
          -  ``delta`` - ``1`` (true) or ``0`` (false). Indicates whether
             the x,y coordinates are relative to the position of the
@@ -197,7 +197,7 @@ copyToken - MapToolDoc
          When the name is not changed using the ``updates`` parameter,
          the new name for the token follows the naming method for cut
          and paste. This function can copy
-         `Tokens </rptools/wiki/Token>`__ in the token, hidden, object,
+         `Tokens <Token>`__ in the token, hidden, object,
          and background layers. If you do not override the destination
          using the ``layer`` field of ``updates`` then the new copies
          are made in the same layer as the source. Likewise if ``x`` and
@@ -222,12 +222,12 @@ copyToken - MapToolDoc
          methods:
 
          a. The best methods in that case is to
-         `moveTokenFromMap() </rptools/wiki/moveTokenFromMap>`__ to the
+         `moveTokenFromMap() <moveTokenFromMap>`__ to the
          current map and then
-         `moveTokenToMap() </rptools/wiki/moveTokenToMap>`__ back.
+         `moveTokenToMap() <moveTokenToMap>`__ back.
 
          b. You could also use
-         `setCurrentMap() </rptools/wiki/setCurrentMap>`__) to go to the
+         `setCurrentMap() <setCurrentMap>`__) to go to the
          'original' map, change the token and switch back, that however
          will result in a minor flicker on screen.
 
@@ -237,14 +237,14 @@ copyToken - MapToolDoc
 
          2. The simplest method is by creating an interrupt in the macro
          after the copies have been made. This is simply done with the
-         use of `input() </rptools/wiki/input>`__. This however will
+         use of `input() <input>`__. This however will
          result in a pop-up on screen which you have to click away so
          the macro can continue with the update.
 
          3. Another (not always working method) is to make changes to
          the created tokens done by a second 'deferred' macro that is
          called after the copies have been created. Look for
-         `execLink </rptools/wiki/execLink>`__ for calling a macro
+         `execLink <execLink>`__ for calling a macro
          *deferred*.
 
          | 
@@ -434,7 +434,7 @@ copyToken - MapToolDoc
 
          The source token was configured as a Top Down token for this
          effect, otherwise the ``facing`` setting would produce a facing
-         arrow for `Tokens </rptools/wiki/Token>`__ on the token or
+         arrow for `Tokens <Token>`__ on the token or
          hidden layers.
 
          .. container:: center
@@ -589,8 +589,8 @@ copyToken - MapToolDoc
          .. rubric:: also
             :name: also
 
-         `moveTokenToMap() </rptools/wiki/moveTokenToMap>`__,
-         `moveTokenFrom() </rptools/wiki/moveTokenFrom>`__
+         `moveTokenToMap() <moveTokenToMap>`__,
+         `moveTokenFrom() <moveTokenFrom>`__
 
          .. rubric:: changes
             :name: changes

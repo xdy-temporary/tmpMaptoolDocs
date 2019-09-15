@@ -47,7 +47,7 @@ setCurrentInitiative - MapToolDoc
 
             Gives the
             `Initiative </maptool/index.php?title=Initiative:Initiative&action=edit&redlink=1>`__
-            to the `Token </rptools/wiki/Token>`__ at the specified
+            to the `Token <Token>`__ at the specified
             offset in the `Initiative
             Panel </maptool/index.php?title=Iniatiative:Initiative_Panel&action=edit&redlink=1>`__.
             Offsets start at 0. To clear, specify a number that is not a
@@ -69,7 +69,7 @@ setCurrentInitiative - MapToolDoc
 
          .. container:: template_examples
 
-            Give Initiative to the 4th `Token </rptools/wiki/Token>`__.
+            Give Initiative to the 4th `Token <Token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

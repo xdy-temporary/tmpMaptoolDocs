@@ -66,11 +66,11 @@ getHalo - MapToolDoc
          .. container:: template_description
 
             Gets the color value of a token's
-            `Halo </rptools/wiki/Halo>`__. The value returned is a
+            `Halo <Halo>`__. The value returned is a
             string that represents the hexadecimal value of the color of
-            the `Halo </rptools/wiki/Halo>`__ in the format
+            the `Halo <Halo>`__ in the format
             ``"#RRGGBB"`` or ``"None"`` if the token has no
-            `Halo </rptools/wiki/Halo>`__.
+            `Halo <Halo>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -95,12 +95,12 @@ getHalo - MapToolDoc
 
          -  ``id`` - The token ``id`` of the token which has its halo
             color returned, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          .. rubric:: Example
             :name: example
@@ -109,8 +109,8 @@ getHalo - MapToolDoc
 
             The following example will display the text "Halo Color
             Text" in the color of the `Current
-            Token </rptools/wiki/Current_Token>`__'s
-            `Halo </rptools/wiki/Halo>`__.
+            Token <Current_Token>`__'s
+            `Halo <Halo>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -125,8 +125,8 @@ getHalo - MapToolDoc
 
          .. container:: template_also
 
-            `Halo </rptools/wiki/Halo>`__,
-            `setHalo() </rptools/wiki/setHalo>`__
+            `Halo <Halo>`__,
+            `setHalo() <setHalo>`__
 
          .. rubric:: Version Changes
             :name: version-changes

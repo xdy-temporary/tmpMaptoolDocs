@@ -42,12 +42,12 @@ Trusted Macro - MapToolDoc
 
          A Trusted Macro is a macro that fits certain criteria, allowing
          it access to
-         `functions </rptools/wiki/Category:Macro_Function>`__ and `roll
-         options </rptools/wiki/Category:Roll_Option>`__ that are
+         `functions <Category:Macro_Function>`__ and `roll
+         options <Category:Roll_Option>`__ that are
          protected from normal use.
 
-         `Functions </rptools/wiki/Category:Macro_Function>`__ and `roll
-         options </rptools/wiki/Category:Roll_Option>`__ that require a
+         `Functions <Category:Macro_Function>`__ and `roll
+         options <Category:Roll_Option>`__ that require a
          Trusted Macro will have the following note on their article:
 
          .. container::
@@ -122,22 +122,22 @@ Trusted Macro - MapToolDoc
 
          -  Clicking the macro button as a GM.
          -  Placing the macro on a `library
-            token </rptools/wiki/Library_Token>`__ and having a player
+            token <Library_Token>`__ and having a player
             call it using a `roll
-            option </rptools/wiki/Category:Roll_Option>`__ or `macro
-            link </rptools/wiki/macroLink>`__.
+            option <Category:Roll_Option>`__ or `macro
+            link <macroLink>`__.
 
          .. rubric:: Why trusted macros?
             :name: why-trusted-macros
 
          Using trusted macros can, for example, allow gamemasters to set
-         up macros on `library tokens </rptools/wiki/Library_Token>`__
+         up macros on `library tokens <Library_Token>`__
          that can be called by players, but edited only by GMs, and
          which can access functions that players would not normally be
          able to access. Such macros can use trusted-only options or
          functions (such as the
-         `[token():] </rptools/wiki/token_(roll_option)>`__ roll option
-         or the `switchToken() </rptools/wiki/switchToken>`__ function)
+         `[token():] <token_(roll_option)>`__ roll option
+         or the `switchToken() <switchToken>`__ function)
          to modify or read values from NPC tokens that players do not
          own.
 
@@ -170,7 +170,7 @@ Trusted Macro - MapToolDoc
          Lets test macros under certain combinations of macro location,
          player or gm, auto-execution and if it is player-editable or
          not. The test was performed using
-         `isTrusted() </rptools/wiki/isTrusted>`__ and the campaign
+         `isTrusted() <isTrusted>`__ and the campaign
          macro was "applied to token".
 
          ============== ========== ============ =============== ==========

@@ -43,7 +43,7 @@ getTokenHalo - MapToolDoc
          .. container:: template_deprecated
 
              Note: This function has been deprecated. Refer to
-            `getHalo() </rptools/wiki/getHalo>`__ for current
+            `getHalo() <getHalo>`__ for current
             functionality.
 
          .. rubric:: getTokenHalo() Function

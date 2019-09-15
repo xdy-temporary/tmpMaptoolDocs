@@ -54,12 +54,12 @@ json.type - MapToolDoc
             Return values are
 
             -  ``ARRAY`` - The object is a `JSON
-               Array </rptools/wiki/JSON_Array>`__.
+               Array <JSON_Array>`__.
             -  ``OBJECT`` - The object is a `JSON
-               Object </rptools/wiki/JSON_Object>`__.
+               Object <JSON_Object>`__.
             -  ``UNKNOWN`` - It is neither a `JSON
-               Array </rptools/wiki/JSON_Array>`__ nor `JSON
-               Object </rptools/wiki/JSON_Object>`__.
+               Array <JSON_Array>`__ nor `JSON
+               Object <JSON_Object>`__.
 
              
 

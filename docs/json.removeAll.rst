@@ -56,10 +56,10 @@ json.removeAll - MapToolDoc
          .. container:: template_description
 
             Removes all the keys or values from the first `JSON
-            Object </rptools/wiki/JSON_Object>`__ or `JSON
-            Array </rptools/wiki/JSON_Array>`__ that occur in the
-            following `JSON Objects </rptools/wiki/JSON_Object>`__ or
-            `JSON Arrays </rptools/wiki/JSON_Array>`__.
+            Object <JSON_Object>`__ or `JSON
+            Array <JSON_Array>`__ that occur in the
+            following `JSON Objects <JSON_Object>`__ or
+            `JSON Arrays <JSON_Array>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -83,15 +83,15 @@ json.removeAll - MapToolDoc
          **Parameters**
 
          -  ``firstArray`` - The `JSON
-            Array </rptools/wiki/JSON_Array>`__ to remove the
+            Array <JSON_Array>`__ to remove the
             occurrences from.
-         -  ``array`` - The `JSON Arrays </rptools/wiki/JSON_Array>`__
+         -  ``array`` - The `JSON Arrays <JSON_Array>`__
             to get the occurrences from.
          -  ``firstObject`` - The `JSON
-            Object </rptools/wiki/JSON_Object>`__ to remove the
+            Object <JSON_Object>`__ to remove the
             occurrences from.
          -  ``object`` - The `JSON
-            Objects </rptools/wiki/JSON_Object>`__ to get the
+            Objects <JSON_Object>`__ to get the
             occurrences from.
 
          | 
@@ -101,7 +101,7 @@ json.removeAll - MapToolDoc
 
          .. container:: template_also
 
-            `json.unique() </rptools/wiki/json.unique>`__
+            `json.unique() <json.unique>`__
 
       .. container:: printfooter
 

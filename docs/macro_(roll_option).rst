@@ -64,7 +64,7 @@ macro (roll option) - MapToolDoc
             \* **Introduced in version 1.3b46**
 
          Runs the named macro, returning its output in the form of the
-         `macro.return </rptools/wiki/macro.return>`__ special variable.
+         `macro.return <macro.return>`__ special variable.
 
          .. rubric:: Usage
             :name: usage
@@ -82,7 +82,7 @@ macro (roll option) - MapToolDoc
          -  ``macro_name`` - The name of the macro button that is run.
          -  ``location`` - The location of the macro button that is run.
          -  ``macro_arguments`` - Sent to the called macro in the form
-            of the `macro.args </rptools/wiki/macro.args>`__ special
+            of the `macro.args <macro.args>`__ special
             variable.
 
          **Location Requirements**
@@ -94,12 +94,12 @@ macro (roll option) - MapToolDoc
          -  ``campaign``
          -  ``global``
          -  ``Lib:*`` Library Token - A `Library
-            Token </rptools/wiki/Library_Token>`__ in the current
+            Token <Library_Token>`__ in the current
             campaign.
          -  ``this`` - If the macro is calling another macro on the same
-            `Library Token </rptools/wiki/Library_Token>`__, ``this``
+            `Library Token <Library_Token>`__, ``this``
             may be used instead of retyping the full `Library
-            Token </rptools/wiki/Library_Token>`__ name.
+            Token <Library_Token>`__ name.
 
          **Notes**
 
@@ -109,10 +109,10 @@ macro (roll option) - MapToolDoc
          calling token and applies all results to that token), unless
          the focus is explicitly changed to another token via either a
          roll option, or the
-         `switchToken() </rptools/wiki/switchToken>`__ function, or the
-         `getLibProperty() </rptools/wiki/getLibProperty>`__ function
+         `switchToken() <switchToken>`__ function, or the
+         `getLibProperty() <getLibProperty>`__ function
          within the *called* macro. This applies even if the `Current
-         Token </rptools/wiki/Current_Token>`__ was explicitly changed
+         Token <Current_Token>`__ was explicitly changed
          prior to using the **[macro():]** roll option.
 
          Also- as of at least 1.3.b50- a variable must be given for
@@ -157,7 +157,7 @@ macro (roll option) - MapToolDoc
                      [MACRO("getDamage@Lib:combat"): damageRoll]
 
          Calls the macro ``getDamage`` which resides on a `Library
-         Token </rptools/wiki/Library_Token>`__ called ``Lib:combat``,
+         Token <Library_Token>`__ called ``Lib:combat``,
          and passes the variable ``damageRoll`` as an argument to the
          called macro.
 
@@ -168,14 +168,14 @@ macro (roll option) - MapToolDoc
          that can be stored in a single variable to be passed to the
          called macro, and then unpackaged appropriately to recover
          local variables used in the called macro. `JSON
-         Objects </rptools/wiki/JSON_Object>`__ and `JSON
-         Arrays </rptools/wiki/JSON_Array>`__ work very well for this
+         Objects <JSON_Object>`__ and `JSON
+         Arrays <JSON_Array>`__ work very well for this
          purpose (although string lists and StrProps can also serve this
          purpose, they have more limitations and are less recommended).
          For example, multiple values can be stored into a json array,
          which becomes the argument passed in the macro call:
 
-         **Using a**\ `JSON Array </rptools/wiki/JSON_Array>`__\ **to
+         **Using a**\ `JSON Array <JSON_Array>`__\ **to
          pass multiple values (order matters, names do not)**
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -203,7 +203,7 @@ macro (roll option) - MapToolDoc
                      [ resultVar = macro.return ]  <!-- this is what you get back from the called macro -->
 
          Within the "called macro", the
-         `macro.args </rptools/wiki/macro.args>`__ (macro arguments)
+         `macro.args <macro.args>`__ (macro arguments)
          must be unpackaged to recover the values stored in the array:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -226,19 +226,19 @@ macro (roll option) - MapToolDoc
 
                      [ macro.return = var1 +" "+ var2 ] <!-- this is what you can send back to the calling macro (can also be another JSON Object or array -->
 
-         Note that using a `JSON Array </rptools/wiki/JSON_Array>`__ to
+         Note that using a `JSON Array <JSON_Array>`__ to
          pass & unpack values, rather than a `JSON
-         Object </rptools/wiki/JSON_Object>`__, has the added advantage
+         Object <JSON_Object>`__, has the added advantage
          that if the called macro is also a `user defined
          function </maptool/index.php?title=user_defined_function&action=edit&redlink=1>`__
-         (see `defineFunction </rptools/wiki/defineFunction>`__), the
+         (see `defineFunction <defineFunction>`__), the
          exact same commands given in the example above can be used to
          separate individual arguments passed in the calling "function",
          since function arguments are automatically bundled into a `JSON
-         Array </rptools/wiki/JSON_Array>`__ and passed to the
-         `macro.args </rptools/wiki/macro.args>`__ special variable.
+         Array <JSON_Array>`__ and passed to the
+         `macro.args <macro.args>`__ special variable.
 
-         **Using a**\ `JSON Object </rptools/wiki/JSON_Object>`__\ **to
+         **Using a**\ `JSON Object <JSON_Object>`__\ **to
          pass multiple values (names matter, order does not)**
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -266,7 +266,7 @@ macro (roll option) - MapToolDoc
                      [ resultVar = macro.return ]  <!-- this is what you get back from the called macro -->
 
          Within the "called macro", the
-         `macro.args </rptools/wiki/macro.args>`__ (macro arguments)
+         `macro.args <macro.args>`__ (macro arguments)
          must be unpackaged to recover the values stored in the array:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -292,10 +292,10 @@ macro (roll option) - MapToolDoc
          .. rubric:: See Also
             :name: see-also
 
-         `macro.args </rptools/wiki/macro.args>`__,
-         `macro.return </rptools/wiki/macro.return>`__,
-         `defineFunction </rptools/wiki/defineFunction>`__, `More
-         Branching Options </rptools/wiki/More_Branching_Options>`__
+         `macro.args <macro.args>`__,
+         `macro.return <macro.return>`__,
+         `defineFunction <defineFunction>`__, `More
+         Branching Options <More_Branching_Options>`__
 
       .. container:: printfooter
 

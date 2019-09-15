@@ -43,7 +43,7 @@ setTokenLabel - MapToolDoc
          .. container:: template_deprecated
 
              Note: This function has been deprecated. Refer to
-            `setLabel() </rptools/wiki/setLabel>`__ for current
+            `setLabel() <setLabel>`__ for current
             functionality.
 
          .. rubric:: setTokenLabel() Function

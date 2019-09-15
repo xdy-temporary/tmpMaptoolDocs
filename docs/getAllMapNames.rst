@@ -62,7 +62,7 @@ getAllMapNames - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -71,8 +71,8 @@ getAllMapNames - MapToolDoc
          .. container:: template_description
 
             Returns the names of all of the maps as either a `String
-            List </rptools/wiki/String_List>`__ or `JSON
-            Array </rptools/wiki/JSON_Array>`__.
+            List <String_List>`__ or `JSON
+            Array <JSON_Array>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -92,8 +92,8 @@ getAllMapNames - MapToolDoc
          **Parameters**
 
          -  ``delim`` - The delimiter to use for the `String
-            List </rptools/wiki/String_List>`__. If the value is
-            ``json`` then a `JSON Array </rptools/wiki/JSON_Array>`__ is
+            List <String_List>`__. If the value is
+            ``json`` then a `JSON Array <JSON_Array>`__ is
             returned.
 
          .. rubric:: Examples
@@ -102,7 +102,7 @@ getAllMapNames - MapToolDoc
          .. container:: template_examples
 
             To get the names of all of the maps in a `String
-            List </rptools/wiki/String_List>`__.
+            List <String_List>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -113,7 +113,7 @@ getAllMapNames - MapToolDoc
                         [h: maps = getAllMapNames()]
 
             To get the names of all of the maps in a `JSON
-            Array </rptools/wiki/JSON_Array>`__
+            Array <JSON_Array>`__
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -128,8 +128,8 @@ getAllMapNames - MapToolDoc
 
          .. container:: template_also
 
-            `getCurrentMapName() </rptools/wiki/getCurrentMapName>`__
-            `getVisibleMapNames() </rptools/wiki/getVisibleMapNames>`__
+            `getCurrentMapName() <getCurrentMapName>`__
+            `getVisibleMapNames() <getVisibleMapNames>`__
 
       .. container:: printfooter
 

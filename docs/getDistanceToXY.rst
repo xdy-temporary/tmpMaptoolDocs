@@ -181,8 +181,8 @@ getDistanceToXY - MapToolDoc
 
          .. container:: template_also
 
-            `getDistance() </rptools/wiki/getDistance>`__
-            `getTokens() </rptools/wiki/getTokens>`__
+            `getDistance() <getDistance>`__
+            `getTokens() <getTokens>`__
 
          .. rubric:: Version Changes
             :name: version-changes

@@ -65,20 +65,20 @@ getVisibleTokens - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `string list </rptools/wiki/Macros:string_list>`__
-            or `JSON Array </rptools/wiki/JSON_Array>`__ of `token
-            ids </rptools/wiki/Glossary#Token_Id>`__ for the
-            `tokens </rptools/wiki/Token:token>`__ that are *visible* to
+            Returns a `string list <Macros:string_list>`__
+            or `JSON Array <JSON_Array>`__ of `token
+            ids <Glossary#Token_Id>`__ for the
+            `tokens <Token:token>`__ that are *visible* to
             the player. The type of the value returned depends on the
             delimiter parameter.
 
             -  If the delimiter is not specified then a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the default value of ``","`` is used.
             -  If the delimiter ``json`` then a `JSON
-               Array </rptools/wiki/JSON_Array>`__ is returned.
+               Array <JSON_Array>`__ is returned.
             -  Otherwise a `string
-               list </rptools/wiki/Macros:string_list>`__ is returned
+               list <Macros:string_list>`__ is returned
                with the delimiter passed in.
 
              

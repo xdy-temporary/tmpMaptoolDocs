@@ -73,7 +73,7 @@ File:Macrobuttons.jpg - MapToolDoc
             ======= =================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                           Thumbnail                                             Dimensions        User                                                                                                                                                                   Comment
             ======= =================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
-            current `14:41, 24 December 2008 </maptool/images/c/c5/Macrobuttons.jpg>`__ |Thumbnail for version as of 14:41, 24 December 2008| 384 × 274 (23 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `14:41, 24 December 2008 </maptool/images/c/c5/Macrobuttons.jpg>`__ |Thumbnail for version as of 14:41, 24 December 2008| 384 × 274 (23 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= =================================================================== ===================================================== ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -86,7 +86,7 @@ File:Macrobuttons.jpg - MapToolDoc
 
             The following page links to this file:
 
-            -  `Macro Button </rptools/wiki/Macro_Button>`__
+            -  `Macro Button <Macro_Button>`__
 
       .. container:: printfooter
 

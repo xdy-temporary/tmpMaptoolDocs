@@ -54,12 +54,12 @@ getInitiativeHold - MapToolDoc
 
          .. container:: template_description
 
-            Returns if the `token </rptools/wiki/Token:token>`__ is on
+            Returns if the `token <Token:token>`__ is on
             `hold </maptool/index.php?title=Initiative:hold&action=edit&redlink=1>`__
             in the `initiative
             panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__
             or not. This function will return 1 if the
-            `token </rptools/wiki/Token:token>`__ is on
+            `token <Token:token>`__ is on
             `hold </maptool/index.php?title=Initiative:hold&action=edit&redlink=1>`__
             or 0 if it is not.
 

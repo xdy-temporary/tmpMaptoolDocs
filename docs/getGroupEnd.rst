@@ -51,7 +51,7 @@ getGroupEnd - MapToolDoc
 
             Returns the end index of the specified capture group for the
             specified match that was found using
-            `strfind() </rptools/wiki/strfind>`__
+            `strfind() <strfind>`__
 
          .. rubric:: Usage
             :name: usage
@@ -67,11 +67,11 @@ getGroupEnd - MapToolDoc
          Where
 
          -  id is the id returned by
-            `strfind() </rptools/wiki/strfind>`__
+            `strfind() <strfind>`__
          -  match is the number of the match found by
-            `strfind() </rptools/wiki/strfind>`__
+            `strfind() <strfind>`__
          -  group is the number of the capture group found by
-            `strfind() </rptools/wiki/strfind>`__
+            `strfind() <strfind>`__
 
          .. rubric:: Example
             :name: example

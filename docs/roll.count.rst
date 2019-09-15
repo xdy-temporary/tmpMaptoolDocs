@@ -44,10 +44,10 @@ roll.count - MapToolDoc
          of current loop. It may be used with the following roll options
          for looping:
 
-         -  `COUNT(): </rptools/wiki/Macros:Branching_and_Looping#COUNT_Option>`__
-         -  `FOR(): </rptools/wiki/Macros:Branching_and_Looping#FOR_Option>`__
-         -  `FOREACH(): </rptools/wiki/Macros:Branching_and_Looping#FOREACH_Option>`__
-         -  `WHILE(): </rptools/wiki/Macros:Branching_and_Looping#WHILE_Option>`__
+         -  `COUNT(): <Macros:Branching_and_Looping#COUNT_Option>`__
+         -  `FOR(): <Macros:Branching_and_Looping#FOR_Option>`__
+         -  `FOREACH(): <Macros:Branching_and_Looping#FOREACH_Option>`__
+         -  `WHILE(): <Macros:Branching_and_Looping#WHILE_Option>`__
 
          The *roll.count* begins at 0.
 
@@ -111,7 +111,7 @@ roll.count - MapToolDoc
             :name: related-pages
 
          -  `Branching and Looping
-            Options </rptools/wiki/Macros:Branching_and_Looping>`__
+            Options <Macros:Branching_and_Looping>`__
 
       .. container:: printfooter
 

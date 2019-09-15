@@ -98,12 +98,12 @@ Introduction to Macro Loops - MapToolDoc
             :name: introduction
 
          We've looked at
-         `branching </rptools/wiki/Introduction_to_Macro_Branching>`__
-         in macros, using `[if():] </rptools/wiki/if_(roll_option)>`__,
-         `[switch():] </rptools/wiki/switch_(roll_option)>`__, and the
+         `branching <Introduction_to_Macro_Branching>`__
+         in macros, using `[if():] <if_(roll_option)>`__,
+         `[switch():] <switch_(roll_option)>`__, and the
          more advanced roll options
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__ and
-         `[token():] </rptools/wiki/token_(roll_option)>`__. Branching
+         `[macro():] <macro_(roll_option)>`__ and
+         `[token():] <token_(roll_option)>`__. Branching
          is one of the most important tools for macro writing, since it
          lets you automate decisions based on certain factors or
          conditions that arise during play.
@@ -122,10 +122,10 @@ Introduction to Macro Loops - MapToolDoc
          *loops*).
 
          There are four loop structures in MapTool macros:
-         `[count():] </rptools/wiki/count_(roll_option)>`__,
-         `[while():] </rptools/wiki/while_(roll_option)>`__,
-         `[for():] </rptools/wiki/for_(roll_option)>`__, and
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__. Each of
+         `[count():] <count_(roll_option)>`__,
+         `[while():] <while_(roll_option)>`__,
+         `[for():] <for_(roll_option)>`__, and
+         `[foreach():] <foreach_(roll_option)>`__. Each of
          the three is a *roll option*, which means - as we've seen
          before:
 
@@ -140,14 +140,14 @@ Introduction to Macro Loops - MapToolDoc
 
          Before we continue, we'll need to introduce a couple concepts
          that will be used heavily in the examples below, especially for
-         `[for():] </rptools/wiki/for_(roll_option)>`__ and
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__ loops.
+         `[for():] <for_(roll_option)>`__ and
+         `[foreach():] <foreach_(roll_option)>`__ loops.
 
          .. rubric:: Assumptions
             :name: assumptions
 
          I assume you've read the `Introduction to Macro
-         Writing </rptools/wiki/Introduction_to_Macro_Writing>`__ and
+         Writing <Introduction_to_Macro_Writing>`__ and
          have knowledge of how to create a new macro and use some very
          basic commands in it (like creating a variable or a dice roll).
 
@@ -172,8 +172,8 @@ Introduction to Macro Loops - MapToolDoc
          MapTool properties (and macro variables) that let you group
          information together. The two new information storing methods
          we'll use - which are properly referred to as *data types* -
-         are `string lists </rptools/wiki/String_List>`__ and `string
-         properties </rptools/wiki/String_Property_List>`__.
+         are `string lists <String_List>`__ and `string
+         properties <String_Property_List>`__.
 
          .. rubric:: String Lists
             :name: string-lists
@@ -222,9 +222,9 @@ Introduction to Macro Loops - MapToolDoc
          put together. They may look the same to us, but they don't look
          the same to MapTool - to turn that "1d6" into ``1d6`` so that
          MapTool will roll it, we need to use the
-         `eval() </rptools/wiki/eval>`__ function to tell MapTool
+         `eval() <eval>`__ function to tell MapTool
          "evaluate that string *as if* it were a dice roll." You'll see
-         some examples of `eval() </rptools/wiki/eval>`__ later on.
+         some examples of `eval() <eval>`__ later on.
 
          .. rubric:: String Properties
             :name: string-properties
@@ -272,13 +272,13 @@ Introduction to Macro Loops - MapToolDoc
             :name: count-over-and-over-and-over-and...
 
          The first looping structure we'll cover is the
-         `[count():] </rptools/wiki/count_(roll_option)>`__ option. This
+         `[count():] <count_(roll_option)>`__ option. This
          option is the simplest loop - it repeats the operation
          following the colon a number of times equal to its *argument*
          (remember, arguments are the values or variables you put inside
          the parentheses). The format of a
-         `[count():] </rptools/wiki/count_(roll_option)>`__ (which can
-         also be abbreviated `[c():] </rptools/wiki/c_(roll_option)>`__
+         `[count():] <count_(roll_option)>`__ (which can
+         also be abbreviated `[c():] <c_(roll_option)>`__
          statement is:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -301,11 +301,11 @@ Introduction to Macro Loops - MapToolDoc
 
          The example should be pretty self-explanatory. It contains:
 
-         -  The `[count():] </rptools/wiki/count_(roll_option)>`__
+         -  The `[count():] <count_(roll_option)>`__
             option itself - without the option, we wouldn't need this
             tutorial, right?
          -  ``repetitions``: this is the value that tells
-            `[count():] </rptools/wiki/count_(roll_option)>`__ how many
+            `[count():] <count_(roll_option)>`__ how many
             times to repeat ``command``
          -  ``command``: this is the actual macro command you want count
             to do over and over again.
@@ -319,7 +319,7 @@ Introduction to Macro Loops - MapToolDoc
          target, meaning that you'd have to roll your attack 6 different
          times. You can either do that by hand, each time, or you could
          write a macro that uses
-         `[count():] </rptools/wiki/count_(roll_option)>`__ to roll the
+         `[count():] <count_(roll_option)>`__ to roll the
          attack over and over, and all you need to give it is the number
          of times!
 
@@ -361,10 +361,10 @@ Introduction to Macro Loops - MapToolDoc
             :name: special-variable-roll.count
 
          Since it's often useful to know what "round" or "turn" we're on
-         when a `[count():] </rptools/wiki/count_(roll_option)>`__ loop
+         when a `[count():] <count_(roll_option)>`__ loop
          is running, MapTool creates a special variable every time you
          start a count loop. This variable is called
-         ```roll.count`` </rptools/wiki/roll.count>`__, and it's value
+         ```roll.count`` <roll.count>`__, and it's value
          is equal to whatever loop you're currently on. So, if you're on
          the first loop, ``roll.count`` is equal to 1; on the second
          time through, it's equal to 2, and so on. That way, you can use
@@ -437,7 +437,7 @@ Introduction to Macro Loops - MapToolDoc
             character, or <br>.
          -  Line 4 also uses the CODE roll option, which is discussed in
             `Introduction to Macro
-            Branching </rptools/wiki/Introduction_to_Macro_Branching>`__,
+            Branching <Introduction_to_Macro_Branching>`__,
             and lets us do multiple operations as a single group.
          -  Line 6 sets the variable ``attack`` to the sum of
             ``attackBonus`` and 1d20.
@@ -460,12 +460,12 @@ Introduction to Macro Loops - MapToolDoc
             :name: while-keep-on-keepin-on
 
          Let's move on to a new looping structure:
-         `[while():] </rptools/wiki/while_(roll_option)>`__. This
+         `[while():] <while_(roll_option)>`__. This
          structure is the first one we'll discuss that uses a
          *condition* to determine how many times to loop (previously,
          count used a value - but not a comparison of any kind). The
          general format of a
-         `[while():] </rptools/wiki/while_(roll_option)>`__ loop is:
+         `[while():] <while_(roll_option)>`__ loop is:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -477,7 +477,7 @@ Introduction to Macro Loops - MapToolDoc
 
          You're probably getting used to reading these by now.
 
-         -  `[while():] </rptools/wiki/while_(roll_option)>`__: of
+         -  `[while():] <while_(roll_option)>`__: of
             course, we need to add the roll option itself
          -  **condition**: this is the comparison that we make, to see
             if the loop needs to stop - it can be any of the logical
@@ -494,10 +494,10 @@ Introduction to Macro Loops - MapToolDoc
             :name: example-1-basic-countdown
 
          This is a very basic example, just to illustrate the basic
-         parts of the `[while():] </rptools/wiki/while_(roll_option)>`__
+         parts of the `[while():] <while_(roll_option)>`__
          loop. Suppose you wanted to count down from 10 to 1. There are
          many ways to do this, of course, but we'll do it with a
-         `[while():] </rptools/wiki/while_(roll_option)>`__ loop. The
+         `[while():] <while_(roll_option)>`__ loop. The
          macro would look like this:
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -533,7 +533,7 @@ Introduction to Macro Loops - MapToolDoc
 
          Let's look at a more complicated (and perhaps more interesting)
          example. In this example, we won't be using the `Sample
-         Ruleset </rptools/wiki/Sample_Ruleset>`__, mostly because I
+         Ruleset <Sample_Ruleset>`__, mostly because I
          couldn't think of a useful example from that game. So, let's
          assume we have the following game situation:
 
@@ -646,17 +646,17 @@ Introduction to Macro Loops - MapToolDoc
             :name: for-i-couldnt-think-of-anything-catchy
 
          The next loop structure to address is the
-         `[for():] </rptools/wiki/for_(roll_option)>`__ roll option.
+         `[for():] <for_(roll_option)>`__ roll option.
          This option is somewhat similar to
-         `[while():] </rptools/wiki/while_(roll_option)>`__, because it
+         `[while():] <while_(roll_option)>`__, because it
          repeats a sequence of code a number of times based on a
          particular condition; it is also like
-         `[count():] </rptools/wiki/count_(roll_option)>`__ because that
+         `[count():] <count_(roll_option)>`__ because that
          particular condition is "has our counter reached a particular
          number yet?"
 
          The general format for a
-         `[for():] </rptools/wiki/for_(roll_option)>`__ loop is:
+         `[for():] <for_(roll_option)>`__ loop is:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -668,7 +668,7 @@ Introduction to Macro Loops - MapToolDoc
 
          Here's how that breaks down:
 
-         -  `[for():] </rptools/wiki/for_(roll_option)>`__: as always,
+         -  `[for():] <for_(roll_option)>`__: as always,
             we need to actually put the roll option in there
          -  **counter**: this is the variable that will be used to count
             the iterations through the loop; typically people us a
@@ -695,8 +695,8 @@ Introduction to Macro Loops - MapToolDoc
             ``counter`` variable increments by 1 each time the loop is
             processed).
          -  **separator**: like with
-            `[count():] </rptools/wiki/count_(roll_option)>`__ and
-            `[while():] </rptools/wiki/while_(roll_option)>`__, this is
+            `[count():] <count_(roll_option)>`__ and
+            `[while():] <while_(roll_option)>`__, this is
             an optional separator to show between each output line from
             the loop; the default is a comma.
 
@@ -704,7 +704,7 @@ Introduction to Macro Loops - MapToolDoc
             :name: example-1-basic-countdown-1
 
          This example illustrates how the
-         `[for():] </rptools/wiki/for_(roll_option)>`__ option's various
+         `[for():] <for_(roll_option)>`__ option's various
          components work. As with the previous looping structure, this
          is a basic countdown:
 
@@ -736,7 +736,7 @@ Introduction to Macro Loops - MapToolDoc
             :name: example-2-creating-a-table-with-multiple-rows
 
          This example illustrates a practical use of the
-         `[for():] </rptools/wiki/for_(roll_option)>`__ option to create
+         `[for():] <for_(roll_option)>`__ option to create
          a table that will be sent to chat, with a number of rows based
          on how many properties are in a String List.
 
@@ -759,20 +759,20 @@ Introduction to Macro Loops - MapToolDoc
 
          -  ``theList`` is simply a string list variable containing four
             elements
-         -  `listCount() </rptools/wiki/listCount>`__ is a function
+         -  `listCount() <listCount>`__ is a function
             that, when you put the name of a string list variable in it,
             will return the number of elements in the string list
          -  We create the beginning of an HTML table by using the
             <table> tag
-         -  The `[for():] </rptools/wiki/for_(roll_option)>`__ loop here
+         -  The `[for():] <for_(roll_option)>`__ loop here
             uses the counter variable ``i``, which starts at 0, and
             counts up until it reaches ``numberOfRows``. It increases by
             1 each loop, and the default separator has been changed to
             ``""`` so that no extraneous commas are printed to chat.
          -  Inside the loop, we
-            `concatenate </rptools/wiki/Introduction_to_Macro_Writing#String_Concatenation>`__
+            `concatenate <Introduction_to_Macro_Writing#String_Concatenation>`__
             the HTML tags for table rows and table cells around the
-            function `listGet() </rptools/wiki/listGet>`__. This
+            function `listGet() <listGet>`__. This
             function will retrieve, from a string list variable, the
             value of the element that is at the position specified in
             the second argument. In this case, we say, "get from the
@@ -797,7 +797,7 @@ Introduction to Macro Loops - MapToolDoc
          .. rubric:: FOREACH: A Very Special FOR
             :name: foreach-a-very-special-for
 
-         The `[for():] </rptools/wiki/for_(roll_option)>`__ loop
+         The `[for():] <for_(roll_option)>`__ loop
          structure lets you repeat a set of commands a specified number
          of times, with flexible beginning, ending, and steps. That
          looping method is applicable to many things, and can be looked
@@ -808,20 +808,20 @@ Introduction to Macro Loops - MapToolDoc
          However, frequently loops are used to go through a list of
          items that is already established, and it is kind of a pain to
          have to make sure to count each list, then assign the variables
-         in a `[for():] </rptools/wiki/for_(roll_option)>`__ loop, and
+         in a `[for():] <for_(roll_option)>`__ loop, and
          make sure you can figure out how the ``counter`` variable
          corresponds to the position of an item in a list. So, a
          different kind of for loop - one that handles most of that
          without bothering *you* about it - also exists. This one is
-         called `[foreach():] </rptools/wiki/foreach_(roll_option)>`__.
+         called `[foreach():] <foreach_(roll_option)>`__.
 
-         In a `[foreach():] </rptools/wiki/foreach_(roll_option)>`__
+         In a `[foreach():] <foreach_(roll_option)>`__
          loop, the looping structure is given two arguments: the name of
          a string list, and a variable. The variable takes on the value
          of each element in the list, in turn, as the looping structure
          iterates. That's a bit confusing, so first, let's look at the
          general structure of a
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__ loop:
+         `[foreach():] <foreach_(roll_option)>`__ loop:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -831,7 +831,7 @@ Introduction to Macro Loops - MapToolDoc
 
                      [foreach(item, list): command]
 
-         -  `[foreach():] </rptools/wiki/foreach_(roll_option)>`__: once
+         -  `[foreach():] <foreach_(roll_option)>`__: once
             again, the roll option itself.
          -  **item**: this is the variable that takes on the value of
             each successive element in the list or property
@@ -864,10 +864,10 @@ Introduction to Macro Loops - MapToolDoc
 
          So instead, what if you created a single variable that was a
          list of the names of each target? Then, you can use the
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__ loop to
+         `[foreach():] <foreach_(roll_option)>`__ loop to
          go through the list one by one and let you make the roll with a
          very efficient little bit of code.
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__ may be a
+         `[foreach():] <foreach_(roll_option)>`__ may be a
          little hard to explain, but once you understand what it can do,
          you will see how useful it can be!
 
@@ -890,7 +890,7 @@ Introduction to Macro Loops - MapToolDoc
                      [foreach(item, theList, "<br>"): item]
 
          In the above macro, we've created a
-         `[foreach():] </rptools/wiki/foreach_(roll_option)>`__ loop
+         `[foreach():] <foreach_(roll_option)>`__ loop
          that takes the list variable ``theList``, and goes to each
          element in that list, and assigns the value of that element to
          the variable ``item``. We've set the separator to the HTML code
@@ -941,7 +941,7 @@ Introduction to Macro Loops - MapToolDoc
             value of the first item in ``targetList`` - in other words,
             ``target`` is equal to ``Orc 1``. The second time through,
             ``target`` equals the *second* item in the list, and so on.
-         -  The `[code():] </rptools/wiki/code_(roll_option)>`__ roll
+         -  The `[code():] <code_(roll_option)>`__ roll
             option is used so we can execute multiple commands (and
             because it sometimes makes formatting the output a little
             easier)

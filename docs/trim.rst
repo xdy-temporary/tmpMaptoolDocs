@@ -118,7 +118,7 @@ trim - MapToolDoc
 
          .. container:: template_also
 
-            `substring() </rptools/wiki/substring>`__
+            `substring() <substring>`__
 
       .. container:: printfooter
 

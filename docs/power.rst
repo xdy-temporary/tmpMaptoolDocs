@@ -144,7 +144,7 @@ power - MapToolDoc
          .. container:: template_also
 
             `Exponentiation <http://en.wikipedia.org/wiki/Exponentiation>`__,
-            `ln() </rptools/wiki/ln>`__
+            `ln() <ln>`__
 
       .. container:: printfooter
 

@@ -50,7 +50,7 @@ deleteStrProp - MapToolDoc
          .. container:: template_description
 
             Returns a copy of the `string property
-            list </rptools/wiki/Macros:string_property_list>`__ with the
+            list <Macros:string_property_list>`__ with the
             specified key removed.
 
          .. rubric:: Usage

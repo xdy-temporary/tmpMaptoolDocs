@@ -77,7 +77,7 @@ File:Newprops-derived.png - MapToolDoc
             ======= =================================================================== ================================================= ================= ====================================================================================================================================================================== =======
             \       Date/Time                                                           Thumbnail                                         Dimensions        User                                                                                                                                                                   Comment
             ======= =================================================================== ================================================= ================= ====================================================================================================================================================================== =======
-            current `12:39, 3 April 2009 </maptool/images/a/ae/Newprops-derived.png>`__ |Thumbnail for version as of 12:39, 3 April 2009| 635 × 605 (30 KB) `Cclouser </rptools/wiki/User:Cclouser>`__\ (\ \ `Talk </rptools/wiki/User_talk:Cclouser>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Cclouser>`__\ \ )
+            current `12:39, 3 April 2009 </maptool/images/a/ae/Newprops-derived.png>`__ |Thumbnail for version as of 12:39, 3 April 2009| 635 × 605 (30 KB) `Cclouser <User:Cclouser>`__\ (\ \ `Talk <User_talk:Cclouser>`__\ \ \|\ \ `contribs <Special:Contributions/Cclouser>`__\ \ )
             ======= =================================================================== ================================================= ================= ====================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -91,17 +91,17 @@ File:Newprops-derived.png - MapToolDoc
             The following 6 pages link to this file:
 
             -  `Introduction to
-               Properties </rptools/wiki/Introduction_to_Properties>`__
+               Properties <Introduction_to_Properties>`__
             -  `Introduction to
-               Properties/es </rptools/wiki/Introduction_to_Properties/es>`__
+               Properties/es <Introduction_to_Properties/es>`__
             -  `Introduction to
-               Properties/fr </rptools/wiki/Introduction_to_Properties/fr>`__
+               Properties/fr <Introduction_to_Properties/fr>`__
             -  `Introduction to
-               Properties/it </rptools/wiki/Introduction_to_Properties/it>`__
+               Properties/it <Introduction_to_Properties/it>`__
             -  `Introduction to
-               Properties/ja </rptools/wiki/Introduction_to_Properties/ja>`__
+               Properties/ja <Introduction_to_Properties/ja>`__
             -  `Introduction to
-               Properties/ko </rptools/wiki/Introduction_to_Properties/ko>`__
+               Properties/ko <Introduction_to_Properties/ko>`__
 
       .. container:: printfooter
 

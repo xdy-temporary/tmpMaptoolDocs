@@ -73,7 +73,7 @@ File:2Plus2Result.png - MapToolDoc
             ======= =================================================================== ===================================================== =============== =========================================================================================================================================================================================== =======
             \       Date/Time                                                           Thumbnail                                             Dimensions      User                                                                                                                                                                                        Comment
             ======= =================================================================== ===================================================== =============== =========================================================================================================================================================================================== =======
-            current `19:36, 16 December 2008 </maptool/images/9/96/2Plus2Result.png>`__ |Thumbnail for version as of 19:36, 16 December 2008| 332 × 87 (9 KB) `Craig </rptools/wiki/User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Craig>`__\ \ )
+            current `19:36, 16 December 2008 </maptool/images/9/96/2Plus2Result.png>`__ |Thumbnail for version as of 19:36, 16 December 2008| 332 × 87 (9 KB) `Craig <User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Craig>`__\ \ )
             ======= =================================================================== ===================================================== =============== =========================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -86,10 +86,10 @@ File:2Plus2Result.png - MapToolDoc
 
             The following 3 pages link to this file:
 
-            -  `Macros:Roll:types </rptools/wiki/Macros:Roll:types>`__
-            -  `Macros:Roll:types/ja </rptools/wiki/Macros:Roll:types/ja>`__
+            -  `Macros:Roll:types <Macros:Roll:types>`__
+            -  `Macros:Roll:types/ja <Macros:Roll:types/ja>`__
             -  `result (roll
-               option) </rptools/wiki/result_(roll_option)>`__
+               option) <result_(roll_option)>`__
 
       .. container:: printfooter
 

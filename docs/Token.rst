@@ -43,7 +43,7 @@ Token - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/Token/ja>`__\ 
+             • \ `日本語 <Token/ja>`__\ 
 
          .. container:: toc
             :name: toc
@@ -68,8 +68,8 @@ Token - MapToolDoc
          Every object that can be dropped down on a map and manipulated
          by the GM or the players is a *token* of some type. The
          possible token types are `Image
-         Token </rptools/wiki/Image_Token>`__, `Library
-         Token </rptools/wiki/Library_Token>`__, `PC
+         Token <Image_Token>`__, `Library
+         Token <Library_Token>`__, `PC
          Token </maptool/index.php?title=PC_Token&action=edit&redlink=1>`__,
          and `NPC
          Token </maptool/index.php?title=NPC_Token&action=edit&redlink=1>`__.

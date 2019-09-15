@@ -62,7 +62,7 @@ setPenWidth - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -115,8 +115,8 @@ setPenWidth - MapToolDoc
 
          .. container:: template_also
 
-            `getPenWidth() </rptools/wiki/getPenWidth>`__
-            `setPenColor() </rptools/wiki/setPenColor>`__
+            `getPenWidth() <getPenWidth>`__
+            `setPenColor() <setPenColor>`__
 
       .. container:: printfooter
 

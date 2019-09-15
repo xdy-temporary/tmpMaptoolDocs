@@ -89,7 +89,7 @@ Creating a List Input with Names and Images - MapToolDoc
          string list functions and token functions to generate a dialog
          that presents both the names and token images for a list of
          tokens. The resulting macro will generate an
-         `input() </rptools/wiki/Macros:Functions:input>`__ dialog
+         `input() <Macros:Functions:input>`__ dialog
          similar to the one shown to the right; which, in this macro, is
          used to select a token and change its name. The macro
          illustrated here is based on a macro example provided by RPTool
@@ -99,10 +99,10 @@ Creating a List Input with Names and Images - MapToolDoc
             :name: assumptions
 
          This macro requires a `string
-         list </rptools/wiki/Macros:string_list>`__ containing the names
+         list <Macros:string_list>`__ containing the names
          of a collection of tokens. This list can be generated in
          numerous ways; in this tutorial it is generated using
-         `getExposedTokenNames() </rptools/wiki/Macros:Functions:getExposedTokenNames>`__.
+         `getExposedTokenNames() <Macros:Functions:getExposedTokenNames>`__.
 
          We will also assume that there are 4 tokens visible on the map,
          named (imaginatively) "Token 1", "Token 2", "Token 3", and
@@ -112,7 +112,7 @@ Creating a List Input with Names and Images - MapToolDoc
             :name: macro-code-and-explanation
 
          The `full macro
-         code </rptools/wiki/Tutorials:Macros:List_with_images_fullcode>`__
+         code <Tutorials:Macros:List_with_images_fullcode>`__
          is broken into functional groupings and explained below.
 
          .. rubric:: Get and Assign String Lists
@@ -131,8 +131,8 @@ Creating a List Input with Names and Images - MapToolDoc
                      [H: imgList = tokenList]
 
          Uses
-         `getExposedTokenNames() </rptools/wiki/Macros:Functions:getExposedTokenNames>`__
-         to create a `string list </rptools/wiki/Macros:string_list>`__
+         `getExposedTokenNames() <Macros:Functions:getExposedTokenNames>`__
+         to create a `string list <Macros:string_list>`__
          containing the token names of all tokens that are not hidden by
          `fog of
          war </maptool/index.php?title=Map:fog_of_war&action=edit&redlink=1>`__,
@@ -198,26 +198,26 @@ Creating a List Input with Names and Images - MapToolDoc
                      }]
 
          The first line in this segment uses the
-         `listCount() </rptools/wiki/Macros:Functions:listCount>`__
+         `listCount() <Macros:Functions:listCount>`__
          function to get the number of entries in *imgList*. Following
          that, a `[COUNT():
-         ] </rptools/wiki/Macros:Branching_and_Looping>`__ roll option
+         ] <Macros:Branching_and_Looping>`__ roll option
          is used along with the `CODE:{
-         } </rptools/wiki/Macros:Branching_and_Looping>`__ option to
+         } <Macros:Branching_and_Looping>`__ option to
          execute the three commands for each entry in the *imgList*. The
          code in lines 5-7 do the following:
 
          -  Line 5 uses
-            `listGet() </rptools/wiki/Macros:Functions:listGet>`__ to
+            `listGet() <Macros:Functions:listGet>`__ to
             get the value of the entry in *imgList* with the index
             *roll.count* (in other words, for the first loop,
             *roll.count* is 0; thus, listGet() retrieves entry 0 in
             *imgList*). The value returned is assigned to the variable
             *tokenName*.
          -  Line 6 uses the `[token():
-            ] </rptools/wiki/Macros:Branching_and_Looping>`__ roll
+            ] <Macros:Branching_and_Looping>`__ roll
             option to execute the function
-            `getTokenImage() </rptools/wiki/Macros:Functions:getTokenImage>`__
+            `getTokenImage() <Macros:Functions:getTokenImage>`__
             against the token identified in line 5. The result of this
             line of code is to obtain the image asset URL of the token's
             image and assign that value to the variable *image* (image
@@ -225,7 +225,7 @@ Creating a List Input with Names and Images - MapToolDoc
             the location of a specific image (be it a map, a state, or a
             token image).
          -  Line 7 then modifies *imgList* using
-            `listReplace() </rptools/wiki/Macros:Functions:listReplace>`__
+            `listReplace() <Macros:Functions:listReplace>`__
             to replace the current entry in *imgList* with a new entry
             composed of the token name and the token's image (in other
             words, each line in *imgList* contains both a name and an
@@ -271,7 +271,7 @@ Creating a List Input with Names and Images - MapToolDoc
                      [h:abort(status)]
 
          This segment uses the value in *imgList* in conjunction with
-         the `input() </rptools/wiki/Macros:Functions:input>`__ function
+         the `input() <Macros:Functions:input>`__ function
          to present a dialog with a drop-down list showing both token
          names and token images.
 
@@ -320,7 +320,7 @@ Creating a List Input with Names and Images - MapToolDoc
             asset URL!), we instead return to the original *tokenList*
             variable (this is why we have two lists!). We retrieve the
             selected token's name via the
-            `listGet() </rptools/wiki/Macros:Functions:listGet>`__
+            `listGet() <Macros:Functions:listGet>`__
             function, telling it to look in the list *tokenList* for the
             item with the corresponding index.
 
@@ -333,7 +333,7 @@ Creating a List Input with Names and Images - MapToolDoc
                know Token 1 is also the first item in *tokenList*.
 
          #. We then use the
-            `switchToken() </rptools/wiki/Macros:Functions:switchToken>`__
+            `switchToken() <Macros:Functions:switchToken>`__
             function to change the "focus" of all subsequent macro
             commands to the token selected by the user.
          #. The final two lines change the token name to the value

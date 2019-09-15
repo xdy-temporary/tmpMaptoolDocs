@@ -73,7 +73,7 @@ File:lan1.png - MapToolDoc
             ======= ======================================================== ================================================== ================= ============================================================================================================================================================================================================================================================ =======
             \       Date/Time                                                Thumbnail                                          Dimensions        User                                                                                                                                                                                                                                                         Comment
             ======= ======================================================== ================================================== ================= ============================================================================================================================================================================================================================================================ =======
-            current `08:21, 21 March 2013 </maptool/images/3/3d/lan1.png>`__ |Thumbnail for version as of 08:21, 21 March 2013| 583 × 146 (11 KB) `Coveredinfish </maptool/index.php?title=User:Coveredinfish&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Coveredinfish&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Coveredinfish>`__\ \ )
+            current `08:21, 21 March 2013 </maptool/images/3/3d/lan1.png>`__ |Thumbnail for version as of 08:21, 21 March 2013| 583 × 146 (11 KB) `Coveredinfish </maptool/index.php?title=User:Coveredinfish&action=edit&redlink=1>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Coveredinfish&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Coveredinfish>`__\ \ )
             ======= ======================================================== ================================================== ================= ============================================================================================================================================================================================================================================================ =======
 
          -  You cannot overwrite this file.
@@ -87,7 +87,7 @@ File:lan1.png - MapToolDoc
             The following page links to this file:
 
             -  `Network Connection Problems and
-               Solutions </rptools/wiki/Network_Connection_Problems_and_Solutions>`__
+               Solutions <Network_Connection_Problems_and_Solutions>`__
 
       .. container:: printfooter
 

@@ -56,7 +56,7 @@ setNotes - MapToolDoc
 
             Sets the
             `notes </maptool/index.php?title=Token:notes&action=edit&redlink=1>`__
-            of the `Current Token </rptools/wiki/Current_Token>`__.
+            of the `Current Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -86,7 +86,7 @@ setNotes - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -94,7 +94,7 @@ setNotes - MapToolDoc
          | 
 
          | 
-         | See also `getNotes </rptools/wiki/getNotes>`__
+         | See also `getNotes <getNotes>`__
 
       .. container:: printfooter
 

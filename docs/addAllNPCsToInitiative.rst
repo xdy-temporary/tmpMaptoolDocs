@@ -62,7 +62,7 @@ addAllNPCsToInitiative - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_description
 
@@ -73,12 +73,12 @@ addAllNPCsToInitiative - MapToolDoc
             to the `initiative
             panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__.
             This function returns the number of
-            `tokens </rptools/wiki/Token:token>`__ that were added to
+            `tokens <Token:token>`__ that were added to
             the `initiative
             panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__.
             This function will not assign any initiative value to the
-            `tokens </rptools/wiki/Token:token>`__, you can use the
-            ```setInitiative()`` </rptools/wiki/setInitiative>`__
+            `tokens <Token:token>`__, you can use the
+            ```setInitiative()`` <setInitiative>`__
             function
 
             to set the initiative value of tokens.
@@ -122,9 +122,9 @@ addAllNPCsToInitiative - MapToolDoc
 
          .. container:: template_also
 
-            `setInitiative() </rptools/wiki/setInitiative>`__
-            `addAllPCsToInitiative() </rptools/wiki/addAllPCsToInitiative>`__
-            `addAllToInitiative() </rptools/wiki/addAllToInitiative>`__
+            `setInitiative() <setInitiative>`__
+            `addAllPCsToInitiative() <addAllPCsToInitiative>`__
+            `addAllToInitiative() <addAllToInitiative>`__
 
       .. container:: printfooter
 

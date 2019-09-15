@@ -50,8 +50,8 @@ encode - MapToolDoc
          .. container:: template_description
 
             Encodes a string that was can be decoded with the
-            `decode() </rptools/wiki/decode>`__ function. The
-            `decode() </rptools/wiki/decode>`__ and encode() functions
+            `decode() <decode>`__ function. The
+            `decode() <decode>`__ and encode() functions
             can be used to encode a property list so that it can be
             embedded within another property list.
 

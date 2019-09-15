@@ -65,39 +65,39 @@ Category:JSON Function - MapToolDoc
                         .. rubric:: J
                            :name: j
 
-                        -  `json.append </rptools/wiki/json.append>`__
-                        -  `json.contains </rptools/wiki/json.contains>`__
-                        -  `json.count </rptools/wiki/json.count>`__
-                        -  `json.difference </rptools/wiki/json.difference>`__
-                        -  `json.equals </rptools/wiki/json.equals>`__
-                        -  `json.evaluate </rptools/wiki/json.evaluate>`__
-                        -  `json.fields </rptools/wiki/json.fields>`__
-                        -  `json.fromList </rptools/wiki/json.fromList>`__
-                        -  `json.fromStrProp </rptools/wiki/json.fromStrProp>`__
-                        -  `json.get </rptools/wiki/json.get>`__
-                        -  `json.indent </rptools/wiki/json.indent>`__
-                        -  `json.indexOf </rptools/wiki/json.indexOf>`__
-                        -  `json.intersection </rptools/wiki/json.intersection>`__
-                        -  `json.isEmpty </rptools/wiki/json.isEmpty>`__
-                        -  `json.isSubset </rptools/wiki/json.isSubset>`__
-                        -  `json.length </rptools/wiki/json.length>`__
-                        -  `json.merge </rptools/wiki/json.merge>`__
-                        -  `json.objrolls </rptools/wiki/json.objrolls>`__
-                        -  `json.path.delete </rptools/wiki/json.path.delete>`__
-                        -  `json.path.read </rptools/wiki/json.path.read>`__
-                        -  `json.remove </rptools/wiki/json.remove>`__
-                        -  `json.removeAll </rptools/wiki/json.removeAll>`__
-                        -  `json.removeFirst </rptools/wiki/json.removeFirst>`__
-                        -  `json.reverse </rptools/wiki/json.reverse>`__
-                        -  `json.rolls </rptools/wiki/json.rolls>`__
-                        -  `json.set </rptools/wiki/json.set>`__
-                        -  `json.shuffle </rptools/wiki/json.shuffle>`__
-                        -  `json.sort </rptools/wiki/json.sort>`__
-                        -  `json.toList </rptools/wiki/json.toList>`__
-                        -  `json.toStrProp </rptools/wiki/json.toStrProp>`__
-                        -  `json.type </rptools/wiki/json.type>`__
-                        -  `json.union </rptools/wiki/json.union>`__
-                        -  `json.unique </rptools/wiki/json.unique>`__
+                        -  `json.append <json.append>`__
+                        -  `json.contains <json.contains>`__
+                        -  `json.count <json.count>`__
+                        -  `json.difference <json.difference>`__
+                        -  `json.equals <json.equals>`__
+                        -  `json.evaluate <json.evaluate>`__
+                        -  `json.fields <json.fields>`__
+                        -  `json.fromList <json.fromList>`__
+                        -  `json.fromStrProp <json.fromStrProp>`__
+                        -  `json.get <json.get>`__
+                        -  `json.indent <json.indent>`__
+                        -  `json.indexOf <json.indexOf>`__
+                        -  `json.intersection <json.intersection>`__
+                        -  `json.isEmpty <json.isEmpty>`__
+                        -  `json.isSubset <json.isSubset>`__
+                        -  `json.length <json.length>`__
+                        -  `json.merge <json.merge>`__
+                        -  `json.objrolls <json.objrolls>`__
+                        -  `json.path.delete <json.path.delete>`__
+                        -  `json.path.read <json.path.read>`__
+                        -  `json.remove <json.remove>`__
+                        -  `json.removeAll <json.removeAll>`__
+                        -  `json.removeFirst <json.removeFirst>`__
+                        -  `json.reverse <json.reverse>`__
+                        -  `json.rolls <json.rolls>`__
+                        -  `json.set <json.set>`__
+                        -  `json.shuffle <json.shuffle>`__
+                        -  `json.sort <json.sort>`__
+                        -  `json.toList <json.toList>`__
+                        -  `json.toStrProp <json.toStrProp>`__
+                        -  `json.type <json.type>`__
+                        -  `json.union <json.union>`__
+                        -  `json.unique <json.unique>`__
 
       .. container:: printfooter
 

@@ -75,9 +75,9 @@ getTableVisible - MapToolDoc
 
          .. container:: template_also
 
-            `setTableVisible() </rptools/wiki/setTableVisible>`__
-            `getTableAccess() </rptools/wiki/getTableAccess>`__
-            `setTableAccess() </rptools/wiki/setTableAccess>`__
+            `setTableVisible() <setTableVisible>`__
+            `getTableAccess() <getTableAccess>`__
+            `setTableAccess() <setTableAccess>`__
 
       .. container:: printfooter
 

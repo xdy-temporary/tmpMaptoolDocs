@@ -62,7 +62,7 @@ getTableEntry - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -122,8 +122,8 @@ getTableEntry - MapToolDoc
 
          .. container:: template_also
 
-            `addTableEntry() </rptools/wiki/addTableEntry>`__
-            `setTableEntry() </rptools/wiki/setTableEntry>`__
+            `addTableEntry() <addTableEntry>`__
+            `setTableEntry() <setTableEntry>`__
 
       .. container:: printfooter
 

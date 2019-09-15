@@ -46,7 +46,7 @@ findToken - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -54,12 +54,12 @@ findToken - MapToolDoc
 
          .. container:: template_description
 
-            Finds a `token </rptools/wiki/Token:token>`__ on the current
+            Finds a `token <Token:token>`__ on the current
             `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
-            by the `token </rptools/wiki/Token:token>`__ name, GM name,
+            by the `token <Token:token>`__ name, GM name,
             or ID and returns its id. If the optional *mapname*
             parameter is supplied that map will be searched instead. If
-            the `token </rptools/wiki/Token:token>`__ is not found then
+            the `token <Token:token>`__ is not found then
             an empty string "" is returned.
 
          .. rubric:: Usage

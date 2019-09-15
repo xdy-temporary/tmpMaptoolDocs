@@ -72,9 +72,9 @@ setState - MapToolDoc
 
          .. container:: template_description
 
-            Sets the value of the `State </rptools/wiki/State>`__ on
-            `Token </rptools/wiki/Token>`__. If The value is
-            ``false``\ (``0``) then the `State </rptools/wiki/State>`__
+            Sets the value of the `State <State>`__ on
+            `Token <Token>`__. If The value is
+            ``false``\ (``0``) then the `State <State>`__
             is unset if it is non-zero(\ ``true``\ (``1``)) then it is
             set.
 
@@ -103,13 +103,13 @@ setState - MapToolDoc
          -  ``value`` - The value of the state to set, ``true``\ (``1``)
             or ``false``\ (``0``).
          -  ``id`` - The ``id`` of the token to have the
-            `State </rptools/wiki/State>`__ set. Defaults to the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            `State <State>`__ set. Defaults to the
+            `Current Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -120,8 +120,8 @@ setState - MapToolDoc
          .. container:: template_examples
 
             To set the "Dead" `Token
-            State </rptools/wiki/Token:state>`__ on the `Current
-            Token </rptools/wiki/Current_Token>`__
+            State <Token:state>`__ on the `Current
+            Token <Current_Token>`__
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -132,8 +132,8 @@ setState - MapToolDoc
                         [h: setState("Dead", 1)]
 
             To reset the "Dead" `Token
-            State </rptools/wiki/Token:state>`__ on the `Current
-            Token </rptools/wiki/Current_Token>`__
+            State <Token:state>`__ on the `Current
+            Token <Current_Token>`__
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -148,10 +148,10 @@ setState - MapToolDoc
 
          .. container:: template_also
 
-            `State </rptools/wiki/State>`__,
-            `getState() </rptools/wiki/getState>`__,
+            `State <State>`__,
+            `getState() <getState>`__,
 
-            `setAllStates() </rptools/wiki/setAllStates>`__
+            `setAllStates() <setAllStates>`__
 
          .. rubric:: Version Changes
             :name: version-changes

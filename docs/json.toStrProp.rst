@@ -50,8 +50,8 @@ json.toStrProp - MapToolDoc
          .. container:: template_description
 
             Creates a `string
-            list </rptools/wiki/Macros:string_property_list>`__ from a
-            `json object </rptools/wiki/JSON_Object>`__. With the
+            list <Macros:string_property_list>`__ from a
+            `json object <JSON_Object>`__. With the
             specified delimiter, if a delimiter is not provided then the
             default value of ';' is used.
 

@@ -50,9 +50,9 @@ json.append - MapToolDoc
          .. container:: template_description
 
             Appends values to the end of a `JSON
-            Array </rptools/wiki/JSON_Array>`__. An empty string ("")
+            Array <JSON_Array>`__. An empty string ("")
             can be used to represent an empty `JSON
-            Array </rptools/wiki/JSON_Array>`__ to append the values to.
+            Array <JSON_Array>`__ to append the values to.
 
          .. rubric:: Usage
             :name: usage

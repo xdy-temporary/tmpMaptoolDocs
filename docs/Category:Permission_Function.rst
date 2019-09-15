@@ -64,14 +64,14 @@ Category:Permission Function - MapToolDoc
                   .. rubric:: H
                      :name: h
 
-                  -  `hasImpersonated </rptools/wiki/hasImpersonated>`__
+                  -  `hasImpersonated <hasImpersonated>`__
 
                   .. rubric:: I
                      :name: i
 
-                  -  `isExternalMacroAccessAllowed </rptools/wiki/isExternalMacroAccessAllowed>`__
-                  -  `isGM </rptools/wiki/isGM>`__
-                  -  `isTrusted </rptools/wiki/isTrusted>`__
+                  -  `isExternalMacroAccessAllowed <isExternalMacroAccessAllowed>`__
+                  -  `isGM <isGM>`__
+                  -  `isTrusted <isTrusted>`__
 
       .. container:: printfooter
 

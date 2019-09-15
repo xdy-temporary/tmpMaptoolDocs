@@ -62,7 +62,7 @@ resetSize - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -70,10 +70,10 @@ resetSize - MapToolDoc
 
          .. container:: template_description
 
-            Resets the `Size </rptools/wiki/Size>`__ of a
-            `Token </rptools/wiki/Token>`__ to the default for grid type
+            Resets the `Size <Size>`__ of a
+            `Token <Token>`__ to the default for grid type
             of the map it occupies. See
-            `setSize() </rptools/wiki/setSize>`__ for details about the
+            `setSize() <setSize>`__ for details about the
             default size for different grid types.
 
          .. rubric:: Usage
@@ -98,7 +98,7 @@ resetSize - MapToolDoc
          **Parameters**
 
          -  ``id`` - The token ``id`` of the token to reset, defaults to
-            the `Current Token </rptools/wiki/Current_Token>`__.
+            the `Current Token <Current_Token>`__.
          -  ``mapName`` - Optional map name to find the token. Defaults
             to current map.
 
@@ -142,8 +142,8 @@ resetSize - MapToolDoc
 
          .. container:: template_also
 
-            `getSize() </rptools/wiki/getSize>`__
-            `setSize() </rptools/wiki/setSize>`__
+            `getSize() <getSize>`__
+            `setSize() <setSize>`__
 
          .. rubric:: Version Changes
             :name: version-changes

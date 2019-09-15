@@ -43,7 +43,7 @@ Target a Visible NPC - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          This macro allows a player to pick-up a NPC among those he can
          currently see. Note that this is about the player's view and
@@ -52,9 +52,9 @@ Target a Visible NPC - MapToolDoc
          actions.
 
          Basically, the macro gets the list of all NPCs available (with
-         `getNPCNames() </rptools/wiki/getNPCNames>`__) and the list of
+         `getNPCNames() <getNPCNames>`__) and the list of
          all visible tokens (with
-         `getVisibleTokenNames() </rptools/wiki/getVisibleTokenNames>`__).
+         `getVisibleTokenNames() <getVisibleTokenNames>`__).
          Then, the intersection will provide visible NPCs.
 
          .. rubric:: Macro

@@ -66,12 +66,12 @@ sendToBack - MapToolDoc
          .. container:: template_description
 
             Adjust the z-order (or draw order) of the
-            `Token </rptools/wiki/Token>`__ so that it is drawn before
-            all other `Tokens </rptools/wiki/Token>`__ on the same `Map
+            `Token <Token>`__ so that it is drawn before
+            all other `Tokens <Token>`__ on the same `Map
             Layer </maptool/index.php?title=Map_Layer&action=edit&redlink=1>`__,
             this has the effect of making the Token appear to be in back
-            of the other `Tokens </rptools/wiki/Token>`__ as it will be
-            obscured by other `Tokens </rptools/wiki/Token>`__ on the
+            of the other `Tokens <Token>`__ as it will be
+            obscured by other `Tokens <Token>`__ on the
             same `Map
             Layer </maptool/index.php?title=Map_Layer&action=edit&redlink=1>`__
             in the same location.
@@ -99,12 +99,12 @@ sendToBack - MapToolDoc
 
          -  ``id`` - The token ``id`` or name of the token that has its
             z-order changed, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -114,7 +114,7 @@ sendToBack - MapToolDoc
 
          .. container:: template_examples
 
-            Sends the `Current Token </rptools/wiki/Current_Token>`__ to
+            Sends the `Current Token <Current_Token>`__ to
             the lowest z-order.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -156,7 +156,7 @@ sendToBack - MapToolDoc
 
          .. container:: template_also
 
-            `bringToFront() </rptools/wiki/bringToFront>`__
+            `bringToFront() <bringToFront>`__
 
          .. rubric:: Version Changes
             :name: version-changes

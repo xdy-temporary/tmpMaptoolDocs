@@ -50,13 +50,13 @@ setLibProperty - MapToolDoc
          .. container:: template_description
 
             Sets the `Token
-            Property </rptools/wiki/Token:token_property>`__ on a
-            `Library Token </rptools/wiki/Token:library_token>`__. if
+            Property <Token:token_property>`__ on a
+            `Library Token <Token:library_token>`__. if
             the name of the `Library
-            Token </rptools/wiki/Token:library_token>`__ is not
+            Token <Token:library_token>`__ is not
             specified then the `Token
-            Property </rptools/wiki/Token:token_property>`__ is set on
-            the `Library Token </rptools/wiki/Token:library_token>`__
+            Property <Token:token_property>`__ is set on
+            the `Library Token <Token:library_token>`__
             that the macro is running from.
 
          .. rubric:: Usage
@@ -80,7 +80,7 @@ setLibProperty - MapToolDoc
          .. container:: template_examples
 
             Set a property on the `Library
-            Token </rptools/wiki/Token:library_token>`__ that the macro
+            Token <Token:library_token>`__ that the macro
             is running from.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -92,7 +92,7 @@ setLibProperty - MapToolDoc
                         [h: setLibProperty("defaultStrength", 10)]
 
             Set a property on a specifig `Library
-            Token </rptools/wiki/Token:library_token>`__.
+            Token <Token:library_token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

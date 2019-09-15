@@ -46,7 +46,7 @@ setTableImage - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -81,8 +81,8 @@ setTableImage - MapToolDoc
 
          .. container:: template_also
 
-            `getTableImage() </rptools/wiki/getTableImage>`__
-            `table() </rptools/wiki/table>`__
+            `getTableImage() <getTableImage>`__
+            `table() <table>`__
 
       .. container:: printfooter
 

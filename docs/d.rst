@@ -173,9 +173,9 @@ roll - MapToolDoc
             as the total.
 
             **See also**
-            `[count():] </rptools/wiki/count_(roll_option)>`__,
-            `listAppend() </rptools/wiki/listAppend>`__ and
-            `listSort() </rptools/wiki/listSort>`__.
+            `[count():] <count_(roll_option)>`__,
+            `listAppend() <listAppend>`__ and
+            `listSort() <listSort>`__.
              
 
          .. rubric:: See Also
@@ -184,7 +184,7 @@ roll - MapToolDoc
          .. container:: template_also
 
             For another method of rolling dice, see `Dice
-            Expressions </rptools/wiki/Dice_Expressions>`__.
+            Expressions <Dice_Expressions>`__.
 
       .. container:: printfooter
 

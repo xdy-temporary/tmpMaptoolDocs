@@ -65,9 +65,9 @@ json.unique - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `JSON Array </rptools/wiki/JSON_Array>`__ with
+            Returns a `JSON Array <JSON_Array>`__ with
             each value that occurs in the source `JSON
-            Array </rptools/wiki/JSON_Array>`__ occurring only once. The
+            Array <JSON_Array>`__ occurring only once. The
             relative order of the values in the array may not be
             preserved.
 
@@ -84,7 +84,7 @@ json.unique - MapToolDoc
 
          **Parameters**
 
-         -  ``array`` - The `JSON Array </rptools/wiki/JSON_Array>`__ to
+         -  ``array`` - The `JSON Array <JSON_Array>`__ to
             return only unique values from.
 
          .. rubric:: Example
@@ -93,15 +93,15 @@ json.unique - MapToolDoc
          .. container:: template_example
 
             Lets say you have a `JSON
-            Array </rptools/wiki/JSON_Array>`__ that contains the
-            following `Token </rptools/wiki/Token>`__ names:
+            Array <JSON_Array>`__ that contains the
+            following `Token <Token>`__ names:
             ``["Hero", "Dragon"]``, and you use ``getPCNames()`` to
             return the names of
             the `PC
             Tokens </maptool/index.php?title=PC_Token&action=edit&redlink=1>`__,
             you could use the following code to generate a `JSON
-            Array </rptools/wiki/JSON_Array>`__ that contains the values
-            in both `JSON Arrays </rptools/wiki/JSON_Array>`__ with no
+            Array <JSON_Array>`__ that contains the values
+            in both `JSON Arrays <JSON_Array>`__ with no
             value present more than once.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -141,8 +141,8 @@ json.unique - MapToolDoc
 
          .. container:: template_also
 
-            `json.merge() </rptools/wiki/json.merge>`__
-            `json.union() </rptools/wiki/json.union>`__
+            `json.merge() <json.merge>`__
+            `json.union() <json.union>`__
 
       .. container:: printfooter
 

@@ -74,7 +74,7 @@ File:prefs interactions tokens.jpg - MapToolDoc
             ======= ============================================================================ ================================================= ================= =================================================================================================================================================================================================================== =======
             \       Date/Time                                                                    Thumbnail                                         Dimensions        User                                                                                                                                                                                                                Comment
             ======= ============================================================================ ================================================= ================= =================================================================================================================================================================================================================== =======
-            current `19:54, 2 April 2009 </maptool/images/b/bd/prefs_interactions_tokens.jpg>`__ |Thumbnail for version as of 19:54, 2 April 2009| 280 × 255 (33 KB) `Verisimilar </rptools/wiki/User:Verisimilar>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Verisimilar&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Verisimilar>`__\ \ )
+            current `19:54, 2 April 2009 </maptool/images/b/bd/prefs_interactions_tokens.jpg>`__ |Thumbnail for version as of 19:54, 2 April 2009| 280 × 255 (33 KB) `Verisimilar <User:Verisimilar>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Verisimilar&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Verisimilar>`__\ \ )
             ======= ============================================================================ ================================================= ================= =================================================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -88,13 +88,13 @@ File:prefs interactions tokens.jpg - MapToolDoc
             The following 4 pages link to this file:
 
             -  `MapTool
-               Preferences </rptools/wiki/MapTool_Preferences>`__
+               Preferences <MapTool_Preferences>`__
             -  `MapTool
-               Preferences/fr </rptools/wiki/MapTool_Preferences/fr>`__
+               Preferences/fr <MapTool_Preferences/fr>`__
             -  `MapTool
-               Preferences/it </rptools/wiki/MapTool_Preferences/it>`__
+               Preferences/it <MapTool_Preferences/it>`__
             -  `MapTool
-               Preferences/ja </rptools/wiki/MapTool_Preferences/ja>`__
+               Preferences/ja <MapTool_Preferences/ja>`__
 
          .. rubric:: Metadata
             :name: metadata

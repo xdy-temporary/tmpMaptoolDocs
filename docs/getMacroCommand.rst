@@ -72,11 +72,11 @@ getMacroCommand - MapToolDoc
          .. container:: template_description
 
             Returns the command that would be executed for a `macro
-            button </rptools/wiki/Macro_Button>`__ on the `Current
-            Token </rptools/wiki/Current_Token>`__. The
-            `getMacroIndexes() </rptools/wiki/getMacroIndexes>`__
+            button <Macro_Button>`__ on the `Current
+            Token <Current_Token>`__. The
+            `getMacroIndexes() <getMacroIndexes>`__
             function can be used to get the index of a `macro
-            button </rptools/wiki/Macro_Button>`__.
+            button <Macro_Button>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -107,7 +107,7 @@ getMacroCommand - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          | 
 
@@ -116,7 +116,7 @@ getMacroCommand - MapToolDoc
 
          .. container:: template_also
 
-            `getMacroIndexes() </rptools/wiki/getMacroIndexes>`__
+            `getMacroIndexes() <getMacroIndexes>`__
 
          .. rubric:: Version Changes
             :name: version-changes

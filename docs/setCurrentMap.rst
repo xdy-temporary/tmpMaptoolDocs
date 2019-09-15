@@ -126,8 +126,8 @@ setCurrentMap - MapToolDoc
 
          .. container:: template_also
 
-            `getAllMapNames() </rptools/wiki/getAllMapNames>`__
-            `getVisibleMapNames() </rptools/wiki/getVisibleMapNames>`__
+            `getAllMapNames() <getAllMapNames>`__
+            `getVisibleMapNames() <getVisibleMapNames>`__
 
       .. container:: printfooter
 

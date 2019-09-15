@@ -66,7 +66,7 @@ isSnapToGrid - MapToolDoc
          .. container:: template_description
 
             Returns ``true``\ (``1``) if a
-            `Token </rptools/wiki/Token>`__ is snapped to grid or
+            `Token <Token>`__ is snapped to grid or
             ``false``\ (``0``) if it is not.
 
          .. rubric:: Usage
@@ -92,12 +92,12 @@ isSnapToGrid - MapToolDoc
 
          -  ``id`` - The token ``id`` of the token which has its
             snapToGrid status checked, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -120,7 +120,7 @@ isSnapToGrid - MapToolDoc
 
          .. container:: template_also
 
-            `setTokenSnapToGrid() </rptools/wiki/setTokenSnapToGrid>`__
+            `setTokenSnapToGrid() <setTokenSnapToGrid>`__
 
          | 
          | \|changes=

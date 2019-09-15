@@ -54,17 +54,17 @@ strfind - MapToolDoc
             extract all of the capture groups. The function returns an
             id which can be used with other functions to extract the
             information. The supplied pattern is a `regular
-            expression </rptools/wiki/Macros:regular_expression>`__.
+            expression <Macros:regular_expression>`__.
             Functions related to ``strfind()``:
 
-            -  `getFindCount(id) </rptools/wiki/Macros:Functions:getFindCount>`__
-            -  `getGroupCount(id) </rptools/wiki/Macros:Functions:getGroupCount>`__
+            -  `getFindCount(id) <Macros:Functions:getFindCount>`__
+            -  `getGroupCount(id) <Macros:Functions:getGroupCount>`__
             -  `getGroup(id, matchNo,
-               groupNo) </rptools/wiki/Macros:Functions:getGroup>`__
+               groupNo) <Macros:Functions:getGroup>`__
             -  `getGroupStart(id, matchNo,
-               groupNo) </rptools/wiki/Macros:Functions:getGroupStart>`__
+               groupNo) <Macros:Functions:getGroupStart>`__
             -  `getGroupEnd(id, matchNo,
-               groupNo) </rptools/wiki/Macros:Functions:getGroupEnd>`__
+               groupNo) <Macros:Functions:getGroupEnd>`__
 
             Both ``groupNo`` and ``matchNo`` start at 1, the special
             group number ``0`` returns the whole pattern match.

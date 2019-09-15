@@ -53,7 +53,7 @@ moveTokenToMap - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -77,7 +77,7 @@ moveTokenToMap - MapToolDoc
          **Parameters**
 
          -  ``id`` - The token ``id`` or a `JSON
-            Array </rptools/wiki/JSON_Array>`__ of token ``id``\ s of
+            Array <JSON_Array>`__ of token ``id``\ s of
             the token/s to move.
          -  ``map`` - A string containing the name of the map that the
             token is moved to.
@@ -95,7 +95,7 @@ moveTokenToMap - MapToolDoc
 
          .. container:: template_also
 
-            `moveTokenFromMap() </rptools/wiki/moveTokenFromMap>`__
+            `moveTokenFromMap() <moveTokenFromMap>`__
 
       .. container:: printfooter
 

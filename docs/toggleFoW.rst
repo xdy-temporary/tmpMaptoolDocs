@@ -46,7 +46,7 @@ toggleFoW - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -92,8 +92,8 @@ toggleFoW - MapToolDoc
 
          .. container:: template_also
 
-            `Introduction_to_Lights_and_Sights#Fog_of_War </rptools/wiki/Introduction_to_Lights_and_Sights#Fog_of_War>`__
-            , `restoreFoW() </rptools/wiki/restoreFoW>`__
+            `Introduction_to_Lights_and_Sights#Fog_of_War <Introduction_to_Lights_and_Sights#Fog_of_War>`__
+            , `restoreFoW() <restoreFoW>`__
 
       .. container:: printfooter
 

@@ -73,7 +73,7 @@ Category:Syntax Highlighting - MapToolDoc
                         .. container:: CategoryTreeItem
 
                            ► `Windows
-                           Editor </rptools/wiki/Category:Windows_Editor>`__\ ‎
+                           Editor <Category:Windows_Editor>`__\ ‎
                            (1 P)
 
                         .. container:: CategoryTreeChildren
@@ -91,7 +91,7 @@ Category:Syntax Highlighting - MapToolDoc
                   .. rubric:: N
                      :name: n
 
-                  -  `Notepad++ </rptools/wiki/Notepad%2B%2B>`__
+                  -  `Notepad++ <Notepad%2B%2B>`__
 
       .. container:: printfooter
 

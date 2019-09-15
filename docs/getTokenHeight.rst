@@ -92,7 +92,7 @@ getTokenHeight - MapToolDoc
 
          -  ``id`` - The token id of the token to check for its height,
             defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
 
@@ -131,10 +131,10 @@ getTokenHeight - MapToolDoc
 
          .. container:: template_also
 
-            `getTokenNativeHeight() </rptools/wiki/getTokenNativeHeight>`__
-            `getTokenWidth() </rptools/wiki/getTokenWidth>`__
+            `getTokenNativeHeight() <getTokenNativeHeight>`__
+            `getTokenWidth() <getTokenWidth>`__
 
-            `getTokenNativeWidth() </rptools/wiki/getTokenNativeWidth>`__
+            `getTokenNativeWidth() <getTokenNativeWidth>`__
 
          .. rubric:: Version Changes
             :name: version-changes

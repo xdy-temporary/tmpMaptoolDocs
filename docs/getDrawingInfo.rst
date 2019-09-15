@@ -62,7 +62,7 @@ getDrawingInfo - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -72,7 +72,7 @@ getDrawingInfo - MapToolDoc
 
             Returns extensive information about the specified drawing.
             The information is returned as a
-            `JSON </rptools/wiki/Introduction_to_JSON_Datatypes>`__
+            `JSON <Introduction_to_JSON_Datatypes>`__
             object.
 
          .. rubric:: Usage
@@ -345,7 +345,7 @@ getDrawingInfo - MapToolDoc
 
          .. container:: template_also
 
-            `getDrawingProperties() </rptools/wiki/getDrawingProperties>`__
+            `getDrawingProperties() <getDrawingProperties>`__
 
       .. container:: printfooter
 

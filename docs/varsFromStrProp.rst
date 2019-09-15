@@ -74,10 +74,10 @@ varsFromStrProp - MapToolDoc
          .. container:: template_description
 
             Creates variables from a `string property
-            list </rptools/wiki/Macros:string_property_list>`__ with the
+            list <Macros:string_property_list>`__ with the
             values assigned to variables with the names of the keys in
             the `string property
-            list </rptools/wiki/Macros:string_property_list>`__. The
+            list <Macros:string_property_list>`__. The
             function returns the number of variables that were created.
 
          .. rubric:: Usage
@@ -131,7 +131,7 @@ varsFromStrProp - MapToolDoc
 
          .. container:: template_also
 
-            `strPropFromVars() </rptools/wiki/strPropFromVars>`__
+            `strPropFromVars() <strPropFromVars>`__
 
          .. rubric:: Version Changes
             :name: version-changes

@@ -54,7 +54,7 @@ replace - MapToolDoc
             perform the replacement is not specified then all
             occurrences of the pattern are replaced. Pattern can be a
             `regular
-            expression </rptools/wiki/Macros:regular_expression>`__.
+            expression <Macros:regular_expression>`__.
             This means if the pattern string contains any regular
             expression special characters they must be escaped.
 

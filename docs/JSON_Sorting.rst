@@ -41,7 +41,7 @@ JSON Sorting - MapToolDoc
          :name: mw-content-text
 
          Following is the full macro code for the `Sorting Nested JSON
-         Objects </rptools/wiki/Sorting_Nested_JSON_Objects>`__ How To.
+         Objects <Sorting_Nested_JSON_Objects>`__ How To.
          Line numbers are excluded to ease cutting and pasting.
 
          .. container:: mw-geshi mw-code mw-content-ltr

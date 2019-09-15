@@ -65,10 +65,10 @@ getMatchingLibProperties - MapToolDoc
 
          .. container:: template_description
 
-            Returns a `String List </rptools/wiki/String_List>`__ or
-            `JSON Array </rptools/wiki/JSON_Array>`__ with names of the
-            `Token Properties </rptools/wiki/Token_Property>`__ on a
-            specific `Library Token </rptools/wiki/Library_Token>`__
+            Returns a `String List <String_List>`__ or
+            `JSON Array <JSON_Array>`__ with names of the
+            `Token Properties <Token_Property>`__ on a
+            specific `Library Token <Library_Token>`__
             that match the given pattern.
 
          .. rubric:: Usage
@@ -103,14 +103,14 @@ getMatchingLibProperties - MapToolDoc
          -  ``pattern`` - A regular expression(regex) that represents
             the pattern the properties should match.
          -  ``lib`` - The name of the `Library
-            Token </rptools/wiki/Library_Token>`__ that is checked for
+            Token <Library_Token>`__ that is checked for
             properties that match, defaults to the `Library
-            Token </rptools/wiki/Library_Token>`__ the macro is running
+            Token <Library_Token>`__ the macro is running
             on.
          -  ``delim`` - The delimiter used in the `String
-            List </rptools/wiki/String_List>`__ that is returned,
+            List <String_List>`__ that is returned,
             defaults to ``","``. Returns a `JSON
-            Array </rptools/wiki/JSON_Array>`__ if ``"json"`` is
+            Array <JSON_Array>`__ if ``"json"`` is
             specified.
 
          .. rubric:: Examples
@@ -119,9 +119,9 @@ getMatchingLibProperties - MapToolDoc
          .. container:: template_examples
 
             Assuming that you have a `Library
-            Token </rptools/wiki/Library_Token>`__ that contained a list
+            Token <Library_Token>`__ that contained a list
             of all the items and their detail in your campaign stored as
-            `Token </rptools/wiki/Token>`__ properties names with the
+            `Token <Token>`__ properties names with the
             following format ``Type:Item Name`` (for example
             ``Weapon:Longsword)``, you could use the following code to
             loop through
@@ -184,8 +184,8 @@ getMatchingLibProperties - MapToolDoc
 
          .. container:: template_also
 
-            `getMatchingProperties() </rptools/wiki/getMatchingProperties>`__
-            `getLibPropertyNames() </rptools/wiki/getLibPropertyNames>`__
+            `getMatchingProperties() <getMatchingProperties>`__
+            `getLibPropertyNames() <getLibPropertyNames>`__
 
       .. container:: printfooter
 

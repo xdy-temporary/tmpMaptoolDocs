@@ -94,14 +94,14 @@ moveToken - MapToolDoc
             ``true``\ (``1``), where the coordinates are in *Distance
             Per Cell* **pixels**.
          -  ``id`` - The id
-            `string </rptools/wiki/Macros:Variables:string>`__ of the
+            `string <Macros:Variables:string>`__ of the
             token to move, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
           
 
@@ -110,7 +110,7 @@ moveToken - MapToolDoc
 
          .. container:: template_examples
 
-            Moves the `Current Token </rptools/wiki/Current_Token>`__
+            Moves the `Current Token <Current_Token>`__
             down ``5`` **units**, and left ``10`` **units**.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -137,7 +137,7 @@ moveToken - MapToolDoc
 
                         [h: moveToken(NewX, NewY)]
 
-            Moves the `Current Token </rptools/wiki/Current_Token>`__
+            Moves the `Current Token <Current_Token>`__
             down ``5`` **cells**, and left ``10`` **cells**.
 
             .. container:: mw-geshi mw-code mw-content-ltr
@@ -169,8 +169,8 @@ moveToken - MapToolDoc
 
          .. container:: template_also
 
-            `getTokenX() </rptools/wiki/getTokenX>`__,
-            `getTokenY() </rptools/wiki/getTokenY>`__
+            `getTokenX() <getTokenX>`__,
+            `getTokenY() <getTokenY>`__
 
       .. container:: printfooter
 

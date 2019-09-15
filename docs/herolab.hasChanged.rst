@@ -63,7 +63,7 @@ herolab.hasChanged - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -90,7 +90,7 @@ herolab.hasChanged - MapToolDoc
 
                      herolab.hasChanged(id)
 
-         See `herolab.refresh() </rptools/wiki/herolab.refresh>`__ to
+         See `herolab.refresh() <herolab.refresh>`__ to
          update the token's portfolio information.
 
          **Parameters**

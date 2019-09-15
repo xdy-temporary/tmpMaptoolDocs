@@ -43,7 +43,7 @@ Introduction to Properties - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Properties/es>`__\  • \ `français </rptools/wiki/Introduction_to_Properties/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Properties/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Properties/ja>`__\  • \ `한국어 </rptools/wiki/Introduction_to_Properties/ko>`__\ 
+             • \ `español <Introduction_to_Properties/es>`__\  • \ `français <Introduction_to_Properties/fr>`__\  • \ `italiano <Introduction_to_Properties/it>`__\  • \ `日本語 <Introduction_to_Properties/ja>`__\  • \ `한국어 <Introduction_to_Properties/ko>`__\ 
 
          .. container:: template_beginner
 
@@ -95,7 +95,7 @@ Introduction to Properties - MapToolDoc
             :name: campaign-properties
 
          One of the most useful features in MapTool is the capability of
-         `tokens </rptools/wiki/Introduction_to_Tokens>`__ to carry
+         `tokens <Introduction_to_Tokens>`__ to carry
          around a set of **Properties**, attached to that token, that
          can be manipulated by macros and can be used to create quick
          displays of information. Basically, token properties are like
@@ -112,7 +112,7 @@ Introduction to Properties - MapToolDoc
 
          In order to have useful examples as we move through this
          tutorial, several MapTool users and contributors developed the
-         `Sample Ruleset </rptools/wiki/Sample_Ruleset>`__ -- a simple
+         `Sample Ruleset <Sample_Ruleset>`__ -- a simple
          roleplaying game system developed specifically to illustrate
          parts of MapTool. For this guide, we're going to call these
          rules the MapTool RPG - or MTRPG for short, and what we're
@@ -133,7 +133,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Edit-campaign-props.png>`__
+                     ` <File:Edit-campaign-props.png>`__
 
                   The Edit Menu, showing the Campaign Properties option
 
@@ -148,7 +148,7 @@ Introduction to Properties - MapToolDoc
          -  **Token Properties**: this houses all the property sets that
             a token in the current campaign may have
          -  **Repositories**: this is where you can designate an online
-            "`repository </rptools/wiki/Introduction_to_Campaign_Repositories>`__"
+            "`repository <Introduction_to_Campaign_Repositories>`__"
             to hold campaign files, especially images, to improve load
             times and speed when you host or play an online game
          -  **Sight**: this tab is where you configure the settings for
@@ -156,10 +156,10 @@ Introduction to Properties - MapToolDoc
          -  **Light**: this tab is where you configure light sources and
             auras for the current campaign
          -  **States**: this tab lets you configure `token
-            states </rptools/wiki/Token:state>`__ for the current
+            states <Token:state>`__ for the current
             campaign
          -  **Bars**: this is where you configure `token
-            bars </rptools/wiki/bar.name>`__ for the current campaign
+            bars <bar.name>`__ for the current campaign
 
          This guide will only address the first tab, **Token
          Properties**.
@@ -177,7 +177,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Camp-props.png>`__
+                     ` <File:Camp-props.png>`__
 
                   The **Token Properties Tab** in Campaign Properties
 
@@ -245,13 +245,13 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Basic-default-props.png>`__
+                     ` <File:Basic-default-props.png>`__
 
                   The default set of properties in the Basic property
                   set
 
          If you look at `MTRPG's Primary
-         Attributes </rptools/wiki/Sample_Ruleset#Primary_Attribute>`__,
+         Attributes <Sample_Ruleset#Primary_Attribute>`__,
          you will see that there are four separate attributes that are
          the basic attributes of a character: *Strength*, *Dexterity*,
          *Intelligence*, and *Endurance*. We're going to get rid of the
@@ -282,7 +282,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Default-props-replaced.png>`__
+                     ` <File:Default-props-replaced.png>`__
 
                   The default properties have been deleted, and replaced
                   by the four Primary Attributes of MTRPG
@@ -347,7 +347,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Newprops-defvalues.png>`__
+                     ` <File:Newprops-defvalues.png>`__
 
                   The MTRPG properties now have default values
 
@@ -403,7 +403,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Statsheet-props.png>`__
+                     ` <File:Statsheet-props.png>`__
 
                   The Statsheet showing the campaign properties you've
                   set up. You'll see how to make these appear in this
@@ -411,7 +411,7 @@ Introduction to Properties - MapToolDoc
 
          MapTool has a neat feature called the **Statsheet**, which is
          briefly mentioned in the `Introduction to
-         Tokens </rptools/wiki/Introduction_to_Tokens>`__ - basically,
+         Tokens <Introduction_to_Tokens>`__ - basically,
          it is an automatic popup that appears in the lower left corner
          of the map, when you hover over a token.
 
@@ -438,7 +438,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Newprops-visible.png>`__
+                     ` <File:Newprops-visible.png>`__
 
                   Note the asterisk in front of each property name,
                   enabling that property to appear on the Statsheet
@@ -491,7 +491,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Newprops-shortnames.png>`__
+                     ` <File:Newprops-shortnames.png>`__
 
                   The campaign properties now have Short Names
                   established for each
@@ -529,7 +529,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Newprops-derived.png>`__
+                     ` <File:Newprops-derived.png>`__
 
                   The properties *HitPoints* and *Movement* now have
                   macro code instructing MapTool to derive them from
@@ -545,7 +545,7 @@ Introduction to Properties - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Statsheet-with-allnewprops.png>`__
+                     ` <File:Statsheet-with-allnewprops.png>`__
 
                   The Statsheet showing all of the properties, including
                   the derived ones
@@ -590,7 +590,7 @@ Introduction to Properties - MapToolDoc
          hit **Update** just yet - let's enter some macro code to create
          a derived value.
 
-         We can see from the `MTRPG </rptools/wiki/Sample_Ruleset>`__
+         We can see from the `MTRPG <Sample_Ruleset>`__
          rules that *Hit Points* is equal to the value of *Endurance*
          multiplied by 6. Replicating this calculation in the campaign
          properties is very simple. Edit the *Hit Points* property to
@@ -603,7 +603,7 @@ Introduction to Properties - MapToolDoc
          What we've done here is enter a default value for the property
          (remember, default values are whatever comes after the colon),
          and used some `macro
-         code </rptools/wiki/Introduction_to_Macro_Writing>`__ to
+         code <Introduction_to_Macro_Writing>`__ to
          instruct MapTool to perform a calculation in order to find the
          value for the properties. Two thing are happening here:
 
@@ -741,7 +741,7 @@ Introduction to Properties - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Properties/es>`__\  • \ `français </rptools/wiki/Introduction_to_Properties/fr>`__\  • \ `italiano </rptools/wiki/Introduction_to_Properties/it>`__\  • \ `日本語 </rptools/wiki/Introduction_to_Properties/ja>`__\  • \ `한국어 </rptools/wiki/Introduction_to_Properties/ko>`__\ 
+             • \ `español <Introduction_to_Properties/es>`__\  • \ `français <Introduction_to_Properties/fr>`__\  • \ `italiano <Introduction_to_Properties/it>`__\  • \ `日本語 <Introduction_to_Properties/ja>`__\  • \ `한국어 <Introduction_to_Properties/ko>`__\ 
 
       .. container:: printfooter
 

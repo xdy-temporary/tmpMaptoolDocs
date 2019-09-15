@@ -41,13 +41,13 @@ Available Loggers - MapToolDoc
          :name: mw-content-text
 
          List of available loggers for use with
-         `log.setLevel() </rptools/wiki/log.setLevel>`__ or the log
+         `log.setLevel() <log.setLevel>`__ or the log
          message functions such as
-         `log.warn() </rptools/wiki/log.warn>`__ or
-         `log.debug() </rptools/wiki/log.debug>`__. The list of
+         `log.warn() <log.warn>`__ or
+         `log.debug() <log.debug>`__. The list of
          available loggers, along with the current logging level, can be
          retrieved via the macro function
-         `log.getLoggers() </rptools/wiki/log.getLoggers>`__.
+         `log.getLoggers() <log.getLoggers>`__.
 
          .. rubric:: Loggers
             :name: loggers

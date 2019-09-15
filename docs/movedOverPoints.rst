@@ -59,7 +59,7 @@ movedOverPoints - MapToolDoc
             Use to check if a token has moved through a shape that is
             defined by an array of pixel coordinates (formatted like the
             one received from
-            `getLastPath() </rptools/wiki/getLastPath>`__ or the
+            `getLastPath() <getLastPath>`__ or the
             ``onTokenMove`` event.
             Returns a JSON array with coordinates of all cells in the
             token's path that overlap with the area defined by the given
@@ -95,7 +95,7 @@ movedOverPoints - MapToolDoc
             -  ``points`` - JSON array of X/Y coordinate X/Y pairs that
                defines a polygon
             -  ``path`` - JSON array of X/Y coordinate such as that
-               returned by `getLastPath() </rptools/wiki/getLastPath>`__
+               returned by `getLastPath() <getLastPath>`__
 
             .. rubric:: Example
                :name: example

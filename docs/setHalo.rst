@@ -65,8 +65,8 @@ setHalo - MapToolDoc
 
          .. container:: template_description
 
-            Sets the `Halo </rptools/wiki/Halo>`__ color of a
-            `Token </rptools/wiki/Token>`__.
+            Sets the `Halo <Halo>`__ color of a
+            `Token <Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -90,7 +90,7 @@ setHalo - MapToolDoc
          **Parameters**
 
          -  ``color`` - The color to set the
-            `Halo </rptools/wiki/Halo>`__ to, valid values are:
+            `Halo <Halo>`__ to, valid values are:
 
             -  ``"Black"``
             -  ``"Green"``
@@ -104,20 +104,20 @@ setHalo - MapToolDoc
             -  ``"None"``
 
          -  ``id`` - The token ``id`` of the token that has its
-            `Halo </rptools/wiki/Halo>`__ set by this function.
+            `Halo <Halo>`__ set by this function.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          .. rubric:: Examples
             :name: examples
 
          .. container:: template_examples
 
-            To remove the `Halo </rptools/wiki/Halo>`__ from the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            To remove the `Halo <Halo>`__ from the
+            `Current Token <Current_Token>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -127,8 +127,8 @@ setHalo - MapToolDoc
 
                         [h: setHalo("None")]
 
-            To set the `Halo </rptools/wiki/Halo>`__ for the `Current
-            Token </rptools/wiki/Current_Token>`__ to red.
+            To set the `Halo <Halo>`__ for the `Current
+            Token <Current_Token>`__ to red.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -138,8 +138,8 @@ setHalo - MapToolDoc
 
                         [h: setHalo("Red")]
 
-            To set the `Halo </rptools/wiki/Halo>`__ from the `Current
-            Token </rptools/wiki/Current_Token>`__ to a custom color
+            To set the `Halo <Halo>`__ from the `Current
+            Token <Current_Token>`__ to a custom color
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -154,8 +154,8 @@ setHalo - MapToolDoc
 
          .. container:: template_also
 
-            `Halo </rptools/wiki/Halo>`__,
-            `getHalo() </rptools/wiki/getHalo>`__
+            `Halo <Halo>`__,
+            `getHalo() <getHalo>`__
 
          .. rubric:: Version Changes
             :name: version-changes

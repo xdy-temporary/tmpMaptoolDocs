@@ -72,7 +72,7 @@ Dice Box - MapToolDoc
          The instructions below assume you are familiar with how to
          start MapTool and how to navigate around MapTool. If you
          aren't, please check out the `Introduction to
-         Mapping </rptools/wiki/Introduction_to_Mapping>`__ for a quick
+         Mapping <Introduction_to_Mapping>`__ for a quick
          guide to getting started with MapTool.
 
          .. rubric:: Requirements
@@ -80,7 +80,7 @@ Dice Box - MapToolDoc
 
          #. MapTool **1.3.b66** or later. It may work on previous
             versions, but is untested.
-         #. A Java `stack size </rptools/wiki/Stack_Size>`__ higher than
+         #. A Java `stack size <Stack_Size>`__ higher than
             512KB.
 
          .. rubric:: Getting the Dice Box Token
@@ -115,7 +115,7 @@ Dice Box - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Db27_dragtomap.png>`__
+                     ` <File:Db27_dragtomap.png>`__
 
                   The token is dragged onto the MapTool map
 
@@ -129,7 +129,7 @@ Dice Box - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Diceboxconfig.png>`__
+                     ` <File:Diceboxconfig.png>`__
 
                   The **Ownership** tab
 
@@ -143,7 +143,7 @@ Dice Box - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Dicebox_vistoplayers.png>`__
+                     ` <File:Dicebox_vistoplayers.png>`__
 
                   The **Config** tab
 
@@ -157,7 +157,7 @@ Dice Box - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Dicebox27.png>`__
+                     ` <File:Dicebox27.png>`__
 
                   The Dice Box Appears!
 
@@ -210,7 +210,7 @@ Dice Box - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Dicebox-output.jpg>`__
+                     ` <File:Dicebox-output.jpg>`__
 
                   Sample output of the Dice Box
 
@@ -245,7 +245,7 @@ Dice Box - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `日本語 </rptools/wiki/Dice_Box/ja>`__\ 
+             • \ `日本語 <Dice_Box/ja>`__\ 
 
       .. container:: printfooter
 

@@ -81,7 +81,7 @@ File:DHFWOverviewScreenshot.jpg - MapToolDoc
             ======= ============================================================================ ==================================================== ====================== =================================================================================================================================================================================================== =================================
             \       Date/Time                                                                    Thumbnail                                            Dimensions             User                                                                                                                                                                                                Comment
             ======= ============================================================================ ==================================================== ====================== =================================================================================================================================================================================================== =================================
-            current `08:24, 2 February 2015 </maptool/images/a/a7/DHFWOverviewScreenshot.jpg>`__ |Thumbnail for version as of 08:24, 2 February 2015| 1,600 × 1,166 (469 KB) `Wolph42 </rptools/wiki/User:Wolph42>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Wolph42&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Wolph42>`__\ \ ) Maptool summarized in one picture
+            current `08:24, 2 February 2015 </maptool/images/a/a7/DHFWOverviewScreenshot.jpg>`__ |Thumbnail for version as of 08:24, 2 February 2015| 1,600 × 1,166 (469 KB) `Wolph42 <User:Wolph42>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Wolph42&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Wolph42>`__\ \ ) Maptool summarized in one picture
             ======= ============================================================================ ==================================================== ====================== =================================================================================================================================================================================================== =================================
 
          -  You cannot overwrite this file.
@@ -94,7 +94,7 @@ File:DHFWOverviewScreenshot.jpg - MapToolDoc
 
             The following page links to this file:
 
-            -  `Feature List </rptools/wiki/Feature_List>`__
+            -  `Feature List <Feature_List>`__
 
          .. rubric:: Metadata
             :name: metadata

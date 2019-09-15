@@ -56,7 +56,7 @@ getBar - MapToolDoc
 
             Gets the value of the specified
             `bar </maptool/index.php?title=Token:bar&action=edit&redlink=1>`__
-            for the `Current Token </rptools/wiki/Current_Token>`__. The
+            for the `Current Token <Current_Token>`__. The
             value returned is between 0 and 1 for 0% to 100%
             respectively.
 

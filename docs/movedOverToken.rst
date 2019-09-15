@@ -67,8 +67,8 @@ movedOverToken - MapToolDoc
 
             Is used to check if the location of the target ``token`` is
             in an array of cell coordinates like the one received from
-            `getLastPath() </rptools/wiki/getLastPath>`__ or the
-            `onTokenMove </rptools/wiki/onTokenMove>`__ event's
+            `getLastPath() <getLastPath>`__ or the
+            `onTokenMove <onTokenMove>`__ event's
             ``macro.args``.  
 
          .. rubric:: Usage
@@ -164,8 +164,8 @@ movedOverToken - MapToolDoc
 
          .. container:: template_also
 
-            `getLastPath() </rptools/wiki/getLastPath>`__
-            `movedOverPoints() </rptools/wiki/movedOverPoints>`__
+            `getLastPath() <getLastPath>`__
+            `movedOverPoints() <movedOverPoints>`__
 
       .. container:: printfooter
 

@@ -70,8 +70,8 @@ getSize - MapToolDoc
 
          .. container:: template_description
 
-            Returns the `Size </rptools/wiki/Size>`__ of a
-            `Token </rptools/wiki/Token>`__.
+            Returns the `Size <Size>`__ of a
+            `Token <Token>`__.
             The sizes returned are:
 
             -  ``Fine``
@@ -108,13 +108,13 @@ getSize - MapToolDoc
          **Parameter**
 
          -  ``id`` - The token ``id`` of the token which has its
-            `Size </rptools/wiki/Size>`__ returned, defaults to the
-            `Current Token </rptools/wiki/Current_Token>`__.
+            `Size <Size>`__ returned, defaults to the
+            `Current Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -129,7 +129,7 @@ getSize - MapToolDoc
 
          .. container:: template_also
 
-            `setSize() </rptools/wiki/setSize>`__
+            `setSize() <setSize>`__
 
          .. rubric:: Version Changes
             :name: version-changes

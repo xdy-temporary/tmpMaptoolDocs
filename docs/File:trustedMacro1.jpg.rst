@@ -73,7 +73,7 @@ File:trustedMacro1.jpg - MapToolDoc
             ======= ================================================================= ================================================== ================= =================================================================================================================================================================================================================== =======
             \       Date/Time                                                         Thumbnail                                          Dimensions        User                                                                                                                                                                                                                Comment
             ======= ================================================================= ================================================== ================= =================================================================================================================================================================================================================== =======
-            current `22:56, 11 March 2009 </maptool/images/2/2c/trustedMacro1.jpg>`__ |Thumbnail for version as of 22:56, 11 March 2009| 605 × 315 (34 KB) `Verisimilar </rptools/wiki/User:Verisimilar>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Verisimilar&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Verisimilar>`__\ \ )
+            current `22:56, 11 March 2009 </maptool/images/2/2c/trustedMacro1.jpg>`__ |Thumbnail for version as of 22:56, 11 March 2009| 605 × 315 (34 KB) `Verisimilar <User:Verisimilar>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Verisimilar&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Verisimilar>`__\ \ )
             ======= ================================================================= ================================================== ================= =================================================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -86,7 +86,7 @@ File:trustedMacro1.jpg - MapToolDoc
 
             The following page links to this file:
 
-            -  `Trusted Macro </rptools/wiki/Trusted_Macro>`__
+            -  `Trusted Macro <Trusted_Macro>`__
 
       .. container:: printfooter
 

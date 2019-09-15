@@ -67,7 +67,7 @@ setNPC - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -75,7 +75,7 @@ setNPC - MapToolDoc
 
          .. container:: template_description
 
-            Sets a `Token </rptools/wiki/Token>`__ to a `NPC
+            Sets a `Token <Token>`__ to a `NPC
             Token </maptool/index.php?title=NPC_Token&action=edit&redlink=1>`__.
 
          .. rubric:: Usage
@@ -101,7 +101,7 @@ setNPC - MapToolDoc
 
          -  ``id`` - The token ``id`` of the token which has its NPC
             status set, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
 
@@ -112,10 +112,10 @@ setNPC - MapToolDoc
 
          .. container:: template_also
 
-            `isPC() </rptools/wiki/isPC>`__,
-            `setPC() </rptools/wiki/setPC>`__,
+            `isPC() <isPC>`__,
+            `setPC() <setPC>`__,
 
-            `isNPC() </rptools/wiki/isNPC>`__
+            `isNPC() <isNPC>`__
 
          .. rubric:: Version Changes
             :name: version-changes

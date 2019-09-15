@@ -62,7 +62,7 @@ setDrawingProperties - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -121,7 +121,7 @@ setDrawingProperties - MapToolDoc
 
          .. container:: template_also
 
-            `getDrawingProperties() </rptools/wiki/getDrawingProperties>`__
+            `getDrawingProperties() <getDrawingProperties>`__
 
       .. container:: printfooter
 

@@ -73,7 +73,7 @@ File:2Plus2ToolTip.png - MapToolDoc
             ======= ==================================================================== ===================================================== ================ =========================================================================================================================================================================================== =======
             \       Date/Time                                                            Thumbnail                                             Dimensions       User                                                                                                                                                                                        Comment
             ======= ==================================================================== ===================================================== ================ =========================================================================================================================================================================================== =======
-            current `18:47, 16 December 2008 </maptool/images/1/14/2Plus2ToolTip.png>`__ |Thumbnail for version as of 18:47, 16 December 2008| 332 × 87 (10 KB) `Craig </rptools/wiki/User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Craig>`__\ \ )
+            current `18:47, 16 December 2008 </maptool/images/1/14/2Plus2ToolTip.png>`__ |Thumbnail for version as of 18:47, 16 December 2008| 332 × 87 (10 KB) `Craig <User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Craig>`__\ \ )
             ======= ==================================================================== ===================================================== ================ =========================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -86,8 +86,8 @@ File:2Plus2ToolTip.png - MapToolDoc
 
             The following 2 pages link to this file:
 
-            -  `Macros:Roll:types </rptools/wiki/Macros:Roll:types>`__
-            -  `Macros:Roll:types/ja </rptools/wiki/Macros:Roll:types/ja>`__
+            -  `Macros:Roll:types <Macros:Roll:types>`__
+            -  `Macros:Roll:types/ja <Macros:Roll:types/ja>`__
 
       .. container:: printfooter
 

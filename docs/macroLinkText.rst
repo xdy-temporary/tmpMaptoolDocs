@@ -69,10 +69,10 @@ macroLinkText - MapToolDoc
             Creates the text that would appear in a HTML tag for a link
             which will run the specified macro when clicked on. This is
             useful for callbacks in
-            `[dialog():] </rptools/wiki/dialog_(roll_option)>`__ or
-            `[frame():] </rptools/wiki/frame_(roll_option)>`__. If you
+            `[dialog():] <dialog_(roll_option)>`__ or
+            `[frame():] <frame_(roll_option)>`__. If you
             just want to send a click-able link to someone use
-            `macroLink() </rptools/wiki/macroLink>`__.
+            `macroLink() <macroLink>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -127,9 +127,9 @@ macroLinkText - MapToolDoc
             -  ``list`` - Displays to a list of players. When the
                ``output`` parameter is ``"list"`` then the macro link
                expects the ``args`` parameter to be a `JSON
-               Object </rptools/wiki/JSON_Object>`__, that contains a
+               Object <JSON_Object>`__, that contains a
                field called ``mlOutputList`` which is a `JSON
-               Array </rptools/wiki/JSON_Array>`__ containing the
+               Array <JSON_Array>`__ containing the
                players to send the output to.
 
          -  ``args`` - Any arguments to be passed to the macro when it
@@ -139,12 +139,12 @@ macroLinkText - MapToolDoc
             to ``impersonated``):
 
             -  ``impersonated`` - The impersonated
-               `Token </rptools/wiki/Token>`__.
+               `Token <Token>`__.
             -  ``selected`` - The selected
-               `Token </rptools/wiki/Token>`__/s.
+               `Token <Token>`__/s.
             -  `Token
                ID </maptool/index.php?title=Token_ID&action=edit&redlink=1>`__
-               - The ``id`` of a `Token </rptools/wiki/Token>`__.
+               - The ``id`` of a `Token <Token>`__.
 
          .. rubric:: Examples
             :name: examples
@@ -154,7 +154,7 @@ macroLinkText - MapToolDoc
             To create the text that would go inside a form element as
             the ``action`` attribute, and that will call a macro named
             ``Test`` on the `Library
-            Token </rptools/wiki/Library_Token>`__ named ``Lib:Test``:
+            Token <Library_Token>`__ named ``Lib:Test``:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -168,9 +168,9 @@ macroLinkText - MapToolDoc
 
             To create the text that would go inside a form element as
             the ``action`` attribute and call the ``AddWeapon`` on the
-            `Library Token </rptools/wiki/Library_Token>`__ named
+            `Library Token <Library_Token>`__ named
             ``Lib:PC`` which will act upon the `Current
-            Token </rptools/wiki/Current_Token>`__:
+            Token <Current_Token>`__:
 
             .. container:: mw-geshi mw-code mw-content-ltr
 
@@ -182,7 +182,7 @@ macroLinkText - MapToolDoc
 
             Returns: ``macro://AddWeapon@Lib:PC/none/#ID#?`` where
             ``#ID#`` is the ``id`` of the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             Sending to multiple players and the GM in 1.3b55
 
@@ -218,7 +218,7 @@ macroLinkText - MapToolDoc
 
          .. container:: template_also
 
-            `macroLink() </rptools/wiki/macroLink>`__
+            `macroLink() <macroLink>`__
 
          .. rubric:: Version Changes
             :name: version-changes

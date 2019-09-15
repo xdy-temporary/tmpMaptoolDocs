@@ -51,7 +51,7 @@ matches - MapToolDoc
 
             Returns 1 if a string matches pattern or 0 if it does not.
             The pattern can be a `regular
-            expression </rptools/wiki/Macros:regular_expression>`__.
+            expression <Macros:regular_expression>`__.
             Matches performs a while string comparison, so the pattern
             must match the whole of the input string and not only part
             of it.

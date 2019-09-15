@@ -62,7 +62,7 @@ setTableRoll - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -112,7 +112,7 @@ setTableRoll - MapToolDoc
 
          .. container:: template_also
 
-            `getTableRoll() </rptools/wiki/getTableRoll>`__
+            `getTableRoll() <getTableRoll>`__
 
       .. container:: printfooter
 

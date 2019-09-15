@@ -97,12 +97,12 @@ getTokenShape - MapToolDoc
 
          -  ``id`` - The token id of the token to check for the shape,
             defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -145,7 +145,7 @@ getTokenShape - MapToolDoc
 
          .. container:: template_also
 
-            `setTokenShape() </rptools/wiki/setTokenShape>`__
+            `setTokenShape() <setTokenShape>`__
 
          .. rubric:: Version Changes
             :name: version-changes

@@ -63,7 +63,7 @@ herolab.isMinion - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -120,7 +120,7 @@ herolab.isMinion - MapToolDoc
                         0 or 1
 
             This is the same as using the
-            `getInfo() </rptools/wiki/getInfo>`__ function and reading
+            `getInfo() <getInfo>`__ function and reading
             the ``isMinion`` field.
 
             .. container:: mw-geshi mw-code mw-content-ltr

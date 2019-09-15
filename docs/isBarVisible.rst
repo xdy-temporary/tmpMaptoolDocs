@@ -67,7 +67,7 @@ isBarVisible - MapToolDoc
 
             Returns ``true``\ (``1``) if the specified `Token
             Bar </maptool/index.php?title=Token_Bar&action=edit&redlink=1>`__
-            on the `Current Token </rptools/wiki/Current_Token>`__ is
+            on the `Current Token <Current_Token>`__ is
             visible, or ``false``\ (``0``) if it is not.
 
          .. rubric:: Usage
@@ -142,10 +142,10 @@ isBarVisible - MapToolDoc
 
          .. container:: template_also
 
-            `setBarVisible() </rptools/wiki/setBarVisible>`__,
-            `getBar() </rptools/wiki/getBar>`__,
+            `setBarVisible() <setBarVisible>`__,
+            `getBar() <getBar>`__,
 
-            `setBar() </rptools/wiki/setBar>`__
+            `setBar() <setBar>`__
 
       .. container:: printfooter
 

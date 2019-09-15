@@ -61,10 +61,10 @@ frame (roll option) - MapToolDoc
             :name: frame-roll-option
 
          Opens a frame window. Unlike the modeless
-         `[dialog():] </rptools/wiki/dialog_(roll_option)>`__, frames
+         `[dialog():] <dialog_(roll_option)>`__, frames
          are dockable panels that are usually intended to remain open.
          Frames can be closed with a button located in the title bar or
-         via the `closeDialog() </rptools/wiki/closeDialog>`__ macro
+         via the `closeDialog() <closeDialog>`__ macro
          function.
 
          .. rubric:: Usage
@@ -95,7 +95,7 @@ frame (roll option) - MapToolDoc
          | 
          | The second parameter is optional, it is a semicolon separated
            `String Property
-           List </rptools/wiki/String_Property_List>`__, which could
+           List <String_Property_List>`__, which could
            include the following options:
 
          The **temporary** option dictates whether Maptool remembers the
@@ -237,11 +237,11 @@ frame (roll option) - MapToolDoc
          .. rubric:: See Also
             :name: see-also
 
-         | `[dialog():] </rptools/wiki/dialog_(roll_option)>`__
-         | `isFrameVisible() </rptools/wiki/isFrameVisible>`__
+         | `[dialog():] <dialog_(roll_option)>`__
+         | `isFrameVisible() <isFrameVisible>`__
          | `Introduction to Dialogs and
-           Frames </rptools/wiki/Introduction_to_Dialogs_and_Frames>`__
-         | `Forms tutorial </rptools/wiki/Forms_tutorial>`__
+           Frames <Introduction_to_Dialogs_and_Frames>`__
+         | `Forms tutorial <Forms_tutorial>`__
 
          .. rubric:: Version Changes
             :name: version-changes

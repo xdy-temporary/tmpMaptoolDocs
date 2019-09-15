@@ -65,8 +65,8 @@ getMacros - MapToolDoc
          .. container:: template_description
 
             Returns a list of the labels of all of the `macro
-            buttons </rptools/wiki/Macro_Button>`__ on the `Current
-            Token </rptools/wiki/Current_Token>`__. The type of the
+            buttons <Macro_Button>`__ on the `Current
+            Token <Current_Token>`__. The type of the
             value returned depends on the delimiter parameter.
 
          .. rubric:: Usage
@@ -99,7 +99,7 @@ getMacros - MapToolDoc
          **Parameters**
 
          -  ``delim`` - The delimiter used to separate the values in the
-            `String List </rptools/wiki/String_List>`__, a JSON array is
+            `String List <String_List>`__, a JSON array is
             returned if ``"json"`` is specified as the delimiter.
             Defaults to ``","``
          -  ``id`` - The token ``id`` of the token that the function is
@@ -108,7 +108,7 @@ getMacros - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          .. rubric:: Examples
             :name: examples
@@ -116,8 +116,8 @@ getMacros - MapToolDoc
          .. container:: template_examples
 
             To display all of the `macro
-            button </rptools/wiki/Macro_Button>`__ labels on the current
-            `token </rptools/wiki/Token>`__ use.
+            button <Macro_Button>`__ labels on the current
+            `token <Token>`__ use.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

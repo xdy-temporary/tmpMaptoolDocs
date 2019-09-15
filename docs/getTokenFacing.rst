@@ -97,7 +97,7 @@ getTokenFacing - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.
@@ -155,7 +155,7 @@ getTokenFacing - MapToolDoc
 
          .. container:: template_also
 
-            `getTokenRotation </rptools/wiki/getTokenRotation>`__
+            `getTokenRotation <getTokenRotation>`__
 
          .. rubric:: Version Changes
             :name: version-changes

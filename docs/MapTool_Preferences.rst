@@ -100,7 +100,7 @@ MapTool Preferences - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:prefs_tab_interactions.png>`__
+                     ` <File:prefs_tab_interactions.png>`__
 
                   Interactions Tab on the Preferences Dialog
 
@@ -204,9 +204,9 @@ MapTool Preferences - MapToolDoc
             -  **NO DIAGONALS**
 
          Determines how movement should be calculated when a
-         `Token </rptools/wiki/Token>`__ moves diagonally. This affects
+         `Token <Token>`__ moves diagonally. This affects
          the total distance displayed beneath a
-         `Token </rptools/wiki/Token>`__ when it is moving, or when its
+         `Token <Token>`__ when it is moving, or when its
          previous path is displayed; it is calculated based on *Distance
          Per Cell*. **ONE_TWO_ONE** specifies that every second diagonal
          movement will calculate as twice the *Distance Per Cell*.
@@ -214,7 +214,7 @@ MapTool Preferences - MapToolDoc
          the same as non-diagonal movement. **MANHATTAN** specifies that
          every diagonal movement will calculate as twice the *Distance
          Per Cell*. **NO DIAGONALS** specifies that
-         `Tokens </rptools/wiki/Token>`__ can only move non-diagonally.
+         `Tokens <Token>`__ can only move non-diagonally.
          The **Movement metric** setting only comes into play with maps
          that use the Square grid type; maps with a Hex grid type
          calculate movement in any direction using the *Distance Per
@@ -234,17 +234,17 @@ MapTool Preferences - MapToolDoc
 
          -  **Start Snap to Grid**
 
-         Determines if `Tokens </rptools/wiki/Token>`__ will default to
+         Determines if `Tokens <Token>`__ will default to
          having **Snap to Grid** ✓checked. Having this setting ✓checked
          is optimal for maps that use a grid, but even on such maps
          there are cases when you might want to temporarily disable this
          setting(e.g. when placing a lot of "prop"
-         `Tokens </rptools/wiki/Token>`__ on the Object layer while
+         `Tokens <Token>`__ on the Object layer while
          drawing a map).
 
          -  **New tokens visible to players**
 
-         Determines if new `Tokens </rptools/wiki/Token>`__ have the
+         Determines if new `Tokens <Token>`__ have the
          **Visible** option ✓checked upon creation. The optimal setting
          for this really depends on your play style; if you have a lot
          of random encounters and build them during play, you may find
@@ -256,7 +256,7 @@ MapTool Preferences - MapToolDoc
             -  **Random 2-digit**
 
          Will automatically append numbers to
-         `Tokens </rptools/wiki/Token>`__ with duplicate names, upon
+         `Tokens <Token>`__ with duplicate names, upon
          creation. **Increment** will leave the first token unnumbered,
          but will number each duplicate after that, starting with the
          number ``1`` (e.g. Troll, Troll 1, Troll 2). **Random 2-digit**
@@ -264,7 +264,7 @@ MapTool Preferences - MapToolDoc
          if there are no duplicates on the map yet. **Random 2-digit**
          might be considered the optimal setting, as it gives your
          players no indication of how many copies of that
-         `Token </rptools/wiki/Token>`__ can be expected to exist.
+         `Token <Token>`__ can be expected to exist.
 
          -  **Show Numbering on**
 
@@ -276,9 +276,9 @@ MapTool Preferences - MapToolDoc
          Numbering** is applied. **Name** appends the number after the
          name (derived from **New Token Naming**). **GM Name** places
          the number within the *GM Name* field of the
-         `Token </rptools/wiki/Token>`__ options. **Both** appends the
+         `Token <Token>`__ options. **Both** appends the
          number after the name, and places it within the *GM Name* field
-         of the `Token </rptools/wiki/Token>`__ options. Due to odd
+         of the `Token <Token>`__ options. Due to odd
          behaviour that MapTool will display when handling tokens with
          the same name, it is recommended that you use **Name** or
          **Both**, but not **GM Name**.
@@ -289,24 +289,24 @@ MapTool Preferences - MapToolDoc
             -  **Use "Creature"**
 
          Determines what the name will be when creating a new
-         `Token </rptools/wiki/Token>`__, or what the *Name* field will
-         be pre-filled with in a new `Token </rptools/wiki/Token>`__
+         `Token <Token>`__, or what the *Name* field will
+         be pre-filled with in a new `Token <Token>`__
          dialog. **Use Filename** specifies that the name will be
          derived from the name of the file that was added to your
          Resource Library (e.g. if you add the file *uglytroll.jpg* to
          your Resource Library, tokens created from that image will
          begin with the name *uglytroll*). **Use "Creature"** defaults
-         all new `Tokens </rptools/wiki/Token>`__ to being named
+         all new `Tokens <Token>`__ to being named
          "Creature" (without quotes).
 
          -  **Start Freesize**
 
          If you are using a map with a grid,
-         `Tokens </rptools/wiki/Token>`__ typically default to the size
+         `Tokens <Token>`__ typically default to the size
          of one grid cell upon creation. Having this setting ✓checked
          allows you to have them default to *Freesize*, which is very
          useful for when you're placing a lot of 'prop'
-         `Tokens </rptools/wiki/Token>`__ on the Object layer while
+         `Tokens <Token>`__ on the Object layer while
          creating a map.
 
          -  **Show Dialog on New Token**
@@ -322,12 +322,12 @@ MapTool Preferences - MapToolDoc
 
          Sets the width (in pixels) of the portrait that is displayed in
          the lower left corner of the map when mousing over certain
-         `Tokens </rptools/wiki/Token>`__; the image is resized
+         `Tokens <Token>`__; the image is resized
          proportionately. A portrait is displayed under a few different
-         circumstances; if the `Token </rptools/wiki/Token>`__ has
+         circumstances; if the `Token <Token>`__ has
          properties that are set to display on the stat sheet, and those
          properties have values, the portrait will display the token
-         image. If the `Token </rptools/wiki/Token>`__ has a portrait
+         image. If the `Token <Token>`__ has a portrait
          image set, it will display with or without a stat sheet. Why
          might you want to set this to ``0``? Besides the obvious reason
          of not displaying the portrait, you might want to use a stat
@@ -366,21 +366,21 @@ MapTool Preferences - MapToolDoc
          -  **Use ToolTips for Inline Rolls**
 
          Sets the default display (`Display Roll
-         Option </rptools/wiki/Category:Display_Roll_Option>`__) for
+         Option <Category:Display_Roll_Option>`__) for
          rolls in the chat panel. Will use
-         `[tooltip:] </rptools/wiki/tooltip_(roll_option)>`__ if this is
+         `[tooltip:] <tooltip_(roll_option)>`__ if this is
          ✓checked, otherwise it will default to
-         `[expanded:] </rptools/wiki/expanded_(roll_option)>`__.
+         `[expanded:] <expanded_(roll_option)>`__.
 
          -  **Trusted Prefix Background**
 
          Sets a custom background for macro output that comes from a
-         `Trusted Macro </rptools/wiki/Trusted_Macro>`__.
+         `Trusted Macro <Trusted_Macro>`__.
 
          -  **Trusted Prefix Foreground**
 
          Sets a custom foreground (text color) for macro output that
-         comes from a `Trusted Macro </rptools/wiki/Trusted_Macro>`__.
+         comes from a `Trusted Macro <Trusted_Macro>`__.
 
          -  **Time between autosaves**
 
@@ -471,7 +471,7 @@ MapTool Preferences - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:prefs_tab_accessibility.png>`__
+                     ` <File:prefs_tab_accessibility.png>`__
 
                   Accessibility Tab on the Preferences Dialog
 
@@ -514,7 +514,7 @@ MapTool Preferences - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:prefs_tab_application.png>`__
+                     ` <File:prefs_tab_application.png>`__
 
                   Application Tab on the Preferences Dialog
 
@@ -565,8 +565,8 @@ MapTool Preferences - MapToolDoc
 
          -  **Halo line width**
 
-         Controls the width of the `Halo </rptools/wiki/Halo>`__ when it
-         is displayed on a `Token </rptools/wiki/Token>`__.
+         Controls the width of the `Halo <Halo>`__ when it
+         is displayed on a `Token <Token>`__.
 
          -  **Vision opacity**
 
@@ -581,14 +581,14 @@ MapTool Preferences - MapToolDoc
 
          Related to **Vision opacity**, if this setting is ✓checked, the
          translucent color layered on top of previously viewed areas
-         will be the `Token's </rptools/wiki/Token>`__
-         `Halo </rptools/wiki/Halo>`__ color as opposed to black.
+         will be the `Token's <Token>`__
+         `Halo <Halo>`__ color as opposed to black.
 
          -  **Autoshow Fog**
 
          Will automatically expose `Fog of
          War </maptool/index.php?title=Fog_of_War&action=edit&redlink=1>`__
-         after moving a `Token </rptools/wiki/Token>`__ if ✓checked.
+         after moving a `Token <Token>`__ if ✓checked.
          .. rubric:: Macro Panels
             :name: macro-panels
 
@@ -605,7 +605,7 @@ MapTool Preferences - MapToolDoc
          -  **Default: Allow Players to Edit Macros**
 
          In order for a macro to be considered a `Trusted
-         Macro </rptools/wiki/Trusted_Macro>`__, players must not be
+         Macro <Trusted_Macro>`__, players must not be
          able to edit it. This setting determines if a new macro should
          default to allowing players to edit if ✓checked. Disabling this
          setting can be very useful if you intend to create a lot of
@@ -623,7 +623,7 @@ MapTool Preferences - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:prefs_tab_sounds.png>`__
+                     ` <File:prefs_tab_sounds.png>`__
 
                   Sounds Tab on the Preferences Dialog
 

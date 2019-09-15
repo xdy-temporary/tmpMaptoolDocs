@@ -77,7 +77,7 @@ getInitiativeList - MapToolDoc
             (round number, which map is current, which token is current)
             and token-specific information (token id, initiative value,
             whether the token is holding or not). When called from a
-            `Trusted Macro </rptools/wiki/Trusted_Macro>`__ or by a
+            `Trusted Macro <Trusted_Macro>`__ or by a
             client with GM authority, it will return all information.
             Otherwise it only returns information visible to the current
             player. In other words, it respects the Initiative Panel's
@@ -105,9 +105,9 @@ getInitiativeList - MapToolDoc
 
             The following code will simply return a JSON object and
             print each property name one at a time on separate lines.
-            Refer to `JSON Object </rptools/wiki/JSON_Object>`__ for
+            Refer to `JSON Object <JSON_Object>`__ for
             more information about JSON object themselves and
-            `json.get </rptools/wiki/json.get>`__ for information on
+            `json.get <json.get>`__ for information on
             retrieving properties and their values.
 
             .. container:: mw-geshi mw-code mw-content-ltr

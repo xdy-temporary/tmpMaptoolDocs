@@ -46,7 +46,7 @@ getGMNotes - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -56,7 +56,7 @@ getGMNotes - MapToolDoc
 
             Returns the `GM
             notes </maptool/index.php?title=Token:GM_notes&action=edit&redlink=1>`__
-            from the `Current Token </rptools/wiki/Current_Token>`__.
+            from the `Current Token <Current_Token>`__.
 
          .. rubric:: Usage
             :name: usage
@@ -85,7 +85,7 @@ getGMNotes - MapToolDoc
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.

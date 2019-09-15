@@ -63,7 +63,7 @@ transferVBL - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -115,7 +115,7 @@ transferVBL - MapToolDoc
             the source.
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to set this setting, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          .. rubric:: Examples
             :name: examples
@@ -171,10 +171,10 @@ transferVBL - MapToolDoc
          .. container:: template_also
 
             `Introduction to Vision
-            Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
-            , `eraseVBL() </rptools/wiki/eraseVBL>`__,
-            `drawVBL() </rptools/wiki/drawVBL>`__,
-            `setTokenVBL() </rptools/wiki/setTokenVBL>`__
+            Blocking <Introduction_to_Vision_Blocking>`__
+            , `eraseVBL() <eraseVBL>`__,
+            `drawVBL() <drawVBL>`__,
+            `setTokenVBL() <setTokenVBL>`__
 
          .. rubric:: Version Changes
             :name: version-changes

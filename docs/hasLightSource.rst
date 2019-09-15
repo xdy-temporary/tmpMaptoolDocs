@@ -66,7 +66,7 @@ hasLightSource - MapToolDoc
          .. container:: template_description
 
             Returns 1 if the `Current
-            Token </rptools/wiki/Current_Token>`__ has any `light
+            Token <Current_Token>`__ has any `light
             sources </maptool/index.php?title=LightSource:light_source&action=edit&redlink=1>`__
             that match the criteria passed in or 0 if there are no
             matches. If no arguments are passed to the function then it
@@ -123,12 +123,12 @@ hasLightSource - MapToolDoc
             Defaults to "*".
          -  ``id`` - The token ``id`` of the token which is checked for
             light sources, defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.

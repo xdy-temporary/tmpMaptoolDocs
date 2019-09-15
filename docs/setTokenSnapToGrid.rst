@@ -67,7 +67,7 @@ setTokenSnapToGrid - MapToolDoc
          .. container:: template_description
 
             Sets the "snap to" behaviour for the `Current
-            Token </rptools/wiki/Current_Token>`__ or a specified token.
+            Token <Current_Token>`__ or a specified token.
 
          .. rubric:: Usage
             :name: usage
@@ -117,7 +117,7 @@ setTokenSnapToGrid - MapToolDoc
 
          .. container:: template_also
 
-            `isSnapToGrid() </rptools/wiki/isSnapToGrid>`__
+            `isSnapToGrid() <isSnapToGrid>`__
 
          .. rubric:: Version Changes
             :name: version-changes

@@ -43,8 +43,8 @@ Introduction to Vision Blocking - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Vision_Blocking/es>`__\  • \ `français </rptools/wiki/Introduction_to_Vision_Blocking/fr>`__\ 
-             • \ `日本語 </rptools/wiki/Introduction_to_Vision_Blocking/ja>`__\ 
+             • \ `español <Introduction_to_Vision_Blocking/es>`__\  • \ `français <Introduction_to_Vision_Blocking/fr>`__\ 
+             • \ `日本語 <Introduction_to_Vision_Blocking/ja>`__\ 
 
          .. container:: template_beginner
 
@@ -86,13 +86,13 @@ Introduction to Vision Blocking - MapToolDoc
          .. rubric:: Vision Blocking
             :name: vision-blocking
 
-         In MapTool, `tokens </rptools/wiki/Token:token>`__ can be given
-         `sight </rptools/wiki/Introduction_to_Lights_and_Sights>`__,
+         In MapTool, `tokens <Token:token>`__ can be given
+         `sight <Introduction_to_Lights_and_Sights>`__,
          which lets the program model vision and lighting in-game. In
          other words, when you configure the token with vision, it can
          then "see" other tokens and areas of the map. In addition,
          MapTool provides for
-         `lighting </rptools/wiki/Introduction_to_Lights_and_Sights>`__
+         `lighting <Introduction_to_Lights_and_Sights>`__
          - so a token can "see" only to the extent of its light source
          (or nearby light sources) - and Vision Blocking, which lets you
          establish boundaries to the token's visual range (so you can
@@ -105,7 +105,7 @@ Introduction to Vision Blocking - MapToolDoc
          connected to the **Sight**, **Light**, and **Fog of War**
          features of MapTool, so once you've read this tutorial, go
          check out the `Introduction to Lights and
-         Sights </rptools/wiki/Introduction_to_Lights_and_Sights>`__ and
+         Sights <Introduction_to_Lights_and_Sights>`__ and
          see how it all works together!
 
          .. rubric:: First, Get a Map
@@ -121,7 +121,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:samp-dungeon.png>`__
+                     ` <File:samp-dungeon.png>`__
 
                   Sample Dungeon
 
@@ -150,7 +150,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-toolbar-btn.png>`__
+                     ` <File:Vbl-toolbar-btn.png>`__
 
                   The VBL toolbar button
 
@@ -164,7 +164,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-tools.png>`__
+                     ` <File:Vbl-tools.png>`__
 
                   The VBL tools, activated when you click on the VBL
                   toolbar button
@@ -251,7 +251,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-map-zoomed-extents.png>`__
+                     ` <File:Vbl-map-zoomed-extents.png>`__
 
                   Zooming out so the entire dungeon area is visible
 
@@ -265,7 +265,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-createsolidvbl.png>`__
+                     ` <File:Vbl-createsolidvbl.png>`__
 
                   Creating a block of solid VBL over the whole dungeon
 
@@ -292,7 +292,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-complete-cover.png>`__
+                     ` <File:Vbl-complete-cover.png>`__
 
                   The entire dungeon area covered by solid VBL
 
@@ -313,7 +313,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-erasingvbl.png>`__
+                     ` <File:Vbl-erasingvbl.png>`__
 
                   Erasing a section of VBL - hold down Ctrl to make the
                   area snap to the map grid.
@@ -351,7 +351,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-erased.png>`__
+                     ` <File:Vbl-erased.png>`__
 
                   The VBL is now erased over the dungeon rooms
                   themselves.
@@ -378,7 +378,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-polyline-wall.png>`__
+                     ` <File:Vbl-polyline-wall.png>`__
 
                   Drawing VBL on the walls with the Poly Line VBL tool.
 
@@ -436,7 +436,7 @@ Introduction to Vision Blocking - MapToolDoc
 
                   .. container:: magnify
 
-                     ` </rptools/wiki/File:Vbl-drawx.png>`__
+                     ` <File:Vbl-drawx.png>`__
 
                   An "X" drawn with VBL, typically used for pillars,
                   statues, and similar objects
@@ -483,8 +483,8 @@ Introduction to Vision Blocking - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `español </rptools/wiki/Introduction_to_Vision_Blocking/es>`__\  • \ `français </rptools/wiki/Introduction_to_Vision_Blocking/fr>`__\ 
-             • \ `日本語 </rptools/wiki/Introduction_to_Vision_Blocking/ja>`__\ 
+             • \ `español <Introduction_to_Vision_Blocking/es>`__\  • \ `français <Introduction_to_Vision_Blocking/fr>`__\ 
+             • \ `日本語 <Introduction_to_Vision_Blocking/ja>`__\ 
 
       .. container:: printfooter
 

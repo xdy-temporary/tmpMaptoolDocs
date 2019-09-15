@@ -73,7 +73,7 @@ File:DialogTitle.png - MapToolDoc
             ======= ================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
             \       Date/Time                                                          Thumbnail                                             Dimensions        User                                                                                                                                                                                        Comment
             ======= ================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
-            current `13:12, 14 December 2008 </maptool/images/5/54/DialogTitle.png>`__ |Thumbnail for version as of 13:12, 14 December 2008| 399 × 196 (14 KB) `Craig </rptools/wiki/User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs </rptools/wiki/Special:Contributions/Craig>`__\ \ )
+            current `13:12, 14 December 2008 </maptool/images/5/54/DialogTitle.png>`__ |Thumbnail for version as of 13:12, 14 December 2008| 399 × 196 (14 KB) `Craig <User:Craig>`__\ (\ \ `Talk </maptool/index.php?title=User_talk:Craig&action=edit&redlink=1>`__\ \ \|\ \ `contribs <Special:Contributions/Craig>`__\ \ )
             ======= ================================================================== ===================================================== ================= =========================================================================================================================================================================================== =======
 
          -  You cannot overwrite this file.
@@ -87,7 +87,7 @@ File:DialogTitle.png - MapToolDoc
             The following page links to this file:
 
             -  `Introduction to Dialogs and
-               Frames </rptools/wiki/Introduction_to_Dialogs_and_Frames>`__
+               Frames <Introduction_to_Dialogs_and_Frames>`__
 
       .. container:: printfooter
 

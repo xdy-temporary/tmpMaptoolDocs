@@ -51,21 +51,21 @@ closeDialog - MapToolDoc
 
             Closes the specified macro dialog that was previously
             created using `[
-            dialog():] </rptools/wiki/dialog_(roll_option)>`__. If the
-            `dialog </rptools/wiki/dialog>`__ is not open then the
+            dialog():] <dialog_(roll_option)>`__. If the
+            `dialog <dialog>`__ is not open then the
             function has no effect.
 
             The most common use for this function is closing a
-            `dialog </rptools/wiki/dialog>`__ based from a macro that is
+            `dialog <dialog>`__ based from a macro that is
             run when clicking on a link or button for the
-            `dialog </rptools/wiki/dialog>`__ that has no close button.
+            `dialog <dialog>`__ that has no close button.
 
             **NOTE** In later versions of maptool (tested in b74) this
             works only for dialogs opened with
-            `[dialog():] </rptools/wiki/dialog_(roll_option)>`__. Frames
+            `[dialog():] <dialog_(roll_option)>`__. Frames
             cant be closed with this. But there is a new analog function
             available for that, too. See
-            `closeFrame() </rptools/wiki/closeFrame>`__
+            `closeFrame() <closeFrame>`__
 
          .. rubric:: Usage
             :name: usage
@@ -91,12 +91,12 @@ closeDialog - MapToolDoc
 
                         [h: closeDialog("CharacterSheet")]
 
-            Assuming a `dialog </rptools/wiki/dialog>`__ called "Name
+            Assuming a `dialog <dialog>`__ called "Name
             Entry" has been created without the input flag but
             containing a form. In the macro called when the form is
             submitted you can use the following logic to check that the
             "name" field is not blank and close the
-            `dialog </rptools/wiki/dialog>`__.
+            `dialog <dialog>`__.
 
             .. container:: mw-geshi mw-code mw-content-ltr
 

@@ -56,8 +56,8 @@ hasProperty - MapToolDoc
          .. container:: template_description
 
             Returns ``true``\ (``1``) if the `Token
-            Property </rptools/wiki/Token_Property>`__ with the
-            specified name exists on a `Token </rptools/wiki/Token>`__.
+            Property <Token_Property>`__ with the
+            specified name exists on a `Token <Token>`__.
             The function will return true if the token possesses the
             specified property, even if that property is not defined in
             the token's current property type.
@@ -84,17 +84,17 @@ hasProperty - MapToolDoc
          **Parameters**
 
          -  ``name`` - The name of the `Token
-            Property </rptools/wiki/Token_Property>`__ which is checked
+            Property <Token_Property>`__ which is checked
             for on the token.
          -  ``id`` - The token ``id`` of the token which is checked for
-            the `Token Property </rptools/wiki/Token_Property>`__,
+            the `Token Property <Token_Property>`__,
             defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
             .. container:: template_trusted_param
 
                 Note: This parameter can only be used in a `Trusted
-               Macro </rptools/wiki/Trusted_Macro>`__. 
+               Macro <Trusted_Macro>`__. 
 
          -  ``mapname`` - The name of the map to find the token.
             Defaults to the current map.

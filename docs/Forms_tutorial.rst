@@ -105,7 +105,7 @@ Forms tutorial - MapToolDoc
          .. rubric:: What is this about?
             :name: what-is-this-about
 
-         The `input() </rptools/wiki/input>`__ function is a great way
+         The `input() <input>`__ function is a great way
          to get data from the user. Its simple to use as well. But it
          limits you in the ways you can design the resulting dialog. You
          might even miss features like multi-line textboxes. Maybe you
@@ -113,7 +113,7 @@ Forms tutorial - MapToolDoc
          still want the other maptool features to work - and not freeze.
 
          If you can't create the user interaction with
-         `input() </rptools/wiki/input>`__ you have to create a html
+         `input() <input>`__ you have to create a html
          form. And here I explain to you how to do that.
 
          But be aware! A input pauses your macro, creates a pop up
@@ -123,13 +123,13 @@ Forms tutorial - MapToolDoc
 
          I assume you know how to write simple macros and create/use
          lib:tokens. All my code examples will be located on a
-         `lib:token </rptools/wiki/Library_Token>`__ named "Lib:token".
+         `lib:token <Library_Token>`__ named "Lib:token".
 
          **NOTE** I'm not the first one who tried to explain this. There
          is a nice tutorial on using html frames for creating a
          character sheet that covers even css embedding and tab page
          creation: `Introduction to Dialogs and
-         Frames </rptools/wiki/Introduction_to_Dialogs_and_Frames>`__.
+         Frames <Introduction_to_Dialogs_and_Frames>`__.
 
          .. rubric:: Where can you use forms?
             :name: where-can-you-use-forms
@@ -137,8 +137,8 @@ Forms tutorial - MapToolDoc
          Maptool accepts html in uncountable places and theoretically
          where ever html is interpreted you could create a form. But
          really useful is it to place your html form either in a
-         `dialog </rptools/wiki/dialog_(roll_option)>`__ or a
-         `frame </rptools/wiki/frame_(roll_option)>`__. A frame is a
+         `dialog <dialog_(roll_option)>`__ or a
+         `frame <frame_(roll_option)>`__. A frame is a
          dockable window while a dialog is floating above the rest of
          the UI. A dialog has a close button as default while a frame
          has no buttons other than those you create there.
@@ -149,9 +149,9 @@ Forms tutorial - MapToolDoc
          of an open window with the same name if that exists.
 
          You can close dialogs in macro with
-         `closeDialog() </rptools/wiki/closeDialog>`__ and in later
+         `closeDialog() <closeDialog>`__ and in later
          versions you can close frames as well
-         (`closeFrame() </rptools/wiki/closeFrame>`__).
+         (`closeFrame() <closeFrame>`__).
 
          Lets create a macro "openFrame" so that we can display a form.
 
@@ -242,7 +242,7 @@ Forms tutorial - MapToolDoc
          Note that you can place all possible html in such a form so you
          can easily design it any way you want. Create tables, use CSS,
          fonts, colors, ... **Maptool only supports HTML3.2
-         and**\ `CSS1 </rptools/wiki/Supported_CSS_Styles>`__. This is
+         and**\ `CSS1 <Supported_CSS_Styles>`__. This is
          because the java controls being used in maptool don't support
          more recent versions of HTML/CSS. Dont blame maptool ;)
 
@@ -258,7 +258,7 @@ Forms tutorial - MapToolDoc
          the processForm-macros).
 
          We specify the called macro using
-         `macroLinkText() </rptools/wiki/macroLinkText>`__. You should
+         `macroLinkText() <macroLinkText>`__. You should
          not specify the macro.args here as it will interfere with the
          form data.
 
@@ -341,7 +341,7 @@ Forms tutorial - MapToolDoc
                      }
 
          Now its pretty easy to access the name and strength using
-         `json.get() </rptools/wiki/json.get>`__.
+         `json.get() <json.get>`__.
 
          .. rubric:: The input fields
             :name: the-input-fields
@@ -408,7 +408,7 @@ Forms tutorial - MapToolDoc
 
          **TRICK:** You can process the content of a textarea line by
          line if you use the following trick. By using
-         `encode() </rptools/wiki/encode>`__ on the complete content you
+         `encode() <encode>`__ on the complete content you
          change line breaks into ``%0A``. Then you can use string list
          functions using ``%0A`` as separator.
 
@@ -585,7 +585,7 @@ Forms tutorial - MapToolDoc
          ``json.contains`` on the field name.
 
          See my `"Good advice" tip
-         #4 </rptools/wiki/Forms_tutorial#Predefine_checkboxes>`__ for
+         #4 <Forms_tutorial#Predefine_checkboxes>`__ for
          another way to treat this (you can predefine the value with a
          0-value).
 
@@ -623,7 +623,7 @@ Forms tutorial - MapToolDoc
 
          **NOTE** only the pressed button appears in the json. If you
          use multiple buttons use
-         `json.contains() </rptools/wiki/json.contains>`__ to identify
+         `json.contains() <json.contains>`__ to identify
          it. Predefining the key/name could probably help (see
          checkboxes).
 
@@ -731,7 +731,7 @@ Forms tutorial - MapToolDoc
          the `maptool
          forums <http://forums.rptools.net/viewtopic.php?p=143242#p143242>`__
          and a list of events on the
-         `Category:Event </rptools/wiki/Category:Event>`__ page.
+         `Category:Event <Category:Event>`__ page.
 
          Maptool macros can react on three events: if a token is
          changed, if token selection is changed and if impersonation is
@@ -796,8 +796,8 @@ Forms tutorial - MapToolDoc
          separated list break the list.
 
          So its always always good to use
-         `encode() </rptools/wiki/encode>`__ on user input (and
-         `decode() </rptools/wiki/decode>`__ to .. well .. decode it
+         `encode() <encode>`__ on user input (and
+         `decode() <decode>`__ to .. well .. decode it
          again).
 
          .. rubric:: Building complex html forms can take time
@@ -930,8 +930,8 @@ Forms tutorial - MapToolDoc
          name the chat line begins with user name.
 
          If you dont like this always specify the token context in your
-         `macroLink() </rptools/wiki/macroLink>`__ and
-         `macroLinkText() </rptools/wiki/macroLinkText>`__ calls.
+         `macroLink() <macroLink>`__ and
+         `macroLinkText() <macroLinkText>`__ calls.
 
          An example of this can be found in the
          `forum <http://forums.rptools.net/viewtopic.php?p=170425#p170425>`__.
@@ -1093,7 +1093,7 @@ Forms tutorial - MapToolDoc
             :name: character-sheeteditor
 
          Lets create an character sheet and editor for the `maptool
-         sample ruleset </rptools/wiki/Sample_Ruleset>`__ using what we
+         sample ruleset <Sample_Ruleset>`__ using what we
          learned so far.
 
          | 

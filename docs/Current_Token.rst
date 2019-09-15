@@ -84,7 +84,7 @@ Current Token - MapToolDoc
             previous two categories. Simply put, the current token is
             the token that is *at that time* (in other words,
             *currently*) being changed or referred to by a
-            `macro </rptools/wiki/Introduction_to_Macro_Writing>`__
+            `macro <Introduction_to_Macro_Writing>`__
             command or other command in MapTool. Think of it as the
             "focus" of that particular macro. Because of that, it is
             actually possible for a token to be the selected token, the
@@ -120,7 +120,7 @@ Current Token - MapToolDoc
             :name: library-tokens-and-the-current-token
 
          More advanced uses of MapTool's macro system involve the use of
-         `Library Tokens </rptools/wiki/Library_Token>`__, tokens which
+         `Library Tokens <Library_Token>`__, tokens which
          contain a library of macro functions that can be called by
          other tokens (much like a function call in other programming
          languages). An important thing to understand is that when a
@@ -130,7 +130,7 @@ Current Token - MapToolDoc
 
          In other words, if a macro on the token **Grognar the Bold**
          calls the macro ``Roll Attack`` on a `Library
-         Token </rptools/wiki/Library_Token>`__, the Current Token - as
+         Token <Library_Token>`__, the Current Token - as
          far as ``Roll Attack`` is concerned - is **Grognar the Bold**,
          and all variable references, property references, and
          operations are performed against **Grognar the Bold**, and
@@ -139,8 +139,8 @@ Current Token - MapToolDoc
          To handle operations against the Library Token itself (such as
          getting information from it, or setting a value for a property
          on the Library Token), use the
-         `setLibProperty </rptools/wiki/setLibProperty>`__ and
-         `getLibProperty </rptools/wiki/getLibProperty>`__ functions.
+         `setLibProperty <setLibProperty>`__ and
+         `getLibProperty <getLibProperty>`__ functions.
 
          .. rubric:: Difference between Current and
             Selected/Impersonated Tokens
@@ -162,8 +162,8 @@ Current Token - MapToolDoc
 
          However, the current token is not *always* the selected token -
          it is possible to use macro commands like
-         `switchToken </rptools/wiki/switchToken>`__ or the `token roll
-         option </rptools/wiki/Macros:Branching_and_Looping#TOKEN_Option>`__
+         `switchToken <switchToken>`__ or the `token roll
+         option <Macros:Branching_and_Looping#TOKEN_Option>`__
          to change what a macro considers to be the *current token* for
          the purposes of retrieving or setting properties. This is a
          very useful feature - it lets you do things like reduce an
@@ -195,7 +195,7 @@ Current Token - MapToolDoc
          4**), or randomly, in which case you'd end up with something
          like **Orc 98**, **Orc 17**, and **Orc 35**. The numbering
          option can be selected in the `MapTool
-         Preferences </rptools/wiki/MapTool_Preferences>`__ dialog under
+         Preferences <MapTool_Preferences>`__ dialog under
          **Edit > Preferences**.
 
       .. container:: printfooter

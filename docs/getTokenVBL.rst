@@ -46,7 +46,7 @@ getTokenVBL - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 
@@ -70,9 +70,9 @@ getTokenVBL - MapToolDoc
          This macro function is used used to get a JSON object
          describing the TOKEN VBL attached to a token. The returned JSON
          object can then be used with
-         `setTokenVBL() </rptools/wiki/setTokenVBL>`__,
-         `drawVBL()or </rptools/wiki/drawVBL>`__
-         `eraseVBL() </rptools/wiki/eraseVBL>`__.
+         `setTokenVBL() <setTokenVBL>`__,
+         `drawVBL()or <drawVBL>`__
+         `eraseVBL() <eraseVBL>`__.
 
          Token VBL is attached to and moves with the token. It can be
          set (or cleared) under the VBL tab on the Edit Token dialog and
@@ -84,7 +84,7 @@ getTokenVBL - MapToolDoc
 
          -  ``id`` - OPTIONAL: The token ``id`` of the token for which
             you want to get the VBL. Defaults to the `Current
-            Token </rptools/wiki/Current_Token>`__.
+            Token <Current_Token>`__.
 
          *Example:*
 
@@ -105,10 +105,10 @@ getTokenVBL - MapToolDoc
          .. container:: template_also
 
             `Introduction to Vision
-            Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
-            , `setTokenVBL() </rptools/wiki/setTokenVBL>`__,
-            `drawVBL() </rptools/wiki/drawVBL>`__ or
-            `eraseVBL() </rptools/wiki/eraseVBL>`__
+            Blocking <Introduction_to_Vision_Blocking>`__
+            , `setTokenVBL() <setTokenVBL>`__,
+            `drawVBL() <drawVBL>`__ or
+            `eraseVBL() <eraseVBL>`__
 
       .. container:: printfooter
 

@@ -42,7 +42,7 @@ macro.args - MapToolDoc
 
          The variable *macro.args* holds the value of the argument
          passed to a trusted macro via the
-         `MACRO() </rptools/wiki/macro_(roll_option)>`__ roll option.
+         `MACRO() <macro_(roll_option)>`__ roll option.
          *macro.args* exists only within the macro that is called, and
          may be manipulated like any variable in a macro.
 
@@ -93,7 +93,7 @@ macro.args - MapToolDoc
             :name: single-parameter
 
          When a macro on a `library
-         token </rptools/wiki/Token:library_token>`__ is called by
+         token <Token:library_token>`__ is called by
          another macro, the calling macro may pass one argument to the
          called macro:
 
@@ -137,7 +137,7 @@ macro.args - MapToolDoc
 
          In the example above, *damageDice* is the argument being passed
          to the macro **getDamage**, which resides on the **Lib:test**
-         `library token </rptools/wiki/Token:library_token>`__. Within
+         `library token <Token:library_token>`__. Within
          the **getDamage** macro, the variable ``macro.args`` is
          automatically generated and assigned the value of *damageDice*.
 
@@ -205,18 +205,18 @@ macro.args - MapToolDoc
             :name: b-multiple-parameters-using-json-array
 
          The second way to pass multiple parameters is to use a `JSON
-         Array </rptools/wiki/JSON_Array>`__ or `JSON
-         Object </rptools/wiki/JSON_Object>`__.
+         Array <JSON_Array>`__ or `JSON
+         Object <JSON_Object>`__.
 
          Using a JSON data type passes multiple values as a single unit.
          When using JSON data types, there will be a single parameter
          coming into the macro but because it's either an array or an
          object you can retrieve individual fields quite easily.
 
-         As the `json.append() </rptools/wiki/json.append>`__ is being
+         As the `json.append() <json.append>`__ is being
          passed ``"[]"`` as the first parameter in this next code block,
          it's creating an empty `JSON
-         Array </rptools/wiki/JSON_Array>`__ and then appending two new
+         Array <JSON_Array>`__ and then appending two new
          values to it.
 
          .. rubric:: Calling Macro using JSON Array
@@ -273,9 +273,9 @@ macro.args - MapToolDoc
             :name: c-multiple-parameters-using-json-object
 
          Notice that in this next example, the
-         `json.set() </rptools/wiki/json.set>`__ is being passed
+         `json.set() <json.set>`__ is being passed
          ``"{}"`` as the first parameter. This indicates to the function
-         that we want a `JSON Object </rptools/wiki/JSON_Object>`__.
+         that we want a `JSON Object <JSON_Object>`__.
 
          .. rubric:: Calling Macro using JSON Object
             :name: calling-macro-using-json-object
@@ -330,8 +330,8 @@ macro.args - MapToolDoc
          .. rubric:: See Also
             :name: see-also
 
-         `macro.return </rptools/wiki/macro.return>`__,
-         `[macro():] </rptools/wiki/macro_(roll_option)>`__
+         `macro.return <macro.return>`__,
+         `[macro():] <macro_(roll_option)>`__
 
       .. container:: printfooter
 

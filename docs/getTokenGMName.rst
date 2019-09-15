@@ -43,7 +43,7 @@ getTokenGMName - MapToolDoc
          .. container:: template_deprecated
 
              Note: This function has been deprecated. Refer to
-            `getGMName() </rptools/wiki/getGMName>`__ for current
+            `getGMName() <getGMName>`__ for current
             functionality.
 
          .. rubric:: getTokenGMName() Function
@@ -52,7 +52,7 @@ getTokenGMName - MapToolDoc
          .. container::
 
              Note: This function can only be used in a `Trusted
-            Macro </rptools/wiki/Trusted_Macro>`__
+            Macro <Trusted_Macro>`__
 
          .. container:: template_version
 

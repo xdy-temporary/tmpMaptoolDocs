@@ -61,10 +61,10 @@ Category:Distance Function - MapToolDoc
                   .. rubric:: G
                      :name: g
 
-                  -  `getDistance </rptools/wiki/getDistance>`__
-                  -  `getDistanceToXY </rptools/wiki/getDistanceToXY>`__
-                  -  `getTokenX </rptools/wiki/getTokenX>`__
-                  -  `getTokenY </rptools/wiki/getTokenY>`__
+                  -  `getDistance <getDistance>`__
+                  -  `getDistanceToXY <getDistanceToXY>`__
+                  -  `getTokenX <getTokenX>`__
+                  -  `getTokenY <getTokenY>`__
 
       .. container:: printfooter
 

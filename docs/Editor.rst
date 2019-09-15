@@ -43,8 +43,8 @@ Editor - MapToolDoc
          .. container:: template_languages
 
             Languages:  English
-             • \ `Deutsch </rptools/wiki/Editor/de>`__\ 
-             • \ `français </rptools/wiki/Editor/fr>`__\ 
+             • \ `Deutsch <Editor/de>`__\ 
+             • \ `français <Editor/fr>`__\ 
 
          This is the place for all things Editor.
 
@@ -53,11 +53,11 @@ Editor - MapToolDoc
          how current articles are being editing. A good way to make sure
          you're looking at an article that has the current formatting is
          to look for recently edited function articles in the
-         `Special:RecentChanges </rptools/wiki/Special:RecentChanges>`__
+         `Special:RecentChanges <Special:RecentChanges>`__
          and look at Rumble's newer Introduction Series
 
          We use templates rather extensively, so reading the
-         `Help:Editing </rptools/wiki/Help:Editing>`__ article will help
+         `Help:Editing <Help:Editing>`__ article will help
          a lot with understanding the syntax of our custom templates.
 
          Although you might stumble across an article within a
@@ -70,30 +70,30 @@ Editor - MapToolDoc
 
          **Informational Pages**
 
-         -  `Editor:Translation </rptools/wiki/Editor:Translation>`__
-         -  `Help:Editing </rptools/wiki/Help:Editing>`__
+         -  `Editor:Translation <Editor:Translation>`__
+         -  `Help:Editing <Help:Editing>`__
 
          **Discussion Pages:**
 
-         -  `Editor:Wanted Pages </rptools/wiki/Editor:Wanted_Pages>`__
-         -  `Editor:To Do </rptools/wiki/Editor:To_Do>`__
+         -  `Editor:Wanted Pages <Editor:Wanted_Pages>`__
+         -  `Editor:To Do <Editor:To_Do>`__
 
          If you have any information on your user page that other
          editors might be interested in, feel free to add a link to it
          below:
 
-         -  `User:Craig </rptools/wiki/User:Craig>`__
-         -  `User:Cclouser </rptools/wiki/User:Cclouser>`__
-         -  `User:Verisimilar </rptools/wiki/User:Verisimilar>`__
-         -  `User:Lachnaddar </rptools/wiki/User:Lachnaddar>`__
-         -  `User:Jagged </rptools/wiki/User:Jagged>`__
-         -  `User:Wolph42 </rptools/wiki/User:Wolph42>`__
+         -  `User:Craig <User:Craig>`__
+         -  `User:Cclouser <User:Cclouser>`__
+         -  `User:Verisimilar <User:Verisimilar>`__
+         -  `User:Lachnaddar <User:Lachnaddar>`__
+         -  `User:Jagged <User:Jagged>`__
+         -  `User:Wolph42 <User:Wolph42>`__
 
          .. container:: template_languages
 
             Languages:  English
-             • \ `Deutsch </rptools/wiki/Editor/de>`__\ 
-             • \ `français </rptools/wiki/Editor/fr>`__\ 
+             • \ `Deutsch <Editor/de>`__\ 
+             • \ `français <Editor/fr>`__\ 
 
       .. container:: printfooter
 

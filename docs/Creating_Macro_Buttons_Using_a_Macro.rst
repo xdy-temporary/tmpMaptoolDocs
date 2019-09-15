@@ -92,10 +92,10 @@ Creating Macro Buttons Using a Macro - MapToolDoc
          made.
 
          1. Powers in this campaign setup are stored in a series of
-         `token properties </rptools/wiki/Token:token_property>`__ with
+         `token properties <Token:token_property>`__ with
          the names "Power0", "Power1", "Power2", and so on. These token
          properties contain power information in the form of a `string
-         property list </rptools/wiki/Macros:string_property_list>`__
+         property list <Macros:string_property_list>`__
          with the format:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -120,7 +120,7 @@ Creating Macro Buttons Using a Macro - MapToolDoc
 
          2. This macro will receive from a calling macro an argument
          called
-         `macro.args </rptools/wiki/Macros:Special_Variables:macro.args>`__
+         `macro.args <Macros:Special_Variables:macro.args>`__
          that contains a number (which will be used to determine which
          power - Power0, Power1, etc. - will have a new button created).
 
@@ -133,7 +133,7 @@ Creating Macro Buttons Using a Macro - MapToolDoc
             :name: macro-code-and-explanation
 
          The `full macro
-         code </rptools/wiki/Tutorials:Macros:create_buttons_full_code>`__
+         code <Tutorials:Macros:create_buttons_full_code>`__
          is broken down and explained below.
 
          .. rubric:: Receiving Arguments and Assigning Variables
@@ -186,7 +186,7 @@ Creating Macro Buttons Using a Macro - MapToolDoc
                      [h:abort(status)]
 
          This section is a simple
-         `input() </rptools/wiki/Macros:Functions:input>`__ function
+         `input() <Macros:Functions:input>`__ function
          that confirms whether the user wants to add the button to their
          token's macro set. This is important because if a macro button
          is already present, this macro will create a duplicate.
@@ -326,11 +326,11 @@ Creating Macro Buttons Using a Macro - MapToolDoc
                      };]
 
          This is probably the most complex piece of the macro: a
-         `SWITCH() </rptools/wiki/Macros:Branching_and_Looping#SWITCH_Option>`__
+         `SWITCH() <Macros:Branching_and_Looping#SWITCH_Option>`__
          roll option nested inside an
-         `IF() </rptools/wiki/Macros:Branching_and_Looping#IF_Option>`__
+         `IF() <Macros:Branching_and_Looping#IF_Option>`__
          option, both of which use the `CODE:{
-         } </rptools/wiki/Macros:Branching_and_Looping#CODE>`__ option
+         } <Macros:Branching_and_Looping#CODE>`__ option
          to execute multiple macro commands as a single block.
 
          However, functionally, this segment's purpose is to assign
@@ -405,7 +405,7 @@ Creating Macro Buttons Using a Macro - MapToolDoc
          This sequence may appear confusing, but it is conceptually
          relatively simple. Because a macro button must contain macro
          instructions, this segment of macro code builds a string using
-         the `encode() </rptools/wiki/Macros:Functions:encode>`__
+         the `encode() <Macros:Functions:encode>`__
          function.
 
          In this case, **encode()** is used because macro commands
@@ -433,7 +433,7 @@ Creating Macro Buttons Using a Macro - MapToolDoc
             clicks the button:
 
          #. Call a macro on a `library
-            token </rptools/wiki/Token:library_token>`__ to resolve the
+            token <Token:library_token>`__ to resolve the
             use of the power
          #. If the macro is an encounter or daily power, change the
             macro button color to gray
@@ -460,9 +460,9 @@ Creating Macro Buttons Using a Macro - MapToolDoc
                      };
 
          This step is the easy part! We call the
-         `createMacro() </rptools/wiki/Macros:Functions:createMacro>`__
+         `createMacro() <Macros:Functions:createMacro>`__
          function and pass the arguments *pname* (containing the power's
-         name), the `decoded </rptools/wiki/Macros:Functions:decode>`__
+         name), the `decoded <Macros:Functions:decode>`__
          *command* string (containing all of the macro commands we wish
          the new button to contain), and the variable *macroProps*
          (which sets the initial button and font colors, group, and
@@ -503,7 +503,7 @@ Creating Macro Buttons Using a Macro - MapToolDoc
          containing the command sequence we assembled in the *command*
          variable. An example of the output - using the sample string
          property list shown in the
-         `Assumptions </rptools/wiki/Tutorials:Macros:CreatingMacroButtons#Assumptions>`__
+         `Assumptions <Tutorials:Macros:CreatingMacroButtons#Assumptions>`__
          section - is shown below:
 
          .. container:: mw-geshi mw-code mw-content-ltr
@@ -563,15 +563,15 @@ Creating Macro Buttons Using a Macro - MapToolDoc
          macro button do not have any line breaks between them. It
          requires some relatively convoluted use of strings and string
          concatenation to create easy-to-read command sequences via
-         `createMacro() </rptools/wiki/createMacro>`__. Future builds of
+         `createMacro() <createMacro>`__. Future builds of
          MapTool should remedy this situation.
 
          .. rubric:: See Also
             :name: see-also
 
-         `createMacro() </rptools/wiki/createMacro>`__,
-         `setMacroCommand() </rptools/wiki/setMacroCommand>`__,
-         `setMacroProps() </rptools/wiki/setMacroProps>`__
+         `createMacro() <createMacro>`__,
+         `setMacroCommand() <setMacroCommand>`__,
+         `setMacroProps() <setMacroProps>`__
 
       .. container:: printfooter
 
