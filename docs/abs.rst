@@ -76,7 +76,7 @@ absolutevalue - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               #. .. code:: de1
+               #. .. code:: de1::
 
                      [h: val = absolutevalue(num)]
 
