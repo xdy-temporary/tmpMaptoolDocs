@@ -217,6 +217,9 @@ for f in *.html.rst; do mv -- "$f" "${f%.html.rst}.rst"; done
 #***** Converted code blocks don't work, quick sed hack to fix
 sed -i 's|.. code:: de1|.. code-block:: none|g' *.rst
 
+#***** Truncate files to remove wikimedia footer
+for i in *.rst;do sed -i '/.. container:: catlinks/Q' $i; done
+
 #***** Move the result to docs
 mv *.rst ../docs
 
