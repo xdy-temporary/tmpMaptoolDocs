@@ -1,7 +1,6 @@
 This page is pretty much a dump of what I did to create this repo, somewhat cleaned up.
 
 ```bash
-{
 #Set up readthedocs by setting up an account connected to the proper github repo (https://docs.readthedocs.io/en/stable/connected-accounts.html)
 #As you commit stuff readthedocs will build your site. Mine is at: https://tmpmaptooldocs.readthedocs.io/en/latest/index.html
 
@@ -238,5 +237,4 @@ git push
 #***** TODO Include images
 #***** TODO Decide how to handle i18n pages
 #***** TODO Probably more...
-}
 ```
