@@ -84,7 +84,7 @@ setAllStates - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   setAllStates(value)
                   setAllStates(value, id)

@@ -130,7 +130,7 @@ strfind - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:id = strfind("Command-20, Sleight of Hand 10, Knowledge (Arcana) +5", "([^,]*?)\\s?([-+]?\\d+)(,|\$)")]
                      <b>First group</b><br>

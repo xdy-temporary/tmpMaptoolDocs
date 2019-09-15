@@ -49,7 +49,7 @@ List Input with Images - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [H: tokenList=getExposedTokenNames()]
                   [H: imgList = tokenList]

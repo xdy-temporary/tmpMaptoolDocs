@@ -99,7 +99,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [defineFunction("trimNumber", "trimNumber@this", 1)]
 
@@ -113,7 +113,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [assert(argCount() != 0, "trimNumber() requires at least one parameter.")]
                   [assert(argCount() <= 3, "trimNumber() accepts a maximum of three parameters.")]
@@ -149,7 +149,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r: trimNumber(1.125000)]
 
@@ -159,7 +159,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r: trimNumber(1.125000, 2)]
 
@@ -169,7 +169,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r: trimNumber(1.124000, 2)]
 
@@ -179,7 +179,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r: trimNumber(1.123000, 2, "up")]
 
@@ -189,7 +189,7 @@ Trim Number - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r: trimNumber(1.128000, 2, "down")]
 

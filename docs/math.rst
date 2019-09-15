@@ -286,7 +286,7 @@ math - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  2. .. code:: de1
+                  2. .. code-block:: none
 
                         3.0
 
@@ -307,7 +307,7 @@ math - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  2. .. code:: de1
+                  2. .. code-block:: none
 
                         0
 
@@ -328,7 +328,7 @@ math - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  2. .. code:: de1
+                  2. .. code-block:: none
 
                         8.0
 

@@ -111,7 +111,7 @@ Queued Conditional Output - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [defineFunction('outputTo', 'outputTo@this')]
 
@@ -125,7 +125,7 @@ Queued Conditional Output - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: toSend = '{}']
                   [h: argTest = json.type(arg(0))]
@@ -150,7 +150,7 @@ Queued Conditional Output - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r: json.get(macro.args, 'toSend')]
 

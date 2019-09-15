@@ -104,7 +104,7 @@ restoreFoW - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      <!-- Restore all Fog of War on current map -->
                      [h: restoreFoW()]

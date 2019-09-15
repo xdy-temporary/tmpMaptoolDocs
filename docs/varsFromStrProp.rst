@@ -87,7 +87,7 @@ varsFromStrProp - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   varsFromStrProp(props)
                   varsFromStrProp(props, decor)
@@ -122,7 +122,7 @@ varsFromStrProp - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      blah doh meh
 

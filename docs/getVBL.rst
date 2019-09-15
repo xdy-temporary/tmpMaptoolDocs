@@ -92,7 +92,7 @@ getVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h:rectangle = "{'shape':'rectangle','x':50,'y':50,'w':100,'h':200,'r':45,'fill':1,'thickness':1,'scale':0}"]
                   [r:vblData   = getVBL(rectangle , 0)]

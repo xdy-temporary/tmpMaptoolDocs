@@ -148,7 +148,7 @@ drawVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h:rectangle = "{'shape':'rectangle','x':50,'y':50,'w':100,'h':200,'r':45,'fill':1,'thickness':1,'scale':0}"]
                   [h:cross = "{'shape':'cross','x':-50,'y':-50,'w':50,'h':100,'r':30,'fill':1,'thickness':1,'scale':2}"]
@@ -181,7 +181,7 @@ drawVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h:circle = "{'shape':'circle', 'X':50, 'Y':100, 'radius':200, 'thickness':3, 'fill':0, 'sides':12,'r':45}"]
 
@@ -192,7 +192,7 @@ drawVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   {"shape":"circle", "X":50, "Y":100, "radius":200, "sides":3, "thickness":3, "fill":0, "r":30}
 
@@ -203,7 +203,7 @@ drawVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   {"shape":"circle", "X":50, "Y":100, "radius":200, "thickness":3, "fill":0, "sides":4,"r":45}
 
@@ -232,7 +232,7 @@ drawVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h:polygon = "{'shape':'polygon','r':0,'close':1,'thickness':10,'points':[{'x':0,'y':0},{'x':200,'y':200},{'x':150,'y':10}]}"]
 

@@ -153,7 +153,7 @@ roll - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h: diceTimes = 5]
                      [h: diceSides = 6]

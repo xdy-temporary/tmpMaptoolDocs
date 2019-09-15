@@ -160,7 +160,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r,if(val == something),CODE:{Print something}]
 
@@ -172,7 +172,7 @@ if (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r,if(val == something),CODE:{Print something};{}]
 

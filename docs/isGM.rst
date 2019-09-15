@@ -113,7 +113,7 @@ isGM - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [H: allPlayers = getAllPlayerNames("json")]
                      [H: GMList = "[]"]

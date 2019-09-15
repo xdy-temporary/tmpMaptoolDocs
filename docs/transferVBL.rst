@@ -128,7 +128,7 @@ transferVBL - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:transferVBL(1, "Dragon")]
                      [h:transferVBL(0)]
@@ -139,7 +139,7 @@ transferVBL - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:transferVBL(0)]
 
@@ -149,7 +149,7 @@ transferVBL - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:transferVBL(1, 1)]
 
@@ -159,7 +159,7 @@ transferVBL - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:transferVBL(1)]
                      [h: finalVblData = "{'shape':'none'}"]

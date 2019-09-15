@@ -223,7 +223,7 @@ broadcast - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   bot_execAllPlayers (macroName, arguments, [players], [output_to])
 

@@ -611,7 +611,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [1d20]
 
@@ -621,7 +621,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   {1d20}
 
@@ -638,7 +638,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   I roll [1d20+4] for initiative.
 
@@ -650,7 +650,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   I roll 16 for initiative.
 
@@ -674,7 +674,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [(comma-list-of-options): operation(s)]
 
@@ -699,7 +699,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r:1d20+4]
 
@@ -711,7 +711,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: d20roll = 1d20]
                   [h,if(d20roll == 20): output = "Critical Hit"; output = "Not a Critical Hit"]
@@ -732,7 +732,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: d20roll = 1d20]
                   [h,if(d20roll == 20),CODE:
@@ -773,7 +773,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: d20roll = 1d20]
                   [h,if(d20roll == 20),CODE:
@@ -820,7 +820,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               .. code:: de1
+               .. code-block:: none
 
                   <!--This is an HTML comment-->
 
@@ -834,7 +834,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               .. code:: de1
+               .. code-block:: none
 
                   <!--In this part of the macro I roll some dice-->
 
@@ -845,7 +845,7 @@ Introduction to Macro Writing - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               .. code:: de1
+               .. code-block:: none
 
                   <!--In this part of the macro I roll some dice using the format [r:1d20+9]-->
 
@@ -1215,7 +1215,7 @@ Introduction to Macro Writing - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:myHP = 30]
 
@@ -1263,7 +1263,7 @@ Introduction to Macro Writing - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:damage = 1d6+4]
                      [h:damageType = "fire"]
@@ -1666,7 +1666,7 @@ Introduction to Macro Writing - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      Attack: [1d20]
 
@@ -1695,7 +1695,7 @@ Introduction to Macro Writing - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [string = "This is a string"]
 
@@ -1705,7 +1705,7 @@ Introduction to Macro Writing - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [string = This is a string]
 

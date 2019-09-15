@@ -112,7 +112,7 @@ oldFunction - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h, if ( arg(0) == 0 ), code:
                      {

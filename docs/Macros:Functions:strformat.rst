@@ -126,7 +126,7 @@ strformat - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                        [h:output = strformat("%{tok} hits the %{target} for: %{hit} wounds.")]
 

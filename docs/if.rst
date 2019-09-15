@@ -91,7 +91,7 @@ if - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [if(((1))): 1;0]     <!-- in this case if() roll option fails -->
                      [if(((1)),1,0)]      <!-- in this case if() function    works -->

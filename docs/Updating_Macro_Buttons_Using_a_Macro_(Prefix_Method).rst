@@ -319,11 +319,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                          matches(macro, "Encounter:.*"),  1, 0)]
 
@@ -334,11 +334,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                          matches(macro, "(Daily|Encounter):.*"),  1, 0)]
 
@@ -353,11 +353,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                          matches(macro, "Round:.*"),  1, 0)]
 
@@ -368,11 +368,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                          matches(macro, "(Round|Encounter):.*"),  1, 0)]
 
@@ -383,11 +383,11 @@ Updating Macro Buttons Using a Macro (Prefix Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                          matches(macro, "(Round|Encounter|Daily):.*"),  1, 0)]
 

@@ -111,7 +111,7 @@ absolutevalue - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  2. .. code:: de1
+                  2. .. code-block:: none
 
                         3
 
@@ -134,7 +134,7 @@ absolutevalue - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  2. .. code:: de1
+                  2. .. code-block:: none
 
                         4
 
@@ -157,7 +157,7 @@ absolutevalue - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  2. .. code:: de1
+                  2. .. code-block:: none
 
                         3.4
 

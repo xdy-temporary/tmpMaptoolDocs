@@ -326,7 +326,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [if(attackHits == "yes", "You hit!", "You missed")]
 
@@ -349,7 +349,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [if(attackHits=="yes", output = "You Hit!", output = "You missed")]
 
@@ -364,7 +364,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [output = if(attackHits=="yes", "You Hit!", "You missed")]
 
@@ -412,7 +412,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [if(comparison): command_if_true; command_if_false]
 
@@ -439,7 +439,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h,if(attackHits == "yes"): output="You hit!"; output="You missed"]
                      Result of your attack: [r:output]
@@ -489,7 +489,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [roll_option1, roll_option2, code: macro_commands]
 
@@ -503,7 +503,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [if(comparison): command_if_true; command_if_false]
 
@@ -541,7 +541,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:attackRoll = 1d20]
                      [h:targetNumber = 15]
@@ -627,7 +627,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [switch(val):
                      case case_value1: command_1;
@@ -671,7 +671,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:class = "Rogue"]
                       
@@ -720,7 +720,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [switch(val),code:
                      case case_1: { commands_for_case_1};
@@ -740,7 +740,7 @@ Introduction to Macro Branching - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h,switch(class),code:
                      case "Warrior":

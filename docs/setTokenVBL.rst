@@ -96,7 +96,7 @@ setTokenVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: vbl = getTokenVBL("Door, Steel")]
                   [h: setTokenVBL(vbl, "Door, Wood")]
@@ -107,7 +107,7 @@ setTokenVBL - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [r: finalVblData = "{'shape':'none'}"]
                   [r: setTokenVBL(finalVblData)]

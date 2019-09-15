@@ -255,7 +255,7 @@ More Branching Options - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [MACRO("macroName@Lib:token"): macro_arguments]
 
@@ -326,7 +326,7 @@ More Branching Options - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [macro("Use Power@Lib:MT"): "Shield Bash"]
 
@@ -349,7 +349,7 @@ More Branching Options - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:powerName = macro.args]
 
@@ -393,7 +393,7 @@ More Branching Options - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:macro.return = powerResultText]
 

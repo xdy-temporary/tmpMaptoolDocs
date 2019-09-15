@@ -139,7 +139,7 @@ macroLink - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               .. code:: de1
+               .. code-block:: none
 
                   <a href="macro://macroName/output/target?args">text</a>
 
@@ -198,7 +198,7 @@ macroLink - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [r: macroLink("Click on me!", "Test@Lib:Test", "gm", "count=6", "impersonated")]
 
@@ -208,7 +208,7 @@ macroLink - MapToolDoc
 
                .. container:: html4strict source-html4strict
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      <a href="macro://Test@Lib:Test/gm/impersonated?count=6;">Click on me!</a>
 
@@ -238,7 +238,7 @@ macroLink - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      Took 4 points of damage.<!-- [r: macroLink("Update Character Sheet", "Update Character Sheet@Lib:Test")] -->
 
@@ -255,7 +255,7 @@ macroLink - MapToolDoc
 
                .. container:: html4strict source-html4strict
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      <a href="macro://AttackMacro@Lib:Test/all/impersonated?Count=6&DiceToRoll=1d6plus4&Text=Hello+there+Im+attacking+you;">Click me</a>
 
@@ -272,7 +272,7 @@ macroLink - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [r: macroLink("Click me!", "B@TOKEN", "all", "", findToken("Hero"))]
 

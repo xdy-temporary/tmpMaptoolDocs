@@ -78,7 +78,7 @@ movedOverToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   movedOverToken(token)
                   movedOverToken(token, lastPath)
@@ -98,7 +98,7 @@ movedOverToken - MapToolDoc
 
             .. container:: javascript source-javascript
 
-               .. code:: de1
+               .. code-block:: none
 
                   [{"x":900,"y":400},{"x":900,"y":350},{"x":900,"y":300}]
 
@@ -125,7 +125,7 @@ movedOverToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [{"x":550,"y":250}]
 
@@ -155,7 +155,7 @@ movedOverToken - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      Token moved over 3 caltrops.
 

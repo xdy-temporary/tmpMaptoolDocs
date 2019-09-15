@@ -635,7 +635,7 @@ Forms tutorial - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   <input type="submit" value="<html><b>Button</b></html>">
 

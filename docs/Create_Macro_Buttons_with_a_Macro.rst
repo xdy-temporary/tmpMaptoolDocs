@@ -49,7 +49,7 @@ Create Macro Buttons with a Macro - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h:powerSlot=macro.args]
                   [h:pname=getStrProp(eval("Power"+powerSlot),"powername")]

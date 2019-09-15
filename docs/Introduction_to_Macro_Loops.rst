@@ -198,7 +198,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:listOfColors = "blue, green, red, orange, mauve"]
 
@@ -256,7 +256,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:weapon1 = "name=Broadsword; damageDice=1d8; damageType=Slashing; category=Versatile;"]
 
@@ -285,7 +285,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [count(repetitions): command]
 
@@ -295,7 +295,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [c(repetitions): command]
 
@@ -471,7 +471,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [while(condition): command]
 
@@ -662,7 +662,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [for(counter, start, end, stepsize, separator): command]
 
@@ -712,7 +712,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [FOR(i,10,0,-2): "i is now " + i]
 
@@ -744,7 +744,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:theList = "Strength, Endurance, Dexterity, Intelligence"]
                       
@@ -827,7 +827,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [foreach(item, list): command]
 
@@ -852,7 +852,7 @@ Introduction to Macro Loops - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   I attack target 1: [1d20+7]<br>
                   I attack target 2: [1d20+7]<br>
@@ -883,7 +883,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:theList = "18, Bob, 29, Foo, 1009, Snorkel"]
                       
@@ -923,7 +923,7 @@ Introduction to Macro Loops - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      [h:targetList = "Orc 1, Goblin 2, Orc 4, Zombie 17, Big Boss"]
                       

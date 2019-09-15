@@ -137,7 +137,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                      [r:"Test"]
 
@@ -149,7 +149,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                      [r:"Test"]
                      [r:Test()]
@@ -215,7 +215,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [testJson = json.set("{}", "test0",test0,"test1",test1,"test2",test2,...,"test9",test9)]
                       [testJson = json.fromStrProp(strPropFromVars("test0,test1,test2,...,test9","UNSUFFIXED"))]
@@ -229,7 +229,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [testJson = strformat('{"test0":"%{test0}","test1":"%{test1}","test2":"%{test2}",...,"test9":"%{test9}"}')]
                       [testStrProp = strformat('test0=%{test0};test1=%{test1}...;test9=%{test9}')]
@@ -249,7 +249,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [result = getLibProperty("testJson","lib:OntokenMove")]
                       [varsFromStrProp(json.toStrProp(result))]
@@ -262,7 +262,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [foreach(item, result):set(item, eval(item))]
 
@@ -361,7 +361,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                     [tmp = getProperty("Dexterity", "Eagle")]              0.9ms
                     [token("Eagle"): tmp = getProperty("Dexterity")]       1.3ms
@@ -379,7 +379,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                     [tmp = getProperty("Dexterity", "Eagle")]                    50x 18ms
                     [token("Eagle"): tmp = getProperty("Dexterity")]             50x 29ms
@@ -406,7 +406,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                     [tmp = getProperty("Dexterity", "Eagle")]                    50x 2s
                     [token("Eagle"): tmp = getProperty("Dexterity")]             50x 2s
@@ -534,7 +534,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [varsFromStrProp(json.toStrProp(json.fromStrProp(strPropFromVars(theList,"UNSUFFIXED")))]
 
@@ -544,7 +544,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [tmp = strPropFromVars(theList,"UNSUFFIXED")]
                       [testJson = json.fromStrProp(tmp)]
@@ -718,7 +718,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                     <!-- this is open comment -->
 
@@ -729,7 +729,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                     [H:'<!-- this is hidden comment -->']
 
@@ -784,7 +784,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                     [h,count(100), CODE:{
                       some code
@@ -804,7 +804,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                     [tmp = if(1,1,0)]
                     [if(1): tmp = 1, tmp = 0]
@@ -839,7 +839,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [strformat("%{var1}%{var2}%{var3}%{var4}%{var5}%{var6}%{var7}%{var8}%{var9}")]     1.9377ms
                       [strformat("%s%s%s%s%s%s%s%s%s", var1, var2, var3, var4, var5, var6, var7, var8, var9)]    2.0979ms
@@ -865,7 +865,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [h:var1 = getProperty("var1")]
                       [h:var2 = getProperty("var2")]
@@ -938,7 +938,7 @@ Speed Up Your Macros - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                       [h:bot_startTime()]
                    

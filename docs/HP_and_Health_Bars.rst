@@ -168,7 +168,7 @@ HP and Health Bars - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h:status = input(
                   "hpChange|0|Number of Hit Points",
@@ -210,7 +210,7 @@ HP and Health Bars - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h:status = input(
                   "hpChange|0|Number of Hit Points",

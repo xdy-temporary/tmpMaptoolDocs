@@ -315,7 +315,7 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               14. .. code:: de1
+               14. .. code-block:: none
 
                               [isEnc = matches(getStrProp(props, "group"), "Encounter Powers")]
 
@@ -325,7 +325,7 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               14. .. code:: de1
+               14. .. code-block:: none
 
                               [isEnc = matches(getStrProp(props, "group"), "(Encounter|Daily) Powers")]
 
@@ -340,7 +340,7 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               14. .. code:: de1
+               14. .. code-block:: none
 
                               [isEnc = matches(getStrProp(props, "group"), "Round Powers")]
 
@@ -351,7 +351,7 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               14. .. code:: de1
+               14. .. code-block:: none
 
                               [isEnc = matches(getStrProp(props, "group"), "(Round|Encounter) Powers")]
 
@@ -362,7 +362,7 @@ Updating Macro Buttons Using a Macro (Label Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               14. .. code:: de1
+               14. .. code-block:: none
 
                               [isEnc = matches(getStrProp(props, "group"), "(Round|Encounter|Daily) Powers")]
 

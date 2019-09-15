@@ -74,7 +74,7 @@ getTokenOpacity - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   setTokenOpacity()
                   setTokenOpacity(id)

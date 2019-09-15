@@ -173,7 +173,7 @@ foreach (roll option) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: enemyList="Orcs; Goblins; Ogres; Trolls"]
                   [FOREACH(enemy, enemyList, " then ", ";"), CODE:

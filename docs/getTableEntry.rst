@@ -82,7 +82,7 @@ getTableEntry - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   getTableEntry(table, roll)
 
@@ -113,7 +113,7 @@ getTableEntry - MapToolDoc
 
                .. container:: javascript source-javascript
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      {"min":3, "max":5, "value": "duck", "assetid":""}
 

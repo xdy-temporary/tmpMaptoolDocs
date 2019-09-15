@@ -90,7 +90,7 @@ More Roll Initiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: defineFunction("dealinit","Roll_Init@this")]
                   [h: defineFunction("coreinit","roll_init_core@this")]
@@ -102,7 +102,7 @@ More Roll Initiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: initList = "booga=-1"];
                   [h: cardList = "-1"];
@@ -165,7 +165,7 @@ More Roll Initiative - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: SelectedGMName = arg(0)]
                   [h: cardList = arg(1)]

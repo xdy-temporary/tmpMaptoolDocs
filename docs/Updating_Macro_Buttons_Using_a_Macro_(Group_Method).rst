@@ -322,11 +322,11 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                        getStrProp(props, "group") == "Encounter Powers", 1, 0)]
 
@@ -337,15 +337,15 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                          matches(getStrProp(props, "group"),
 
-               14. .. code:: de1
+               14. .. code-block:: none
 
                                                 "(Daily|Encounter) Powers"), 1, 0)]
 
@@ -360,11 +360,11 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                        getStrProp(props, "group") == "Round Powers", 1, 0)]
 
@@ -375,15 +375,15 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                          matches(getStrProp(props, "group"),
 
-               14. .. code:: de1
+               14. .. code-block:: none
 
                                                 "(Round|Encounter) Powers"), 1, 0)]
 
@@ -394,15 +394,15 @@ Updating Macro Buttons Using a Macro (Group Method) - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               12. .. code:: de1
+               12. .. code-block:: none
 
                           [isBlue = if(getStrProp(props, "color") == "blue" &&
 
-               13. .. code:: de1
+               13. .. code-block:: none
 
                                          matches(getStrProp(props, "group"),
 
-               14. .. code:: de1
+               14. .. code-block:: none
 
                                                 "(Round|Encounter|Daily) Powers"), 1, 0)]
 

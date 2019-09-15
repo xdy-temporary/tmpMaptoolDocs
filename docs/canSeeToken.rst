@@ -87,7 +87,7 @@ canSeeToken - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   canSeeToken(target)
                   canSeeToken(target, source)
@@ -141,7 +141,7 @@ canSeeToken - MapToolDoc
 
                .. container:: javascript source-javascript
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      ["TOP_LEFT", "TOP_RIGHT", "CENTER"]
                      []

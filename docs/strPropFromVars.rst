@@ -72,7 +72,7 @@ strPropFromVars - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   [h: strPropFromVars(varList) ]
                   [h: strPropFromVars(varList, varStyle) ]
@@ -114,7 +114,7 @@ strPropFromVars - MapToolDoc
 
                .. container:: mtmacro source-mtmacro
 
-                  .. code:: de1
+                  .. code-block:: none
 
                      "c=cow ; a=3 ; b=bob"
 

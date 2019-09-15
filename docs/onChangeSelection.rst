@@ -54,7 +54,7 @@ onChangeSelection - MapToolDoc
 
             .. container:: html4strict source-html4strict
 
-               .. code:: de1
+               .. code-block:: none
 
                   <link rel='onChangeSelection' type='macro' href='macroLink'>
 

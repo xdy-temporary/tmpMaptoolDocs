@@ -83,7 +83,7 @@ getState - MapToolDoc
 
             .. container:: mtmacro source-mtmacro
 
-               .. code:: de1
+               .. code-block:: none
 
                   getState(state)
                   getState(state, id)
