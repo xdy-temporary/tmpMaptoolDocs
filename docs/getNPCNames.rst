@@ -1,59 +1,341 @@
+========================
+getNPCNames - MapToolDoc
+========================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=getNPCNames
-   |trusted=true
-   |version=1.3b48
-   |description=Returns a list containing the names of the [[NPC_Token{{!}}
+.. container:: noprint
+   :name: mw-head-base
 
-NPC_token|NPC Token{{!}}NPC token]]s on the current
-`Map{{!}}map <Map{{!}}map>`__. The type of the value returned depends on
-the delimiter parameter.
+.. container:: mw-body
+   :name: content
 
--  If the delimiter is not specified then a `String List{{!}}string
-   list <String_List{{!}}string_list>`__ is returned with the default
-   value of is used.
--  If the delimiter then a `JSON Array <JSON_Array>`__ is returned.
--  Otherwise a `String List{{!}}string
-   list <String_List{{!}}string_list>`__ is returned with the delimiter
-   passed in.
+   .. container:: mw-indicators
 
- 
+   .. rubric:: getNPCNames
+      :name: firstHeading
+      :class: firstHeading
 
-\|usage=
+   .. container:: mw-body-content
+      :name: bodyContent
 
-.. code:: mtmacro
-   :number-lines:
+      .. container::
+         :name: siteSub
 
-   [h: macros = getNPCNames()]
-   [h: macros = getNPCNames(delim)]
+         From MapToolDoc
 
-.. raw:: mediawiki
+      .. container::
+         :name: contentSub
 
-   {{code|delim}}
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-is the delimiter used to separate the values in the `String
-List{{!}}string list <String_List{{!}}string_list>`__ which defaults to
-if not specified.
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-\|example= To display the names of all of the `NPC Token{{!}}NPC
-tokens <NPC_Token{{!}}NPC_token>`__ on the current
-`Map:map{{!}}map <Map:map{{!}}map>`__ use.
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-.. code:: mtmacro
-   :number-lines:
+         .. container:: toc
+            :name: toc
 
-   [h: names = getNPCNames()]
-   [foreach(name, names, "<br>"): name]
+            .. container::
+               :name: toctitle
 
-\|changes=
+               .. rubric:: Contents
+                  :name: contents
 
--  **1.3b49** - Added delimiter option.
+            -  `1 getNPCNames()
+               Function <#getNPCNames.28.29_Function>`__
 
-\|also= }}
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Example <#Example>`__
+               -  `1.3 See Also <#See_Also>`__
+               -  `1.4 Version Changes <#Version_Changes>`__
 
-`Category:Find Function <Category:Find_Function>`__
+         .. rubric:: getNPCNames() Function
+            :name: getnpcnames-function
+
+         .. container::
+
+             Note: This function can only be used in a `Trusted
+            Macro </rptools/wiki/Trusted_Macro>`__
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b48**
+
+         .. container:: template_description
+
+            Returns a list containing the names of the `NPC
+            tokens </maptool/index.php?title=NPC_Token&action=edit&redlink=1>`__
+            on the current
+            `map </maptool/index.php?title=Map&action=edit&redlink=1>`__.
+            The type of the value returned depends on the delimiter
+            parameter.
+
+            -  If the delimiter is not specified then a `string
+               list </rptools/wiki/String_List>`__ is returned with the
+               default value of ``","`` is used.
+            -  If the delimiter ``json`` then a `JSON
+               Array </rptools/wiki/JSON_Array>`__ is returned.
+            -  Otherwise a `string list </rptools/wiki/String_List>`__
+               is returned with the delimiter passed in.
+
+             
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: macros = getNPCNames()]
+
+               #. .. code:: de1
+
+                     [h: macros = getNPCNames(delim)]
+
+         ``delim`` is the delimiter used to separate the values in the
+         `string list </rptools/wiki/String_List>`__ which defaults to
+         ``","`` if not specified.
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            To display the names of all of the `NPC
+            tokens </maptool/index.php?title=NPC_Token&action=edit&redlink=1>`__
+            on the current
+            `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
+            use.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: names = getNPCNames()]
+
+                  #. .. code:: de1
+
+                        [foreach(name, names, "<br>"): name]
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `[foreach():] </rptools/wiki/foreach_(roll_option)>`__
+
+         .. rubric:: Version Changes
+            :name: version-changes
+
+         .. container:: template_changes
+
+            -  **1.3b49** - Added ``json`` delimiter option.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=getNPCNames&oldid=7147"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Find Function </rptools/wiki/Category:Find_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Find
+         Function </rptools/wiki/Category:Find_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=getNPCNames>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/getNPCNames>`__
+            -  `Discussion </maptool/index.php?title=Talk:getNPCNames&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/getNPCNames>`__
+            -  `View
+               source </maptool/index.php?title=getNPCNames&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=getNPCNames&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/getNPCNames>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/getNPCNames>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=getNPCNames&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=getNPCNames&oldid=7147>`__
+            -  `Page
+               information </maptool/index.php?title=getNPCNames&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 2 March 2019, at 23:26.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

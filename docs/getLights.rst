@@ -1,57 +1,367 @@
+======================
+getLights - MapToolDoc
+======================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=getLights
-   |version=1.3b48
-   |description=Returns a string list containing the names of the [[Map:light_source{{!}}
+.. container:: noprint
+   :name: mw-head-base
 
-light_source|Map:light source{{!}}light source]]s that are turned on for
-the `Current Token <Current_Token>`__. The type of the value returned
-depends on the delimiter parameter.
+.. container:: mw-body
+   :name: content
 
-\|usage=
+   .. container:: mw-indicators
 
-.. code:: mtmacro
-   :number-lines:
+   .. rubric:: getLights
+      :name: firstHeading
+      :class: firstHeading
 
-   getLights()
-   getLights(type)
-   getLights(type, delim)
-   getLights(type, delim, id)
-   getLights(type, delim, id, mapname)
+   .. container:: mw-body-content
+      :name: bodyContent
 
-**Parameters** string_list|Macros:string list{{!}}string list]]. If set
-to "json", a `JSON Array <JSON_Array>`__ is returned. Defaults to ",".}}
+      .. container::
+         :name: siteSub
 
-\|examples= To get a `Macros:string list{{!}}string
-list <Macros:string_list{{!}}string_list>`__ of all of the
-`LightSource:light sources <LightSource:light_source>`__ that the
-current `Token:token{{!}}token <Token:token{{!}}token>`__ has on.
+         From MapToolDoc
 
-.. code:: mtmacro
-   :number-lines:
+      .. container::
+         :name: contentSub
 
-   [getLights()]
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-To get a `Macros:string list{{!}}string
-list <Macros:string_list{{!}}string_list>`__ of the `LightSource:light
-sources <LightSource:light_source>`__ that the current
-`Token:token{{!}}token <Token:token{{!}}token>`__ has on with the
-`LightSource:type{{!}} lighet source
-type <LightSource:type{{!}}_lighet_source_type>`__ of "Generic".
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-.. code:: mtmacro
-   :number-lines:
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-   [getLights("Generic")]
+         .. container:: toc
+            :name: toc
 
-\|changes=
+            .. container::
+               :name: toctitle
 
-}}
+               .. rubric:: Contents
+                  :name: contents
 
-`Category:Light Function <Category:Light_Function>`__ `Category:Token
-Function <Category:Token_Function>`__
+            -  `1 getLights() Function <#getLights.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 Version Changes <#Version_Changes>`__
+
+         .. rubric:: getLights() Function
+            :name: getlights-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b48**
+
+         .. container:: template_description
+
+            Returns a string list containing the names of the `light
+            sources </maptool/index.php?title=Map:light_source&action=edit&redlink=1>`__
+            that are turned on for the `Current
+            Token </rptools/wiki/Current_Token>`__. The type of the
+            value returned depends on the delimiter parameter.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     getLights()
+
+               #. .. code:: de1
+
+                     getLights(type)
+
+               #. .. code:: de1
+
+                     getLights(type, delim)
+
+               #. .. code:: de1
+
+                     getLights(type, delim, id)
+
+               #. .. code:: de2
+
+                     getLights(type, delim, id, mapname)
+
+         **Parameters**
+
+         -  ``type`` - The `light source
+            type </maptool/index.php?title=LightSource:light_source_type&action=edit&redlink=1>`__,
+            (e.g. "Generic", "D20"). If set to "*", all light sources
+            are returned. Defaults to "*".
+         -  ``delim`` - The delimiter used to separate values in the
+            `string list </rptools/wiki/Macros:string_list>`__. If set
+            to "json", a `JSON Array </rptools/wiki/JSON_Array>`__ is
+            returned. Defaults to ",".
+         -  ``id`` - The token ``id`` of the token to change the light
+            sources, defaults to the `Current
+            Token </rptools/wiki/Current_Token>`__.
+
+            .. container:: template_trusted_param
+
+                Note: This parameter can only be used in a `Trusted
+               Macro </rptools/wiki/Trusted_Macro>`__. 
+
+         -  ``mapname`` - The name of the map to find the token.
+            Defaults to the current map.
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            To get a `string list </rptools/wiki/Macros:string_list>`__
+            of all of the `LightSource:light
+            sources </maptool/index.php?title=LightSource:light_source&action=edit&redlink=1>`__
+            that the current `token </rptools/wiki/Token:token>`__ has
+            on.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [getLights()]
+
+            To get a `string list </rptools/wiki/Macros:string_list>`__
+            of the `LightSource:light
+            sources </maptool/index.php?title=LightSource:light_source&action=edit&redlink=1>`__
+            that the current `token </rptools/wiki/Token:token>`__ has
+            on with the `lighet source
+            type </maptool/index.php?title=LightSource:type&action=edit&redlink=1>`__
+            of "Generic".
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [getLights("Generic")]
+
+         .. rubric:: Version Changes
+            :name: version-changes
+
+         .. container:: template_changes
+
+            -  **1.3b49** - Added *"json"* delimiter option.
+            -  **1.5.4** - Added ``id`` and ``mapname`` parameter
+               options.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=getLights&oldid=7551"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Light
+               Function </rptools/wiki/Category:Light_Function>`__
+            -  `Token
+               Function </rptools/wiki/Category:Token_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Light
+         Function </rptools/wiki/Category:Light_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Token
+         Function </rptools/wiki/Category:Token_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=getLights>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/getLights>`__
+            -  `Discussion </maptool/index.php?title=Talk:getLights&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/getLights>`__
+            -  `View
+               source </maptool/index.php?title=getLights&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=getLights&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/getLights>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/getLights>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=getLights&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=getLights&oldid=7551>`__
+            -  `Page
+               information </maptool/index.php?title=getLights&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 16 August 2019, at 20:06.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

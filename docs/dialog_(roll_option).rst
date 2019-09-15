@@ -1,69 +1,397 @@
+=================================
+dialog (roll option) - MapToolDoc
+=================================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{RollOption
-   |name=dialog
-   |description=Opens a dialog window.  This window can be named; attempts to open another dialog with the same name cause the old contents to be removed and new contents displayed.  The initial size of the dialog can be specified as well, but once the named dialog is opened and resized by the user, that size becomes its default opening size in the future.
+.. container:: noprint
+   :name: mw-head-base
 
-   Dialogs are not dockable panels as a {{roll|frame}} is.  Dialogs also have at least one button for dismissing the dialog.
+.. container:: mw-body
+   :name: content
 
-   |usage=
-   <source lang="mtmacro" line>
-   [h, dialog(dialogName [,size; input; temporary; title; noframe; value] )]
-   </source>
+   .. container:: mw-indicators
 
-   The first parameter, shown as '''dialogName''', should be a double-quoted string that specifies the internal name of the dialog window.  (Note that the title that appears in the titlebar of the window is set separately, using HTML that appears inside the dialog itself.) (use '''title''' parameter from b50 forward)
+   .. rubric:: dialog (roll option)
+      :name: firstHeading
+      :class: firstHeading
 
-   The second parameter is optional, it is a semicolon separated [[String_Property_List|String Property List]], which could include the following parameters:
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   The '''size''' parameter is a [[String_Property_List|String Property List]] that contains two values, ''width'' and ''height''.  Those values can be measured in pixels ('''px''' and the default) or other HTML units, such as ems ('''em''') or screen width percentages ('''%''').
+      .. container::
+         :name: siteSub
 
-   The following parameters work from v1.3b50 forward:
+         From MapToolDoc
 
-   The '''input''' parameter dictates whether the dialog has a ''close'' button or is closed with an <input submit> button custom coded into the dialog.  '''input''' is set to 1 or 0 within double quotes.  example: "input=1"
+      .. container::
+         :name: contentSub
 
-   The '''temporary''' parameter dictates whether Maptool remembers the size of the dialog window between displays.  Setting this value to 1 causes Maptool to forget the window size.  Example "temporary=1"
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-   The '''noframe''' parameter dictates whether the window has a frame or not.  Example "noframe=1" removes the frame from the dialog window.
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-   The '''title''' parameter sets the title of the dialog box and replaces the need to set the title from within the HTML code.
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-   The following parameter work from 1.5.4 forward:
+         .. rubric:: [dialog():] Roll Option
+            :name: dialog-roll-option
 
-   The '''value''' parameter associates arbitrary data to the frame. The data can be recovered through the [[getDialogProperties|getDialogProperties]] function.
+         Opens a dialog window. This window can be named; attempts to
+         open another dialog with the same name cause the old contents
+         to be removed and new contents displayed. The initial size of
+         the dialog can be specified as well, but once the named dialog
+         is opened and resized by the user, that size becomes its
+         default opening size in the future.
 
-   |examples=
-   The following code opens up a dialog window that contains the HTML as shown here:
+         Dialogs are not dockable panels as a
+         `[frame():] </rptools/wiki/frame_(roll_option)>`__ is. Dialogs
+         also have at least one button for dismissing the dialog.
 
-   [[Image:DialogEx1.png|Image:DialogEx1.png]]
+         .. rubric:: Usage
+            :name: usage
 
-   <source lang="mtmacro" line>
-   [dialog("Dialog Test"): {
-     <html>
-       <head>
-         <title>Test of Dialog Windows</title>
-       </head>
-       <body>
-       <table border="1">
-       <tr><th>Column 1</th><th>Column 2</th><th>Column 3</th></tr>
-       <tr><td>Line 1, Col 1</td><td colspan="2">Line 1, Cols 2 and 3</td></tr>
-       <tr><td rowspan="2">Lines 2 and 3, Col 1</td><td>Line 2, Col 2</td><td>Line 2, Col 3</td></tr>
-       <tr><td>Line 3, Col 3</td><td>Line 3, Col 3</td></tr>
-       </table>
-       </body>
-     </html>
-   } ]
-   </source>
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-   To create a dialog that initially opens with a width of 300 pixels and height of 200 pixels, change the first line of the previous example to:
-   <source lang="mtmacro" line>
-   [dialog("Dialog Test", "width=300; height=200; temporary=1; input=0; noframe=1"): {
-   </source>
+            .. container:: mtmacro source-mtmacro
 
-   Did you try it?  It didn't change size from the previous example, did it?  Do you remember why?  If not, go back to the top of the page and read that first paragraph again!
-   }}
+               #. .. code:: de1
 
-`Category:Display Roll Option <Category:Display_Roll_Option>`__
+                     [h, dialog(dialogName [,size; input; temporary; title; noframe; value] )]
+
+         The first parameter, shown as **dialogName**, should be a
+         double-quoted string that specifies the internal name of the
+         dialog window. (Note that the title that appears in the
+         titlebar of the window is set separately, using HTML that
+         appears inside the dialog itself.) (use **title** parameter
+         from b50 forward)
+
+         The second parameter is optional, it is a semicolon separated
+         `String Property List </rptools/wiki/String_Property_List>`__,
+         which could include the following parameters:
+
+         The **size** parameter is a `String Property
+         List </rptools/wiki/String_Property_List>`__ that contains two
+         values, *width* and *height*. Those values can be measured in
+         pixels (**px** and the default) or other HTML units, such as
+         ems (**em**) or screen width percentages (**%**).
+
+         The following parameters work from v1.3b50 forward:
+
+         The **input** parameter dictates whether the dialog has a
+         *close* button or is closed with an <input submit> button
+         custom coded into the dialog. **input** is set to 1 or 0 within
+         double quotes. example: "input=1"
+
+         The **temporary** parameter dictates whether Maptool remembers
+         the size of the dialog window between displays. Setting this
+         value to 1 causes Maptool to forget the window size. Example
+         "temporary=1"
+
+         The **noframe** parameter dictates whether the window has a
+         frame or not. Example "noframe=1" removes the frame from the
+         dialog window.
+
+         The **title** parameter sets the title of the dialog box and
+         replaces the need to set the title from within the HTML code.
+
+         The following parameter work from 1.5.4 forward:
+
+         The **value** parameter associates arbitrary data to the frame.
+         The data can be recovered through the
+         `getDialogProperties </rptools/wiki/getDialogProperties>`__
+         function.
+
+         .. rubric:: Examples
+            :name: examples
+
+         The following code opens up a dialog window that contains the
+         HTML as shown here:
+
+         |DialogEx1.png|
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [dialog("Dialog Test"): {
+
+               #. .. code:: de1
+
+                       <html>
+
+               #. .. code:: de1
+
+                         <head>
+
+               #. .. code:: de1
+
+                           <title>Test of Dialog Windows</title>
+
+               #. .. code:: de2
+
+                         </head>
+
+               #. .. code:: de1
+
+                         <body>
+
+               #. .. code:: de1
+
+                         <table border="1">
+
+               #. .. code:: de1
+
+                         <tr><th>Column 1</th><th>Column 2</th><th>Column 3</th></tr>
+
+               #. .. code:: de1
+
+                         <tr><td>Line 1, Col 1</td><td colspan="2">Line 1, Cols 2 and 3</td></tr>
+
+               #. .. code:: de2
+
+                         <tr><td rowspan="2">Lines 2 and 3, Col 1</td><td>Line 2, Col 2</td><td>Line 2, Col 3</td></tr>
+
+               #. .. code:: de1
+
+                         <tr><td>Line 3, Col 3</td><td>Line 3, Col 3</td></tr>
+
+               #. .. code:: de1
+
+                         </table>
+
+               #. .. code:: de1
+
+                         </body>
+
+               #. .. code:: de1
+
+                       </html>
+
+               #. .. code:: de2
+
+                     } ]
+
+         To create a dialog that initially opens with a width of 300
+         pixels and height of 200 pixels, change the first line of the
+         previous example to:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [dialog("Dialog Test", "width=300; height=200; temporary=1; input=0; noframe=1"): {
+
+         Did you try it? It didn't change size from the previous
+         example, did it? Do you remember why? If not, go back to the
+         top of the page and read that first paragraph again!
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=dialog_(roll_option)&oldid=7574"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Roll Option </rptools/wiki/Category:Roll_Option>`__
+            -  `Display Roll
+               Option </rptools/wiki/Category:Display_Roll_Option>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Roll
+         Option </rptools/wiki/Category:Roll_Option>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Roll
+         Option </rptools/wiki/Category:Roll_Option>`__ > `Display Roll
+         Option </rptools/wiki/Category:Display_Roll_Option>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=dialog+%28roll+option%29>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/dialog_(roll_option)>`__
+            -  `Discussion </maptool/index.php?title=Talk:dialog_(roll_option)&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/dialog_(roll_option)>`__
+            -  `View
+               source </maptool/index.php?title=dialog_(roll_option)&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=dialog_(roll_option)&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/dialog_(roll_option)>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/dialog_(roll_option)>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=dialog_(roll_option)&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=dialog_(roll_option)&oldid=7574>`__
+            -  `Page
+               information </maptool/index.php?title=dialog_(roll_option)&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 20 August 2019, at 09:29.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |DialogEx1.png| image:: /maptool/images/2/2d/DialogEx1.png
+   :width: 402px
+   :height: 201px
+   :target: /rptools/wiki/File:DialogEx1.png
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

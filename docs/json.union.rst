@@ -1,40 +1,327 @@
+=======================
+json.union - MapToolDoc
+=======================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=json.union
-   |version=1.3b53
-   |description=
-   Returns an [[JSON_Array|JSON Array]] with the union of all of the [[JSON_Object|JSON Object]] keys, or [[JSON_Array|JSON Array]] values.  If a value or a key occurs in multiple different objects or arrays, it will only be placed once in the output object or array.
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   json.union(array, array, ...)
-   </source>
-   <source lang="mtmacro" line>
-   json.union(object, object, ...)
-   </source>
-   '''Parameters'''
-   {{param|array|The [[JSON_Array|JSON Array]]s to union.}}
-   {{param|object|The [[JSON_Object|JSON Object]]s to union.}}
+.. container:: mw-body
+   :name: content
 
-   |examples=
-   <source lang="mtmacro" line>
-     [h: array1 = json.append("",1,2,3,4)]
-     [h: array2 = json.append("",3,4,5,6)]
-     [r: json.union(array1,array2)]
-   </source>
+   .. container:: mw-indicators
 
-   Returns
-    "[1,2,3,4,5,6]"
+   .. rubric:: json.union
+      :name: firstHeading
+      :class: firstHeading
 
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   |also=
-   {{func|json.merge}}, {{func|json.intersection}}
+      .. container::
+         :name: siteSub
 
-   }}
+         From MapToolDoc
 
-`Category:JSON Function <Category:JSON_Function>`__
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 json.union() Function <#json.union.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 See Also <#See_Also>`__
+
+         .. rubric:: json.union() Function
+            :name: json.union-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b53**
+
+         .. container:: template_description
+
+            Returns an `JSON Array </rptools/wiki/JSON_Array>`__ with
+            the union of all of the `JSON
+            Object </rptools/wiki/JSON_Object>`__ keys, or `JSON
+            Array </rptools/wiki/JSON_Array>`__ values. If a value or a
+            key occurs in multiple different objects or arrays, it will
+            only be placed once in the output object or array.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     json.union(array, array, ...)
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     json.union(object, object, ...)
+
+         **Parameters**
+
+         -  ``array`` - The `JSON Arrays </rptools/wiki/JSON_Array>`__
+            to union.
+         -  ``object`` - The `JSON
+            Objects </rptools/wiki/JSON_Object>`__ to union.
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                          [h: array1 = json.append("",1,2,3,4)]
+
+                  #. .. code:: de1
+
+                          [h: array2 = json.append("",3,4,5,6)]
+
+                  #. .. code:: de1
+
+                          [r: json.union(array1,array2)]
+
+            Returns
+
+            "[1,2,3,4,5,6]"
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `json.merge() </rptools/wiki/json.merge>`__,
+            `json.intersection() </rptools/wiki/json.intersection>`__
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=json.union&oldid=6192"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `JSON Function </rptools/wiki/Category:JSON_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `JSON
+         Function </rptools/wiki/Category:JSON_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=json.union>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/json.union>`__
+            -  `Discussion </maptool/index.php?title=Talk:json.union&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/json.union>`__
+            -  `View
+               source </maptool/index.php?title=json.union&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=json.union&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/json.union>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/json.union>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=json.union&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=json.union&oldid=6192>`__
+            -  `Page
+               information </maptool/index.php?title=json.union&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 12 July 2013, at 06:58.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

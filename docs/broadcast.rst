@@ -1,171 +1,588 @@
+======================
+broadcast - MapToolDoc
+======================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
+.. container:: noprint
+   :name: mw-head-base
 
-   |name=broadcast
-   |trusted=true
-   |version=1.3b77
-   |description=
-   Allows sending a message directly to the chat area of another/all connected MapTool clients. It does not display the sender's name or token image in front of the message.
+.. container:: mw-body
+   :name: content
 
-   It lets send you a message either to all or a list of players - use the player names or the keyword {{code|"gm"}}. As delimiter you can specify either a string list separator character or {{code|"json"}} if you specify the target list as json array. The big differences compared to a normal chat message are:
+   .. container:: mw-indicators
 
-   #  if the message is part of a macro, then the message is sent even if the macro is aborted (after the broadcast),
-   #  the sender of the message is NOT displayed, and
-   #  if you broadcast an {{func|execLink}}, then that macro is AUTOMATICALLY executed on the clients it's broadcasted to, with the exception of the client that sends the message!
-    
-   |usage= 
-   <source lang="mtmacro" line> broadcast(message, [targets], [delimiter]) </source>
-   [[Category:Miscellaneous_Function|Category:Miscellaneous Function]]
+   .. rubric:: broadcast
+      :name: firstHeading
+      :class: firstHeading
 
-   '''Parameters'''
-   {{param|message|a message that is broadcasted to the users that are listed as parameters.}}
-   {{param|targets|are the user names (so not token names) but the names of the users that are logged in. "gm" is also a valid parameter to give. E.g.: "tim, tom, tarra". Defaults to all players (so if no parameter is given the message is send to all players).}}
-   {{param|delim|The delimiter used to separate the values in the String List that is given, defaults to {{code|","}}. If {{code|"json"}} is specified, a JSON array is expected instead of a String List.}}
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   |examples=
-    
-   *Sending a message to all players:
-   <source lang="mtmacro" line>
-   [h: broadcast("Hello World")]
-   </source><br />
-   *Sending a message to all GMs only:
-   <source lang="mtmacro" line>
-   [h: broadcast("Hello World", "gm")]
-   </source><br />
-   *Sending a message to "tim" and "tom" only (default comma delimiter):
-   <source lang="mtmacro" line>
-   [h: broadcast("Hello World", "tim, tom")]
-   </source><br />
-   *Using json as the delimiter:
-   <source lang="mtmacro" line>
-   [h: broadcast("Hello World", '["tim", "tom"]')]
-   </source> or 
-   <source lang="mtmacro" line>
-   [h: broadcast("Hello World", json.append("", "tim", "tom"))]
-   </source><br />
-   *Executing the macro {{code|update()}} located at {{code|lib:Token}}, for the token {{code|Dragon}} on the PC of user {{code|Tim}}:
-   <source lang="mtmacro" line>
-   [h: link = macroLinkText("update@Lib:Token", "none", "", "Dragon")]
-   [h: broadcast(execLink(link), "tim")]
-   </source><br />
-   }}
+      .. container::
+         :name: siteSub
 
-.. _using_the_bag_of_tricks:
+         From MapToolDoc
 
-Using the *Bag of Tricks*
-=========================
+      .. container::
+         :name: contentSub
 
-Usually in a macro you would like the execution of a macro on a player's
-computer those users who own the token in context. Or maybe you want to
-execute a macro on ALL clients but you have to figure out who the
-current 'executer' is and run the macro for that client separately as
-the is only executed on remote clients. To make this a bit easier, I've
-created a couple of functions which are part of the `Bag of Tricks
-(BoT) <http://forums.rptools.net/viewtopic.php?f=46&t=16066>`__. If you
-have the *BoT* installed, then the following functions are available to
-you:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-bot_execAllPlayers()
---------------------
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-This macro executes the macro on ALL SELECTED clients. So in contrast of
-, you do not have to worry about who is executing the macro since
-everyone does.
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-.. code:: mtmacro
+         .. container:: toc
+            :name: toc
 
-   bot_execAllPlayers (macroName, arguments, [players], [output_to])
+            .. container::
+               :name: toctitle
 
-| 
-| 
-| *Example use:*
+               .. rubric:: Contents
+                  :name: contents
 
--  Executing the macro located at , with the parameters and on the PC of
-   user , with the output of the result going to all connected systems:
+            -  `1 broadcast() Function <#broadcast.28.29_Function>`__
 
-.. code:: mtmacro
-   :number-lines:
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 Using the Bag of
+                  Tricks <#Using_the_Bag_of_Tricks>`__
 
-   [h: bot_execAllPlayers("update@lib:Token", json.append("","Hello World", 2), "Tim", "all")]
+                  -  `1.3.1
+                     bot_execAllPlayers() <#bot_execAllPlayers.28.29>`__
+                  -  `1.3.2 bot_message() <#bot_message.28.29>`__
 
-| 
-| \*The same but now for all players
+         .. rubric:: broadcast() Function
+            :name: broadcast-function
 
-.. code:: mtmacro
-   :number-lines:
+         .. container::
 
-   [h: bot_execAllPlayers("update@lib:Token", json.append("","Hello World", 2), bot_all(), "all")]
+             Note: This function can only be used in a `Trusted
+            Macro </rptools/wiki/Trusted_Macro>`__
 
-| 
-| The function is another *BoT* function that returns the names of all
-  players that are logged in. See below for more info.
+         .. container:: template_version
 
-bot_message()
--------------
+            • **Introduced in version 1.3b77**
 
-If you want to use a different message format, one is availalbe through
-this functions.
+         .. container:: template_description
 
--  
+            Allows sending a message directly to the chat area of
+            another/all connected MapTool clients. It does not display
+            the sender's name or token image in front of the message.
+            It lets send you a message either to all or a list of
+            players - use the player names or the keyword ``"gm"``. As
+            delimiter you can specify either a string list separator
+            character or ``"json"`` if you specify the target list as
+            json array. The big differences compared to a normal chat
+            message are:
 
-   .. raw:: mediawiki
+            #. if the message is part of a macro, then the message is
+               sent even if the macro is aborted (after the broadcast),
+            #. the sender of the message is NOT displayed, and
+            #. if you broadcast an
+               `execLink() </rptools/wiki/execLink>`__, then that macro
+               is AUTOMATICALLY executed on the clients it's broadcasted
+               to, with the exception of the client that sends the
+               message!
 
-      {{code|bot_message(0:message [, 1:headertxt, 2:color (bgcolor-txtcolor), 3:userList, 4:token, 5:target, 6:broadcast])}}
+             
 
-Broadcasts a preformatted message to all users (default). The message
-consists out of a black (bg) and white (txt) header (default) and a
-delimited textbox below it, containing the message. When the message is
-left empty ('') only the header will be displayed. bot_message contains
-the following optional parameters (only message is required):
+         .. rubric:: Usage
+            :name: usage
 
-*A couple examples of use:*
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-.. code:: mtmacro
-   :number-lines:
+            .. container:: mtmacro source-mtmacro
 
-   [resultMsg = bot_message('Hello world', 'Header', 'black-white', bot_all(), 'Wolf', '', 0)]
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                      broadcast(message, [targets], [delimiter])
 
-   [bot_message("Hellow world")]
+         **Parameters**
 
-.. code:: mtmacro
-   :number-lines:
+         -  ``message`` - a message that is broadcasted to the users
+            that are listed as parameters.
+         -  ``targets`` - are the user names (so not token names) but
+            the names of the users that are logged in. "gm" is also a
+            valid parameter to give. E.g.: "tim, tom, tarra". Defaults
+            to all players (so if no parameter is given the message is
+            send to all players).
+         -  ``delim`` - The delimiter used to separate the values in the
+            String List that is given, defaults to ``","``. If
+            ``"json"`` is specified, a JSON array is expected instead of
+            a String List.
 
-   [bot_message("this message is shown to gm only", "GM Only", "red-yellow", bot_gm())]
+         .. rubric:: Examples
+            :name: examples
 
-.. code:: mtmacro
-   :number-lines:
+         .. container:: template_examples
 
-   [bot_message("this message is shown to all but gm", "The rest", "yellow-red", bot_ngm())]
+             
 
-.. figure:: Example_Message.jpg
-   :alt: Image:Example_Message.jpg
+            -  Sending a message to all players:
 
-   Image:Example_Message.jpg
+            .. container:: mw-geshi mw-code mw-content-ltr
 
-.. code:: mtmacro
-   :number-lines:
+               .. container:: mtmacro source-mtmacro
 
-   [h:bot_message(token.name+" Takes damage", "is attacked","red-white",bot_all(),"Dragon", "Eagle")]
+                  #. .. code:: de1
 
-.. figure:: Example_Message2.jpg
-   :alt: Image:Example_Message2.jpg
+                        [h: broadcast("Hello World")]
 
-   Image:Example_Message2.jpg
+            -  Sending a message to all GMs only:
 
-| The following functions can be used in conjunction with bot_message()
-  and return a JSON ARRAY (e.g. ["Frank","Jim","Suzy"])
-| 
+            .. container:: mw-geshi mw-code mw-content-ltr
 
-The 'bot_' prefixes in all these function are added as a precaution to
-make sure that there are no conflicts with a framework in which you use
-the *BoT*. If you however want to use these 'retrieve user' functions
-but without the 'bot_' prefix you need to create your own set of user
-defined functions.
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: broadcast("Hello World", "gm")]
+
+            -  Sending a message to "tim" and "tom" only (default comma
+               delimiter):
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: broadcast("Hello World", "tim, tom")]
+
+            -  Using json as the delimiter:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: broadcast("Hello World", '["tim", "tom"]')]
+
+            or
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: broadcast("Hello World", json.append("", "tim", "tom"))]
+
+            -  Executing the macro ``update()`` located at
+               ``lib:Token``, for the token ``Dragon`` on the PC of user
+               ``Tim``:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: link = macroLinkText("update@Lib:Token", "none", "", "Dragon")]
+
+                  #. .. code:: de1
+
+                        [h: broadcast(execLink(link), "tim")]
+
+         | 
+
+         .. rubric:: Using the Bag of Tricks
+            :name: using-the-bag-of-tricks
+
+         Usually in a macro you would like the execution of a macro on a
+         player's computer those users who own the token in context. Or
+         maybe you want to execute a macro on ALL clients but you have
+         to figure out who the current 'executer' is and run the macro
+         for that client separately as the
+         `execLink() </rptools/wiki/execLink>`__ is only executed on
+         remote clients. To make this a bit easier, I've created a
+         couple of functions which are part of the `Bag of Tricks
+         (BoT) <http://forums.rptools.net/viewtopic.php?f=46&t=16066>`__.
+         If you have the *BoT* installed, then the following functions
+         are available to you:
+
+         .. rubric:: bot_execAllPlayers()
+            :name: bot_execallplayers
+
+         This macro executes the macro ``macroName`` on ALL SELECTED
+         clients. So in contrast of ``broadcast(execLink())``, you do
+         not have to worry about who is executing the macro since
+         everyone does.
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               .. code:: de1
+
+                  bot_execAllPlayers (macroName, arguments, [players], [output_to])
+
+         -  ``macroName`` - name of the macro to execute; e.g.
+            ``runThisMacro@lib:token``
+         -  ``arguments`` - the arguments to pass to the macro (in the
+            form of a JSON array)
+         -  ``players`` - a list of PLAYER names where to execute on
+            (not token names). Defaults to all players
+         -  ``output to`` - Send resulting output of macro to whom
+            (``self``, ``gm``, ``all``, ``none``, ``gm-self``, *list*).
+            Defaults to none
+
+         | 
+
+         *Example use:*
+
+         -  Executing the macro ``update()`` located at ``lib:Token``,
+            with the parameters ``"Hello World"`` and ``"2"`` on the PC
+            of user ``Tim``, with the output of the result going to all
+            connected systems:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: bot_execAllPlayers("update@lib:Token", json.append("","Hello World", 2), "Tim", "all")]
+
+         -  The same but now for all players
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: bot_execAllPlayers("update@lib:Token", json.append("","Hello World", 2), bot_all(), "all")]
+
+         The ``bot_all()`` function is another *BoT* function that
+         returns the names of all players that are logged in. See below
+         for more info.
+
+         .. rubric:: bot_message()
+            :name: bot_message
+
+         If you want to use a different message format, one is availalbe
+         through this functions.
+
+         -  ``bot_message(0:message [, 1:headertxt, 2:color (bgcolor-txtcolor), 3:userList, 4:token, 5:target, 6:broadcast])``
+
+         Broadcasts a preformatted message to all users (default). The
+         message consists out of a black (bg) and white (txt) header
+         (default) and a delimited textbox below it, containing the
+         message. When the message is left empty (*) only the header
+         will be displayed. bot_message contains the following optional
+         parameters (only message is required):*
+
+         -  ``message`` - The message displayed
+         -  ``headerText`` - This defaults to: *. The text in the
+            header, note that the 'token' parameter is set in the header
+            as well on the left side. E.g. when token is 'Wolf' and
+            headerTxt is 'Attacks' the header will read 'Wolf Attacks'*
+         -  ``color`` - This defaults to 'black-white'. Here you can set
+            the backgroundcolor-textcolor of the header. You can choose
+            also to only set the backgroundcolor. Some examples: 'red',
+            'black-yellow', yellow-red'.
+         -  ``userlist`` - Defaults to all(). Here you can set to whom
+            the message should be send. You can either fill in a user
+            name yourself (NOT TOKEN NAME!) e.g. 'Frank' or you can make
+            use of one of the user functions defined here below, e.g.
+            all(), gm(), ownergm().
+         -  ``token`` - Defaults to *. Here you can give the name of the
+            token to which the message reflects. The effect is that the
+            image and name of the token appears left in the header*
+         -  ``target`` - Defaults to *. Here you can give the name of
+            another token to which the message reflects. The effect is
+            that the image of tha token appears right in the header*
+         -  ``broadcast`` - Defaults to 0 the message is NOT broadcasted
+            but the entire structure is returned. This is usefull is you
+            want to e.g. embed the result in another message; (1)
+            (default) the message is immediately broadcasted
+
+         *A couple examples of use:*
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [resultMsg = bot_message('Hello world', 'Header', 'black-white', bot_all(), 'Wolf', '', 0)]
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [bot_message("Hellow world")]
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [bot_message("this message is shown to gm only", "GM Only", "red-yellow", bot_gm())]
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [bot_message("this message is shown to all but gm", "The rest", "yellow-red", bot_ngm())]
+
+         |Example Message.jpg|
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h:bot_message(token.name+" Takes damage", "is attacked","red-white",bot_all(),"Dragon", "Eagle")]
+
+         |Example Message2.jpg|
+
+         | 
+         | The following functions can be used in conjunction with
+           bot_message() and return a JSON ARRAY (e.g.
+           ["Frank","Jim","Suzy"])
+
+         -  ``bot_all()`` - all users
+         -  ``bot_gm()`` - gm(s) only
+         -  ``bot_ngm()`` - all but NOT gm(s)
+         -  ``bot_self()`` - initiator of the macro
+         -  ``bot_nself()`` - all but NOT initiator of the macro
+         -  ``bot_selfgm()`` - gm(s) and initiator of the macro
+         -  ``bot_nselfgm()`` - all but NOT gm(s) and initiator of the
+            macro
+         -  ``bot_ownergm()`` - gm(s) and owners of the currentToken. So
+            NOT the token that you might give as a parameter to the
+            bot_message() function but the token that is currentToken()
+            at that moment.
+         -  ``bot_nownergm()`` - all but NOT gm(s) and owners of the
+            current token
+
+         The 'bot_' prefixes in all these function are added as a
+         precaution to make sure that there are no conflicts with a
+         framework in which you use the *BoT*. If you however want to
+         use these 'retrieve user' functions but without the 'bot_'
+         prefix you need to create your own set of user defined
+         functions.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=broadcast&oldid=7194"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Miscellaneous
+               Function </rptools/wiki/Category:Miscellaneous_Function>`__
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ >
+         `Miscellaneous
+         Function </rptools/wiki/Category:Miscellaneous_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=broadcast>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/broadcast>`__
+            -  `Discussion </maptool/index.php?title=Talk:broadcast&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/broadcast>`__
+            -  `View
+               source </maptool/index.php?title=broadcast&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=broadcast&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/broadcast>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/broadcast>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=broadcast&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=broadcast&oldid=7194>`__
+            -  `Page
+               information </maptool/index.php?title=broadcast&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 6 March 2019, at 07:49.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Example Message.jpg| image:: /maptool/images/c/ce/Example_Message.jpg
+   :width: 268px
+   :height: 168px
+   :target: /rptools/wiki/File:Example_Message.jpg
+.. |Example Message2.jpg| image:: /maptool/images/4/44/Example_Message2.jpg
+   :width: 415px
+   :height: 180px
+   :target: /rptools/wiki/File:Example_Message2.jpg
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

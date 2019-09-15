@@ -1,138 +1,388 @@
+==========================
+Current Token - MapToolDoc
+==========================
+
 .. contents::
    :depth: 3
 ..
 
-.. _current_token:
+.. container:: noprint
+   :name: mw-page-base
 
-Current Token
-=============
+.. container:: noprint
+   :name: mw-head-base
 
-You will frequently encounter references in MapTool documentation and in
-the MapTool interface to the *current token.* There are actually three
-"categories" a token might fall into at any given time:
+.. container:: mw-body
+   :name: content
 
--  **Selected Token**: a selected token is, simply, any token that is
-   selected on the map at a given time. If you click on a token with
-   your mouse (and you have ownership of it), that token is *selected*,
-   and is therefore a *selected token*.
--  **Impersonated Token**: the impersonated token is a token that you
-   are currently speaking and acting "as" - so if you impersonate a
-   token and enter text into chat, the token's image and name will pop
-   up and it will appear as if that token is speaking. If you roll dice
-   via a chat command, it will appear as if that token has rolled the
-   dice. Impersonation is a way to take on the "role" of your character
-   in the virtual tabletop environment.
--  **Current Token**: this is trickier, as it overlaps with the previous
-   two categories. Simply put, the current token is the token that is
-   *at that time* (in other words, *currently*) being changed or
-   referred to by a `macro <Introduction_to_Macro_Writing>`__ command or
-   other command in MapTool. Think of it as the "focus" of that
-   particular macro. Because of that, it is actually possible for a
-   token to be the selected token, the impersonated token, *and* the
-   current token, all at the same time.
+   .. container:: mw-indicators
 
-.. _macros_and_the_current_token:
+   .. rubric:: Current Token
+      :name: firstHeading
+      :class: firstHeading
 
-Macros and the Current Token
-----------------------------
+   .. container:: mw-body-content
+      :name: bodyContent
 
-The concept of the "current token" is - as you might guess - a key part
-of the way macros operate in MapTool.
+      .. container::
+         :name: siteSub
 
-If you select a token in MapTool, and click a macro *on that token*, the
-macro will by default assume that you mean "do your stuff on the token
-you're on!" That is, it will perform all of its operations with
-reference to the that token. If the macro is told to retrieve a property
-(for instance, to get the value of "Strength"), then it will look at the
-token you selected for a property called *Strength*. Likewise, if the
-macro is instructed to reduce "Hit Points", it will look on the token on
-which it resides for a property called *Hit Points*.
+         From MapToolDoc
 
-On the other hand, if you click on a macro in the Campaign panel or
-Global panel without selecting a token on the map screen, it is possible
-that the macro will do nothing, or will present an error in the chat
-window. This is because Global and Campaign Macros do not reside on any
-token, and if there are any references to token properties *in* the
-Campaign Macro, it will have no idea what token you mean - in other
-words, it doesn't know what the *current token* is!
+      .. container::
+         :name: contentSub
 
-.. _library_tokens_and_the_current_token:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-Library Tokens and the Current Token
-------------------------------------
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-More advanced uses of MapTool's macro system involve the use of `Library
-Tokens <Library_Token>`__, tokens which contain a library of macro
-functions that can be called by other tokens (much like a function call
-in other programming languages). An important thing to understand is
-that when a macro on a *non*-library token (a PC or NPC token, or an
-object) calls a macro on a Library Token, the "current token" is the
-*calling token*.
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-In other words, if a macro on the token **Grognar the Bold** calls the
-macro on a `Library Token <Library_Token>`__, the Current Token - as far
-as is concerned - is **Grognar the Bold**, and all variable references,
-property references, and operations are performed against **Grognar the
-Bold**, and *not* the Library Token.
+         .. container:: toc
+            :name: toc
 
-To handle operations against the Library Token itself (such as getting
-information from it, or setting a value for a property on the Library
-Token), use the `setLibProperty <setLibProperty>`__ and
-`getLibProperty <getLibProperty>`__ functions.
+            .. container::
+               :name: toctitle
 
-.. _difference_between_current_and_selectedimpersonated_tokens:
+               .. rubric:: Contents
+                  :name: contents
 
-Difference between Current and Selected/Impersonated Tokens
------------------------------------------------------------
+            -  `1 Current Token <#Current_Token>`__
 
-A *selected token* is simply a token or group of tokens that you have
-selected by clicking on them or dragging a selection box (or holding
-down SHIFT and clicking multiple tokens). The *current token* is related
-to selected tokens, but has some important differences.
+               -  `1.1 Macros and the Current
+                  Token <#Macros_and_the_Current_Token>`__
+               -  `1.2 Library Tokens and the Current
+                  Token <#Library_Tokens_and_the_Current_Token>`__
+               -  `1.3 Difference between Current and
+                  Selected/Impersonated
+                  Tokens <#Difference_between_Current_and_Selected.2FImpersonated_Tokens>`__
+               -  `1.4 Token Naming <#Token_Naming>`__
 
-Most of the time, it's very easy to determine which token is the current
-token: it's the one that is selected (for macros on the token and macros
-set to run on "selected tokens") or impersonated (for Campaign and
-Global macros). This makes sense - the simplest way to interact with
-MapTool tokens is to select them and then do something with them; the
-assumption should be that the macro will run on the thing you have
-selected.
+         .. rubric:: Current Token
+            :name: current-token
 
-However, the current token is not *always* the selected token - it is
-possible to use macro commands like `switchToken <switchToken>`__ or the
-`token roll option <Macros:Branching_and_Looping#TOKEN_Option>`__ to
-change what a macro considers to be the *current token* for the purposes
-of retrieving or setting properties. This is a very useful feature - it
-lets you do things like reduce an *enemy's* hit points, or check to see
-if you hit an NPC token. However, it does mean that you cannot always
-assume the current token and the selected or impersonated token are the
-same.
+         You will frequently encounter references in MapTool
+         documentation and in the MapTool interface to the *current
+         token.* There are actually three "categories" a token might
+         fall into at any given time:
 
-Bottom line? In general play, the potential for differences between the
-current token and the selected or impersonated token are minimal. When
-you get into macro writing is when you'll want to pay closer attention
-to the differences.
+         -  **Selected Token**: a selected token is, simply, any token
+            that is selected on the map at a given time. If you click on
+            a token with your mouse (and you have ownership of it), that
+            token is *selected*, and is therefore a *selected token*.
+         -  **Impersonated Token**: the impersonated token is a token
+            that you are currently speaking and acting "as" - so if you
+            impersonate a token and enter text into chat, the token's
+            image and name will pop up and it will appear as if that
+            token is speaking. If you roll dice via a chat command, it
+            will appear as if that token has rolled the dice.
+            Impersonation is a way to take on the "role" of your
+            character in the virtual tabletop environment.
+         -  **Current Token**: this is trickier, as it overlaps with the
+            previous two categories. Simply put, the current token is
+            the token that is *at that time* (in other words,
+            *currently*) being changed or referred to by a
+            `macro </rptools/wiki/Introduction_to_Macro_Writing>`__
+            command or other command in MapTool. Think of it as the
+            "focus" of that particular macro. Because of that, it is
+            actually possible for a token to be the selected token, the
+            impersonated token, *and* the current token, all at the same
+            time.
 
-.. _token_naming:
+         .. rubric:: Macros and the Current Token
+            :name: macros-and-the-current-token
 
-Token Naming
-------------
+         The concept of the "current token" is - as you might guess - a
+         key part of the way macros operate in MapTool.
 
-Due to the way MapTool is designed, it is strongly recommended that all
-tokens have unique names. If they do not, then macros will run into
-problems recognizing the *correct* current token - if you have two
-tokens named **Orc**, it is possible that the macro will see the wrong
-one, and alter its properties, when you actually meant for it to affect
-the *other* token named **Orc**. So, the rule of thumb is: don't use the
-same name for multiple tokens.
+         If you select a token in MapTool, and click a macro *on that
+         token*, the macro will by default assume that you mean "do your
+         stuff on the token you're on!" That is, it will perform all of
+         its operations with reference to the that token. If the macro
+         is told to retrieve a property (for instance, to get the value
+         of "Strength"), then it will look at the token you selected for
+         a property called *Strength*. Likewise, if the macro is
+         instructed to reduce "Hit Points", it will look on the token on
+         which it resides for a property called *Hit Points*.
 
-MapTool has built in "automatic number" for tokens for just this reason:
-it will either number them incrementally (for instance, if you copy the
-token **Orc 1** three times, you'll end up with three new tokens **Orc
-2**, **Orc 3**, and **Orc 4**), or randomly, in which case you'd end up
-with something like **Orc 98**, **Orc 17**, and **Orc 35**. The
-numbering option can be selected in the `MapTool
-Preferences <MapTool_Preferences>`__ dialog under **Edit >
-Preferences**.
+         On the other hand, if you click on a macro in the Campaign
+         panel or Global panel without selecting a token on the map
+         screen, it is possible that the macro will do nothing, or will
+         present an error in the chat window. This is because Global and
+         Campaign Macros do not reside on any token, and if there are
+         any references to token properties *in* the Campaign Macro, it
+         will have no idea what token you mean - in other words, it
+         doesn't know what the *current token* is!
 
-`Category:Token <Category:Token>`__
+         .. rubric:: Library Tokens and the Current Token
+            :name: library-tokens-and-the-current-token
+
+         More advanced uses of MapTool's macro system involve the use of
+         `Library Tokens </rptools/wiki/Library_Token>`__, tokens which
+         contain a library of macro functions that can be called by
+         other tokens (much like a function call in other programming
+         languages). An important thing to understand is that when a
+         macro on a *non*-library token (a PC or NPC token, or an
+         object) calls a macro on a Library Token, the "current token"
+         is the *calling token*.
+
+         In other words, if a macro on the token **Grognar the Bold**
+         calls the macro ``Roll Attack`` on a `Library
+         Token </rptools/wiki/Library_Token>`__, the Current Token - as
+         far as ``Roll Attack`` is concerned - is **Grognar the Bold**,
+         and all variable references, property references, and
+         operations are performed against **Grognar the Bold**, and
+         *not* the Library Token.
+
+         To handle operations against the Library Token itself (such as
+         getting information from it, or setting a value for a property
+         on the Library Token), use the
+         `setLibProperty </rptools/wiki/setLibProperty>`__ and
+         `getLibProperty </rptools/wiki/getLibProperty>`__ functions.
+
+         .. rubric:: Difference between Current and
+            Selected/Impersonated Tokens
+            :name: difference-between-current-and-selectedimpersonated-tokens
+
+         A *selected token* is simply a token or group of tokens that
+         you have selected by clicking on them or dragging a selection
+         box (or holding down SHIFT and clicking multiple tokens). The
+         *current token* is related to selected tokens, but has some
+         important differences.
+
+         Most of the time, it's very easy to determine which token is
+         the current token: it's the one that is selected (for macros on
+         the token and macros set to run on "selected tokens") or
+         impersonated (for Campaign and Global macros). This makes sense
+         - the simplest way to interact with MapTool tokens is to select
+         them and then do something with them; the assumption should be
+         that the macro will run on the thing you have selected.
+
+         However, the current token is not *always* the selected token -
+         it is possible to use macro commands like
+         `switchToken </rptools/wiki/switchToken>`__ or the `token roll
+         option </rptools/wiki/Macros:Branching_and_Looping#TOKEN_Option>`__
+         to change what a macro considers to be the *current token* for
+         the purposes of retrieving or setting properties. This is a
+         very useful feature - it lets you do things like reduce an
+         *enemy's* hit points, or check to see if you hit an NPC token.
+         However, it does mean that you cannot always assume the current
+         token and the selected or impersonated token are the same.
+
+         Bottom line? In general play, the potential for differences
+         between the current token and the selected or impersonated
+         token are minimal. When you get into macro writing is when
+         you'll want to pay closer attention to the differences.
+
+         .. rubric:: Token Naming
+            :name: token-naming
+
+         Due to the way MapTool is designed, it is strongly recommended
+         that all tokens have unique names. If they do not, then macros
+         will run into problems recognizing the *correct* current token
+         - if you have two tokens named **Orc**, it is possible that the
+         macro will see the wrong one, and alter its properties, when
+         you actually meant for it to affect the *other* token named
+         **Orc**. So, the rule of thumb is: don't use the same name for
+         multiple tokens.
+
+         MapTool has built in "automatic number" for tokens for just
+         this reason: it will either number them incrementally (for
+         instance, if you copy the token **Orc 1** three times, you'll
+         end up with three new tokens **Orc 2**, **Orc 3**, and **Orc
+         4**), or randomly, in which case you'd end up with something
+         like **Orc 98**, **Orc 17**, and **Orc 35**. The numbering
+         option can be selected in the `MapTool
+         Preferences </rptools/wiki/MapTool_Preferences>`__ dialog under
+         **Edit > Preferences**.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Current_Token&oldid=5622"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Category </rptools/wiki/Special:Categories>`__:
+
+            -  `Token </rptools/wiki/Category:Token>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Token </rptools/wiki/Category:Token>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Current+Token>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Current_Token>`__
+            -  `Discussion </maptool/index.php?title=Talk:Current_Token&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Current_Token>`__
+            -  `View
+               source </maptool/index.php?title=Current_Token&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Current_Token&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Current_Token>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Current_Token>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Current_Token&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Current_Token&oldid=5622>`__
+            -  `Page
+               information </maptool/index.php?title=Current_Token&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 24 July 2011, at 10:30.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

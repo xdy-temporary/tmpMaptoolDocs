@@ -1,40 +1,320 @@
+========================
+closeDialog - MapToolDoc
+========================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=closeDialog
-   |version=1.3b49
-   |description=Closes the specified macro dialog that was previously created using {{roll | dialog}}.  If the 
-   [[dialog|dialog]] is not open then the function has no effect. 
+.. container:: noprint
+   :name: mw-head-base
 
-   The most common use for this function is closing a [[dialog|dialog]] based from a macro that is run when clicking on a link or button for the 
-   [[dialog|dialog]] that has no close button. 
+.. container:: mw-body
+   :name: content
 
-   '''NOTE''' In later versions of maptool (tested in b74) this works only for dialogs opened with {{roll|dialog}}. Frames cant be closed with this. But there is a new analog function available for that, too. See {{func|closeFrame}}
+   .. container:: mw-indicators
 
+   .. rubric:: closeDialog
+      :name: firstHeading
+      :class: firstHeading
 
-   |usage=
-   <source lang="mtmacro" line>
-   [h: closeDialog(name)]
-   </source>
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   |example=
-   <source lang="mtmacro" line>
-   [h: closeDialog("CharacterSheet")]  
-   </source>
+      .. container::
+         :name: siteSub
 
-   Assuming a [[dialog|dialog]] called "Name Entry" has been created without the input flag but containing a form. In the macro called when the
-   form is submitted you can use the following logic to check that the "name" field is not blank and close the [[dialog|dialog]].
-   <source lang="mtmacro" line>
-   [h, if(listGet(macro.args, "name")), code: {
-       [closeDialog("Name Entry")]
-   } ; {
-       <!-- otherwise we would do something here to tell the user to provide a name -->
-   }]
-   </source>
-   }}
+         From MapToolDoc
 
-`Category:Dialog Function <Category:Dialog_Function>`__
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. rubric:: closeDialog() Function
+            :name: closedialog-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b49**
+
+         .. container:: template_description
+
+            Closes the specified macro dialog that was previously
+            created using `[
+            dialog():] </rptools/wiki/dialog_(roll_option)>`__. If the
+            `dialog </rptools/wiki/dialog>`__ is not open then the
+            function has no effect.
+
+            The most common use for this function is closing a
+            `dialog </rptools/wiki/dialog>`__ based from a macro that is
+            run when clicking on a link or button for the
+            `dialog </rptools/wiki/dialog>`__ that has no close button.
+
+            **NOTE** In later versions of maptool (tested in b74) this
+            works only for dialogs opened with
+            `[dialog():] </rptools/wiki/dialog_(roll_option)>`__. Frames
+            cant be closed with this. But there is a new analog function
+            available for that, too. See
+            `closeFrame() </rptools/wiki/closeFrame>`__
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: closeDialog(name)]
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: closeDialog("CharacterSheet")]
+
+            Assuming a `dialog </rptools/wiki/dialog>`__ called "Name
+            Entry" has been created without the input flag but
+            containing a form. In the macro called when the form is
+            submitted you can use the following logic to check that the
+            "name" field is not blank and close the
+            `dialog </rptools/wiki/dialog>`__.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h, if(listGet(macro.args, "name")), code: {
+
+                  #. .. code:: de1
+
+                            [closeDialog("Name Entry")]
+
+                  #. .. code:: de1
+
+                        } ; {
+
+                  #. .. code:: de1
+
+                            <!-- otherwise we would do something here to tell the user to provide a name -->
+
+                  #. .. code:: de2
+
+                        }]
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=closeDialog&oldid=4652"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Dialog
+               Function </rptools/wiki/Category:Dialog_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Dialog
+         Function </rptools/wiki/Category:Dialog_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=closeDialog>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/closeDialog>`__
+            -  `Discussion </maptool/index.php?title=Talk:closeDialog&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/closeDialog>`__
+            -  `View
+               source </maptool/index.php?title=closeDialog&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=closeDialog&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/closeDialog>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/closeDialog>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=closeDialog&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=closeDialog&oldid=4652>`__
+            -  `Page
+               information </maptool/index.php?title=closeDialog&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 5 October 2010, at 15:02.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

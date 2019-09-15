@@ -1,182 +1,411 @@
+===============================================================
+Setting up DeviantNull's Character Sheet framework - MapToolDoc
+===============================================================
+
 .. contents::
    :depth: 3
 ..
 
-.. _setting_up_deviantnulls_character_sheet_framework:
+.. container:: noprint
+   :name: mw-page-base
 
-Setting up DeviantNull's Character Sheet framework
-==================================================
+.. container:: noprint
+   :name: mw-head-base
 
-DeviantNull's Character Sheet framework is a commonly used framework
-that allows a "macro-less" combat system to be integrated into Maptools
+.. container:: mw-body
+   :name: content
 
-This guide assumes:
+   .. container:: mw-indicators
 
--  You have maptools installed
--  You have read the maptools tutorials
--  You have DeviantNull's Character Sheet framework installed
+   .. rubric:: Setting up DeviantNull's Character Sheet framework
+      :name: firstHeading
+      :class: firstHeading
 
-.. _creating_a_character:
+   .. container:: mw-body-content
+      :name: bodyContent
 
-Creating a character
-====================
+      .. container::
+         :name: siteSub
 
--  Drag a token that you want to become a character on the map
--  Double click on the token and go to the "Config" tab
--  In the "Properties" section, select DNA
+         From MapToolDoc
 
-This designates that token as a "Player" and should now have a character
-sheet
+      .. container::
+         :name: contentSub
 
-.. _character_sheet:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-Character Sheet
-===============
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-.. _adding_stats:
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-Adding stats
-------------
+         .. container:: toc
+            :name: toc
 
--  If the character sheet is not open select your character token and in
-   the campaign macros tab click on "Character sheet"
--  The first tab that opens should be the "Stats" tab, if not, click on
-   this
--  In the stats tab, on the box with the token name, click on the pencil
-   icon
+            .. container::
+               :name: toctitle
 
-This allows for character editing, just add all of your stats from your
-character sheet in here
+               .. rubric:: Contents
+                  :name: contents
 
-.. _adding_feats:
+            -  `1 Setting up DeviantNull's Character Sheet
+               framework <#Setting_up_DeviantNull.27s_Character_Sheet_framework>`__
+            -  `2 Creating a character <#Creating_a_character>`__
+            -  `3 Character Sheet <#Character_Sheet>`__
 
-Adding Feats
-------------
+               -  `3.1 Adding stats <#Adding_stats>`__
+               -  `3.2 Adding Feats <#Adding_Feats>`__
 
--  If the character sheet is not open select your character token and in
-   the campaign macros tab click on "Character sheet"
--  Open the "Feats" tab
+                  -  `3.2.1 Adding racial
+                     features <#Adding_racial_features>`__
+                  -  `3.2.2 Adding Class
+                     features <#Adding_Class_features>`__
+                  -  `3.2.3 Adding Feats <#Adding_Feats_2>`__
 
-.. _adding_racial_features:
+               -  `3.3 Adding Rituals <#Adding_Rituals>`__
 
-Adding racial features
-~~~~~~~~~~~~~~~~~~~~~~
+                  -  `3.3.1 Adding Components <#Adding_Components>`__
+                  -  `3.3.2 Adding Ritual
+                     Scrolls <#Adding_Ritual_Scrolls>`__
+                  -  `3.3.3 Creating Ritual
+                     Books <#Creating_Ritual_Books>`__
 
--  Click on the double chevron on the box titled "Race Features"
--  Click on Add new race feature
--  in the dialog box that pops up, add your racial feature name, and
-   description
--  add all applicable stats to your stat sheet
+                     -  `3.3.3.1 Adding Rituals <#Adding_Rituals_2>`__
 
-.. _adding_class_features:
+                  -  `3.3.4 Adding Martial
+                     Practices <#Adding_Martial_Practices>`__
 
-Adding Class features
-~~~~~~~~~~~~~~~~~~~~~
+               -  `3.4 Adding Equipment <#Adding_Equipment>`__
+               -  `3.5 Adding Powers <#Adding_Powers>`__
 
--  Click on the double chevron on the box titled "Class Features"
--  Click on Add new class feature
--  in the dialog box that pops up, add your racial feature name, and
-   description
--  add all applicable stats to your stat sheet
+            -  `4 Creating a NPC <#Creating_a_NPC>`__
 
-.. _adding_feats_1:
+               -  `4.1 Monster sheet <#Monster_sheet>`__
 
-Adding Feats
-~~~~~~~~~~~~
+                  -  `4.1.1 Adding powers <#Adding_powers_2>`__
+                  -  `4.1.2 Adding Equipment <#Adding_Equipment_2>`__
+                  -  `4.1.3 Knowledge Check <#Knowledge_Check>`__
 
--  Click on the double chevron on the box titled "Feats"
--  Click on Add new feat
--  in the dialog box that pops up, add your racial feature name, and
-   description
--  add all applicable stats to your stat sheet
+            -  `5 Tips and hints (and other
+               info) <#Tips_and_hints_.28and_other_info.29>`__
+            -  `6 See also <#See_also>`__
 
-.. _adding_rituals:
+         .. rubric:: Setting up DeviantNull's Character Sheet framework
+            :name: setting-up-deviantnulls-character-sheet-framework
 
-Adding Rituals
---------------
+         DeviantNull's Character Sheet framework is a commonly used
+         framework that allows a "macro-less" combat system to be
+         integrated into Maptools
 
--  If the character sheet is not open select your character token and in
-   the campaign macros tab click on "Character sheet"
--  Open the "Rituals" tab
+         This guide assumes:
 
-.. _adding_components:
+         -  You have maptools installed
+         -  You have read the maptools tutorials
+         -  You have DeviantNull's Character Sheet framework installed
 
-Adding Components
-~~~~~~~~~~~~~~~~~
+         .. rubric:: Creating a character
+            :name: creating-a-character
 
--  click on the double chevron in the box titled "components"
--  a pop-up menu will appear with different components
--  "add" the amount of each component as necessary
+         -  Drag a token that you want to become a character on the map
+         -  Double click on the token and go to the "Config" tab
+         -  In the "Properties" section, select DNA
 
-.. _adding_ritual_scrolls:
+         This designates that token as a "Player" and should now have a
+         character sheet
 
-Adding Ritual Scrolls
-~~~~~~~~~~~~~~~~~~~~~
+         | 
 
--  click on the double chevron in the box titled "Ritual Scrolls"
--  click on Add a ritual
--  in the pop-up box that appears add the name and info for the ritual
-   (found in the Player Handbook(s))
+         .. rubric:: Character Sheet
+            :name: character-sheet
 
-.. _creating_ritual_books:
+         .. rubric:: Adding stats
+            :name: adding-stats
 
-Creating Ritual Books
-~~~~~~~~~~~~~~~~~~~~~
+         -  If the character sheet is not open select your character
+            token and in the campaign macros tab click on "Character
+            sheet"
+         -  The first tab that opens should be the "Stats" tab, if not,
+            click on this
+         -  In the stats tab, on the box with the token name, click on
+            the pencil icon
 
-.. _adding_rituals_1:
+         This allows for character editing, just add all of your stats
+         from your character sheet in here
 
-Adding Rituals
-^^^^^^^^^^^^^^
+         .. rubric:: Adding Feats
+            :name: adding-feats
 
-.. _adding_martial_practices:
+         -  If the character sheet is not open select your character
+            token and in the campaign macros tab click on "Character
+            sheet"
+         -  Open the "Feats" tab
 
-Adding Martial Practices
-~~~~~~~~~~~~~~~~~~~~~~~~
+         .. rubric:: Adding racial features
+            :name: adding-racial-features
 
-.. _adding_equipment:
+         -  Click on the double chevron on the box titled "Race
+            Features"
+         -  Click on Add new race feature
+         -  in the dialog box that pops up, add your racial feature
+            name, and description
+         -  add all applicable stats to your stat sheet
 
-Adding Equipment
-----------------
+         .. rubric:: Adding Class features
+            :name: adding-class-features
 
-.. _adding_powers:
+         -  Click on the double chevron on the box titled "Class
+            Features"
+         -  Click on Add new class feature
+         -  in the dialog box that pops up, add your racial feature
+            name, and description
+         -  add all applicable stats to your stat sheet
 
-Adding Powers
--------------
+         .. rubric:: Adding Feats
+            :name: adding-feats-1
 
-.. _creating_a_npc:
+         -  Click on the double chevron on the box titled "Feats"
+         -  Click on Add new feat
+         -  in the dialog box that pops up, add your racial feature
+            name, and description
+         -  add all applicable stats to your stat sheet
 
-Creating a NPC
-==============
+         .. rubric:: Adding Rituals
+            :name: adding-rituals
 
-.. _monster_sheet:
+         -  If the character sheet is not open select your character
+            token and in the campaign macros tab click on "Character
+            sheet"
+         -  Open the "Rituals" tab
 
-Monster sheet
--------------
+         .. rubric:: Adding Components
+            :name: adding-components
 
-.. _adding_powers_1:
+         -  click on the double chevron in the box titled "components"
+         -  a pop-up menu will appear with different components
+         -  "add" the amount of each component as necessary
 
-Adding powers
-~~~~~~~~~~~~~
+         .. rubric:: Adding Ritual Scrolls
+            :name: adding-ritual-scrolls
 
-.. _adding_equipment_1:
+         -  click on the double chevron in the box titled "Ritual
+            Scrolls"
+         -  click on Add a ritual
+         -  in the pop-up box that appears add the name and info for the
+            ritual (found in the Player Handbook(s))
 
-Adding Equipment
-~~~~~~~~~~~~~~~~
+         .. rubric:: Creating Ritual Books
+            :name: creating-ritual-books
 
-.. _knowledge_check:
+         .. rubric:: Adding Rituals
+            :name: adding-rituals-1
 
-Knowledge Check
-~~~~~~~~~~~~~~~
+         .. rubric:: Adding Martial Practices
+            :name: adding-martial-practices
 
-.. _tips_and_hints_and_other_info:
+         .. rubric:: Adding Equipment
+            :name: adding-equipment
 
-Tips and hints (and other info)
-===============================
+         .. rubric:: Adding Powers
+            :name: adding-powers
 
-.. _see_also:
+         .. rubric:: Creating a NPC
+            :name: creating-a-npc
 
-See also
-========
+         .. rubric:: Monster sheet
+            :name: monster-sheet
 
--  http://lmwcs.com/rptools/wiki/Frameworks : List of some frameworks
-   for Maptools
+         .. rubric:: Adding powers
+            :name: adding-powers-1
+
+         .. rubric:: Adding Equipment
+            :name: adding-equipment-1
+
+         .. rubric:: Knowledge Check
+            :name: knowledge-check
+
+         .. rubric:: Tips and hints (and other info)
+            :name: tips-and-hints-and-other-info
+
+         .. rubric:: See also
+            :name: see-also
+
+         -  http://lmwcs.com/rptools/wiki/Frameworks : List of some
+            frameworks for Maptools
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Setting_up_DeviantNull%27s_Character_Sheet_framework&oldid=5525"
+
+      .. container:: catlinks catlinks-allhidden
+         :name: catlinks
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Setting+up+DeviantNull%27s+Character+Sheet+framework>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Setting_up_DeviantNull%27s_Character_Sheet_framework>`__
+            -  `Discussion </maptool/index.php?title=Talk:Setting_up_DeviantNull%27s_Character_Sheet_framework&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Setting_up_DeviantNull%27s_Character_Sheet_framework>`__
+            -  `View
+               source </maptool/index.php?title=Setting_up_DeviantNull%27s_Character_Sheet_framework&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Setting_up_DeviantNull%27s_Character_Sheet_framework&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Setting_up_DeviantNull%27s_Character_Sheet_framework>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Setting_up_DeviantNull%27s_Character_Sheet_framework>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Setting_up_DeviantNull%27s_Character_Sheet_framework&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Setting_up_DeviantNull%27s_Character_Sheet_framework&oldid=5525>`__
+            -  `Page
+               information </maptool/index.php?title=Setting_up_DeviantNull%27s_Character_Sheet_framework&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 21 April 2011, at 21:36.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

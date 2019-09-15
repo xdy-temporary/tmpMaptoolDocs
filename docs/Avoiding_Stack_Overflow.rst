@@ -1,155 +1,407 @@
+====================================
+Avoiding Stack Overflow - MapToolDoc
+====================================
+
 .. contents::
    :depth: 3
 ..
 
-.. _stack_overflow_exceptions:
+.. container:: noprint
+   :name: mw-page-base
 
-Stack Overflow Exceptions
-=========================
+.. container:: noprint
+   :name: mw-head-base
 
-If you create long and elaborate macros or use a lot of text in a macro,
-you will probably run into a **Stack Overflow Exception**. Note that
-because one macro can call others, it can be difficult to determine
-which macro in particular is the root cause of the problem.
+.. container:: mw-body
+   :name: content
 
-.. _overview_of_the_problem:
+   .. container:: mw-indicators
 
-Overview of the Problem
------------------------
+   .. rubric:: Avoiding Stack Overflow
+      :name: firstHeading
+      :class: firstHeading
 
-At first only two things come to mind (don't miss more advice at the
-bottom of this page):
+   .. container:: mw-body-content
+      :name: bodyContent
 
-#. Clean up your HTML as much as possible (e.g. remove all comments).
-#. Raise the stack size. (Start high and work your way down) *This is
-   actually bad advice; why is explained below.*
+      .. container::
+         :name: siteSub
 
-.. _description_of_why_the_error_occurs:
+         From MapToolDoc
 
-Description of Why the Error Occurs
------------------------------------
+      .. container::
+         :name: contentSub
 
-The error happens because of the way the macro parsing works. It uses a
-`Regular Expression <http://en.wikipedia.org/wiki/Regular_expression>`__
-parser that starts by looking for the largest possible string that
-matches the regex, then backtracking to a shorter string (using
-recursion) if the first one ends up not working. This ends up requiring
-a huge amount of stack space in certain pathological strings when
-combined with the particular regexes being used by MapTool. Regular
-expressions require stack space based on the amount of text entered and
-how that text *might* match the regex. That's the whole point of
-`backtracking <http://en.wikipedia.org/wiki/Backtracking>`__ -- the
-regex might match up to a certain point, so it saves its state on the
-stack and then checks the next piece.
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-The errors are more likely when the text contains a lot of braces,
-brackets, and/or single/double quotes. But none of those are
-**REQUIREMENTS** for having a stack overflow occur.
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-(A forum search on user "Azhrei" and the word "backtrack" or
-"backtracking" will probably find the threads that explain this in
-greater detail.)
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-.. _how_to_determine_an_appropriate_stack_size:
+         .. container:: toc
+            :name: toc
 
-How to Determine an Appropriate Stack Size
-------------------------------------------
+            .. container::
+               :name: toctitle
 
-MapTool creates and destroys many threads on the fly and all the time.
-So the best advice would be, **Set your stack as low as possible**.
+               .. rubric:: Contents
+                  :name: contents
 
-The stack size allocated to a particular thread is part of the overall
-address space available to Java. So the larger you make the heap limit,
-the more of the address space that can be consumed by heap and thus will
-be unavailable for stack space. And the same thing works in reverse: the
-more stack space you allocate per-thread, the less heap space there will
-be. This is normally only a problem for the 32-bit Java since the
-maximum heap size is roughly **1.5GB** (depends on the platform; Unix
-systems will be slightly larger than Windows). You'll know you've hit
-this problem when you get an exception that says that a new Thread
-couldn't be created and the description will say "Native code". (In
-other words, it's the C language code that implements the Java Runtime
-Environment that is having the problem.)
+            -  `1 Stack Overflow
+               Exceptions <#Stack_Overflow_Exceptions>`__
 
-In the 64-bit world, the amount of address space available to the Java
-Runtime Environment is tremendous (on most hardware it's about 2^40 or
-roughly **1TB**; some hardware will support up to **256TB**). That means
-the stack size and heap space could be set very large. This will still
-have an effect on the machine's performance, since using more virtual
-memory than the machine has in physical memory will require *paging*.
-And paging is I/O intensive and thus will slow down the entire machine.
+               -  `1.1 Overview of the
+                  Problem <#Overview_of_the_Problem>`__
+               -  `1.2 Description of Why the Error
+                  Occurs <#Description_of_Why_the_Error_Occurs>`__
+               -  `1.3 How to Determine an Appropriate Stack
+                  Size <#How_to_Determine_an_Appropriate_Stack_Size>`__
+               -  `1.4 How to Change the Amount of Stack
+                  Space <#How_to_Change_the_Amount_of_Stack_Space>`__
+               -  `1.5 Outlook for Future Versions of
+                  MapTool <#Outlook_for_Future_Versions_of_MapTool>`__
+               -  `1.6 Ways to Avoid Running Out of Stack
+                  Space <#Ways_to_Avoid_Running_Out_of_Stack_Space>`__
 
-.. _how_to_change_the_amount_of_stack_space:
+         .. rubric:: Stack Overflow Exceptions
+            :name: stack-overflow-exceptions
 
-How to Change the Amount of Stack Space
----------------------------------------
+         If you create long and elaborate macros or use a lot of text in
+         a macro, you will probably run into a **Stack Overflow
+         Exception**. Note that because one macro can call others, it
+         can be difficult to determine which macro in particular is the
+         root cause of the problem.
 
-On all systems there is a command line parameter to the Java interpreter
-that tells it how much stack space to allocate for each thread and how
-much heap space to allocate overall. The question becomes, "How do I
-tell *my* Java installation how much to use?" And that depends on how
-you start MapTool.
+         .. rubric:: Overview of the Problem
+            :name: overview-of-the-problem
 
-See `Stack Size#Configuring memory allocation for
-MapTool <Stack_Size#Configuring_memory_allocation_for_MapTool>`__ for
-details.
+         At first only two things come to mind (don't miss more advice
+         at the bottom of this page):
 
-.. _outlook_for_future_versions_of_maptool:
+         #. Clean up your HTML as much as possible (e.g. remove all
+            comments).
+         #. Raise the stack size. (Start high and work your way down)
+            *This is actually bad advice; why is explained below.*
 
-Outlook for Future Versions of MapTool
---------------------------------------
+         .. rubric:: Description of Why the Error Occurs
+            :name: description-of-why-the-error-occurs
 
-There won't be done anything about this for MT 1.3. We'll be moving to
-JavaScript for 1.4. This should eliminate the regex stack overflow
-entirely as all macros will be JavaScript (well, except for a JavaScript
-macro with bugs in it). That language uses a lexical parser and not a
-bastardized (but easier to implement) regex parser. The MTscript parser
-is great at doing what it was designed to do, but it has been pushed
-waaaaay beyond it's original vision!
+         The error happens because of the way the macro parsing works.
+         It uses a `Regular
+         Expression <http://en.wikipedia.org/wiki/Regular_expression>`__
+         parser that starts by looking for the largest possible string
+         that matches the regex, then backtracking to a shorter string
+         (using recursion) if the first one ends up not working. This
+         ends up requiring a huge amount of stack space in certain
+         pathological strings when combined with the particular regexes
+         being used by MapTool. Regular expressions require stack space
+         based on the amount of text entered and how that text *might*
+         match the regex. That's the whole point of
+         `backtracking <http://en.wikipedia.org/wiki/Backtracking>`__ --
+         the regex might match up to a certain point, so it saves its
+         state on the stack and then checks the next piece.
 
-.. _ways_to_avoid_running_out_of_stack_space:
+         The errors are more likely when the text contains a lot of
+         braces, brackets, and/or single/double quotes. But none of
+         those are **REQUIREMENTS** for having a stack overflow occur.
 
-Ways to Avoid Running Out of Stack Space
-----------------------------------------
+         (A forum search on user "Azhrei" and the word "backtrack" or
+         "backtracking" will probably find the threads that explain this
+         in greater detail.)
 
-Here's a list of things you can do to help avoid stack overflow errors.
-They are in the order of Most Likely to Least Likely in terms of the
-level of benefit.
+         .. rubric:: How to Determine an Appropriate Stack Size
+            :name: how-to-determine-an-appropriate-stack-size
 
-#. Break up your macros into smaller parts (especially where you have
-   brackets or single/double quotes, but not just in these cases). This
-   helps because there is less backtracking possible when the macros
-   themselves are shorter.
-#. If you have long static strings store them in a token property
-   instead of the macro body. This helps because the content of
-   properties are not subject to the parser line normal macro text is.
-   Lib tokens work well for this. A table might work as well if your
-   data is read-only.
-#. Use to create your HTML, preferably with the format string stored in
-   a token property. (See above.)
-#. If you get stack issues **it's better to reorganize your code than
-   bump up the stack size**. As explained above, increasing the stack
-   size is a bandage on the problem, and as you can see it's not a very
-   good bandage either!
-#. Because of the way the regex is structured, you might be able to get
-   more HTML text into a macro by using this construct: This causes a
-   different path to be taken in the MapTool source code, so different
-   regexes are used. No guarantees on this, of course, but if you're
-   desperate and don't want to spend the time to reorganize your macros
-   it might help.
-#. If you get a stack overflow while creating a dynamic form, move the
-   HTML part of the form into a new macro (e.g. you could create a
-   user-defined function named **htmlBuilder(arguments)** and pass it
-   any variable arguments). Then when you need the form, assign the HTML
-   code first to a variable (such as **tmpCache**) and then run the form
-   using the variable:
+         MapTool creates and destroys many threads on the fly and all
+         the time. So the best advice would be, **Set your stack as low
+         as possible**.
 
-| `` [h: tmpCache = htmlBuilder(arguments)]``
-| `` [h: dialog("Dialog Test"): {[r:tmpCache]}]``
+         The stack size allocated to a particular thread is part of the
+         overall address space available to Java. So the larger you make
+         the heap limit, the more of the address space that can be
+         consumed by heap and thus will be unavailable for stack space.
+         And the same thing works in reverse: the more stack space you
+         allocate per-thread, the less heap space there will be. This is
+         normally only a problem for the 32-bit Java since the maximum
+         heap size is roughly **1.5GB** (depends on the platform; Unix
+         systems will be slightly larger than Windows). You'll know
+         you've hit this problem when you get an exception that says
+         that a new Thread couldn't be created and the description will
+         say "Native code". (In other words, it's the C language code
+         that implements the Java Runtime Environment that is having the
+         problem.)
 
-This issue has come up many times in the forum. This text was stitched
-together from `this latest
-thread <http://forums.rptools.net/viewtopic.php?p=192126#p192126>`__
-about it.
+         In the 64-bit world, the amount of address space available to
+         the Java Runtime Environment is tremendous (on most hardware
+         it's about 2^40 or roughly **1TB**; some hardware will support
+         up to **256TB**). That means the stack size and heap space
+         could be set very large. This will still have an effect on the
+         machine's performance, since using more virtual memory than the
+         machine has in physical memory will require *paging*. And
+         paging is I/O intensive and thus will slow down the entire
+         machine.
 
-`Category:Cookbook <Category:Cookbook>`__
+         .. rubric:: How to Change the Amount of Stack Space
+            :name: how-to-change-the-amount-of-stack-space
+
+         On all systems there is a command line parameter to the Java
+         interpreter that tells it how much stack space to allocate for
+         each thread and how much heap space to allocate overall. The
+         question becomes, "How do I tell *my* Java installation how
+         much to use?" And that depends on how you start MapTool.
+
+         See `Stack Size#Configuring memory allocation for
+         MapTool </rptools/wiki/Stack_Size#Configuring_memory_allocation_for_MapTool>`__
+         for details.
+
+         .. rubric:: Outlook for Future Versions of MapTool
+            :name: outlook-for-future-versions-of-maptool
+
+         There won't be done anything about this for MT 1.3. We'll be
+         moving to JavaScript for 1.4. This should eliminate the regex
+         stack overflow entirely as all macros will be JavaScript (well,
+         except for a JavaScript macro with bugs in it). That language
+         uses a lexical parser and not a bastardized (but easier to
+         implement) regex parser. The MTscript parser is great at doing
+         what it was designed to do, but it has been pushed waaaaay
+         beyond it's original vision!
+
+         .. rubric:: Ways to Avoid Running Out of Stack Space
+            :name: ways-to-avoid-running-out-of-stack-space
+
+         Here's a list of things you can do to help avoid stack overflow
+         errors. They are in the order of Most Likely to Least Likely in
+         terms of the level of benefit.
+
+         #. Break up your macros into smaller parts (especially where
+            you have brackets or single/double quotes, but not just in
+            these cases). This helps because there is less backtracking
+            possible when the macros themselves are shorter.
+         #. If you have long static strings store them in a token
+            property instead of the macro body. This helps because the
+            content of properties are not subject to the parser line
+            normal macro text is. Lib tokens work well for this. A table
+            might work as well if your data is read-only.
+         #. Use `strformat() </rptools/wiki/strformat>`__ to create your
+            HTML, preferably with the format string stored in a token
+            property. (See above.)
+         #. If you get stack issues **it's better to reorganize your
+            code than bump up the stack size**. As explained above,
+            increasing the stack size is a bandage on the problem, and
+            as you can see it's not a very good bandage either!
+         #. Because of the way the regex is structured, you might be
+            able to get more HTML text into a macro by using this
+            construct: ``[r: "html text here"]`` This causes a different
+            path to be taken in the MapTool source code, so different
+            regexes are used. No guarantees on this, of course, but if
+            you're desperate and don't want to spend the time to
+            reorganize your macros it might help.
+         #. If you get a stack overflow while creating a dynamic form,
+            move the HTML part of the form into a new macro (e.g. you
+            could create a user-defined function named
+            **htmlBuilder(arguments)** and pass it any variable
+            arguments). Then when you need the form, assign the HTML
+            code first to a variable (such as **tmpCache**) and then run
+            the form using the variable:
+
+         ::
+
+             [h: tmpCache = htmlBuilder(arguments)]
+             [h: dialog("Dialog Test"): {[r:tmpCache]}]
+
+         This issue has come up many times in the forum. This text was
+         stitched together from `this latest
+         thread <http://forums.rptools.net/viewtopic.php?p=192126#p192126>`__
+         about it.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Avoiding_Stack_Overflow&oldid=5542"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Category </rptools/wiki/Special:Categories>`__:
+
+            -  `Cookbook </rptools/wiki/Category:Cookbook>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ >
+         `Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Avoiding+Stack+Overflow>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Avoiding_Stack_Overflow>`__
+            -  `Discussion </maptool/index.php?title=Talk:Avoiding_Stack_Overflow&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Avoiding_Stack_Overflow>`__
+            -  `View
+               source </maptool/index.php?title=Avoiding_Stack_Overflow&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Avoiding_Stack_Overflow&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Avoiding_Stack_Overflow>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Avoiding_Stack_Overflow>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Avoiding_Stack_Overflow&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Avoiding_Stack_Overflow&oldid=5542>`__
+            -  `Page
+               information </maptool/index.php?title=Avoiding_Stack_Overflow&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 21 May 2011, at 00:11.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

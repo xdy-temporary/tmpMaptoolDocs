@@ -1,43 +1,330 @@
+=====================
+getImage - MapToolDoc
+=====================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=getImage
-   |version=1.3b48
-   |description=Returns the [[asset_id|asset id]] for the image of a [[Token|Token]] or [[Image_Token|Image Token]]. 
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   {{Clarify|There's no real parameter description.<br />
-   Error handling on duplicates should be pointed out.}}
-   <source lang="mtmacro" line>
-   getImage(name)
-   </source>
+.. container:: mw-body
+   :name: content
 
-   '''Note:''' Token ID does NOT work, only token name works.
+   .. container:: mw-indicators
 
-   Note that token images can be retrieved from ANY map (so they do NOT have to be on the current map).  If identical token names appear on multiple maps, it may be difficult (or impossible) to select a specific token image using this function.
-   |example=
-   To display the image from an [[Token:image_token{{!}}
+   .. rubric:: getImage
+      :name: firstHeading
+      :class: firstHeading
 
-image_token|Token:image token{{!}}image token]] called you can do the
-following:
+   .. container:: mw-body-content
+      :name: bodyContent
 
-.. code:: mtmacro
-   :number-lines:
+      .. container::
+         :name: siteSub
 
-   <img src="[r: getImage('image:Map')]"></img>
+         From MapToolDoc
 
-Alternatively this can be used to retrieve a normal token:
+      .. container::
+         :name: contentSub
 
-.. code:: mtmacro
-   :number-lines:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-   <img src="[r: getImage('Dragon')]"></img>
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-\|also=\ `getTokenImage <getTokenImage>`__ (which you can give the size
-as parameter) }}
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-`Category:Miscellaneous Function <Category:Miscellaneous_Function>`__
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 getImage() Function <#getImage.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Example <#Example>`__
+               -  `1.3 See Also <#See_Also>`__
+
+         .. rubric:: getImage() Function
+            :name: getimage-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b48**
+
+         .. container:: template_description
+
+            Returns the `asset
+            id </maptool/index.php?title=asset_id&action=edit&redlink=1>`__
+            for the image of a `Token </rptools/wiki/Token>`__ or `Image
+            Token </rptools/wiki/Image_Token>`__.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: template_clarify
+
+            | **Needs Clarification:**
+            | There's no real parameter description.
+            | Error handling on duplicates should be pointed out.
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     getImage(name)
+
+         **Note:** Token ID does NOT work, only token name works.
+
+         Note that token images can be retrieved from ANY map (so they
+         do NOT have to be on the current map). If identical token names
+         appear on multiple maps, it may be difficult (or impossible) to
+         select a specific token image using this function.
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            To display the image from an `image
+            token </rptools/wiki/Token:image_token>`__ called
+            ``image:Map`` you can do the following:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        <img src="[r: getImage('image:Map')]"></img>
+
+            Alternatively this can be used to retrieve a normal token:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        <img src="[r: getImage('Dragon')]"></img>
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `getTokenImage </rptools/wiki/getTokenImage>`__ (which you
+            can give the size as parameter)
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=getImage&oldid=6083"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Clarify </rptools/wiki/Category:Clarify>`__
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Miscellaneous
+               Function </rptools/wiki/Category:Miscellaneous_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ >
+         `Miscellaneous
+         Function </rptools/wiki/Category:Miscellaneous_Function>`__
+         `Review </rptools/wiki/Category:Review>`__ >
+         `Clarify </rptools/wiki/Category:Clarify>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=getImage>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/getImage>`__
+            -  `Discussion </maptool/index.php?title=Talk:getImage&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/getImage>`__
+            -  `View
+               source </maptool/index.php?title=getImage&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=getImage&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/getImage>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/getImage>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=getImage&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=getImage&oldid=6083>`__
+            -  `Page
+               information </maptool/index.php?title=getImage&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 7 April 2013, at 10:45.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

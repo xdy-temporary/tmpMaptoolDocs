@@ -1,44 +1,309 @@
+===============================
+getFrameProperties - MapToolDoc
+===============================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{stub}}
+.. container:: noprint
+   :name: mw-head-base
 
-.. raw:: mediawiki
+.. container:: mw-body
+   :name: content
 
-   {{MacroFunction
-   |name=getFrameProperties
-   |version=1.5.4
-   |description=
-   Returns a json object holding the properties associated with a given frame. The properties are {{code|width}}, {{code|height}}, {{code|temporary}}, {{code|title}}, and {{code|value}}.
+   .. container:: mw-indicators
 
-   |usage=
-   <source lang="mtmacro" line>
-   getFrameProperties(name)
-   </source>
+   .. rubric:: getFrameProperties
+      :name: firstHeading
+      :class: firstHeading
 
-   '''Parameters'''
-   {{param|name|The name of the frame.}}
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   |example=
-   Opening up a frame 
-   <source lang="mtmacro" line>
-   [frame("Frame Test", "width=300; height=200; temporary=0; title=A new title; value=data of relevance"): {test}]
-   </source>
+      .. container::
+         :name: siteSub
 
-   Getting the properties of the frame:
+         From MapToolDoc
 
-   <source lang="mtmacro" line>
-   [getFrameProperties("Frame Test")]
-   </source>
+      .. container::
+         :name: contentSub
 
-   The output will be:
-   <source lang="mtmacro" line>
-    {"width":300,"height":200,"temporary":0,"title":"A new title","value":"data of relevance"}
-   </source>
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-   }}
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-`Category:Frame Function <Category:Frame_Function>`__
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: template_stub
+
+            ** This article is a stub, you can help the RPTools Wiki
+            project by contributing content to expand this article.**
+
+         .. rubric:: getFrameProperties() Function
+            :name: getframeproperties-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.5.4**
+
+         .. container:: template_description
+
+            Returns a json object holding the properties associated with
+            a given frame. The properties are ``width``, ``height``,
+            ``temporary``, ``title``, and ``value``.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     getFrameProperties(name)
+
+         **Parameters**
+
+         -  ``name`` - The name of the frame.
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            Opening up a frame
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [frame("Frame Test", "width=300; height=200; temporary=0; title=A new title; value=data of relevance"): {test}]
+
+            Getting the properties of the frame:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [getFrameProperties("Frame Test")]
+
+            The output will be:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                         {"width":300,"height":200,"temporary":0,"title":"A new title","value":"data of relevance"}
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=getFrameProperties&oldid=7571"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Stub </rptools/wiki/Category:Stub>`__
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Frame
+               Function </rptools/wiki/Category:Frame_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Frame
+         Function </rptools/wiki/Category:Frame_Function>`__
+         `Review </rptools/wiki/Category:Review>`__ >
+         `Stub </rptools/wiki/Category:Stub>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=getFrameProperties>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/getFrameProperties>`__
+            -  `Discussion </maptool/index.php?title=Talk:getFrameProperties&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/getFrameProperties>`__
+            -  `View
+               source </maptool/index.php?title=getFrameProperties&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=getFrameProperties&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/getFrameProperties>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/getFrameProperties>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=getFrameProperties&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=getFrameProperties&oldid=7571>`__
+            -  `Page
+               information </maptool/index.php?title=getFrameProperties&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 20 August 2019, at 09:18.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

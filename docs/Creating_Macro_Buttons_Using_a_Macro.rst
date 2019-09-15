@@ -1,292 +1,763 @@
+=================================================
+Creating Macro Buttons Using a Macro - MapToolDoc
+=================================================
+
 .. contents::
    :depth: 3
 ..
 
-Introduction
-============
+.. container:: noprint
+   :name: mw-page-base
 
-The following tutorial illustrates one method of creating macro buttons
-for a token based on user input. In this particular case, the macros
-illustrated below are used to configure a new token with several buttons
-illustrating different powers that the character represented by the
-token possesses. The tutorial is directly applicable to the *Dungeons &
-Dragons 4th Edition* game system, but the concepts in it may be
-applicable to other game systems. This tutorial may also be useful in
-conjunction with the tutorials on changing macro buttons.
+.. container:: noprint
+   :name: mw-head-base
 
-Assumptions
------------
+.. container:: mw-body
+   :name: content
 
-The button creation macro illustrated below is actually one component of
-a much larger sequence of macros, so in order to understand what is
-happening, there are a few assumptions to be made.
+   .. container:: mw-indicators
 
-1. Powers in this campaign setup are stored in a series of `token
-properties <Token:token_property>`__ with the names "Power0", "Power1",
-"Power2", and so on. These token properties contain power information in
-the form of a `string property list <Macros:string_property_list>`__
-with the format:
+   .. rubric:: Creating Macro Buttons Using a Macro
+      :name: firstHeading
+      :class: firstHeading
 
-.. code:: mtmacro
-   :number-lines:
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   powername=Melee Basic Attack ; action=standard ; usage=at-will ; attack=5 ;
-   against=AC ; targets=one creature ; damage=1d6+5 ; critdamage=11 ; damtype= ;
-   hitEffect=--none-- ; missEffect=--none-- ; atktype=melee ;
-   range=weapon ; expended=Available ; reliable=0 ; special=--none-- ;
+      .. container::
+         :name: siteSub
 
-2. This macro will receive from a calling macro an argument called
-`macro.args <Macros:Special_Variables:macro.args>`__ that contains a
-number (which will be used to determine which power - Power0, Power1,
-etc. - will have a new button created).
+         From MapToolDoc
 
-3. This macro in particular is the final step in a macro sequence, so it
-is assumed that when this macro is called, the string property list for
-the power in question has already been populated.
+      .. container::
+         :name: contentSub
 
-.. _macro_code_and_explanation:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-Macro Code and Explanation
-==========================
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-The `full macro code <Tutorials:Macros:create_buttons_full_code>`__ is
-broken down and explained below.
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-.. _receiving_arguments_and_assigning_variables:
+         .. container:: toc
+            :name: toc
 
-Receiving Arguments and Assigning Variables
--------------------------------------------
+            .. container::
+               :name: toctitle
 
-.. code:: mtmacro
-   :number-lines:
+               .. rubric:: Contents
+                  :name: contents
 
-   [h:powerSlot=macro.args]
-   [h:pname=getStrProp(eval("Power"+powerSlot),"powername")]
-   [h:use=getStrProp(eval("Power"+powerSlot),"usage")]
+            -  `1 Introduction <#Introduction>`__
 
-This section of the macro simply assigns the value of *macro.args* to a
-new variable, *powerSlot*. The variable *powerSlot* is then used in line
-2 to extract the name of the power (the *powername* key in the string
-property) and assign it to *pname*, and to extract the *usage* value
-from the string property as well.
+               -  `1.1 Assumptions <#Assumptions>`__
 
-.. _requesting_user_input:
+            -  `2 Macro Code and
+               Explanation <#Macro_Code_and_Explanation>`__
 
-Requesting User Input
----------------------
+               -  `2.1 Receiving Arguments and Assigning
+                  Variables <#Receiving_Arguments_and_Assigning_Variables>`__
+               -  `2.2 Requesting User Input <#Requesting_User_Input>`__
+               -  `2.3 Checking for the Power's Use Limits and Setting
+                  Colors <#Checking_for_the_Power.27s_Use_Limits_and_Setting_Colors>`__
+               -  `2.4 Building the Macro Button
+                  Contents <#Building_the_Macro_Button_Contents>`__
+               -  `2.5 Creating the Macro
+                  Button <#Creating_the_Macro_Button>`__
+               -  `2.6 Mop-Up <#Mop-Up>`__
 
-.. code:: mtmacro
-   :number-lines:
+            -  `3 The Result <#The_Result>`__
+            -  `4 See Also <#See_Also>`__
 
-   [h:status=input(
-       "addButtons|Yes,No|Add Macro Buttons to your token?|RADIO|ORIENT=H SELECT=1"
-   )]
-   [h:abort(status)]
+         .. rubric:: Introduction
+            :name: introduction
 
-This section is a simple `input() <Macros:Functions:input>`__ function
-that confirms whether the user wants to add the button to their token's
-macro set. This is important because if a macro button is already
-present, this macro will create a duplicate. Frequently, however, users
-will want to simply update their power information, rather than create a
-new button.
+         The following tutorial illustrates one method of creating macro
+         buttons for a token based on user input. In this particular
+         case, the macros illustrated below are used to configure a new
+         token with several buttons illustrating different powers that
+         the character represented by the token possesses. The tutorial
+         is directly applicable to the *Dungeons & Dragons 4th Edition*
+         game system, but the concepts in it may be applicable to other
+         game systems. This tutorial may also be useful in conjunction
+         with the tutorials on changing macro buttons.
 
-.. _checking_for_the_powers_use_limits_and_setting_colors:
+         .. rubric:: Assumptions
+            :name: assumptions
 
-Checking for the Power's Use Limits and Setting Colors
-------------------------------------------------------
+         The button creation macro illustrated below is actually one
+         component of a much larger sequence of macros, so in order to
+         understand what is happening, there are a few assumptions to be
+         made.
 
-.. code:: mtmacro
-   :number-lines:
+         1. Powers in this campaign setup are stored in a series of
+         `token properties </rptools/wiki/Token:token_property>`__ with
+         the names "Power0", "Power1", "Power2", and so on. These token
+         properties contain power information in the form of a `string
+         property list </rptools/wiki/Macros:string_property_list>`__
+         with the format:
 
-   [IF(addButtons==0),CODE:
-   {
-   [h,SWITCH(use),CODE:
-   case "at-will":
-   {
-     [bcolor="green"]
-     [fcolor="black"]
-     [group="1: Powers - At-Will"]
-     [grayout=0]
-   };
-   case "encounter":
-   {
-     [bcolor="red"]
-     [fcolor="white"]
-     [group="2: Powers - Encounter"]
-     [grayout=1]
-   };
-   case "daily":
-   {
-     [bcolor="black"]
-     [fcolor="white"]
-     [group="3: Powers - Daily"]
-     [grayout=1]
-   };
-   case "recharge":
-   {
-     [bcolor="blue"]
-     [fcolor="white"]
-     [group="3: Powers - Recharging"]
-     [grayout=1]
-   };]
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-This is probably the most complex piece of the macro: a
-`SWITCH() <Macros:Branching_and_Looping#SWITCH_Option>`__ roll option
-nested inside an `IF() <Macros:Branching_and_Looping#IF_Option>`__
-option, both of which use the `CODE:{
-} <Macros:Branching_and_Looping#CODE>`__ option to execute multiple
-macro commands as a single block.
+            .. container:: mtmacro source-mtmacro
 
-However, functionally, this segment's purpose is to assign several
-variables (to be used later) based on whether the power is an at-will,
-encounter, daily, or rechargeable power; remember that this entire
-SWITCH() block is contained within the first code block of the IF()
-statement.
+               #. .. code:: de1
 
-.. _building_the_macro_button_contents:
+                     powername=Melee Basic Attack ; action=standard ; usage=at-will ; attack=5 ;
 
-Building the Macro Button Contents
-----------------------------------
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                     against=AC ; targets=one creature ; damage=1d6+5 ; critdamage=11 ; damtype= ;
 
-   [h:macroProps="autoexec=true;"]
-   [h:macroProps=setStrProp(macroProps,"color",bcolor)]
-   [h:macroProps=setStrProp(macroProps,"fontColor",fcolor)]
-   [h:macroProps=setStrProp(macroProps,"group",group)]
-   [h:grayoutString=""]
-   [h,IF(grayout): grayoutString=encode("[h:setMacroProps(" + "'" +pname+ "'" + ",'color=gray;' " + ")]")]
-   [h:command=encode("[h:thisPower="+"'"+pname+"'"+"]")]
-   [h:command=command+encode("[h:index=getMacroIndexes(thisPower)]")]
-   [h:command=command+encode("[h:mProps=getMacroProps(index)]")]
-   [h:command=command+encode("[h:color=getStrProp(mProps,'color')]")]
-   [h:command=command+encode("[h:used=if(color=='gray', 0, 1)]")]
-   [h:command=command+encode("[h:abort(used)]")]
-   [h:command=command + encode("[MACRO('AttackMain@Lib:test'):thisPower]")]
-   [h:command=command+grayoutString]
+               #. .. code:: de1
 
-This sequence may appear confusing, but it is conceptually relatively
-simple. Because a macro button must contain macro instructions, this
-segment of macro code builds a string using the
-`encode() <Macros:Functions:encode>`__ function.
+                     hitEffect=--none-- ; missEffect=--none-- ; atktype=melee ;
 
-In this case, **encode()** is used because macro commands require the
-square bracket ([ ]), but the macro parser has a tendency to attempt to
-evaluate anything in square brackets as a command, which - if you get a
-quotation mark out of place - will cause various frustrating and
-eldritch errors. To prevent this, we use single and double quotation
-marks to ensure that each element of the final string is treated as a
-string, and then **encode()** the whole result to a single string.
+               #. .. code:: de1
 
-Specifically:
+                     range=weapon ; expended=Available ; reliable=0 ; special=--none-- ;
 
--  Lines 1-4 set the macro properties based on the output of the earlier
-   **SWITCH()** statement, each step adding an additional key-value pair
-   to the macro property string.
--  Lines 5-6 check to see if the *grayout* variable is true, and if so
-   create an encoded string adding a command to change the color of the
-   button to gray when the button is clicked.
--  Lines 7-1 iteratively assemble the *command* variable as an encoded
-   string (the steps are broken down to make sure that the strings are
-   handled properly by the parser). These steps create a sequence of
-   commands that will, when the user clicks the button:
+         2. This macro will receive from a calling macro an argument
+         called
+         `macro.args </rptools/wiki/Macros:Special_Variables:macro.args>`__
+         that contains a number (which will be used to determine which
+         power - Power0, Power1, etc. - will have a new button created).
 
-#. Call a macro on a `library token <Token:library_token>`__ to resolve
-   the use of the power
-#. If the macro is an encounter or daily power, change the macro button
-   color to gray
-#. If the macro is an encounter or daily power, prevent the macro from
-   executing if the button is clicked again
+         3. This macro in particular is the final step in a macro
+         sequence, so it is assumed that when this macro is called, the
+         string property list for the power in question has already been
+         populated.
 
-.. _creating_the_macro_button:
+         .. rubric:: Macro Code and Explanation
+            :name: macro-code-and-explanation
 
-Creating the Macro Button
--------------------------
+         The `full macro
+         code </rptools/wiki/Tutorials:Macros:create_buttons_full_code>`__
+         is broken down and explained below.
 
-.. code:: mtmacro
-   :number-lines:
+         .. rubric:: Receiving Arguments and Assigning Variables
+            :name: receiving-arguments-and-assigning-variables
 
-   [h:createMacro(pname, decode(command), macroProps)]
-   Buttons added.
-   };
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-This step is the easy part! We call the
-`createMacro() <Macros:Functions:createMacro>`__ function and pass the
-arguments *pname* (containing the power's name), the
-`decoded <Macros:Functions:decode>`__ *command* string (containing all
-of the macro commands we wish the new button to contain), and the
-variable *macroProps* (which sets the initial button and font colors,
-group, and other properties we wish the new button to have).
+            .. container:: mtmacro source-mtmacro
 
-Note that line three contains the closing brace of this CODE() block -
-be sure to close your CODE blocks properly!
+               #. .. code:: de1
 
-.. _mop_up:
+                     [h:powerSlot=macro.args]
 
-Mop-Up
-------
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                     [h:pname=getStrProp(eval("Power"+powerSlot),"powername")]
 
-   {
-   No buttons added to token.
-   };]
+               #. .. code:: de1
 
-This tiny section at the very end is what is executed if the user does
-*not* wish to add buttons to their token. It is the *false_body* of the
-IF(), and will simply echo "No buttons added to token." to the chat
-window.
+                     [h:use=getStrProp(eval("Power"+powerSlot),"usage")]
 
-.. _the_result:
+         This section of the macro simply assigns the value of
+         *macro.args* to a new variable, *powerSlot*. The variable
+         *powerSlot* is then used in line 2 to extract the name of the
+         power (the *powername* key in the string property) and assign
+         it to *pname*, and to extract the *usage* value from the string
+         property as well.
 
-The Result
-==========
+         .. rubric:: Requesting User Input
+            :name: requesting-user-input
 
-When this macro is finished processing, the end result is that the token
-in question should have a new macro button generated containing the
-command sequence we assembled in the *command* variable. An example of
-the output - using the sample string property list shown in the
-`Assumptions <Tutorials:Macros:CreatingMacroButtons#Assumptions>`__
-section - is shown below:
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-.. code:: mtmacro
-   :number-lines:
+            .. container:: mtmacro source-mtmacro
 
-   [h:thisPower='Melee Basic Attack']
-   [MACRO('AttackMain@Lib:test'):thisPower]
+               #. .. code:: de1
 
-Another sample, this one including the *grayout* power information as
-well as the additional code to prevent repeat execution of the macro:
+                     [h:status=input(
 
-.. code:: mtmacro
-   :number-lines:
+               #. .. code:: de1
 
-   [h:thisPower='Chain Lightning']
-   [h:index=getMacroIndexes(thisPower)]
-   [h:mProps=getMacroProps(index)]
-   [h:color=getStrProp(mProps,'color')]
-   [h:used=if(color=='gray', 0, 1)]
-   [h:abort(used)]
-   [MACRO('AttackMain@Lib:test'):thisPower]
-   [h:setMacroProps('Chain Lightning','color=gray;' )]
+                         "addButtons|Yes,No|Add Macro Buttons to your token?|RADIO|ORIENT=H SELECT=1"
 
-**NOTE**: Although I have introduced line breaks in the examples above
-for ease of reading, the actual commands in the macro button do not have
-any line breaks between them. It requires some relatively convoluted use
-of strings and string concatenation to create easy-to-read command
-sequences via . Future builds of MapTool should remedy this situation.
+               #. .. code:: de1
 
-.. _see_also:
+                     )]
 
-See Also
-========
+               #. .. code:: de1
 
-.. raw:: mediawiki
+                     [h:abort(status)]
 
-   {{func|createMacro}}
+         This section is a simple
+         `input() </rptools/wiki/Macros:Functions:input>`__ function
+         that confirms whether the user wants to add the button to their
+         token's macro set. This is important because if a macro button
+         is already present, this macro will create a duplicate.
+         Frequently, however, users will want to simply update their
+         power information, rather than create a new button.
 
-, ,
+         .. rubric:: Checking for the Power's Use Limits and Setting
+            Colors
+            :name: checking-for-the-powers-use-limits-and-setting-colors
 
-`Category:Tutorial <Category:Tutorial>`__
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [IF(addButtons==0),CODE:
+
+               #. .. code:: de1
+
+                     {
+
+               #. .. code:: de1
+
+                     [h,SWITCH(use),CODE:
+
+               #. .. code:: de1
+
+                     case "at-will":
+
+               #. .. code:: de2
+
+                     {
+
+               #. .. code:: de1
+
+                       [bcolor="green"]
+
+               #. .. code:: de1
+
+                       [fcolor="black"]
+
+               #. .. code:: de1
+
+                       [group="1: Powers - At-Will"]
+
+               #. .. code:: de1
+
+                       [grayout=0]
+
+               #. .. code:: de2
+
+                     };
+
+               #. .. code:: de1
+
+                     case "encounter":
+
+               #. .. code:: de1
+
+                     {
+
+               #. .. code:: de1
+
+                       [bcolor="red"]
+
+               #. .. code:: de1
+
+                       [fcolor="white"]
+
+               #. .. code:: de2
+
+                       [group="2: Powers - Encounter"]
+
+               #. .. code:: de1
+
+                       [grayout=1]
+
+               #. .. code:: de1
+
+                     };
+
+               #. .. code:: de1
+
+                     case "daily":
+
+               #. .. code:: de1
+
+                     {
+
+               #. .. code:: de2
+
+                       [bcolor="black"]
+
+               #. .. code:: de1
+
+                       [fcolor="white"]
+
+               #. .. code:: de1
+
+                       [group="3: Powers - Daily"]
+
+               #. .. code:: de1
+
+                       [grayout=1]
+
+               #. .. code:: de1
+
+                     };
+
+               #. .. code:: de2
+
+                     case "recharge":
+
+               #. .. code:: de1
+
+                     {
+
+               #. .. code:: de1
+
+                       [bcolor="blue"]
+
+               #. .. code:: de1
+
+                       [fcolor="white"]
+
+               #. .. code:: de1
+
+                       [group="3: Powers - Recharging"]
+
+               #. .. code:: de2
+
+                       [grayout=1]
+
+               #. .. code:: de1
+
+                     };]
+
+         This is probably the most complex piece of the macro: a
+         `SWITCH() </rptools/wiki/Macros:Branching_and_Looping#SWITCH_Option>`__
+         roll option nested inside an
+         `IF() </rptools/wiki/Macros:Branching_and_Looping#IF_Option>`__
+         option, both of which use the `CODE:{
+         } </rptools/wiki/Macros:Branching_and_Looping#CODE>`__ option
+         to execute multiple macro commands as a single block.
+
+         However, functionally, this segment's purpose is to assign
+         several variables (to be used later) based on whether the power
+         is an at-will, encounter, daily, or rechargeable power;
+         remember that this entire SWITCH() block is contained within
+         the first code block of the IF() statement.
+
+         .. rubric:: Building the Macro Button Contents
+            :name: building-the-macro-button-contents
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h:macroProps="autoexec=true;"]
+
+               #. .. code:: de1
+
+                     [h:macroProps=setStrProp(macroProps,"color",bcolor)]
+
+               #. .. code:: de1
+
+                     [h:macroProps=setStrProp(macroProps,"fontColor",fcolor)]
+
+               #. .. code:: de1
+
+                     [h:macroProps=setStrProp(macroProps,"group",group)]
+
+               #. .. code:: de2
+
+                     [h:grayoutString=""]
+
+               #. .. code:: de1
+
+                     [h,IF(grayout): grayoutString=encode("[h:setMacroProps(" + "'" +pname+ "'" + ",'color=gray;' " + ")]")]
+
+               #. .. code:: de1
+
+                     [h:command=encode("[h:thisPower="+"'"+pname+"'"+"]")]
+
+               #. .. code:: de1
+
+                     [h:command=command+encode("[h:index=getMacroIndexes(thisPower)]")]
+
+               #. .. code:: de1
+
+                     [h:command=command+encode("[h:mProps=getMacroProps(index)]")]
+
+               #. .. code:: de2
+
+                     [h:command=command+encode("[h:color=getStrProp(mProps,'color')]")]
+
+               #. .. code:: de1
+
+                     [h:command=command+encode("[h:used=if(color=='gray', 0, 1)]")]
+
+               #. .. code:: de1
+
+                     [h:command=command+encode("[h:abort(used)]")]
+
+               #. .. code:: de1
+
+                     [h:command=command + encode("[MACRO('AttackMain@Lib:test'):thisPower]")]
+
+               #. .. code:: de1
+
+                     [h:command=command+grayoutString]
+
+         This sequence may appear confusing, but it is conceptually
+         relatively simple. Because a macro button must contain macro
+         instructions, this segment of macro code builds a string using
+         the `encode() </rptools/wiki/Macros:Functions:encode>`__
+         function.
+
+         In this case, **encode()** is used because macro commands
+         require the square bracket ([ ]), but the macro parser has a
+         tendency to attempt to evaluate anything in square brackets as
+         a command, which - if you get a quotation mark out of place -
+         will cause various frustrating and eldritch errors. To prevent
+         this, we use single and double quotation marks to ensure that
+         each element of the final string is treated as a string, and
+         then **encode()** the whole result to a single string.
+
+         Specifically:
+
+         -  Lines 1-4 set the macro properties based on the output of
+            the earlier **SWITCH()** statement, each step adding an
+            additional key-value pair to the macro property string.
+         -  Lines 5-6 check to see if the *grayout* variable is true,
+            and if so create an encoded string adding a command to
+            change the color of the button to gray when the button is
+            clicked.
+         -  Lines 7-1 iteratively assemble the *command* variable as an
+            encoded string (the steps are broken down to make sure that
+            the strings are handled properly by the parser). These steps
+            create a sequence of commands that will, when the user
+            clicks the button:
+
+         #. Call a macro on a `library
+            token </rptools/wiki/Token:library_token>`__ to resolve the
+            use of the power
+         #. If the macro is an encounter or daily power, change the
+            macro button color to gray
+         #. If the macro is an encounter or daily power, prevent the
+            macro from executing if the button is clicked again
+
+         .. rubric:: Creating the Macro Button
+            :name: creating-the-macro-button
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h:createMacro(pname, decode(command), macroProps)]
+
+               #. .. code:: de1
+
+                     Buttons added.
+
+               #. .. code:: de1
+
+                     };
+
+         This step is the easy part! We call the
+         `createMacro() </rptools/wiki/Macros:Functions:createMacro>`__
+         function and pass the arguments *pname* (containing the power's
+         name), the `decoded </rptools/wiki/Macros:Functions:decode>`__
+         *command* string (containing all of the macro commands we wish
+         the new button to contain), and the variable *macroProps*
+         (which sets the initial button and font colors, group, and
+         other properties we wish the new button to have).
+
+         Note that line three contains the closing brace of this CODE()
+         block - be sure to close your CODE blocks properly!
+
+         .. rubric:: Mop-Up
+            :name: mop-up
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     {
+
+               #. .. code:: de1
+
+                     No buttons added to token.
+
+               #. .. code:: de1
+
+                     };]
+
+         This tiny section at the very end is what is executed if the
+         user does *not* wish to add buttons to their token. It is the
+         *false_body* of the IF(), and will simply echo "No buttons
+         added to token." to the chat window.
+
+         .. rubric:: The Result
+            :name: the-result
+
+         When this macro is finished processing, the end result is that
+         the token in question should have a new macro button generated
+         containing the command sequence we assembled in the *command*
+         variable. An example of the output - using the sample string
+         property list shown in the
+         `Assumptions </rptools/wiki/Tutorials:Macros:CreatingMacroButtons#Assumptions>`__
+         section - is shown below:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h:thisPower='Melee Basic Attack']
+
+               #. .. code:: de1
+
+                     [MACRO('AttackMain@Lib:test'):thisPower]
+
+         Another sample, this one including the *grayout* power
+         information as well as the additional code to prevent repeat
+         execution of the macro:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h:thisPower='Chain Lightning']
+
+               #. .. code:: de1
+
+                     [h:index=getMacroIndexes(thisPower)]
+
+               #. .. code:: de1
+
+                     [h:mProps=getMacroProps(index)]
+
+               #. .. code:: de1
+
+                     [h:color=getStrProp(mProps,'color')]
+
+               #. .. code:: de2
+
+                     [h:used=if(color=='gray', 0, 1)]
+
+               #. .. code:: de1
+
+                     [h:abort(used)]
+
+               #. .. code:: de1
+
+                     [MACRO('AttackMain@Lib:test'):thisPower]
+
+               #. .. code:: de1
+
+                     [h:setMacroProps('Chain Lightning','color=gray;' )]
+
+         **NOTE**: Although I have introduced line breaks in the
+         examples above for ease of reading, the actual commands in the
+         macro button do not have any line breaks between them. It
+         requires some relatively convoluted use of strings and string
+         concatenation to create easy-to-read command sequences via
+         `createMacro() </rptools/wiki/createMacro>`__. Future builds of
+         MapTool should remedy this situation.
+
+         .. rubric:: See Also
+            :name: see-also
+
+         `createMacro() </rptools/wiki/createMacro>`__,
+         `setMacroCommand() </rptools/wiki/setMacroCommand>`__,
+         `setMacroProps() </rptools/wiki/setMacroProps>`__
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Creating_Macro_Buttons_Using_a_Macro&oldid=3726"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Category </rptools/wiki/Special:Categories>`__:
+
+            -  `Tutorial </rptools/wiki/Category:Tutorial>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Tutorial </rptools/wiki/Category:Tutorial>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Creating+Macro+Buttons+Using+a+Macro>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Creating_Macro_Buttons_Using_a_Macro>`__
+            -  `Discussion </maptool/index.php?title=Talk:Creating_Macro_Buttons_Using_a_Macro&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Creating_Macro_Buttons_Using_a_Macro>`__
+            -  `View
+               source </maptool/index.php?title=Creating_Macro_Buttons_Using_a_Macro&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Creating_Macro_Buttons_Using_a_Macro&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Creating_Macro_Buttons_Using_a_Macro>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Creating_Macro_Buttons_Using_a_Macro>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Creating_Macro_Buttons_Using_a_Macro&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Creating_Macro_Buttons_Using_a_Macro&oldid=3726>`__
+            -  `Page
+               information </maptool/index.php?title=Creating_Macro_Buttons_Using_a_Macro&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 23 July 2009, at 03:19.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

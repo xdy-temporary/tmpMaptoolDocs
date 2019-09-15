@@ -1,48 +1,343 @@
+=======================
+setStrProp - MapToolDoc
+=======================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=setStrProp
-   |version=1.3b42
-   |description=
-   Returns a [[String_Property_List|String Property List]] with the key set to the value passed in. 
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   setStrProp(propList, key, value)
-   </source>
-   '''Parameters'''
-   {{param|propList|The [[String_Property_List|String Property List]] affected by this function.}}
-   {{param|key|The key in the specified [[String_Property_List|String Property List]] that will have its value set.}}
-   {{param|value|The value that the specified key will be set to.}} 
+.. container:: mw-body
+   :name: content
 
-   |examples=
-   Add a new key to an existing [[String_Property_List|String Property List]]:
-   <source lang="mtmacro" line>
-   [h: weapon = "name=longsword; damage=1d8; maxdamage=8"]
-   [h: weapon = setStrProp(weapon, "value", 10)]
-   [r: weapon]
-   </source>
-   Returns {{code|"name{{=}}longsword ; damage{{=}}
+   .. container:: mw-indicators
 
-1d8 ; maxdamage{{=}}8 ; value{{=}}10 ; "}}
+   .. rubric:: setStrProp
+      :name: firstHeading
+      :class: firstHeading
 
-Change the value of a key in an existing `String Property
-List <String_Property_List>`__:
+   .. container:: mw-body-content
+      :name: bodyContent
 
-.. code:: mtmacro
-   :number-lines:
+      .. container::
+         :name: siteSub
 
-   [h: weapon = "name=longsword; damage=1d8; maxdamage=8"]
-   [h: weapon = setStrProp(weapon, "damage", "1d6")]
-   [r: weapon]
+         From MapToolDoc
 
-Returns longsword ; damage{{=}}1d6 ; maxdamage{{=}}8 ; "}}
+      .. container::
+         :name: contentSub
 
-\|also= }}
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-`Category:String Property List
-Function <Category:String_Property_List_Function>`__
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 setStrProp() Function <#setStrProp.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 See Also <#See_Also>`__
+
+         .. rubric:: setStrProp() Function
+            :name: setstrprop-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b42**
+
+         .. container:: template_description
+
+            Returns a `String Property
+            List </rptools/wiki/String_Property_List>`__ with the key
+            set to the value passed in.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     setStrProp(propList, key, value)
+
+         **Parameters**
+
+         -  ``propList`` - The `String Property
+            List </rptools/wiki/String_Property_List>`__ affected by
+            this function.
+         -  ``key`` - The key in the specified `String Property
+            List </rptools/wiki/String_Property_List>`__ that will have
+            its value set.
+         -  ``value`` - The value that the specified key will be set to.
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            Add a new key to an existing `String Property
+            List </rptools/wiki/String_Property_List>`__:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: weapon = "name=longsword; damage=1d8; maxdamage=8"]
+
+                  #. .. code:: de1
+
+                        [h: weapon = setStrProp(weapon, "value", 10)]
+
+                  #. .. code:: de1
+
+                        [r: weapon]
+
+            Returns
+            ``"name=longsword ; damage=1d8 ; maxdamage=8 ; value=10 ; "``
+
+            Change the value of a key in an existing `String Property
+            List </rptools/wiki/String_Property_List>`__:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: weapon = "name=longsword; damage=1d8; maxdamage=8"]
+
+                  #. .. code:: de1
+
+                        [h: weapon = setStrProp(weapon, "damage", "1d6")]
+
+                  #. .. code:: de1
+
+                        [r: weapon]
+
+            Returns ``"name=longsword ; damage=1d6 ; maxdamage=8 ; "``
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `getStrProp() </rptools/wiki/getStrProp>`__
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=setStrProp&oldid=2813"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `String Property List
+               Function </rptools/wiki/Category:String_Property_List_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `String
+         Property List
+         Function </rptools/wiki/Category:String_Property_List_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=setStrProp>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/setStrProp>`__
+            -  `Discussion </maptool/index.php?title=Talk:setStrProp&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/setStrProp>`__
+            -  `View
+               source </maptool/index.php?title=setStrProp&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=setStrProp&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/setStrProp>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/setStrProp>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=setStrProp&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=setStrProp&oldid=2813>`__
+            -  `Page
+               information </maptool/index.php?title=setStrProp&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 4 April 2009, at 03:44.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

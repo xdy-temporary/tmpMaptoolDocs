@@ -1,44 +1,348 @@
+==============================
+getInitiativeList - MapToolDoc
+==============================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{stub|more examples.}}
+.. container:: noprint
+   :name: mw-head-base
 
-.. raw:: mediawiki
+.. container:: mw-body
+   :name: content
 
-   {{MacroFunction
-   |name=getInitiativeList
-   |version=1.3b57
-   |description=
-   Retrieves a list of all tokens currently in the Initiative Panel.  The return value is a JSON object with various information about initiative, including global information (round number, which map is current, which token is current) and token-specific information (token id, initiative value, whether the token is holding or not).
+   .. container:: mw-indicators
 
-   When called from a [[Trusted_Macro|Trusted Macro]] or by a client with GM authority, it will return all information.  Otherwise it only returns information visible to the current player.  In other words, it respects the Initiative Panel's {{code|Hide NPCs}} and the token's {{code|Visible To Owner Only}} flags, among others.  (This is new in '''1.3b78'''.  Prior versions didn't have the check for trusted context at all.)
+   .. rubric:: getInitiativeList
+      :name: firstHeading
+      :class: firstHeading
 
-   |usage=
-   <source lang="mtmacro" line>
-   [ json = getInitiativeList() ]
-   </source>
-   '''Parameters'''
-   None.
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   |example=
-   The following code will simply return a JSON object and print each property name one at a time on separate lines.  Refer to [[JSON_Object|JSON Object]] for more information about JSON object themselves and [[json.get|json.get]] for information on retrieving properties and their values.
-   <source lang="mtmacro" line>
-   [h: json = getInitiativeList() ]
-   [ foreach(item, json, "<br>"): item ]
-   </source>
+      .. container::
+         :name: siteSub
 
-   This example prints a nicely formatted output showing what the contents of the JSON object look like.
-   <source lang="mtmacro" line>
-   [h: json = getInitiativeList() ]
-   <pre>[r: json.indent(json) ]</pre>
-   </source>
+         From MapToolDoc
 
+      .. container::
+         :name: contentSub
 
-   |changes=
-   {{change|1.3b57|Added macro function.}}
-   }}
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-`Category:Initiative Function <Category:Initiative_Function>`__
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: template_stub
+
+            | ** This article is a stub, you can help the RPTools Wiki
+              project by contributing content to expand this article.**
+            | ** This article needs:** *more examples.*
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 getInitiativeList()
+               Function <#getInitiativeList.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Example <#Example>`__
+               -  `1.3 Version Changes <#Version_Changes>`__
+
+         .. rubric:: getInitiativeList() Function
+            :name: getinitiativelist-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b57**
+
+         .. container:: template_description
+
+            Retrieves a list of all tokens currently in the Initiative
+            Panel. The return value is a JSON object with various
+            information about initiative, including global information
+            (round number, which map is current, which token is current)
+            and token-specific information (token id, initiative value,
+            whether the token is holding or not). When called from a
+            `Trusted Macro </rptools/wiki/Trusted_Macro>`__ or by a
+            client with GM authority, it will return all information.
+            Otherwise it only returns information visible to the current
+            player. In other words, it respects the Initiative Panel's
+            ``Hide NPCs`` and the token's ``Visible To Owner Only``
+            flags, among others. (This is new in **1.3b78**. Prior
+            versions didn't have the check for trusted context at all.)
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [ json = getInitiativeList() ]
+
+         **Parameters** None.
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            The following code will simply return a JSON object and
+            print each property name one at a time on separate lines.
+            Refer to `JSON Object </rptools/wiki/JSON_Object>`__ for
+            more information about JSON object themselves and
+            `json.get </rptools/wiki/json.get>`__ for information on
+            retrieving properties and their values.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: json = getInitiativeList() ]
+
+                  #. .. code:: de1
+
+                        [ foreach(item, json, "<br>"): item ]
+
+            This example prints a nicely formatted output showing what
+            the contents of the JSON object look like.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: json = getInitiativeList() ]
+
+                  #. .. code:: de1
+
+                        <pre>[r: json.indent(json) ]</pre>
+
+         | 
+
+         .. rubric:: Version Changes
+            :name: version-changes
+
+         .. container:: template_changes
+
+            -  **1.3b57** - Added macro function.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=getInitiativeList&oldid=5126"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Stub </rptools/wiki/Category:Stub>`__
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Initiative
+               Function </rptools/wiki/Category:Initiative_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ >
+         `Initiative
+         Function </rptools/wiki/Category:Initiative_Function>`__
+         `Review </rptools/wiki/Category:Review>`__ >
+         `Stub </rptools/wiki/Category:Stub>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=getInitiativeList>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/getInitiativeList>`__
+            -  `Discussion </maptool/index.php?title=Talk:getInitiativeList&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/getInitiativeList>`__
+            -  `View
+               source </maptool/index.php?title=getInitiativeList&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=getInitiativeList&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/getInitiativeList>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/getInitiativeList>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=getInitiativeList&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=getInitiativeList&oldid=5126>`__
+            -  `Page
+               information </maptool/index.php?title=getInitiativeList&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 11 January 2011, at 20:09.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

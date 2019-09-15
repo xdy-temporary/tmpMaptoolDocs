@@ -1,15 +1,325 @@
+===================================
+addAllNPCsToInitiative - MapToolDoc
+===================================
+
 .. contents::
    :depth: 3
 ..
 
-{{MacroFunction \|name=Function addAllNPCsToInitiative \|trusted=true
-\|description=Adds all the `NPC tokens <Token:NPC_token>`__ on the
-current `map <Map:map>`__ to the `initiative
-panel <Initiative:initiative_panel>`__. This function returns the number
-of `tokens <Token:token>`__ that were added to the `initiative
-panel <Initiative:initiative_panel>`__.
+.. container:: noprint
+   :name: mw-page-base
 
-This function will not assign any initiative value to the
-`tokens <Token:token>`__, you can use the [[setInitiative\|
+.. container:: noprint
+   :name: mw-head-base
 
-`Category:Initiative Function <Category:Initiative_Function>`__
+.. container:: mw-body
+   :name: content
+
+   .. container:: mw-indicators
+
+   .. rubric:: addAllNPCsToInitiative
+      :name: firstHeading
+      :class: firstHeading
+
+   .. container:: mw-body-content
+      :name: bodyContent
+
+      .. container::
+         :name: siteSub
+
+         From MapToolDoc
+
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 Function addAllNPCsToInitiative()
+               Function <#Function_addAllNPCsToInitiative.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Example <#Example>`__
+               -  `1.3 See Also <#See_Also>`__
+
+         .. rubric:: Function addAllNPCsToInitiative() Function
+            :name: function-addallnpcstoinitiative-function
+
+         .. container::
+
+             Note: This function can only be used in a `Trusted
+            Macro </rptools/wiki/Trusted_Macro>`__
+
+         .. container:: template_description
+
+            Adds all the `NPC
+            tokens </maptool/index.php?title=Token:NPC_token&action=edit&redlink=1>`__
+            on the current
+            `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
+            to the `initiative
+            panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__.
+            This function returns the number of
+            `tokens </rptools/wiki/Token:token>`__ that were added to
+            the `initiative
+            panel </maptool/index.php?title=Initiative:initiative_panel&action=edit&redlink=1>`__.
+            This function will not assign any initiative value to the
+            `tokens </rptools/wiki/Token:token>`__, you can use the
+            ```setInitiative()`` </rptools/wiki/setInitiative>`__
+            function
+
+            to set the initiative value of tokens.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     addAllNPCsToInitiative()
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: noTokens = addAllNPCsToInitiative()]
+
+            | 
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        Added [r: addAllNPCsToInitiative()] NPCs to the initiative panel.
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `setInitiative() </rptools/wiki/setInitiative>`__
+            `addAllPCsToInitiative() </rptools/wiki/addAllPCsToInitiative>`__
+            `addAllToInitiative() </rptools/wiki/addAllToInitiative>`__
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=addAllNPCsToInitiative&oldid=2226"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Initiative
+               Function </rptools/wiki/Category:Initiative_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ >
+         `Initiative
+         Function </rptools/wiki/Category:Initiative_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=addAllNPCsToInitiative>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/addAllNPCsToInitiative>`__
+            -  `Discussion </maptool/index.php?title=Talk:addAllNPCsToInitiative&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/addAllNPCsToInitiative>`__
+            -  `View
+               source </maptool/index.php?title=addAllNPCsToInitiative&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=addAllNPCsToInitiative&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/addAllNPCsToInitiative>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/addAllNPCsToInitiative>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=addAllNPCsToInitiative&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=addAllNPCsToInitiative&oldid=2226>`__
+            -  `Page
+               information </maptool/index.php?title=addAllNPCsToInitiative&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 25 March 2009, at 10:29.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

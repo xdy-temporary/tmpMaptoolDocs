@@ -1,52 +1,384 @@
+==========================
+getViewCenter - MapToolDoc
+==========================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name= getViewCenter
-   |version=1.5.4
-   |description=
-   Returns the limits of the visible area of the map window, given in either pixels or cell coordinates depending on the first parameter. The result is in a ";" delimited String as default or can be configured by setting the delimiter or using JSON.
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   getViewCenter()
-   getViewCenter(pixels)
-   getViewCenter(pixels, delim)
-   </source>
+.. container:: mw-body
+   :name: content
 
-   '''Parameters'''
-   * {{code|pixels}} - if set to true (1) means the returned coordinates are measured in pixels. If set to false (0) the returned coordinates are measured in map cells. Defaults to {{code|true}}.
-   * {{code|delim}} - if set to "json" means the returned coordinates are defined in JSON style. Otherwise a String property list is returning using {{code|delim}} as a delimiter. Defaults to {{code|;}}.
+   .. container:: mw-indicators
 
-   |examples=
-   Get the viewport dimensions of the current client:
-   <source lang="mtmacro" line>
-   [r: getViewCenter()] <!-- Default pixels -->
-   [r: getViewCenter(0)] <!-- in Grid Cells -->
-   [r: getViewCenter(1)] <!-- in Pixels -->
-   [r: getViewCenter(0, "json")] <!-- Cells as JSON -->
-   [r: getViewCenter(1, "json")] <!-- Pixels as JSON -->
-   [r: getViewCenter(0, ",")] <!-- Cells as "," separated String properties: -->
-   [r: getViewCenter(1, ";")] <!-- Pixels as ";" separated String properties: -->
-   </source>
+   .. rubric:: getViewCenter
+      :name: firstHeading
+      :class: firstHeading
 
-   Output:
-   <source lang="mtmacro" line>
-   centerX=646; centerY=319;
-   centerX=14; centerY=7;
-   centerX=646; centerY=319;
-   {"centerX":14,"centerY":7} 
-   {"centerX":646,"centerY":319} 
-   centerX=14, centerY=7;
-   centerX=646; centerY=319,
-   </source>
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   |also=
-   {{func|getViewArea}}, {{func|setViewArea}}, {{func|goto}}, {{func|setZoom}}, {{func|getZoom}}. 
+      .. container::
+         :name: siteSub
 
-   }}
+         From MapToolDoc
 
-`Category:Miscellaneous Function <Category:Miscellaneous_Function>`__
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 getViewCenter()
+               Function <#getViewCenter.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 See Also <#See_Also>`__
+
+         .. rubric:: getViewCenter() Function
+            :name: getviewcenter-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.5.4**
+
+         .. container:: template_description
+
+            Returns the limits of the visible area of the map window,
+            given in either pixels or cell coordinates depending on the
+            first parameter. The result is in a ";" delimited String as
+            default or can be configured by setting the delimiter or
+            using JSON.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     getViewCenter()
+
+               #. .. code:: de1
+
+                     getViewCenter(pixels)
+
+               #. .. code:: de1
+
+                     getViewCenter(pixels, delim)
+
+         **Parameters**
+
+         -  ``pixels`` - if set to true (1) means the returned
+            coordinates are measured in pixels. If set to false (0) the
+            returned coordinates are measured in map cells. Defaults to
+            ``true``.
+         -  ``delim`` - if set to "json" means the returned coordinates
+            are defined in JSON style. Otherwise a String property list
+            is returning using ``delim`` as a delimiter. Defaults to
+            ``;``.
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            Get the viewport dimensions of the current client:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [r: getViewCenter()] <!-- Default pixels -->
+
+                  #. .. code:: de1
+
+                        [r: getViewCenter(0)] <!-- in Grid Cells -->
+
+                  #. .. code:: de1
+
+                        [r: getViewCenter(1)] <!-- in Pixels -->
+
+                  #. .. code:: de1
+
+                        [r: getViewCenter(0, "json")] <!-- Cells as JSON -->
+
+                  #. .. code:: de2
+
+                        [r: getViewCenter(1, "json")] <!-- Pixels as JSON -->
+
+                  #. .. code:: de1
+
+                        [r: getViewCenter(0, ",")] <!-- Cells as "," separated String properties: -->
+
+                  #. .. code:: de1
+
+                        [r: getViewCenter(1, ";")] <!-- Pixels as ";" separated String properties: -->
+
+            Output:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        centerX=646; centerY=319;
+
+                  #. .. code:: de1
+
+                        centerX=14; centerY=7;
+
+                  #. .. code:: de1
+
+                        centerX=646; centerY=319;
+
+                  #. .. code:: de1
+
+                        {"centerX":14,"centerY":7} 
+
+                  #. .. code:: de2
+
+                        {"centerX":646,"centerY":319} 
+
+                  #. .. code:: de1
+
+                        centerX=14, centerY=7;
+
+                  #. .. code:: de1
+
+                        centerX=646; centerY=319,
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `getViewArea() </rptools/wiki/getViewArea>`__,
+            `setViewArea() </rptools/wiki/setViewArea>`__,
+            `goto() </rptools/wiki/goto>`__,
+            `setZoom() </rptools/wiki/setZoom>`__,
+            `getZoom() </rptools/wiki/getZoom>`__.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=getViewCenter&oldid=7454"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Miscellaneous
+               Function </rptools/wiki/Category:Miscellaneous_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ >
+         `Miscellaneous
+         Function </rptools/wiki/Category:Miscellaneous_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=getViewCenter>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/getViewCenter>`__
+            -  `Discussion </maptool/index.php?title=Talk:getViewCenter&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/getViewCenter>`__
+            -  `View
+               source </maptool/index.php?title=getViewCenter&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=getViewCenter&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/getViewCenter>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/getViewCenter>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=getViewCenter&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=getViewCenter&oldid=7454>`__
+            -  `Page
+               information </maptool/index.php?title=getViewCenter&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 13 August 2019, at 14:46.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

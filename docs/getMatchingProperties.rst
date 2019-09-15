@@ -1,60 +1,399 @@
+==================================
+getMatchingProperties - MapToolDoc
+==================================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=getMatchingProperties
-   |version=1.3b54
-   |description=
-   Returns a [[String_List|String List]] or [[JSON_Array|JSON Array]] with names of the [[Token_Property|Token Properties]] on a specific [[Token|Token]] that match the given pattern.
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   getMatchingProperties(pattern)
-   getMatchingProperties(pattern, delim)
-   getMatchingProperties(pattern, delim, id)
-   getMatchingProperties(pattern, delim, id, mapname)
-   </source>
-   '''Parameters'''
-   {{param|pattern|A regular expression(regex) that represents the pattern the properties should match.}}
-   {{param|delim|The delimiter used in the [[String_List|String List]] that is returned, defaults to {{code|","}}.  Returns a [[JSON_Array|JSON Array]] if {{code|"json"}} is specified.}}
-   {{param|id|The token {{code|id}} of the token that is checked for properties that match the given pattern, defaults to the [[Current_Token|Current Token]]. {{TrustedParameter}} }}
-   {{param|mapname|The name of the map to find the token.  Defaults to the current map.}}
+.. container:: mw-body
+   :name: content
 
-   |examples=
-   Say you wanted to keep an inventory list for the [[Token|Token]] you could prefix all of your inventory properties with {{code|Inv:''Category'':}}. For example {{code|Inv:Weapon:Longsword}}.
+   .. container:: mw-indicators
 
-   Then to loop through all of the inventory properties you could use 
-   <source lang="mtmacro" line>
-   [foreach(item, getMatchingProperties("Inv:.*")): {
-       <!-- Do something really exciting here -->
-   }]
-   </source>
+   .. rubric:: getMatchingProperties
+      :name: firstHeading
+      :class: firstHeading
 
-   Or the following to loop through all the weapons
-   <source lang="mtmacro" line>
-   [foreach(item, getMatchingProperties("Inv:Weapon:.*")): {
-       <!-- Do something really exciting here -->
-   }]
-   </source>
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   Or even all the armor and all the shields.
-   <source lang="mtmacro" line>
-   [foreach(item, getMatchingProperties("Inv:(Armor|Shield):.*")): {
-       <!-- Do something really exciting here -->
-   }]
-   </source>
+      .. container::
+         :name: siteSub
 
+         From MapToolDoc
 
-   |also=
-   {{func|getMatchingLibProperties}} {{func|getPropertyNames}}
+      .. container::
+         :name: contentSub
 
-   |changes=
-   {{change|1.5.4|Added {{code|mapname}} parameter option.}}
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-   }}
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-`Category:Property Function <Category:Property_Function>`__
-`Category:Token Function <Category:Token_Function>`__
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 getMatchingProperties()
+               Function <#getMatchingProperties.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 See Also <#See_Also>`__
+               -  `1.4 Version Changes <#Version_Changes>`__
+
+         .. rubric:: getMatchingProperties() Function
+            :name: getmatchingproperties-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b54**
+
+         .. container:: template_description
+
+            Returns a `String List </rptools/wiki/String_List>`__ or
+            `JSON Array </rptools/wiki/JSON_Array>`__ with names of the
+            `Token Properties </rptools/wiki/Token_Property>`__ on a
+            specific `Token </rptools/wiki/Token>`__ that match the
+            given pattern.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     getMatchingProperties(pattern)
+
+               #. .. code:: de1
+
+                     getMatchingProperties(pattern, delim)
+
+               #. .. code:: de1
+
+                     getMatchingProperties(pattern, delim, id)
+
+               #. .. code:: de1
+
+                     getMatchingProperties(pattern, delim, id, mapname)
+
+         **Parameters**
+
+         -  ``pattern`` - A regular expression(regex) that represents
+            the pattern the properties should match.
+         -  ``delim`` - The delimiter used in the `String
+            List </rptools/wiki/String_List>`__ that is returned,
+            defaults to ``","``. Returns a `JSON
+            Array </rptools/wiki/JSON_Array>`__ if ``"json"`` is
+            specified.
+         -  ``id`` - The token ``id`` of the token that is checked for
+            properties that match the given pattern, defaults to the
+            `Current Token </rptools/wiki/Current_Token>`__.
+
+            .. container:: template_trusted_param
+
+                Note: This parameter can only be used in a `Trusted
+               Macro </rptools/wiki/Trusted_Macro>`__. 
+
+         -  ``mapname`` - The name of the map to find the token.
+            Defaults to the current map.
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            Say you wanted to keep an inventory list for the
+            `Token </rptools/wiki/Token>`__ you could prefix all of your
+            inventory properties with ``Inv:Category:``. For example
+            ``Inv:Weapon:Longsword``.
+            Then to loop through all of the inventory properties you
+            could use
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [foreach(item, getMatchingProperties("Inv:.*")): {
+
+                  #. .. code:: de1
+
+                            <!-- Do something really exciting here -->
+
+                  #. .. code:: de1
+
+                        }]
+
+            Or the following to loop through all the weapons
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [foreach(item, getMatchingProperties("Inv:Weapon:.*")): {
+
+                  #. .. code:: de1
+
+                            <!-- Do something really exciting here -->
+
+                  #. .. code:: de1
+
+                        }]
+
+            Or even all the armor and all the shields.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [foreach(item, getMatchingProperties("Inv:(Armor|Shield):.*")): {
+
+                  #. .. code:: de1
+
+                            <!-- Do something really exciting here -->
+
+                  #. .. code:: de1
+
+                        }]
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `getMatchingLibProperties() </rptools/wiki/getMatchingLibProperties>`__
+            `getPropertyNames() </rptools/wiki/getPropertyNames>`__
+
+         .. rubric:: Version Changes
+            :name: version-changes
+
+         .. container:: template_changes
+
+            -  **1.5.4** - Added ``mapname`` parameter option.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=getMatchingProperties&oldid=7521"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Property
+               Function </rptools/wiki/Category:Property_Function>`__
+            -  `Token
+               Function </rptools/wiki/Category:Token_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Property
+         Function </rptools/wiki/Category:Property_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Token
+         Function </rptools/wiki/Category:Token_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=getMatchingProperties>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/getMatchingProperties>`__
+            -  `Discussion </maptool/index.php?title=Talk:getMatchingProperties&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/getMatchingProperties>`__
+            -  `View
+               source </maptool/index.php?title=getMatchingProperties&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=getMatchingProperties&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/getMatchingProperties>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/getMatchingProperties>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=getMatchingProperties&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=getMatchingProperties&oldid=7521>`__
+            -  `Page
+               information </maptool/index.php?title=getMatchingProperties&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 15 August 2019, at 20:47.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

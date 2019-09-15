@@ -1,44 +1,277 @@
+=========================================
+Generate Variables From JSON - MapToolDoc
+=========================================
+
 .. contents::
    :depth: 3
 ..
 
-When working with string properties, the function is an automated way to
-generate variables from the keys within a string property. For example,
-if you have the following string property:
+.. container:: noprint
+   :name: mw-page-base
 
-.. code:: mtmacro
-   :number-lines:
+.. container:: noprint
+   :name: mw-head-base
 
-   [prop = "name=Axe; damage=1d12; proficiency=2;"]
+.. container:: mw-body
+   :name: content
 
-You can use to generate a variable for each key - in other words, using
-the function to generate a list of locally accessible variables , , and
-.
+   .. container:: mw-indicators
 
-There is no equivalent function for JSON objects. However, the following
-routine can be inserted into any macro to efficiently generate the
-variables in question.
+   .. rubric:: Generate Variables From JSON
+      :name: firstHeading
+      :class: firstHeading
 
-.. raw:: html
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   <hr>
+      .. container::
+         :name: siteSub
 
-.. code:: mtmacro
+         From MapToolDoc
 
-   [h:varList=json.fields(testObj)]
+      .. container::
+         :name: contentSub
 
-   [h,foreach(var,varList),CODE:
-   {
-        [value = json.get(testObj,var)]
-        [set(var,value)]
-   }]
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-.. raw:: html
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-   <hr>
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-The variable represents the JSON object that is fed into the routine.
-The variables generated will be available within the scope of the
-running macro (but not outside).
+         When working with string properties, the
+         `varsFromStrProp() </rptools/wiki/varsFromStrProp>`__ function
+         is an automated way to generate variables from the keys within
+         a string property. For example, if you have the following
+         string property:
 
-`Category:Cookbook <Category:Cookbook>`__
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [prop = "name=Axe; damage=1d12; proficiency=2;"]
+
+         You can use
+         `varsFromStrProp() </rptools/wiki/varsFromStrProp>`__ to
+         generate a variable for each key - in other words, using the
+         function to generate a list of locally accessible variables
+         ``name``, ``damage``, and ``proficiency``.
+
+         There is no equivalent function for JSON objects. However, the
+         following routine can be inserted into any macro to efficiently
+         generate the variables in question.
+
+         --------------
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               .. code:: de1
+
+                  [h:varList=json.fields(testObj)]
+                   
+                  [h,foreach(var,varList),CODE:
+                  {
+                       [value = json.get(testObj,var)]
+                       [set(var,value)]
+                  }]
+
+         --------------
+
+         The variable ``testObj`` represents the JSON object that is fed
+         into the routine. The variables generated will be available
+         within the scope of the running macro (but not outside).
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Generate_Variables_From_JSON&oldid=3145"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Category </rptools/wiki/Special:Categories>`__:
+
+            -  `Cookbook </rptools/wiki/Category:Cookbook>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ >
+         `Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Generate+Variables+From+JSON>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Generate_Variables_From_JSON>`__
+            -  `Discussion </maptool/index.php?title=Talk:Generate_Variables_From_JSON&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Generate_Variables_From_JSON>`__
+            -  `View
+               source </maptool/index.php?title=Generate_Variables_From_JSON&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Generate_Variables_From_JSON&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Generate_Variables_From_JSON>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Generate_Variables_From_JSON>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Generate_Variables_From_JSON&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Generate_Variables_From_JSON&oldid=3145>`__
+            -  `Page
+               information </maptool/index.php?title=Generate_Variables_From_JSON&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 16 April 2009, at 11:43.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

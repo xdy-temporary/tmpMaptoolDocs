@@ -1,58 +1,362 @@
+====================
+setHalo - MapToolDoc
+====================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=setHalo
-   |version=1.3b49
-   |description=
-   Sets the [[Halo|Halo]] color of a [[Token|Token]].
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   setHalo(color)
-   </source>
-   <source lang="mtmacro" line>
-   setHalo(color, id)
-   </source>
-   '''Parameters'''
-   {{param|color|The color to set the [[Halo|Halo]] to, valid values are:
-   ** {{code|"Black"}}
-   ** {{code|"Green"}}
-   ** {{code|"Yellow"}}
-   ** {{code|"Orange"}}
-   ** {{code|"Red"}}
-   ** {{code|"Cyan"}}
-   ** {{code|"Magenta"}}
-   ** {{code|"White"}}
-   ** A hexadecimal color value in the format {{code|"#RRGGBB"}}
-   ** {{code|"None"}} }}
-   {{param|id|The token {{code|id}} of the token that has its [[Halo|Halo]] set by this function. {{TrustedParameter}} }}
+.. container:: mw-body
+   :name: content
 
-   |examples=
-   To remove the [[Halo|Halo]] from the [[Current_Token|Current Token]].
-   <source lang="mtmacro" line>
-   [h: setHalo("None")]
-   </source>
+   .. container:: mw-indicators
 
-   To set the [[Halo|Halo]] for the [[Current_Token|Current Token]] to red.
-   <source lang="mtmacro" line>
-   [h: setHalo("Red")]
-   </source>
+   .. rubric:: setHalo
+      :name: firstHeading
+      :class: firstHeading
 
-   To set the [[Halo|Halo]] from the [[Current_Token|Current Token]] to a custom color
-   <source lang="mtmacro" line>
-   [h: setHalo("#33AAFF")]
-   </source>
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   |also=
-   [[Halo|Halo]],
-   [[getHalo|getHalo()]]
+      .. container::
+         :name: siteSub
 
-   |changes=
-   {{change|1.3b51|Added {{code|id}} parameter option.}}
-   }}
+         From MapToolDoc
 
-`Category:Token Function <Category:Token_Function>`__
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 setHalo() Function <#setHalo.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 See Also <#See_Also>`__
+               -  `1.4 Version Changes <#Version_Changes>`__
+
+         .. rubric:: setHalo() Function
+            :name: sethalo-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b49**
+
+         .. container:: template_description
+
+            Sets the `Halo </rptools/wiki/Halo>`__ color of a
+            `Token </rptools/wiki/Token>`__.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     setHalo(color)
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     setHalo(color, id)
+
+         **Parameters**
+
+         -  ``color`` - The color to set the
+            `Halo </rptools/wiki/Halo>`__ to, valid values are:
+
+            -  ``"Black"``
+            -  ``"Green"``
+            -  ``"Yellow"``
+            -  ``"Orange"``
+            -  ``"Red"``
+            -  ``"Cyan"``
+            -  ``"Magenta"``
+            -  ``"White"``
+            -  A hexadecimal color value in the format ``"#RRGGBB"``
+            -  ``"None"``
+
+         -  ``id`` - The token ``id`` of the token that has its
+            `Halo </rptools/wiki/Halo>`__ set by this function.
+
+            .. container:: template_trusted_param
+
+                Note: This parameter can only be used in a `Trusted
+               Macro </rptools/wiki/Trusted_Macro>`__. 
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            To remove the `Halo </rptools/wiki/Halo>`__ from the
+            `Current Token </rptools/wiki/Current_Token>`__.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: setHalo("None")]
+
+            To set the `Halo </rptools/wiki/Halo>`__ for the `Current
+            Token </rptools/wiki/Current_Token>`__ to red.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: setHalo("Red")]
+
+            To set the `Halo </rptools/wiki/Halo>`__ from the `Current
+            Token </rptools/wiki/Current_Token>`__ to a custom color
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: setHalo("#33AAFF")]
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `Halo </rptools/wiki/Halo>`__,
+            `getHalo() </rptools/wiki/getHalo>`__
+
+         .. rubric:: Version Changes
+            :name: version-changes
+
+         .. container:: template_changes
+
+            -  **1.3b51** - Added ``id`` parameter option.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=setHalo&oldid=2465"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Token
+               Function </rptools/wiki/Category:Token_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Token
+         Function </rptools/wiki/Category:Token_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=setHalo>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/setHalo>`__
+            -  `Discussion </maptool/index.php?title=Talk:setHalo&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/setHalo>`__
+            -  `View
+               source </maptool/index.php?title=setHalo&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=setHalo&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/setHalo>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/setHalo>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=setHalo&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=setHalo&oldid=2465>`__
+            -  `Page
+               information </maptool/index.php?title=setHalo&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 31 March 2009, at 00:31.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

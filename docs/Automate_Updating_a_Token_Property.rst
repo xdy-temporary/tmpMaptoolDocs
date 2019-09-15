@@ -1,162 +1,484 @@
+===============================================
+Automate Updating a Token Property - MapToolDoc
+===============================================
+
 .. contents::
    :depth: 3
 ..
 
-This section expects that you are already familiar with how to add
-`macro buttons <Introduction_to_Macro_Writing>`__ to the MapTool user
-interface. __TOC__
+.. container:: noprint
+   :name: mw-page-base
 
-.. _example_updating_hit_points:
+.. container:: noprint
+   :name: mw-head-base
 
-Example: Updating Hit Points
-============================
+.. container:: mw-body
+   :name: content
 
-Let's say you have a property to represent hit points. We'll call our
-property . Now we want some easy way to update , so we're going to
-create a `macro button <Macro_Button>`__ that executes a
-`macro <Introduction_to_Macro_Writing>`__.
+   .. container:: mw-indicators
 
-First, consider how you want this to work. We want a window to popup on
-the screen and ask the user to enter a number. That number will be
-subtracted from , so the user can use a positive number to represent
-damage and a negative number to represent healing. (We'll show another
-approach later.)
+   .. rubric:: Automate Updating a Token Property
+      :name: firstHeading
+      :class: firstHeading
 
-The first step will be to prompt for the number. MapTool has this
-ability built-in. All we need to do is use a variable name that doesn't
-exist yet and MapTool will popup the prompt! The name of the variable is
-part of the prompt, so we'll use a descriptive name. How about ?
+   .. container:: mw-body-content
+      :name: bodyContent
 
-.. code:: mtmacro
-   :number-lines:
+      .. container::
+         :name: siteSub
 
-   [ damage = AmountOfDamage ]
+         From MapToolDoc
 
-Notice the extra variable name and the equals sign? That tells MapTool
-to calculate whatever is on the right of the equals sign and store the
-result into the variable on the left. In this case, there's no formula,
-so this becomes simply a copy -- from the variable to . But when MapTool
-tries to read the value of the variable and it doesn't exist, the popup
-will automatically appear! That's perfect for what we want!
+      .. container::
+         :name: contentSub
 
-Now the next step is to subtract that from the property. Fortunately,
-what you learned in the last paragraph can be used again:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-.. code:: mtmacro
-   :number-lines:
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-   [ damage = AmountOfDamage ]
-   [ HP = HP - damage ]
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-This time the second line calculates the formula on the right () and
-stores the result into ... ? Isn't that going to screw up our value?
+         This section expects that you are already familiar with how to
+         add `macro
+         buttons </rptools/wiki/Introduction_to_Macro_Writing>`__ to the
+         MapTool user interface.
 
-No, it doesn't screw it up, but it does *replace* that value with the
-result. And because is a property, the result is stored back into the
-token's property. If you were to right-click on the token and save it to
-an external file, the new value of is stored with it. When the token is
-later reloaded, that value will come with it.
+         .. container:: toc
+            :name: toc
 
-If you want to add to the hit points instead, you have two choices:
-either the user can enter a negative number, or you can change the to a
-. The first option is easy because it puts the burden on the user! The
-second option is really an option -- who wants to edit their macro every
-time they want to switch from damage to healing? Another choice not
-listed above would be to create a second macro. Then there could be one
-macro for adding damage and one for adding healing.
+            .. container::
+               :name: toctitle
 
-There's a few things still needed here to make this a little prettier,
-but those are future steps. Go ahead and try this out right now on a
-token that you create in MapTool. (The default property type, *Basic*,
-includes a property named .) And try adding the second macro as well,
-just for the practice. (Believe me, the more practice you get early in
-the process, the easier it will become later on.)
+               .. rubric:: Contents
+                  :name: contents
 
-.. _example_lets_rest_for_a_minute...:
+            -  `1 Example: Updating Hit
+               Points <#Example:_Updating_Hit_Points>`__
+            -  `2 Example: Let's Rest for a
+               Minute... <#Example:_Let.27s_Rest_for_a_Minute...>`__
+            -  `3 Example: One Macro to Rule Them
+               All <#Example:_One_Macro_to_Rule_Them_All>`__
 
-Example: Let's Rest for a Minute...
-===================================
+         .. rubric:: Example: Updating Hit Points
+            :name: example-updating-hit-points
 
-So let's say that you now have a macro button that prompts you to change
-the token's hit points through damage or healing as described above. How
-do we reset their hit points to their maximum when they rest?
+         Let's say you have a property to represent hit points. We'll
+         call our property ``HP``. Now we want some easy way to update
+         ``HP``, so we're going to create a `macro
+         button </rptools/wiki/Macro_Button>`__ that executes a
+         `macro </rptools/wiki/Introduction_to_Macro_Writing>`__.
 
-We already know that we have a and properties, so when they are healed
-up we simply need to copy the value in into . That should give you what
-you need to create a simple one-line macro:
+         First, consider how you want this to work. We want a window to
+         popup on the screen and ask the user to enter a number. That
+         number will be subtracted from ``HP``, so the user can use a
+         positive number to represent damage and a negative number to
+         represent healing. (We'll show another approach later.)
 
-.. code:: mtmacro
-   :number-lines:
+         The first step will be to prompt for the number. MapTool has
+         this ability built-in. All we need to do is use a variable name
+         that doesn't exist yet and MapTool will popup the prompt! The
+         name of the variable is part of the prompt, so we'll use a
+         descriptive name. How about ``AmountOfDamage``?
 
-   [ HP = HPmax ]
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-Simple, right? But for the sake of argument, let's expand on this a bit.
-Instead of restoring all of the hit points to the creature, we will
-prompt the user for the number of hours that the creature will be
-resting. For my demonstration, I'm assuming that there's a property
-named . If it rests for less than 24 hours, it gets back hit points. If
-it rests for 24 hours or more, it gets back .
+            .. container:: mtmacro source-mtmacro
 
-.. code:: mtmacro
-   :number-lines:
+               #. .. code:: de1
 
-   [ hours = NumberOfHours ]
-   [ healing = if(hours < 24, Level * 2, Level * 6) ]
-   [ HP = HP + healing ]
+                     [ damage = AmountOfDamage ]
 
-You may notice the function on the second line. One word of warning when
-using the function: both the true and the false sections are executed!
-For that reason, you may want the roll option instead. Note that the
-syntax is slightly different between the two, so be careful about which
-one you choose.
+         Notice the extra variable name and the equals sign? That tells
+         MapTool to calculate whatever is on the right of the equals
+         sign and store the result into the variable on the left. In
+         this case, there's no formula, so this becomes simply a copy --
+         from the variable ``AmountOfDamage`` to ``damage``. But when
+         MapTool tries to read the value of the variable and it doesn't
+         exist, the popup will automatically appear! That's perfect for
+         what we want!
 
-.. _example_one_macro_to_rule_them_all:
+         Now the next step is to subtract that from the ``HP`` property.
+         Fortunately, what you learned in the last paragraph can be used
+         again:
 
-Example: One Macro to Rule Them All
-===================================
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-Okay, so let's say you want to have one macro to handle all your healing
-needs. Using D&D 4th Edition, for example, you can:
+            .. container:: mtmacro source-mtmacro
 
--  spend a Healing Surge and regain HP
--  spend a Healing Surge without gaining HP
--  gain HP as if you spent a Healing Surge
--  gain a set number of HP (alone or in addition to a Healing Surge)
--  gain Temporary HP (alone or in addition to a Healing Surge, and
-   temporary HPs don't stack)
+               #. .. code:: de1
 
-Using the simple variable prompt explained above becomes clumsy, so
-let's use the function instead:
+                     [ damage = AmountOfDamage ]
 
-.. code:: mtmacro
-   :number-lines:
+               #. .. code:: de1
 
-   [ cancel = input("SpendSurge | 1 | Spend Healing Surge? | CHECK",
-                    "GainSurge | 1 | Gain Surge HP? | CHECK",
-                    "ExtraHeal | 0 | Additional Healing",
-                    "GainTempHP | 0 | Temporary Hit Points") ]
-   [ abort(cancel) ]
+                     [ HP = HP - damage ]
 
-This will prompt you for all possible variations detailed above, in a
-single input screen. ((image needed)) Then, you can use some functions
-or roll options to update all the properties involved. This example
-assumes that you're using the token properties , , and :
+         This time the second line calculates the formula on the right
+         (``HP - damage``) and stores the result into ... ``HP``? Isn't
+         that going to screw up our ``HP`` value?
 
-.. code:: mtmacro
-   :number-lines:
+         No, it doesn't screw it up, but it does *replace* that value
+         with the result. And because ``HP`` is a property, the result
+         is stored back into the token's property. If you were to
+         right-click on the token and save it to an external file, the
+         new value of ``HP`` is stored with it. When the token is later
+         reloaded, that value will come with it.
 
-   [ cancel = input("SpendSurge | 1 | Spend Healing Surge? | CHECK",
-                    "GainSurge | 1 | Gain Surge HP? | CHECK",
-                    "ExtraHeal | 0 | Additional Healing",
-                    "GainTempHP | 0 | Temporary Hit Points") ]
-   [ abort(cancel) ]
-   [ if(SpendSurge): SurgeRemain = SurgeRemain - 1 ]
-   [ if(GainSurge): HP = HP + SurgeValue ]
-   [ HP = HP + ExtraHeal ]
-   [ TempHP = max(TempHP, GainTempHP) ]
+         If you want to add to the hit points instead, you have two
+         choices: either the user can enter a negative number, or you
+         can change the ``-`` to a ``+``. The first option is easy
+         because it puts the burden on the user! The second option is
+         really an option -- who wants to edit their macro every time
+         they want to switch from damage to healing? Another choice not
+         listed above would be to create a second macro. Then there
+         could be one macro for adding damage and one for adding
+         healing.
 
-Notice that the function was used after the function to make sure that,
-in case the user clicked "Cancel" in the input window, the properties
-wouldn't be updated.
+         There's a few things still needed here to make this a little
+         prettier, but those are future steps. Go ahead and try this out
+         right now on a token that you create in MapTool. (The default
+         property type, *Basic*, includes a property named ``HP``.) And
+         try adding the second macro as well, just for the practice.
+         (Believe me, the more practice you get early in the process,
+         the easier it will become later on.)
 
-`Category:How To <Category:How_To>`__
+         .. rubric:: Example: Let's Rest for a Minute...
+            :name: example-lets-rest-for-a-minute...
+
+         So let's say that you now have a macro button that prompts you
+         to change the token's hit points through damage or healing as
+         described above. How do we reset their hit points to their
+         maximum when they rest?
+
+         We already know that we have a ``HP`` and ``HPmax`` properties,
+         so when they are healed up we simply need to copy the value in
+         ``HPmax`` into ``HP``. That should give you what you need to
+         create a simple one-line macro:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [ HP = HPmax ]
+
+         Simple, right? But for the sake of argument, let's expand on
+         this a bit. Instead of restoring all of the hit points to the
+         creature, we will prompt the user for the number of hours that
+         the creature will be resting. For my demonstration, I'm
+         assuming that there's a property named ``Level``. If it rests
+         for less than 24 hours, it gets back ``Level*2`` hit points. If
+         it rests for 24 hours or more, it gets back ``Level*6``.
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [ hours = NumberOfHours ]
+
+               #. .. code:: de1
+
+                     [ healing = if(hours < 24, Level * 2, Level * 6) ]
+
+               #. .. code:: de1
+
+                     [ HP = HP + healing ]
+
+         You may notice the `if() </rptools/wiki/if>`__ function on the
+         second line. One word of warning when using the
+         `if() </rptools/wiki/if>`__ function: both the true and the
+         false sections are executed! For that reason, you may want the
+         `[if():] </rptools/wiki/if_(roll_option)>`__ roll option
+         instead. Note that the syntax is slightly different between the
+         two, so be careful about which one you choose.
+
+         .. rubric:: Example: One Macro to Rule Them All
+            :name: example-one-macro-to-rule-them-all
+
+         Okay, so let's say you want to have one macro to handle all
+         your healing needs. Using D&D 4th Edition, for example, you
+         can:
+
+         -  spend a Healing Surge and regain HP
+         -  spend a Healing Surge without gaining HP
+         -  gain HP as if you spent a Healing Surge
+         -  gain a set number of HP (alone or in addition to a Healing
+            Surge)
+         -  gain Temporary HP (alone or in addition to a Healing Surge,
+            and temporary HPs don't stack)
+
+         Using the simple variable prompt explained above becomes
+         clumsy, so let's use the `input() </rptools/wiki/input>`__
+         function instead:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [ cancel = input("SpendSurge | 1 | Spend Healing Surge? | CHECK",
+
+               #. .. code:: de1
+
+                                      "GainSurge | 1 | Gain Surge HP? | CHECK",
+
+               #. .. code:: de1
+
+                                      "ExtraHeal | 0 | Additional Healing",
+
+               #. .. code:: de1
+
+                                      "GainTempHP | 0 | Temporary Hit Points") ]
+
+               #. .. code:: de2
+
+                     [ abort(cancel) ]
+
+         This will prompt you for all possible variations detailed
+         above, in a single input screen. ((image needed)) Then, you can
+         use some `if() </rptools/wiki/if>`__ functions or
+         `[if():] </rptools/wiki/if_(roll_option)>`__ roll options to
+         update all the properties involved. This example assumes that
+         you're using the token properties ``HP``, ``TempHP``,
+         ``SurgeRemain`` and ``SurgeValue``:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [ cancel = input("SpendSurge | 1 | Spend Healing Surge? | CHECK",
+
+               #. .. code:: de1
+
+                                      "GainSurge | 1 | Gain Surge HP? | CHECK",
+
+               #. .. code:: de1
+
+                                      "ExtraHeal | 0 | Additional Healing",
+
+               #. .. code:: de1
+
+                                      "GainTempHP | 0 | Temporary Hit Points") ]
+
+               #. .. code:: de2
+
+                     [ abort(cancel) ]
+
+               #. .. code:: de1
+
+                     [ if(SpendSurge): SurgeRemain = SurgeRemain - 1 ]
+
+               #. .. code:: de1
+
+                     [ if(GainSurge): HP = HP + SurgeValue ]
+
+               #. .. code:: de1
+
+                     [ HP = HP + ExtraHeal ]
+
+               #. .. code:: de1
+
+                     [ TempHP = max(TempHP, GainTempHP) ]
+
+         Notice that the `abort() </rptools/wiki/abort>`__ function was
+         used after the `input() </rptools/wiki/input>`__ function to
+         make sure that, in case the user clicked "Cancel" in the input
+         window, the properties wouldn't be updated.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Automate_Updating_a_Token_Property&oldid=5606"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Category </rptools/wiki/Special:Categories>`__:
+
+            -  `How To </rptools/wiki/Category:How_To>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `How
+         To </rptools/wiki/Category:How_To>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Automate+Updating+a+Token+Property>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Automate_Updating_a_Token_Property>`__
+            -  `Discussion </maptool/index.php?title=Talk:Automate_Updating_a_Token_Property&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Automate_Updating_a_Token_Property>`__
+            -  `View
+               source </maptool/index.php?title=Automate_Updating_a_Token_Property&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Automate_Updating_a_Token_Property&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Automate_Updating_a_Token_Property>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Automate_Updating_a_Token_Property>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Automate_Updating_a_Token_Property&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Automate_Updating_a_Token_Property&oldid=5606>`__
+            -  `Page
+               information </maptool/index.php?title=Automate_Updating_a_Token_Property&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 19 July 2011, at 16:19.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

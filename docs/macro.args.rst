@@ -1,179 +1,525 @@
+=======================
+macro.args - MapToolDoc
+=======================
+
 .. contents::
    :depth: 3
 ..
 
-The variable *macro.args* holds the value of the argument passed to a
-trusted macro via the `MACRO() <macro_(roll_option)>`__ roll option.
-*macro.args* exists only within the macro that is called, and may be
-manipulated like any variable in a macro.
+.. container:: noprint
+   :name: mw-page-base
 
-Examples
-========
+.. container:: noprint
+   :name: mw-head-base
 
-.. _single_parameter:
+.. container:: mw-body
+   :name: content
 
-1: Single parameter
--------------------
+   .. container:: mw-indicators
 
-When a macro on a `library token <Token:library_token>`__ is called by
-another macro, the calling macro may pass one argument to the called
-macro:
+   .. rubric:: macro.args
+      :name: firstHeading
+      :class: firstHeading
 
-.. _calling_macro:
+   .. container:: mw-body-content
+      :name: bodyContent
 
-Calling Macro
-~~~~~~~~~~~~~
+      .. container::
+         :name: siteSub
 
-.. code:: mtmacro
-   :number-lines:
+         From MapToolDoc
 
-   <!-- Call the getDamage macro -->
-   [h:damageDice="2d6"]
-   [MACRO("getDamage@Lib:test"): damageDice]
+      .. container::
+         :name: contentSub
 
-.. _called_macro:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-Called Macro
-~~~~~~~~~~~~
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-.. code:: mtmacro
-   :number-lines:
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-   <!-- getDamage Macro -->
-   [h:damageRoll = eval(macro.args) + 9]
-   You hit your target for [r:damageRoll] damage!
+         The variable *macro.args* holds the value of the argument
+         passed to a trusted macro via the
+         `MACRO() </rptools/wiki/macro_(roll_option)>`__ roll option.
+         *macro.args* exists only within the macro that is called, and
+         may be manipulated like any variable in a macro.
 
-In the example above, *damageDice* is the argument being passed to the
-macro **getDamage**, which resides on the **Lib:test** `library
-token <Token:library_token>`__. Within the **getDamage** macro, the
-variable is automatically generated and assigned the value of
-*damageDice*.
+         .. container:: toc
+            :name: toc
 
-It's important to note that only a single parameter can be passed to a
-macro and that parameter appears in the variable. If more than a single
-parameter needs to be sent to a macro, you may use string property
-lists, a JSON array or object, or a . The first two techniques are
-demonstrated below.
+            .. container::
+               :name: toctitle
 
-.. _a_multiple_parameters_using_string_property_list:
+               .. rubric:: Contents
+                  :name: contents
 
-2A: Multiple parameters using String Property List
---------------------------------------------------
+            -  `1 Examples <#Examples>`__
 
-A string property list essentially bundles multiple values into a single
-string which would then be split back apart inside the macro body.
+               -  `1.1 1: Single parameter <#1:_Single_parameter>`__
 
-.. _calling_macro_1:
+                  -  `1.1.1 Calling Macro <#Calling_Macro>`__
+                  -  `1.1.2 Called Macro <#Called_Macro>`__
 
-Calling Macro
-~~~~~~~~~~~~~
+               -  `1.2 2A: Multiple parameters using String Property
+                  List <#2A:_Multiple_parameters_using_String_Property_List>`__
 
-.. code:: mtmacro
-   :number-lines:
+                  -  `1.2.1 Calling Macro <#Calling_Macro_2>`__
+                  -  `1.2.2 Called Macro <#Called_Macro_2>`__
 
-   <!-- Call the doDamage macro -->
-   [h:damageDice="2d6"]
-   [h:theToken = "Bobo Fett"]
-   [MACRO("getDamage@Lib:test"): "Damage="+damageDice+"; Token="+theToken]
+               -  `1.3 2B: Multiple parameters using JSON
+                  Array <#2B:_Multiple_parameters_using_JSON_Array>`__
 
-.. _called_macro_1:
+                  -  `1.3.1 Calling Macro using JSON
+                     Array <#Calling_Macro_using_JSON_Array>`__
+                  -  `1.3.2 Called Macro using JSON
+                     Array <#Called_Macro_using_JSON_Array>`__
 
-Called Macro
-~~~~~~~~~~~~
+               -  `1.4 2C: Multiple parameters using JSON
+                  Object <#2C:_Multiple_parameters_using_JSON_Object>`__
 
-.. code:: mtmacro
-   :number-lines:
+                  -  `1.4.1 Calling Macro using JSON
+                     Object <#Calling_Macro_using_JSON_Object>`__
+                  -  `1.4.2 Called Macro using JSON
+                     Object <#Called_Macro_using_JSON_Object>`__
 
-   <!-- doDamage Macro -->
-   [h:dmg   = getStrProp(macro.args, "Damage")]
-   [h:tokid = getStrProp(macro.args, "Token")]
-   You hit [r: tokid] for [r:dmg] damage!
+            -  `2 See Also <#See_Also>`__
 
-.. _b_multiple_parameters_using_json_array:
+         .. rubric:: Examples
+            :name: examples
 
-2B: Multiple parameters using JSON Array
-----------------------------------------
+         .. rubric:: 1: Single parameter
+            :name: single-parameter
 
-The second way to pass multiple parameters is to use a `JSON
-Array <JSON_Array>`__ or `JSON Object <JSON_Object>`__.
+         When a macro on a `library
+         token </rptools/wiki/Token:library_token>`__ is called by
+         another macro, the calling macro may pass one argument to the
+         called macro:
 
-Using a JSON data type passes multiple values as a single unit. When
-using JSON data types, there will be a single parameter coming into the
-macro but because it's either an array or an object you can retrieve
-individual fields quite easily.
+         .. rubric:: Calling Macro
+            :name: calling-macro
 
-As the is being passed as the first parameter in this next code block,
-it's creating an empty `JSON Array <JSON_Array>`__ and then appending
-two new values to it.
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-.. _calling_macro_using_json_array:
+            .. container:: mtmacro source-mtmacro
 
-Calling Macro using JSON Array
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                     <!-- Call the getDamage macro -->
 
-   <!-- Call the doDamage macro -->
-   [h:damageDice="2d6"]
-   [h:theToken = "Bobo Fett"]
-   [h:jsonData = json.append("[]", damageDice, theToken)]
-   [MACRO("getDamage@Lib:test"): jsonData]
+               #. .. code:: de1
 
-.. _called_macro_using_json_array:
+                     [h:damageDice="2d6"]
 
-Called Macro using JSON Array
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                     [MACRO("getDamage@Lib:test"): damageDice]
 
-   <!-- doDamage Macro -->
-   [h:dmg   = json.get(macro.args, 0)]
-   [h:tokid = json.get(macro.args, 1)]
-   You hit [r: tokid] for [r:dmg] damage!
+         .. rubric:: Called Macro
+            :name: called-macro
 
-.. _c_multiple_parameters_using_json_object:
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-2C: Multiple parameters using JSON Object
------------------------------------------
+            .. container:: mtmacro source-mtmacro
 
-Notice that in this next example, the is being passed as the first
-parameter. This indicates to the function that we want a `JSON
-Object <JSON_Object>`__.
+               #. .. code:: de1
 
-.. _calling_macro_using_json_object:
+                     <!-- getDamage Macro -->
 
-Calling Macro using JSON Object
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                     [h:damageRoll = eval(macro.args) + 9]
 
-   <!-- Call the doDamage macro -->
-   [h:damageDice="2d6"]
-   [h:theToken = "Bobo Fett"]
-   [h:jsonData = json.set("{}", "Damage", damageDice, "Token", theToken)]
-   [MACRO("getDamage@Lib:test"): jsonData]
+               #. .. code:: de1
 
-.. _called_macro_using_json_object:
+                     You hit your target for [r:damageRoll] damage!
 
-Called Macro using JSON Object
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         In the example above, *damageDice* is the argument being passed
+         to the macro **getDamage**, which resides on the **Lib:test**
+         `library token </rptools/wiki/Token:library_token>`__. Within
+         the **getDamage** macro, the variable ``macro.args`` is
+         automatically generated and assigned the value of *damageDice*.
 
-.. code:: mtmacro
-   :number-lines:
+         It's important to note that only a single parameter can be
+         passed to a macro and that parameter appears in the
+         ``macro.args`` variable. If more than a single parameter needs
+         to be sent to a macro, you may use string property lists, a
+         JSON array or object, or a ``user-defined function``. The first
+         two techniques are demonstrated below.
 
-   <!-- doDamage Macro -->
-   [h:dmg   = json.get(macro.args, "Damage")]
-   [h:tokid = json.get(macro.args, "Token")]
-   You hit [r: tokid] for [r:dmg] damage!
+         .. rubric:: 2A: Multiple parameters using String Property List
+            :name: a-multiple-parameters-using-string-property-list
 
-.. _see_also:
+         A string property list essentially bundles multiple values into
+         a single string which would then be split back apart inside the
+         macro body.
 
-See Also
-========
+         .. rubric:: Calling Macro
+            :name: calling-macro-1
 
-`macro.return <macro.return>`__,
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-`Category:Special Variable <Category:Special_Variable>`__
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     <!-- Call the doDamage macro -->
+
+               #. .. code:: de1
+
+                     [h:damageDice="2d6"]
+
+               #. .. code:: de1
+
+                     [h:theToken = "Bobo Fett"]
+
+               #. .. code:: de1
+
+                     [MACRO("getDamage@Lib:test"): "Damage="+damageDice+"; Token="+theToken]
+
+         .. rubric:: Called Macro
+            :name: called-macro-1
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     <!-- doDamage Macro -->
+
+               #. .. code:: de1
+
+                     [h:dmg   = getStrProp(macro.args, "Damage")]
+
+               #. .. code:: de1
+
+                     [h:tokid = getStrProp(macro.args, "Token")]
+
+               #. .. code:: de1
+
+                     You hit [r: tokid] for [r:dmg] damage!
+
+         .. rubric:: 2B: Multiple parameters using JSON Array
+            :name: b-multiple-parameters-using-json-array
+
+         The second way to pass multiple parameters is to use a `JSON
+         Array </rptools/wiki/JSON_Array>`__ or `JSON
+         Object </rptools/wiki/JSON_Object>`__.
+
+         Using a JSON data type passes multiple values as a single unit.
+         When using JSON data types, there will be a single parameter
+         coming into the macro but because it's either an array or an
+         object you can retrieve individual fields quite easily.
+
+         As the `json.append() </rptools/wiki/json.append>`__ is being
+         passed ``"[]"`` as the first parameter in this next code block,
+         it's creating an empty `JSON
+         Array </rptools/wiki/JSON_Array>`__ and then appending two new
+         values to it.
+
+         .. rubric:: Calling Macro using JSON Array
+            :name: calling-macro-using-json-array
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     <!-- Call the doDamage macro -->
+
+               #. .. code:: de1
+
+                     [h:damageDice="2d6"]
+
+               #. .. code:: de1
+
+                     [h:theToken = "Bobo Fett"]
+
+               #. .. code:: de1
+
+                     [h:jsonData = json.append("[]", damageDice, theToken)]
+
+               #. .. code:: de2
+
+                     [MACRO("getDamage@Lib:test"): jsonData]
+
+         .. rubric:: Called Macro using JSON Array
+            :name: called-macro-using-json-array
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     <!-- doDamage Macro -->
+
+               #. .. code:: de1
+
+                     [h:dmg   = json.get(macro.args, 0)]
+
+               #. .. code:: de1
+
+                     [h:tokid = json.get(macro.args, 1)]
+
+               #. .. code:: de1
+
+                     You hit [r: tokid] for [r:dmg] damage!
+
+         .. rubric:: 2C: Multiple parameters using JSON Object
+            :name: c-multiple-parameters-using-json-object
+
+         Notice that in this next example, the
+         `json.set() </rptools/wiki/json.set>`__ is being passed
+         ``"{}"`` as the first parameter. This indicates to the function
+         that we want a `JSON Object </rptools/wiki/JSON_Object>`__.
+
+         .. rubric:: Calling Macro using JSON Object
+            :name: calling-macro-using-json-object
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     <!-- Call the doDamage macro -->
+
+               #. .. code:: de1
+
+                     [h:damageDice="2d6"]
+
+               #. .. code:: de1
+
+                     [h:theToken = "Bobo Fett"]
+
+               #. .. code:: de1
+
+                     [h:jsonData = json.set("{}", "Damage", damageDice, "Token", theToken)]
+
+               #. .. code:: de2
+
+                     [MACRO("getDamage@Lib:test"): jsonData]
+
+         .. rubric:: Called Macro using JSON Object
+            :name: called-macro-using-json-object
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     <!-- doDamage Macro -->
+
+               #. .. code:: de1
+
+                     [h:dmg   = json.get(macro.args, "Damage")]
+
+               #. .. code:: de1
+
+                     [h:tokid = json.get(macro.args, "Token")]
+
+               #. .. code:: de1
+
+                     You hit [r: tokid] for [r:dmg] damage!
+
+         .. rubric:: See Also
+            :name: see-also
+
+         `macro.return </rptools/wiki/macro.return>`__,
+         `[macro():] </rptools/wiki/macro_(roll_option)>`__
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=macro.args&oldid=4040"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Category </rptools/wiki/Special:Categories>`__:
+
+            -  `Special
+               Variable </rptools/wiki/Category:Special_Variable>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Special
+         Variable </rptools/wiki/Category:Special_Variable>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=macro.args>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/macro.args>`__
+            -  `Discussion </maptool/index.php?title=Talk:macro.args&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/macro.args>`__
+            -  `View
+               source </maptool/index.php?title=macro.args&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=macro.args&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/macro.args>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/macro.args>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=macro.args&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=macro.args&oldid=4040>`__
+            -  `Page
+               information </maptool/index.php?title=macro.args&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 10 November 2009, at 04:48.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

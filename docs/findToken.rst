@@ -1,46 +1,356 @@
+======================
+findToken - MapToolDoc
+======================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=findToken
-   |trusted=true
-   |version=1.3b48
-   |description=Finds a [[Token:token|token]] on the current [[Map:map|map]] by the [[Token:token|token]] name, GM name, or ID and returns its id. If the optional ''mapname'' parameter is supplied that map will be searched instead. If the [[Token:token|token]] is not found then an empty string "" is returned.
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   findToken(name/ID)
-   findToken(name/ID,mapname)
-   </source>
-   '''Parameters'''
-   {{param|name/ID|Either the name of the token or the ID.}}
-   {{param|mapname|Optional name of the map to search for the token on.}}
+.. container:: mw-body
+   :name: content
 
-   |example=
-   Search for token on current map
-   <source lang="mtmacro" line>
-   [h: id = findToken("Hero")]
-   [if (id == "", "Token not found!", "Token found")]
-   </source>
-   Search for token on current map and then search the map named ''Stash'' if not found.
-   <source lang="mtmacro" line>
-   <!-- Prompts for "TokenName" as it isn't already defined -->
-   [h: name = TokenName]
-   [h: id = findToken(name)]
-   [r, if(id == ""), code: {
-       Not on current map. Searching Stash.<br>
-       <!-- Search on the map named "Stash" -->
-       [h: id = findToken(name, "Stash")]
-       [r: if(id == "", name + " not found!", name + " found in Stash")]
-   };{
-       [r: name] found on map [r: getCurrentMapName()].
-   }]
-   </source>
+   .. container:: mw-indicators
 
-   }}
+   .. rubric:: findToken
+      :name: firstHeading
+      :class: firstHeading
 
-`Category:Find Function <Category:Find_Function>`__ `Category:Token
-Function <Category:Token_Function>`__
+   .. container:: mw-body-content
+      :name: bodyContent
+
+      .. container::
+         :name: siteSub
+
+         From MapToolDoc
+
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. rubric:: findToken() Function
+            :name: findtoken-function
+
+         .. container::
+
+             Note: This function can only be used in a `Trusted
+            Macro </rptools/wiki/Trusted_Macro>`__
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b48**
+
+         .. container:: template_description
+
+            Finds a `token </rptools/wiki/Token:token>`__ on the current
+            `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
+            by the `token </rptools/wiki/Token:token>`__ name, GM name,
+            or ID and returns its id. If the optional *mapname*
+            parameter is supplied that map will be searched instead. If
+            the `token </rptools/wiki/Token:token>`__ is not found then
+            an empty string "" is returned.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     findToken(name/ID)
+
+               #. .. code:: de1
+
+                     findToken(name/ID,mapname)
+
+         **Parameters**
+
+         -  ``name/ID`` - Either the name of the token or the ID.
+         -  ``mapname`` - Optional name of the map to search for the
+            token on.
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            Search for token on current map
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: id = findToken("Hero")]
+
+                  #. .. code:: de1
+
+                        [if (id == "", "Token not found!", "Token found")]
+
+            Search for token on current map and then search the map
+            named *Stash* if not found.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        <!-- Prompts for "TokenName" as it isn't already defined -->
+
+                  #. .. code:: de1
+
+                        [h: name = TokenName]
+
+                  #. .. code:: de1
+
+                        [h: id = findToken(name)]
+
+                  #. .. code:: de1
+
+                        [r, if(id == ""), code: {
+
+                  #. .. code:: de2
+
+                         Not on current map. Searching Stash.<br>
+
+                  #. .. code:: de1
+
+                         <!-- Search on the map named "Stash" -->
+
+                  #. .. code:: de1
+
+                          [h: id = findToken(name, "Stash")]
+
+                  #. .. code:: de1
+
+                         [r: if(id == "", name + " not found!", name + " found in Stash")]
+
+                  #. .. code:: de1
+
+                        };{
+
+                  #. .. code:: de2
+
+                          [r: name] found on map [r: getCurrentMapName()].
+
+                  #. .. code:: de1
+
+                        }]
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=findToken&oldid=7449"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Find Function </rptools/wiki/Category:Find_Function>`__
+            -  `Token
+               Function </rptools/wiki/Category:Token_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Find
+         Function </rptools/wiki/Category:Find_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Token
+         Function </rptools/wiki/Category:Token_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=findToken>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/findToken>`__
+            -  `Discussion </maptool/index.php?title=Talk:findToken&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/findToken>`__
+            -  `View
+               source </maptool/index.php?title=findToken&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=findToken&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/findToken>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/findToken>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=findToken&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=findToken&oldid=7449>`__
+            -  `Page
+               information </maptool/index.php?title=findToken&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 31 July 2019, at 17:11.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

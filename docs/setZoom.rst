@@ -1,46 +1,344 @@
+====================
+setZoom - MapToolDoc
+====================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=setZoom
-   |version=1.4
-   |description=
-   Sets the zoom level of the viewport in percentages, where 1 (=100%) is the default.
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   setZoom(z)
-   </source>
+.. container:: mw-body
+   :name: content
 
-   '''Parameters'''
-   * {{code|z}} - The zoom level of the viewport (the current zoom level can be seen at the bottom of the maptool screen. You can also use {{func|getZoom}}. Note that this value is given in the numerical representation of %. E.g. to set zoom to 50% you give 0.5 as parameter.
+   .. container:: mw-indicators
 
-   |examples=
-   Zoom in by a factor 2
-   <source lang="mtmacro" line>
-   [h: z = getZoom()]
-   [h: setZoom(2*z)]
-   </source>
-   Zoom in by one 10%
-   <source lang="mtmacro" line>
-   [h: z = getZoom()]
-   [h: setZoom(z+0.1)]
-   </source>
-   Zoom out by 10%
-   <source lang="mtmacro" line>
-   [h: z = getZoom()]
-   [h: setZoom(z-0.1)]
-   </source>
+   .. rubric:: setZoom
+      :name: firstHeading
+      :class: firstHeading
 
-   |also=
-   {{func|moveToken}}, 
-   {{func|getTokenY}},
-   {{func|goto}},
-   {{func|setViewArea}},
-   {{func|getZoom}}.
-   }}
+   .. container:: mw-body-content
+      :name: bodyContent
 
-`Category:Miscellaneous Function <Category:Miscellaneous_Function>`__
+      .. container::
+         :name: siteSub
+
+         From MapToolDoc
+
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 setZoom() Function <#setZoom.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 See Also <#See_Also>`__
+
+         .. rubric:: setZoom() Function
+            :name: setzoom-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.4**
+
+         .. container:: template_description
+
+            Sets the zoom level of the viewport in percentages, where 1
+            (=100%) is the default.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     setZoom(z)
+
+         **Parameters**
+
+         -  ``z`` - The zoom level of the viewport (the current zoom
+            level can be seen at the bottom of the maptool screen. You
+            can also use `getZoom() </rptools/wiki/getZoom>`__. Note
+            that this value is given in the numerical representation
+            of %. E.g. to set zoom to 50% you give 0.5 as parameter.
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            Zoom in by a factor 2
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: z = getZoom()]
+
+                  #. .. code:: de1
+
+                        [h: setZoom(2*z)]
+
+            Zoom in by one 10%
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: z = getZoom()]
+
+                  #. .. code:: de1
+
+                        [h: setZoom(z+0.1)]
+
+            Zoom out by 10%
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: z = getZoom()]
+
+                  #. .. code:: de1
+
+                        [h: setZoom(z-0.1)]
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `moveToken() </rptools/wiki/moveToken>`__,
+            `getTokenY() </rptools/wiki/getTokenY>`__,
+            `goto() </rptools/wiki/goto>`__,
+            `setViewArea() </rptools/wiki/setViewArea>`__,
+
+            `getZoom() </rptools/wiki/getZoom>`__.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=setZoom&oldid=6349"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Miscellaneous
+               Function </rptools/wiki/Category:Miscellaneous_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ >
+         `Miscellaneous
+         Function </rptools/wiki/Category:Miscellaneous_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=setZoom>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/setZoom>`__
+            -  `Discussion </maptool/index.php?title=Talk:setZoom&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/setZoom>`__
+            -  `View
+               source </maptool/index.php?title=setZoom&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=setZoom&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/setZoom>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/setZoom>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=setZoom&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=setZoom&oldid=6349>`__
+            -  `Page
+               information </maptool/index.php?title=setZoom&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 3 May 2015, at 21:16.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

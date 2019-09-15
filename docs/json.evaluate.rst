@@ -1,31 +1,288 @@
+==========================
+json.evaluate - MapToolDoc
+==========================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{stub}}
+.. container:: noprint
+   :name: mw-head-base
 
-.. raw:: mediawiki
+.. container:: mw-body
+   :name: content
 
-   {{MacroFunction
-   |name=json.evaluate
-   |trusted=true
-   |version=1.3b51
-   |description=
-   Traverses a JSON array or JSON object and evaluates any macro code or rolls contained within. All macro code and rolls are evaluated against the current token.
+   .. container:: mw-indicators
 
-   |usage=
-   <source lang="mtmacro" line>
-   json.evaluate(array)
-   </source>
-   <source lang="mtmacro" line>
-   json.evaluate(object)
-   </source>
-   '''Parameters'''
-   * {{code|array}} - The JSON array which has its contents evaluated.
-   * {{code|object}} - The JSON object which has its contents evaluated.
+   .. rubric:: json.evaluate
+      :name: firstHeading
+      :class: firstHeading
 
-   }}
+   .. container:: mw-body-content
+      :name: bodyContent
 
-`Category:JSON Function <Category:JSON_Function>`__
+      .. container::
+         :name: siteSub
+
+         From MapToolDoc
+
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: template_stub
+
+            ** This article is a stub, you can help the RPTools Wiki
+            project by contributing content to expand this article.**
+
+         .. rubric:: json.evaluate() Function
+            :name: json.evaluate-function
+
+         .. container::
+
+             Note: This function can only be used in a `Trusted
+            Macro </rptools/wiki/Trusted_Macro>`__
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b51**
+
+         .. container:: template_description
+
+            Traverses a JSON array or JSON object and evaluates any
+            macro code or rolls contained within. All macro code and
+            rolls are evaluated against the current token.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     json.evaluate(array)
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     json.evaluate(object)
+
+         **Parameters**
+
+         -  ``array`` - The JSON array which has its contents evaluated.
+         -  ``object`` - The JSON object which has its contents
+            evaluated.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=json.evaluate&oldid=1854"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Stub </rptools/wiki/Category:Stub>`__
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `JSON Function </rptools/wiki/Category:JSON_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `JSON
+         Function </rptools/wiki/Category:JSON_Function>`__
+         `Review </rptools/wiki/Category:Review>`__ >
+         `Stub </rptools/wiki/Category:Stub>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=json.evaluate>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/json.evaluate>`__
+            -  `Discussion </maptool/index.php?title=Talk:json.evaluate&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/json.evaluate>`__
+            -  `View
+               source </maptool/index.php?title=json.evaluate&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=json.evaluate&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/json.evaluate>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/json.evaluate>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=json.evaluate&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=json.evaluate&oldid=1854>`__
+            -  `Page
+               information </maptool/index.php?title=json.evaluate&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 10 March 2009, at 06:43.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

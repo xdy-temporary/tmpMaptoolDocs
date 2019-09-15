@@ -1,307 +1,563 @@
+=========================
+Feature List - MapToolDoc
+=========================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{Languages|Shortcut Keys}}
+.. container:: noprint
+   :name: mw-head-base
 
-This list is compiled for Maptools version 1.3b86. If fairly extensive
-but still misses quite a lot of entries. It will however give you a good
-idea of what the capabilities are of Maptools.
+.. container:: mw-body
+   :name: content
 
-.. _live_and_active_community:
+   .. container:: mw-indicators
 
-Live and active community
-=========================
+   .. rubric:: Feature List
+      :name: firstHeading
+      :class: firstHeading
 
--  Maptool is supported by an active and lively community, this makes MT
-   free, though your donation is always welcome
--  MT is supported by a large Forum community
--  MT is supported by an extensive set of Tutorial videos, in multiple
-   languages
--  MT is supported by a Wiki
--  MT is Java based, meaning it plaform independent (e.g. runs on
-   Window, Mac, Linux etc.)
+   .. container:: mw-body-content
+      :name: bodyContent
 
-.. _fog_of_war:
+      .. container::
+         :name: siteSub
 
-Fog of War
-==========
+         From MapToolDoc
 
--  Option for individual character fog of war, otherwise fow is shared
-   by the entire party
--  hard fog for undiscovered areas
--  soft fog for previous discovered areas but outside LoS (note, no
-   items on the token layer show to players if the item is in soft fog)
--  option to reset the fog
--  option to manually clear fog
--  option to manually recreate fog
--  option to have player movement clear fog automatically
+      .. container::
+         :name: contentSub
 
-Maps
-====
+      .. container:: mw-jump
+         :name: jump-to-nav
 
--  Supports virtually infinite map, limited only by each connected
-   computer's memory resources
--  Support for creating maps
--  Export and Import function for MT type maps
--  Hi-res Screenshot support
--  Ability to create maps real time (in game)
--  Ability to drag and drop images into maptools that can be used as map
--  Ability to drag and drop images into maptools that can be used as
-   objects
--  Support for 4 layers of map drawing:
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-   -  **background** here you either draw maps or drag external images
-      as map. Both from outside maptools or from within maptools
-   -  **object** here you can again draw and drag images both from
-      outside MT or from the internal library
-   -  **hidden** same as other layers but everything in this layer is
-      visible to GM only
-   -  **Token** the actual layer where players and GM have their tokens
-      which they can move around. Same as other layers drawing and
-      dragging support
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
--  Multiple map support
--  Texture support, for as well background as drawing
+         .. container:: template_languages
 
-Grid
-====
+            Languages:  `English </rptools/wiki/Shortcut_Keys>`__\ 
+             • \ `日本語 </rptools/wiki/Shortcut_Keys/ja>`__\ 
 
--  Different types of grids:
+         This list is compiled for Maptools version 1.3b86. If fairly
+         extensive but still misses quite a lot of entries. It will
+         however give you a good idea of what the capabilities are of
+         Maptools.
 
-   -  Square
-   -  Hex (Horizontal Hex)
-   -  Vex (Vertical Hex)
-   -  Isometric (as of 1.4)
+         .. container:: toc
+            :name: toc
 
--  Grid color
--  Grid size
--  Grid offset
--  Grid is positioned above the background and below the objects to give
-   a sense of depth in the maps
--  Toggle snap to grid
+            .. container::
+               :name: toctitle
 
-.. _library_support:
+               .. rubric:: Contents
+                  :name: contents
 
-Library support
-===============
+            -  `1 Live and active
+               community <#Live_and_active_community>`__
+            -  `2 Fog of War <#Fog_of_War>`__
+            -  `3 Maps <#Maps>`__
+            -  `4 Grid <#Grid>`__
+            -  `5 Library support <#Library_support>`__
+            -  `6 Frameworks <#Frameworks>`__
+            -  `7 Script language (Macro
+               support) <#Script_language_.28Macro_support.29>`__
+            -  `8 Tables <#Tables>`__
+            -  `9 Preferences <#Preferences>`__
+            -  `10 Interface <#Interface>`__
+            -  `11 Tools <#Tools>`__
+            -  `12 Different Languages <#Different_Languages>`__
+            -  `13 Tokens <#Tokens>`__
+            -  `14 Light <#Light>`__
+            -  `15 Chat box <#Chat_box>`__
+            -  `16 Maptool summarized in one
+               picture <#Maptool_summarized_in_one_picture>`__
+            -  `17 Drop-in: Bag of Tricks <#Drop-in:_Bag_of_Tricks>`__
 
--  MT a build in library with:
+         .. rubric:: Live and active community
+            :name: live-and-active-community
 
-   -  Tokens (e.g. Hero, Dragon, Troll)
-   -  Objects (e.g. door, wall, table)
-   -  Textures (e.g. Grass, Cobble stones, Mud)
-   -  States (e.g. Stunned, Blinded, Dazed)
-   -  Other stuff like Overlays, a prepared Map, Health Bars, Dice,
-      Cards
+         -  Maptool is supported by an active and lively community, this
+            makes MT free, though your donation is always welcome
+         -  MT is supported by a large Forum community
+         -  MT is supported by an extensive set of Tutorial videos, in
+            multiple languages
+         -  MT is supported by a Wiki
+         -  MT is Java based, meaning it plaform independent (e.g. runs
+            on Window, Mac, Linux etc.)
 
--  Option to load (from the internet) other available resources like
-   maps, tokens and objects
--  Option to extend the resource library with material localized on your
-   own PC
+         .. rubric:: Fog of War
+            :name: fog-of-war
 
-Frameworks
-==========
+         -  Option for individual character fog of war, otherwise fow is
+            shared by the entire party
+         -  hard fog for undiscovered areas
+         -  soft fog for previous discovered areas but outside LoS
+            (note, no items on the token layer show to players if the
+            item is in soft fog)
+         -  option to reset the fog
+         -  option to manually clear fog
+         -  option to manually recreate fog
+         -  option to have player movement clear fog automatically
 
-Through the maptools forum and its very lively community frameworks have
-been created which give support for the following RPG games
+         .. rubric:: Maps
+            :name: maps
 
--  D&D 3.5 Ed
--  D&D 4 Ed (English, French and Spanish)
--  Pathfinder
--  Warhammer 40k - Dark Heresy
--  Warhammer 40k - Roque Trader
--  Warhammer 40k - Deathwatch
--  Warhammer 40k - Black Crusade
--  Warhammer 40k - Only War
--  Warhammer 2nd Ed
--  Warhammer 3rd Ed
--  Call of Cthulhu 5.6 Ed
--  Call of Cthulhu 6 Ed
--  Call of Cthulhu 7 Ed
--  Fate 3.0
--  Hackmaster
--  Dragon Age
--  Savage Worlds
--  Hero 5th ed.
--  HarnMaster 3
--  Star Wars
--  Bash
--  Gurps
--  Gumshoe
--  Ars Magica 5h Ed.
--  Dogs in the Vineyard
--  A couple of bord games
+         -  Supports virtually infinite map, limited only by each
+            connected computer's memory resources
+         -  Support for creating maps
+         -  Export and Import function for MT type maps
+         -  Hi-res Screenshot support
+         -  Ability to create maps real time (in game)
+         -  Ability to drag and drop images into maptools that can be
+            used as map
+         -  Ability to drag and drop images into maptools that can be
+            used as objects
+         -  Support for 4 layers of map drawing:
 
-.. _script_language_macro_support:
+            -  **background** here you either draw maps or drag external
+               images as map. Both from outside maptools or from within
+               maptools
+            -  **object** here you can again draw and drag images both
+               from outside MT or from the internal library
+            -  **hidden** same as other layers but everything in this
+               layer is visible to GM only
+            -  **Token** the actual layer where players and GM have
+               their tokens which they can move around. Same as other
+               layers drawing and dragging support
 
-Script language (Macro support)
-===============================
+         -  Multiple map support
+         -  Texture support, for as well background as drawing
 
--  MT provides a script language with which the above Frameworks have
-   been developed
--  There exists a acitve and up to date Wiki support for the script
-   language
--  There are several 'drop-in' resources available through the forum
+         .. rubric:: Grid
+            :name: grid
 
-Tables
-======
+         -  Different types of grids:
 
--  Maptools provides a (rudimentary) support for tables
--  Random results from the tables can be generated with the use of the
-   script language
+            -  Square
+            -  Hex (Horizontal Hex)
+            -  Vex (Vertical Hex)
+            -  Isometric (as of 1.4)
 
-Preferences
-===========
+         -  Grid color
+         -  Grid size
+         -  Grid offset
+         -  Toggle snap to grid
+         -  Grid is positioned above the background and below the
+            objects to give a sense of depth in the maps
+         -  Ability to auto-resize imported map images to quickly fit
+            the grid (as of 1.4)
 
--  A LOT of settings are provided to personalize MT to your needs
+         .. rubric:: Library support
+            :name: library-support
 
-Interface
-=========
+         -  MT a build in library with:
 
--  Different panels are available
+            -  Tokens (e.g. Hero, Dragon, Troll)
+            -  Objects (e.g. door, wall, table)
+            -  Textures (e.g. Grass, Cobble stones, Mud)
+            -  States (e.g. Stunned, Blinded, Dazed)
+            -  Other stuff like Overlays, a prepared Map, Health Bars,
+               Dice, Cards
 
-   -  Initiative Panel: contains images of the active tokens and there
-      respective initiative number
-   -  Global Panel: contains macros that are locally (on the PC) stored
-      and are independent of the active Framework i.o.w. always there.
-   -  Campaign Panel: contains macros that are applicable for the
-      campaign (Framework)
-   -  Selection Panel: contains macros specifically for the currently
-      selected Token(s)
-   -  Impersonate Panel: same as Selection only this always applies to a
-      single Token
-   -  Table Panel: Panel with the tables
-   -  Resource Library Panel: here the Resources are available
-   -  Map explorer Panel: here one can see which tokens are on the map
-      and in which layer
-   -  Connection Panel: shows who's connected through the (inter)net to
-      your game
+         -  Option to load (from the internet) other available resources
+            like maps, tokens and objects
+         -  Option to extend the resource library with material
+            localized on your own PC
 
--  Panels can be
+         .. rubric:: Frameworks
+            :name: frameworks
 
-   -  Docked or Undocked (floating)
-   -  Hidden
-   -  Auto-hidden, accordion style, ie, when you mouse near the edge
-      where the panel is set to auto-hide, it pops out for use and hides
-      itself once you mouse out.
-   -  Docked panels may also be dragged into tabbed groups of multiple
-      panels
+         Through the maptools forum and its very lively community
+         frameworks have been created which give support for the
+         following RPG games
 
--  Full screen support
--  Zoom option (which is definitely necessary with the very very very
-   large maps
+         -  D&D 3.5 Ed
+         -  D&D 4 Ed (English, French and Spanish)
+         -  D&D 5 Ed
+         -  Pathfinder
+         -  Warhammer 40k - Dark Heresy
+         -  Warhammer 40k - Roque Trader
+         -  Warhammer 40k - Deathwatch
+         -  Warhammer 40k - Black Crusade
+         -  Warhammer 40k - Only War
+         -  Warhammer 2nd Ed
+         -  Warhammer 3rd Ed
+         -  Call of Cthulhu 5.6 Ed
+         -  Call of Cthulhu 6 Ed
+         -  Call of Cthulhu 7 Ed
+         -  Fate 3.0
+         -  Hackmaster
+         -  Dragon Age
+         -  Savage Worlds
+         -  Hero 5th ed.
+         -  HarnMaster 3
+         -  Star Wars
+         -  Bash
+         -  Gurps
+         -  Gumshoe
+         -  Ars Magica 5h Ed.
+         -  Dogs in the Vineyard
+         -  A couple of bord games
 
-Tools
-=====
+         .. rubric:: Script language (Macro support)
+            :name: script-language-macro-support
 
--  Force view
--  Force Zoom Level
--  Lock movement
--  Lock Zoom
+         -  MT provides a script language with which the above
+            Frameworks have been developed
+         -  There exists a acitve and up to date Wiki support for the
+            script language
+         -  There are several 'drop-in' resources available through the
+            forum
 
-.. _different_languages:
+         .. rubric:: Tables
+            :name: tables
 
-Different Languages
-===================
+         -  Maptools provides a (rudimentary) support for tables
+         -  Random results from the tables can be generated with the use
+            of the script language
 
--  English
--  French
--  Italian
--  Spanish
--  German
--  Polish
--  Russian
+         .. rubric:: Preferences
+            :name: preferences
 
-Tokens
-======
+         -  A LOT of settings are provided to personalize MT to your
+            needs
 
--  Maptool differentiates between PC's and NPC's
--  Option to set Ownership of tokens (so player can Own NPC tokens or
-   multiple PCs)
--  Option to set 'vision' of a token:
+         .. rubric:: Interface
+            :name: interface
 
-   -  Night vision
-   -  Normal vision
-   -  Arc/Cone, Circle, or Square
-   -  Range
+         -  Different panels are available
 
--  Option to set 10 different sizes, among which free-size (technically,
-   objects are "free size" and tokens are "native size")
--  Local properties (like Strenght and Toughness) are completely
-   customizable per token
--  Stat sheet on mouse over token, again completely customizable (and
-   can be hidden for all tokens)
--  States can be set per token
--  Health bars, either standard or again completely customizable (can
-   also be used for e.g. Ammo, Stamina, etc.)
--  Shape, different shapes are supported:
+            -  Initiative Panel: contains images of the active tokens
+               and there respective initiative number
+            -  Global Panel: contains macros that are locally (on the
+               PC) stored and are independent of the active Framework
+               i.o.w. always there.
+            -  Campaign Panel: contains macros that are applicable for
+               the campaign (Framework)
+            -  Selection Panel: contains macros specifically for the
+               currently selected Token(s)
+            -  Impersonate Panel: same as Selection only this always
+               applies to a single Token
+            -  Table Panel: Panel with the tables
+            -  Resource Library Panel: here the Resources are available
+            -  Map explorer Panel: here one can see which tokens are on
+               the map and in which layer
+            -  Draw explorer Panel: here one can see drawings by layer
+               and edit their properties
+            -  Connection Panel: shows who's connected through the
+               (inter)net to your game
 
-   -  Square
-   -  Circle
-   -  Top Down (rotates entire token when facing is set, token is also
-      not limited to its square) (that last part applies to all tokens)
+         -  Panels can be
 
--  Option to set token visibility (e.g. all clients can see or owners
-   only)
+            -  Docked or Undocked (floating)
+            -  Hidden
+            -  Auto-hidden, accordion style, ie, when you mouse near the
+               edge where the panel is set to auto-hide, it pops out for
+               use and hides itself once you mouse out.
+            -  Docked panels may also be dragged into tabbed groups of
+               multiple panels
 
-Light
-=====
+         -  Full screen support
+         -  Zoom option (which is definitely necessary with the very
+            very very large maps
 
--  set different ranges
--  set different shapes (Square, Circle, Cone with an arc ranges from 1
-   to 360 degrees)
--  set different colors
--  set layers of lights (so first e.g. yellow and then an outer ring of
-   e.g. red)
--  set auras, don't shed light, but can be used for e.g. show ranges of
-   weapons
--  set auras visible to self, all, gm only
--  Create different groups of light
+         .. rubric:: Tools
+            :name: tools
 
-.. _chat_box:
+         -  Force view
+         -  Force Zoom Level
+         -  Lock movement
+         -  Lock Zoom
 
-Chat box
-========
+         .. rubric:: Different Languages
+            :name: different-languages
 
--  loads of chat commands
--  smiley support
--  can handle html commands
--  broadcast option
--  impersonate token and talk from that token
--  whisper to a single token (so the rest won't see the message) or gm
-   only
--  (show/hide) typing notifications
--  different colors
--  scroll lock
--  allow macro commands to be typed straight into the chat
+         -  English
+         -  French
+         -  Italian
+         -  Spanish
+         -  German
+         -  Polish
+         -  Russian
 
-.. _maptool_summarized_in_one_picture:
+         .. rubric:: Tokens
+            :name: tokens
 
-Maptool summarized in one picture
-=================================
+         -  Maptool differentiates between PC's and NPC's
+         -  Option to set Ownership of tokens (so player can Own NPC
+            tokens or multiple PCs)
+         -  Option to set 'vision' of a token:
 
-.. figure:: DHFWOverviewScreenshot.jpg
-   :alt: This is a combination of native Maptool functionality and a campaign (W40K) created in maptool.
+            -  Night vision
+            -  Normal vision
+            -  Arc/Cone, Circle, or Square
+            -  Range
 
-   This is a combination of native Maptool functionality and a campaign
-   (W40K) created in maptool.
+         -  Option to set 10 different sizes, among which free-size
+            (technically, objects are "free size" and tokens are "native
+            size")
+         -  Local properties (like Strenght and Toughness) are
+            completely customizable per token
+         -  Stat sheet on mouse over token, again completely
+            customizable (and can be hidden for all tokens)
+         -  States can be set per token
+         -  Health bars, either standard or again completely
+            customizable (can also be used for e.g. Ammo, Stamina, etc.)
+         -  Shape, different shapes are supported:
 
-.. _drop_in_bag_of_tricks:
+            -  Square
+            -  Circle
+            -  Top Down (rotates entire token when facing is set, token
+               is also not limited to its square) (that last part
+               applies to all tokens)
 
-Drop-in: Bag of Tricks
-======================
+         -  Option to set token visibility (e.g. all clients can see or
+            owners only)
 
-This is not a default feature which comes with Maptool, but something
-you need to install. This drop-in will roughly add an additional 80
-features, like Teleports, animated doors, automatic VBL manipulation,
-token grouping, extended tables, debug tools, etc. etc. It can be found
-`here <http://forums.rptools.net/viewtopic.php?f=46&t=16066>`__. The
-web-post includes a full list of all features, tutorials on how to use
-and install it.
+         .. rubric:: Light
+            :name: light
 
---`Wolph42 <User:Wolph42>`__ 15:18, 11 May 2011 (UTC)
+         -  set different ranges
+         -  set different shapes (Square, Circle, Cone with an arc
+            ranges from 1 to 360 degrees)
+         -  set different colors
+         -  set layers of lights (so first e.g. yellow and then an outer
+            ring of e.g. red)
+         -  set auras, don't shed light, but can be used for e.g. show
+            ranges of weapons
+         -  set auras visible to self, all, gm only
+         -  Create different groups of light
 
-`Category:MapTool <Category:MapTool>`__
+         .. rubric:: Chat box
+            :name: chat-box
+
+         -  loads of chat commands
+         -  smiley support
+         -  can handle html commands
+         -  broadcast option
+         -  impersonate token and talk from that token
+         -  whisper to a single token (so the rest won't see the
+            message) or gm only
+         -  (show/hide) typing notifications
+         -  different colors
+         -  scroll lock
+         -  allow macro commands to be typed straight into the chat
+
+         .. rubric:: Maptool summarized in one picture
+            :name: maptool-summarized-in-one-picture
+
+         |This is a combination of native Maptool functionality and a
+         campaign (W40K) created in maptool.|
+
+         .. rubric:: Drop-in: Bag of Tricks
+            :name: drop-in-bag-of-tricks
+
+         This is not a default feature which comes with Maptool, but
+         something you need to install. This drop-in will roughly add an
+         additional 80 features, like Teleports, animated doors,
+         automatic VBL manipulation, token grouping, extended tables,
+         debug tools, etc. etc. It can be found
+         `here <http://forums.rptools.net/viewtopic.php?f=46&t=16066>`__.
+         The web-post includes a full list of all features, tutorials on
+         how to use and install it.
+         --`Wolph42 </rptools/wiki/User:Wolph42>`__ 15:18, 11 May 2011
+         (UTC)
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Feature_List&oldid=7617"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Category </rptools/wiki/Special:Categories>`__:
+
+            -  `MapTool </rptools/wiki/Category:MapTool>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Feature+List>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Feature_List>`__
+            -  `Discussion </rptools/wiki/Talk:Feature_List>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Feature_List>`__
+            -  `View
+               source </maptool/index.php?title=Feature_List&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Feature_List&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Feature_List>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Feature_List>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Feature_List&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Feature_List&oldid=7617>`__
+            -  `Page
+               information </maptool/index.php?title=Feature_List&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 14 September 2019, at 07:48.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |This is a combination of native Maptool functionality and a campaign (W40K) created in maptool.| image:: /maptool/images/a/a7/DHFWOverviewScreenshot.jpg
+   :width: 1600px
+   :height: 1166px
+   :target: /rptools/wiki/File:DHFWOverviewScreenshot.jpg
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

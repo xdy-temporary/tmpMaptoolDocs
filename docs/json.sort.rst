@@ -1,103 +1,448 @@
+======================
+json.sort - MapToolDoc
+======================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=json.sort
-   |version=1.3b51
-   |description=
-   Used to sort JSON arrays. If the array contains only numbers, they are sorted numerically; otherwise, the values are sorted as strings alphabetically.
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   json.sort(array)
-   </source>
-   <source lang="mtmacro" line>
-   json.sort(array, direction)
-   </source>
-   If you have a [[JSON_Array|JSON Array]] that contains [[JSON_Object|JSON Object]]s
-   <source lang="mtmacro" line>
-   json.sort(array, direction, key1, ..., keyN)
-   </source>
+.. container:: mw-body
+   :name: content
 
-   '''Parameters'''
-   * {{code|array}} - The JSON array to sort.
-   * {{code|direction}} - Defaults to {{code|"ascending"}}, acceptable values:
-   ** {{code|"ascending"}}
-   ** {{code|"descending"}}
-   ** {{code|"ascend"}}
-   ** {{code|"descend"}}
-   ** {{code|"asc"}}
-   ** {{code|"desc"}}
-   ** {{code|"a"}}
-   ** {{code|"d"}}
-   * {{code|key1, ..., keyN}} - The keys in the [[JSON_Object|JSON Object]]s contained within the [[JSON_Array|JSON Array]] used for sorting. All [[JSON_Object|JSON Object]]s must contain these fields.
+   .. container:: mw-indicators
 
-   |examples=
-   Sorting a [[JSON_Array|JSON Array]] containing numbers.
-   <source lang="mtmacro" line>
-   [json.sort("[1,4,5,6,2,1,9,20,1]")]
-   </source>
+   .. rubric:: json.sort
+      :name: firstHeading
+      :class: firstHeading
 
-   Produces {{code|[1,1,1,2,4,5,6,9,20]}}
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   Sorting a [[JSON_Array|JSON Array]] containing strings.
-   <source lang="mtmacro" line>
-   [json.sort("['Hero', 'Dragon', 'Elf', 'Wolf', 'Mage', 'Eagle', 'Troll']")]
-   </source>
+      .. container::
+         :name: siteSub
 
-   Produces {{code|["Dragon","Eagle","Elf","Hero","Mage","Troll","Wolf"]}}
+         From MapToolDoc
 
-   Sorting a mixture of numbers and strings (all will be treated as string).
-   <source lang="mtmacro" line>
-   [json.sort("['Hero', 3, 'Elf', 'Wolf', 100, 'Eagle', 'Troll']")]
-   </source>
+      .. container::
+         :name: contentSub
 
-   Produces {{code|[100,3,"Eagle","Elf","Hero","Troll","Wolf"]}}
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-   Sorting objects by a single string key
-   <source lang="mtmacro" line>
-   [h:vals = '[ {name:"Hero", HP:10}, 
-                {name:"Wolf", HP:5}, 
-                {name:"Mage", HP:20}, 
-                {name:"Troll", HP:15}, 
-                {name:"Eagle", HP:5} ]'] 
-   [json.sort(vals, "a", "name")]
-   </source>
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-   Produces 
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-   {{code|[{"name":"Eagle","HP":5},{"name":"Hero","HP":10},{"name":"Mage","HP":20},{"name":"Troll","HP":15},{"name":"Wolf","HP":5}]}}
+         .. rubric:: json.sort() Function
+            :name: json.sort-function
 
-   Sorting objects by a single numeric key
-   <source lang="mtmacro" line>
-   [h:vals = '[ {name:"Hero", HP:10}, 
-                {name:"Wolf", HP:5}, 
-                {name:"Mage", HP:20}, 
-                {name:"Troll", HP:15}, 
-                {name:"Eagle", HP:5} ]'] 
-   [json.sort(vals, "a", "HP")]
-   </source>
+         .. container:: template_version
 
-   Produces 
+            • **Introduced in version 1.3b51**
 
-   {{code|[{"name":"Wolf","HP":5},{"name":"Eagle","HP":5},{"name":"Hero","HP":10},{"name":"Troll","HP":15},{"name":"Mage","HP":20}]}}
+         .. container:: template_description
 
-   Sorting objects by a two keys, first HP then Name.
-   <source lang="mtmacro" line>
-   [h:vals = '[ {name:"Hero", HP:10}, 
-                {name:"Wolf", HP:5}, 
-                {name:"Mage", HP:20}, 
-                {name:"Troll", HP:15}, 
-                {name:"Eagle", HP:5} ]'] 
-   [json.sort(vals, "a", "HP", "name")]
-   </source>
+            Used to sort JSON arrays. If the array contains only
+            numbers, they are sorted numerically; otherwise, the values
+            are sorted as strings alphabetically.
 
-   Produces 
+         .. rubric:: Usage
+            :name: usage
 
-   {{code|[{"name":"Eagle","HP":5},{"name":"Wolf","HP":5},{"name":"Hero","HP":10},{"name":"Troll","HP":15},{"name":"Mage","HP":20}]}}
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-   [[Category:JSON_Function|Category:JSON Function]]
-   }}
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     json.sort(array)
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     json.sort(array, direction)
+
+         If you have a `JSON Array </rptools/wiki/JSON_Array>`__ that
+         contains `JSON Objects </rptools/wiki/JSON_Object>`__
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     json.sort(array, direction, key1, ..., keyN)
+
+         **Parameters**
+
+         -  ``array`` - The JSON array to sort.
+         -  ``direction`` - Defaults to ``"ascending"``, acceptable
+            values:
+
+            -  ``"ascending"``
+            -  ``"descending"``
+            -  ``"ascend"``
+            -  ``"descend"``
+            -  ``"asc"``
+            -  ``"desc"``
+            -  ``"a"``
+            -  ``"d"``
+
+         -  ``key1, ..., keyN`` - The keys in the `JSON
+            Objects </rptools/wiki/JSON_Object>`__ contained within the
+            `JSON Array </rptools/wiki/JSON_Array>`__ used for sorting.
+            All `JSON Objects </rptools/wiki/JSON_Object>`__ must
+            contain these fields.
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            Sorting a `JSON Array </rptools/wiki/JSON_Array>`__
+            containing numbers.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [json.sort("[1,4,5,6,2,1,9,20,1]")]
+
+            Produces ``[1,1,1,2,4,5,6,9,20]``
+
+            Sorting a `JSON Array </rptools/wiki/JSON_Array>`__
+            containing strings.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [json.sort("['Hero', 'Dragon', 'Elf', 'Wolf', 'Mage', 'Eagle', 'Troll']")]
+
+            Produces
+            ``["Dragon","Eagle","Elf","Hero","Mage","Troll","Wolf"]``
+
+            Sorting a mixture of numbers and strings (all will be
+            treated as string).
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [json.sort("['Hero', 3, 'Elf', 'Wolf', 100, 'Eagle', 'Troll']")]
+
+            Produces ``[100,3,"Eagle","Elf","Hero","Troll","Wolf"]``
+
+            Sorting objects by a single string key
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h:vals = '[ {name:"Hero", HP:10}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Wolf", HP:5}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Mage", HP:20}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Troll", HP:15}, 
+
+                  #. .. code:: de2
+
+                                     {name:"Eagle", HP:5} ]'] 
+
+                  #. .. code:: de1
+
+                        [json.sort(vals, "a", "name")]
+
+            Produces
+
+            ``[{"name":"Eagle","HP":5},{"name":"Hero","HP":10},{"name":"Mage","HP":20},{"name":"Troll","HP":15},{"name":"Wolf","HP":5}]``
+
+            Sorting objects by a single numeric key
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h:vals = '[ {name:"Hero", HP:10}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Wolf", HP:5}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Mage", HP:20}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Troll", HP:15}, 
+
+                  #. .. code:: de2
+
+                                     {name:"Eagle", HP:5} ]'] 
+
+                  #. .. code:: de1
+
+                        [json.sort(vals, "a", "HP")]
+
+            Produces
+
+            ``[{"name":"Wolf","HP":5},{"name":"Eagle","HP":5},{"name":"Hero","HP":10},{"name":"Troll","HP":15},{"name":"Mage","HP":20}]``
+
+            Sorting objects by a two keys, first HP then Name.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h:vals = '[ {name:"Hero", HP:10}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Wolf", HP:5}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Mage", HP:20}, 
+
+                  #. .. code:: de1
+
+                                     {name:"Troll", HP:15}, 
+
+                  #. .. code:: de2
+
+                                     {name:"Eagle", HP:5} ]'] 
+
+                  #. .. code:: de1
+
+                        [json.sort(vals, "a", "HP", "name")]
+
+            Produces
+
+            ``[{"name":"Eagle","HP":5},{"name":"Wolf","HP":5},{"name":"Hero","HP":10},{"name":"Troll","HP":15},{"name":"Mage","HP":20}]``
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=json.sort&oldid=7128"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `JSON Function </rptools/wiki/Category:JSON_Function>`__
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `JSON
+         Function </rptools/wiki/Category:JSON_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=json.sort>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/json.sort>`__
+            -  `Discussion </maptool/index.php?title=Talk:json.sort&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/json.sort>`__
+            -  `View
+               source </maptool/index.php?title=json.sort&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=json.sort&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/json.sort>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/json.sort>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=json.sort&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=json.sort&oldid=7128>`__
+            -  `Page
+               information </maptool/index.php?title=json.sort&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 1 March 2019, at 03:47.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

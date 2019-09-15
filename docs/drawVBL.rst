@@ -1,105 +1,493 @@
+====================
+drawVBL - MapToolDoc
+====================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=drawVBL
-   |proposed=false
-   |trusted=true
-   |version=1.3b89
-   |description=
-   Draws Vision Blocking Layer (VBL) shapes.
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   drawVBL(shapesList)
-   </source>
+.. container:: mw-body
+   :name: content
 
-   This function works EXACTLY the same as {{func|eraseVBL}} with the ONLY difference that drawVBL draws the shapes on the vision blocking layer and {{func|eraseVBL}} erases them.
+   .. container:: mw-indicators
 
+   .. rubric:: drawVBL
+      :name: firstHeading
+      :class: firstHeading
 
-   '''Parameters'''
-   {{param|shapesList|A [[JSON_Array|JSON Array]] of [[JSON_Object|JSON objects]], one of the latter for each VBL shape.}}
-   The shapes can be one of {{code|"Rectangle"}}, {{code|"Circle"}}, {{code|"Polygon"}} or {{code|"Cross"}}.
+   .. container:: mw-body-content
+      :name: bodyContent
 
+      .. container::
+         :name: siteSub
 
-   '''Shape - Rectangle and Cross'''<br />
-   ''Required arguments.''
-   {{param|"x"|Abscissa in pixels. (aka: X-Coordinate)}}
-   {{param|"y"|Ordinate in pixels. (aka: Y-Coordinate)}}
-   {{param|"w"|Width in pixels. Cannot be smaller than {{code|4}}.}}
-   {{param|"h"|Height in pixels. Cannot be smaller than {{code|4}}.}}
-   ''Optional arguments''
-   {{param|"r"|Rotation on centre axis in degrees. Using default mathematical system: {{code|0}} is no rotation, {{code|+}} is clockwise, {{code|-}} is counterclockwise.}}
-   {{param|"facing"|Rotation on centre axis in degrees. Using the MT facing system: {{code|0}} will rotate the shape 90 degrees anticlockwise, {{code|+}} is counterclockwise, {{code|-}} is clockwise. When using both {{code|"r"}} and {{code|"facing"}}, then {{code|"facing"}} takes precedence.}}
-   {{param|"rx"|Rotation centre offset in pixels.}}
-   {{param|"ry"|Rotation centre offset in pixels. When used the centre over which the shape is rotated is positioned at the (rx,ry) coordinate. The centre defaults to the actual centre of the shape.}}
-   {{param|"fill"|If {{code|1}} fills rectangle, otherwise creates empty shape.}}
-   {{param|"thickness"|Line thickness from {{code|2}} to {{code|n}} pixels. Lower than {{code|2}} or empty defaults to {{code|2}}. Even numbers only (odd numbers get rounded down by one). Can't be bigger than width or height.}}
-   {{param|"scale"|If provided number not {{code|0}}, will scale rectangle by {{code|x}}, ie scale: {{code|2}} is double, scale: {{code|0.5}} is half.}}<br />
-   '''Note''' These two shapes (cross and rectangle) are created such that the shape INCLUDING the thickness of the line is always conform to the {{code|"x"}}, {{code|"y"}}, {{code|"w"}} and {{code|"h"}} parameters. E.g. a 100x100px rectangle with {{code|thickness}} 20 will result in a 100x100px rectangle. These are the ONLY shapes for which this check is made! Without the check the rectangle would cover an area of 110x110px (10 on the inside and 10 on the outside of the shape). This correction is also the reason why shapes cannot be smaller than 4px and the {{code|thickness}} is always even.<br />
-   ''Example:''<source lang="mtmacro">
-   [h:rectangle = "{'shape':'rectangle','x':50,'y':50,'w':100,'h':200,'r':45,'fill':1,'thickness':1,'scale':0}"]
-   [h:cross = "{'shape':'cross','x':-50,'y':-50,'w':50,'h':100,'r':30,'fill':1,'thickness':1,'scale':2}"]
-   </source><br />
+         From MapToolDoc
 
+      .. container::
+         :name: contentSub
 
-   '''Shape - Circle'''<br />
-   ''Required arguments''
-   {{param|"x"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"y"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"radius"|This is the distance in pixels between the centre of the circle to its furthest point (is one of its vertices).}}
-   {{param|"sides"|Specifies how many sides the polygon will have to approximate a circle, from {{code|3}} to {{code|100}}.}}
-   ''Optional arguments''
-   {{param|"r"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"facing"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"rx"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"ry"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"fill"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"thickness"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"scale"|see {{code|"shape":"rectangle"}}.}}<br /><br />
-   ''Example:''<source lang="mtmacro">
-   [h:circle = "{'shape':'circle', 'X':50, 'Y':100, 'radius':200, 'thickness':3, 'fill':0, 'sides':12,'r':45}"]</source><br />
-   Note that this shape can be used to easily create regular polygons, e.g. a triangle:<source lang="mtmacro">
-   {"shape":"circle", "X":50, "Y":100, "radius":200, "sides":3, "thickness":3, "fill":0, "r":30}</source><br />
-   and a square (note that this square does ''not'' have the dimensions 200x200 but ~105x105 !):<source lang="mtmacro">
-   {"shape":"circle", "X":50, "Y":100, "radius":200, "thickness":3, "fill":0, "sides":4,"r":45}</source>
-   … or hexagons.<br /><br />
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-   '''Shape - Polygon'''<br />
-   ''Required arguments''
-   {{param|"points"|[[JSON_Array|JSON Array]] of 2 or more {{code|"x"}}, {{code|"y"}} coordinates.}}<br />
-   ''Optional arguments''
-   {{param|"close"| If {{code|1}} then it will close the polygon otherwise it will leave it open.}}
-   {{param|"r"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"facing"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"rx"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"ry"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"fill"|see {{code|"shape":"rectangle"}}.}}
-   {{param|"thickness"|see {{code|"shape":"rectangle"}}.}}<br /><br />
-   ''Example:''<source lang="mtmacro">
-   [h:polygon = "{'shape':'polygon','r':0,'close':1,'thickness':10,'points':[{'x':0,'y':0},{'x':200,'y':200},{'x':150,'y':10}]}"] </source><br />
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-   |example=
-   This example builds an array of the object from the above examples and then feeds that array into the drawVBL function
-   <source lang="mtmacro" line>
-   [h:rectangle    = "{'shape':'rectangle','x':50,'y':50,'w':100,'h':200,'r':45,'fill':1,'thickness':1,'scale':0}"]
-   [h:cross    = "{'shape':'cross','x':-50,'y':-50,'w':50,'h':100,'r':30,'fill':1,'thickness':1,'scale':2}"]
-   [h:circle   = "{'shape':'circle', 'X':50, 'Y':100, 'radius':200, 'thickness':3, 'fill':0, 'sides':12,'r':45}"]
-   [h:polygon  = "{'shape':'polygon','r':0,'close':1,'thickness':10,'points':[{'x':0,'y':0},{'x':200,'y':200},{'x':150,'y':10}]}"] 
-   [h:objectArrary = json.append('',rectangle, cross, circle, polygon)]
-   [h:drawVBL(objectArrary)]
-   </source>
-   results in:<br/>
-   [[Image:VBL_Shapes.jpg|Image:VBL_Shapes.jpg]]
+         .. container:: toc
+            :name: toc
 
+            .. container::
+               :name: toctitle
 
-   |also=
-   [[Introduction_to_Vision_Blocking|Introduction to Vision Blocking]], {{func|eraseVBL}}
-   }}
+               .. rubric:: Contents
+                  :name: contents
 
-`Category:Miscellaneous Function <Category:Miscellaneous_Function>`__
-`Category:VBL Function <Category:VBL_Function>`__
+            -  `1 drawVBL() Function <#drawVBL.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Example <#Example>`__
+               -  `1.3 See Also <#See_Also>`__
+
+         .. rubric:: drawVBL() Function
+            :name: drawvbl-function
+
+         .. container::
+
+             Note: This function can only be used in a `Trusted
+            Macro </rptools/wiki/Trusted_Macro>`__
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b89**
+
+         .. container:: template_description
+
+            Draws Vision Blocking Layer (VBL) shapes.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     drawVBL(shapesList)
+
+         This function works EXACTLY the same as
+         `eraseVBL() </rptools/wiki/eraseVBL>`__ with the ONLY
+         difference that drawVBL draws the shapes on the vision blocking
+         layer and `eraseVBL() </rptools/wiki/eraseVBL>`__ erases them.
+
+         | 
+         | **Parameters**
+
+         -  ``shapesList`` - A `JSON Array </rptools/wiki/JSON_Array>`__
+            of `JSON objects </rptools/wiki/JSON_Object>`__, one of the
+            latter for each VBL shape.
+
+         The shapes can be one of ``"Rectangle"``, ``"Circle"``,
+         ``"Polygon"`` or ``"Cross"``.
+
+         | 
+         | **Shape - Rectangle and Cross**
+         | *Required arguments.*
+
+         -  ``"x"`` - Abscissa in pixels. (aka: X-Coordinate)
+         -  ``"y"`` - Ordinate in pixels. (aka: Y-Coordinate)
+         -  ``"w"`` - Width in pixels. Cannot be smaller than ``4``.
+         -  ``"h"`` - Height in pixels. Cannot be smaller than ``4``.
+
+         *Optional arguments*
+
+         -  ``"r"`` - Rotation on centre axis in degrees. Using default
+            mathematical system: ``0`` is no rotation, ``+`` is
+            clockwise, ``-`` is counterclockwise.
+         -  ``"facing"`` - Rotation on centre axis in degrees. Using the
+            MT facing system: ``0`` will rotate the shape 90 degrees
+            anticlockwise, ``+`` is counterclockwise, ``-`` is
+            clockwise. When using both ``"r"`` and ``"facing"``, then
+            ``"facing"`` takes precedence.
+         -  ``"rx"`` - Rotation centre offset in pixels.
+         -  ``"ry"`` - Rotation centre offset in pixels. When used the
+            centre over which the shape is rotated is positioned at the
+            (rx,ry) coordinate. The centre defaults to the actual centre
+            of the shape.
+         -  ``"fill"`` - If ``1`` fills rectangle, otherwise creates
+            empty shape.
+         -  ``"thickness"`` - Line thickness from ``2`` to ``n`` pixels.
+            Lower than ``2`` or empty defaults to ``2``. Even numbers
+            only (odd numbers get rounded down by one). Can't be bigger
+            than width or height.
+         -  ``"scale"`` - If provided number not ``0``, will scale
+            rectangle by ``x``, ie scale: ``2`` is double, scale:
+            ``0.5`` is half.
+
+         | **Note** These two shapes (cross and rectangle) are created
+           such that the shape INCLUDING the thickness of the line is
+           always conform to the ``"x"``, ``"y"``, ``"w"`` and ``"h"``
+           parameters. E.g. a 100x100px rectangle with ``thickness`` 20
+           will result in a 100x100px rectangle. These are the ONLY
+           shapes for which this check is made! Without the check the
+           rectangle would cover an area of 110x110px (10 on the inside
+           and 10 on the outside of the shape). This correction is also
+           the reason why shapes cannot be smaller than 4px and the
+           ``thickness`` is always even.
+
+         *Example:*
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               .. code:: de1
+
+                  [h:rectangle = "{'shape':'rectangle','x':50,'y':50,'w':100,'h':200,'r':45,'fill':1,'thickness':1,'scale':0}"]
+                  [h:cross = "{'shape':'cross','x':-50,'y':-50,'w':50,'h':100,'r':30,'fill':1,'thickness':1,'scale':2}"]
+
+         | 
+         | **Shape - Circle**
+         | *Required arguments*
+
+         -  ``"x"`` - see ``"shape":"rectangle"``.
+         -  ``"y"`` - see ``"shape":"rectangle"``.
+         -  ``"radius"`` - This is the distance in pixels between the
+            centre of the circle to its furthest point (is one of its
+            vertices).
+         -  ``"sides"`` - Specifies how many sides the polygon will have
+            to approximate a circle, from ``3`` to ``100``.
+
+         *Optional arguments*
+
+         -  ``"r"`` - see ``"shape":"rectangle"``.
+         -  ``"facing"`` - see ``"shape":"rectangle"``.
+         -  ``"rx"`` - see ``"shape":"rectangle"``.
+         -  ``"ry"`` - see ``"shape":"rectangle"``.
+         -  ``"fill"`` - see ``"shape":"rectangle"``.
+         -  ``"thickness"`` - see ``"shape":"rectangle"``.
+         -  ``"scale"`` - see ``"shape":"rectangle"``.
+
+         *Example:*
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               .. code:: de1
+
+                  [h:circle = "{'shape':'circle', 'X':50, 'Y':100, 'radius':200, 'thickness':3, 'fill':0, 'sides':12,'r':45}"]
+
+         Note that this shape can be used to easily create regular
+         polygons, e.g. a triangle:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               .. code:: de1
+
+                  {"shape":"circle", "X":50, "Y":100, "radius":200, "sides":3, "thickness":3, "fill":0, "r":30}
+
+         and a square (note that this square does *not* have the
+         dimensions 200x200 but ~105x105 !):
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               .. code:: de1
+
+                  {"shape":"circle", "X":50, "Y":100, "radius":200, "thickness":3, "fill":0, "sides":4,"r":45}
+
+         | … or hexagons.
+
+         | **Shape - Polygon**
+         | *Required arguments*
+
+         -  ``"points"`` - `JSON Array </rptools/wiki/JSON_Array>`__ of
+            2 or more ``"x"``, ``"y"`` coordinates.
+
+         *Optional arguments*
+
+         -  ``"close"`` - If ``1`` then it will close the polygon
+            otherwise it will leave it open.
+         -  ``"r"`` - see ``"shape":"rectangle"``.
+         -  ``"facing"`` - see ``"shape":"rectangle"``.
+         -  ``"rx"`` - see ``"shape":"rectangle"``.
+         -  ``"ry"`` - see ``"shape":"rectangle"``.
+         -  ``"fill"`` - see ``"shape":"rectangle"``.
+         -  ``"thickness"`` - see ``"shape":"rectangle"``.
+
+         *Example:*
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               .. code:: de1
+
+                  [h:polygon = "{'shape':'polygon','r':0,'close':1,'thickness':10,'points':[{'x':0,'y':0},{'x':200,'y':200},{'x':150,'y':10}]}"]
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            This example builds an array of the object from the above
+            examples and then feeds that array into the drawVBL function
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h:rectangle    = "{'shape':'rectangle','x':50,'y':50,'w':100,'h':200,'r':45,'fill':1,'thickness':1,'scale':0}"]
+
+                  #. .. code:: de1
+
+                        [h:cross    = "{'shape':'cross','x':-50,'y':-50,'w':50,'h':100,'r':30,'fill':1,'thickness':1,'scale':2}"]
+
+                  #. .. code:: de1
+
+                        [h:circle  = "{'shape':'circle', 'X':50, 'Y':100, 'radius':200, 'thickness':3, 'fill':0, 'sides':12,'r':45}"]
+
+                  #. .. code:: de1
+
+                        [h:polygon    = "{'shape':'polygon','r':0,'close':1,'thickness':10,'points':[{'x':0,'y':0},{'x':200,'y':200},{'x':150,'y':10}]}"] 
+
+                  #. .. code:: de2
+
+                        [h:objectArrary  = json.append('',rectangle, cross, circle, polygon)]
+
+                  #. .. code:: de1
+
+                        [h:drawVBL(objectArrary)]
+
+            | results in:
+
+            |VBL Shapes.jpg|
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `Introduction to Vision
+            Blocking </rptools/wiki/Introduction_to_Vision_Blocking>`__
+            , `eraseVBL() </rptools/wiki/eraseVBL>`__
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=drawVBL&oldid=7196"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Miscellaneous
+               Function </rptools/wiki/Category:Miscellaneous_Function>`__
+            -  `VBL Function </rptools/wiki/Category:VBL_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ >
+         `Miscellaneous
+         Function </rptools/wiki/Category:Miscellaneous_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `VBL
+         Function </rptools/wiki/Category:VBL_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=drawVBL>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/drawVBL>`__
+            -  `Discussion </maptool/index.php?title=Talk:drawVBL&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/drawVBL>`__
+            -  `View
+               source </maptool/index.php?title=drawVBL&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=drawVBL&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/drawVBL>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/drawVBL>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=drawVBL&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=drawVBL&oldid=7196>`__
+            -  `Page
+               information </maptool/index.php?title=drawVBL&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 6 March 2019, at 07:50.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |VBL Shapes.jpg| image:: /maptool/images/d/dc/VBL_Shapes.jpg
+   :width: 415px
+   :height: 416px
+   :target: /rptools/wiki/File:VBL_Shapes.jpg
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

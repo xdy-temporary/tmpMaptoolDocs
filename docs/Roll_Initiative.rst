@@ -1,68 +1,392 @@
+============================
+Roll Initiative - MapToolDoc
+============================
+
 .. contents::
    :depth: 3
 ..
 
-.. _roll_initiative:
+.. container:: noprint
+   :name: mw-page-base
 
-Roll Initiative
-===============
+.. container:: noprint
+   :name: mw-head-base
 
-This is a rather complex macro that will roll initiative for a group of
-tokens selected using a popular game system's rules. Specifically, the
-rules are:
+.. container:: mw-body
+   :name: content
 
--  each token rolls 1d20 and adds a bonus (stored in the Initiative
-   Property).
--  ties go to the token with the higher bonus.
--  groups of monsters all use the same roll -- or as implemented, tokens
-   with the same image share the same roll.
+   .. container:: mw-indicators
 
-The code for this is below:
+   .. rubric:: Roll Initiative
+      :name: firstHeading
+      :class: firstHeading
 
-.. code:: mtmacro
-   :number-lines:
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   [h: initList = "booga=-1"];
+      .. container::
+         :name: siteSub
 
-   [h, foreach(Selected, getSelected("json")), CODE:
-   {
-       [switchToken(Selected)]
-       [SelectedGMName = getTokenImage()]
-       [arr = json.fromStrProp(initList)]
-       [if(json.contains(arr, SelectedGMName) != 0), CODE:
-       {
-           [init = json.get(arr, SelectedGMName)]
-       };
-       {
-           [result = 1d20]
-           [init = result + getProperty("Initiative", Selected)]
-           [tie = getProperty("Initiative", Selected) / 100]
-           [init = init + tie]
-           [initList = concat(initList, ";", SelectedGMName, "=", init)]
-       }]
+         From MapToolDoc
 
-       [switchToken(Selected)]
-       [addToInitiative()]
-       [setInitiative(init)]
-   }]
+      .. container::
+         :name: contentSub
 
-   [h: sortInitiative()]
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-   [h,foreach(Selected, getSelected("json")), CODE:
-   {
-       [switchToken(Selected)]
-       [init = getInitiative()]
-       [init = floor(init)]
-       [setInitiative(init)]
-   }]
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-The result is that if you have a party of 4 PCs all with different token
-images, and a group of 4 skeletons with the same token image, and 2
-zombies with the same token image, which would be typical, and you
-select all the tokens and run this macro, your initiative list will be
-populated with all the tokens. The 4 skeletons will all have the same
-initiative result. The 2 zombies will both have the same initiative
-result. If there are any ties, tokens with the higher initiative bonus
-will be presented first.
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-`Category:Cookbook <Category:Cookbook>`__
+         .. rubric:: Roll Initiative
+            :name: roll-initiative
+
+         This is a rather complex macro that will roll initiative for a
+         group of tokens selected using a popular game system's rules.
+         Specifically, the rules are:
+
+         -  each token rolls 1d20 and adds a bonus (stored in the
+            Initiative Property).
+         -  ties go to the token with the higher bonus.
+         -  groups of monsters all use the same roll -- or as
+            implemented, tokens with the same image share the same roll.
+
+         The code for this is below:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: initList = "booga=-1"];
+
+               #. .. code:: de1
+
+                      
+
+               #. .. code:: de1
+
+                     [h, foreach(Selected, getSelected("json")), CODE:
+
+               #. .. code:: de1
+
+                     {
+
+               #. .. code:: de2
+
+                        [switchToken(Selected)]
+
+               #. .. code:: de1
+
+                      [SelectedGMName = getTokenImage()]
+
+               #. .. code:: de1
+
+                        [arr = json.fromStrProp(initList)]
+
+               #. .. code:: de1
+
+                        [if(json.contains(arr, SelectedGMName) != 0), CODE:
+
+               #. .. code:: de1
+
+                        {
+
+               #. .. code:: de2
+
+                             [init = json.get(arr, SelectedGMName)]
+
+               #. .. code:: de1
+
+                      };
+
+               #. .. code:: de1
+
+                       {
+
+               #. .. code:: de1
+
+                           [result = 1d20]
+
+               #. .. code:: de1
+
+                             [init = result + getProperty("Initiative", Selected)]
+
+               #. .. code:: de2
+
+                             [tie = getProperty("Initiative", Selected) / 100]
+
+               #. .. code:: de1
+
+                            [init = init + tie]
+
+               #. .. code:: de1
+
+                          [initList = concat(initList, ";", SelectedGMName, "=", init)]
+
+               #. .. code:: de1
+
+                       }]
+
+               #. .. code:: de1
+
+                      
+
+               #. .. code:: de2
+
+                        [switchToken(Selected)]
+
+               #. .. code:: de1
+
+                        [addToInitiative()]
+
+               #. .. code:: de1
+
+                        [setInitiative(init)]
+
+               #. .. code:: de1
+
+                     }]
+
+               #. .. code:: de1
+
+                      
+
+               #. .. code:: de2
+
+                     [h: sortInitiative()]
+
+               #. .. code:: de1
+
+                      
+
+               #. .. code:: de1
+
+                     [h,foreach(Selected, getSelected("json")), CODE:
+
+               #. .. code:: de1
+
+                     {
+
+               #. .. code:: de1
+
+                         [switchToken(Selected)]
+
+               #. .. code:: de2
+
+                      [init = getInitiative()]
+
+               #. .. code:: de1
+
+                      [init = floor(init)]
+
+               #. .. code:: de1
+
+                      [setInitiative(init)]
+
+               #. .. code:: de1
+
+                     }]
+
+         The result is that if you have a party of 4 PCs all with
+         different token images, and a group of 4 skeletons with the
+         same token image, and 2 zombies with the same token image,
+         which would be typical, and you select all the tokens and run
+         this macro, your initiative list will be populated with all the
+         tokens. The 4 skeletons will all have the same initiative
+         result. The 2 zombies will both have the same initiative
+         result. If there are any ties, tokens with the higher
+         initiative bonus will be presented first.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Roll_Initiative&oldid=5815"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Category </rptools/wiki/Special:Categories>`__:
+
+            -  `Cookbook </rptools/wiki/Category:Cookbook>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ >
+         `Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Roll+Initiative>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Roll_Initiative>`__
+            -  `Discussion </maptool/index.php?title=Talk:Roll_Initiative&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Roll_Initiative>`__
+            -  `View
+               source </maptool/index.php?title=Roll_Initiative&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Roll_Initiative&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Roll_Initiative>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Roll_Initiative>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Roll_Initiative&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Roll_Initiative&oldid=5815>`__
+            -  `Page
+               information </maptool/index.php?title=Roll_Initiative&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 23 November 2011, at 13:44.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

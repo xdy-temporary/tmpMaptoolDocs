@@ -1,128 +1,373 @@
+=====================================
+Translation Instructions - MapToolDoc
+=====================================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{Languages|Editor:Translation}}
+.. container:: noprint
+   :name: mw-head-base
 
-__TOC__
+.. container:: mw-body
+   :name: content
 
-.. _steps_for_translating_an_article:
+   .. container:: mw-indicators
 
-Steps for Translating an Article
-================================
+   .. rubric:: Translation Instructions
+      :name: firstHeading
+      :class: firstHeading
 
-Since this should be the first page that you translate, the following
-steps will use this page as an example. Every occurrence of should be
-replaced with the name of the page you are translating. After you have
-completed the translation of this page, you should be comfortable
-translating any page on the wiki.
+   .. container:: mw-body-content
+      :name: bodyContent
 
-#. Edit the existing page and add at the very bottom, if it does not
-   already exist. Remember that should be changed to the name of the
-   page you are translating.
-#. Copy the content of the English translation to your clipboard to use
-   as a starting point for your translation.
-#. Save your changes to the English translation, if you made any. If you
-   did not make any changes, simply cancel the edit.
-#. To begin your translation, you must enter the URL of the English
-   translation into your browsers address bar, and then append to the
-   end. In our example, the final URL would be . in this case is the
-   french language code, you can find your appropriate language code in
-   the table at the bottom of this article.
-#. Your translated page should reasonably maintain the same format and
-   layout as the existing English translation, where possible. There are
-   a couple exceptions, however. The overall source of your translated
-   article should look like this:
+      .. container::
+         :name: siteSub
 
-::
+         From MapToolDoc
 
-   {{Languages|Page Name}}{{Translation}}
-   __TOC__
-   YOUR TRANSLATED PAGE HERE
-   {{Languages|Page Name}}
+      .. container::
+         :name: contentSub
 
-.. _system_messages_to_translate:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-System Messages to Translate
-============================
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-The use of is to show where a variable element is used. Keep the
-numbering intact or there is a good possibility the messages will be
-shown in the wrong areas.
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-#. The following article is a translation of the English article.
-#. The following article is an outdated translation of the English
-   article.
-#. Navigation
-#. Basic Usage
-#. Tutorials
-#. Chat Commands
-#. Dice Expressions
-#. Glossary
-#. Macro Reference
-#. List of Functions
-#. Roll Options
-#. Special Variables
-#. Macro Cookbook
-#. Editors
-#. Editor Discussion
-#. Recent Changes
-#. Beginner
-#. This is a beginner article
-#. Intermediate
-#. This is an intermediate article
-#. Advanced
-#. This is an advanced article
-#. Note: This function has been deprecated. Refer to @ for current
-   functionality.
-#. @ Function
-#. Introduced in version @
-#. Last checked for compatibility with version @
-#. Usage
-#. Example
-#. Examples
-#. See Also
-#. Version Changes
-#. Note: This article refers to a proposed change that has not been
-   implemented in the main code base yet.
-#. @ Roll Option
-#. Note: This function can only be used in a Trusted Macro
-#. Note: This parameter can only be used in a Trusted Macro
-#. This article us a stub, you can help the RPTools Wiki project by
-   contributing content to expand this article.
-#. This article needs:
+         .. container:: template_languages
 
-.. _language_codes:
+            Languages:  English
+             • \ `Deutsch </rptools/wiki/Editor:Translation/de>`__\ 
+             • \ `español </rptools/wiki/Editor:Translation/es>`__\  • \ `français </rptools/wiki/Editor:Translation/fr>`__\  • \ `italiano </rptools/wiki/Editor:Translation/it>`__\  • \ `日本語 </rptools/wiki/Editor:Translation/ja>`__\ 
 
-Language Codes
-==============
+         .. container:: toc
+            :name: toc
 
-If you're interested in translating articles on this wiki to a language
-that is not listed below, let us know!
+            .. container::
+               :name: toctitle
 
-========= ================
-Page Name Language
-========= ================
-\         English
-**/ar**   {{#language:ar}}
-**/de**   {{#language:de}}
-**/el**   {{#language:el}}
-**/es**   {{#language:es}}
-**/fr**   {{#language:fr}}
-**/it**   {{#language:it}}
-**/ja**   {{#language:ja}}
-**/ko**   {{#language:ko}}
-**/pt**   {{#language:pt}}
-**/ru**   {{#language:ru}}
-**/zh**   {{#language:zh}}
-========= ================
+               .. rubric:: Contents
+                  :name: contents
 
-.. raw:: mediawiki
+            -  `1 Steps for Translating an
+               Article <#Steps_for_Translating_an_Article>`__
+            -  `2 System Messages to
+               Translate <#System_Messages_to_Translate>`__
+            -  `3 Language Codes <#Language_Codes>`__
 
-   {{DISPLAYTITLE:Translation Instructions}}
+         .. rubric:: Steps for Translating an Article
+            :name: steps-for-translating-an-article
 
-.. raw:: mediawiki
+         Since this should be the first page that you translate, the
+         following steps will use this page as an example. Every
+         occurrence of ``Editor:Translation`` should be replaced with
+         the name of the page you are translating. After you have
+         completed the translation of this page, you should be
+         comfortable translating any page on the wiki.
 
-   {{Languages|Editor:Translation}}
+         #. Edit the existing page and add
+            ``{{Languages|Editor:Translation}}`` at the very bottom, if
+            it does not already exist. Remember that
+            ``Editor:Translation`` should be changed to the name of the
+            page you are translating.
+         #. Copy the content of the English translation to your
+            clipboard to use as a starting point for your translation.
+         #. Save your changes to the English translation, if you made
+            any. If you did not make any changes, simply cancel the
+            edit.
+         #. To begin your translation, you must enter the URL of the
+            English translation into your browsers address bar, and then
+            append ``/fr`` to the end. In our example, the final URL
+            would be
+            ``http://lmwcs.com/rptools/wiki/Editor:Translation/fr`` .
+            ``/fr`` in this case is the french language code, you can
+            find your appropriate language code in the table at the
+            bottom of this article.
+         #. Your translated page should reasonably maintain the same
+            format and layout as the existing English translation, where
+            possible. There are a couple exceptions, however. The
+            overall source of your translated article should look like
+            this:
+
+         ::
+
+            {{Languages|Page Name}}{{Translation}}
+            __TOC__
+            YOUR TRANSLATED PAGE HERE
+            {{Languages|Page Name}}
+
+         .. rubric:: System Messages to Translate
+            :name: system-messages-to-translate
+
+         The use of ``@`` is to show where a variable element is used.
+         Keep the numbering intact or there is a good possibility the
+         messages will be shown in the wrong areas.
+
+         #. The following article is a translation of the English
+            article.
+         #. The following article is an outdated translation of the
+            English article.
+         #. Navigation
+         #. Basic Usage
+         #. Tutorials
+         #. Chat Commands
+         #. Dice Expressions
+         #. Glossary
+         #. Macro Reference
+         #. List of Functions
+         #. Roll Options
+         #. Special Variables
+         #. Macro Cookbook
+         #. Editors
+         #. Editor Discussion
+         #. Recent Changes
+         #. Beginner
+         #. This is a beginner article
+         #. Intermediate
+         #. This is an intermediate article
+         #. Advanced
+         #. This is an advanced article
+         #. Note: This function has been deprecated. Refer to @ for
+            current functionality.
+         #. @ Function
+         #. Introduced in version @
+         #. Last checked for compatibility with version @
+         #. Usage
+         #. Example
+         #. Examples
+         #. See Also
+         #. Version Changes
+         #. Note: This article refers to a proposed change that has not
+            been implemented in the main code base yet.
+         #. @ Roll Option
+         #. Note: This function can only be used in a Trusted Macro
+         #. Note: This parameter can only be used in a Trusted Macro
+         #. This article us a stub, you can help the RPTools Wiki
+            project by contributing content to expand this article.
+         #. This article needs:
+
+         .. rubric:: Language Codes
+            :name: language-codes
+
+         If you're interested in translating articles on this wiki to a
+         language that is not listed below, let us know!
+
+         ========= =========
+         Page Name Language
+         ========= =========
+         \         English
+         **/ar**   العربية
+         **/de**   Deutsch
+         **/el**   Ελληνικά
+         **/es**   español
+         **/fr**   français
+         **/it**   italiano
+         **/ja**   日本語
+         **/ko**   한국어
+         **/pt**   português
+         **/ru**   русский
+         **/zh**   中文
+         ========= =========
+
+         .. container:: template_languages
+
+            Languages:  English
+             • \ `Deutsch </rptools/wiki/Editor:Translation/de>`__\ 
+             • \ `español </rptools/wiki/Editor:Translation/es>`__\  • \ `français </rptools/wiki/Editor:Translation/fr>`__\  • \ `italiano </rptools/wiki/Editor:Translation/it>`__\  • \ `日本語 </rptools/wiki/Editor:Translation/ja>`__\ 
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Editor:Translation&oldid=3851"
+
+      .. container:: catlinks catlinks-allhidden
+         :name: catlinks
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Editor%3ATranslation>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Editor:Translation>`__
+            -  `Discussion </maptool/index.php?title=Talk:Editor:Translation&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Editor:Translation>`__
+            -  `View
+               source </maptool/index.php?title=Editor:Translation&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Editor:Translation&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Editor:Translation>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Editor:Translation>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Editor:Translation&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Editor:Translation&oldid=3851>`__
+            -  `Page
+               information </maptool/index.php?title=Editor:Translation&action=info>`__
+
+      .. container:: portal
+         :name: p-lang
+
+         .. rubric:: In other languages
+            :name: p-lang-label
+
+         .. container:: body
+
+            -  `Deutsch <http://lmwcs.com/rptools/wiki/Editor:Translation/de>`__
+            -  `español <http://lmwcs.com/rptools/wiki/Editor:Translation/es>`__
+            -  `français <http://lmwcs.com/rptools/wiki/Editor:Translation/fr>`__
+            -  `italiano <http://lmwcs.com/rptools/wiki/Editor:Translation/it>`__
+            -  `日本語 <http://lmwcs.com/rptools/wiki/Editor:Translation/ja>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 8 September 2009, at 14:16.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

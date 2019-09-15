@@ -1,34 +1,298 @@
+==============================
+removeTokenFacing - MapToolDoc
+==============================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{stub}}
+.. container:: noprint
+   :name: mw-head-base
 
-.. raw:: mediawiki
+.. container:: mw-body
+   :name: content
 
-   {{MacroFunction
-   |name=removeTokenFacing
-   |trusted=true
-   |version=1.3b51
-   |description=
-   Removes the facing from a token.
+   .. container:: mw-indicators
 
-   |usage=
-   <source lang="mtmacro" line>
-   removeTokenFacing()
-   removeTokenFacing(id)
-   removeTokenFacing(id, mapname)
-   </source>
-   '''Parameter'''
-   {{param|id|The id of the token to remove the facing from, defaults to the current token. If a token is specified, this function requires a trusted macro.}}
-   {{param|mapname|The name of the map to find the token.  Defaults to the current map.}}
+   .. rubric:: removeTokenFacing
+      :name: firstHeading
+      :class: firstHeading
 
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   |changes=
-   {{change|1.5.4|Added {{code|mapname}} parameter option.}}
+      .. container::
+         :name: siteSub
 
-   }}
+         From MapToolDoc
 
-`Category:Token Function <Category:Token_Function>`__
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: template_stub
+
+            ** This article is a stub, you can help the RPTools Wiki
+            project by contributing content to expand this article.**
+
+         .. rubric:: removeTokenFacing() Function
+            :name: removetokenfacing-function
+
+         .. container::
+
+             Note: This function can only be used in a `Trusted
+            Macro </rptools/wiki/Trusted_Macro>`__
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b51**
+
+         .. container:: template_description
+
+            Removes the facing from a token.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     removeTokenFacing()
+
+               #. .. code:: de1
+
+                     removeTokenFacing(id)
+
+               #. .. code:: de1
+
+                     removeTokenFacing(id, mapname)
+
+         **Parameter**
+
+         -  ``id`` - The id of the token to remove the facing from,
+            defaults to the current token. If a token is specified, this
+            function requires a trusted macro.
+         -  ``mapname`` - The name of the map to find the token.
+            Defaults to the current map.
+
+         | 
+
+         .. rubric:: Version Changes
+            :name: version-changes
+
+         .. container:: template_changes
+
+            -  **1.5.4** - Added ``mapname`` parameter option.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=removeTokenFacing&oldid=7519"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Stub </rptools/wiki/Category:Stub>`__
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Token
+               Function </rptools/wiki/Category:Token_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Token
+         Function </rptools/wiki/Category:Token_Function>`__
+         `Review </rptools/wiki/Category:Review>`__ >
+         `Stub </rptools/wiki/Category:Stub>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=removeTokenFacing>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/removeTokenFacing>`__
+            -  `Discussion </maptool/index.php?title=Talk:removeTokenFacing&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/removeTokenFacing>`__
+            -  `View
+               source </maptool/index.php?title=removeTokenFacing&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=removeTokenFacing&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/removeTokenFacing>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/removeTokenFacing>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=removeTokenFacing&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=removeTokenFacing&oldid=7519>`__
+            -  `Page
+               information </maptool/index.php?title=removeTokenFacing&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 15 August 2019, at 20:45.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

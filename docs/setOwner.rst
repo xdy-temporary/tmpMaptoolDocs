@@ -1,87 +1,488 @@
+=====================
+setOwner - MapToolDoc
+=====================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=setOwner
-   |version=1.3b48?
-   |description=
-   Changes the owners of a token (default is the [[Current_Token|Current Token]]) when given a [[String|String]] owner name or [[JSON_Array|JSON Array]] of owner names.  All other owners are removed.
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   setOwner(ownerName)
-   setOwner(ownerName, id)
-   setOwner(ownerName, id, mapname)
-   setOwner(ownerNames)
-   setOwner(ownerNames, id)
-   setOwner(ownerNames, id, mapname)
-   </source>
-   '''Parameters'''
-   {{param|ownerName|The player name to set the ownership on the token.  Ownership is not constrained to the client names currently connected, but only currently connected clients appear in the Token Editor Dialog.  This parameter is a [[String|String]].  An empty string here is treated as an empty JSON array (see next parameter). }}
-   {{param|ownerNames|The player names to set the ownership on the token.  Ownership is not constrained to the client names currently connected, but only currently connected clients appear in the Token Editor Dialog.  This parameter is a [[JSON_Array|JSON Array]]. }}
-   {{param|id|The token {{code|id}} of the token which has its owners changed, defaults to the [[Current_Token|Current Token]]. {{TrustedParameter}} }}
-   {{param|mapname|The name of the map to find the token.  Defaults to the current map.}}
+.. container:: mw-body
+   :name: content
 
+   .. container:: mw-indicators
 
-   |examples=
-   To change the [[Owners|owners]] of the [[Current_Token|Current Token]] to a single user use:
-   <source lang="mtmacro" line>
-   [h: setOwner("Frank")]
-   </source>
+   .. rubric:: setOwner
+      :name: firstHeading
+      :class: firstHeading
 
-   To change the [[Owners|owners]] of the [[Current_Token|Current Token]] to a list of three players use:
-   <source lang="mtmacro" line>
-   [h: setOwner("['Peter', 'Paul', 'Mary']")]
-   </source>
-   or:
-   <source lang="mtmacro" line>
-   [h: list = json.append("[]", "Peter", "Paul", "Mary")]
-   [h: setOwner(list)]
-   </source>
+   .. container:: mw-body-content
+      :name: bodyContent
 
-   To make all current players [[Owners|owners]] of the [[Current_Token|Current Token]] use:
-   <source lang="mtmacro" line>
-   [h: setOwner(getAllPlayerNames("json"))]
-   </source>
+      .. container::
+         :name: siteSub
 
-   To remove all [[Owners|owners]] of the [[Current_Token|Current Token]] use:
-   <source lang="mtmacro" line>
-   [h: setOwner("")]
-   </source>
-   or:
-   <source lang="mtmacro" line>
-   [h: setOwner("[]")]
-   </source>
+         From MapToolDoc
 
-   To display the current [[Owners|owners]] of the [[Current_Token|Current Token]] as checkboxes, then accept the user's changes to apply back onto the token, use the following.  Note that this example does not provide for adding owners to the list, only removing them.  (Adding owners would require the use of {{func|getAllPlayerNames}} and would make this example even more complex.)
-   <source lang="mtmacro" line>
-   [h: names = getOwners("json")]
-   [h: input = "tab0 | OwnerList || TAB"]
-   [h: count = 0]
-   [h, foreach(name, names), code: {
-       [input = input + strformat(" ## ckb_%{count}|1|%{name}|CHECK")]
-       [count = count+1]
-   } ]
-   [h: cancel = input(input)]
-   [h: abort(cancel)]
-   [h: newOwners = "[]"]
-   [h, for(x,0,count):
-       newOwners = if(eval("ckb_"+x)==0, newOwners, json.append(newOwners, json.get(names, x))) ]
-   [h: setOwner(newOwners)]
-   </source>
+      .. container::
+         :name: contentSub
 
-   |also=
-   {{func|isOwnedByAll}},
-   {{func|setOwnerOnlyVisible}},
-   {{func|isOwner}}.
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-   |changes=
-   {{change|1.3b51|Added {{code|id}} parameter option.}}
-   {{change|1.5.4|Added {{code|mapname}} parameter option.}}
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-   }}
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-`Category:Token Function <Category:Token_Function>`__
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 setOwner() Function <#setOwner.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Examples <#Examples>`__
+               -  `1.3 See Also <#See_Also>`__
+               -  `1.4 Version Changes <#Version_Changes>`__
+
+         .. rubric:: setOwner() Function
+            :name: setowner-function
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b48?**
+
+         .. container:: template_description
+
+            Changes the owners of a token (default is the `Current
+            Token </rptools/wiki/Current_Token>`__) when given a
+            `String </rptools/wiki/String>`__ owner name or `JSON
+            Array </rptools/wiki/JSON_Array>`__ of owner names. All
+            other owners are removed.
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     setOwner(ownerName)
+
+               #. .. code:: de1
+
+                     setOwner(ownerName, id)
+
+               #. .. code:: de1
+
+                     setOwner(ownerName, id, mapname)
+
+               #. .. code:: de1
+
+                     setOwner(ownerNames)
+
+               #. .. code:: de2
+
+                     setOwner(ownerNames, id)
+
+               #. .. code:: de1
+
+                     setOwner(ownerNames, id, mapname)
+
+         **Parameters**
+
+         -  ``ownerName`` - The player name to set the ownership on the
+            token. Ownership is not constrained to the client names
+            currently connected, but only currently connected clients
+            appear in the Token Editor Dialog. This parameter is a
+            `String </rptools/wiki/String>`__. An empty string here is
+            treated as an empty JSON array (see next parameter).
+         -  ``ownerNames`` - The player names to set the ownership on
+            the token. Ownership is not constrained to the client names
+            currently connected, but only currently connected clients
+            appear in the Token Editor Dialog. This parameter is a `JSON
+            Array </rptools/wiki/JSON_Array>`__.
+         -  ``id`` - The token ``id`` of the token which has its owners
+            changed, defaults to the `Current
+            Token </rptools/wiki/Current_Token>`__.
+
+            .. container:: template_trusted_param
+
+                Note: This parameter can only be used in a `Trusted
+               Macro </rptools/wiki/Trusted_Macro>`__. 
+
+         -  ``mapname`` - The name of the map to find the token.
+            Defaults to the current map.
+
+         .. rubric:: Examples
+            :name: examples
+
+         .. container:: template_examples
+
+            To change the
+            `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
+            of the `Current Token </rptools/wiki/Current_Token>`__ to a
+            single user use:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: setOwner("Frank")]
+
+            To change the
+            `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
+            of the `Current Token </rptools/wiki/Current_Token>`__ to a
+            list of three players use:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: setOwner("['Peter', 'Paul', 'Mary']")]
+
+            or:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: list = json.append("[]", "Peter", "Paul", "Mary")]
+
+                  #. .. code:: de1
+
+                        [h: setOwner(list)]
+
+            To make all current players
+            `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
+            of the `Current Token </rptools/wiki/Current_Token>`__ use:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: setOwner(getAllPlayerNames("json"))]
+
+            To remove all
+            `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
+            of the `Current Token </rptools/wiki/Current_Token>`__ use:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: setOwner("")]
+
+            or:
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: setOwner("[]")]
+
+            To display the current
+            `owners </maptool/index.php?title=Owners&action=edit&redlink=1>`__
+            of the `Current Token </rptools/wiki/Current_Token>`__ as
+            checkboxes, then accept the user's changes to apply back
+            onto the token, use the following. Note that this example
+            does not provide for adding owners to the list, only
+            removing them. (Adding owners would require the use of
+            `getAllPlayerNames() </rptools/wiki/getAllPlayerNames>`__
+            and would make this example even more complex.)
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: names = getOwners("json")]
+
+                  #. .. code:: de1
+
+                        [h: input = "tab0 | OwnerList || TAB"]
+
+                  #. .. code:: de1
+
+                        [h: count = 0]
+
+                  #. .. code:: de1
+
+                        [h, foreach(name, names), code: {
+
+                  #. .. code:: de2
+
+                            [input = input + strformat(" ## ckb_%{count}|1|%{name}|CHECK")]
+
+                  #. .. code:: de1
+
+                            [count = count+1]
+
+                  #. .. code:: de1
+
+                        } ]
+
+                  #. .. code:: de1
+
+                        [h: cancel = input(input)]
+
+                  #. .. code:: de1
+
+                        [h: abort(cancel)]
+
+                  #. .. code:: de2
+
+                        [h: newOwners = "[]"]
+
+                  #. .. code:: de1
+
+                        [h, for(x,0,count):
+
+                  #. .. code:: de1
+
+                            newOwners = if(eval("ckb_"+x)==0, newOwners, json.append(newOwners, json.get(names, x))) ]
+
+                  #. .. code:: de1
+
+                        [h: setOwner(newOwners)]
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `isOwnedByAll() </rptools/wiki/isOwnedByAll>`__,
+            `setOwnerOnlyVisible() </rptools/wiki/setOwnerOnlyVisible>`__,
+
+            `isOwner() </rptools/wiki/isOwner>`__.
+
+         .. rubric:: Version Changes
+            :name: version-changes
+
+         .. container:: template_changes
+
+            -  **1.3b51** - Added ``id`` parameter option.
+            -  **1.5.4** - Added ``mapname`` parameter option.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=setOwner&oldid=7523"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Token
+               Function </rptools/wiki/Category:Token_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Token
+         Function </rptools/wiki/Category:Token_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=setOwner>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/setOwner>`__
+            -  `Discussion </rptools/wiki/Talk:setOwner>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/setOwner>`__
+            -  `View
+               source </maptool/index.php?title=setOwner&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=setOwner&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/setOwner>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/setOwner>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=setOwner&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=setOwner&oldid=7523>`__
+            -  `Page
+               information </maptool/index.php?title=setOwner&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 15 August 2019, at 20:50.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

@@ -1,293 +1,646 @@
+===========================
+Calling macros - MapToolDoc
+===========================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{Advanced}}
+.. container:: noprint
+   :name: mw-head-base
 
-.. _calling_macros_from_another_macro:
+.. container:: mw-body
+   :name: content
 
-Calling Macros From another Macro
-=================================
+   .. container:: mw-indicators
 
-Sometimes you want to call a macro from another macro. As a coder, you
-want this often, because it enables you to split your code in small,
-simple chunks that can be reused over and over again. This handy
-technique also helps keep the stack size requirement low and mitigates
-the need for large code-level-nesting.
+   .. rubric:: Calling macros
+      :name: firstHeading
+      :class: firstHeading
 
-When calling a macro from another macro, you will often want to transfer
-data from one to the other and vice versa. In addition, it is also
-important to know what happens with chat output.
+   .. container:: mw-body-content
+      :name: bodyContent
 
-There are four different ways to call a macro - and they all behave a
-little bit differently. While reading this tutorial, please be sure to
-follow the wiki-links provided for any items you are not familiar with,
-as they will not be covered.
+      .. container::
+         :name: siteSub
 
-.. _the_four_methods_to_call_a_macro:
+         From MapToolDoc
 
-The Four Methods to Call a Macro
---------------------------------
+      .. container::
+         :name: contentSub
 
-.. _the_macro_roll_option:
+      .. container:: mw-jump
+         :name: jump-to-nav
 
-The Macro Roll Option
-~~~~~~~~~~~~~~~~~~~~~
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
 
-This is the most straight forward way to call a macro. When using the
-roll option , you must specify the location of the macro being called
-and give a single argument. Note that this argument must always be
-specified, even if you do not need it. In such cases, it is common
-practice is to use an empty string "".
+      .. container:: mw-content-ltr
+         :name: mw-content-text
 
-This argument can be accessed inside the called macro via the special
-variable called `macro.args <macro.args>`__.
+         .. container:: template_advanced
 
-All of the called macro's output will be inserted into the calling macro
-at the point in the code where the roll option is placed. This output
-usually goes into the chat output. However, you can choose to instead
-assign the returned value to the variable
-`macro.return <macro.return>`__.
+            ADVANCED
+            THIS IS AN ADVANCED ARTICLE
 
-Once the called macro is processed, the `macro.return <macro.return>`__
-variable can be used in the calling macro in a function call.
+         .. container:: toc
+            :name: toc
 
-Example
-^^^^^^^
+            .. container::
+               :name: toctitle
 
-Lets say you have a macro called that can roll any number of dice. In
-another macro, you want to call , have it roll three dice and then use
-the result of that roll.
+               .. rubric:: Contents
+                  :name: contents
 
-Calling macro:
+            -  `1 Calling Macros From another
+               Macro <#Calling_Macros_From_another_Macro>`__
 
-.. code:: mtmacro
-   :number-lines:
+               -  `1.1 The Four Methods to Call a
+                  Macro <#The_Four_Methods_to_Call_a_Macro>`__
 
-    [h, macro("attackRoll@Lib:Token"): 3]    
-   Attack roll: [r: macro.return] 
+                  -  `1.1.1 The Macro Roll
+                     Option <#The_Macro_Roll_Option>`__
 
-Called macro (named and placed on token ):
+                     -  `1.1.1.1 Example <#Example>`__
 
-.. code:: mtmacro
-   :number-lines:
+                  -  `1.1.2 User Defined
+                     Function <#User_Defined_Function>`__
 
-    [h: diceNr = macro.args]
-   [r: roll(diceNr, 6)]    
+                     -  `1.1.2.1 Example <#Example_2>`__
+                     -  `1.1.2.2 Create UDFs
+                        Automatically <#Create_UDFs_Automatically>`__
 
-Note that you could write the called macro this way, too:
+                  -  `1.1.3 Macro Links <#Macro_Links>`__
 
-.. code:: mtmacro
-   :number-lines:
+                     -  `1.1.3.1 Example <#Example_3>`__
 
-    [h: diceNr = macro.args]
-   [h: macro.return = roll(diceNr, 6)]    
+                  -  `1.1.4 Evaluate a Macro <#Evaluate_a_Macro>`__
 
-For this simple example, it really makes no difference.
+                     -  `1.1.4.1 Example <#Example_4>`__
 
-.. _user_defined_function:
+               -  `1.2 Variable Context
+                  (Scope) <#Variable_Context_.28Scope.29>`__
 
-User Defined Function
-~~~~~~~~~~~~~~~~~~~~~
+         .. rubric:: Calling Macros From another Macro
+            :name: calling-macros-from-another-macro
 
-Often referred to as UDF in the forum, User Defined Functions are
-probably the most convenient way to do complex coding. A User Defined
-Function can be used just like a regular function. It can have arguments
-and it will be replaced by its resulting value when MapTool parses the
-calling macro. *User defined* means that you can specify the macro to be
-called when you create the function.
+         Sometimes you want to call a macro from another macro. As a
+         coder, you want this often, because it enables you to split
+         your code in small, simple chunks that can be reused over and
+         over again. This handy technique also helps keep the stack size
+         requirement low and mitigates the need for large
+         code-level-nesting.
 
-Arguments are assigned to the UDF by writing them inside the parentheses
-(), separated by comas. The macro's complete chat output will be used as
-the resulting value and replace the function call, so you can easily
-assign it to a variableor use it as an argument for another function. It
-is important to note that HTML comments will be included in this output
-as well, even though they will not appear in the chat window. Also note
-that only the first macro in an execution chain will dump its output to
-chat.
+         When calling a macro from another macro, you will often want to
+         transfer data from one to the other and vice versa. In
+         addition, it is also important to know what happens with chat
+         output.
 
-In the called macro, the arguments are inside the
-`macro.args <macro.args>`__ variable, formatted as a JSON array. You can
-use and for easy access.
+         There are four different ways to call a macro - and they all
+         behave a little bit differently. While reading this tutorial,
+         please be sure to follow the wiki-links provided for any items
+         you are not familiar with, as they will not be covered.
 
-To set up a UDF you have to call on every client where the function will
-be used. This can be done automatically by placing all the calls inside
-the special macro `onCampaignLoad <onCampaignLoad>`__ on a library
-token. This is the standard practice. It is executed whenever the
-campaign file is loaded by MT (whether from a server or from file).
+         | 
 
-.. _example_1:
+         .. rubric:: The Four Methods to Call a Macro
+            :name: the-four-methods-to-call-a-macro
 
-Example
-^^^^^^^
+         .. rubric:: The Macro Roll Option
+            :name: the-macro-roll-option
 
-Lets rewrite the above example using a UDF.
+         This is the most straight forward way to call a macro. When
+         using the roll option
+         `[macro():] </rptools/wiki/macro_(roll_option)>`__, you must
+         specify the location of the macro being called and give a
+         single argument. Note that this argument must always be
+         specified, even if you do not need it. In such cases, it is
+         common practice is to use an empty string "".
 
-.. raw:: mediawiki
+         This argument can be accessed inside the called macro via the
+         special variable called
+         `macro.args </rptools/wiki/macro.args>`__.
 
-   {{code|onCampaignLoad}}
+         All of the called macro's output will be inserted into the
+         calling macro at the point in the code where the
+         `[macro():] </rptools/wiki/macro_(roll_option)>`__ roll option
+         is placed. This output usually goes into the chat output.
+         However, you can choose to instead assign the returned value to
+         the variable `macro.return </rptools/wiki/macro.return>`__.
 
-on a token :
+         Once the called macro is processed, the
+         `macro.return </rptools/wiki/macro.return>`__ variable can be
+         used in the calling macro in a function call.
 
-.. code:: mtmacro
-   :number-lines:
+         .. rubric:: Example
+            :name: example
 
-   [defineFunction("attackRoll", "attackRoll@Lib:Token")]
-    
+         Lets say you have a macro called ``attackRoll`` that can roll
+         any number of dice. In another macro, you want to call
+         ``attackRoll``, have it roll three dice and then use the result
+         of that roll.
 
-Calling macro:
+         Calling macro:
 
-.. code:: mtmacro
-   :number-lines:
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-   Attack roll: [r: attackRoll(3)]
+            .. container:: mtmacro source-mtmacro
 
-Called macro (named and placed on token ):
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                      [h, macro("attackRoll@Lib:Token"): 3]    
 
-   [h: assert(argCount()>0, "attackRoll() expects one argument.")]
-   [h: diceNr = arg(0)]
-   [r: roll(diceNr, 6)]
+               #. .. code:: de1
 
-.. _create_udfs_automatically:
+                     Attack roll: [r: macro.return]
 
-Create UDFs Automatically
-^^^^^^^^^^^^^^^^^^^^^^^^^
+         Called macro (named ``attackRoll`` and placed on token
+         ``Lib:Token``):
 
-You can write a macro that scans your `Lib:token <Library_Token>`__
-macros and converts them all into user defined functions. This is a
-nice, convenient little trick that's done here (`see forum
-post <http://forums.rptools.net/viewtopic.php?f=20&t=19856#p209019m>`__),
-in really elaborated way, by aliasmask.
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-.. _macro_links:
+            .. container:: mtmacro source-mtmacro
 
-Macro Links
-~~~~~~~~~~~
+               #. .. code:: de1
 
-When you want to call macros on user reaction, you can send out
-clickable links to chat or place them into frames. Also use them if you
-want to work with HTML forms or the fancier form-based events.
+                      [h: diceNr = macro.args]
 
-Since the macro is not executed immediately, there is a way to use the
-macro's result in the calling macro. Arguments, the token in context and
-where the output should be sent can all be specified precisely when you
-create the macro link.
+               #. .. code:: de1
 
-See also , .
+                     [r: roll(diceNr, 6)]
 
-.. _example_2:
+         Note that you could write the called macro this way, too:
 
-Example
-^^^^^^^
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-This time, let us assume we want to send an attack roll to chat and then
-ask for a defense roll. We also want to send the Macro Link to everybody
-connected (because that is much easier) and don't care about the current
-token in context.
+            .. container:: mtmacro source-mtmacro
 
-Calling macro:
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                      [h: diceNr = macro.args]
 
-   [h: atk = roll(3,6)]
-   Attack roll: [r: atk]<br>
-   [r: macroLink("Do you want to defend?", "defenceRoll@Lib:Token", "all", atk)]
+               #. .. code:: de1
 
-Called macro (named and placed on token ): *Note that this macro will be
-executed whenever the link is clicked.*
+                     [h: macro.return = roll(diceNr, 6)]
 
-.. code:: mtmacro
-   :number-lines:
+         For this simple example, it really makes no difference.
 
-   [h: atk = macro.args]
-   [h: def = roll(3,6)]
+         .. rubric:: User Defined Function
+            :name: user-defined-function
 
-   Defence roll: [r: def] [r, if(atk<def): "You defended successfully!"; "You are hit."]
+         Often referred to as UDF in the forum, User Defined Functions
+         are probably the most convenient way to do complex coding. A
+         User Defined Function can be used just like a regular function.
+         It can have arguments and it will be replaced by its resulting
+         value when MapTool parses the calling macro. *User defined*
+         means that you can specify the macro to be called when you
+         create the function.
 
-.. _evaluate_a_macro:
+         Arguments are assigned to the UDF by writing them inside the
+         parentheses (), separated by comas. The macro's complete chat
+         output will be used as the resulting value and replace the
+         function call, so you can easily assign it to a variableor use
+         it as an argument for another function. It is important to note
+         that HTML comments will be included in this output as well,
+         even though they will not appear in the chat window. Also note
+         that only the first macro in an execution chain will dump its
+         output to chat.
 
-Evaluate a Macro
-~~~~~~~~~~~~~~~~
+         In the called macro, the arguments are inside the
+         `macro.args </rptools/wiki/macro.args>`__ variable, formatted
+         as a JSON array. You can use
+         `argCount() </rptools/wiki/argCount>`__ and
+         `arg() </rptools/wiki/arg>`__ for easy access.
 
-This does not directly call a macro stored somewhere, but rather
-evaluates some string you feed into the function as if it were macro
-code. This happens in place. It is not easy to retrieve the macro code
-from a stored macro, thus this is not a good way to call a macro stored
-in the usual way. This is most often used for small code snippets
-created dynamically or stored on token properties.
+         To set up a UDF you have to call
+         `defineFunction() </rptools/wiki/defineFunction>`__ on every
+         client where the function will be used. This can be done
+         automatically by placing all the
+         `defineFunction() </rptools/wiki/defineFunction>`__ calls
+         inside the special macro
+         `onCampaignLoad </rptools/wiki/onCampaignLoad>`__ on a library
+         token. This is the standard practice. It is executed whenever
+         the campaign file is loaded by MT (whether from a server or
+         from file).
 
-See also , , , . Here, and do exactly the same thing; they are just two
-different names with the same functionality.
+         .. rubric:: Example
+            :name: example-1
 
-.. _example_3:
+         Lets rewrite the above example using a UDF.
 
-Example
-^^^^^^^
+         ``onCampaignLoad`` on a token ``Lib:Token``:
 
-Lets say a RPG has a complex weapon damage system with formulas that
-follow no rule. The formula for the active would be stored in a token
-property called .
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-.. code:: mtmacro
-   :number-lines:
+            .. container:: mtmacro source-mtmacro
 
-   [h: myFormula = getProperty("damageFormula")]
-   You made [r: evalMacro(myFormula)] damage.
+               #. .. code:: de1
 
-Content of the property:
+                     [defineFunction("attackRoll", "attackRoll@Lib:Token")]
 
-.. code:: mtmacro
-   :number-lines:
+         | 
+         | Calling macro:
 
-   [h: "<!-- roll 1d3, weapon makes 3d6 dmg on 1 or 2 , 2d10 on a 3 -->"]
-   [h: firstRoll = 1d3]
-   [r, if(firstRoll==3): 2d10; 3d6]
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-*Yeah, such a damage system would be horrible.*
+            .. container:: mtmacro source-mtmacro
 
-| One notable difference between and is how you pass a parameter:
-| For example -- the call ...
+               #. .. code:: de1
 
-.. code:: mtmacro
-   :number-lines:
+                     Attack roll: [r: attackRoll(3)]
 
-   [r:myFunction()]
+         Called macro (named ``attackRoll`` and placed on token
+         ``Lib:Token``):
 
-... can also be called as follows with the two methods:
+         .. container:: mw-geshi mw-code mw-content-ltr
 
-.. code:: mtmacro
-   :number-lines:
+            .. container:: mtmacro source-mtmacro
 
-   [r:evalMacro("[r:myFunction()]"]
+               #. .. code:: de1
 
-Which has the same result as:
+                     [h: assert(argCount()>0, "attackRoll() expects one argument.")]
 
-.. code:: mtmacro
-   :number-lines:
+               #. .. code:: de1
 
-   [r:eval("myFunction()"]
+                     [h: diceNr = arg(0)]
 
-Do you see how works with square brackets (roll options) and just the
-function text?
+               #. .. code:: de1
 
-.. _variable_context_scope:
+                     [r: roll(diceNr, 6)]
 
-Variable Context (Scope)
-------------------------
+         .. rubric:: Create UDFs Automatically
+            :name: create-udfs-automatically
 
-Usually, a new macro creates a new context (scope) for variables, thus
-locally defined variables in one macro are not defined in another.
+         You can write a macro that scans your
+         `Lib:token </rptools/wiki/Library_Token>`__ macros and converts
+         them all into user defined functions. This is a nice,
+         convenient little trick that's done here (`see forum
+         post <http://forums.rptools.net/viewtopic.php?f=20&t=19856#p209019m>`__),
+         in really elaborated way, by aliasmask.
 
-By using , you can call macros that operate in the same *variable
-context (scope)* as the calling macro -- when you want so.
+         .. rubric:: Macro Links
+            :name: macro-links
 
-The token context is usually transported along with the macro call. With
-macro links, you can specify the token context. ]
+         When you want to call macros on user reaction, you can send out
+         clickable links to chat or place them into frames. Also use
+         them if you want to work with HTML forms or the fancier
+         form-based events.
 
-`Category:Tutorial <Category:Tutorial>`__
+         Since the macro is not executed immediately, there is a way to
+         use the macro's result in the calling macro. Arguments, the
+         token in context and where the output should be sent can all be
+         specified precisely when you create the macro link.
+
+         See also `macroLink() </rptools/wiki/macroLink>`__,
+         `macroLinkText() </rptools/wiki/macroLinkText>`__.
+
+         .. rubric:: Example
+            :name: example-2
+
+         This time, let us assume we want to send an attack roll to chat
+         and then ask for a defense roll. We also want to send the Macro
+         Link to everybody connected (because that is much easier) and
+         don't care about the current token in context.
+
+         Calling macro:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: atk = roll(3,6)]
+
+               #. .. code:: de1
+
+                     Attack roll: [r: atk]<br>
+
+               #. .. code:: de1
+
+                     [r: macroLink("Do you want to defend?", "defenceRoll@Lib:Token", "all", atk)]
+
+         | 
+         | Called macro (named ``defenceRoll`` and placed on token
+           ``Lib:Token``): *Note that this macro will be executed
+           whenever the link is clicked.*
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: atk = macro.args]
+
+               #. .. code:: de1
+
+                     [h: def = roll(3,6)]
+
+               #. .. code:: de1
+
+                      
+
+               #. .. code:: de1
+
+                     Defence roll: [r: def] [r, if(atk<def): "You defended successfully!"; "You are hit."]
+
+         .. rubric:: Evaluate a Macro
+            :name: evaluate-a-macro
+
+         This does not directly call a macro stored somewhere, but
+         rather evaluates some string you feed into the function as if
+         it were macro code. This happens in place. It is not easy to
+         retrieve the macro code from a stored macro, thus this is not a
+         good way to call a macro stored in the usual way. This is most
+         often used for small code snippets created dynamically or
+         stored on token properties.
+
+         See also `evalMacro() </rptools/wiki/evalMacro>`__,
+         `execMacro() </rptools/wiki/execMacro>`__,
+         `json.evaluate() </rptools/wiki/json.evaluate>`__,
+         `eval() </rptools/wiki/eval>`__. Here, ``evalMacro`` and
+         ``execMacro`` do exactly the same thing; they are just two
+         different names with the same functionality.
+
+         .. rubric:: Example
+            :name: example-3
+
+         Lets say a RPG has a complex weapon damage system with formulas
+         that follow no rule. The formula for the active would be stored
+         in a token property called ``damageFormula``.
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: myFormula = getProperty("damageFormula")]
+
+               #. .. code:: de1
+
+                     You made [r: evalMacro(myFormula)] damage.
+
+         Content of the ``damageFormula`` property:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [h: "<!-- roll 1d3, weapon makes 3d6 dmg on 1 or 2 , 2d10 on a 3 -->"]
+
+               #. .. code:: de1
+
+                     [h: firstRoll = 1d3]
+
+               #. .. code:: de1
+
+                     [r, if(firstRoll==3): 2d10; 3d6]
+
+         *Yeah, such a damage system would be horrible.*
+
+         | One notable difference between ``eval`` and ``evalMacro`` is
+           how you pass a parameter:
+         | For example -- the call ...
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [r:myFunction()]
+
+         ... can also be called as follows with the two methods:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [r:evalMacro("[r:myFunction()]"]
+
+         Which has the same result as:
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     [r:eval("myFunction()"]
+
+         | 
+         | Do you see how ``evalMacro()`` works with square brackets
+           (roll options) and ``eval()`` just the function text?
+
+         .. rubric:: Variable Context (Scope)
+            :name: variable-context-scope
+
+         Usually, a new macro creates a new context (scope) for
+         variables, thus locally defined variables in one macro are not
+         defined in another.
+
+         By using `defineFunction() </rptools/wiki/defineFunction>`__,
+         you can call macros that operate in the same *variable context
+         (scope)* as the calling macro -- when you want so.
+
+         The token context is usually transported along with the macro
+         call. With macro links, you can specify the token context.]
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=Calling_macros&oldid=6012"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Advanced </rptools/wiki/Category:Advanced>`__
+            -  `Tutorial </rptools/wiki/Category:Tutorial>`__
+
+         --------------
+
+         `Advanced </rptools/wiki/Category:Advanced>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Tutorial </rptools/wiki/Category:Tutorial>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=Calling+macros>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/Calling_macros>`__
+            -  `Discussion </maptool/index.php?title=Talk:Calling_macros&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/Calling_macros>`__
+            -  `View
+               source </maptool/index.php?title=Calling_macros&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=Calling_macros&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/Calling_macros>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/Calling_macros>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=Calling_macros&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=Calling_macros&oldid=6012>`__
+            -  `Page
+               information </maptool/index.php?title=Calling_macros&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 8 October 2012, at 18:00.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/

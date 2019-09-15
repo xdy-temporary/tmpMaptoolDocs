@@ -1,38 +1,342 @@
+=======================
+getPCNames - MapToolDoc
+=======================
+
 .. contents::
    :depth: 3
 ..
 
-.. raw:: mediawiki
+.. container:: noprint
+   :name: mw-page-base
 
-   {{MacroFunction
-   |name=getPCNames
-   |trusted=true
-   |version=1.3b48
-   |description=Returns a list containing the names of the [[Token:PC_token|PC token]]s on the current [[Map:map|map]]. The type of the value returned depends on the delimiter parameter. 
-   * If the delimiter is not specified then a [[Macros:string_list|string list]] is returned with the default value of {{code|","}} is used.
-   * If the delimiter {{code|json}} then a [[JSON_Array|JSON Array]] is returned.
-   * Otherwise a [[Macros:string_list|string list]] is returned with the delimiter passed in.
-    
+.. container:: noprint
+   :name: mw-head-base
 
-   |usage=
-   <source lang="mtmacro" line>
-   getPCNames()
-   getPCNames(delim)
-   </source>
-   {{code|delim}} is the delimiter used to separate the values in the  [[Macros:string_list|string list]] which defaults to {{code|","}} if not specified.
+.. container:: mw-body
+   :name: content
 
-   |example=
-   To display the names of all of the [[Token:PC_token|PC token]]s on the current [[Map:map|map]] use.
-   <source lang="mtmacro" line>
-   [h: names = getPCNames()]
-   [foreach(name, names, "<br>"): name]
-   </source>
+   .. container:: mw-indicators
 
-   |changes=
-   * '''1.3b49''' - Added {{code|json}} delimiter option.
+   .. rubric:: getPCNames
+      :name: firstHeading
+      :class: firstHeading
 
-   |also=
-   {{roll|foreach}}
-   }}
+   .. container:: mw-body-content
+      :name: bodyContent
 
-`Category:Token Function <Category:Token_Function>`__
+      .. container::
+         :name: siteSub
+
+         From MapToolDoc
+
+      .. container::
+         :name: contentSub
+
+      .. container:: mw-jump
+         :name: jump-to-nav
+
+         Jump to: `navigation <#mw-head>`__, `search <#p-search>`__
+
+      .. container:: mw-content-ltr
+         :name: mw-content-text
+
+         .. container:: toc
+            :name: toc
+
+            .. container::
+               :name: toctitle
+
+               .. rubric:: Contents
+                  :name: contents
+
+            -  `1 getPCNames() Function <#getPCNames.28.29_Function>`__
+
+               -  `1.1 Usage <#Usage>`__
+               -  `1.2 Example <#Example>`__
+               -  `1.3 See Also <#See_Also>`__
+               -  `1.4 Version Changes <#Version_Changes>`__
+
+         .. rubric:: getPCNames() Function
+            :name: getpcnames-function
+
+         .. container::
+
+             Note: This function can only be used in a `Trusted
+            Macro </rptools/wiki/Trusted_Macro>`__
+
+         .. container:: template_version
+
+            • **Introduced in version 1.3b48**
+
+         .. container:: template_description
+
+            Returns a list containing the names of the `PC
+            tokens </maptool/index.php?title=Token:PC_token&action=edit&redlink=1>`__
+            on the current
+            `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__.
+            The type of the value returned depends on the delimiter
+            parameter.
+
+            -  If the delimiter is not specified then a `string
+               list </rptools/wiki/Macros:string_list>`__ is returned
+               with the default value of ``","`` is used.
+            -  If the delimiter ``json`` then a `JSON
+               Array </rptools/wiki/JSON_Array>`__ is returned.
+            -  Otherwise a `string
+               list </rptools/wiki/Macros:string_list>`__ is returned
+               with the delimiter passed in.
+
+             
+
+         .. rubric:: Usage
+            :name: usage
+
+         .. container:: mw-geshi mw-code mw-content-ltr
+
+            .. container:: mtmacro source-mtmacro
+
+               #. .. code:: de1
+
+                     getPCNames()
+
+               #. .. code:: de1
+
+                     getPCNames(delim)
+
+         ``delim`` is the delimiter used to separate the values in the
+         `string list </rptools/wiki/Macros:string_list>`__ which
+         defaults to ``","`` if not specified.
+
+         .. rubric:: Example
+            :name: example
+
+         .. container:: template_example
+
+            To display the names of all of the `PC
+            tokens </maptool/index.php?title=Token:PC_token&action=edit&redlink=1>`__
+            on the current
+            `map </maptool/index.php?title=Map:map&action=edit&redlink=1>`__
+            use.
+
+            .. container:: mw-geshi mw-code mw-content-ltr
+
+               .. container:: mtmacro source-mtmacro
+
+                  #. .. code:: de1
+
+                        [h: names = getPCNames()]
+
+                  #. .. code:: de1
+
+                        [foreach(name, names, "<br>"): name]
+
+         .. rubric:: See Also
+            :name: see-also
+
+         .. container:: template_also
+
+            `[foreach():] </rptools/wiki/foreach_(roll_option)>`__
+
+         .. rubric:: Version Changes
+            :name: version-changes
+
+         .. container:: template_changes
+
+            -  **1.3b49** - Added ``json`` delimiter option.
+
+      .. container:: printfooter
+
+         Retrieved from
+         "http://lmwcs.com/maptool/index.php?title=getPCNames&oldid=7151"
+
+      .. container:: catlinks
+         :name: catlinks
+
+         .. container:: mw-normal-catlinks
+            :name: mw-normal-catlinks
+
+            `Categories </rptools/wiki/Special:Categories>`__:
+
+            -  `Macro
+               Function </rptools/wiki/Category:Macro_Function>`__
+            -  `Token
+               Function </rptools/wiki/Category:Token_Function>`__
+
+         --------------
+
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__
+         `MapTool </rptools/wiki/Category:MapTool>`__ >
+         `Macro </rptools/wiki/Category:Macro>`__ > `Macro
+         Function </rptools/wiki/Category:Macro_Function>`__ > `Token
+         Function </rptools/wiki/Category:Token_Function>`__
+
+      .. container:: visualClear
+
+.. container::
+   :name: mw-navigation
+
+   .. rubric:: Navigation menu
+      :name: navigation-menu
+
+   .. container::
+      :name: mw-head
+
+      .. container::
+         :name: p-personal
+
+         .. rubric:: Personal tools
+            :name: p-personal-label
+
+         -  `Log
+            in </maptool/index.php?title=Special:UserLogin&returnto=getPCNames>`__
+
+      .. container::
+         :name: left-navigation
+
+         .. container:: vectorTabs
+            :name: p-namespaces
+
+            .. rubric:: Namespaces
+               :name: p-namespaces-label
+
+            -  `Page </rptools/wiki/getPCNames>`__
+            -  `Discussion </maptool/index.php?title=Talk:getPCNames&action=edit&redlink=1>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-variants
+
+            .. rubric:: Variants\ ` <#>`__
+               :name: p-variants-label
+
+            .. container:: menu
+
+      .. container::
+         :name: right-navigation
+
+         .. container:: vectorTabs
+            :name: p-views
+
+            .. rubric:: Views
+               :name: p-views-label
+
+            -  `Read </rptools/wiki/getPCNames>`__
+            -  `View
+               source </maptool/index.php?title=getPCNames&action=edit>`__
+            -  `View
+               history </maptool/index.php?title=getPCNames&action=history>`__
+
+         .. container:: vectorMenu emptyPortlet
+            :name: p-cactions
+
+            .. rubric:: More\ ` <#>`__
+               :name: p-cactions-label
+
+            .. container:: menu
+
+         .. container::
+            :name: p-search
+
+            .. rubric:: Search
+               :name: search
+
+            .. container::
+               :name: simpleSearch
+
+   .. container::
+      :name: mw-panel
+
+      .. container::
+         :name: p-logo
+
+         ` </rptools/wiki/Main_Page>`__
+
+      .. container:: portal
+         :name: p-navigation
+
+         .. rubric:: Navigation
+            :name: p-navigation-label
+
+         .. container:: body
+
+            -  `Main page </rptools/wiki/Main_Page>`__
+            -  `Random page </rptools/wiki/Special:Random>`__
+            -  `Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>`__
+
+      .. container:: portal
+         :name: p-Basic_Usage
+
+         .. rubric:: Basic Usage
+            :name: p-Basic_Usage-label
+
+         .. container:: body
+
+            -  `Tutorials </rptools/wiki/Category:Tutorial>`__
+            -  `Chat Commands </rptools/wiki/Chat_Commands>`__
+            -  `Dice Expressions </rptools/wiki/Dice_Expressions>`__
+            -  `Glossary </rptools/wiki/Glossary>`__
+
+      .. container:: portal
+         :name: p-Macro_Reference
+
+         .. rubric:: Macro Reference
+            :name: p-Macro_Reference-label
+
+         .. container:: body
+
+            -  `List of
+               Functions </rptools/wiki/Category:Macro_Function>`__
+            -  `Roll Options </rptools/wiki/Category:Roll_Option>`__
+            -  `Special
+               Variables </rptools/wiki/Category:Special_Variable>`__
+            -  `Macro Cookbook </rptools/wiki/Category:Cookbook>`__
+
+      .. container:: portal
+         :name: p-Editors
+
+         .. rubric:: Editors
+            :name: p-Editors-label
+
+         .. container:: body
+
+            -  `Editor Discussion </rptools/wiki/Editor>`__
+            -  `Recent Changes </rptools/wiki/Special:RecentChanges>`__
+
+      .. container:: portal
+         :name: p-tb
+
+         .. rubric:: Tools
+            :name: p-tb-label
+
+         .. container:: body
+
+            -  `What links
+               here </rptools/wiki/Special:WhatLinksHere/getPCNames>`__
+            -  `Related
+               changes </rptools/wiki/Special:RecentChangesLinked/getPCNames>`__
+            -  `Special pages </rptools/wiki/Special:SpecialPages>`__
+            -  `Printable
+               version </maptool/index.php?title=getPCNames&printable=yes>`__
+            -  `Permanent
+               link </maptool/index.php?title=getPCNames&oldid=7151>`__
+            -  `Page
+               information </maptool/index.php?title=getPCNames&action=info>`__
+
+.. container::
+   :name: footer
+
+   -  This page was last modified on 2 March 2019, at 23:27.
+
+   -  `Privacy policy </rptools/wiki/MapToolDoc:Privacy_policy>`__
+   -  `About MapToolDoc </rptools/wiki/MapToolDoc:About>`__
+   -  `Disclaimers </rptools/wiki/MapToolDoc:General_disclaimer>`__
+
+   -  |Powered by MediaWiki|
+
+   .. container::
+
+.. |Powered by MediaWiki| image:: /maptool/resources/assets/poweredby_mediawiki_88x31.png
+   :width: 88px
+   :height: 31px
+   :target: //www.mediawiki.org/
