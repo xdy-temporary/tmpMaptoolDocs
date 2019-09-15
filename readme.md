@@ -215,11 +215,11 @@ for i in */*.html; do echo $i; pandoc -s --toc -f html -t rst $i -o $i.rst; done
 #***** Rename resulting files
 for f in *.html.rst; do mv -- "$f" "${f%.html.rst}.rst"; done
 
-#***** Move them to docs
-mv *.rst ../docs
-
 #***** Converted code blocks don't work, quick sed hack to fix
 sed -i 's|#. .. code:: de1|#. .. code-block:: none|g' *.rst
+
+#***** Move the result to docs
+mv *.rst ../docs
 
 #***** Add all files to git
 git add .
