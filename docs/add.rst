@@ -4,7 +4,6 @@
 
 .. raw:: mediawiki
 
-   {{MacroFunction
    |name=add
    |trusted=false
    |version=1.3.b48
@@ -38,7 +37,6 @@
    </source>
    Returns:<source lang="mtmacro" line start=2>"14"</source>
 
-   }}
 
 `Category:Mathematical Function <Category:Mathematical_Function>`__
 `Category:String Function <Category:String_Function>`__
