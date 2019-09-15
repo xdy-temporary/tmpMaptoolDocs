@@ -1,0 +1,203 @@
+.. contents::
+   :depth: 3
+..
+
+.. raw:: mediawiki
+
+   {{MacroFunction
+   |name=strformat
+   |version=1.3b48
+   |description=
+   Returns a string formatted based on the escape sequences in the passed string and optional arguments.
+
+   The format string can contain special instructions that are introduced with the {{code|%}} symbol. There are two different approaches to using {{code|strformat}}.
+
+   (This function is directly implemented by Java.  You can find more details on the syntax of the format [http://docs.oracle.com/javase/6/docs/api/java/util/Formatter.html#syntax here].  In particular, that page documents the '''argument_index''' modifier which isn't specified here, and MapTool numbers are converted to {{code|BigInteger}}'s when formatting integers and {{code|BigDecimal}}'s when formatting floating point values.)
+
+   ====Simple words====
+   Simply said this means that it facilitates creating a string (sentences) which consists out of variables or even string operations. Its especially useful if you want to store the string first into a variable. 
+   The most common method is concatenation:
+
+   <source lang="mtmacro" line>
+     [h:target = "Orc"]
+     [h:tok = token.name]
+     [h:hit = 2d6]
+     [h:output = tok + "hits the " + target + " for: " + hit + "wounds."]
+     [r:output]
+   </source>
+   Using {{code|strformat}} this becomes (just replacing line 4):
+
+   <source lang="mtmacro">
+     [h:output = strformat("%{tok} hits the %{target} for: %{hit} wounds.")]
+   </source>
+   Or the other method if you do not wish to create variables first:
+   <source lang="mtmacro" line>
+     [h:target = "Orc"]
+     [h:output = strformat("%s hits the %{target} for: %d wounds.", token.name, 2d6)]
+   </source>
+   So why would you use this over the concatenation method? Four reasons:
+   # its cleaner (easier to read),
+   # its faster (though barely noticeable),
+   # you can embed the whole operation inside a function call and
+   # it has lots and lots of formatting options.
+   ====Formatting by Data Type====
+
+   The most general use of {{code|strformat}} is to pass a format string first, followed by a list of parameters. Each parameter is matched against the corresponding marker in the format string. Any characters in the format string that are not markers are treated as literal text to be output.
+
+     %(+0x
+
+   The first character is the percent sign ({{code|%}}). This denotes a format marker. All text up to the next alphabetic character is part of the marker. In the string above (the {{code|%(+0x}}), each character represents one type of option.
+
+   {{{!}} border="1"
+   ! Option Representation
+   ! Applies to...
+   ! Literal Values
+   {{!}}-
+   {{!}} valign="top" align="center" {{!}} '''%'''
+   {{!}} valign="top" {{!}} All
+   {{!}} {{code|%}} identifies the beginning of a format marker.
+   {{!}}-
+   {{!}} valign="top" align="center" {{!}} '''('''
+   {{!}} valign="top" {{!}} Numeric
+   {{!}} {{code|(}} will cause the numeric value to be enclosed in parentheses if it's negative.
+   {{!}}-
+   {{!}} valign="top" align="center" rowspan="2" {{!}} '''+'''
+   {{!}} valign="top" {{!}} Numeric
+   {{!}} {{code|+}} indicates that all numeric values, positive or negative, will have a preceding sign.
+   {{!}}-
+   {{!}} valign="top" {{!}} All
+   {{!}} {{code|-}} indicates that the value to be formatted should be left-justified within the specified field.
+   {{!}}-
+   {{!}} valign="top" align="center" rowspan="2" {{!}} '''0'''
+   {{!}} valign="top" {{!}} String
+   {{!}} ''digits'' indicates the field width for this format marker. This field may contain a decimal point and additional digits to signify the maximum number of characters from the parameter that will be used.
+   {{!}}-
+   {{!}} valign="top" {{!}} Numeric
+   {{!}} ''digits'' indicates the field width for this format marker. If ''digits'' starts with a literal '''0''' (zero), the numeric value being formatted will be zero-filled within the field instead of space-filled. If the format type is floating point, this field may contain a decimal point and additional digits to signify the number of digits after the decimal in the output.
+   {{!}}-
+   {{!}} valign="top" align="center" {{!}} '''x'''
+   {{!}} valign="top" {{!}} All
+   {{!}} ''type'' is one of the alphabetic characters from the table below. The ''type'' identifies the basic characteristics of how the corresponding parameter will be displayed.
+   {{!}}}
+
+   ====Format Types (conversion characters)====
+
+   The following format types are supported (lower case format arguments perform the same conversion as the lowercase letters but return the result in uppercase).
+
+   {{{!}} border="1"
+   ! Format Type
+   ! Data Type
+   ! Description
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%h, %H, %x, %X'''
+   {{!}} Integer
+   {{!}} Inserts the hexadecimal representation.
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%s, %S'''
+   {{!}} String
+   {{!}} Inserts the string representation.
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%d'''
+   {{!}} Integer
+   {{!}} Inserts the decimal representation.
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%e, %E'''
+   {{!}} Numeric
+   {{!}} Inserts the floating point value in scientific notation.
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%f'''
+   {{!}} Numeric
+   {{!}} Inserts the floating point value in fixed-point notation.
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%g, %G'''
+   {{!}} Numeric
+   {{!}} Inserts the floating point value in computerized scientific notion or fixed-point format.
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%a, %A'''
+   {{!}} Numeric
+   {{!}} Inserts the floating point value as a hexadecimal floating-point number with a significand and an exponent.
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%%'''
+   {{!}} -
+   {{!}} Inserts a literal percent symbol.
+   {{!}}-
+   {{!}} valign="top" {{!}} '''%n'''
+   {{!}} -
+   {{!}} Inserts a newline.
+   {{!}}}
+
+   ====Formatting by Embedding Variables====
+
+   This type of formatting does not control how the contents of a variable are displayed except that those contents are put into the output at a specific point in the data.
+
+   In this style, a single {{code|%}} is followed by a set of braces {{code|"{"}} and {{code|"}"}} with a variable name inside them.
+
+   This technique can be mixed with the usage of {{code|strformat}} as shown above.
+
+   |usage=
+   <source lang="mtmacro" line>
+   strformat(string)
+   </source>
+   <source lang="mtmacro" line>
+   strformat(string, arg, ...)
+   </source>
+
+   |examples=
+   <source lang="mtmacro" line>
+       [h: weaponName = "Long Sword"]
+       [h: maxDam = 8]
+       [r: strformat("Weapon Name=%{weaponName}; Max Damage=%{maxDam}")]
+   </source>
+   Returns:
+    Weapon Name=Long Sword; Max Damage=8
+
+
+   <source lang="mtmacro" line>
+       [h: weaponName = "Long Sword"]
+       [h: maxDam = 8]
+       [r: strformat("Weapon Name=%s; Max Damage=%d", weaponName, maxDam)]
+   </source>
+   Returns the same result as the previous:
+    Weapon Name=Long Sword; Max Damage=8
+
+
+   <source lang="mtmacro" line>
+       [h: weaponName = "Long Sword"]
+       [h: maxDam = 8]
+       [r: strformat("Weapon Name='%12s'; Max Damage=%04d", weaponName, maxDam)]
+   </source>
+   Returns the same data but formatted. Note how there are two additional spaces in front of the weapon name this time?  That's because the field width was specified as {{code|12}} in the format marker so the function generated 2 spaces and then the 10 characters from the variable. Also note that {{code|04}} caused the damage field to be 4 digits filled with leading zeroes. Take out the {{code|0}} from {{code|04}} and the output would still include 4 characters, but it would've been space-filled instead of zero-filled.
+    Weapon Name='  Long Sword'; Max Damage=0008
+
+
+   <source lang="mtmacro" line>
+       [h: weaponName = "Long Sword"]
+       [h: maxDam = 8]
+       [h: style="background-color: yellow" ]
+       [r: strformat("<table><tr style='%{style}'><td>%{weaponName}</td></tr><tr><td>%.0f</td></tr></table>",
+              maxDam*1.5)]
+   </source>
+   Combining the two techniques is often convenient as show here. Note that {{code|maxDam}} is multiplied by 1½ and this could result in a fractional component. Such floating point values '''must''' be displayed using one of the floating point format types. (Otherwise the error will be {{code|f !{{=}} java.lang.BigInteger}}
+
+because an integer was provided where a float was expected and it's
+telling you that the type doesn't apply to integers. A similar message
+is displayed if you try to display a floating point value as a decimal.)
+
+.. code:: mtmacro
+   :number-lines:
+
+       [strformat("%f", -10.502)] [strformat("%g", -10.502)]
+       [strformat("%+e", -10.502)] [strformat("%5.1f", -10.502)]
+       [strformat("%(5.1f", -10.502)]
+
+Returns:
+
+| ``   -10.502000 ``
+| ``   -10.5020 ``
+| ``    -1.050200e+01 ``
+| ``   -10.5 ``
+| ``   (10.5)``
+
+}}
+
+`Category:String Function <Category:String_Function>`__
