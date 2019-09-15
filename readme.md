@@ -229,12 +229,8 @@ git commit -m "Another version..."
 #***** And push
 git push
 
-#Wait for the build at readthedocs
+#***** Wait for the build at readthedocs
 
-
-#***** TODO Fix the index
-#***** TODO Decide what pages to skip
-#***** TODO Include images
-#***** TODO Decide how to handle i18n pages
-#***** TODO Probably more...
+#***** There are plenty of remaining problems. Some of them even known. :)
+#***** See the issues for details.
 ```
