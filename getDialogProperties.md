@@ -1,1 +1,0 @@
-[Category:Dialog Function](Category:Dialog_Function "wikilink")

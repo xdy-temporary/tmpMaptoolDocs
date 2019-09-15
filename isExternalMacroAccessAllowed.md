@@ -1,1 +1,0 @@
-[Category:Permission Function](Category:Permission_Function "wikilink")

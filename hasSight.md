@@ -1,1 +1,0 @@
-[Category:Sight Function](Category:Sight_Function "wikilink")

@@ -1,1 +1,0 @@
-1.  REDIRECT [getOwnerOnlyVisible](getOwnerOnlyVisible "wikilink")

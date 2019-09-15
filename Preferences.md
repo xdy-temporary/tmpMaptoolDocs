@@ -1,1 +1,0 @@
-1.  REDIRECT [MapTool Preferences](MapTool_Preferences "wikilink")

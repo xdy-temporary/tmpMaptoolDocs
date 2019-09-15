@@ -1,1 +1,0 @@
-[Category:Log Function](Category:Log_Function "wikilink")

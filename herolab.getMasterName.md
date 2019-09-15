@@ -1,1 +1,0 @@
-[Category:Hero Lab Function](Category:Hero_Lab_Function "wikilink")

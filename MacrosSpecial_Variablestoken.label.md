@@ -1,1 +1,0 @@
-1.  REDIRECT [token.label](token.label "wikilink")

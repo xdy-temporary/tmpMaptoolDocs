@@ -1,1 +1,0 @@
-[Category:Speech Function](Category:Speech_Function "wikilink")

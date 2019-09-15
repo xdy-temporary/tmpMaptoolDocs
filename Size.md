@@ -1,1 +1,0 @@
-See [Token Size](Token_Size "wikilink").

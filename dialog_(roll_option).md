@@ -1,1 +1,0 @@
-[Category:Display Roll Option](Category:Display_Roll_Option "wikilink")

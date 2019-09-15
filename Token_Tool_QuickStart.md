@@ -1,1 +1,0 @@
-See [TokenTool_QuickStart](TokenTool_QuickStart "wikilink")

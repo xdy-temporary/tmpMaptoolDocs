@@ -1,1 +1,0 @@
-[Category:Metamacro Function](Category:Metamacro_Function "wikilink")

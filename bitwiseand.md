@@ -1,1 +1,0 @@
-[Category:Logical Function](Category:Logical_Function "wikilink")

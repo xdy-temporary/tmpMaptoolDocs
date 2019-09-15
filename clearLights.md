@@ -1,1 +1,0 @@
-[Category: Light Function](Category:_Light_Function "wikilink")

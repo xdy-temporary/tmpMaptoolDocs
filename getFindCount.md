@@ -1,1 +1,0 @@
-[Category:String Function](Category:String_Function "wikilink")

@@ -1,1 +1,0 @@
-1.  REDIRECT [token.visible](token.visible "wikilink")

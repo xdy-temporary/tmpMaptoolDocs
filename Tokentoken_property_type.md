@@ -1,1 +1,0 @@
-1.  REDIRECT [Token Property Type](Token_Property_Type "wikilink")

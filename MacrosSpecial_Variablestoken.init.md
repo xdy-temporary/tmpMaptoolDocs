@@ -1,1 +1,0 @@
-1.  REDIRECT [token.init](token.init "wikilink")

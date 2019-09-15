@@ -1,1 +1,0 @@
-1.  REDIRECT [macro.args](macro.args "wikilink")
